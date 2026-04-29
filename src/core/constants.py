@@ -84,6 +84,12 @@ SIMILARITY_THRESHOLD = 0.4
 USE_RERANKING = True
 USE_MMR = True
 # ============================================================================
+# Ollama/llama.cpp Configuration
+# ============================================================================
+OLLAMA_API_URL = "http://localhost:11434"
+LLAMA_CPP_LIBRARY_PATH = "/path/to/llama.cpp"
+
+# ============================================================================
 # LLM Configuration
 # ============================================================================
 LLM_MODEL_NAME = "mistral-7b-instruct-q4"
@@ -111,6 +117,12 @@ LOG_FORMAT = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 API_HOST = "0.0.0.0"
 API_PORT = 8000
 API_DEBUG = True
+
+# ============================================================================
+# Cache Configuration
+# ============================================================================
+CACHE_EMBEDDINGS = True
+CACHE_VECTOR_STORE = True
 
 
 def create_directories():
