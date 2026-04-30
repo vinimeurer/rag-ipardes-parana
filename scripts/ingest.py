@@ -11,8 +11,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.core.logger import setup_logger, get_timestamped_logfile
 from src.core.constants import create_directories, PDF_SOURCES
-from src.ingestion import PDFExtractor
-from src.ingestion.pdf_extractor import validate_extraction
+from src.ingestion.pdf_extractor import PDFExtractor, validate_extraction
 
 logger = setup_logger(__name__, log_file=get_timestamped_logfile("ingest"))
 
