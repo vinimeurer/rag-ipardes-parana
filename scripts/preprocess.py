@@ -44,7 +44,7 @@ def main():
     result = pipeline.process(input_files)
     
     # Salvar resultados
-    output_file, reports_file = pipeline.save_processed(result, base_name="all_documents")
+    output_file = pipeline.save_processed(result, base_name="all_documents")
     
     # Imprimir sumário
     stats = result["statistics"]

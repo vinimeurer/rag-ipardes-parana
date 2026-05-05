@@ -124,14 +124,7 @@ class PreprocessingPipeline:
         
         print(f"\nDados processados salvos em: {output_file}")
         
-        # Salvar relatórios em arquivo separado
-        reports_file = self.output_dir / f"reports_{timestamp}.json"
-        with open(reports_file, "w", encoding="utf-8") as f:
-            json.dump(result["reports"], f, ensure_ascii=False, indent=2)
-        
-        print(f"Relatórios salvos em: {reports_file}")
-        
-        return output_file, reports_file
+        return output_file
     
     def _compute_statistics(self, pages: list[dict]) -> dict:
         """Computa estatísticas sobre os dados processados."""
@@ -146,7 +139,7 @@ class PreprocessingPipeline:
             "total_characters": total_chars,
             "avg_characters_per_page": round(avg_chars_per_page, 2),
             "documents": list(docs),
-            "sections_found": list(sections),
+            "sections_found": sorted(list(sections)),
             "num_documents": len(docs),
             "num_sections": len(sections),
         }
