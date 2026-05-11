@@ -1,166 +1,229 @@
-# src/ingestion/pdf_extractor.py
+"""
+Extração de conteúdo de PDFs usando Docling (IBM).
 
-from __future__ import annotations
-
-import json
-from datetime import datetime
+Responsável por converter PDFs em representações estruturadas
+(texto, markdown, JSON) preservando metadados de página, seção
+e tabelas — tratadas como elementos de primeira classe.
+"""
+from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any
+from typing import Optional
 
-import pdfplumber
+from docling.datamodel.base_models import InputFormat
+from docling.datamodel.document import DoclingDocument
+from docling.datamodel.pipeline_options import PdfPipelineOptions
+from docling.document_converter import DocumentConverter, PdfFormatOption
 
-from src.core.constants import (
-    EXTRACTED_DATA_DIR,
-    PDF_SOURCES,
-)
-from src.ingestion.table_extractor import (
-    PDFTableExtractor,
-)
-from src.ingestion.text_extractor import (
-    PDFTextExtractor,
-)
+from .table_extractor import ExtractedTable, TableExtractionResult, TableExtractor
+from ..core.ingestion_config import IngestionPipelineConfig
+from ..core.logger import setup_logger
 
 
-class PDFLayoutExtractor:
+logger = setup_logger(__name__)
+
+
+@dataclass
+class ExtractedPage:
+    """Representa o conteúdo textual extraído de uma única página."""
+
+    page_number: int
+    text: str
+    markdown: str
+
+
+@dataclass
+class ExtractionResult:
+    """Resultado completo da extração de um PDF."""
+
+    pdf_key: str
+    pdf_path: Path
+    pages: list[ExtractedPage] = field(default_factory=list)
+    tables: list[ExtractedTable] = field(default_factory=list)
+    full_text: str = ""
+    full_markdown: str = ""
+    metadata: dict = field(default_factory=dict)
+    success: bool = False
+    error: Optional[str] = None
+
+    @property
+    def has_tables(self) -> bool:
+        """Indica se tabelas foram encontradas no documento."""
+        return len(self.tables) > 0
+
+
+class DoclingPDFExtractor:
     """
-    Pipeline principal de extração estrutural.
+    Extrator de PDFs usando Docling com pipeline CPU-only.
+
+    Converte PDFs em texto estruturado, markdown e JSON,
+    sem requerer GPU ou serviços externos. Tabelas são extraídas
+    como estruturas independentes pelo TableExtractor, preservando
+    sua semântica matricial para uso diferenciado no pipeline RAG.
     """
 
-    def __init__(self) -> None:
-        self.text_extractor = PDFTextExtractor()
-        self.table_extractor = PDFTableExtractor()
+    def __init__(self, config: IngestionPipelineConfig):
+        """
+        Inicializa o extrator com a configuração do pipeline.
 
-    def extract_single_pdf(
-        self,
-        pdf_key: str,
-        pdf_path: Path,
-    ) -> dict[str, Any]:
+        Args:
+            config: Configuração completa do pipeline de ingestão.
+        """
+        self.config = config
+        self._converter = self._build_converter()
+        self._table_extractor = TableExtractor()
 
-        pages_data = []
+    def _build_converter(self) -> DocumentConverter:
+        """
+        Constrói o DocumentConverter do Docling com opções CPU-only.
 
-        with pdfplumber.open(pdf_path) as pdf:
+        A extração de estrutura de tabelas (do_table_structure) é sempre
+        habilitada quando configurada, pois é necessária para o
+        TableExtractor produzir grades bem formadas.
 
-            total_pages = len(pdf.pages)
-
-            for page_number, page in enumerate(
-                pdf.pages,
-                start=1,
-            ):
-
-                blocks = (
-                    self.text_extractor.extract_text_blocks(
-                        page
-                    )
-                )
-
-                text = "\n".join(
-                    block["text"]
-                    for block in blocks
-                )
-
-                tables = (
-                    self.table_extractor.extract_tables(
-                        page
-                    )
-                )
-
-                pages_data.append(
-                    {
-                        "document": pdf_key,
-                        "page": page_number,
-                        "content": text,
-                        "blocks": blocks,
-                        "tables": tables,
-                        "has_tables": len(tables) > 0,
-                        "extracted_at": (
-                            datetime.utcnow().isoformat()
-                        ),
-                    }
-                )
-
-        result = {
-            "success": True,
-            "pdf_key": pdf_key,
-            "pages_extracted": len(pages_data),
-            "total_pages": total_pages,
-            "data": pages_data,
-        }
-
-        output_path = (
-            EXTRACTED_DATA_DIR / f"{pdf_key}.json"
+        Returns:
+            Instância configurada do DocumentConverter.
+        """
+        pipeline_options = PdfPipelineOptions(
+            do_ocr=self.config.backend.do_ocr,
+            do_table_structure=self.config.backend.do_table_structure,
+            generate_page_images=self.config.backend.generate_page_images,
         )
 
-        with open(
-            output_path,
-            "w",
-            encoding="utf-8",
-        ) as fp:
-            json.dump(
-                result,
-                fp,
-                ensure_ascii=False,
-                indent=2,
+        return DocumentConverter(
+            format_options={
+                InputFormat.PDF: PdfFormatOption(pipeline_options=pipeline_options)
+            }
+        )
+
+    def extract(self, pdf_key: str) -> ExtractionResult:
+        """
+        Extrai conteúdo completo de um PDF identificado pela sua chave.
+
+        Executa em sequência:
+        1. Conversão Docling -> DoclingDocument
+        2. Exportação de texto e markdown completos
+        3. Extração de conteúdo por página (somente texto, sem tabelas)
+        4. Extração dedicada de tabelas via TableExtractor
+
+        Args:
+            pdf_key: Chave do PDF em PDF_SOURCES da configuração.
+
+        Returns:
+            ExtractionResult com conteúdo extraído, tabelas e metadados,
+            ou resultado com success=False em caso de erro.
+        """
+        source_info = self.config.pdf_sources.get(pdf_key)
+        if not source_info:
+            return ExtractionResult(
+                pdf_key=pdf_key,
+                pdf_path=Path(),
+                success=False,
+                error=f"Chave '{pdf_key}' não encontrada em PDF_SOURCES.",
             )
 
-        return result
+        pdf_path: Path = source_info["local_path"]
 
-    def extract_all_pdfs(self) -> dict[str, Any]:
+        if not pdf_path.exists():
+            return ExtractionResult(
+                pdf_key=pdf_key,
+                pdf_path=pdf_path,
+                success=False,
+                error=f"Arquivo não encontrado: {pdf_path}",
+            )
+
+        logger.info("Iniciando extração de '%s' (%s)", pdf_key, pdf_path.name)
+
+        try:
+            conversion = self._converter.convert(str(pdf_path))
+            docling_doc: DoclingDocument = conversion.document
+
+            full_markdown = docling_doc.export_to_markdown()
+            full_text = docling_doc.export_to_text()
+
+            pages = self._extract_pages(docling_doc)
+            table_result: TableExtractionResult = self._table_extractor.extract(
+                pdf_key, docling_doc
+            )
+
+            metadata = {
+                "pdf_key": pdf_key,
+                "source_path": str(pdf_path),
+                "description": source_info.get("description", ""),
+                "total_pages": len(pages),
+                "total_tables": table_result.total_extracted,
+                "tables_found": table_result.total_found,
+                "docling_schema_version": "2",
+            }
+
+            logger.info(
+                "Extração concluída para '%s': %d páginas, %d tabelas.",
+                pdf_key,
+                len(pages),
+                table_result.total_extracted,
+            )
+
+            return ExtractionResult(
+                pdf_key=pdf_key,
+                pdf_path=pdf_path,
+                pages=pages,
+                tables=table_result.tables,
+                full_text=full_text,
+                full_markdown=full_markdown,
+                metadata=metadata,
+                success=True,
+            )
+
+        except Exception as exc:
+            logger.error("Erro ao extrair '%s': %s", pdf_key, exc, exc_info=True)
+            return ExtractionResult(
+                pdf_key=pdf_key,
+                pdf_path=pdf_path,
+                success=False,
+                error=str(exc),
+            )
+
+    def _extract_pages(self, docling_doc: DoclingDocument) -> list[ExtractedPage]:
         """
-        Executa extração em todos PDFs.
+        Extrai conteúdo textual por página, excluindo células de tabela.
+
+        Tabelas são intencionalmente ignoradas aqui pois têm tratamento
+        dedicado via TableExtractor. Isso evita que o conteúdo tabular
+        seja duplicado no texto corrido das páginas.
+
+        Args:
+            docling_doc: Documento convertido pelo Docling.
+
+        Returns:
+            Lista de ExtractedPage com texto por página, sem tabelas.
         """
+        from docling_core.types.doc import TableItem as _TableItem
 
-        results = {}
+        pages: list[ExtractedPage] = []
 
-        for pdf_key, pdf_info in PDF_SOURCES.items():
+        if not (hasattr(docling_doc, "pages") and docling_doc.pages):
+            full_text = docling_doc.export_to_text()
+            return [ExtractedPage(page_number=1, text=full_text, markdown=full_text)]
 
-            pdf_path = pdf_info["local_path"]
+        for page_no in sorted(docling_doc.pages.keys()):
+            page_texts: list[str] = []
 
-            try:
-                result = self.extract_single_pdf(
-                    pdf_key=pdf_key,
-                    pdf_path=pdf_path,
+            for item, _level in docling_doc.iterate_items():
+                if isinstance(item, _TableItem):
+                    continue
+                if not (hasattr(item, "prov") and item.prov):
+                    continue
+                if not any(p.page_no == page_no for p in item.prov):
+                    continue
+                if hasattr(item, "text") and item.text:
+                    page_texts.append(item.text.strip())
+
+            page_text = "\n".join(t for t in page_texts if t)
+            pages.append(
+                ExtractedPage(
+                    page_number=page_no,
+                    text=page_text,
+                    markdown=page_text,
                 )
-
-                results[pdf_key] = result
-
-            except Exception as exc:
-
-                print(exc)
-
-                results[pdf_key] = {
-                    "success": False,
-                    "error": str(exc),
-                }
-
-        return results
-
-
-def validate_extraction(
-    results: dict[str, Any],
-) -> dict[str, Any]:
-    """
-    Valida resultados da extração.
-    """
-
-    stats = {
-        "total_pdfs": len(results),
-        "successful": 0,
-        "failed": 0,
-        "total_pages": 0,
-    }
-
-    for result in results.values():
-
-        if result.get("success"):
-
-            stats["successful"] += 1
-
-            stats["total_pages"] += result.get(
-                "pages_extracted",
-                0,
             )
 
-        else:
-            stats["failed"] += 1
-
-    return stats
+        return pages
