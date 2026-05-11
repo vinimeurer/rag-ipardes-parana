@@ -12,8 +12,6 @@ from .constants import (
     EXTRACTED_DATA_DIR,
     LOGS_DIR,
     PDF_SOURCES,
-    PDF_EXTRACTOR_TIMEOUT,
-    PDF_EXTRACTOR_MAX_PAGES,
 )
 
 
