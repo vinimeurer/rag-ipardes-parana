@@ -1,0 +1,248 @@
+{
+  "table_index": 30,
+  "page_number": 88,
+  "caption": "TABELA 6 - INCREMENTOS AO SISTEMA INTEGRADO NACIONAL - PARANÁ",
+  "headers": [
+    "EMPREENDIMENTO",
+    "CARACTERÍSTICA",
+    "NOME",
+    "DATA PREVISTA",
+    "INVESTIMENTO (R$ MIL)"
+  ],
+  "rows": [
+    [
+      "Subestação",
+      "Expansão",
+      "SE 230/69 kV D.I. São José dos Pinhais",
+      "2024",
+      "7.654,78"
+    ],
+    [
+      "Seccionamento de Linha de Transmissão",
+      "Nova",
+      "SECC LT 230 kV Umbará - Santa Quitéria, C1 (CD), na SE Barigui 2",
+      "2027",
+      "28.650,00"
+    ],
+    [
+      "Subestação",
+      "Expansão",
+      "SE 230/138 kV Campo Mourão",
+      "2033",
+      "9.544,46"
+    ],
+    [
+      "Subestação",
+      "Expansão",
+      "SE 230/69/13.8 kV CIC",
+      "2024",
+      "15.960,46"
+    ],
+    [
+      "Subestação",
+      "Expansão",
+      "SE 230/69/13.8 kV Santa Quitéria",
+      "2024",
+      "..."
+    ],
+    [
+      "Seccionamento de Linha de Transmissão",
+      "Nova",
+      "SECC LT 230 kV Uberaba - Umbará, C2 (CD), na SE Curitiba Sul",
+      "2033",
+      "20.821,57"
+    ],
+    [
+      "Linha de Transmissão",
+      "Nova",
+      "LT 525 kV Bateias - Curitiba Leste, C1 e C2 (CD)",
+      "2027",
+      "246.271,81"
+    ],
+    [
+      "Seccionamento de Linha de Transmissão",
+      "Nova",
+      "SECC LT 525 kV Bateias - Curitiba, C1 (CD), na SE Curitiba Oeste",
+      "2029",
+      "39.007,67"
+    ],
+    [
+      "Subestação",
+      "Expansão",
+      "SE 525/230 kV Areia",
+      "2024",
+      "32.181,93"
+    ],
+    [
+      "Subestação",
+      "Expansão",
+      "SE 230/69/13.8 kV Campo Comprido",
+      "2024",
+      "..."
+    ],
+    [
+      "Seccionamento de Linha de Transmissão",
+      "Nova",
+      "SECC LT 525 kV Areia - Curitiba, C1 (CD), na SE UTE Araucária II",
+      "2031",
+      "59.596,23"
+    ],
+    [
+      "Linha de Transmissão",
+      "Nova",
+      "LT 525 kV Cascavel Oeste - Segredo, C1",
+      "2030",
+      "362.987,00"
+    ],
+    [
+      "Subestação",
+      "Expansão",
+      "SE 525/230/138 kV Sarandi",
+      "2024",
+      "22.959,68"
+    ],
+    [
+      "Linha de Transmissão",
+      "Nova",
+      "LT 230 kV Litorânea - Posto Fiscal, C1 e C2 (CD)",
+      "2030",
+      "18.568,19"
+    ],
+    [
+      "Subestação",
+      "Nova",
+      "SE 525/230 kV Curitiba Oeste",
+      "2029",
+      "255.036,02"
+    ],
+    [
+      "Subestação",
+      "Nova",
+      "SE 525/230/138 kV Litorânea",
+      "2030",
+      "246.177,11"
+    ],
+    [
+      "Subestação",
+      "Expansão",
+      "SE 230/69 kV Pilarzinho",
+      "2024",
+      "3.827,39"
+    ],
+    [
+      "Subestação",
+      "Expansão",
+      "SE 525/230 kV Curitiba Leste",
+      "2033",
+      "47.139,35"
+    ],
+    [
+      "Subestação",
+      "Expansão",
+      "SE 525 kV Curitiba Leste",
+      "2031",
+      "22.257,53"
+    ],
+    [
+      "Linha de Transmissão",
+      "Expansão",
+      "LT 230 kV Governador Parigot de Souza - Posto Fiscal, C1",
+      "2030",
+      "22.072,72"
+    ],
+    [
+      "Subestação",
+      "Expansão",
+      "SE 230/138 kV Santa Mônica",
+      "2033",
+      "87.697,68"
+    ],
+    [
+      "Subestação",
+      "Expansão",
+      "SE 230/69/13.8 kV D.I. São José dos Pinhais",
+      "2024",
+      "..."
+    ],
+    [
+      "Subestação",
+      "Expansão",
+      "SE 230/13.8 kV Campo Comprido",
+      "2024",
+      "15.136,25"
+    ],
+    [
+      "Subestação",
+      "Expansão",
+      "SE 230/138/13.8 kV Campo do Assobio",
+      "2024",
+      "22.833,89"
+    ],
+    [
+      "Linha de Transmissão",
+      "Nova",
+      "LT 230 kV Curitiba Oeste - Barigui 2, C1 e C2 (CD)",
+      "2029",
+      "83.605,84"
+    ],
+    [
+      "Linha de Transmissão",
+      "Nova",
+      "LT 230 kV Curitiba Leste - Posto Fiscal, C2 e C3 (CD)",
+      "2030",
+      "181.902,05"
+    ],
+    [
+      "Subestação",
+      "Expansão",
+      "SE 525 kV Curitiba",
+      "2024",
+      "79.743,28"
+    ],
+    [
+      "Subestação",
+      "Expansão",
+      "SE 230/13.8 kV Santa Quitéria",
+      "2033",
+      "17.963,54"
+    ],
+    [
+      "Linha de Transmissão",
+      "Nova",
+      "LT 230 kV Curitiba Leste - Curitiba Sul, C1 e C2 (CD)",
+      "2033",
+      "41.924,50"
+    ],
+    [
+      "Subestação",
+      "Expansão",
+      "SE 230/138/13.8 kV Campo do Assobio",
+      "2024",
+      "..."
+    ],
+    [
+      "Subestação",
+      "Expansão",
+      "SE 230/138 kV Posto Fiscal",
+      "2033",
+      "22.959,68"
+    ],
+    [
+      "Seccionamento de Linha de Transmissão",
+      "Nova",
+      "SECC LT 230 kV Campo Comprido - CIC, C1 (CD), na SE Curitiba Oeste",
+      "2029",
+      "41.851,36"
+    ],
+    [
+      "Subestação",
+      "Expansão",
+      "SE 230/138 kV Uberaba",
+      "2027",
+      "74.190,92"
+    ]
+  ],
+  "markdown": "| EMPREENDIMENTO | CARACTERÍSTICA | NOME | DATA PREVISTA | INVESTIMENTO (R$ MIL) |\n| --- | --- | --- | --- | --- |\n| Subestação | Expansão | SE 230/69 kV D.I. São José dos Pinhais | 2024 | 7.654,78 |\n| Seccionamento de Linha de Transmissão | Nova | SECC LT 230 kV Umbará - Santa Quitéria, C1 (CD), na SE Barigui 2 | 2027 | 28.650,00 |\n| Subestação | Expansão | SE 230/138 kV Campo Mourão | 2033 | 9.544,46 |\n| Subestação | Expansão | SE 230/69/13.8 kV CIC | 2024 | 15.960,46 |\n| Subestação | Expansão | SE 230/69/13.8 kV Santa Quitéria | 2024 | ... |\n| Seccionamento de Linha de Transmissão | Nova | SECC LT 230 kV Uberaba - Umbará, C2 (CD), na SE Curitiba Sul | 2033 | 20.821,57 |\n| Linha de Transmissão | Nova | LT 525 kV Bateias - Curitiba Leste, C1 e C2 (CD) | 2027 | 246.271,81 |\n| Seccionamento de Linha de Transmissão | Nova | SECC LT 525 kV Bateias - Curitiba, C1 (CD), na SE Curitiba Oeste | 2029 | 39.007,67 |\n| Subestação | Expansão | SE 525/230 kV Areia | 2024 | 32.181,93 |\n| Subestação | Expansão | SE 230/69/13.8 kV Campo Comprido | 2024 | ... |\n| Seccionamento de Linha de Transmissão | Nova | SECC LT 525 kV Areia - Curitiba, C1 (CD), na SE UTE Araucária II | 2031 | 59.596,23 |\n| Linha de Transmissão | Nova | LT 525 kV Cascavel Oeste - Segredo, C1 | 2030 | 362.987,00 |\n| Subestação | Expansão | SE 525/230/138 kV Sarandi | 2024 | 22.959,68 |\n| Linha de Transmissão | Nova | LT 230 kV Litorânea - Posto Fiscal, C1 e C2 (CD) | 2030 | 18.568,19 |\n| Subestação | Nova | SE 525/230 kV Curitiba Oeste | 2029 | 255.036,02 |\n| Subestação | Nova | SE 525/230/138 kV Litorânea | 2030 | 246.177,11 |\n| Subestação | Expansão | SE 230/69 kV Pilarzinho | 2024 | 3.827,39 |\n| Subestação | Expansão | SE 525/230 kV Curitiba Leste | 2033 | 47.139,35 |\n| Subestação | Expansão | SE 525 kV Curitiba Leste | 2031 | 22.257,53 |\n| Linha de Transmissão | Expansão | LT 230 kV Governador Parigot de Souza - Posto Fiscal, C1 | 2030 | 22.072,72 |\n| Subestação | Expansão | SE 230/138 kV Santa Mônica | 2033 | 87.697,68 |\n| Subestação | Expansão | SE 230/69/13.8 kV D.I. São José dos Pinhais | 2024 | ... |\n| Subestação | Expansão | SE 230/13.8 kV Campo Comprido | 2024 | 15.136,25 |\n| Subestação | Expansão | SE 230/138/13.8 kV Campo do Assobio | 2024 | 22.833,89 |\n| Linha de Transmissão | Nova | LT 230 kV Curitiba Oeste - Barigui 2, C1 e C2 (CD) | 2029 | 83.605,84 |\n| Linha de Transmissão | Nova | LT 230 kV Curitiba Leste - Posto Fiscal, C2 e C3 (CD) | 2030 | 181.902,05 |\n| Subestação | Expansão | SE 525 kV Curitiba | 2024 | 79.743,28 |\n| Subestação | Expansão | SE 230/13.8 kV Santa Quitéria | 2033 | 17.963,54 |\n| Linha de Transmissão | Nova | LT 230 kV Curitiba Leste - Curitiba Sul, C1 e C2 (CD) | 2033 | 41.924,50 |\n| Subestação | Expansão | SE 230/138/13.8 kV Campo do Assobio | 2024 | ... |\n| Subestação | Expansão | SE 230/138 kV Posto Fiscal | 2033 | 22.959,68 |\n| Seccionamento de Linha de Transmissão | Nova | SECC LT 230 kV Campo Comprido - CIC, C1 (CD), na SE Curitiba Oeste | 2029 | 41.851,36 |\n| Subestação | Expansão | SE 230/138 kV Uberaba | 2027 | 74.190,92 |",
+  "num_rows": 33,
+  "num_cols": 5
+}

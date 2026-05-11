@@ -1,0 +1,40 @@
+{
+  "table_index": 71,
+  "page_number": 201,
+  "caption": "TABELA 3 - CONSUMO E RETIRADA PERCENTUAL DE ÁGUA POR SEGMENTO NO PARANÁ - 2018",
+  "headers": [
+    "SEGMENTO",
+    "CONSUMO (%) (1)",
+    "RETIRADA (%) (2)"
+  ],
+  "rows": [
+    [
+      "Indústria",
+      "30",
+      "28"
+    ],
+    [
+      "Uso animal",
+      "27",
+      "17"
+    ],
+    [
+      "Irrigação",
+      "22",
+      "12"
+    ],
+    [
+      "Abastecimento urbano",
+      "17",
+      "38"
+    ],
+    [
+      "Abastecimento rural",
+      "4",
+      "3"
+    ]
+  ],
+  "markdown": "| SEGMENTO | CONSUMO (%) (1) | RETIRADA (%) (2) |\n| --- | --- | --- |\n| Indústria | 30 | 28 |\n| Uso animal | 27 | 17 |\n| Irrigação | 22 | 12 |\n| Abastecimento urbano | 17 | 38 |\n| Abastecimento rural | 4 | 3 |",
+  "num_rows": 5,
+  "num_cols": 3
+}

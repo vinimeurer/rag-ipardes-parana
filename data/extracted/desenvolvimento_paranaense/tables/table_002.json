@@ -1,0 +1,52 @@
+{
+  "table_index": 2,
+  "page_number": 12,
+  "caption": "TABELA 2 - CENÁRIOS DE CRESCIMENTO ECONÔMICO DO PARANÁ PARA 2020-2035",
+  "headers": [
+    "CENÁRIOS.",
+    "INDICADORES.Taxa de.Poupança (%)",
+    "INDICADORES.Taxa de Crescimento (%).Produtividade",
+    "INDICADORES.Taxa de Crescimento (%).PIB",
+    "INDICADORES.Taxa de Crescimento (%).PIB per capita"
+  ],
+  "rows": [
+    [
+      "Tendencial",
+      "17",
+      "0,5",
+      "2,0",
+      "1,4"
+    ],
+    [
+      "Avanço estrutural",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "I",
+      "17",
+      "1,2",
+      "2,7",
+      "2,1"
+    ],
+    [
+      "II",
+      "22",
+      "0,5",
+      "2,7",
+      "2,1"
+    ],
+    [
+      "III",
+      "22",
+      "1,2",
+      "3,4",
+      "2,8"
+    ]
+  ],
+  "markdown": "| CENÁRIOS. | INDICADORES.Taxa de.Poupança (%) | INDICADORES.Taxa de Crescimento (%).Produtividade | INDICADORES.Taxa de Crescimento (%).PIB | INDICADORES.Taxa de Crescimento (%).PIB per capita |\n| --- | --- | --- | --- | --- |\n| Tendencial | 17 | 0,5 | 2,0 | 1,4 |\n| Avanço estrutural |  |  |  |  |\n| I | 17 | 1,2 | 2,7 | 2,1 |\n| II | 22 | 0,5 | 2,7 | 2,1 |\n| III | 22 | 1,2 | 3,4 | 2,8 |",
+  "num_rows": 5,
+  "num_cols": 5
+}

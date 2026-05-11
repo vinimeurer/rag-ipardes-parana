@@ -1,0 +1,76 @@
+{
+  "table_index": 69,
+  "page_number": 198,
+  "caption": "TABELA 1 - DOMICÍLIOS  E  MORADORES  COM  BANHEIRO,  SANITÁRIO  OU  BURACO  PARA  DEJEÇÕES,  POR TIPO DE    ESGOTAMENTO SANITÁRIO - A PARTIR DE 2019",
+  "headers": [
+    "VARIÁVEL",
+    "PARANÁ",
+    "(%)",
+    "RMC",
+    "(%)",
+    "CURITIBA",
+    "(%)",
+    "INTERIOR",
+    "(%)"
+  ],
+  "rows": [
+    [
+      "TOTAL",
+      "4101",
+      "100",
+      "1295",
+      "100",
+      "717",
+      "100",
+      "2806",
+      "100"
+    ],
+    [
+      "Rede geral ou pluvial",
+      "2747",
+      "67",
+      "1102",
+      "85",
+      "693",
+      "97",
+      "1645",
+      "59"
+    ],
+    [
+      "Fossa séptica ligada à rede",
+      "141",
+      "3",
+      "54",
+      "4",
+      "9",
+      "1",
+      "87",
+      "3"
+    ],
+    [
+      "Fossa séptica não ligada à rede",
+      "747",
+      "18",
+      "106",
+      "8",
+      "12",
+      "2",
+      "641",
+      "23"
+    ],
+    [
+      "Outro tipo",
+      "405",
+      "10",
+      "33",
+      "3",
+      "2",
+      "0",
+      "372",
+      "13"
+    ]
+  ],
+  "markdown": "| VARIÁVEL | PARANÁ | (%) | RMC | (%) | CURITIBA | (%) | INTERIOR | (%) |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| TOTAL | 4101 | 100 | 1295 | 100 | 717 | 100 | 2806 | 100 |\n| Rede geral ou pluvial | 2747 | 67 | 1102 | 85 | 693 | 97 | 1645 | 59 |\n| Fossa séptica ligada à rede | 141 | 3 | 54 | 4 | 9 | 1 | 87 | 3 |\n| Fossa séptica não ligada à rede | 747 | 18 | 106 | 8 | 12 | 2 | 641 | 23 |\n| Outro tipo | 405 | 10 | 33 | 3 | 2 | 0 | 372 | 13 |",
+  "num_rows": 5,
+  "num_cols": 9
+}

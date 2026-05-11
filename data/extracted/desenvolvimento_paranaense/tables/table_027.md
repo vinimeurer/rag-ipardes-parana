@@ -1,0 +1,12 @@
+Tabela: TABELA 3 - USINAS DE ENERGIA ELÉTRICA EM IMPLANTAÇÃO -PARANÁ
+
+| 0 | 1 | 2 |
+| --- | --- | --- |
+| PREVISÃO DE OPERAÇÃO | ORIGEM DE COMBUSTÍVEL | POTÊNCIA OUTORGADA (Kw) |
+| 2021 | Biomassa Hídrica | 22.800 19.700 |
+| 2022 | Biomassa Hídrica | 174.800 217.010 |
+| 2023 | Biomassa Hídrica | 50.000 123.870 |
+| 2024 | Hídrica | 206.948 |
+| 2025 | Hídrica | 40.400 |
+| 2026 | Hídrica | 190.800 |
+| Sem previsão | Hídrica | 124.000 |

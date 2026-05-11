@@ -1,0 +1,129 @@
+{
+  "table_index": 25,
+  "page_number": 82,
+  "caption": "TABELA 1 - GERAÇÃO DE ENERGIA ELÉTRICA, POR FONTE - PARANÁ E BRASIL - 2018",
+  "headers": [
+    "FONTE",
+    "PARANÁ.Geração (MW)",
+    "PARANÁ.Part. (%)",
+    "BRASIL.Geração (MW)",
+    "BRASIL.Part. (%)"
+  ],
+  "rows": [
+    [
+      "Hidrelétrica",
+      "88.746",
+      "94,68",
+      "388.971",
+      "64,68"
+    ],
+    [
+      "Eólica",
+      "19",
+      "0,02",
+      "48.475",
+      "8,06"
+    ],
+    [
+      "Solar",
+      "30",
+      "0,03",
+      "3.461",
+      "0,58"
+    ],
+    [
+      "Nuclear",
+      "-",
+      "-",
+      "15.674",
+      "2,61"
+    ],
+    [
+      "Termelétrica",
+      "4.942",
+      "5,27",
+      "144.815",
+      "24,08"
+    ],
+    [
+      "Biomassa - Cana-de-açúcar",
+      "1.517",
+      "1,62",
+      "35.435",
+      "5,89"
+    ],
+    [
+      "Biomassa - Lenha",
+      "482",
+      "0,51",
+      "2.360",
+      "0,39"
+    ],
+    [
+      "Biomassa - Lixívia",
+      "2.165",
+      "2,31",
+      "14.081",
+      "2,34"
+    ],
+    [
+      "Outras fontes renováveis",
+      "58",
+      "0,06",
+      "2.116",
+      "0,35"
+    ],
+    [
+      "Carvão",
+      "50",
+      "0,05",
+      "14.204",
+      "2,36"
+    ],
+    [
+      "Gás natural",
+      "403",
+      "0,43",
+      "54.295",
+      "9,03"
+    ],
+    [
+      "Gás de coqueria",
+      "-",
+      "-",
+      "1.620",
+      "0,27"
+    ],
+    [
+      "Óleo combustível",
+      "57",
+      "0,06",
+      "5.047",
+      "0,84"
+    ],
+    [
+      "Óleo diesel",
+      "22",
+      "0,02",
+      "5.246",
+      "0,87"
+    ],
+    [
+      "Outras fontes não renováveis",
+      "189",
+      "0,20",
+      "10.412",
+      "1,73"
+    ],
+    [
+      "TOTAL",
+      "93.737",
+      "100,00",
+      "601.396",
+      "100,00"
+    ]
+  ],
+  "markdown": "| FONTE | PARANÁ.Geração (MW) | PARANÁ.Part. (%) | BRASIL.Geração (MW) | BRASIL.Part. (%) |\n| --- | --- | --- | --- | --- |\n| Hidrelétrica | 88.746 | 94,68 | 388.971 | 64,68 |\n| Eólica | 19 | 0,02 | 48.475 | 8,06 |\n| Solar | 30 | 0,03 | 3.461 | 0,58 |\n| Nuclear | - | - | 15.674 | 2,61 |\n| Termelétrica | 4.942 | 5,27 | 144.815 | 24,08 |\n| Biomassa - Cana-de-açúcar | 1.517 | 1,62 | 35.435 | 5,89 |\n| Biomassa - Lenha | 482 | 0,51 | 2.360 | 0,39 |\n| Biomassa - Lixívia | 2.165 | 2,31 | 14.081 | 2,34 |\n| Outras fontes renováveis | 58 | 0,06 | 2.116 | 0,35 |\n| Carvão | 50 | 0,05 | 14.204 | 2,36 |\n| Gás natural | 403 | 0,43 | 54.295 | 9,03 |\n| Gás de coqueria | - | - | 1.620 | 0,27 |\n| Óleo combustível | 57 | 0,06 | 5.047 | 0,84 |\n| Óleo diesel | 22 | 0,02 | 5.246 | 0,87 |\n| Outras fontes não renováveis | 189 | 0,20 | 10.412 | 1,73 |\n| TOTAL | 93.737 | 100,00 | 601.396 | 100,00 |",
+  "num_rows": 16,
+  "num_cols": 5
+}

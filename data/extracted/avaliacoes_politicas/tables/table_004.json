@@ -1,0 +1,30 @@
+{
+  "table_index": 4,
+  "page_number": 24,
+  "caption": "",
+  "headers": [
+    "DEMANDANTE/FINANCIADOR MENCIONADO",
+    "CONTAGEM DE CASOS"
+  ],
+  "rows": [
+    [
+      "Chamada Pública do IPEA",
+      "11"
+    ],
+    [
+      "Banco Mundial",
+      "2"
+    ],
+    [
+      "Programa Cátedras Brasil (ENAP)",
+      "2"
+    ],
+    [
+      "Editais do Ministério da Saúde",
+      "1"
+    ]
+  ],
+  "markdown": "| DEMANDANTE/FINANCIADOR MENCIONADO | CONTAGEM DE CASOS |\n| --- | --- |\n| Chamada Pública do IPEA | 11 |\n| Banco Mundial | 2 |\n| Programa Cátedras Brasil (ENAP) | 2 |\n| Editais do Ministério da Saúde | 1 |",
+  "num_rows": 4,
+  "num_cols": 2
+}

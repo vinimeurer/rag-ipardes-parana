@@ -1,0 +1,10 @@
+Tabela: TABELA 5 -  PERCENTUAL  SIMULADO  DE  USO  DE  GÁS  NATURAL  NOS  CUSTOS  DA  INDÚSTRIA  EM UNIDADES DA FEDERAÇÃO SELECIONADAS - 2019
+
+| UNIDADE DA FEDERAÇÃO (UF) | DISTRIBUIDORA (1) | INDÚSTRIA EXTRATIVA E DE TRANSFORMAÇÃO.Custo com Gás Aproximado (2) (R$ mil) | INDÚSTRIA EXTRATIVA E DE TRANSFORMAÇÃO.COI - CMPC (3) (R$ mil) | INDÚSTRIA EXTRATIVA E DE TRANSFORMAÇÃO.Percentual de Aplicação do Gás | INDÚSTRIA EXTRATIVA E DE TRANSFORMAÇÃO.Proporção UF/PR para Percentual de Aplicação de Gás |
+| --- | --- | --- | --- | --- | --- |
+| São Paulo | Comgás (SP) | 8 158 208 | 74 931 286 | 10,89 | 4,58 |
+| Minas Gerais | GásMig (MG) | 1 764 372 | 35 149 990 | 5,02 | 2,11 |
+| Rio de Janeiro (4) | CEG Naturgy (RJ) | 2 502 904 | 37 918 524 | 6,60 | 2,78 |
+| Santa Catarina | SCGÁS (SC) | 1 352 716 | 14 560 475 | 9,29 | 3,91 |
+| Rio Grande do Sul | Sulgás (RS) | 984 828 | 15 273 045 | 6,45 | 2,71 |
+| Paraná | Compagás (PR) | 351 164 | 14 783 535 | 2,38 | 1,00 |

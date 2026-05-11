@@ -1,0 +1,65 @@
+{
+  "table_index": 66,
+  "page_number": 177,
+  "caption": "QUADRO 2 - COMPONENTES E SUBCOMPONENTES DA INADEQUAÇÃO HABITACIONAL",
+  "headers": [
+    "COMPONENTE.Apenas domicílios urbanos.Domicílios particulares permanentes duráveis não componentes do déficit habitacional",
+    "SUBCOMPONENTE.Apenas domicílios urbanos.Domicílios particulares permanentes duráveis não componentes do déficit habitacional",
+    "DEFINIÇÃO.Apenas domicílios urbanos.Domicílios particulares permanentes duráveis não componentes do déficit habitacional"
+  ],
+  "rows": [
+    [
+      "Carências de infraestrutura urbana",
+      "Energia elétrica",
+      "domicílios sem energia elétrica ou cuja recepção de energia elétrica é feita diariamente, mas por apenas algumas horas."
+    ],
+    [
+      "Carências de infraestrutura urbana",
+      "Abastecimento de água",
+      "se o abastecimento do domicílio é proveniente de fonte ou nascentes, poço profundo ou artesiano, poço raso, freático ou cacimba, ou se deriva de água de chuva armazenada."
+    ],
+    [
+      "Carências de infraestrutura urbana",
+      "Esgotamento sanitário",
+      "escoamento de banheiros/sanitário: fossa rudimentar/fossa não ligada à rede, vala, rio, lago ou mar."
+    ],
+    [
+      "Carências de infraestrutura urbana",
+      "Coleta de lixo",
+      "destino do lixo domiciliar: queimado, enterrado ou jogado em terreno baldio ou logradouro."
+    ],
+    [
+      "Carências edilícias",
+      "Banheiro exclusivo",
+      "domicílios que não possuem algum banheiro de uso exclusivo, mesmo localizado fora da habitação."
+    ],
+    [
+      "Carências edilícias",
+      "Insuficiência de cômodos",
+      "o cálculo da inadequação é feito pelo número de cômodos no domicílio e de quantos cômodos servem permanentemente de dormitório. Havendo igualdade entre o número de cômodos e o de dormitórios, considera-se inadequação."
+    ],
+    [
+      "Carências edilícias",
+      "Armazenamento de água inadequado",
+      "unidades domiciliares que não armazenem água em reservatórios, caixas d'águas ou cisternas."
+    ],
+    [
+      "Carências edilícias",
+      "Piso inadequado",
+      "tipo de material do piso (terra)."
+    ],
+    [
+      "Carências edilícias",
+      "Cobertura inadequada",
+      "tipo de material que predomina na cobertura de telhados (zinco, alumínio ou chapa metálica)"
+    ],
+    [
+      "Inadequação fundiária",
+      "Inadequação fundiária",
+      "situação na qual pelo menos um dos moradores do domicílio declara ter a posse da moradia, mas informa não possuir a propriedade, total ou parcial, do terreno ou da fração ideal de terreno (no caso de apartamento) onde ela se localiza."
+    ]
+  ],
+  "markdown": "| COMPONENTE.Apenas domicílios urbanos.Domicílios particulares permanentes duráveis não componentes do déficit habitacional | SUBCOMPONENTE.Apenas domicílios urbanos.Domicílios particulares permanentes duráveis não componentes do déficit habitacional | DEFINIÇÃO.Apenas domicílios urbanos.Domicílios particulares permanentes duráveis não componentes do déficit habitacional |\n| --- | --- | --- |\n| Carências de infraestrutura urbana | Energia elétrica | domicílios sem energia elétrica ou cuja recepção de energia elétrica é feita diariamente, mas por apenas algumas horas. |\n| Carências de infraestrutura urbana | Abastecimento de água | se o abastecimento do domicílio é proveniente de fonte ou nascentes, poço profundo ou artesiano, poço raso, freático ou cacimba, ou se deriva de água de chuva armazenada. |\n| Carências de infraestrutura urbana | Esgotamento sanitário | escoamento de banheiros/sanitário: fossa rudimentar/fossa não ligada à rede, vala, rio, lago ou mar. |\n| Carências de infraestrutura urbana | Coleta de lixo | destino do lixo domiciliar: queimado, enterrado ou jogado em terreno baldio ou logradouro. |\n| Carências edilícias | Banheiro exclusivo | domicílios que não possuem algum banheiro de uso exclusivo, mesmo localizado fora da habitação. |\n| Carências edilícias | Insuficiência de cômodos | o cálculo da inadequação é feito pelo número de cômodos no domicílio e de quantos cômodos servem permanentemente de dormitório. Havendo igualdade entre o número de cômodos e o de dormitórios, considera-se inadequação. |\n| Carências edilícias | Armazenamento de água inadequado | unidades domiciliares que não armazenem água em reservatórios, caixas d'águas ou cisternas. |\n| Carências edilícias | Piso inadequado | tipo de material do piso (terra). |\n| Carências edilícias | Cobertura inadequada | tipo de material que predomina na cobertura de telhados (zinco, alumínio ou chapa metálica) |\n| Inadequação fundiária | Inadequação fundiária | situação na qual pelo menos um dos moradores do domicílio declara ter a posse da moradia, mas informa não possuir a propriedade, total ou parcial, do terreno ou da fração ideal de terreno (no caso de apartamento) onde ela se localiza. |",
+  "num_rows": 10,
+  "num_cols": 3
+}

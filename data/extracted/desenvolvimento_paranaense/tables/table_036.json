@@ -1,0 +1,30 @@
+{
+  "table_index": 36,
+  "page_number": 108,
+  "caption": "QUADRO 1 - ESTATÍSTICAS DE REGRESSÃO",
+  "headers": [
+    "R múltiplo",
+    "0,989061621"
+  ],
+  "rows": [
+    [
+      "R-Quadrado",
+      "0,978242891"
+    ],
+    [
+      "R-quadrado ajustado",
+      "0,976569267"
+    ],
+    [
+      "Erro padrão",
+      "0,006337414"
+    ],
+    [
+      "Observações",
+      "29"
+    ]
+  ],
+  "markdown": "| R múltiplo | 0,989061621 |\n| --- | --- |\n| R-Quadrado | 0,978242891 |\n| R-quadrado ajustado | 0,976569267 |\n| Erro padrão | 0,006337414 |\n| Observações | 29 |",
+  "num_rows": 4,
+  "num_cols": 2
+}
