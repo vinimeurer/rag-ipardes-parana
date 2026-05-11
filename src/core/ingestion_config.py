@@ -60,8 +60,8 @@ class IngestionPipelineConfig:
     extracted_data_dir: Path = EXTRACTED_DATA_DIR
     logs_dir: Path = LOGS_DIR
     pdf_sources: dict = field(default_factory=lambda: PDF_SOURCES)
-    timeout_seconds: int = PDF_EXTRACTOR_TIMEOUT
-    max_pages: Optional[int] = PDF_EXTRACTOR_MAX_PAGES
+    timeout_seconds: int = 300
+    max_pages: Optional[int] = None
     num_workers: int = 1
     backend: DoclingBackendConfig = field(default_factory=DoclingBackendConfig)
     output: ExtractionOutputConfig = field(default_factory=ExtractionOutputConfig)
