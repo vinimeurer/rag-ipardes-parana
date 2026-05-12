@@ -1,0 +1,297 @@
+{
+  "table_index": 6,
+  "page_number": 10,
+  "caption": "",
+  "headers": [
+    "OCUPAÇÃO",
+    "Cartão de Crédito",
+    "Empréstimo com consignação em folha",
+    "Empréstimo sem consignação em folha",
+    "Veículos"
+  ],
+  "rows": [
+    [
+      "Aposentado ou pensionista",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Carteira (Reais)",
+      "193.160.542,96",
+      "252.483.247,24",
+      "179.880.023,50",
+      "41.782.964,12"
+    ],
+    [
+      "Ativos Problemáticos (%)",
+      "2,68",
+      "2,76",
+      "6,12",
+      "2,45"
+    ],
+    [
+      "Inadimplência (%)",
+      "1,15",
+      "0,85",
+      "4,46",
+      "1,69"
+    ],
+    [
+      "Autônomo",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Carteira (Reais)",
+      "539.246.289,87",
+      "36.529.358,02",
+      "1.576.263.069,38",
+      "380.761.541,70"
+    ],
+    [
+      "Ativos Problemáticos (%)",
+      "3,90",
+      "2,82",
+      "8,49",
+      "4,64"
+    ],
+    [
+      "Inadimplência (%)",
+      "1,90",
+      "1,03",
+      "3,65",
+      "2,63"
+    ],
+    [
+      "Empregado de empresa privada",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Carteira (Reais)",
+      "666.993.636,21",
+      "71.890.783,99",
+      "613.835.451,43",
+      "265.560.639,43"
+    ],
+    [
+      "Ativos Problemáticos (%)",
+      "4,32",
+      "3,75",
+      "8,71",
+      "6,22"
+    ],
+    [
+      "Inadimplência (%)",
+      "2,27",
+      "2,64",
+      "4,63",
+      "4,09"
+    ],
+    [
+      "Empregado de entidades sem fins lucrativos",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Carteira (Reais)",
+      "2.717.851,23",
+      "118.233,00",
+      "1.369.918,64",
+      "1.431.079,73"
+    ],
+    [
+      "Ativos Problemáticos (%)",
+      "0,64",
+      "8,59",
+      "10,03",
+      "11,52"
+    ],
+    [
+      "Inadimplência (%)",
+      "0,12",
+      "8,59",
+      "0,03",
+      "0,00"
+    ],
+    [
+      "Empresário",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Carteira (Reais)",
+      "2.062.166.114,74",
+      "41.376.754,93",
+      "3.054.192.736,24",
+      "915.151.758,62"
+    ],
+    [
+      "Ativos Problemáticos (%)",
+      "4,28",
+      "3,41",
+      "6,57",
+      "4,74"
+    ],
+    [
+      "Inadimplência (%)",
+      "1,98",
+      "1,29",
+      "3,73",
+      "2,62"
+    ],
+    [
+      "MEI",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Carteira (Reais)",
+      "37.425.413,66",
+      "1.354.251,91",
+      "24.617.294,60",
+      "21.568.791,44"
+    ],
+    [
+      "Ativos Problemáticos (%)",
+      "7,83",
+      "14,37",
+      "23,54",
+      "4,52"
+    ],
+    [
+      "Inadimplência (%)",
+      "5,57",
+      "0,00",
+      "12,33",
+      "2,42"
+    ],
+    [
+      "Servidor ou empregado público",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Carteira (Reais)",
+      "430.787.384,22",
+      "633.131.364,20",
+      "268.103.760,01",
+      "900.667.343,38"
+    ],
+    [
+      "Ativos Problemáticos (%)",
+      "2,98",
+      "2,68",
+      "7,08",
+      "3,51"
+    ],
+    [
+      "Inadimplência (%)",
+      "1,33",
+      "1,45",
+      "4,44",
+      "2,49"
+    ],
+    [
+      "Outros",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Carteira (Reais)",
+      "665.724.710,06",
+      "93.823.864,33",
+      "1.796.776.843,54",
+      "340.332.051,69"
+    ],
+    [
+      "Ativos Problemáticos (%)",
+      "4,00",
+      "2,13",
+      "6,96",
+      "9,21"
+    ],
+    [
+      "Inadimplência (%)",
+      "2,13",
+      "0,87",
+      "4,48",
+      "6,57"
+    ],
+    [
+      "Aposentado ou pensionista",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Carteira (Reais)",
+      "65.749.411,46",
+      "",
+      "101.019.907,63",
+      "710.270.302,10"
+    ],
+    [
+      "Ativos Problemáticos (%)",
+      "0,00",
+      "",
+      "16,52",
+      "6,20"
+    ],
+    [
+      "Inadimplência (%)",
+      "0,00",
+      "",
+      "5,53",
+      "1,62"
+    ],
+    [
+      "Autônomo",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Carteira (Reais)",
+      "850.206.015,62",
+      "",
+      "1.918.179.374,61",
+      "13.089.394.829,99"
+    ],
+    [
+      "Ativos Problemáticos (%)",
+      "1,42",
+      "",
+      "22,62",
+      "7,78"
+    ],
+    [
+      "Inadimplência (%)",
+      "0,46",
+      "",
+      "6,99",
+      "2,91"
+    ]
+  ],
+  "markdown": "| OCUPAÇÃO | Cartão de Crédito | Empréstimo com consignação em folha | Empréstimo sem consignação em folha | Veículos |\n| --- | --- | --- | --- | --- |\n| Aposentado ou pensionista |  |  |  |  |\n| Carteira (Reais) | 193.160.542,96 | 252.483.247,24 | 179.880.023,50 | 41.782.964,12 |\n| Ativos Problemáticos (%) | 2,68 | 2,76 | 6,12 | 2,45 |\n| Inadimplência (%) | 1,15 | 0,85 | 4,46 | 1,69 |\n| Autônomo |  |  |  |  |\n| Carteira (Reais) | 539.246.289,87 | 36.529.358,02 | 1.576.263.069,38 | 380.761.541,70 |\n| Ativos Problemáticos (%) | 3,90 | 2,82 | 8,49 | 4,64 |\n| Inadimplência (%) | 1,90 | 1,03 | 3,65 | 2,63 |\n| Empregado de empresa privada |  |  |  |  |\n| Carteira (Reais) | 666.993.636,21 | 71.890.783,99 | 613.835.451,43 | 265.560.639,43 |\n| Ativos Problemáticos (%) | 4,32 | 3,75 | 8,71 | 6,22 |\n| Inadimplência (%) | 2,27 | 2,64 | 4,63 | 4,09 |\n| Empregado de entidades sem fins lucrativos |  |  |  |  |\n| Carteira (Reais) | 2.717.851,23 | 118.233,00 | 1.369.918,64 | 1.431.079,73 |\n| Ativos Problemáticos (%) | 0,64 | 8,59 | 10,03 | 11,52 |\n| Inadimplência (%) | 0,12 | 8,59 | 0,03 | 0,00 |\n| Empresário |  |  |  |  |\n| Carteira (Reais) | 2.062.166.114,74 | 41.376.754,93 | 3.054.192.736,24 | 915.151.758,62 |\n| Ativos Problemáticos (%) | 4,28 | 3,41 | 6,57 | 4,74 |\n| Inadimplência (%) | 1,98 | 1,29 | 3,73 | 2,62 |\n| MEI |  |  |  |  |\n| Carteira (Reais) | 37.425.413,66 | 1.354.251,91 | 24.617.294,60 | 21.568.791,44 |\n| Ativos Problemáticos (%) | 7,83 | 14,37 | 23,54 | 4,52 |\n| Inadimplência (%) | 5,57 | 0,00 | 12,33 | 2,42 |\n| Servidor ou empregado público |  |  |  |  |\n| Carteira (Reais) | 430.787.384,22 | 633.131.364,20 | 268.103.760,01 | 900.667.343,38 |\n| Ativos Problemáticos (%) | 2,98 | 2,68 | 7,08 | 3,51 |\n| Inadimplência (%) | 1,33 | 1,45 | 4,44 | 2,49 |\n| Outros |  |  |  |  |\n| Carteira (Reais) | 665.724.710,06 | 93.823.864,33 | 1.796.776.843,54 | 340.332.051,69 |\n| Ativos Problemáticos (%) | 4,00 | 2,13 | 6,96 | 9,21 |\n| Inadimplência (%) | 2,13 | 0,87 | 4,48 | 6,57 |\n| Aposentado ou pensionista |  |  |  |  |\n| Carteira (Reais) | 65.749.411,46 |  | 101.019.907,63 | 710.270.302,10 |\n| Ativos Problemáticos (%) | 0,00 |  | 16,52 | 6,20 |\n| Inadimplência (%) | 0,00 |  | 5,53 | 1,62 |\n| Autônomo |  |  |  |  |\n| Carteira (Reais) | 850.206.015,62 |  | 1.918.179.374,61 | 13.089.394.829,99 |\n| Ativos Problemáticos (%) | 1,42 |  | 22,62 | 7,78 |\n| Inadimplência (%) | 0,46 |  | 6,99 | 2,91 |",
+  "num_rows": 40,
+  "num_cols": 5
+}

@@ -1,0 +1,38 @@
+{
+  "table_index": 39,
+  "page_number": 111,
+  "caption": "TABELA 6 - ESTATÍSTICAS  DESCRITIVAS  REFERENTES  AO  IDH  E  VARIAÇÃO  NO  PERÍODO  DE OBSERVAÇÃO",
+  "headers": [
+    "ESTATÍSTICAS",
+    "IDH ANO INICIAL",
+    "IDH ANO FINAL",
+    "INCREMENTO NO PERÍODO (PONTOS)",
+    "INCREMENTO ANUAL MÉDIO (PONTOS)"
+  ],
+  "rows": [
+    [
+      "Mínimo",
+      "0,767",
+      "0,796",
+      "0,013",
+      "0,001"
+    ],
+    [
+      "Máximo",
+      "0,797",
+      "0,913",
+      "0,139",
+      "0,009"
+    ],
+    [
+      "Média",
+      "0,776",
+      "0,859",
+      "0,082",
+      "0,005"
+    ]
+  ],
+  "markdown": "| ESTATÍSTICAS | IDH ANO INICIAL | IDH ANO FINAL | INCREMENTO NO PERÍODO (PONTOS) | INCREMENTO ANUAL MÉDIO (PONTOS) |\n| --- | --- | --- | --- | --- |\n| Mínimo | 0,767 | 0,796 | 0,013 | 0,001 |\n| Máximo | 0,797 | 0,913 | 0,139 | 0,009 |\n| Média | 0,776 | 0,859 | 0,082 | 0,005 |",
+  "num_rows": 3,
+  "num_cols": 5
+}

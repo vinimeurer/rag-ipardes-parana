@@ -1,0 +1,34 @@
+| OCUPAÇÃO | Cartão de Crédito | Empréstimo com consignação em folha | Empréstimo sem consignação em folha |
+| --- | --- | --- | --- |
+| Aposentado ou pensionista |  |  |  |
+| Carteira (Reais) | 70.793.140,20 | 584.860.727,14 | 37.719.843,49 |
+| Ativos Problemáticos (%) | 14,87 | 2,62 | 23,13 |
+| Inadimplência (%) | 9,99 | 1,58 | 12,74 |
+| Autônomo |  |  |  |
+| Carteira (Reais) | 101.717.555,04 | 157.932.440,34 | 46.624.045,57 |
+| Ativos Problemáticos (%) | 18,80 | 3,34 | 24,26 |
+| Inadimplência (%) | 12,30 | 2,21 | 15,78 |
+| Empregado de empresa privada |  |  |  |
+| Carteira (Reais) | 372.775.768,49 | 297.363.438,37 | 347.194.162,32 |
+| Ativos Problemáticos (%) | 20,47 | 3,64 | 9,76 |
+| Inadimplência (%) | 13,67 | 2,32 | 4,91 |
+| Empregado de entidades sem fins lucrativos |  |  |  |
+| Carteira (Reais) | 2.424.674,25 | 5.732.489,34 | 1.438.054,29 |
+| Ativos Problemáticos (%) | 16,96 | 4,48 | 17,07 |
+| Inadimplência (%) | 12,97 | 3,37 | 8,51 |
+| Empresário |  |  |  |
+| Carteira (Reais) | 149.807.841,25 | 214.264.147,99 | 62.349.373,73 |
+| Ativos Problemáticos (%) | 16,36 | 2,85 | 22,06 |
+| Inadimplência (%) | 10,65 | 1,82 | 14,70 |
+| MEI |  |  |  |
+| Carteira (Reais) | 45.672.094,06 | 16.551.407,50 | 13.050.582,89 |
+| Ativos Problemáticos (%) | 18,27 | 2,86 | 29,24 |
+| Inadimplência (%) | 12,36 | 1,79 | 18,71 |
+| Servidor ou empregado público |  |  |  |
+| Carteira (Reais) | 83.484.066,01 | 190.708.463,11 | 35.386.989,52 |
+| Ativos Problemáticos (%) | 18,25 | 5,68 | 19,21 |
+| Inadimplência (%) | 11,86 | 3,69 | 11,13 |
+| Outros |  |  |  |
+| Carteira (Reais) | 1.596.920.367,91 | 3.051.431.385,92 | 1.015.429.996,12 |
+| Ativos Problemáticos (%) | 20,65 | 3,62 | 20,91 |
+| Inadimplência (%) | 13,46 | 2,43 | 12,37 |
