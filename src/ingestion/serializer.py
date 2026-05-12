@@ -136,9 +136,10 @@ class ExtractionSerializer:
         """
         Salva o resultado estruturado completo em arquivo .json.
 
-        O JSON inclui metadados, texto/markdown completos e conteúdo
-        por página. Tabelas são referenciadas pelo índice mas salvas
-        em separado no subdiretório tables/.
+        O JSON inclui metadados e conteúdo por página. Tabelas são 
+        referenciadas pelo índice mas salvas em separado no subdiretório 
+        tables/. Texto e Markdown completos são salvos em arquivos 
+        separados (.txt e .md).
 
         Args:
             output_dir: Diretório de destino.
@@ -151,8 +152,6 @@ class ExtractionSerializer:
         """
         payload = {
             "metadata": result.metadata,
-            "full_text": cleaned_text,
-            "full_markdown": cleaned_markdown,
             "pages": [
                 {
                     "page_number": p.page_number,
