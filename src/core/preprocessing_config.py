@@ -1,0 +1,27 @@
+from dataclasses import dataclass, field
+from pathlib import Path
+
+from .constants import EXTRACTED_DATA_DIR, PROCESSED_DATA_DIR
+
+
+@dataclass
+class PreprocessingPaths:
+    extracted_dir: Path = EXTRACTED_DATA_DIR
+    processed_dir: Path = PROCESSED_DATA_DIR
+
+
+@dataclass
+class CleaningConfig:
+    remove_headers: bool = True
+    header_patterns: list[str] | None = None
+    remove_page_numbers: bool = True
+    min_line_length: int = 20
+    min_paragraph_tokens: int = 5
+    normalize_whitespace: bool = True
+    dedup_empty_lines: bool = True
+
+
+@dataclass
+class PreprocessingConfig:
+    paths: PreprocessingPaths = field(default_factory=PreprocessingPaths)
+    cleaning: CleaningConfig = field(default_factory=CleaningConfig)
