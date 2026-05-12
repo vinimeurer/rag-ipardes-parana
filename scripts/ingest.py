@@ -12,7 +12,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from src.core.logger import setup_logger
+from src.core.logger import get_timestamped_logfile, setup_logger
 from src.ingestion import IngestionPipeline
 
 
@@ -21,15 +21,14 @@ def main() -> int:
     Executa o pipeline completo de ingestão para todos os PDFs configurados.
 
     Processa sequencialmente todos os documentos definidos em PDF_SOURCES,
-    aplicando extração via Docling, limpeza de texto e serialização dos
-    artefatos em data/extracted/. PDFs já extraídos são pulados
-    automaticamente.
+    aplicando extração via Docling e serialização dos artefatos em
+    data/extracted/. PDFs já extraídos são pulados automaticamente.
 
     Returns:
         Código de saída: 0 se todos os documentos foram processados com
         sucesso, 1 se houve falha em ao menos um documento.
     """
-    logger = setup_logger("scripts.ingest")
+    logger = setup_logger(__name__, log_file=get_timestamped_logfile("ingest"))
 
     logger.info("=" * 60)
     logger.info("Iniciando pipeline de ingestão RAG IPARDES")
@@ -41,15 +40,15 @@ def main() -> int:
     logger.info("-" * 60)
     for doc in run_result.documents:
         status = "SKIP" if doc.skipped else ("OK" if doc.success else "FAIL")
-        if doc.success and not doc.skipped and doc.cleaning_stats_text:
-            st = doc.cleaning_stats_text
+        if doc.success and not doc.skipped:
+            pages = len(doc.extraction.pages) if doc.extraction else 0
+            tables = len(doc.extraction.tables) if doc.extraction else 0
             logger.info(
-                "[%s] %s | %d→%d chars (%.1f%% redução) | artefatos: %s",
+                "[%s] %s | páginas=%d | tabelas=%d | artefatos: %s",
                 status,
                 doc.pdf_key,
-                st.original_chars,
-                st.cleaned_chars,
-                st.reduction_pct,
+                pages,
+                tables,
                 list(doc.saved_artifacts.keys()),
             )
         elif doc.skipped:

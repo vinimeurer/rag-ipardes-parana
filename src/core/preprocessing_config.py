@@ -12,13 +12,13 @@ class PreprocessingPaths:
 
 @dataclass
 class CleaningConfig:
-    remove_headers: bool = True
-    header_patterns: list[str] | None = None
+    remove_hyphenation: bool = True
+    remove_headers_footers: bool = True
     remove_page_numbers: bool = True
-    min_line_length: int = 20
-    min_paragraph_tokens: int = 5
     normalize_whitespace: bool = True
     dedup_empty_lines: bool = True
+    min_line_length: int = 15
+    min_paragraph_tokens: int = 5
 
 
 @dataclass

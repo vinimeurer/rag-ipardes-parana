@@ -1,7 +1,7 @@
 """
 Configurações centralizadas para o pipeline de ingestão de PDFs.
 
-Todas as opções de extração, limpeza, serialização e controle de pipeline
+Todas as opções de extração, serialização e controle de pipeline
 são definidas aqui, sem duplicação nos módulos de ingestão.
 """
 from dataclasses import dataclass, field
@@ -38,19 +38,6 @@ class ExtractionOutputConfig:
 
 
 @dataclass
-class TextCleaningConfig:
-    """Parâmetros de limpeza de texto pós-extração."""
-
-    remove_hyphenation: bool = True
-    normalize_whitespace: bool = True
-    remove_page_numbers: bool = True
-    remove_headers_footers: bool = True
-    min_line_length: int = 15
-    min_paragraph_tokens: int = 5
-    dedup_empty_lines: bool = True
-
-
-@dataclass
 class IngestionPipelineConfig:
     """Configuração completa do pipeline de ingestão."""
 
@@ -63,7 +50,6 @@ class IngestionPipelineConfig:
     num_workers: int = 1
     backend: DoclingBackendConfig = field(default_factory=DoclingBackendConfig)
     output: ExtractionOutputConfig = field(default_factory=ExtractionOutputConfig)
-    cleaning: TextCleaningConfig = field(default_factory=TextCleaningConfig)
 
     def ensure_dirs(self) -> None:
         """Cria os diretórios de saída se não existirem."""

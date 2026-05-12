@@ -1,8 +1,8 @@
 """
 Pipeline de ingestão de PDFs.
 
-Orquestra a extração (Docling), limpeza (TextCleaner) e
-serialização (ExtractionSerializer) para cada PDF configurado.
+Orquestra a extração (Docling) e serialização (ExtractionSerializer)
+para cada PDF configurado.
 """
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -10,7 +10,6 @@ from typing import Optional
 
 from .pdf_extractor import DoclingPDFExtractor, ExtractionResult
 from .serializer import ExtractionSerializer
-from .text_cleaner import CleaningStats, TextCleaner
 from ..core.ingestion_config import IngestionPipelineConfig
 from ..core.logger import setup_logger
 
@@ -25,8 +24,6 @@ class PipelineDocumentResult:
     pdf_key: str
     success: bool
     extraction: Optional[ExtractionResult] = None
-    cleaning_stats_text: Optional[CleaningStats] = None
-    cleaning_stats_md: Optional[CleaningStats] = None
     saved_artifacts: dict = field(default_factory=dict)
     error: Optional[str] = None
     skipped: bool = False
@@ -70,16 +67,12 @@ class IngestionPipeline:
     """
     Pipeline completo de ingestão de PDFs.
 
-    Sequência para cada documento:
-    1. Verifica se extração já existe (skip opcional)
-    2. Extrai conteúdo com DoclingPDFExtractor
-    3. Limpa o texto com TextCleaner
-    4. Serializa os artefatos com ExtractionSerializer
+    Orquestra a extração (Docling) e serialização (ExtractionSerializer)
+    para cada PDF configurado.
 
     Attributes:
         config: Configuração do pipeline.
         extractor: Instância do extrator de PDFs.
-        cleaner: Instância do limpador de texto.
         serializer: Instância do serializador de artefatos.
     """
 
@@ -94,7 +87,6 @@ class IngestionPipeline:
         self.config.ensure_dirs()
 
         self.extractor = DoclingPDFExtractor(self.config)
-        self.cleaner = TextCleaner(self.config.cleaning)
         self.serializer = ExtractionSerializer(self.config)
 
     def run(self, pdf_keys: Optional[list[str]] = None) -> PipelineRunResult:
@@ -147,20 +139,15 @@ class IngestionPipeline:
                 error=extraction.error,
             )
 
-        cleaned_text, stats_text = self.cleaner.clean(
-            extraction.full_text, source_id=pdf_key
+        saved = self.serializer.save(
+            extraction,
+            extraction.full_text,
+            extraction.full_markdown,
         )
-        cleaned_md, stats_md = self.cleaner.clean_markdown(
-            extraction.full_markdown, source_id=f"{pdf_key}(md)"
-        )
-
-        saved = self.serializer.save(extraction, cleaned_text, cleaned_md)
 
         return PipelineDocumentResult(
             pdf_key=pdf_key,
             success=True,
             extraction=extraction,
-            cleaning_stats_text=stats_text,
-            cleaning_stats_md=stats_md,
             saved_artifacts=saved,
         )

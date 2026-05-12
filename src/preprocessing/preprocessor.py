@@ -6,7 +6,7 @@ from typing import List, Optional
 from ..core.logger import setup_logger
 
 from ..core.preprocessing_config import PreprocessingConfig
-from .text_preprocessor import TextPreprocessor
+from .text_cleaner import TextCleaner
 
 
 @dataclass
@@ -39,7 +39,7 @@ class Preprocessor:
         self.config = config or PreprocessingConfig()
         self.in_dir = Path(self.config.paths.extracted_dir)
         self.out_dir = Path(self.config.paths.processed_dir)
-        self.processor = TextPreprocessor(self.config.cleaning)
+        self.processor = TextCleaner(self.config.cleaning)
         self.logger = setup_logger(__name__)
 
     def run_document(self, pdf_key: str) -> ProcessResult:
@@ -62,9 +62,16 @@ class Preprocessor:
         data = json.loads(payload)
         original_chars = sum(len(p.get("text", "")) for p in data.get("pages", []))
         pages = []
+        total_lines_removed = 0
+        total_paragraphs_removed = 0
         for p in data.get("pages", []):
             page_text = p.get("text", "")
-            cleaned = self.processor.process_page(page_text)
+            cleaned, stats = self.processor.clean(
+                page_text,
+                source_id=f"{pdf_key}:p{p.get('page_number', '?')}",
+            )
+            total_lines_removed += stats.lines_removed
+            total_paragraphs_removed += stats.paragraphs_removed
             pages.append({"page_number": p.get("page_number"), "text": cleaned})
         result_payload = {
             "metadata": data.get("metadata", {}),
@@ -97,12 +104,14 @@ class Preprocessor:
         )
 
         self.logger.info(
-            "[%s] páginas=%d | chars=%d→%d (%.1f%% redução) | arquivos: %s, %s, %s",
+            "[%s] páginas=%d | chars=%d→%d (%.1f%% redução) | linhas_removidas=%d | paragrafos_removidos=%d | arquivos: %s, %s, %s",
             pdf_key,
             len(pages),
             result.original_chars,
             result.cleaned_chars,
             result.reduction_pct,
+            total_lines_removed,
+            total_paragraphs_removed,
             result.json_path.name,
             result.text_path.name,
             result.markdown_path.name,

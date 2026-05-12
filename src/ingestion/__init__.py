@@ -7,7 +7,6 @@ from .ingestion_pipeline import IngestionPipeline, PipelineDocumentResult, Pipel
 from .pdf_extractor import DoclingPDFExtractor, ExtractedPage, ExtractionResult
 from .serializer import ExtractionSerializer
 from .table_extractor import ExtractedTable, TableExtractionResult, TableExtractor
-from .text_cleaner import CleaningStats, TextCleaner
 
 __all__ = [
     "IngestionPipeline",
@@ -16,8 +15,6 @@ __all__ = [
     "DoclingPDFExtractor",
     "ExtractionResult",
     "ExtractedPage",
-    "TextCleaner",
-    "CleaningStats",
     "ExtractionSerializer",
     "TableExtractor",
     "TableExtractionResult",

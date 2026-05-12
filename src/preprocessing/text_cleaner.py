@@ -8,7 +8,7 @@ import re
 import unicodedata
 from dataclasses import dataclass
 
-from ..core.ingestion_config import TextCleaningConfig
+from ..core.preprocessing_config import CleaningConfig
 from ..core.logger import setup_logger
 
 
@@ -52,7 +52,7 @@ class TextCleaner:
     _MULTI_SPACE_RE = re.compile(r"[ \t]{2,}")
     _CONTROL_CHARS_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
 
-    def __init__(self, config: TextCleaningConfig):
+    def __init__(self, config: CleaningConfig):
         """
         Inicializa o limpador com a configuração de limpeza.
 
