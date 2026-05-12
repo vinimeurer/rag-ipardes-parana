@@ -7,6 +7,7 @@ from ..core.logger import setup_logger
 
 from ..core.preprocessing_config import PreprocessingConfig
 from .text_cleaner import TextCleaner
+from .table_processor import TableProcessor
 
 
 @dataclass
@@ -140,3 +141,61 @@ class Preprocessor:
                 continue
         self.logger.info("Pré-processamento concluído: %d documento(s).", len(results))
         return results
+
+    def process_tables_for_all(self) -> dict:
+        """Process extracted tables for all documents.
+
+        Iterates through all documents in the extracted directory,
+        processes their tables, and saves to processed directory.
+
+        Returns:
+            Dictionary with document counts and processing summary.
+        """
+        pdf_keys = self._get_all_pdf_keys()
+        if not pdf_keys:
+            self.logger.warning("Nenhum documento encontrado para processamento de tabelas.")
+            return {"documents_with_tables": 0, "total_tables": 0}
+
+        table_processor = TableProcessor(self.config.tables)
+        total_tables = 0
+        documents_with_tables = 0
+
+        self.logger.info("Iniciando processamento de tabelas para %d documento(s).", len(pdf_keys))
+
+        for pdf_key in pdf_keys:
+            try:
+                tables = table_processor.process_document_tables(
+                    pdf_key, self.in_dir, self.out_dir
+                )
+                if tables:
+                    documents_with_tables += 1
+                    total_tables += len(tables)
+                    self.logger.info(
+                        "[%s] Tabelas processadas: %d", pdf_key, len(tables)
+                    )
+            except Exception:
+                self.logger.exception(
+                    "Falha ao processar tabelas do documento '%s'", pdf_key
+                )
+                continue
+
+        self.logger.info(
+            "Processamento de tabelas concluído: %d documento(s) com tabelas | total=%d tabelas",
+            documents_with_tables,
+            total_tables,
+        )
+
+        return {
+            "documents_with_tables": documents_with_tables,
+            "total_tables": total_tables,
+        }
+
+    def _get_all_pdf_keys(self) -> List[str]:
+        """Get list of all available PDF keys in extracted directory.
+
+        Returns:
+            List of directory names representing PDF keys.
+        """
+        if not self.in_dir.exists():
+            return []
+        return [p.name for p in self.in_dir.iterdir() if p.is_dir()]

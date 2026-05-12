@@ -37,7 +37,10 @@ def main() -> int:
 	preprocessor = Preprocessor(config)
 	results = preprocessor.run_all()
 
-	logger.info("Step 3: Consolidando resultados...")
+	logger.info("Step 3: Processando tabelas dos documentos...")
+	table_results = preprocessor.process_tables_for_all()
+
+	logger.info("Step 4: Consolidando resultados...")
 	total_original = sum(r.original_chars for r in results)
 	total_cleaned = sum(r.cleaned_chars for r in results)
 	total_pages = sum(len(r.pages) for r in results)
@@ -56,11 +59,13 @@ def main() -> int:
 	logger.info("%s", "-" * 60)
 	logger.info("RESUMO DO PRÉ-PROCESSAMENTO")
 	logger.info("%s", "-" * 60)
-	logger.info("Total de documentos: %d", len(results))
+	logger.info("Total de documentos processados: %d", len(results))
 	logger.info("Total de páginas: %d", total_pages)
 	logger.info("Caracteres originais: %d", total_original)
 	logger.info("Caracteres finais: %d", total_cleaned)
 	logger.info("Redução total: %.2f%%", total_reduction)
+	logger.info("Documentos com tabelas: %d", table_results["documents_with_tables"])
+	logger.info("Total de tabelas processadas: %d", table_results["total_tables"])
 	logger.info("%s", "-" * 60)
 	logger.info("✓ PRÉ-PROCESSAMENTO CONCLUÍDO")
 

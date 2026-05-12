@@ -22,6 +22,15 @@ class CleaningConfig:
 
 
 @dataclass
+class TableProcessingConfig:
+    extract_metadata: bool = True
+    include_caption: bool = True
+    markdown_file_pattern: str = "table_{:03d}.md"
+    json_output_pattern: str = "table_{:03d}.json"
+
+
+@dataclass
 class PreprocessingConfig:
     paths: PreprocessingPaths = field(default_factory=PreprocessingPaths)
     cleaning: CleaningConfig = field(default_factory=CleaningConfig)
+    tables: TableProcessingConfig = field(default_factory=TableProcessingConfig)
