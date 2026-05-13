@@ -1,10 +1,11 @@
 import json
 from dataclasses import dataclass
 from pathlib import Path
-from typing import List, Optional
+from typing import Optional, List
 
 from ..core.logger import setup_logger
-from ..core.preprocessing_config import TableProcessingConfig
+from ..core.preprocessing_config import TableProcessingConfig, CleaningConfig
+from .text_cleaner import TextCleaner
 
 
 @dataclass
@@ -31,7 +32,89 @@ class TableProcessor:
 
     def __init__(self, config: Optional[TableProcessingConfig] = None):
         self.config = config or TableProcessingConfig()
+        self.cleaner = TextCleaner(CleaningConfig())
         self.logger = setup_logger(__name__)
+
+    def load_tables_for_document(
+        self, pdf_key: str, extracted_dir: Path
+    ) -> list[dict]:
+        """Load tables for a document as content items ready for insertion.
+
+        Returns a list of dicts in the format expected by the preprocessor's
+        content array. The sections field is left empty and will be filled
+        by the preprocessor based on active sections at the table's page.
+
+        Args:
+            pdf_key: Document identifier.
+            extracted_dir: Root directory containing extracted data.
+
+        Returns:
+            List of content items with type='table'.
+        """
+        tables_src = extracted_dir / pdf_key / "tables"
+        if not tables_src.exists():
+            return []
+
+        content_items = []
+        tables_index_path = tables_src / "tables_index.json"
+
+        if not tables_index_path.exists():
+            return []
+
+        index_payload = tables_index_path.read_text(encoding="utf-8")
+        tables_index = json.loads(index_payload)
+
+        for table_info in tables_index.get("tables", []):
+            try:
+                item = self._table_info_to_content_item(pdf_key, tables_src, table_info)
+                if item:
+                    content_items.append(item)
+            except Exception:
+                table_idx = table_info.get("table_index", "?")
+                self.logger.warning(
+                    "[%s] Failed to load table (index=%s)",
+                    pdf_key,
+                    table_idx,
+                )
+                continue
+
+        return content_items
+
+    def _table_info_to_content_item(
+        self, pdf_key: str, tables_dir: Path, table_info: dict
+    ) -> dict | None:
+        """Convert table info to a content item for the unified content array.
+
+        Args:
+            pdf_key: Document identifier.
+            tables_dir: Directory containing table files.
+            table_info: Metadata from tables_index.json.
+
+        Returns:
+            Content item dict or None if conversion fails.
+        """
+        table_index = table_info.get("table_index")
+        if table_index is None:
+            return None
+
+        page_number = table_info.get("page_number")
+        caption = table_info.get("caption")
+
+        markdown_file = tables_dir / f"table_{table_index:03d}.md"
+        if not markdown_file.exists():
+            return None
+
+        content = markdown_file.read_text(encoding="utf-8")
+        content = self.cleaner.clean_table_content(content)
+
+        return {
+            "document": pdf_key,
+            "page": page_number,
+            "sections": [],
+            "type": "table",
+            "caption": caption if caption else None,
+            "content": content,
+        }
 
     def process_document_tables(
         self, pdf_key: str, extracted_dir: Path, processed_dir: Path

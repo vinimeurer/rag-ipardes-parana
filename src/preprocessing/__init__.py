@@ -1,5 +1,13 @@
 
 from .preprocessor import Preprocessor, ProcessResult
-from .text_cleaner import CleaningStats, TextCleaner
+from .section_parser import SectionParser
+from .text_cleaner import TextCleaner
+from .table_processor import TableProcessor
 
-__all__ = ["Preprocessor", "ProcessResult", "TextCleaner", "CleaningStats"]
+__all__ = [
+    "Preprocessor",
+    "ProcessResult",
+    "SectionParser",
+    "TextCleaner",
+    "TableProcessor",
+]

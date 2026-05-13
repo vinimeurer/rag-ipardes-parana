@@ -37,35 +37,30 @@ def main() -> int:
 	preprocessor = Preprocessor(config)
 	results = preprocessor.run_all()
 
-	logger.info("Step 3: Processando tabelas dos documentos...")
-	table_results = preprocessor.process_tables_for_all()
-
-	logger.info("Step 4: Consolidando resultados...")
-	total_original = sum(r.original_chars for r in results)
-	total_cleaned = sum(r.cleaned_chars for r in results)
-	total_pages = sum(len(r.pages) for r in results)
-	total_reduction = 0.0 if total_original == 0 else round((1 - total_cleaned / total_original) * 100, 2)
+	logger.info("Step 3: Consolidando resultados...")
+	total_pages = sum(r.total_pages for r in results)
+	total_text_items = sum(r.total_text_items for r in results)
+	total_table_items = sum(r.total_table_items for r in results)
+	total_items = sum(r.total_items for r in results)
 
 	for result in results:
 		logger.info(
-			"✓ %s | páginas=%d | chars=%d→%d (%.1f%% redução)",
+			"✓ %s | páginas=%d | itens_texto=%d | tabelas=%d | total=%d",
 			result.pdf_key,
-			len(result.pages),
-			result.original_chars,
-			result.cleaned_chars,
-			result.reduction_pct,
+			result.total_pages,
+			result.total_text_items,
+			result.total_table_items,
+			result.total_items,
 		)
 
 	logger.info("%s", "-" * 60)
 	logger.info("RESUMO DO PRÉ-PROCESSAMENTO")
 	logger.info("%s", "-" * 60)
-	logger.info("Total de documentos processados: %d", len(results))
+	logger.info("Total de documentos: %d", len(results))
 	logger.info("Total de páginas: %d", total_pages)
-	logger.info("Caracteres originais: %d", total_original)
-	logger.info("Caracteres finais: %d", total_cleaned)
-	logger.info("Redução total: %.2f%%", total_reduction)
-	logger.info("Documentos com tabelas: %d", table_results["documents_with_tables"])
-	logger.info("Total de tabelas processadas: %d", table_results["total_tables"])
+	logger.info("Total de itens texto: %d", total_text_items)
+	logger.info("Total de tabelas: %d", total_table_items)
+	logger.info("Total de itens: %d", total_items)
 	logger.info("%s", "-" * 60)
 	logger.info("✓ PRÉ-PROCESSAMENTO CONCLUÍDO")
 

@@ -144,6 +144,25 @@ class TextCleaner:
 
         return markdown, stats
 
+    def clean_table_content(self, content: str) -> str:
+        """Clean table content with minimal processing.
+
+        Applies only unicode normalization and control character removal
+        without line or paragraph filtering. Table cells are naturally
+        short and would be incorrectly removed by heuristic filters
+        designed for body text. Filtering short lines would destroy
+        table structure, removing valuable data cells and headers.
+
+        Args:
+            content: Raw table content from extraction.
+
+        Returns:
+            Minimally processed table content.
+        """
+        content = self._normalize_unicode(content)
+        content = self._remove_control_chars(content)
+        return content.strip()
+
     def _normalize_unicode(self, text: str) -> str:
         """Normaliza o texto para forma Unicode NFC."""
         return unicodedata.normalize("NFC", text)

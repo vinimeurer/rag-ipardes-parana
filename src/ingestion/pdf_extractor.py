@@ -137,10 +137,13 @@ class DoclingPDFExtractor:
             conversion = self._converter.convert(str(pdf_path))
             docling_doc: DoclingDocument = conversion.document
 
-            full_markdown = docling_doc.export_to_markdown()
             full_text = docling_doc.export_to_text()
 
             pages = self._extract_pages(docling_doc)
+            
+            # Montar full_markdown a partir das páginas com marcadores de página
+            full_markdown = "\n\n".join(page.markdown for page in pages)
+
             table_result: TableExtractionResult = self._table_extractor.extract(
                 pdf_key, docling_doc
             )
@@ -184,11 +187,14 @@ class DoclingPDFExtractor:
 
     def _extract_pages(self, docling_doc: DoclingDocument) -> list[ExtractedPage]:
         """
-        Extrai conteúdo textual por página, excluindo células de tabela.
+        Extrai conteúdo por página, preservando estrutura markdown do Docling.
 
         Tabelas são intencionalmente ignoradas aqui pois têm tratamento
         dedicado via TableExtractor. Isso evita que o conteúdo tabular
         seja duplicado no texto corrido das páginas.
+
+        O campo 'text' é salvo puro (texto plano) para o JSON.
+        O campo 'markdown' preserva a estrutura markdown do Docling e adiciona `<!-- PAGE: X -->`.
 
         Args:
             docling_doc: Documento convertido pelo Docling.
@@ -202,27 +208,57 @@ class DoclingPDFExtractor:
 
         if not (hasattr(docling_doc, "pages") and docling_doc.pages):
             full_text = docling_doc.export_to_text()
-            return [ExtractedPage(page_number=1, text=full_text, markdown=full_text)]
+            full_markdown = f"<!-- PAGE: 1 -->\n\n{full_text}"
+            return [ExtractedPage(page_number=1, text=full_text, markdown=full_markdown)]
 
-        for page_no in sorted(docling_doc.pages.keys()):
-            page_texts: list[str] = []
+        # Organize content by page
+        page_texts: dict[int, list[str]] = {p: [] for p in sorted(docling_doc.pages.keys())}
+        page_markdowns: dict[int, list[str]] = {p: [] for p in sorted(docling_doc.pages.keys())}
 
-            for item, _level in docling_doc.iterate_items():
-                if isinstance(item, _TableItem):
-                    continue
-                if not (hasattr(item, "prov") and item.prov):
-                    continue
-                if not any(p.page_no == page_no for p in item.prov):
-                    continue
-                if hasattr(item, "text") and item.text:
-                    page_texts.append(item.text.strip())
+        for item, _level in docling_doc.iterate_items():
+            if isinstance(item, _TableItem):
+                continue
+            if not (hasattr(item, "prov") and item.prov):
+                continue
 
-            page_text = "\n".join(t for t in page_texts if t)
+            page_no = item.prov[0].page_no
+            if page_no not in page_markdowns:
+                continue
+
+            if not hasattr(item, "text") or not item.text:
+                continue
+
+            text_content = item.text.strip()
+
+            # Add plain text
+            page_texts[page_no].append(text_content)
+
+            # Add markdown - try to reconstruct with markdown formatting if applicable
+            # Check for common heading types
+            item_type = type(item).__name__
+            markdown_content = text_content
+            
+            if item_type in ("SectionHeaderItem", "TitleItem"):
+                # Try to get level attribute
+                level = getattr(item, "level", 1)
+                markdown_content = f"{'#' * level} {text_content}"
+
+            page_markdowns[page_no].append(markdown_content)
+
+        # Build ExtractedPage objects
+        for page_no in sorted(page_markdowns.keys()):
+            # Plain text version (no formatting, no page markers)
+            page_text = "\n\n".join(t for t in page_texts[page_no] if t)
+
+            # Markdown version (preserves structure, adds page marker)
+            page_md_content = "\n\n".join(t for t in page_markdowns[page_no] if t)
+            page_markdown = f"<!-- PAGE: {page_no} -->\n\n{page_md_content}"
+
             pages.append(
                 ExtractedPage(
                     page_number=page_no,
                     text=page_text,
-                    markdown=page_text,
+                    markdown=page_markdown,
                 )
             )
 
