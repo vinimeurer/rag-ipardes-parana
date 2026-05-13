@@ -15,6 +15,7 @@ class CleaningConfig:
     remove_headers: bool = True
     header_patterns: list[str] | None = None
     remove_page_numbers: bool = True
+    remove_hyphenation: bool = True
     min_line_length: int = 20
     min_paragraph_tokens: int = 5
     normalize_whitespace: bool = True
@@ -22,6 +23,16 @@ class CleaningConfig:
 
 
 @dataclass
+class TableProcessingConfig:
+    include_caption: bool = True
+    markdown_file_pattern: str = "table_{:03d}.md"
+    json_output_pattern: str = "table{:03d}.json"
+    extract_metadata: bool = False
+
+
+@dataclass
 class PreprocessingConfig:
     paths: PreprocessingPaths = field(default_factory=PreprocessingPaths)
     cleaning: CleaningConfig = field(default_factory=CleaningConfig)
+    tables: TableProcessingConfig = field(default_factory=TableProcessingConfig)
+
