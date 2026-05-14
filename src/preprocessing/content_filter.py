@@ -21,6 +21,8 @@ SUMMARY_SECTIONS = {"SUMÁRIO", "SUMARIO", "SUMARIO EXECUTIVO", "ÍNDICE"}
 REFERENCES_SECTIONS = {"REFERÊNCIAS", "REFERENCIAS", "BIBLIOGRAPHY", "REFERÊNCIAS BIBLIOGRÁFICAS"}
 AUXILIARY_SECTIONS = {"LISTA DE SIGLAS", "SIGLAS", "ABREVIAÇÕES"}
 ORPHAN_REFERENCE_PREFIXES = ("GRÁFICO", "FIGURA", "QUADRO", "TABELA")
+SHORT_CAPTION_MIN_TOKENS = 1
+SHORT_CAPTION_MAX_TOKENS = 40
 
 
 class ContentFilter:
@@ -59,6 +61,7 @@ class ContentFilter:
             "sumario": 0,
             "referencias": 0,
             "orphan_references": 0,
+            "short_captions": 0,
             "auxiliary_marked": 0,
         }
 
@@ -95,6 +98,10 @@ class ContentFilter:
                 counts["orphan_references"] += 1
                 continue
 
+            if self._is_short_caption(item):
+                counts["short_captions"] += 1
+                continue
+
             item = self._mark_auxiliary(item)
             if item.get("is_auxiliary"):
                 counts["auxiliary_marked"] += 1
@@ -105,7 +112,7 @@ class ContentFilter:
 
         self.logger.debug(
             "[%s] Filtrage concluída: %d → %d itens | "
-            "header_only=%d | institutional=%d | sumario=%d | referencias=%d | orphan_references=%d | auxiliary_marked=%d",
+            "header_only=%d | institutional=%d | sumario=%d | referencias=%d | orphan_references=%d | short_captions=%d | auxiliary_marked=%d",
             pdf_key,
             original_count,
             len(filtered),
@@ -114,6 +121,7 @@ class ContentFilter:
             counts["sumario"],
             counts["referencias"],
             counts["orphan_references"],
+            counts["short_captions"],
             counts["auxiliary_marked"],
         )
 
@@ -184,6 +192,20 @@ class ContentFilter:
     def _has_table_body(self, content: str) -> bool:
         """Detecta se o conteúdo já contém linhas de tabela Markdown."""
         return any(line.lstrip().startswith("|") for line in content.splitlines())
+
+    def _is_short_caption(self, item: dict) -> bool:
+        """
+        Verifica se um item é um caption muito curto (10-50 tokens).
+
+        Esses itens são legítimos como captions de tabelas, mas geram chunks
+        minúsculos no chunker e não têm valor semântico suficiente por si só.
+        """
+        content = item.get("content", "").strip()
+        if not content:
+            return False
+
+        token_count = len(content.split())
+        return SHORT_CAPTION_MIN_TOKENS <= token_count <= SHORT_CAPTION_MAX_TOKENS
 
     def _mark_auxiliary(self, item: dict) -> dict:
         """
