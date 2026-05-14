@@ -3,7 +3,7 @@
     "pdf_key": "desenvolvimento_paranaense",
     "description": "Desenvolvimento Paranaense - Análise socioeconômica do Estado",
     "total_pages": 211,
-    "processed_at": "2026-05-13T17:01:08.949442",
+    "processed_at": "2026-05-13T23:59:43.529810",
     "has_sections": true
   },
   "content": [
@@ -11,10 +11,37 @@
       "document": "desenvolvimento_paranaense",
       "page": 1,
       "sections": [
+        "DESENVOLVIMENTO PARANAENSE: CONTEXTO, TENDÊNCIAS E DESAFIOS"
+      ],
+      "type": "text",
+      "content": "# DESENVOLVIMENTO PARANAENSE: CONTEXTO, TENDÊNCIAS E DESAFIOS"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 1,
+      "sections": [
         "CURITIBA JULHO 2022"
       ],
       "type": "text",
-      "content": "# DESENVOLVIMENTO PARANAENSE: CONTEXTO, TENDÊNCIAS E DESAFIOS\n\n# CURITIBA JULHO 2022"
+      "content": "# CURITIBA JULHO 2022"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 2,
+      "sections": [
+        "GOVERNO DO ESTADO DO PARANÁ"
+      ],
+      "type": "text",
+      "content": "# GOVERNO DO ESTADO DO PARANÁ\n\nCARLOS MASSA RATINHO JÚNIOR Governador"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 2,
+      "sections": [
+        "SECRETARIA DO PLANEJAMENTO E PROJETOS ESTRUTURANTES"
+      ],
+      "type": "text",
+      "content": "# SECRETARIA DO PLANEJAMENTO E PROJETOS ESTRUTURANTES\n\nLOUISE DA COSTA E SILVA GARNICA Secretária"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -23,7 +50,7 @@
         "INSTITUTO PARANAENSE DE DESENVOLVIMENTO ECONÔMICO E SOCIAL"
       ],
       "type": "text",
-      "content": "# GOVERNO DO ESTADO DO PARANÁ\n\nCARLOS MASSA RATINHO JÚNIOR Governador\n\n# SECRETARIA DO PLANEJAMENTO E PROJETOS ESTRUTURANTES\n\nLOUISE DA COSTA E SILVA GARNICA Secretária\n\n# INSTITUTO PARANAENSE DE DESENVOLVIMENTO ECONÔMICO E SOCIAL\n\nDANIEL NOJIMA Diretor-Presidente FRANCISCO CARLOS ROGÉRIO Diretor Administrativo-Financeiro JULIO TAKESHI SUZUKI JÚNIOR Diretor do Centro de Pesquisa\n\nGUSTAVO NUNES MOURÃO Diretor do Centro Estadual de Estatística EQUIPE TÉCNICA Daniel Nojima Coordenador Francisco José Gouveia de Castro Guilherme Amorim Julio Takeshi Suzuki Júnior Leonildo Pereira de Souza Mari Aparecida dos Santos Paulo Roberto Delgado Reynaldo Aquino de Paula (colaborador)\n\nEDITORAÇÃO Marcelo Antonio Coordenação Maria Laura Zocolotti - Supervisão Editorial Diogo Augusto Cotovicz Web Designer/Criação\n\nDESENVOLVIMENTO PARANAENSE: CONTEXTO, TENDÊNCIAS E DESAFIOS\n\n2"
+      "content": "# INSTITUTO PARANAENSE DE DESENVOLVIMENTO ECONÔMICO E SOCIAL\n\nDANIEL NOJIMA Diretor-Presidente FRANCISCO CARLOS ROGÉRIO Diretor Administrativo-Financeiro JULIO TAKESHI SUZUKI JÚNIOR Diretor do Centro de Pesquisa\n\nGUSTAVO NUNES MOURÃO Diretor do Centro Estadual de Estatística EQUIPE TÉCNICA Daniel Nojima Coordenador Francisco José Gouveia de Castro Guilherme Amorim Julio Takeshi Suzuki Júnior Leonildo Pereira de Souza Mari Aparecida dos Santos Paulo Roberto Delgado Reynaldo Aquino de Paula (colaborador)\n\nEDITORAÇÃO Marcelo Antonio Coordenação Maria Laura Zocolotti - Supervisão Editorial Diogo Augusto Cotovicz Web Designer/Criação\n\nDESENVOLVIMENTO PARANAENSE: CONTEXTO, TENDÊNCIAS E DESAFIOS\n\n2"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -38,10 +65,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 4,
       "sections": [
+        "PARTE 1"
+      ],
+      "type": "text",
+      "content": "# PARTE 1"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 4,
+      "sections": [
         "SUMARIO"
       ],
       "type": "text",
-      "content": "# PARTE 1\n\n# SUMARIO\n\n7\n\n17\n\n39\n\n61\n\n71\n\n85"
+      "content": "# SUMARIO\n\n7\n\n17\n\n39\n\n61\n\n71\n\n85"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -66,10 +102,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 6,
       "sections": [
+        "TRAJETÓRIA E PERSPECTIVAS DO CRESCIMENTO ECONÔMICO DO PARANÁ"
+      ],
+      "type": "text",
+      "content": "# TRAJETÓRIA E PERSPECTIVAS DO CRESCIMENTO ECONÔMICO DO PARANÁ"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 6,
+      "sections": [
         "INTRODUÇÃO"
       ],
       "type": "text",
-      "content": "# TRAJETÓRIA E PERSPECTIVAS DO CRESCIMENTO ECONÔMICO DO PARANÁ\n\n# INTRODUÇÃO\n\nO presente texto tem por objetivo investigar o perfil do crescimento da economia paranaense e apresentar indicações sobre seu futuro até meados da próxima década. Trata-se de analisar seu crescimento potencial pregresso e futuro em termos de variáveischave, em lugar de tecer considerações sobre ciclos vindouros de crescimento associados à demanda agregada regional e à externa (nacional e internacional).\n\nDe modo específico, o trabalho analisa a evolução do PIB e do PIB per capita e, nesta linha, caracteriza-se pelo recurso de conjecturas quanto a variáveis de difícil mensuração, como estoque de capital e produtividade, além de estatísticas socioeconômicas oficiais disponíveis e estudos específicos, com fins de aplicação de instrumental básico de teoria e contabilidade do crescimento econômico à realidade paranaense. Como objetivo maior, procura indicar padrões de esforço de âmbito macroeconômico, em nível regional, a serem observados e, de algum modo, buscados pela gestão público-privada nos anos à frente, visando, por exemplo, ao enfrentamento do declínio do crescimento populacional e encerramento do bônus demográfico já na presente década.\n\nCumpre reiterar que essa elaboração não se dedica ao exame da evolução da demanda agregada futura, cujos condicionantes abarcam outro leque de considerações, vinculado à macroeconomia de curto prazo e à série de fatores aí implícitos, como expectativas e condições domésticas de renda e emprego e da economia internacional. Sem negar a relevância desse prisma, privilegia-se aqui a importância da antevisão de condições estruturais - primordiais ao melhor aproveitamento dos ciclos futuros de expansão da despesa agregada.\n\nO presente trabalho se estrutura como segue. Na primeira seção apura-se o desempenho econômico anterior do Estado nas últimas décadas e confere-se um primeiro tratamento das condições e parâmetros que fundamentam esse desempenho. Com base nos resultados dessa análise, na segunda parte propõe-se a elaborar possíveis trajetórias de expansão do seu crescimento potencial nos próximos 15 anos. A última seção, por sua vez, traz apontamentos sobre linhas de atenção direcionadas ao futuro da economia paranaense.\n\n* Economista, Diretor-Presidente do IPARDES.\n\nDaniel Nojima *"
+      "content": "# INTRODUÇÃO\n\nO presente texto tem por objetivo investigar o perfil do crescimento da economia paranaense e apresentar indicações sobre seu futuro até meados da próxima década. Trata-se de analisar seu crescimento potencial pregresso e futuro em termos de variáveischave, em lugar de tecer considerações sobre ciclos vindouros de crescimento associados à demanda agregada regional e à externa (nacional e internacional).\n\nDe modo específico, o trabalho analisa a evolução do PIB e do PIB per capita e, nesta linha, caracteriza-se pelo recurso de conjecturas quanto a variáveis de difícil mensuração, como estoque de capital e produtividade, além de estatísticas socioeconômicas oficiais disponíveis e estudos específicos, com fins de aplicação de instrumental básico de teoria e contabilidade do crescimento econômico à realidade paranaense. Como objetivo maior, procura indicar padrões de esforço de âmbito macroeconômico, em nível regional, a serem observados e, de algum modo, buscados pela gestão público-privada nos anos à frente, visando, por exemplo, ao enfrentamento do declínio do crescimento populacional e encerramento do bônus demográfico já na presente década.\n\nCumpre reiterar que essa elaboração não se dedica ao exame da evolução da demanda agregada futura, cujos condicionantes abarcam outro leque de considerações, vinculado à macroeconomia de curto prazo e à série de fatores aí implícitos, como expectativas e condições domésticas de renda e emprego e da economia internacional. Sem negar a relevância desse prisma, privilegia-se aqui a importância da antevisão de condições estruturais - primordiais ao melhor aproveitamento dos ciclos futuros de expansão da despesa agregada.\n\nO presente trabalho se estrutura como segue. Na primeira seção apura-se o desempenho econômico anterior do Estado nas últimas décadas e confere-se um primeiro tratamento das condições e parâmetros que fundamentam esse desempenho. Com base nos resultados dessa análise, na segunda parte propõe-se a elaborar possíveis trajetórias de expansão do seu crescimento potencial nos próximos 15 anos. A última seção, por sua vez, traz apontamentos sobre linhas de atenção direcionadas ao futuro da economia paranaense.\n\n* Economista, Diretor-Presidente do IPARDES.\n\nDaniel Nojima *"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -167,10 +212,28 @@
       "document": "desenvolvimento_paranaense",
       "page": 15,
       "sections": [
+        "CONSIDERAÇÕES SOBRE A PRODUTIVIDADE DA ECONOMIA PARANAENSE"
+      ],
+      "type": "text",
+      "content": "# CONSIDERAÇÕES SOBRE A PRODUTIVIDADE DA ECONOMIA PARANAENSE"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 15,
+      "sections": [
+        "INTRODUÇÃO"
+      ],
+      "type": "text",
+      "content": "# INTRODUÇÃO\n\nA produtividade constitui um dos pilares do desenvolvimento econômico, sendo importante à ampliação de capacidade produtiva e de competitividade e aos ganhos de bem-estar de uma sociedade. Diversos trabalhos vêm apurando sua evolução para a economia brasileira, cuja conclusão maior tem sido o seu lento crescimento. A presente Nota trata dessa temática no caso paranaense, procurando propiciar uma leitura de sua evolução durante as últimas décadas e, também, destacar o perfil dessa evolução.\n\nA avaliação ocorre pela elaboração de uma medida parcial - a produtividade do fator trabalho -, relegando a outra oportunidade a consideração da medida mais abrangente, usualmente conhecida como produtividade total dos fatores, incluindo, entre outros, o capital físico e o capital humano.\n\nA partir disso, procede-se ao levantamento do comportamento dessa produtividade para o conjunto da economia paranaense e, em seguida, especificamente para o seu setor industrial. Este, além de sua importância na obtenção, por exemplo, de saldos comerciais, correspondentes divisas e inserção internacional, conta com informações de ótima qualidade estatística, especialmente referentes à Pesquisa Industrial Anual, do IBGE, conforme tratada mais à frente. Em passo adiante, procura-se explorar, nas duas abordagens, a ideia de crescimento da produtividade global associada a mudanças estruturais e/ou a desempenhos setoriais via o método shift and share . Por fim, procede-se a uma avaliação da questão da inovação.\n\nAs próximas seções tratam inicialmente de aspectos metodológicos, apresentando-se, na sequência, resultados e respectiva análise. A seção final presta-se às considerações mais gerais, incluindo recomendações com vistas ao alcance de maior desempenho para a variável em tela."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 15,
+      "sections": [
         "1 ASPECTOS METODOLÓGICOS"
       ],
       "type": "text",
-      "content": "# CONSIDERAÇÕES SOBRE A PRODUTIVIDADE DA ECONOMIA PARANAENSE\n\n# INTRODUÇÃO\n\nA produtividade constitui um dos pilares do desenvolvimento econômico, sendo importante à ampliação de capacidade produtiva e de competitividade e aos ganhos de bem-estar de uma sociedade. Diversos trabalhos vêm apurando sua evolução para a economia brasileira, cuja conclusão maior tem sido o seu lento crescimento. A presente Nota trata dessa temática no caso paranaense, procurando propiciar uma leitura de sua evolução durante as últimas décadas e, também, destacar o perfil dessa evolução.\n\nA avaliação ocorre pela elaboração de uma medida parcial - a produtividade do fator trabalho -, relegando a outra oportunidade a consideração da medida mais abrangente, usualmente conhecida como produtividade total dos fatores, incluindo, entre outros, o capital físico e o capital humano.\n\nA partir disso, procede-se ao levantamento do comportamento dessa produtividade para o conjunto da economia paranaense e, em seguida, especificamente para o seu setor industrial. Este, além de sua importância na obtenção, por exemplo, de saldos comerciais, correspondentes divisas e inserção internacional, conta com informações de ótima qualidade estatística, especialmente referentes à Pesquisa Industrial Anual, do IBGE, conforme tratada mais à frente. Em passo adiante, procura-se explorar, nas duas abordagens, a ideia de crescimento da produtividade global associada a mudanças estruturais e/ou a desempenhos setoriais via o método shift and share . Por fim, procede-se a uma avaliação da questão da inovação.\n\nAs próximas seções tratam inicialmente de aspectos metodológicos, apresentando-se, na sequência, resultados e respectiva análise. A seção final presta-se às considerações mais gerais, incluindo recomendações com vistas ao alcance de maior desempenho para a variável em tela.\n\n# 1 ASPECTOS METODOLÓGICOS\n\nA produtividade dos fatores de produção pode ser medida do ponto de vista do conjunto desses fatores (conhecida como produtividade total dos fatores - PTF) ou de apenas um deles. Normalmente, a disponibilidade de dados - especialmente de estoque\n\n* Economista, Diretor-Presidente do IPARDES.\n\nDaniel Nojima *"
+      "content": "# 1 ASPECTOS METODOLÓGICOS\n\nA produtividade dos fatores de produção pode ser medida do ponto de vista do conjunto desses fatores (conhecida como produtividade total dos fatores - PTF) ou de apenas um deles. Normalmente, a disponibilidade de dados - especialmente de estoque\n\n* Economista, Diretor-Presidente do IPARDES.\n\nDaniel Nojima *"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -185,10 +248,28 @@
       "document": "desenvolvimento_paranaense",
       "page": 17,
       "sections": [
+        "1 ASPECTOS METODOLÓGICOS"
+      ],
+      "type": "text",
+      "content": "Com os ajustes acima comentados, a produtividade do trabalho é calculada pelo simples quociente entre o valor agregado e o pessoal ocupado. Para as contas regionais, os valores são corrigidos para o ano-base de 2019 pelos deflatores implícitos do valor adicionado bruto. Para o VTI da PIA a correção é dada pela série encadeada do IPA-OGIPP, acima mencionada.\n\nPara o pessoal ocupado, utilizam-se os dados da antiga PNAD até o ano de 2011 e os dados da PNAD-Contínua para os anos de 2012 a 2019. Especificamente para o ano de 2010, em que houve realização de Censo e não de PNAD, procede-se a uma interpolação simples com os dados da PNAD de 2009 e 2011."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 17,
+      "sections": [
         "2 AS FONTES DA PRODUTIVIDADE E O MÉTODO SHIFT AND SHARE"
       ],
       "type": "text",
-      "content": "Com os ajustes acima comentados, a produtividade do trabalho é calculada pelo simples quociente entre o valor agregado e o pessoal ocupado. Para as contas regionais, os valores são corrigidos para o ano-base de 2019 pelos deflatores implícitos do valor adicionado bruto. Para o VTI da PIA a correção é dada pela série encadeada do IPA-OGIPP, acima mencionada.\n\nPara o pessoal ocupado, utilizam-se os dados da antiga PNAD até o ano de 2011 e os dados da PNAD-Contínua para os anos de 2012 a 2019. Especificamente para o ano de 2010, em que houve realização de Censo e não de PNAD, procede-se a uma interpolação simples com os dados da PNAD de 2009 e 2011.\n\n# 2 AS FONTES DA PRODUTIVIDADE E O MÉTODO SHIFT AND SHARE\n\nEntre indagações importantes, frequentemente colocadas em questão pela literatura teórica e por planejadores, estão as seguintes:\n\n se a produtividade resulta de realocações de fatores de produção de atividades de menor produtividade para as de maior produtividade;\n\n se os padrões gerais de produtividade se associam a ganhos mais ou menos generalizados de produtividade ao longo dos diversos setores e empresas que compõem o conjunto da produção de uma economia.\n\nNessa linha, elaborações da técnica shift and share permitem justamente avaliar a natureza da expansão da produtividade. E a proposta a ser utilizada corresponde à adotada em Cimoli, Pereira, Porcile e Scatolin (2008) e em Alam, Casero, Khan e Udomsaph (2008), cuja formulação segue abaixo:\n\nem que:\n\nVar P/P0: variação da produtividade do conjunto da economia ou de um grande setor;\n\nP0: produtividade do conjunto da economia ou de um grande setor no momento inicial;\n\nP0i: produtividade do setor i no momento inicial;\n\nP1i: produtividade do setor i no momento final;\n\nS0i: participação emprego do setor i no momento inicial;\n\nS1i: participação do emprego do setor i no momento final."
+      "content": "# 2 AS FONTES DA PRODUTIVIDADE E O MÉTODO SHIFT AND SHARE\n\nEntre indagações importantes, frequentemente colocadas em questão pela literatura teórica e por planejadores, estão as seguintes:\n\n se a produtividade resulta de realocações de fatores de produção de atividades de menor produtividade para as de maior produtividade;\n\n se os padrões gerais de produtividade se associam a ganhos mais ou menos generalizados de produtividade ao longo dos diversos setores e empresas que compõem o conjunto da produção de uma economia.\n\nNessa linha, elaborações da técnica shift and share permitem justamente avaliar a natureza da expansão da produtividade. E a proposta a ser utilizada corresponde à adotada em Cimoli, Pereira, Porcile e Scatolin (2008) e em Alam, Casero, Khan e Udomsaph (2008), cuja formulação segue abaixo:\n\nem que:\n\nVar P/P0: variação da produtividade do conjunto da economia ou de um grande setor;\n\nP0: produtividade do conjunto da economia ou de um grande setor no momento inicial;\n\nP0i: produtividade do setor i no momento inicial;\n\nP1i: produtividade do setor i no momento final;\n\nS0i: participação emprego do setor i no momento inicial;\n\nS1i: participação do emprego do setor i no momento final."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 18,
+      "sections": [
+        "2 AS FONTES DA PRODUTIVIDADE E O MÉTODO SHIFT AND SHARE"
+      ],
+      "type": "text",
+      "content": "A equação 1 decompõe a variação da produtividade em três componentes. O primeiro retrata variações oriundas de realocações de mão de obra entre setores. O terceiro componente revela variações de produtividade derivadas de ganhos intrassetoriais, quer dizer, ganhos de produtividade no interior das próprias atividades.\n\nPor fim, o segundo componente (ou termo cruzado ) indica o comportamento da produtividade global compreendida em algumas situações: i) maior peso de setores que avançam em produtividade e ganham maior espaço na alocação de mão de obra; ii) maior peso de setores que avançam em produtividade mas perdem espaço na alocação de mão de obra; iii) maior peso de setores que perdem produtividade mas ganham espaço na alocação de mão de obra; iv) maior peso de setores que perdem produtividade e perdem espaço na alocação de mão de obra.\n\nNote-se que essa técnica, ao denotar modificações estruturais, permite justamente tratar da questão da alocação de recursos. Há que se alertar, contudo, para o fato de que uma avaliação mais acurada quanto a esta alocação se daria pela consideração da produtividade total dos fatores e não mediante medidas parciais. Ainda assim, o uso do shift and share a partir de medidas parciais não deixa de permitir indicações quanto ao processo alocativo ao longo do tempo."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -197,7 +278,7 @@
         "3 AVANÇOS E PERFIL DA PRODUTIVIDADE NO PARANÁ"
       ],
       "type": "text",
-      "content": "A equação 1 decompõe a variação da produtividade em três componentes. O primeiro retrata variações oriundas de realocações de mão de obra entre setores. O terceiro componente revela variações de produtividade derivadas de ganhos intrassetoriais, quer dizer, ganhos de produtividade no interior das próprias atividades.\n\nPor fim, o segundo componente (ou termo cruzado ) indica o comportamento da produtividade global compreendida em algumas situações: i) maior peso de setores que avançam em produtividade e ganham maior espaço na alocação de mão de obra; ii) maior peso de setores que avançam em produtividade mas perdem espaço na alocação de mão de obra; iii) maior peso de setores que perdem produtividade mas ganham espaço na alocação de mão de obra; iv) maior peso de setores que perdem produtividade e perdem espaço na alocação de mão de obra.\n\nNote-se que essa técnica, ao denotar modificações estruturais, permite justamente tratar da questão da alocação de recursos. Há que se alertar, contudo, para o fato de que uma avaliação mais acurada quanto a esta alocação se daria pela consideração da produtividade total dos fatores e não mediante medidas parciais. Ainda assim, o uso do shift and share a partir de medidas parciais não deixa de permitir indicações quanto ao processo alocativo ao longo do tempo.\n\n# 3 AVANÇOS E PERFIL DA PRODUTIVIDADE NO PARANÁ\n\nA pesquisa recente tem registrado para a economia brasileira taxas de longo prazo relativamente baixas de crescimento da produtividade. Mais recentemente, o Observatório da Produtividade do IBRE disponibilizou séries para o Brasil, sobre as quais, no período de 40 anos encerrados em 2021, retira-se uma taxa média anual de 0,6% por hora trabalhada e de 0,3% por trabalhador. Para as duas últimas décadas, calcula-se respectivamente taxas de produtividade de 1,1% e 0,7%, refletindo fases de expansão e de estagnação, incluindo a derivada do contexto da pandemia mundial de Covid-19 desde 2020.\n\nCom fins de breve comparativo com a economia paranaense, apresenta-se no gráfico 1, a seguir, a produtividade do trabalho para a economia nacional, recalculada. No cotejo com o resultado do Observatório, o exercício aqui disposto para o Brasil tem resultado de longo prazo não exatamente idêntico, mas muito próximo, com reduzida diferença em duas casas decimais - 0,74% contra 0,78% ao ano do Observatório, entre 2002 e 2019.\n\nUm aspecto adicional no gráfico 1 é a aderência de evolução da produtividade do trabalho com a produtividade total dos fatores para o cálculo nacional. Ainda que, como naturalmente esperado, as taxas difiram, essa aderência apoia o uso, obviamente cuidadoso, do indicador a partir da variável trabalho para uma análise mais geral."
+      "content": "# 3 AVANÇOS E PERFIL DA PRODUTIVIDADE NO PARANÁ\n\nA pesquisa recente tem registrado para a economia brasileira taxas de longo prazo relativamente baixas de crescimento da produtividade. Mais recentemente, o Observatório da Produtividade do IBRE disponibilizou séries para o Brasil, sobre as quais, no período de 40 anos encerrados em 2021, retira-se uma taxa média anual de 0,6% por hora trabalhada e de 0,3% por trabalhador. Para as duas últimas décadas, calcula-se respectivamente taxas de produtividade de 1,1% e 0,7%, refletindo fases de expansão e de estagnação, incluindo a derivada do contexto da pandemia mundial de Covid-19 desde 2020.\n\nCom fins de breve comparativo com a economia paranaense, apresenta-se no gráfico 1, a seguir, a produtividade do trabalho para a economia nacional, recalculada. No cotejo com o resultado do Observatório, o exercício aqui disposto para o Brasil tem resultado de longo prazo não exatamente idêntico, mas muito próximo, com reduzida diferença em duas casas decimais - 0,74% contra 0,78% ao ano do Observatório, entre 2002 e 2019.\n\nUm aspecto adicional no gráfico 1 é a aderência de evolução da produtividade do trabalho com a produtividade total dos fatores para o cálculo nacional. Ainda que, como naturalmente esperado, as taxas difiram, essa aderência apoia o uso, obviamente cuidadoso, do indicador a partir da variável trabalho para uma análise mais geral."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -231,10 +312,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 21,
       "sections": [
+        "3 AVANÇOS E PERFIL DA PRODUTIVIDADE NO PARANÁ"
+      ],
+      "type": "text",
+      "content": "Pelo prisma do efeito III, os ganhos intrassetoriais de produtividade também tiveram por maior contribuição o campo, cujo fluxo de inovações e maior aplicação de capital permitiu menor uso de mão de obra no campo, sendo o componente II (termo cruzado) revelador desse movimento.\n\nEsses ganhos também se revelam em uma análise a partir de outro fator particularmente importante, a terra. Por área plantada das principais culturas, o milho e o feijão, considerando a organização e disponibilidade de dados pela Companhia Nacional de Abastecimento (CONAB), crescem da safra 2000/2001 até a safra (estimada) de 2021/2022 respectivamente 0,8% e 1,2% ao ano. Quando se consideram, dentro desse período, os melhores anos, as performances anuais alcançam taxas superiores a 2%, superando picos de mais de 5% no caso do feijão, ainda na década de 2000. Sob esses mesmos comparativos, a soja apresentou comportamento menos favorável, com decréscimo de 1,9% no critério ponta a ponta (em função da forte estiagem durante a última safra) e com pico de 1,3% em seu melhor momento da série (a safra 2019/2020).\n\nNa pecuária, os ganhos são mais expressivos nas cadeias de destaque no Estado. Pela pesquisa trimestral de abate do IBGE, a produção de frangos cresce 5,7% entre 1997 e 2021, enquanto em suínos observa-se expansão de 5,8% ao ano, no mesmo intervalo - taxa que propiciou desde 2015 à produção paranaense alcançar o segundo posto entre os demais estados.\n\nPor sua vez, em todo o período o setor industrial é marcado por um quadro de estagnação, conforme já antecipado por sua quase nula taxa de crescimento. Lembrandose que na classificação utilizada este setor inclui segmentos de eletricidade, gás e saneamento, construção civil e indústrias extrativas de transformação, o exercício shift and share indica irrisória contribuição no conjunto dos grandes setores no resultado final da produtividade, em que se observa a quase ausência de realocação (efeito I) e de ganhos internos de eficiência (efeito III)."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 21,
+      "sections": [
         "4 O CASO DA INDÚSTRIA EXTRATIVA E DE TRANSFORMAÇÃO"
       ],
       "type": "text",
-      "content": "Pelo prisma do efeito III, os ganhos intrassetoriais de produtividade também tiveram por maior contribuição o campo, cujo fluxo de inovações e maior aplicação de capital permitiu menor uso de mão de obra no campo, sendo o componente II (termo cruzado) revelador desse movimento.\n\nEsses ganhos também se revelam em uma análise a partir de outro fator particularmente importante, a terra. Por área plantada das principais culturas, o milho e o feijão, considerando a organização e disponibilidade de dados pela Companhia Nacional de Abastecimento (CONAB), crescem da safra 2000/2001 até a safra (estimada) de 2021/2022 respectivamente 0,8% e 1,2% ao ano. Quando se consideram, dentro desse período, os melhores anos, as performances anuais alcançam taxas superiores a 2%, superando picos de mais de 5% no caso do feijão, ainda na década de 2000. Sob esses mesmos comparativos, a soja apresentou comportamento menos favorável, com decréscimo de 1,9% no critério ponta a ponta (em função da forte estiagem durante a última safra) e com pico de 1,3% em seu melhor momento da série (a safra 2019/2020).\n\nNa pecuária, os ganhos são mais expressivos nas cadeias de destaque no Estado. Pela pesquisa trimestral de abate do IBGE, a produção de frangos cresce 5,7% entre 1997 e 2021, enquanto em suínos observa-se expansão de 5,8% ao ano, no mesmo intervalo - taxa que propiciou desde 2015 à produção paranaense alcançar o segundo posto entre os demais estados.\n\nPor sua vez, em todo o período o setor industrial é marcado por um quadro de estagnação, conforme já antecipado por sua quase nula taxa de crescimento. Lembrandose que na classificação utilizada este setor inclui segmentos de eletricidade, gás e saneamento, construção civil e indústrias extrativas de transformação, o exercício shift and share indica irrisória contribuição no conjunto dos grandes setores no resultado final da produtividade, em que se observa a quase ausência de realocação (efeito I) e de ganhos internos de eficiência (efeito III).\n\n# 4 O CASO DA INDÚSTRIA EXTRATIVA E DE TRANSFORMAÇÃO\n\nNesta seção aplica-se a mesma técnica de decomposição da produtividade, aproveitando-se para uma extensão do cálculo a todas as unidades da federação brasileira. Anteriormente a essa tarefa, cumpre verificar a questão da velocidade de longo prazo dessa produtividade no Paraná.\n\nA seção anterior aponta uma taxa de avanço média bastante modesta para o País e para o Estado, sendo especialmente baixa, no caso paranaense, para o setor industrial"
+      "content": "# 4 O CASO DA INDÚSTRIA EXTRATIVA E DE TRANSFORMAÇÃO\n\nNesta seção aplica-se a mesma técnica de decomposição da produtividade, aproveitando-se para uma extensão do cálculo a todas as unidades da federação brasileira. Anteriormente a essa tarefa, cumpre verificar a questão da velocidade de longo prazo dessa produtividade no Paraná.\n\nA seção anterior aponta uma taxa de avanço média bastante modesta para o País e para o Estado, sendo especialmente baixa, no caso paranaense, para o setor industrial"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -306,10 +396,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 26,
       "sections": [
+        "4 O CASO DA INDÚSTRIA EXTRATIVA E DE TRANSFORMAÇÃO"
+      ],
+      "type": "text",
+      "content": "Mesmo com ganhos menores advindos de realocações, há que se destacar ganhos proporcionais expressivos vindos de indústria bastante intensiva em mão de obra, especificamente a de alimentos. Não obstante a taxa negativa, seu patamar de produtividade é significativamente mais alto que o de outras indústrias, e a forte alocação de mão de obra contribuiu substantivamente para os ganhos globais. Especial destaque à sua cadeia de proteína animal, com forte peso aos ganhos estruturais, na medida em que houve acentuação da alocação de fatores a essa indústria (vide efeito I). 3\n\nPor outro lado, houve outros setores mais intensivos em mão de obra, como os de confecção e do mobiliário, com razoáveis ganhos internos (efeito III). A propósito, chama atenção o fato de os mesmos terem mantido razoável participação nos ganhos sem terem aparentemente perdido essa característica de maior intensidade de uso de mão de obra, conforme revelado pelas reduzidas variações no efeito I, o que reforçaria a consistência dos aumentos de produtividade obtidos."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 26,
+      "sections": [
         "5 CONSIDERAÇÕES ACERCA DA DINÂMICA DA INOVAÇÃO NO PARANÁ"
       ],
       "type": "text",
-      "content": "Mesmo com ganhos menores advindos de realocações, há que se destacar ganhos proporcionais expressivos vindos de indústria bastante intensiva em mão de obra, especificamente a de alimentos. Não obstante a taxa negativa, seu patamar de produtividade é significativamente mais alto que o de outras indústrias, e a forte alocação de mão de obra contribuiu substantivamente para os ganhos globais. Especial destaque à sua cadeia de proteína animal, com forte peso aos ganhos estruturais, na medida em que houve acentuação da alocação de fatores a essa indústria (vide efeito I). 3\n\nPor outro lado, houve outros setores mais intensivos em mão de obra, como os de confecção e do mobiliário, com razoáveis ganhos internos (efeito III). A propósito, chama atenção o fato de os mesmos terem mantido razoável participação nos ganhos sem terem aparentemente perdido essa característica de maior intensidade de uso de mão de obra, conforme revelado pelas reduzidas variações no efeito I, o que reforçaria a consistência dos aumentos de produtividade obtidos.\n\n# 5 CONSIDERAÇÕES ACERCA DA DINÂMICA DA INOVAÇÃO NO PARANÁ\n\nDas seções anteriores, reiterem-se as seguintes características sobre a evolução da produtividade paranaense:\n\n ritmo lento do conjunto da economia e especialmente do setor industrial;\n\n ganhos de produtividade intrassetorial relevantes na agropecuária e advindos de realocação de fatores de produção da agricultura para os serviços;\n\n estagnação na indústria em classificação ampla e resultados pouco expressivos também na extrativa e de transformação;\n\n na indústria de transformação, proporção relevante de segmentos com perda ou baixo crescimento de produtividade;\n\n ainda na indústria de transformação, ganhos mais relevantes concentrados em poucos setores.\n\nUma investigação aprofundada das causas do perfil acima retratado requereria considerações mais pormenorizadas do papel do comércio internacional, da tributação (inclusive inter-regionalmente), das políticas públicas de incentivo e da consistência de sistemas de inovação regionais nos padrões de eficiência da economia paranaense. Na realidade, este tema envolve ampla e complexa discussão abarcando itens como o grau de abertura comercial, a importação de tecnologia incorporada em bens de capital, os quais não fortuitamente culminam em discussão de política industrial.\n\n3 Pela PIA de 2019, a atividade abate de animais e fabricação de produtos de carne respondeu por 34,4% do VTI e por 53,3% do pessoal ocupado de toda a atividade de fabricação de produtos alimentícios."
+      "content": "# 5 CONSIDERAÇÕES ACERCA DA DINÂMICA DA INOVAÇÃO NO PARANÁ\n\nDas seções anteriores, reiterem-se as seguintes características sobre a evolução da produtividade paranaense:\n\n ritmo lento do conjunto da economia e especialmente do setor industrial;\n\n ganhos de produtividade intrassetorial relevantes na agropecuária e advindos de realocação de fatores de produção da agricultura para os serviços;\n\n estagnação na indústria em classificação ampla e resultados pouco expressivos também na extrativa e de transformação;\n\n na indústria de transformação, proporção relevante de segmentos com perda ou baixo crescimento de produtividade;\n\n ainda na indústria de transformação, ganhos mais relevantes concentrados em poucos setores.\n\nUma investigação aprofundada das causas do perfil acima retratado requereria considerações mais pormenorizadas do papel do comércio internacional, da tributação (inclusive inter-regionalmente), das políticas públicas de incentivo e da consistência de sistemas de inovação regionais nos padrões de eficiência da economia paranaense. Na realidade, este tema envolve ampla e complexa discussão abarcando itens como o grau de abertura comercial, a importação de tecnologia incorporada em bens de capital, os quais não fortuitamente culminam em discussão de política industrial.\n\n3 Pela PIA de 2019, a atividade abate de animais e fabricação de produtos de carne respondeu por 34,4% do VTI e por 53,3% do pessoal ocupado de toda a atividade de fabricação de produtos alimentícios."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -437,10 +536,28 @@
       "document": "desenvolvimento_paranaense",
       "page": 35,
       "sections": [
+        "CONSIDERAÇÕES FINAIS"
+      ],
+      "type": "text",
+      "content": "Por fim, embora este trabalho não tenha explorado o tema, cabe mencionar que esses ganhos podem ser aumentados por via de economias de escala proporcionadas por investimentos em setores de infraestrutura. Sobre esse ponto, é oportuno o trabalho de Frischtak (2012). O autor não trata exatamente dessa relação, mas é possível considera-la implícita na inspeção que realiza na relação entre infraestrutura e PIB per capita , para a qual sugere evidências de efeitos positivos da infraestrutura sobre o PIB, considerando evidências da experiência internacional; e nota, ainda, que rendas per capita mais elevadas requerem maior oferta de serviços de infraestrutura."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 35,
+      "sections": [
         "REFERÊNCIAS"
       ],
       "type": "text",
-      "content": "Por fim, embora este trabalho não tenha explorado o tema, cabe mencionar que esses ganhos podem ser aumentados por via de economias de escala proporcionadas por investimentos em setores de infraestrutura. Sobre esse ponto, é oportuno o trabalho de Frischtak (2012). O autor não trata exatamente dessa relação, mas é possível considera-la implícita na inspeção que realiza na relação entre infraestrutura e PIB per capita , para a qual sugere evidências de efeitos positivos da infraestrutura sobre o PIB, considerando evidências da experiência internacional; e nota, ainda, que rendas per capita mais elevadas requerem maior oferta de serviços de infraestrutura.\n\n# REFERÊNCIAS\n\nALAM, A.; CASERO, P. A.; KHAN, F. U. C. Unleashing prosperity - productivity and growth in Eastern Europe and Former Soviet Union. Washington DC: World Bank, 2008.\n\nBAZOTTI, A. SILVA, R. C. E. O. da. Censo agropecuário 2017: primeiros resultados para o Paraná. Revista Paranaense de Desenvolvimento , Curitiba: IPARDES, v.41, n.139, p.103-118, jul./dez. 2020.\n\nCIMOLI, M. P. W.; PORCILE, G.; SCATOLIN, F. Structural change, technology, and economic growth. Research Paper , Helsinki, Finlândia: UNU-WIDER, n.105, Dez. 2008.\n\nDELGADO, P. R. Evolução e perfil do emprego no setor sucroalcooleiro paranaense. Caderno Ipardes , Curitiba, v.2, n.1, p.44-57, jan./jun. 2012.\n\nFIEP. Federação das Indústrias do Estado do Paraná. Bússola da inovação, perfil da inovação industrial . Curitiba: FIEP, 2019. Disponível em: https://issuu.com/observatorios/docs/perfil-inovacao-industrial-2019.\n\nFRISCHTAK, C. Infraestrutura e desenvolvimento no Brasil. In : VELOSO, F.; CAVALCANTI, P.; GIAMBIAGI, F.; PESSOA, S. (orgs.). Desenvolvimento econômico sob uma perspectiva brasileira . Rio de Janeiro: Elsevier, 2013.\n\nIEDI. Instituto de Estudos para o Desenvolvimento Industrial. Crise e inovação no Brasil . jun. 2020. Disponível em: https://iedi.org.br/cartas/carta_iedi_n_1010.html. Acesso em: jan. 2022.\n\nIPARDES. Instituto Paranaense de Desenvolvimento Econômico e Social. Reestruturação industrial e a competitividade do comércio exterior do Paraná . Curitiba: IPARDES, 2022.\n\nLEAL, C. I. S.; FIGUEIREDO, P. N. Inovação tecnológica no Brasil: desafios e insumos para políticas públicas. Revista de Administração Pública , Rio de Janeiro: FGV: EBAPE, v.55, n.3, p.512-537, maio/jun. 2021.\n\nMENEZES FILHO, N.; KANNEBLEY JUNIOR, S. Abertura comercial, exportações e inovações no Brasil . In : VELOSO, F.; CAVALCANTI, P.; GIAMBIAGI, F.; PESSOA, S. (orgs.). Desenvolvimento econômico sob uma perspectiva brasileira . Rio de Janeiro: Elsevier, 2013."
+      "content": "# REFERÊNCIAS\n\nALAM, A.; CASERO, P. A.; KHAN, F. U. C. Unleashing prosperity - productivity and growth in Eastern Europe and Former Soviet Union. Washington DC: World Bank, 2008.\n\nBAZOTTI, A. SILVA, R. C. E. O. da. Censo agropecuário 2017: primeiros resultados para o Paraná. Revista Paranaense de Desenvolvimento , Curitiba: IPARDES, v.41, n.139, p.103-118, jul./dez. 2020.\n\nCIMOLI, M. P. W.; PORCILE, G.; SCATOLIN, F. Structural change, technology, and economic growth. Research Paper , Helsinki, Finlândia: UNU-WIDER, n.105, Dez. 2008.\n\nDELGADO, P. R. Evolução e perfil do emprego no setor sucroalcooleiro paranaense. Caderno Ipardes , Curitiba, v.2, n.1, p.44-57, jan./jun. 2012.\n\nFIEP. Federação das Indústrias do Estado do Paraná. Bússola da inovação, perfil da inovação industrial . Curitiba: FIEP, 2019. Disponível em: https://issuu.com/observatorios/docs/perfil-inovacao-industrial-2019.\n\nFRISCHTAK, C. Infraestrutura e desenvolvimento no Brasil. In : VELOSO, F.; CAVALCANTI, P.; GIAMBIAGI, F.; PESSOA, S. (orgs.). Desenvolvimento econômico sob uma perspectiva brasileira . Rio de Janeiro: Elsevier, 2013.\n\nIEDI. Instituto de Estudos para o Desenvolvimento Industrial. Crise e inovação no Brasil . jun. 2020. Disponível em: https://iedi.org.br/cartas/carta_iedi_n_1010.html. Acesso em: jan. 2022.\n\nIPARDES. Instituto Paranaense de Desenvolvimento Econômico e Social. Reestruturação industrial e a competitividade do comércio exterior do Paraná . Curitiba: IPARDES, 2022.\n\nLEAL, C. I. S.; FIGUEIREDO, P. N. Inovação tecnológica no Brasil: desafios e insumos para políticas públicas. Revista de Administração Pública , Rio de Janeiro: FGV: EBAPE, v.55, n.3, p.512-537, maio/jun. 2021.\n\nMENEZES FILHO, N.; KANNEBLEY JUNIOR, S. Abertura comercial, exportações e inovações no Brasil . In : VELOSO, F.; CAVALCANTI, P.; GIAMBIAGI, F.; PESSOA, S. (orgs.). Desenvolvimento econômico sob uma perspectiva brasileira . Rio de Janeiro: Elsevier, 2013."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 36,
+      "sections": [
+        "REESTRUTURAÇÃO INDUSTRIAL E COMPETITIVIDADE DO COMÉRCIO EXTERIOR DO PARANÁ"
+      ],
+      "type": "text",
+      "content": "# REESTRUTURAÇÃO INDUSTRIAL E COMPETITIVIDADE DO COMÉRCIO EXTERIOR DO PARANÁ\n\nFrancisco José Gouveia de Castro *"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -449,7 +566,7 @@
         "INTRODUÇÃO"
       ],
       "type": "text",
-      "content": "# REESTRUTURAÇÃO INDUSTRIAL E COMPETITIVIDADE DO COMÉRCIO EXTERIOR DO PARANÁ\n\nFrancisco José Gouveia de Castro *\n\n# INTRODUÇÃO\n\nO objetivo deste trabalho é analisar a estrutura industrial paranaense identificando as atividades econômicas de acordo com a tipologia de Intensidade Tecnológica e identificar os setores produtivos mais dinâmicos de acordo com a sua competitividade no comércio exterior e, assim, subsidiar os agentes públicos e privados na elaboração de planejamento estratégico de longo prazo. Para tal, foram utilizadas metodologias que possibilitaram, inclusive, a análise comparada entre o Paraná e as principais economias subnacionais brasileiras, especialmente o Estado de São Paulo, que é o benchmarking utilizado neste estudo.\n\nDevido a fatores subjacentes à competitividade, para definir o desempenho de longo prazo, em particular da pesquisa e inovação, tecnologia da informação e capital humano para acelerar o crescimento econômico, é essencial uma política que combine a acumulação de conhecimento, o combate à deterioração da infraestrutura e a diversificação da estrutura produtiva. Diante disso, o presente estudo, em sua premissa metodológica, utilizou o critério de classificação das atividades econômicas por intensidade tecnológica.\n\nAntes de iniciar a análise das condições de competitividade, são introduzidas, no primeiro capítulo, as teorias mais conhecidas na literatura de desenvolvimento econômico. Neste caso, é necessário apresentar a literatura que trata das ideias de desenvolvimento com o propósito de esclarecer os conceitos aqui utilizados, além de identificar as principais estratégias de desenvolvimento de longo prazo.\n\nNo segundo capítulo, aborda-se a situação do Estado do Paraná na estrutura nacional do setor industrial. O objetivo desse capítulo é descrever a concentração produtiva do Brasil e como o Paraná se posiciona entre as demais unidades federativas, em especial o Estado de São Paulo.\n\nEm seguida, na terceira parte do estudo analisa-se o mercado de trabalho e empregos como critério de oferta do capital humano necessário ao ganho de competitividade do Estado.\n\nPor fim, no quarto capítulo examina-se a situação de internacionalização da economia paranaense, uma vez que o comércio exterior é um componente fundamental para identificar as condições da própria estrutura produtiva do Estado, dado que reflete as condições de abertura da economia com o resto do mundo e a integração na cadeia produtiva global.\n\n* Economista e pesquisador do Núcleo de Macroeconomia e Desenvolvimento Regional do IPARDES."
+      "content": "# INTRODUÇÃO\n\nO objetivo deste trabalho é analisar a estrutura industrial paranaense identificando as atividades econômicas de acordo com a tipologia de Intensidade Tecnológica e identificar os setores produtivos mais dinâmicos de acordo com a sua competitividade no comércio exterior e, assim, subsidiar os agentes públicos e privados na elaboração de planejamento estratégico de longo prazo. Para tal, foram utilizadas metodologias que possibilitaram, inclusive, a análise comparada entre o Paraná e as principais economias subnacionais brasileiras, especialmente o Estado de São Paulo, que é o benchmarking utilizado neste estudo.\n\nDevido a fatores subjacentes à competitividade, para definir o desempenho de longo prazo, em particular da pesquisa e inovação, tecnologia da informação e capital humano para acelerar o crescimento econômico, é essencial uma política que combine a acumulação de conhecimento, o combate à deterioração da infraestrutura e a diversificação da estrutura produtiva. Diante disso, o presente estudo, em sua premissa metodológica, utilizou o critério de classificação das atividades econômicas por intensidade tecnológica.\n\nAntes de iniciar a análise das condições de competitividade, são introduzidas, no primeiro capítulo, as teorias mais conhecidas na literatura de desenvolvimento econômico. Neste caso, é necessário apresentar a literatura que trata das ideias de desenvolvimento com o propósito de esclarecer os conceitos aqui utilizados, além de identificar as principais estratégias de desenvolvimento de longo prazo.\n\nNo segundo capítulo, aborda-se a situação do Estado do Paraná na estrutura nacional do setor industrial. O objetivo desse capítulo é descrever a concentração produtiva do Brasil e como o Paraná se posiciona entre as demais unidades federativas, em especial o Estado de São Paulo.\n\nEm seguida, na terceira parte do estudo analisa-se o mercado de trabalho e empregos como critério de oferta do capital humano necessário ao ganho de competitividade do Estado.\n\nPor fim, no quarto capítulo examina-se a situação de internacionalização da economia paranaense, uma vez que o comércio exterior é um componente fundamental para identificar as condições da própria estrutura produtiva do Estado, dado que reflete as condições de abertura da economia com o resto do mundo e a integração na cadeia produtiva global.\n\n* Economista e pesquisador do Núcleo de Macroeconomia e Desenvolvimento Regional do IPARDES."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -566,10 +683,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 46,
       "sections": [
+        "2 O PARANÁ EM MEIO À CONCENTRAÇÃO INDUSTRIAL BRASILEIRA"
+      ],
+      "type": "text",
+      "content": "Esse fenômeno é reflexo da concentração de recursos primários nas atividades industriais. Porém, não obstante a importância do agronegócio na geração de valor, renda e empregos, além da crescente produtividade que o setor vem registrando, há uma exacerbação da concentração de atividades relacionadas à categoria de baixo teor tecnológico.\n\nAdemais, a insegurança provocada pelas intempéries climáticas pode comprometer o dinamismo do setor e influenciar negativamente a economia estadual. Neste caso, seria necessária uma maior diversificação da estrutura industrial do Estado, com maior direcionamento para setores com alta e média alta intensidade tecnológica."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 46,
+      "sections": [
         "3 CAPITAL HUMANO: EMPREGOS NA INDÚSTRIA"
       ],
       "type": "text",
-      "content": "Esse fenômeno é reflexo da concentração de recursos primários nas atividades industriais. Porém, não obstante a importância do agronegócio na geração de valor, renda e empregos, além da crescente produtividade que o setor vem registrando, há uma exacerbação da concentração de atividades relacionadas à categoria de baixo teor tecnológico.\n\nAdemais, a insegurança provocada pelas intempéries climáticas pode comprometer o dinamismo do setor e influenciar negativamente a economia estadual. Neste caso, seria necessária uma maior diversificação da estrutura industrial do Estado, com maior direcionamento para setores com alta e média alta intensidade tecnológica.\n\n# 3 CAPITAL HUMANO: EMPREGOS NA INDÚSTRIA\n\nA formação e empregabilidade do capital humano no processo de produção é um pressuposto básico para a obtenção de ganho de produtividade e competitividade.\n\nA produtividade do trabalho é um indicador tradicionalmente utilizado para acompanhar o desenvolvimento econômico. Na presente proposta, esta produtividade é dada pela razão entre o Valor Adicionado Bruto (VAB) no Estado, calculado no âmbito do Sistema de Contas Regionais do IBGE, e a média de horas habitualmente trabalhadas por semana de referência, extraída da PNADC/T.\n\nNesse indicador, o Estado de São Paulo registra valores no setor industrial acima do Paraná, ultrapassando o patamar de 40 VAB/horas em 2019, ao passo que o Paraná alcançou 35,54 VAB/hora no mesmo período (tabela 3).\n\nTABELA 3 - PRODUTIVIDADE DO TRABALHO (VAB/ HORAS TRABALHADAS) A PREÇOS CORRENTES - SÃO PAULO E PARANÁ - 2012-2019\n\nFONTE: IBGE\n\nNOTA: Elaboração do IPARDES.\n\nNo que tange à participação do emprego formal no total da indústria de transformação, ao se comparar o Paraná com o Estado de São Paulo, aquele fica muito aquém quanto à intensidade tecnológica. No Paraná, em 2019, o percentual de empregos em alta e média-alta intensidade tecnológica representou 19,91% do total de empregos do Estado, ao passo que em São Paulo a participação foi de 33,38%."
+      "content": "# 3 CAPITAL HUMANO: EMPREGOS NA INDÚSTRIA\n\nA formação e empregabilidade do capital humano no processo de produção é um pressuposto básico para a obtenção de ganho de produtividade e competitividade.\n\nA produtividade do trabalho é um indicador tradicionalmente utilizado para acompanhar o desenvolvimento econômico. Na presente proposta, esta produtividade é dada pela razão entre o Valor Adicionado Bruto (VAB) no Estado, calculado no âmbito do Sistema de Contas Regionais do IBGE, e a média de horas habitualmente trabalhadas por semana de referência, extraída da PNADC/T.\n\nNesse indicador, o Estado de São Paulo registra valores no setor industrial acima do Paraná, ultrapassando o patamar de 40 VAB/horas em 2019, ao passo que o Paraná alcançou 35,54 VAB/hora no mesmo período (tabela 3).\n\nTABELA 3 - PRODUTIVIDADE DO TRABALHO (VAB/ HORAS TRABALHADAS) A PREÇOS CORRENTES - SÃO PAULO E PARANÁ - 2012-2019\n\nFONTE: IBGE\n\nNOTA: Elaboração do IPARDES.\n\nNo que tange à participação do emprego formal no total da indústria de transformação, ao se comparar o Paraná com o Estado de São Paulo, aquele fica muito aquém quanto à intensidade tecnológica. No Paraná, em 2019, o percentual de empregos em alta e média-alta intensidade tecnológica representou 19,91% do total de empregos do Estado, ao passo que em São Paulo a participação foi de 33,38%."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -613,10 +739,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 49,
       "sections": [
+        "3 CAPITAL HUMANO: EMPREGOS NA INDÚSTRIA"
+      ],
+      "type": "text",
+      "content": "GRÁFICO 6 - PARTICIPAÇÃO DOS EMPREGOS DE ENGENHARIA E SISTEMAS EM RELAÇÃO AO TOTAL DAS ATIVIDADES INDUSTRIAIS - SÃO PAULO E PARANÁ - 2019\n\nFONTE: Ministério da Economia\n\nNo contexto do Paraná, de modo geral, percebe-se a baixa participação dos profissionais qualificados em engenharia nas atividades formais da indústria."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 49,
+      "sections": [
         "4 INTERNACIONALIZAÇÃO DO SETOR INDUSTRIAL DO PARANÁ"
       ],
       "type": "text",
-      "content": "GRÁFICO 6 - PARTICIPAÇÃO DOS EMPREGOS DE ENGENHARIA E SISTEMAS EM RELAÇÃO AO TOTAL DAS ATIVIDADES INDUSTRIAIS - SÃO PAULO E PARANÁ - 2019\n\nFONTE: Ministério da Economia\n\nNo contexto do Paraná, de modo geral, percebe-se a baixa participação dos profissionais qualificados em engenharia nas atividades formais da indústria.\n\n# 4 INTERNACIONALIZAÇÃO DO SETOR INDUSTRIAL DO PARANÁ\n\nA internacionalização de uma economia reflete o dinamismo das exportações, o padrão de especialização de sua economia e o perfil das exportações a ele associado.\n\nA internacionalização da produção ocorre sempre que residentes de um país têm acesso a bens e serviços com origem em outros países, o que pode ocorrer via comércio internacional, investimento externo direto e relações contratuais (GONÇALVES et al., 1998).\n\nNo Paraná, a pauta exportadora ainda é dominada pelas commodities , ante uma presença pouco vigorosa de produtos com maior valor agregado."
+      "content": "# 4 INTERNACIONALIZAÇÃO DO SETOR INDUSTRIAL DO PARANÁ\n\nA internacionalização de uma economia reflete o dinamismo das exportações, o padrão de especialização de sua economia e o perfil das exportações a ele associado.\n\nA internacionalização da produção ocorre sempre que residentes de um país têm acesso a bens e serviços com origem em outros países, o que pode ocorrer via comércio internacional, investimento externo direto e relações contratuais (GONÇALVES et al., 1998).\n\nNo Paraná, a pauta exportadora ainda é dominada pelas commodities , ante uma presença pouco vigorosa de produtos com maior valor agregado."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -631,10 +766,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 51,
       "sections": [
+        "4 INTERNACIONALIZAÇÃO DO SETOR INDUSTRIAL DO PARANÁ"
+      ],
+      "type": "text",
+      "content": "Na comparação das cinco maiores economias do País, São Paulo lidera na pauta de exportações de produtos com alta intensidade tecnológica, que registrou participação próxima de 20% em 2020, levando em consideração que fatores muito específicos conduziram o Rio de Janeiro ao topo do ranking entre 2018 e 2020.\n\nJá o Paraná, evidentemente, não alcançou 2% das exportações de alta tecnologia, o que posicionou o Estado no fim do ranking (gráfico 8).\n\nGRÁFICO 8 - PARTICIPAÇÃO DOS SETORES DA INDÚSTRIA POR ALTA INTENSIDADE TECNOLÓGICA NAS EXPORTAÇÕES INDUSTRIAIS - UNIDADES DA FEDERAÇÃO SELECIONADAS - 2002-2020\n\nPara verificar o padrão de comércio internacional paranaense, relativamente ao fluxo exportador, são analisados os produtos mais competitivos, por meio da taxa de cobertura, que permite identificar os setores que apresentem vantagem comparativa na produção (SILVA; FRANCK; SILVA; CORONEL, 2018). O índice é obtido através da seguinte equação:"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 51,
+      "sections": [
         "em que:"
       ],
       "type": "text",
-      "content": "Na comparação das cinco maiores economias do País, São Paulo lidera na pauta de exportações de produtos com alta intensidade tecnológica, que registrou participação próxima de 20% em 2020, levando em consideração que fatores muito específicos conduziram o Rio de Janeiro ao topo do ranking entre 2018 e 2020.\n\nJá o Paraná, evidentemente, não alcançou 2% das exportações de alta tecnologia, o que posicionou o Estado no fim do ranking (gráfico 8).\n\nGRÁFICO 8 - PARTICIPAÇÃO DOS SETORES DA INDÚSTRIA POR ALTA INTENSIDADE TECNOLÓGICA NAS EXPORTAÇÕES INDUSTRIAIS - UNIDADES DA FEDERAÇÃO SELECIONADAS - 2002-2020\n\nPara verificar o padrão de comércio internacional paranaense, relativamente ao fluxo exportador, são analisados os produtos mais competitivos, por meio da taxa de cobertura, que permite identificar os setores que apresentem vantagem comparativa na produção (SILVA; FRANCK; SILVA; CORONEL, 2018). O índice é obtido através da seguinte equação:\n\n# em que:\n\nXj representa as exportações do setor i do local j;\n\nMj representa as importações do setor i do local j;\n\nXi representa as exportações totais do local j;\n\nMi representa as importações totais do local j.\n\nSe o TCij é superior à unidade, identifica-se uma vantagem comparativa em termos de cobertura das exportações, ou seja, as exportações do setor i do local teriam dimensões maiores se comparadas às importações do mesmo setor (FONTENELE; MELO; ROSA, 2000)."
+      "content": "# em que:\n\nXj representa as exportações do setor i do local j;\n\nMj representa as importações do setor i do local j;\n\nXi representa as exportações totais do local j;\n\nMi representa as importações totais do local j.\n\nSe o TCij é superior à unidade, identifica-se uma vantagem comparativa em termos de cobertura das exportações, ou seja, as exportações do setor i do local teriam dimensões maiores se comparadas às importações do mesmo setor (FONTENELE; MELO; ROSA, 2000)."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -715,10 +859,28 @@
       "document": "desenvolvimento_paranaense",
       "page": 57,
       "sections": [
+        "INFRAESTRUTURA DE TRANSPORTES DO PARANÁ: DEMANDAS, IMPORTÂNCIA E NECESSIDADES"
+      ],
+      "type": "text",
+      "content": "# INFRAESTRUTURA DE TRANSPORTES DO PARANÁ: DEMANDAS, IMPORTÂNCIA E NECESSIDADES\n\nJulio Takeshi Suzuki Júnior *"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 57,
+      "sections": [
+        "INTRODUÇÃO"
+      ],
+      "type": "text",
+      "content": "# INTRODUÇÃO\n\nNão há dúvida de que todo processo de desenvolvimento, tanto no âmbito dos estados nacionais quanto na esfera regional, tem como um de seus alicerces a instalação de infraestruturas de transportes bem dimensionadas às demandas do setor produtivo.\n\nEm operação, essas estruturas asseguram melhores condições para os ganhos de produtividade, que talvez seja o termo que melhor sintetiza o conceito de desenvolvimento, havendo ainda os efeitos expansionistas imediatos dos investimentos em obras, com o aumento da demanda agregada, o que contribui para taxas mais elevadas de crescimento econômico durante as fases de instalação. Ademais, indo além da questão da eficiência produtiva, a ampliação/modernização da infraestrutura de transportes colabora para a melhoria do bem-estar da população, tornando os deslocamentos das pessoas mais céleres e seguros.\n\nNesse contexto, o presente trabalho aborda a importância das inversões no sistema logístico paranaense, considerando a trajetória ascendente das demandas e o próprio potencial da oferta de infraestrutura de atrair e adensar atividades econômicas em sua proximidade, cooperando para a materialização de um Estado produtivamente mais dinâmico nas próximas décadas e, por conseguinte, com maior capacidade de prover os serviços necessários à população."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 57,
+      "sections": [
         "1 INSUMOS ESTATÍSTICOS UTILIZADOS"
       ],
       "type": "text",
-      "content": "# INFRAESTRUTURA DE TRANSPORTES DO PARANÁ: DEMANDAS, IMPORTÂNCIA E NECESSIDADES\n\nJulio Takeshi Suzuki Júnior *\n\n# INTRODUÇÃO\n\nNão há dúvida de que todo processo de desenvolvimento, tanto no âmbito dos estados nacionais quanto na esfera regional, tem como um de seus alicerces a instalação de infraestruturas de transportes bem dimensionadas às demandas do setor produtivo.\n\nEm operação, essas estruturas asseguram melhores condições para os ganhos de produtividade, que talvez seja o termo que melhor sintetiza o conceito de desenvolvimento, havendo ainda os efeitos expansionistas imediatos dos investimentos em obras, com o aumento da demanda agregada, o que contribui para taxas mais elevadas de crescimento econômico durante as fases de instalação. Ademais, indo além da questão da eficiência produtiva, a ampliação/modernização da infraestrutura de transportes colabora para a melhoria do bem-estar da população, tornando os deslocamentos das pessoas mais céleres e seguros.\n\nNesse contexto, o presente trabalho aborda a importância das inversões no sistema logístico paranaense, considerando a trajetória ascendente das demandas e o próprio potencial da oferta de infraestrutura de atrair e adensar atividades econômicas em sua proximidade, cooperando para a materialização de um Estado produtivamente mais dinâmico nas próximas décadas e, por conseguinte, com maior capacidade de prover os serviços necessários à população.\n\n# 1 INSUMOS ESTATÍSTICOS UTILIZADOS\n\nEm geral, os estudos sobre a infraestrutura de transportes, principalmente a rodoviária, se defrontam com a indisponibilidade de dados, ainda mais em trabalhos em níveis territoriais detalhados. Tal restrição deriva dos altos custos da realização de pesquisas de campo que levantem a origem e o destino das movimentações, o volume físico e o gênero das mercadorias transportadas, o número de veículos envolvidos e a sazonalidade dos deslocamentos, entre outros.\n\n* Diretor do Centro de Pesquisa do IPARDES."
+      "content": "# 1 INSUMOS ESTATÍSTICOS UTILIZADOS\n\nEm geral, os estudos sobre a infraestrutura de transportes, principalmente a rodoviária, se defrontam com a indisponibilidade de dados, ainda mais em trabalhos em níveis territoriais detalhados. Tal restrição deriva dos altos custos da realização de pesquisas de campo que levantem a origem e o destino das movimentações, o volume físico e o gênero das mercadorias transportadas, o número de veículos envolvidos e a sazonalidade dos deslocamentos, entre outros.\n\n* Diretor do Centro de Pesquisa do IPARDES."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -760,10 +922,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 62,
       "sections": [
+        "2 A EVOLUÇÃO DA DEMANDA POR SERVIÇOS DE TRANSPORTES"
+      ],
+      "type": "text",
+      "content": "GRÁFICO 4 - ÍNDICE ABCR DOS VEÍCULOS LEVES E PESADOS - PARANÁ - 1999-2020\n\nFONTE: ABCR"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 62,
+      "sections": [
         "3 TRANSPORTE DE CARGAS NO PARANÁ: PROJEÇÕES E NECESSIDADES"
       ],
       "type": "text",
-      "content": "GRÁFICO 4 - ÍNDICE ABCR DOS VEÍCULOS LEVES E PESADOS - PARANÁ - 1999-2020\n\nFONTE: ABCR\n\n# 3 TRANSPORTE DE CARGAS NO PARANÁ: PROJEÇÕES E NECESSIDADES\n\nAmparando-se em estatísticas das Contas Regionais do IBGE e dos fluxos de veículos da ABCR, como também em exercícios prospectivos do IPARDES acerca do PIB, foi projetado um volume físico da produção estadual, respeitando os métodos de aferição da variável descritos no início deste documento, próximo de 238,5 milhões de toneladas no ano de 2035 (gráfico 5), o que poderá influenciar de forma significativa, em caso de confirmação, o nível de atividade dos transportes no futuro. Esse número, derivado de um cenário econômico tendencial que aponta para um crescimento médio do PIB estadual de 2,0% ao ano, representa acréscimo de cerca de 40% em relação ao volume presentemente produzido, superando em mais de 80% a quantidade ofertada no começo da década de 2010.\n\nCom uma taxa média de expansão do PIB de 2,7% ao ano, que compõe um cenário mais otimista construído pelo IPARDES, o volume físico da produção paranaense poderá alcançar 266,1 milhões de toneladas em 2035, suplantando a quantidade hoje observada em mais de 55%, sendo o dobro do resultado referente a 2010."
+      "content": "# 3 TRANSPORTE DE CARGAS NO PARANÁ: PROJEÇÕES E NECESSIDADES\n\nAmparando-se em estatísticas das Contas Regionais do IBGE e dos fluxos de veículos da ABCR, como também em exercícios prospectivos do IPARDES acerca do PIB, foi projetado um volume físico da produção estadual, respeitando os métodos de aferição da variável descritos no início deste documento, próximo de 238,5 milhões de toneladas no ano de 2035 (gráfico 5), o que poderá influenciar de forma significativa, em caso de confirmação, o nível de atividade dos transportes no futuro. Esse número, derivado de um cenário econômico tendencial que aponta para um crescimento médio do PIB estadual de 2,0% ao ano, representa acréscimo de cerca de 40% em relação ao volume presentemente produzido, superando em mais de 80% a quantidade ofertada no começo da década de 2010.\n\nCom uma taxa média de expansão do PIB de 2,7% ao ano, que compõe um cenário mais otimista construído pelo IPARDES, o volume físico da produção paranaense poderá alcançar 266,1 milhões de toneladas em 2035, suplantando a quantidade hoje observada em mais de 55%, sendo o dobro do resultado referente a 2010."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -787,10 +958,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 65,
       "sections": [
+        "3 TRANSPORTE DE CARGAS NO PARANÁ: PROJEÇÕES E NECESSIDADES"
+      ],
+      "type": "text",
+      "content": "Nesse sentido, é certo que a ampliação da malha ferroviária paranaense não pode estar condicionada unicamente às inversões públicas do Estado, levando em conta que o volume de recursos comumente direcionados aos transportes pela citada esfera administrativa, mesmo considerando os valores totais destinados à área (gráfico 7), está muito aquém das cifras envolvidas em grandes obras para a expansão da rede de ferrovias. Em outras palavras, as restrições fiscais vigentes há décadas, que comprometem não somente as aplicações no modal ferroviário, como também os investimentos na infraestrutura econômica como um todo, tornam obrigatória a utilização de poupanças privadas, por meio de instrumentos de concessão.\n\nGRÁFICO 7 - DESPESAS ESTADUAIS NA FUNÇÃO TRANSPORTE - PARANÁ - 2014-2020\n\nFONTE: SEFA-PR\n\nNOTAS: Elaboração do IPARDES.\n\nA preços de 2020, com correção pelo IPCA."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 65,
+      "sections": [
         "CONSIDERAÇÕES FINAIS"
       ],
       "type": "text",
-      "content": "Nesse sentido, é certo que a ampliação da malha ferroviária paranaense não pode estar condicionada unicamente às inversões públicas do Estado, levando em conta que o volume de recursos comumente direcionados aos transportes pela citada esfera administrativa, mesmo considerando os valores totais destinados à área (gráfico 7), está muito aquém das cifras envolvidas em grandes obras para a expansão da rede de ferrovias. Em outras palavras, as restrições fiscais vigentes há décadas, que comprometem não somente as aplicações no modal ferroviário, como também os investimentos na infraestrutura econômica como um todo, tornam obrigatória a utilização de poupanças privadas, por meio de instrumentos de concessão.\n\nGRÁFICO 7 - DESPESAS ESTADUAIS NA FUNÇÃO TRANSPORTE - PARANÁ - 2014-2020\n\nFONTE: SEFA-PR\n\nNOTAS: Elaboração do IPARDES.\n\nA preços de 2020, com correção pelo IPCA.\n\n# CONSIDERAÇÕES FINAIS\n\nIntegrando o grupo das territorialidades brasileiras maduras em termos de desenvolvimento, o Paraná responde por uma participação relevante na economia nacional, com bons resultados recentes. Desde 2013, o peso do Estado no PIB do País supera a marca de 6%, registrando, nesse período de oito anos, cinco dos dez mais altos percentuais da série histórica de 1985 a 2020 (gráfico 8)."
+      "content": "# CONSIDERAÇÕES FINAIS\n\nIntegrando o grupo das territorialidades brasileiras maduras em termos de desenvolvimento, o Paraná responde por uma participação relevante na economia nacional, com bons resultados recentes. Desde 2013, o peso do Estado no PIB do País supera a marca de 6%, registrando, nesse período de oito anos, cinco dos dez mais altos percentuais da série histórica de 1985 a 2020 (gráfico 8)."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -805,10 +985,28 @@
       "document": "desenvolvimento_paranaense",
       "page": 67,
       "sections": [
+        "ENERGIA NO PARANÁ: BREVE PANORAMA E INDICAÇÕES SOBRE A DEMANDA FUTURA"
+      ],
+      "type": "text",
+      "content": "# ENERGIA NO PARANÁ: BREVE PANORAMA E INDICAÇÕES SOBRE A DEMANDA FUTURA\n\nDaniel Nojima *"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 67,
+      "sections": [
+        "INTRODUÇÃO"
+      ],
+      "type": "text",
+      "content": "# INTRODUÇÃO\n\nA economia paranaense é conhecida por sua razoável autonomia energética, particularmente na geração hidroelétrica e em combustíveis, ainda que neste último não o seja - em sua maior parte - por conta de disponibilidade de recursos fósseis, mas sim pela capacidade de processamento de petróleo. Adicionalmente, apresenta relevante capacidade produtiva em biocombustíveis, sobretudo em álcool a partir da cana-de-açúcar. Nas últimas décadas, vem diversificando e ampliando sua produção em energias alternativas e renováveis, como o biodiesel, e também realizando, nos últimos anos, aproveitamento de lixívia na geração de eletricidade.\n\nA presente Nota traça um panorama da questão energética no Paraná sob o ponto de vista do conjunto das fontes de energia, tendo por base o balanço energético regional mais recente elaborado pelo Ministério de Minas e Energia. Na sequência, buscando contribuir para um planejamento futuro, aponta cenários possíveis da demanda energética nos próximos anos, visando prover algumas indicações sobre possibilidades do perfil prospectivo da oferta."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 67,
+      "sections": [
         "1 INTRODUÇÃO: CARACTERÍSTICAS DA MATRIZ ENERGÉTICA PARANAENSE"
       ],
       "type": "text",
-      "content": "# ENERGIA NO PARANÁ: BREVE PANORAMA E INDICAÇÕES SOBRE A DEMANDA FUTURA\n\nDaniel Nojima *\n\n# INTRODUÇÃO\n\nA economia paranaense é conhecida por sua razoável autonomia energética, particularmente na geração hidroelétrica e em combustíveis, ainda que neste último não o seja - em sua maior parte - por conta de disponibilidade de recursos fósseis, mas sim pela capacidade de processamento de petróleo. Adicionalmente, apresenta relevante capacidade produtiva em biocombustíveis, sobretudo em álcool a partir da cana-de-açúcar. Nas últimas décadas, vem diversificando e ampliando sua produção em energias alternativas e renováveis, como o biodiesel, e também realizando, nos últimos anos, aproveitamento de lixívia na geração de eletricidade.\n\nA presente Nota traça um panorama da questão energética no Paraná sob o ponto de vista do conjunto das fontes de energia, tendo por base o balanço energético regional mais recente elaborado pelo Ministério de Minas e Energia. Na sequência, buscando contribuir para um planejamento futuro, aponta cenários possíveis da demanda energética nos próximos anos, visando prover algumas indicações sobre possibilidades do perfil prospectivo da oferta.\n\n# 1 INTRODUÇÃO: CARACTERÍSTICAS DA MATRIZ ENERGÉTICA PARANAENSE\n\nCom uma economia em quinta posição no ranking nacional e uma população de 11,6 milhões em 2020, segundo projeções do IBGE, o Paraná demandou, em 2015, 16.297 mil toneladas equivalentes de petróleo (tep), conforme último Balanço Energético do Estado, disponibilizado em MME (2016), o que significou uma participação de 6,3% do consumo final nacional.\n\nNo intervalo 2000-2015, a economia paranaense, no mesmo embalo da brasileira, expandiu 50% em termos acumulados e 2,7% ao ano, de modo que, como já tratado em IPARDES (2020), justificou igualmente significativo crescimento da demanda energética na década de 2000, implicando, entre outros efeitos, elevação da dependência de importação de fontes primárias, associadas especialmente ao setor de transportes.\n\n* Economista, Diretor-Presidente do IPARDES."
+      "content": "# 1 INTRODUÇÃO: CARACTERÍSTICAS DA MATRIZ ENERGÉTICA PARANAENSE\n\nCom uma economia em quinta posição no ranking nacional e uma população de 11,6 milhões em 2020, segundo projeções do IBGE, o Paraná demandou, em 2015, 16.297 mil toneladas equivalentes de petróleo (tep), conforme último Balanço Energético do Estado, disponibilizado em MME (2016), o que significou uma participação de 6,3% do consumo final nacional.\n\nNo intervalo 2000-2015, a economia paranaense, no mesmo embalo da brasileira, expandiu 50% em termos acumulados e 2,7% ao ano, de modo que, como já tratado em IPARDES (2020), justificou igualmente significativo crescimento da demanda energética na década de 2000, implicando, entre outros efeitos, elevação da dependência de importação de fontes primárias, associadas especialmente ao setor de transportes.\n\n* Economista, Diretor-Presidente do IPARDES."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -880,10 +1078,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 72,
       "sections": [
+        "2 CENÁRIOS DE DEMANDA"
+      ],
+      "type": "text",
+      "content": "O resultado alcançado apresenta-se razoável, na medida em que o consumo obtido em termos absolutos em 2030, quando considerados volumes de consumo projetados para o Brasil em EPE (2021) em seu cenário básico, praticamente não altera a participação média do Estado no Brasil, estabelecendo-se em 6,2%.\n\nPor sua vez, no cenário em que ações de corte estrutural ocorram e o PIB alcance crescimento médio de 2,7% e de 3,4%, o consumo energético atingiria em 2030 uma taxa de 3,4% e 4,3% ao ano e a participação paranaense na demanda nacional chegaria a 6,8% e a 7,4%, respectivamente. Em dez anos, a demanda acumularia uma ampliação de pelo menos 28%. Estendendo-se as hipóteses de expansão econômica e de elasticidade para cinco anos mais, a demanda expandiria para cerca de 23 bilhões de tep e alcançaria um crescimento acumulado de 45% em 2035. No cenário mais extremado de ajuste essa expansão chegaria a 88% no período."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 72,
+      "sections": [
         "3 CONSIDERAÇÕES PROSPECTIVAS"
       ],
       "type": "text",
-      "content": "O resultado alcançado apresenta-se razoável, na medida em que o consumo obtido em termos absolutos em 2030, quando considerados volumes de consumo projetados para o Brasil em EPE (2021) em seu cenário básico, praticamente não altera a participação média do Estado no Brasil, estabelecendo-se em 6,2%.\n\nPor sua vez, no cenário em que ações de corte estrutural ocorram e o PIB alcance crescimento médio de 2,7% e de 3,4%, o consumo energético atingiria em 2030 uma taxa de 3,4% e 4,3% ao ano e a participação paranaense na demanda nacional chegaria a 6,8% e a 7,4%, respectivamente. Em dez anos, a demanda acumularia uma ampliação de pelo menos 28%. Estendendo-se as hipóteses de expansão econômica e de elasticidade para cinco anos mais, a demanda expandiria para cerca de 23 bilhões de tep e alcançaria um crescimento acumulado de 45% em 2035. No cenário mais extremado de ajuste essa expansão chegaria a 88% no período.\n\n# 3 CONSIDERAÇÕES PROSPECTIVAS\n\nEsses cenários suscitam algumas questões acerca do futuro da matriz energética paranaense em termos de sua expansão e composição, em tempos das assim chamadas transição energética e descarbonização, em âmbito mundial. O desafio posto vem consistindo no balanço entre a energia 'firme' das fontes fósseis e hídrica (no caso da eletricidade) e a intermitente das renováveis, como solar e eólica - ponto em maior detalhe em Amorim (2022), inclusive chamando a atenção ao fator climático contestando a própria regularidade hidroelétrica nos anos à frente.\n\nCom relação às primeiras, a condição superavitária na hidroeletricidade e em combustível fóssil (que em 2015 excederam a demanda regional em 98% e 208%, respectivamente) significaria, preliminarmente, relativo conforto nos anos à frente na confirmação de trajetórias de crescimento econômico sustentadas a taxas tendenciais e a taxas mais elevadas. Por outro lado, em fontes como gás natural e etanol a expansão econômica deve requerer ampliação de fornecimento externo e das redes de distribuição, essencial no caso do gás, ponto a ser tratado adiante.\n\nÉ possível assumir que para economias regionais, sob contextos nacionais, a autonomia energética não constitua condição imperativa, na medida em que possam ser abastecidas por outras unidades regionais ou, ainda, pelo exterior, como é o caso do petróleo. Ainda assim, isto não significa que não possam aproveitar vantagens locais, tendo em vista poderem reforçar complementaridades produtivas e, também, serem propriamente atividades econômicas agregadoras de valor e geradoras de impostos."
+      "content": "# 3 CONSIDERAÇÕES PROSPECTIVAS\n\nEsses cenários suscitam algumas questões acerca do futuro da matriz energética paranaense em termos de sua expansão e composição, em tempos das assim chamadas transição energética e descarbonização, em âmbito mundial. O desafio posto vem consistindo no balanço entre a energia 'firme' das fontes fósseis e hídrica (no caso da eletricidade) e a intermitente das renováveis, como solar e eólica - ponto em maior detalhe em Amorim (2022), inclusive chamando a atenção ao fator climático contestando a própria regularidade hidroelétrica nos anos à frente.\n\nCom relação às primeiras, a condição superavitária na hidroeletricidade e em combustível fóssil (que em 2015 excederam a demanda regional em 98% e 208%, respectivamente) significaria, preliminarmente, relativo conforto nos anos à frente na confirmação de trajetórias de crescimento econômico sustentadas a taxas tendenciais e a taxas mais elevadas. Por outro lado, em fontes como gás natural e etanol a expansão econômica deve requerer ampliação de fornecimento externo e das redes de distribuição, essencial no caso do gás, ponto a ser tratado adiante.\n\nÉ possível assumir que para economias regionais, sob contextos nacionais, a autonomia energética não constitua condição imperativa, na medida em que possam ser abastecidas por outras unidades regionais ou, ainda, pelo exterior, como é o caso do petróleo. Ainda assim, isto não significa que não possam aproveitar vantagens locais, tendo em vista poderem reforçar complementaridades produtivas e, também, serem propriamente atividades econômicas agregadoras de valor e geradoras de impostos."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -945,10 +1152,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 77,
       "sections": [
+        "3 CONSIDERAÇÕES PROSPECTIVAS"
+      ],
+      "type": "text",
+      "content": "pormenorizada. De qualquer modo, e à guisa de consideração preliminar, se atualmente o Estado atingisse o padrão gaúcho já chegaria a cerca de 60% dos patamares absolutos de demanda estimados no Plano Estadual do Gás no prazo final de 30 anos. 5 Esta conta fornece uma pista de que se se contar o crescimento industrial de longo prazo, adicionado do potencial de aceleração a partir de sua simbiose com a ampliação da fonte energética em questão, a expansão final poderia ser ainda superior à projetada pelo Plano. São sintomáticos e demonstrativos dessa possibilidade tanto as intenções da empresa atuante no Estado para recepção e regaseificação de gás natural liquefeito (GNL) em Paranaguá, como o projeto, em andamento, de instalação de terminal de GNL, em São Francisco do Sul, na Baía da Babitonga, em Santa Catarina, com capacidade de abastecimento de 15 milhões de metros cúbicos/dia a ser transportada até o Gasoduto Brasil-Bolívia. 6\n\nCabe, por fim, lembrar que o Plano prevê aproveitamento de vantagens locais, dado pela exploração de biometano a partir da suinocultura - no que se alinha ao anteriormente citado RENOVAPR -, representando oportunidades de geração de emprego e renda em áreas diversas do Estado, em especial ao oeste e centro-sul paranaenses. Essa fonte tem apresentado expressivo crescimento no País, com elevado potencial nos próximos anos na avaliação de entidades representativas do segmento, tendo em vista não só a geração a partir da pecuária, mas também de restos orgânicos da indústria e do setor de saneamento, especificamente de aterros sanitários e esgoto."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 77,
+      "sections": [
         "CONSIDERAÇÕES FINAIS"
       ],
       "type": "text",
-      "content": "pormenorizada. De qualquer modo, e à guisa de consideração preliminar, se atualmente o Estado atingisse o padrão gaúcho já chegaria a cerca de 60% dos patamares absolutos de demanda estimados no Plano Estadual do Gás no prazo final de 30 anos. 5 Esta conta fornece uma pista de que se se contar o crescimento industrial de longo prazo, adicionado do potencial de aceleração a partir de sua simbiose com a ampliação da fonte energética em questão, a expansão final poderia ser ainda superior à projetada pelo Plano. São sintomáticos e demonstrativos dessa possibilidade tanto as intenções da empresa atuante no Estado para recepção e regaseificação de gás natural liquefeito (GNL) em Paranaguá, como o projeto, em andamento, de instalação de terminal de GNL, em São Francisco do Sul, na Baía da Babitonga, em Santa Catarina, com capacidade de abastecimento de 15 milhões de metros cúbicos/dia a ser transportada até o Gasoduto Brasil-Bolívia. 6\n\nCabe, por fim, lembrar que o Plano prevê aproveitamento de vantagens locais, dado pela exploração de biometano a partir da suinocultura - no que se alinha ao anteriormente citado RENOVAPR -, representando oportunidades de geração de emprego e renda em áreas diversas do Estado, em especial ao oeste e centro-sul paranaenses. Essa fonte tem apresentado expressivo crescimento no País, com elevado potencial nos próximos anos na avaliação de entidades representativas do segmento, tendo em vista não só a geração a partir da pecuária, mas também de restos orgânicos da indústria e do setor de saneamento, especificamente de aterros sanitários e esgoto.\n\n# CONSIDERAÇÕES FINAIS\n\nAs observações feitas neste trabalho procedem a uma cobertura, de caráter mais geral, das condições da matriz energética paranaense e de suas necessidades de expansão vis-à-vis previsões de expansão do produto interno bruto estadual. Desta análise seguem conclusões quanto a algumas questões para o futuro.\n\nOs exercícios apresentados aqui são elaborados sobre dados disponíveis do BEN em termos regionais, cuja restrição a poucos anos limita uma análise mais acurada. Contudo, permitem apontar para relevante expansão da demanda energética no Paraná em contexto de crescimento econômico tendencial, que se acentua nos cenários de crescimento mais acelerado e que impacta sobre a oferta energética estadual, a qual apresenta atualmente razoável autonomia em insumos de maior peso. Entretanto, os números do BEN indicam uma elevação da dependência de fontes fora das fronteiras do Estado.\n\n5 Dada a média diária disposta em FIPE (2021), um cálculo por 365 dias resultaria em consumo industrial no Paraná de 329.230 mil metros cúbicos.\n\n6 Sobre esses projetos e outros de regaseificação no País, ver EPE (2019)."
+      "content": "# CONSIDERAÇÕES FINAIS\n\nAs observações feitas neste trabalho procedem a uma cobertura, de caráter mais geral, das condições da matriz energética paranaense e de suas necessidades de expansão vis-à-vis previsões de expansão do produto interno bruto estadual. Desta análise seguem conclusões quanto a algumas questões para o futuro.\n\nOs exercícios apresentados aqui são elaborados sobre dados disponíveis do BEN em termos regionais, cuja restrição a poucos anos limita uma análise mais acurada. Contudo, permitem apontar para relevante expansão da demanda energética no Paraná em contexto de crescimento econômico tendencial, que se acentua nos cenários de crescimento mais acelerado e que impacta sobre a oferta energética estadual, a qual apresenta atualmente razoável autonomia em insumos de maior peso. Entretanto, os números do BEN indicam uma elevação da dependência de fontes fora das fronteiras do Estado.\n\n5 Dada a média diária disposta em FIPE (2021), um cálculo por 365 dias resultaria em consumo industrial no Paraná de 329.230 mil metros cúbicos.\n\n6 Sobre esses projetos e outros de regaseificação no País, ver EPE (2019)."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -972,10 +1188,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 80,
       "sections": [
+        "CONDIÇÕES E PERSPECTIVAS DA OFERTA DE ENERGIA ELÉTRICA NO PARANÁ"
+      ],
+      "type": "text",
+      "content": "# CONDIÇÕES E PERSPECTIVAS DA OFERTA DE ENERGIA ELÉTRICA NO PARANÁ\n\nGuilherme Amorim *"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 80,
+      "sections": [
         "INTRODUÇÃO"
       ],
       "type": "text",
-      "content": "# CONDIÇÕES E PERSPECTIVAS DA OFERTA DE ENERGIA ELÉTRICA NO PARANÁ\n\nGuilherme Amorim *\n\n# INTRODUÇÃO\n\nO desenvolvimento econômico depende de suprimentos previsíveis de eletricidade. A construção da usina de Itaipu, maior hidrelétrica do mundo à época de sua inauguração, em 1984, apaziguou as preocupações sobre a capacidade de oferta de energia no Brasil e, particularmente, no Paraná. A expansão do modelo elétrico nacional, calcado nessa mesma fonte - renovável - e em robusta rede de linhas de transmissão, apontava para resiliência sistêmica.\n\nOs recorrentes períodos de estiagem têm, entretanto, provocado distanciamento entre a energia hidrelétrica potencial e a efetivamente gerada. O fornecimento de eletricidade é complementado por produção eólica, fotovoltaica, nuclear e proveniente de termelétricas. Estas são alimentadas por biomassa (bagaço de cana, lixívia e lenha), gás natural, derivados de petróleo (principalmente diesel) e carvão. São 426 termelétricas operacionais no País e 24 no Paraná, segundo a Câmara de Comercialização de Energia Elétrica (CCEE). Dessas, a que possui a maior capacidade instalada (484,2 MW) é a Usina Elétrica a Gás de Araucária. Adicionalmente, a oferta tem dependido de importação do Paraguai, Argentina e Uruguai.\n\nEste texto busca apresentar um cenário sucinto para o período em questão, com a exibição da rede presente, das intervenções planejadas, e de como novas fontes e produtores colaborarão e competirão para compor uma estrutura menos dependente de combustíveis fósseis e de incertezas hidrológicas.\n\n* Economista e pesquisador do Núcleo de Macroeconomia e Desenvolvimento Regional do IPARDES."
+      "content": "# INTRODUÇÃO\n\nO desenvolvimento econômico depende de suprimentos previsíveis de eletricidade. A construção da usina de Itaipu, maior hidrelétrica do mundo à época de sua inauguração, em 1984, apaziguou as preocupações sobre a capacidade de oferta de energia no Brasil e, particularmente, no Paraná. A expansão do modelo elétrico nacional, calcado nessa mesma fonte - renovável - e em robusta rede de linhas de transmissão, apontava para resiliência sistêmica.\n\nOs recorrentes períodos de estiagem têm, entretanto, provocado distanciamento entre a energia hidrelétrica potencial e a efetivamente gerada. O fornecimento de eletricidade é complementado por produção eólica, fotovoltaica, nuclear e proveniente de termelétricas. Estas são alimentadas por biomassa (bagaço de cana, lixívia e lenha), gás natural, derivados de petróleo (principalmente diesel) e carvão. São 426 termelétricas operacionais no País e 24 no Paraná, segundo a Câmara de Comercialização de Energia Elétrica (CCEE). Dessas, a que possui a maior capacidade instalada (484,2 MW) é a Usina Elétrica a Gás de Araucária. Adicionalmente, a oferta tem dependido de importação do Paraguai, Argentina e Uruguai.\n\nEste texto busca apresentar um cenário sucinto para o período em questão, com a exibição da rede presente, das intervenções planejadas, e de como novas fontes e produtores colaborarão e competirão para compor uma estrutura menos dependente de combustíveis fósseis e de incertezas hidrológicas.\n\n* Economista e pesquisador do Núcleo de Macroeconomia e Desenvolvimento Regional do IPARDES."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1009,10 +1234,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 83,
       "sections": [
+        "1 PANORAMA DO MERCADO DE ENERGIA ELÉTRICA"
+      ],
+      "type": "text",
+      "content": "TABELA 2 - AUTOGERAÇÃO DE ENERGIA ELÉTRICA, POR FONTE - PARANÁ E BRASIL - MARÇO DE 2022\n\nFONTE: ANEEL"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 83,
+      "sections": [
         "2 O MERCADO E A OFERTA PARANAENSE"
       ],
       "type": "text",
-      "content": "TABELA 2 - AUTOGERAÇÃO DE ENERGIA ELÉTRICA, POR FONTE - PARANÁ E BRASIL - MARÇO DE 2022\n\nFONTE: ANEEL\n\n# 2 O MERCADO E A OFERTA PARANAENSE\n\nO consumo industrial responde por 40% da demanda de eletricidade no Paraná. A necessidade de energia por parte da indústria tem crescido, contudo, em menor ritmo do que as demais classes de consumo. Dados da Empresa de Pesquisa Energética (EPE) referentes a 2019 apontam para expansões anuais de 1,2% pelo setor e de 3,0% para o total demandado no Estado. O uso em propriedades rurais foi o que apresentou maior variação (5,3% no ano) e foi responsável por 7,9% da exigência de energia.\n\nAs estimativas de consumo de longo prazo produzidas pelos órgãos técnicos competentes passam por processo de revisão. As tendências consolidadas têm como horizonte o ano de 2025. Nesse sentido, o ONS, a CCEE e a EPE preveem que no quinquênio 2021-2025 a demanda brasileira crescerá à taxa média anual de 3,5%.\n\nEssa estimativa baseia-se em expansão média do Produto Interno Bruto (PIB) nacional da ordem de 2,9% ao ano. Nessa avaliação, a projeção de expansão de demanda do subsistema Sul é de 3,5%. Esse modelo pressupõe gradual recuperação do nível de ocupação no período, com pari passu restabelecimento do consumo das famílias, manutenção do patamar de valorização internacional de commodities (minerais, agropecuárias e energéticas) e elevação de investimentos, sobretudo em infraestrutura.\n\nUm mercado em que todas as unidades consumidoras são, ao menos parcialmente, também geradoras de eletricidade se avizinha. Concomitantemente, o"
+      "content": "# 2 O MERCADO E A OFERTA PARANAENSE\n\nO consumo industrial responde por 40% da demanda de eletricidade no Paraná. A necessidade de energia por parte da indústria tem crescido, contudo, em menor ritmo do que as demais classes de consumo. Dados da Empresa de Pesquisa Energética (EPE) referentes a 2019 apontam para expansões anuais de 1,2% pelo setor e de 3,0% para o total demandado no Estado. O uso em propriedades rurais foi o que apresentou maior variação (5,3% no ano) e foi responsável por 7,9% da exigência de energia.\n\nAs estimativas de consumo de longo prazo produzidas pelos órgãos técnicos competentes passam por processo de revisão. As tendências consolidadas têm como horizonte o ano de 2025. Nesse sentido, o ONS, a CCEE e a EPE preveem que no quinquênio 2021-2025 a demanda brasileira crescerá à taxa média anual de 3,5%.\n\nEssa estimativa baseia-se em expansão média do Produto Interno Bruto (PIB) nacional da ordem de 2,9% ao ano. Nessa avaliação, a projeção de expansão de demanda do subsistema Sul é de 3,5%. Esse modelo pressupõe gradual recuperação do nível de ocupação no período, com pari passu restabelecimento do consumo das famílias, manutenção do patamar de valorização internacional de commodities (minerais, agropecuárias e energéticas) e elevação de investimentos, sobretudo em infraestrutura.\n\nUm mercado em que todas as unidades consumidoras são, ao menos parcialmente, também geradoras de eletricidade se avizinha. Concomitantemente, o"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1132,10 +1366,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 90,
       "sections": [
+        "4 PERSPECTIVAS E POTENCIAL DE FONTES ALTERNATIVAS E RENOVÁVEIS"
+      ],
+      "type": "text",
+      "content": "# 4 PERSPECTIVAS E POTENCIAL DE FONTES ALTERNATIVAS E RENOVÁVEIS"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 90,
+      "sections": [
         "4.1 GÁS"
       ],
       "type": "text",
-      "content": "# 4 PERSPECTIVAS E POTENCIAL DE FONTES ALTERNATIVAS E RENOVÁVEIS\n\n# 4.1 GÁS\n\nA Nova Lei do Gás, sancionada em abril de 2021, pôs fim ao monopólio da Petrobras e modificou o arcabouço jurídico e regulatório com o intuito de promover concorrência. Tem-se como meta triplicar a produção de gás natural em dez anos. Primordialmente, almeja-se integrar o segmento do gás ao sistema elétrico. O novo marco permite que consumidores industriais adquiram gás diretamente dos fornecedores. Tornam-se, portanto, independentes de distribuidoras locais que adquiriam o combustível exclusivamente da Petrobras. Os principais ramos industriais beneficiados são os de papel e celulose, cerâmica, fertilizantes, químicos e siderurgia.\n\nO texto procura harmonizar as regras regulatórias dos estados com o novo marco e promove ainda a remoção de barreiras tributárias. Destaca-se a substituição do regime de outorga da concessão pela autorização para explorar os serviços de transporte de gás natural e de estocagem subterrânea, o que tende a reduzir as exigências legais para a expansão da malha de transporte. A lei confere tratamento isonômico a todas as empresas que utilizarem os dutos de transporte para a passagem do gás às suas redes de distribuição, instalações de tratamento ou processamento de gás natural e terminais de gás natural liquefeito (GNL). Os maiores desafios estão associados à falta de infraestrutura para movimentação e armazenamento de gás, mais custosas do que as utilizadas na cadeia do petróleo. Atualmente, cerca de metade do gás extraído offshore é reinjetado por inexistência de rede de transporte. As inversões necessárias para a construção de gasodutos implicam extensa maturação, que, por sua vez, exige demanda mínima constante.\n\nNo tocante à geração de eletricidade, as termelétricas a diesel ou carvão são as principais candidatas à conversão ao uso de gás natural. Projeção da EPE estima que a modernização do setor deve acrescentar 0,5% de crescimento ao PIB até 2030.\n\nA produção brasileira de gás natural dobrou entre 2011 e 2021, de 24,07 bilhões para 48,82 bilhões de metros cúbicos, segundo informações da Agência Nacional de Petróleo (ANP). Somados os campos terrestres e marítimos, o volume reinjetado, contudo, cresceu 5,5 vezes nesse período. Essa falha estrutural se mostrou evidente em 2021, quando a ANEEL se viu obrigada, ante a indisponibilidade de gás e à escassez de energia hidrelétrica, a que termelétricas fossem reconvertidas para uso de diesel. Os projetos para expansão da malha de gasodutos offshore , pré-sal e pós-sal foram estudados pela EPE em 2021 e podem ser agrupados em três hubs , nas bacias de Campos, Espírito Santo e Sergipe-Alagoas. Somados, teriam extensão de 1.562 quilômetros e vazão diária de 100,4 milhões de metros cúbicos. Há que se esperar por mais resultados concretos da nova legislação."
+      "content": "# 4.1 GÁS\n\nA Nova Lei do Gás, sancionada em abril de 2021, pôs fim ao monopólio da Petrobras e modificou o arcabouço jurídico e regulatório com o intuito de promover concorrência. Tem-se como meta triplicar a produção de gás natural em dez anos. Primordialmente, almeja-se integrar o segmento do gás ao sistema elétrico. O novo marco permite que consumidores industriais adquiram gás diretamente dos fornecedores. Tornam-se, portanto, independentes de distribuidoras locais que adquiriam o combustível exclusivamente da Petrobras. Os principais ramos industriais beneficiados são os de papel e celulose, cerâmica, fertilizantes, químicos e siderurgia.\n\nO texto procura harmonizar as regras regulatórias dos estados com o novo marco e promove ainda a remoção de barreiras tributárias. Destaca-se a substituição do regime de outorga da concessão pela autorização para explorar os serviços de transporte de gás natural e de estocagem subterrânea, o que tende a reduzir as exigências legais para a expansão da malha de transporte. A lei confere tratamento isonômico a todas as empresas que utilizarem os dutos de transporte para a passagem do gás às suas redes de distribuição, instalações de tratamento ou processamento de gás natural e terminais de gás natural liquefeito (GNL). Os maiores desafios estão associados à falta de infraestrutura para movimentação e armazenamento de gás, mais custosas do que as utilizadas na cadeia do petróleo. Atualmente, cerca de metade do gás extraído offshore é reinjetado por inexistência de rede de transporte. As inversões necessárias para a construção de gasodutos implicam extensa maturação, que, por sua vez, exige demanda mínima constante.\n\nNo tocante à geração de eletricidade, as termelétricas a diesel ou carvão são as principais candidatas à conversão ao uso de gás natural. Projeção da EPE estima que a modernização do setor deve acrescentar 0,5% de crescimento ao PIB até 2030.\n\nA produção brasileira de gás natural dobrou entre 2011 e 2021, de 24,07 bilhões para 48,82 bilhões de metros cúbicos, segundo informações da Agência Nacional de Petróleo (ANP). Somados os campos terrestres e marítimos, o volume reinjetado, contudo, cresceu 5,5 vezes nesse período. Essa falha estrutural se mostrou evidente em 2021, quando a ANEEL se viu obrigada, ante a indisponibilidade de gás e à escassez de energia hidrelétrica, a que termelétricas fossem reconvertidas para uso de diesel. Os projetos para expansão da malha de gasodutos offshore , pré-sal e pós-sal foram estudados pela EPE em 2021 e podem ser agrupados em três hubs , nas bacias de Campos, Espírito Santo e Sergipe-Alagoas. Somados, teriam extensão de 1.562 quilômetros e vazão diária de 100,4 milhões de metros cúbicos. Há que se esperar por mais resultados concretos da nova legislação."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1187,10 +1430,28 @@
       "document": "desenvolvimento_paranaense",
       "page": 95,
       "sections": [
+        "CONCLUSÃO"
+      ],
+      "type": "text",
+      "content": "DESENVOLVIMENTO PARANAENSE: CONTEXTO, TENDÊNCIAS E DESAFIOS"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 95,
+      "sections": [
         "PARTE 2"
       ],
       "type": "text",
-      "content": "DESENVOLVIMENTO PARANAENSE: CONTEXTO, TENDÊNCIAS E DESAFIOS\n\n# PARTE 2\n\n101"
+      "content": "# PARTE 2\n\n101"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 96,
+      "sections": [
+        "DESENVOLVIMENTO HUMANO - O PARANÁ NO CONTEXTO INTERNACIONAL"
+      ],
+      "type": "text",
+      "content": "# DESENVOLVIMENTO HUMANO - O PARANÁ NO CONTEXTO INTERNACIONAL\n\nPaulo Roberto Delgado * Mari Aparecida dos Santos **"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1199,7 +1460,7 @@
         "INTRODUÇÃO"
       ],
       "type": "text",
-      "content": "# DESENVOLVIMENTO HUMANO - O PARANÁ NO CONTEXTO INTERNACIONAL\n\nPaulo Roberto Delgado * Mari Aparecida dos Santos **\n\n# INTRODUÇÃO\n\nEm 2015, a Assembleia das Nações Unidas aprovou a Resolução 70/1, documento que estabelece um conjunto de metas para o desenvolvimento sustentável global, denominado 'Transformando Nosso Mundo: a Agenda 2030 para o Desenvolvimento Sustentável'. Dentre as 17 metas que configuram a Agenda 2030, a de número 10 refere-se a um conjunto de iniciativas que visam à redução das desigualdades de renda e de oportunidades dentro dos países e entre eles.\n\nO monitoramento do desenvolvimento entre países tem uma história que remonta ao primeiro Relatório de Desenvolvimento Humano (RDH) divulgado em 1990 pelo Programa das Nações Unidas para o Desenvolvimento (PNUD), quando se fez a primeira apresentação do Índice de Desenvolvimento Humano (IDH), medida com a qual se pretendia acompanhar a trajetória dos países em relação à promoção do bem-estar de suas populações. O IDH inovava ao destacar que a tradicional medida de desenvolvimento - PIB per capita - deveria ser vista como requisito complementar aos avanços em educação e saúde de modo a propiciar às pessoas uma vinda longa e saudável, com amplo acesso ao conhecimento e com um padrão de vida digno. Na edição 2020 do RDH, dispunha-se de uma base de dados referente aos indicadores e subíndices do IDH para 189 países, para a maioria deles cobrindo o período 1990/2019 1 .\n\nAo reconhecer que o desenvolvimento pode ser regionalmente desigual, o estabelecimento da meta 10 da Agenda 2030 colocou o desafio de se avançar no monitoramento das disparidades regionais a partir de uma métrica que permita acompanhar a evolução do desenvolvimento nas subunidades nacionais, com parâmetros compatíveis com os utilizados para acompanhar a trajetória dos países.\n\nNa realidade, tão logo foi lançado o RDH 1990 alguns países buscaram replicar o índice para suas subunidades nacionais, caso da Índia, cuja primeira publicação se deu já em 1991; mais recentemente, em 2013, a China disponibilizou os primeiros dados referentes às suas províncias. 2 No Brasil, a primeira publicação do IDH para as subunidades nacionais data de 1998, resultado de uma parceria entre PNUD, IPEA, IBGE e Fundação Pinheiro; usando dados de três censos demográficos a publicação permitiu acompanhar a evolução do IDH no período 1970/1991 nas escalas regional, estadual e municipal. Posteriormente, a iniciativa consolidou-se no Atlas de Desenvolvimento Humano (Atlas Brasil), plataforma digital que, além do Censo Demográfico, vale-se das informações da Pesquisa Nacional por Amostra de Domicílios (PNAD Contínua) para calcular o índice nos períodos intercensitários. 3 Se essas inciativas locais confirmaram a necessidade de se considerar as disparidades socioeconômicas internamente aos países, elas nem sempre permitem a comparação das subunidades com o que seria o padrão dos países no relatório internacional, nem a comparação entre unidades subnacionais dos diferentes países, uma vez que que essas iniciativas de cálculo do IDH se valem de adaptações metodológicas decorrentes das informações disponíveis em cada país. 4 Para fazer frente ao desafio do monitoramento regional, um grupo de pesquisadores do Global Data Lab, Institute for management Research, Radboud University , na Holanda, desenvolveu uma base de dados contendo os quatro indicadores, os três subíndices e o IDH para, na versão mais recente ( Subnational Human Development Index - SDHI Version 5.0), 186 países e 1.783 subunidades nacionais; 5 para o Brasil, essas unidades correspondem aos 26 Estados e o Distrito Federal. Da mesma forma que a série do PNUD para os países, esses dados, para a maioria das subunidades, correspondem ao período 1990/2019. A presente Nota fará uso desta base para situar a posição do Paraná em âmbito internacional, procurando destacar qual tem sido sua performance ao longo das últimas três décadas, bem como apresentando uma estimativa da evolução futura do IDH paranaense para o período 2020/2035.\n\n* Sociólogo, pesquisador do IPARDES.\n\n** Economista, pesquisadora do Núcleo de Macroeconomia e Desenvolvimento Regional.\n\n1 Disponível em: https://hdr.undp.org/en/indicators/137506#."
+      "content": "# INTRODUÇÃO\n\nEm 2015, a Assembleia das Nações Unidas aprovou a Resolução 70/1, documento que estabelece um conjunto de metas para o desenvolvimento sustentável global, denominado 'Transformando Nosso Mundo: a Agenda 2030 para o Desenvolvimento Sustentável'. Dentre as 17 metas que configuram a Agenda 2030, a de número 10 refere-se a um conjunto de iniciativas que visam à redução das desigualdades de renda e de oportunidades dentro dos países e entre eles.\n\nO monitoramento do desenvolvimento entre países tem uma história que remonta ao primeiro Relatório de Desenvolvimento Humano (RDH) divulgado em 1990 pelo Programa das Nações Unidas para o Desenvolvimento (PNUD), quando se fez a primeira apresentação do Índice de Desenvolvimento Humano (IDH), medida com a qual se pretendia acompanhar a trajetória dos países em relação à promoção do bem-estar de suas populações. O IDH inovava ao destacar que a tradicional medida de desenvolvimento - PIB per capita - deveria ser vista como requisito complementar aos avanços em educação e saúde de modo a propiciar às pessoas uma vinda longa e saudável, com amplo acesso ao conhecimento e com um padrão de vida digno. Na edição 2020 do RDH, dispunha-se de uma base de dados referente aos indicadores e subíndices do IDH para 189 países, para a maioria deles cobrindo o período 1990/2019 1 .\n\nAo reconhecer que o desenvolvimento pode ser regionalmente desigual, o estabelecimento da meta 10 da Agenda 2030 colocou o desafio de se avançar no monitoramento das disparidades regionais a partir de uma métrica que permita acompanhar a evolução do desenvolvimento nas subunidades nacionais, com parâmetros compatíveis com os utilizados para acompanhar a trajetória dos países.\n\nNa realidade, tão logo foi lançado o RDH 1990 alguns países buscaram replicar o índice para suas subunidades nacionais, caso da Índia, cuja primeira publicação se deu já em 1991; mais recentemente, em 2013, a China disponibilizou os primeiros dados referentes às suas províncias. 2 No Brasil, a primeira publicação do IDH para as subunidades nacionais data de 1998, resultado de uma parceria entre PNUD, IPEA, IBGE e Fundação Pinheiro; usando dados de três censos demográficos a publicação permitiu acompanhar a evolução do IDH no período 1970/1991 nas escalas regional, estadual e municipal. Posteriormente, a iniciativa consolidou-se no Atlas de Desenvolvimento Humano (Atlas Brasil), plataforma digital que, além do Censo Demográfico, vale-se das informações da Pesquisa Nacional por Amostra de Domicílios (PNAD Contínua) para calcular o índice nos períodos intercensitários. 3 Se essas inciativas locais confirmaram a necessidade de se considerar as disparidades socioeconômicas internamente aos países, elas nem sempre permitem a comparação das subunidades com o que seria o padrão dos países no relatório internacional, nem a comparação entre unidades subnacionais dos diferentes países, uma vez que que essas iniciativas de cálculo do IDH se valem de adaptações metodológicas decorrentes das informações disponíveis em cada país. 4 Para fazer frente ao desafio do monitoramento regional, um grupo de pesquisadores do Global Data Lab, Institute for management Research, Radboud University , na Holanda, desenvolveu uma base de dados contendo os quatro indicadores, os três subíndices e o IDH para, na versão mais recente ( Subnational Human Development Index - SDHI Version 5.0), 186 países e 1.783 subunidades nacionais; 5 para o Brasil, essas unidades correspondem aos 26 Estados e o Distrito Federal. Da mesma forma que a série do PNUD para os países, esses dados, para a maioria das subunidades, correspondem ao período 1990/2019. A presente Nota fará uso desta base para situar a posição do Paraná em âmbito internacional, procurando destacar qual tem sido sua performance ao longo das últimas três décadas, bem como apresentando uma estimativa da evolução futura do IDH paranaense para o período 2020/2035.\n\n* Sociólogo, pesquisador do IPARDES.\n\n** Economista, pesquisadora do Núcleo de Macroeconomia e Desenvolvimento Regional.\n\n1 Disponível em: https://hdr.undp.org/en/indicators/137506#."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1287,10 +1548,28 @@
       "document": "desenvolvimento_paranaense",
       "page": 105,
       "sections": [
+        "1 O PARANÁ SEGUNDO O SUBNATIONAL HUMAN DEVELOPMENT INDEX (SDHI)"
+      ],
+      "type": "text",
+      "content": "TABELA 2 - ÍNDICE DE DESENVOLVIMENTO HUMANO - UNIDADES TERRITORIAIS SELECIONADAS - 2000-2019\n\nFONTES: Global Data Lab - Institute for Management Research, Radboud University. Subnational Human\n\nDevelopment Index (SHDI Version 5.0); UNDP. Human Development Report, 2020\n\nNOTA: IDH Paraná - Trajetória tendencial no período 2020/2035."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 105,
+      "sections": [
+        "2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035"
+      ],
+      "type": "text",
+      "content": "# 2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035\n\nVisto que a trajetória de crescimento do IDH do Paraná tem se mostrado abaixo da observada em países com mesmo nível de desenvolvimento, nesta seção apresenta-se uma estimativa da performance futura do Estado mantendo-se o padrão de crescimento das últimas décadas. Como horizonte temporal foi definido o período de 2020 a 2035.\n\nNa sequência pretende-se comparar o resultado projetado para o Estado com a trajetória apresentada por um conjunto de países da base SDHI, os quais, a partir de um patamar similar ao que o Paraná apresentava em 2019, dispunham de dados suficientes para serem acompanhados por igual período projetado para o Estado (16 anos)."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 105,
+      "sections": [
         "2.1 PROJEÇÃO DA EVOLUÇÃO DO IDH"
       ],
       "type": "text",
-      "content": "TABELA 2 - ÍNDICE DE DESENVOLVIMENTO HUMANO - UNIDADES TERRITORIAIS SELECIONADAS - 2000-2019\n\nFONTES: Global Data Lab - Institute for Management Research, Radboud University. Subnational Human\n\nDevelopment Index (SHDI Version 5.0); UNDP. Human Development Report, 2020\n\nNOTA: IDH Paraná - Trajetória tendencial no período 2020/2035.\n\n# 2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035\n\nVisto que a trajetória de crescimento do IDH do Paraná tem se mostrado abaixo da observada em países com mesmo nível de desenvolvimento, nesta seção apresenta-se uma estimativa da performance futura do Estado mantendo-se o padrão de crescimento das últimas décadas. Como horizonte temporal foi definido o período de 2020 a 2035.\n\nNa sequência pretende-se comparar o resultado projetado para o Estado com a trajetória apresentada por um conjunto de países da base SDHI, os quais, a partir de um patamar similar ao que o Paraná apresentava em 2019, dispunham de dados suficientes para serem acompanhados por igual período projetado para o Estado (16 anos).\n\n# 2.1 PROJEÇÃO DA EVOLUÇÃO DO IDH\n\nFoi realizada uma análise dos valores da série do Índice de Desenvolvimento Humano (IDH) do Paraná e do Brasil no período entre 1990 e 2019, os quais são divulgados pelo Global Data Lab, conforme ilustra a figura 3."
+      "content": "# 2.1 PROJEÇÃO DA EVOLUÇÃO DO IDH\n\nFoi realizada uma análise dos valores da série do Índice de Desenvolvimento Humano (IDH) do Paraná e do Brasil no período entre 1990 e 2019, os quais são divulgados pelo Global Data Lab, conforme ilustra a figura 3."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1502,10 +1781,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 121,
       "sections": [
+        "INDICADORES DO ÍNDICE DE DESENVOLVIMENTO HUMANO SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS"
+      ],
+      "type": "text",
+      "content": "# INDICADORES DO ÍNDICE DE DESENVOLVIMENTO HUMANO SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 121,
+      "sections": [
         "continua"
       ],
       "type": "text",
-      "content": "# INDICADORES DO ÍNDICE DE DESENVOLVIMENTO HUMANO SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS\n\n# continua"
+      "content": "# continua"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1521,10 +1809,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 122,
       "sections": [
+        "INDICADORES DO ÍNDICE DE DESENVOLVIMENTO HUMANO SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS"
+      ],
+      "type": "text",
+      "content": "# INDICADORES DO ÍNDICE DE DESENVOLVIMENTO HUMANO SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 122,
+      "sections": [
         "conclusão"
       ],
       "type": "text",
-      "content": "# INDICADORES DO ÍNDICE DE DESENVOLVIMENTO HUMANO SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS\n\n# conclusão\n\nFONTE: Global Data Lab - Institute for Management Research, Radboud University. Subnational Human Development Index (SHDI Version 5.0)"
+      "content": "# conclusão\n\nFONTE: Global Data Lab - Institute for Management Research, Radboud University. Subnational Human Development Index (SHDI Version 5.0)"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1540,10 +1837,28 @@
       "document": "desenvolvimento_paranaense",
       "page": 123,
       "sections": [
+        "EXPECTATIVA DE VIDA NO PARANÁ: CENÁRIOS E GANHOS POTENCIAIS DE ANOS"
+      ],
+      "type": "text",
+      "content": "# EXPECTATIVA DE VIDA NO PARANÁ: CENÁRIOS E GANHOS POTENCIAIS DE ANOS\n\nLeonildo Pereira de Souza *"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 123,
+      "sections": [
         "INTRODUÇÃO"
       ],
       "type": "text",
-      "content": "# EXPECTATIVA DE VIDA NO PARANÁ: CENÁRIOS E GANHOS POTENCIAIS DE ANOS\n\nLeonildo Pereira de Souza *\n\n# INTRODUÇÃO\n\nCom vistas a contribuir com o debate acerca das perspectivas de desenvolvimento econômico e humano do Paraná, a presente Nota Técnica aborda o tema da longevidade na população estadual, de modo a apresentar cenários prospectivos com horizonte no ano de 2035, segundo performance registrada pelas taxas de mortalidade. O objetivo do estudo é oferecer diferentes quadros presumíveis, em variantes tendencial e estruturais, via construção de Tábuas de Mortalidade estimadas com choques nas respectivas taxas projetadas, cujo impacto reflete o potencial ganho nos anos médios de vida esperados para os residentes no Estado. Consiste pois em, primeiramente identificar as principais causas atuais de óbito incidentes ao longo do ciclo de vida das pessoas, para que, posteriormente, possam ser elaboradas estratégias de prevenção ou controle dos fatores de risco aos quais a população está exposta, gerando melhoria nas condições e padrões de existência, com extensivo impacto na esperança de vida.\n\nA temática aqui abordada encontra sua relevância nas discussões relacionadas as tendências e condicionantes da desaceleração recente observada no crescimento vegetativo da população brasileira em geral, bem como em suas implicações para o mercado e a sociedade. Movimento este que tem acarretado mudanças bastante aceleradas no perfil etário, impondo desafios e alterando demandas por produtos e serviços, tanto públicos quanto privados. Pois, por um lado, pela ótica da produtividade econômica avista-se redução da parcela da população em idade ativa disponível; e, por outro, pelo viés do bem-estar social vislumbra-se envelhecimento populacional crescente. Nesse interim, podem ser executadas ações de mitigação da perda prematura de anos de vida, com o fim de atenuar as consequências e os custos sociais e econômicos das ocorrências dessa natureza. É nesse sentido que se insere o exercício realizado de investigar o perfil epidemiológico de mortalidade da população paranaense e, assim, sinalizar focos prioritários de enfrentamento que auxiliem na diminuição das probabilidades de óbito e na consequente elevação da expectativa de vida no Paraná.\n\n* Sociólogo, pesquisador do IPARDES."
+      "content": "# INTRODUÇÃO\n\nCom vistas a contribuir com o debate acerca das perspectivas de desenvolvimento econômico e humano do Paraná, a presente Nota Técnica aborda o tema da longevidade na população estadual, de modo a apresentar cenários prospectivos com horizonte no ano de 2035, segundo performance registrada pelas taxas de mortalidade. O objetivo do estudo é oferecer diferentes quadros presumíveis, em variantes tendencial e estruturais, via construção de Tábuas de Mortalidade estimadas com choques nas respectivas taxas projetadas, cujo impacto reflete o potencial ganho nos anos médios de vida esperados para os residentes no Estado. Consiste pois em, primeiramente identificar as principais causas atuais de óbito incidentes ao longo do ciclo de vida das pessoas, para que, posteriormente, possam ser elaboradas estratégias de prevenção ou controle dos fatores de risco aos quais a população está exposta, gerando melhoria nas condições e padrões de existência, com extensivo impacto na esperança de vida.\n\nA temática aqui abordada encontra sua relevância nas discussões relacionadas as tendências e condicionantes da desaceleração recente observada no crescimento vegetativo da população brasileira em geral, bem como em suas implicações para o mercado e a sociedade. Movimento este que tem acarretado mudanças bastante aceleradas no perfil etário, impondo desafios e alterando demandas por produtos e serviços, tanto públicos quanto privados. Pois, por um lado, pela ótica da produtividade econômica avista-se redução da parcela da população em idade ativa disponível; e, por outro, pelo viés do bem-estar social vislumbra-se envelhecimento populacional crescente. Nesse interim, podem ser executadas ações de mitigação da perda prematura de anos de vida, com o fim de atenuar as consequências e os custos sociais e econômicos das ocorrências dessa natureza. É nesse sentido que se insere o exercício realizado de investigar o perfil epidemiológico de mortalidade da população paranaense e, assim, sinalizar focos prioritários de enfrentamento que auxiliem na diminuição das probabilidades de óbito e na consequente elevação da expectativa de vida no Paraná.\n\n* Sociólogo, pesquisador do IPARDES."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 124,
+      "sections": [
+        "INTRODUÇÃO"
+      ],
+      "type": "text",
+      "content": "Neste estudo foram utilizados dados oficiais sobre mortalidade e população disponibilizados, respectivamente, pelo Ministério da Saúde (MS) e Instituto Brasileiro de Geografia e Estatística (IBGE).\n\nAs premissas e hipóteses estabelecidas para o dimensionamento projetado da população futura de longo prazo estão ancoradas nas condições consideradas em IBGE (2018) e IPARDES (2018)."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1552,7 +1867,7 @@
         "1 CARACTERÍSTICAS DA MORTALIDADE NO PARANÁ NO SÉCULO XXI"
       ],
       "type": "text",
-      "content": "Neste estudo foram utilizados dados oficiais sobre mortalidade e população disponibilizados, respectivamente, pelo Ministério da Saúde (MS) e Instituto Brasileiro de Geografia e Estatística (IBGE).\n\nAs premissas e hipóteses estabelecidas para o dimensionamento projetado da população futura de longo prazo estão ancoradas nas condições consideradas em IBGE (2018) e IPARDES (2018).\n\n# 1 CARACTERÍSTICAS DA MORTALIDADE NO PARANÁ NO SÉCULO XXI\n\nO conhecimento das características demográficas de um conjunto populacional é fundamental para a gestão pública e privada em diversas áreas de atividade.\n\nA distribuição da estrutura etária de uma população, de acordo com o contingente encontrado em determinado momento, por idade produtiva (economicamente ativa) 1 ou de dependência (economicamente inativa) 2 , define de modo substantivo o desempenho de múltiplas áreas, tais como educação, saúde, mercado de trabalho e previdência. Este aspecto faz com que a demografia oriente os modelos de políticas públicas e direcione os investimentos prioritários de acordo com as mudanças populacionais observadas e projetadas.\n\nEntre as componentes que influenciam de forma estrutural o tamanho dos grupos de indivíduos segundo faixas de idade estão: a migração (processo em que ocorrem trocas populacionais líquidas de uma área geográfica para outra via deslocamento de volume de indivíduos internos e externos, em um intervalo de tempo, marcando o movimento de entradas e saídas de população); a fecundidade, caracterizada pela quantidade de nascimentos registrados em períodos estabelecidos frente à população feminina em idade fértil existente, assinalando o ingresso de pessoas na população; e a mortalidade , composta pelo número de óbitos ocorridos, segundo causas e distribuição na população total, manifestando a saída de pessoas.\n\nDe modo conjugado, esses três fatores são indutores do comportamento e das tendências da dinâmica demográfica, sendo que, para fins de mensuração da expectativa de vida, a contabilidade e o perfil da ocorrência de óbitos configuram-se no principal insumo para a elaboração das Tábuas de Mortalidade - também denominadas de Tábuas de Sobrevivência. Trata-se de um instrumento teórico utilizado para calcular as probabilidades de falecimento das pessoas de uma população, em um determinado período, a partir do número de pessoas vivas encontradas, segundo recortes entre faixas etárias. Isto é, estima o risco de óbito ao qual a pessoa está exposta em função da idade e o tempo médio vivido dentro do intervalo etário pelos sobreviventes. Portanto, a esperança de vida expressa o número de anos que em média uma pessoa tem a probabilidade de viver desde uma idade específica até sua morte.\n\n1 Grupo etário compreendido entre 15 e 64 anos de idade e entendido como potencialmente produtivo.\n\n2 Segmento etário da população representado por pessoas menores de 15 anos e de 65 anos ou mais de idade, e entendidos como economicamente dependente."
+      "content": "# 1 CARACTERÍSTICAS DA MORTALIDADE NO PARANÁ NO SÉCULO XXI\n\nO conhecimento das características demográficas de um conjunto populacional é fundamental para a gestão pública e privada em diversas áreas de atividade.\n\nA distribuição da estrutura etária de uma população, de acordo com o contingente encontrado em determinado momento, por idade produtiva (economicamente ativa) 1 ou de dependência (economicamente inativa) 2 , define de modo substantivo o desempenho de múltiplas áreas, tais como educação, saúde, mercado de trabalho e previdência. Este aspecto faz com que a demografia oriente os modelos de políticas públicas e direcione os investimentos prioritários de acordo com as mudanças populacionais observadas e projetadas.\n\nEntre as componentes que influenciam de forma estrutural o tamanho dos grupos de indivíduos segundo faixas de idade estão: a migração (processo em que ocorrem trocas populacionais líquidas de uma área geográfica para outra via deslocamento de volume de indivíduos internos e externos, em um intervalo de tempo, marcando o movimento de entradas e saídas de população); a fecundidade, caracterizada pela quantidade de nascimentos registrados em períodos estabelecidos frente à população feminina em idade fértil existente, assinalando o ingresso de pessoas na população; e a mortalidade , composta pelo número de óbitos ocorridos, segundo causas e distribuição na população total, manifestando a saída de pessoas.\n\nDe modo conjugado, esses três fatores são indutores do comportamento e das tendências da dinâmica demográfica, sendo que, para fins de mensuração da expectativa de vida, a contabilidade e o perfil da ocorrência de óbitos configuram-se no principal insumo para a elaboração das Tábuas de Mortalidade - também denominadas de Tábuas de Sobrevivência. Trata-se de um instrumento teórico utilizado para calcular as probabilidades de falecimento das pessoas de uma população, em um determinado período, a partir do número de pessoas vivas encontradas, segundo recortes entre faixas etárias. Isto é, estima o risco de óbito ao qual a pessoa está exposta em função da idade e o tempo médio vivido dentro do intervalo etário pelos sobreviventes. Portanto, a esperança de vida expressa o número de anos que em média uma pessoa tem a probabilidade de viver desde uma idade específica até sua morte.\n\n1 Grupo etário compreendido entre 15 e 64 anos de idade e entendido como potencialmente produtivo.\n\n2 Segmento etário da população representado por pessoas menores de 15 anos e de 65 anos ou mais de idade, e entendidos como economicamente dependente."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1690,10 +2005,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 133,
       "sections": [
+        "1 CARACTERÍSTICAS DA MORTALIDADE NO PARANÁ NO SÉCULO XXI"
+      ],
+      "type": "text",
+      "content": "TABELA 2 - PROPORÇÃO DE ÓBITOS, SEGUNDO CAPÍTULOS DA CID-10, POR FAIXAS ETÁRIAS - PARANÁ - ANOS SELECIONADOS"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 133,
+      "sections": [
         "continua"
       ],
       "type": "text",
-      "content": "TABELA 2 - PROPORÇÃO DE ÓBITOS, SEGUNDO CAPÍTULOS DA CID-10, POR FAIXAS ETÁRIAS - PARANÁ - ANOS SELECIONADOS\n\n# continua"
+      "content": "# continua"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1782,10 +2106,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 141,
       "sections": [
+        "continua"
+      ],
+      "type": "text",
+      "content": "GRÁFICO 7 - DISTRIBUIÇÃO DA MORTALIDADE MASCULINA, DE 15 A 34 ANOS, POR CAUSAS EXTERNAS - PARANÁ ANOS SELECIONADOS\n\nFONTE: MS/SVS/CGIAE - Sistema de Informações sobre Mortalidade (SIM)\n\nPercebe-se que as causas externas possuem grande relação com a violência, envolvendo, portanto, ações e estratégias de mitigação que estão em competências que vão além dos serviços de saúde, demandando a atuação de outras áreas, notadamente da segurança pública."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 141,
+      "sections": [
         "2 EVOLUÇÃO E POSSIBILIDADES DE ACELERAÇÃO DOS GANHOS DE EXPECTATIVA DE VIDA"
       ],
       "type": "text",
-      "content": "GRÁFICO 7 - DISTRIBUIÇÃO DA MORTALIDADE MASCULINA, DE 15 A 34 ANOS, POR CAUSAS EXTERNAS - PARANÁ ANOS SELECIONADOS\n\nFONTE: MS/SVS/CGIAE - Sistema de Informações sobre Mortalidade (SIM)\n\nPercebe-se que as causas externas possuem grande relação com a violência, envolvendo, portanto, ações e estratégias de mitigação que estão em competências que vão além dos serviços de saúde, demandando a atuação de outras áreas, notadamente da segurança pública.\n\n# 2 EVOLUÇÃO E POSSIBILIDADES DE ACELERAÇÃO DOS GANHOS DE EXPECTATIVA DE VIDA\n\nCom base na Tábua de Mortalidade divulgada pelo IBGE (2020), a expectativa de vida no Paraná, em 2019, era de 77,9 anos ao nascer ( ve r tabela 2). Tal média configurava, entre as Unidades da Federação, a sétima maior longevidade do País, estando à frente da média nacional, registrada em 76,6 anos. A mais elevada corresponde ao Estado de Santa Catarina, que atinge 79,9 anos (gráfico 8).\n\nNo ano de 2000, a longevidade média do paranaense era de 71,2 anos. Assim, em 19 anos houve um ganho de 6,6 anos de expectativa de vida."
+      "content": "# 2 EVOLUÇÃO E POSSIBILIDADES DE ACELERAÇÃO DOS GANHOS DE EXPECTATIVA DE VIDA\n\nCom base na Tábua de Mortalidade divulgada pelo IBGE (2020), a expectativa de vida no Paraná, em 2019, era de 77,9 anos ao nascer ( ve r tabela 2). Tal média configurava, entre as Unidades da Federação, a sétima maior longevidade do País, estando à frente da média nacional, registrada em 76,6 anos. A mais elevada corresponde ao Estado de Santa Catarina, que atinge 79,9 anos (gráfico 8).\n\nNo ano de 2000, a longevidade média do paranaense era de 71,2 anos. Assim, em 19 anos houve um ganho de 6,6 anos de expectativa de vida."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1950,10 +2283,28 @@
       "document": "desenvolvimento_paranaense",
       "page": 153,
       "sections": [
+        "CONDICIONANTES DE ESCOLARIZAÇÃO NO PARANÁ *"
+      ],
+      "type": "text",
+      "content": "# CONDICIONANTES DE ESCOLARIZAÇÃO NO PARANÁ *"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 153,
+      "sections": [
         "INTRODUÇÃO"
       ],
       "type": "text",
-      "content": "# CONDICIONANTES DE ESCOLARIZAÇÃO NO PARANÁ *\n\n# INTRODUÇÃO\n\nAs políticas públicas, em geral, são marcadas por desafios. Nesse sentido, a área de educação pode ser considerada como estratégica por ser o canal onde transita parte significativa das potenciais resoluções dos problemas socioeconômicos vigentes.\n\nContemporaneamente, existe um entendimento bastante aceito na academia e difundido na sociedade de que a educação, como aspecto chave de desenvolvimento do capital humano, produz impactos positivos diretos sobre o crescimento econômico e a redução das desigualdades, uma vez que a transferência formal e regular de conhecimento institucionalizado, de maneira quantitativa e qualitativamente universalizada, promove tanto a potencialização da geração de valor agregado em produtos e tecnologias no mundo do trabalho, como o exercício da cidadania, alavancando a equidade social. De modo que a transversalidade do nível de instrução na população consiste em uma das estratégias mais importantes para se operacionalizar resultados e mensurar reflexos na economia e na sociedade. Este reconhecimento da dimensão educação enquanto componente de efeito na mobilidade ocupacional e social dos estratos populacionais também atua, em alguma medida, como mecanismo indutor para o enfrentamento dos desafios encontrados no ensino público na atualidade, estando, entre eles, o de elevar a escolaridade média das pessoas.\n\nNessa direção, no Paraná, ainda que seja necessário reconhecer avanços expressivos, como a ampliação do acesso educacional experimentada nas décadas recentes, problemas importantes persistem, como a manutenção da taxa de analfabetismo, o considerável percentual de estudantes com desempenho insuficiente em testes de proficiência e, sobretudo no ensino médio, a reprovação e a evasão escolar muitas vezes empurrando jovens para o ingresso precoce e precário no trabalho em empregos subqualificados, ou para situações de risco e vulnerabilidade social.\n\nA proposta deste trabalho é a de colaborar com indicações acerca de intervenções que podem aprimorar o desempenho no ganho de anos de estudo da população paranaense. Tendo em vista o objetivo de se elevar a escolaridade média do Estado até o ano de 2035, faz-se necessário considerar variáveis que contribuam para impulsionar de modo sustentado esse movimento desejado de melhoria, bem como para\n\n* O autor agradece as contribuições de Paulo Roberto Delgado e de Daniel Nojima.\n\n** Sociólogo, pesquisador do IPARDES.\n\nLeonildo Pereira de Souza **"
+      "content": "# INTRODUÇÃO\n\nAs políticas públicas, em geral, são marcadas por desafios. Nesse sentido, a área de educação pode ser considerada como estratégica por ser o canal onde transita parte significativa das potenciais resoluções dos problemas socioeconômicos vigentes.\n\nContemporaneamente, existe um entendimento bastante aceito na academia e difundido na sociedade de que a educação, como aspecto chave de desenvolvimento do capital humano, produz impactos positivos diretos sobre o crescimento econômico e a redução das desigualdades, uma vez que a transferência formal e regular de conhecimento institucionalizado, de maneira quantitativa e qualitativamente universalizada, promove tanto a potencialização da geração de valor agregado em produtos e tecnologias no mundo do trabalho, como o exercício da cidadania, alavancando a equidade social. De modo que a transversalidade do nível de instrução na população consiste em uma das estratégias mais importantes para se operacionalizar resultados e mensurar reflexos na economia e na sociedade. Este reconhecimento da dimensão educação enquanto componente de efeito na mobilidade ocupacional e social dos estratos populacionais também atua, em alguma medida, como mecanismo indutor para o enfrentamento dos desafios encontrados no ensino público na atualidade, estando, entre eles, o de elevar a escolaridade média das pessoas.\n\nNessa direção, no Paraná, ainda que seja necessário reconhecer avanços expressivos, como a ampliação do acesso educacional experimentada nas décadas recentes, problemas importantes persistem, como a manutenção da taxa de analfabetismo, o considerável percentual de estudantes com desempenho insuficiente em testes de proficiência e, sobretudo no ensino médio, a reprovação e a evasão escolar muitas vezes empurrando jovens para o ingresso precoce e precário no trabalho em empregos subqualificados, ou para situações de risco e vulnerabilidade social.\n\nA proposta deste trabalho é a de colaborar com indicações acerca de intervenções que podem aprimorar o desempenho no ganho de anos de estudo da população paranaense. Tendo em vista o objetivo de se elevar a escolaridade média do Estado até o ano de 2035, faz-se necessário considerar variáveis que contribuam para impulsionar de modo sustentado esse movimento desejado de melhoria, bem como para\n\n* O autor agradece as contribuições de Paulo Roberto Delgado e de Daniel Nojima.\n\n** Sociólogo, pesquisador do IPARDES.\n\nLeonildo Pereira de Souza **"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 154,
+      "sections": [
+        "INTRODUÇÃO"
+      ],
+      "type": "text",
+      "content": "monitorá-lo e mensurá-lo. Para esse exercício, além do indicador de referência 'número médio de anos de estudo', foram elencados outros indicadores, cuja abordagem expressa aspectos quantitativos e qualitativos da educação básica e tangencia atributos indispensáveis para colaborar com o alcance do cenário de desenvolvimento prospectado."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1962,7 +2313,7 @@
         "1 NÚMERO MÉDIO DE ANOS DE ESTUDO"
       ],
       "type": "text",
-      "content": "monitorá-lo e mensurá-lo. Para esse exercício, além do indicador de referência 'número médio de anos de estudo', foram elencados outros indicadores, cuja abordagem expressa aspectos quantitativos e qualitativos da educação básica e tangencia atributos indispensáveis para colaborar com o alcance do cenário de desenvolvimento prospectado.\n\n# 1 NÚMERO MÉDIO DE ANOS DE ESTUDO\n\nA escolaridade média 1 das pessoas de 25 anos e mais, no Paraná, registrou trajetória ascendente nas últimas décadas (gráfico 1). Foi um acréscimo sustentável de formação, impulsionado pela inclusão massiva de indivíduos no sistema escolar, notadamente no ensino fundamental. A partir da universalização dessa etapa de ensino, buscou-se a ampliação do acesso e da permanência no ensino médio, momento em que a intensidade do movimento não manteve o retrospecto passado.\n\nGRÁFICO 1 - NÚMERO MÉDIO DE ANOS DE ESTUDO DAS PESSOAS DE 25 ANOS E MAIS PARANÁ - 1981-2014\n\nFONTE: IPEADATA\n\n1 Considerando o padrão de oito séries para a etapa do ensino fundamental. A Lei n.º 11.274, de 2006 ampliou para nove séries de duração e prazo de implantação até 2010."
+      "content": "# 1 NÚMERO MÉDIO DE ANOS DE ESTUDO\n\nA escolaridade média 1 das pessoas de 25 anos e mais, no Paraná, registrou trajetória ascendente nas últimas décadas (gráfico 1). Foi um acréscimo sustentável de formação, impulsionado pela inclusão massiva de indivíduos no sistema escolar, notadamente no ensino fundamental. A partir da universalização dessa etapa de ensino, buscou-se a ampliação do acesso e da permanência no ensino médio, momento em que a intensidade do movimento não manteve o retrospecto passado.\n\nGRÁFICO 1 - NÚMERO MÉDIO DE ANOS DE ESTUDO DAS PESSOAS DE 25 ANOS E MAIS PARANÁ - 1981-2014\n\nFONTE: IPEADATA\n\n1 Considerando o padrão de oito séries para a etapa do ensino fundamental. A Lei n.º 11.274, de 2006 ampliou para nove séries de duração e prazo de implantação até 2010."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -2043,10 +2394,37 @@
       "document": "desenvolvimento_paranaense",
       "page": 160,
       "sections": [
+        "1 NÚMERO MÉDIO DE ANOS DE ESTUDO"
+      ],
+      "type": "text",
+      "content": "QUADRO 1 - ESTIMATIVA DE GANHO EM ANOS MÉDIOS DE ESCOLARIDADE NO PARANÁ\n\nFONTE: IPARDES\n\n(1)  Resulta de regressão por mínimos quadrados ordinários com correção de heterocedasticidade:\n\nAME(2529) = 3,56 + 0,0941*TCEF(25-29)"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 160,
+      "sections": [
+        "(0,124) (0,00188)"
+      ],
+      "type": "text",
+      "content": "# (0,124) (0,00188)\n\nNúmero de períodos: 18, R-quadrado = 0,994, erros padrão entre parênteses.\n\n(2)  Resulta de regressão por mínimos quadrados ordinários com correção de heterocedasticidade:"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 160,
+      "sections": [
+        "AME(25-29) = 5,42 + 0,0925*TCEM(25-29)"
+      ],
+      "type": "text",
+      "content": "# AME(25-29) = 5,42 + 0,0925*TCEM(25-29)\n\n(0,116) (0,00196)\n\nNúmero de períodos: 18, R-quadrado = 0,993, erros padrão entre parênteses."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 160,
+      "sections": [
         "2 INDICADORES EDUCACIONAIS E APRENDIZAGEM"
       ],
       "type": "text",
-      "content": "QUADRO 1 - ESTIMATIVA DE GANHO EM ANOS MÉDIOS DE ESCOLARIDADE NO PARANÁ\n\nFONTE: IPARDES\n\n(1)  Resulta de regressão por mínimos quadrados ordinários com correção de heterocedasticidade:\n\nAME(2529) = 3,56 + 0,0941*TCEF(25-29)\n\n# (0,124) (0,00188)\n\nNúmero de períodos: 18, R-quadrado = 0,994, erros padrão entre parênteses.\n\n(2)  Resulta de regressão por mínimos quadrados ordinários com correção de heterocedasticidade:\n\n# AME(25-29) = 5,42 + 0,0925*TCEM(25-29)\n\n(0,116) (0,00196)\n\nNúmero de períodos: 18, R-quadrado = 0,993, erros padrão entre parênteses.\n\n# 2 INDICADORES EDUCACIONAIS E APRENDIZAGEM\n\nExercícios realizados com modelos de regressão (IPARDES, 2022) demonstraram algumas variáveis que influenciam o desempenho no Índice de Desenvolvimento da Educação Básica (IDEB).\n\nO IDEB procura mensurar, a cada dois anos, a qualidade do ensino a partir da performance registrada pelos alunos em termos de avaliação nas disciplinas de Língua Portuguesa e Matemática do Sistema de Avaliação da Educação Básica (SAEB) e a aprovação, ao final do ano escolar, na respectiva série em que o aluno se encontra matriculado.\n\nNo que tange à rede pública estadual do Paraná, a nota do IDEB apresenta retrospecto que aponta redução da performance em termos de notas atingidas conforme o avanço nas etapas de ensino, estando cada uma delas em situações distintas em relação às metas previamente determinadas. Assim, observa-se, na série histórica com resultados disponíveis, que os anos iniciais do ensino fundamental oscilam em torno das metas projetadas, aparecendo na edição de 2019 acima da meta. Já os anos finais do ensino fundamental, depois de várias edições com performance estagnada, passaram a apresentar inflexão ascendente a ponto de atingir a meta prevista na avaliação de 2019. Por sua vez, o ensino médio, apesar de iniciar com atuação acima da meta, perde desempenho, na sequência, para, ao final, recuperar-se e encerrar a série com sua nota mais alta, porém bastante abaixo da meta estabelecida, além de registrar a menor nota entre as etapas de ensino avaliadas."
+      "content": "# 2 INDICADORES EDUCACIONAIS E APRENDIZAGEM\n\nExercícios realizados com modelos de regressão (IPARDES, 2022) demonstraram algumas variáveis que influenciam o desempenho no Índice de Desenvolvimento da Educação Básica (IDEB).\n\nO IDEB procura mensurar, a cada dois anos, a qualidade do ensino a partir da performance registrada pelos alunos em termos de avaliação nas disciplinas de Língua Portuguesa e Matemática do Sistema de Avaliação da Educação Básica (SAEB) e a aprovação, ao final do ano escolar, na respectiva série em que o aluno se encontra matriculado.\n\nNo que tange à rede pública estadual do Paraná, a nota do IDEB apresenta retrospecto que aponta redução da performance em termos de notas atingidas conforme o avanço nas etapas de ensino, estando cada uma delas em situações distintas em relação às metas previamente determinadas. Assim, observa-se, na série histórica com resultados disponíveis, que os anos iniciais do ensino fundamental oscilam em torno das metas projetadas, aparecendo na edição de 2019 acima da meta. Já os anos finais do ensino fundamental, depois de várias edições com performance estagnada, passaram a apresentar inflexão ascendente a ponto de atingir a meta prevista na avaliação de 2019. Por sua vez, o ensino médio, apesar de iniciar com atuação acima da meta, perde desempenho, na sequência, para, ao final, recuperar-se e encerrar a série com sua nota mais alta, porém bastante abaixo da meta estabelecida, além de registrar a menor nota entre as etapas de ensino avaliadas."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -2125,10 +2503,28 @@
       "document": "desenvolvimento_paranaense",
       "page": 168,
       "sections": [
+        "2 INDICADORES EDUCACIONAIS E APRENDIZAGEM"
+      ],
+      "type": "text",
+      "content": "GRÁFICO 11 - DISTRIBUIÇÃO (%) DOS ALUNOS POR NÍVEL SOCIOECONÔMICO - REDE ESTADUAL PARANÁ - 2019\n\nFONTE: INEP/Indicadores Educacionais"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 168,
+      "sections": [
         "CONSIDERAÇÕES FINAIS"
       ],
       "type": "text",
-      "content": "GRÁFICO 11 - DISTRIBUIÇÃO (%) DOS ALUNOS POR NÍVEL SOCIOECONÔMICO - REDE ESTADUAL PARANÁ - 2019\n\nFONTE: INEP/Indicadores Educacionais\n\n# CONSIDERAÇÕES FINAIS\n\nEm publicação anterior, IPARDES (2020), já se demonstrou a tendência decrescente de estudantes matriculados na rede de ensino do Paraná. Esta menor pressão no sistema educacional em termos quantitativos abre janelas de oportunidades para o planejamento e investimento no espectro qualitativo da aprendizagem formal.\n\nA melhoria do quadro da escolaridade da população paranaense exige intervenções e mecanismos que possam garantir a permanência dos estudantes dentro do sistema da educação básica, além de atrair os estudantes evadidos para concluírem as etapas, e, consequentemente, incentivar a continuidade para o nível superior de ensino.\n\nNo presente estudo, buscou-se destacar que o rendimento da aprendizagem escolar tem potencial de avançar por meio de contribuições oficiais direcionadas à formação de nível superior específica dos docentes; por meio da correção do fluxo em estudantes que se encontram em defasagem idade-série, de modo a adequar sua progressão; pela atenção ao adensamento excessivo de estudantes em uma mesma turma; e, mediante a promoção efetiva da inclusão social e produtiva de segmentos da população, com apoio aos alunos oriundos destes."
+      "content": "# CONSIDERAÇÕES FINAIS\n\nEm publicação anterior, IPARDES (2020), já se demonstrou a tendência decrescente de estudantes matriculados na rede de ensino do Paraná. Esta menor pressão no sistema educacional em termos quantitativos abre janelas de oportunidades para o planejamento e investimento no espectro qualitativo da aprendizagem formal.\n\nA melhoria do quadro da escolaridade da população paranaense exige intervenções e mecanismos que possam garantir a permanência dos estudantes dentro do sistema da educação básica, além de atrair os estudantes evadidos para concluírem as etapas, e, consequentemente, incentivar a continuidade para o nível superior de ensino.\n\nNo presente estudo, buscou-se destacar que o rendimento da aprendizagem escolar tem potencial de avançar por meio de contribuições oficiais direcionadas à formação de nível superior específica dos docentes; por meio da correção do fluxo em estudantes que se encontram em defasagem idade-série, de modo a adequar sua progressão; pela atenção ao adensamento excessivo de estudantes em uma mesma turma; e, mediante a promoção efetiva da inclusão social e produtiva de segmentos da população, com apoio aos alunos oriundos destes."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 169,
+      "sections": [
+        "CONSIDERAÇÕES FINAIS"
+      ],
+      "type": "text",
+      "content": "Assim, as estratégias, quando identificada a necessidade, passam menos pela ampliação da oferta de vagas no ensino regular e mais por projetos de acompanhamento pedagógico de estudantes com atraso escolar; por ações de busca ativa e sensibilização de crianças e adolescentes fora da escola; por estímulos - inclusive financeiros - à educação de jovens e adultos com ensino incompleto; bem como por alavancar e atrair para o ensino na modalidade técnica e profissionalizante.\n\nAcredita-se que a articulação da área educacional com outras políticas públicas deve focalizar suas ações de implementação e execução orientada por indicadores que expressem a tendência e o ritmo da escolaridade, de modo a preparar o desenvolvimento educacional da população paranaense para as questões e mudanças que sempre são impostas pelo futuro.\n\nSem pretensão de esgotar as possibilidades de abordagem, esta Nota pretendeu fornecer indicações para subsidiar o aprimoramento de políticas públicas em educação baseadas em evidências, focadas no aumento da escolaridade, com vistas a contribuir com o progresso social e econômico do Paraná."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -2137,7 +2533,16 @@
         "REFERÊNCIAS"
       ],
       "type": "text",
-      "content": "Assim, as estratégias, quando identificada a necessidade, passam menos pela ampliação da oferta de vagas no ensino regular e mais por projetos de acompanhamento pedagógico de estudantes com atraso escolar; por ações de busca ativa e sensibilização de crianças e adolescentes fora da escola; por estímulos - inclusive financeiros - à educação de jovens e adultos com ensino incompleto; bem como por alavancar e atrair para o ensino na modalidade técnica e profissionalizante.\n\nAcredita-se que a articulação da área educacional com outras políticas públicas deve focalizar suas ações de implementação e execução orientada por indicadores que expressem a tendência e o ritmo da escolaridade, de modo a preparar o desenvolvimento educacional da população paranaense para as questões e mudanças que sempre são impostas pelo futuro.\n\nSem pretensão de esgotar as possibilidades de abordagem, esta Nota pretendeu fornecer indicações para subsidiar o aprimoramento de políticas públicas em educação baseadas em evidências, focadas no aumento da escolaridade, com vistas a contribuir com o progresso social e econômico do Paraná.\n\n# REFERÊNCIAS\n\nBARROS, R. P. de et al. Consequências da violação do direito à educação . Rio de Janeiro: Autografia, 2021.\n\nINEP. Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira. Plano Nacional de Educação PNE 2014-2024 : linha de base. Brasília: INEP, 2015.\n\nIPARDES. Instituto Paranaense de Desenvolvimento Econômico e Social. Paraná em Perspectiva . Curitiba: IPARDES, 2020.\n\nIPARDES. Determinantes do aumento da escolaridade e seus efeitos sobre o desenvolvimento econômico paranaense . Curitiba: IPARDES, 2022."
+      "content": "# REFERÊNCIAS\n\nBARROS, R. P. de et al. Consequências da violação do direito à educação . Rio de Janeiro: Autografia, 2021.\n\nINEP. Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira. Plano Nacional de Educação PNE 2014-2024 : linha de base. Brasília: INEP, 2015.\n\nIPARDES. Instituto Paranaense de Desenvolvimento Econômico e Social. Paraná em Perspectiva . Curitiba: IPARDES, 2020.\n\nIPARDES. Determinantes do aumento da escolaridade e seus efeitos sobre o desenvolvimento econômico paranaense . Curitiba: IPARDES, 2022."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 170,
+      "sections": [
+        "SITUAÇÃO E PERSPECTIVA HABITACIONAL NO PARANÁ"
+      ],
+      "type": "text",
+      "content": "# SITUAÇÃO E PERSPECTIVA HABITACIONAL NO PARANÁ"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -2146,7 +2551,7 @@
         "INTRODUÇÃO"
       ],
       "type": "text",
-      "content": "# SITUAÇÃO E PERSPECTIVA HABITACIONAL NO PARANÁ\n\n# INTRODUÇÃO\n\nA questão habitacional e de moradia é tema bastante presente nas discussões a respeito do processo de urbanização brasileiro. Assinalada por grandes assimetrias, tende a representar de modo significativo as desigualdades existentes na sociedade. Os desafios para a garantia do acesso à moradia para parcela da população são persistentes em um contexto histórico em que a construção de moradias adequadas não acompanhou o ritmo do crescimento populacional.\n\nNesse sentido, o objetivo desta Nota Técnica é o de compilar dados recentes acerca da área habitacional no Paraná, com o intuito de oferecer uma visão panorâmica e prospectiva do setor para, a partir disso, colaborar com subsídios ao planejamento de políticas púbicas no Estado.\n\nO estudo encontra-se dividido em quatro seções, além desta breve Introdução. Na primeira parte apresenta-se o conjunto de informações levantadas pelo suplemento anual de habitação da Pesquisa Nacional por Amostra de Domicílios Continua (PNADC), do Instituto Brasileiro de Geografia e Estatística (IBGE), acerca das características gerais dos domicílios brasileiros; na sequência vêm os resultados oriundos do estudo sobre o déficit habitacional e a inadequação de domicílios no Brasil, da Fundação João Pinheiro (FJP), em que são sistematizadas as principais necessidades habitacionais do País; na terceira parte são destacadas as projeções por estoque e demanda de moradias futuras elaboradas e disponibilizadas em publicação resultante de parceria entre o governo federal e a Universidade Federal Fluminense; por fim, têm-se as considerações finais.\n\n* Sociólogo, pesquisador do IPARDES.\n\n** Sociólogo, pesquisador do IPARDES.\n\nPaulo Roberto Delgado * Leonildo Pereira de Souza **"
+      "content": "# INTRODUÇÃO\n\nA questão habitacional e de moradia é tema bastante presente nas discussões a respeito do processo de urbanização brasileiro. Assinalada por grandes assimetrias, tende a representar de modo significativo as desigualdades existentes na sociedade. Os desafios para a garantia do acesso à moradia para parcela da população são persistentes em um contexto histórico em que a construção de moradias adequadas não acompanhou o ritmo do crescimento populacional.\n\nNesse sentido, o objetivo desta Nota Técnica é o de compilar dados recentes acerca da área habitacional no Paraná, com o intuito de oferecer uma visão panorâmica e prospectiva do setor para, a partir disso, colaborar com subsídios ao planejamento de políticas púbicas no Estado.\n\nO estudo encontra-se dividido em quatro seções, além desta breve Introdução. Na primeira parte apresenta-se o conjunto de informações levantadas pelo suplemento anual de habitação da Pesquisa Nacional por Amostra de Domicílios Continua (PNADC), do Instituto Brasileiro de Geografia e Estatística (IBGE), acerca das características gerais dos domicílios brasileiros; na sequência vêm os resultados oriundos do estudo sobre o déficit habitacional e a inadequação de domicílios no Brasil, da Fundação João Pinheiro (FJP), em que são sistematizadas as principais necessidades habitacionais do País; na terceira parte são destacadas as projeções por estoque e demanda de moradias futuras elaboradas e disponibilizadas em publicação resultante de parceria entre o governo federal e a Universidade Federal Fluminense; por fim, têm-se as considerações finais.\n\n* Sociólogo, pesquisador do IPARDES.\n\n** Sociólogo, pesquisador do IPARDES.\n\nPaulo Roberto Delgado * Leonildo Pereira de Souza **"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -2190,10 +2595,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 173,
       "sections": [
+        "2 DÉFICIT E INADEQUAÇÃO HABITACIONAL"
+      ],
+      "type": "text",
+      "content": "# 2 DÉFICIT E INADEQUAÇÃO HABITACIONAL\n\nA Fundação João Pinheiro, em parceria com o Ministério do Desenvolvimento Regional, realizou estudo sobre déficit habitacional no Brasil no período 2016-2019, com desagregações para as unidades da federação e regiões metropolitanas. O objetivo do estudo é 'estimar a falta (déficit) de habitações e/ou existência de habitações em condições inadequadas como noção mais ampla de necessidades habitacionais.' 4 (FJP, 2020a, p.2).\n\nA principal fonte de informação para o estudo é a Pesquisa Nacional por Amostra de Domicílios Contínua Anual, complementada, em um de seus componentes, com dados sobre domicílios improvisados provenientes do Cadastro Único de Programas Sociais."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 173,
+      "sections": [
         "2.1 DÉFICIT HABITACIONAL"
       ],
       "type": "text",
-      "content": "# 2 DÉFICIT E INADEQUAÇÃO HABITACIONAL\n\nA Fundação João Pinheiro, em parceria com o Ministério do Desenvolvimento Regional, realizou estudo sobre déficit habitacional no Brasil no período 2016-2019, com desagregações para as unidades da federação e regiões metropolitanas. O objetivo do estudo é 'estimar a falta (déficit) de habitações e/ou existência de habitações em condições inadequadas como noção mais ampla de necessidades habitacionais.' 4 (FJP, 2020a, p.2).\n\nA principal fonte de informação para o estudo é a Pesquisa Nacional por Amostra de Domicílios Contínua Anual, complementada, em um de seus componentes, com dados sobre domicílios improvisados provenientes do Cadastro Único de Programas Sociais.\n\n# 2.1 DÉFICIT HABITACIONAL\n\nO déficit habitacional corresponde ao número de moradias que precisariam ser construídas para fazer frente à demanda habitacional decorrente da precariedade da habitação, da coabitação associada ao adensamento ou ao tipo de domicílio e do ônus excessivo com aluguel. O quadro 1 apresenta a definição de cada um dos componentes e subcomponentes do déficit habitacional.\n\nQUADRO 1 - COMPONENTES E SUBCOMPONENTES DO DEFICIT HABITACIONAL\n\nFONTE: FJP (2020a)\n\n4 Os dados para o Paraná foram obtidos na página da Fundação (http://fjp.mg.gov.br/deficit-habitacionalno-brasil/). Acesso em: 17 maio 2022."
+      "content": "# 2.1 DÉFICIT HABITACIONAL\n\nO déficit habitacional corresponde ao número de moradias que precisariam ser construídas para fazer frente à demanda habitacional decorrente da precariedade da habitação, da coabitação associada ao adensamento ou ao tipo de domicílio e do ônus excessivo com aluguel. O quadro 1 apresenta a definição de cada um dos componentes e subcomponentes do déficit habitacional.\n\nQUADRO 1 - COMPONENTES E SUBCOMPONENTES DO DEFICIT HABITACIONAL\n\nFONTE: FJP (2020a)\n\n4 Os dados para o Paraná foram obtidos na página da Fundação (http://fjp.mg.gov.br/deficit-habitacionalno-brasil/). Acesso em: 17 maio 2022."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -2237,10 +2651,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 176,
       "sections": [
+        "2.1 DÉFICIT HABITACIONAL"
+      ],
+      "type": "text",
+      "content": "Ressalte-se que, seguindo padrão nacional, a maior parcela dos domicílios que compõem o déficit habitacional no Paraná é chefiada por mulheres. 6 Estas representavam, em 2019, 59,8% do déficit total; 54,6% dos domicílios precários; 62,7% da coabitação; e, 61,0% do ônus com aluguel.\n\nEmbora não se disponha de informação para o Estado, cabe ressaltar que a maior parte do déficit está em domicílios com baixa renda. Para a Região Sul, a informação disponível para 2019 evidencia que, do total do déficit habitacional 25,8% corresponde a domicílios com renda de até 1 salário mínimo; 40,1% corresponde a domicílios com renda maior que 1 até 2 salários mínimos; 17,6% a domicílios com renda maior que 2 até 3 salários mínimos; e 16,5% corresponde a domicílios com renda superior a 3 salários mínimos.\n\nCom exceção do grupo de maior renda, nos demais o principal componente é o aluguel; por definição, no estudo da Fundação João Pinheiro o grupo de maior renda não é incluído no componente 'ônus excessivo com aluguel' e sua participação no déficit se deve à precariedade e coabitação, este principalmente.\n\nAinda em relação ao rendimento domiciliar, cabe chamar atenção para a participação expressiva do componente Precariedade Habitacional entre os domicílios com renda até 1 salário mínimo."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 176,
+      "sections": [
         "2.2 INADEQUAÇÃO HABITACIONAL"
       ],
       "type": "text",
-      "content": "Ressalte-se que, seguindo padrão nacional, a maior parcela dos domicílios que compõem o déficit habitacional no Paraná é chefiada por mulheres. 6 Estas representavam, em 2019, 59,8% do déficit total; 54,6% dos domicílios precários; 62,7% da coabitação; e, 61,0% do ônus com aluguel.\n\nEmbora não se disponha de informação para o Estado, cabe ressaltar que a maior parte do déficit está em domicílios com baixa renda. Para a Região Sul, a informação disponível para 2019 evidencia que, do total do déficit habitacional 25,8% corresponde a domicílios com renda de até 1 salário mínimo; 40,1% corresponde a domicílios com renda maior que 1 até 2 salários mínimos; 17,6% a domicílios com renda maior que 2 até 3 salários mínimos; e 16,5% corresponde a domicílios com renda superior a 3 salários mínimos.\n\nCom exceção do grupo de maior renda, nos demais o principal componente é o aluguel; por definição, no estudo da Fundação João Pinheiro o grupo de maior renda não é incluído no componente 'ônus excessivo com aluguel' e sua participação no déficit se deve à precariedade e coabitação, este principalmente.\n\nAinda em relação ao rendimento domiciliar, cabe chamar atenção para a participação expressiva do componente Precariedade Habitacional entre os domicílios com renda até 1 salário mínimo.\n\n# 2.2 INADEQUAÇÃO HABITACIONAL\n\nA estimativa da inadequação habitacional visa contemplar outras condições de moradias não captadas pela ótica do déficit, mas que são fundamentais para a qualidade de vida de seus moradores, remetendo a questões relacionadas a serviços urbanos, segurança da posse e condições da edificação.\n\nDados esse caráter complementar à ótica do déficit e a natureza urbana de alguns dos serviços/infraestrutura contemplados, na construção do indicador de inadequação são considerados apenas os domicílios que não foram caracterizados como parte do déficit habitacional e que estão localizados em áreas urbanas; ou seja, a inadequação é observada apenas entre os domicílios classificados na PNADC como 'particulares duráveis urbanos'. 7\n\nA inadequação é caracterizada em três componentes: infraestrutura urbana, que envolve quatro subcomponentes; carências edilícias, que envolvem cinco subcomponentes; e a inadequação fundiária, expressa em um único indicador. O quadro 2 apresenta a definição de cada um dos componentes e subcomponentes da inadequação habitacional.\n\nPara o cômputo da inadequação cada domicílio é considerado uma única vez, independentemente de se enquadrar em vários dos tipos de inadequação considerados.\n\n6 As informações sobre a distribuição do déficit segundo sexo da pessoa responsável pelo domicílio e faixa de renda foram obtidas do relatório da FJP (2020b) -Deficit Habitacional no Brasil - 2016-2019.\n\n7 Ver FJP (2020c, p.17)."
+      "content": "# 2.2 INADEQUAÇÃO HABITACIONAL\n\nA estimativa da inadequação habitacional visa contemplar outras condições de moradias não captadas pela ótica do déficit, mas que são fundamentais para a qualidade de vida de seus moradores, remetendo a questões relacionadas a serviços urbanos, segurança da posse e condições da edificação.\n\nDados esse caráter complementar à ótica do déficit e a natureza urbana de alguns dos serviços/infraestrutura contemplados, na construção do indicador de inadequação são considerados apenas os domicílios que não foram caracterizados como parte do déficit habitacional e que estão localizados em áreas urbanas; ou seja, a inadequação é observada apenas entre os domicílios classificados na PNADC como 'particulares duráveis urbanos'. 7\n\nA inadequação é caracterizada em três componentes: infraestrutura urbana, que envolve quatro subcomponentes; carências edilícias, que envolvem cinco subcomponentes; e a inadequação fundiária, expressa em um único indicador. O quadro 2 apresenta a definição de cada um dos componentes e subcomponentes da inadequação habitacional.\n\nPara o cômputo da inadequação cada domicílio é considerado uma única vez, independentemente de se enquadrar em vários dos tipos de inadequação considerados.\n\n6 As informações sobre a distribuição do déficit segundo sexo da pessoa responsável pelo domicílio e faixa de renda foram obtidas do relatório da FJP (2020b) -Deficit Habitacional no Brasil - 2016-2019.\n\n7 Ver FJP (2020c, p.17)."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -2312,10 +2735,28 @@
       "document": "desenvolvimento_paranaense",
       "page": 181,
       "sections": [
+        "2.2 INADEQUAÇÃO HABITACIONAL"
+      ],
+      "type": "text",
+      "content": "Dentre os três subcomponentes predominantes, a Região Metropolitana de Curitiba tem uma participação mais elevada com relação ao armazenamento inadequado de água; 38,2% dos DPDU com este tipo de ocorrência, em 2019. Os outros dois tipos estão concentrados no interior do Estado."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 181,
+      "sections": [
+        "3 PROJEÇÃO HABITACIONAL NO PARANÁ"
+      ],
+      "type": "text",
+      "content": "# 3 PROJEÇÃO HABITACIONAL NO PARANÁ\n\nA transição demográfica pela qual passa o Estado do Paraná é caracterizada por forte desaceleração do crescimento populacional, com ampliação da população em idade adulta, somada à alta urbanização. Nesta etapa, segundo Jannuzzi e Pasquali (1999), uma das políticas públicas mais demandadas é a de habitação. Além do volume de investimentos necessários na construção de moradias novas ou na ampliação e readequação de domicílios existentes e que se encontram sem condições de uso adequado, tal política também é diretamente dependente da disponibilidade de terrenos, bem como pressiona a necessidade de expansão da infraestrutura de saneamento, energia, transporte e ampliação da oferta de serviços em equipamentos públicos.\n\nPara se dimensionar a tendência, e, consequentemente, o tamanho do esforço que deverá ser empreendido na mobilização de recursos pelas próximas décadas no País na área habitacional, em 2018, o Ministério das Cidades (MC), por meio de parceria entre a Secretaria Nacional de Habitação (SNH) e a Universidade Federal Fluminense (UFF), disponibilizou o estudo 'Demanda futura por moradias: demografia, habitação e mercado' (GIVISIEZ; OLIVEIRA; 2018), com horizonte temporal abarcado pelo período de 2010 a 2040. Assim, constam como objetivos da publicação ampliar o conhecimento na temática, subsidiar o Plano Nacional de Habitação e apoiar o planejamento dos estados e municípios.\n\nNesta seção serão compilados os resultados apresentados pela publicação para o Estado do Paraná, tendo-se por horizonte temporal o ano de 2035."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 181,
+      "sections": [
         "3.1 ESTOQUE E DEMANDA FUTURA POR MORADIAS"
       ],
       "type": "text",
-      "content": "Dentre os três subcomponentes predominantes, a Região Metropolitana de Curitiba tem uma participação mais elevada com relação ao armazenamento inadequado de água; 38,2% dos DPDU com este tipo de ocorrência, em 2019. Os outros dois tipos estão concentrados no interior do Estado.\n\n# 3 PROJEÇÃO HABITACIONAL NO PARANÁ\n\nA transição demográfica pela qual passa o Estado do Paraná é caracterizada por forte desaceleração do crescimento populacional, com ampliação da população em idade adulta, somada à alta urbanização. Nesta etapa, segundo Jannuzzi e Pasquali (1999), uma das políticas públicas mais demandadas é a de habitação. Além do volume de investimentos necessários na construção de moradias novas ou na ampliação e readequação de domicílios existentes e que se encontram sem condições de uso adequado, tal política também é diretamente dependente da disponibilidade de terrenos, bem como pressiona a necessidade de expansão da infraestrutura de saneamento, energia, transporte e ampliação da oferta de serviços em equipamentos públicos.\n\nPara se dimensionar a tendência, e, consequentemente, o tamanho do esforço que deverá ser empreendido na mobilização de recursos pelas próximas décadas no País na área habitacional, em 2018, o Ministério das Cidades (MC), por meio de parceria entre a Secretaria Nacional de Habitação (SNH) e a Universidade Federal Fluminense (UFF), disponibilizou o estudo 'Demanda futura por moradias: demografia, habitação e mercado' (GIVISIEZ; OLIVEIRA; 2018), com horizonte temporal abarcado pelo período de 2010 a 2040. Assim, constam como objetivos da publicação ampliar o conhecimento na temática, subsidiar o Plano Nacional de Habitação e apoiar o planejamento dos estados e municípios.\n\nNesta seção serão compilados os resultados apresentados pela publicação para o Estado do Paraná, tendo-se por horizonte temporal o ano de 2035.\n\n# 3.1 ESTOQUE E DEMANDA FUTURA POR MORADIAS\n\nPara se estimar o número de unidades domiciliares existentes e seu comportamento subsequente, o estudo partiu da premissa do relacionamento básico existente entre população e habitação. Desse modo, foram adotados os modelos de Taxa de Chefia e Idade-Período-Coorte (IPC).\n\nDe acordo com a técnica utilizada, o número de domicílios compreendido em um determinado território corresponde ao número de chefes de domicílio na população residente. Isto é, admite-se que o número de chefes de domicílios seja idêntico ao total de domicílios ocupados. De modo que:"
+      "content": "# 3.1 ESTOQUE E DEMANDA FUTURA POR MORADIAS\n\nPara se estimar o número de unidades domiciliares existentes e seu comportamento subsequente, o estudo partiu da premissa do relacionamento básico existente entre população e habitação. Desse modo, foram adotados os modelos de Taxa de Chefia e Idade-Período-Coorte (IPC).\n\nDe acordo com a técnica utilizada, o número de domicílios compreendido em um determinado território corresponde ao número de chefes de domicílio na população residente. Isto é, admite-se que o número de chefes de domicílios seja idêntico ao total de domicílios ocupados. De modo que:"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -2384,10 +2825,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 189,
       "sections": [
+        "3.1 ESTOQUE E DEMANDA FUTURA POR MORADIAS"
+      ],
+      "type": "text",
+      "content": "As estimativas de emprego direto gerados acompanham o movimento de diminuição da demanda total; logo, o número de empregados deverá cair. Além da queda da produção habitacional, o volume de emprego também considera a influência do aumento gradativo da produtividade no setor. Com isso, no Paraná, quase metade dos empregos na construção de moradias deverá deixar de ser requisitada nas próximas duas décadas (gráfico 13).\n\nGRÁFICO 13 - VOLUME DE EMPREGOS DIRETOS GERADOS NA PRODUÇÃO HABITACIONAL - PARANÁ ANOS SELECIONADOS\n\nFONTE: Givisiez e Oliveira (2018)\n\nDiante do exposto aqui, é possível afirmar que a política habitacional pode ser favorecida pela trajetória declinante da dinâmica demográfica. A pressão para o atendimento da demanda tende a diminuir, desde que as políticas públicas não represem o passivo do presente ou posterguem a implantação de ações no futuro."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 189,
+      "sections": [
         "CONSIDERAÇÕES FINAIS"
       ],
       "type": "text",
-      "content": "As estimativas de emprego direto gerados acompanham o movimento de diminuição da demanda total; logo, o número de empregados deverá cair. Além da queda da produção habitacional, o volume de emprego também considera a influência do aumento gradativo da produtividade no setor. Com isso, no Paraná, quase metade dos empregos na construção de moradias deverá deixar de ser requisitada nas próximas duas décadas (gráfico 13).\n\nGRÁFICO 13 - VOLUME DE EMPREGOS DIRETOS GERADOS NA PRODUÇÃO HABITACIONAL - PARANÁ ANOS SELECIONADOS\n\nFONTE: Givisiez e Oliveira (2018)\n\nDiante do exposto aqui, é possível afirmar que a política habitacional pode ser favorecida pela trajetória declinante da dinâmica demográfica. A pressão para o atendimento da demanda tende a diminuir, desde que as políticas públicas não represem o passivo do presente ou posterguem a implantação de ações no futuro.\n\n# CONSIDERAÇÕES FINAIS\n\nAs mudanças de perfil demográfico em curso afetam diretamente a configuração dos domicílios, sobretudo no que se refere ao seu tamanho em número médio de pessoas. Assim, mesmo com a desaceleração do crescimento populacional a demanda por moradia tem se mantido elevada, mas com tendência à redução no horizonte de tempo deste estudo. E, dadas as características próprias da escassez de espaços urbanos, projeta-se mudança no perfil habitacional, com a perspectiva de aumento da demanda por apartamentos, no lugar de casas."
+      "content": "# CONSIDERAÇÕES FINAIS\n\nAs mudanças de perfil demográfico em curso afetam diretamente a configuração dos domicílios, sobretudo no que se refere ao seu tamanho em número médio de pessoas. Assim, mesmo com a desaceleração do crescimento populacional a demanda por moradia tem se mantido elevada, mas com tendência à redução no horizonte de tempo deste estudo. E, dadas as características próprias da escassez de espaços urbanos, projeta-se mudança no perfil habitacional, com a perspectiva de aumento da demanda por apartamentos, no lugar de casas."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -2411,10 +2861,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 192,
       "sections": [
+        "ÁGUAS E SANEAMENTO BÁSICO: APONTAMENTOS SOBRE A EVOLUÇÃO FUTURA NO PARANÁ"
+      ],
+      "type": "text",
+      "content": "# ÁGUAS E SANEAMENTO BÁSICO: APONTAMENTOS SOBRE A EVOLUÇÃO FUTURA NO PARANÁ\n\nMari Aparecida dos Santos *"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 192,
+      "sections": [
         "INTRODUÇÃO"
       ],
       "type": "text",
-      "content": "# ÁGUAS E SANEAMENTO BÁSICO: APONTAMENTOS SOBRE A EVOLUÇÃO FUTURA NO PARANÁ\n\nMari Aparecida dos Santos *\n\n# INTRODUÇÃO\n\nO Paraná é geograficamente um estado privilegiado, com diversas fontes de recursos hídricos. Das 12 regiões geográficas brasileiras, três abastecem o território paranaense, a saber: 92,4% do Estado está na Região Hidrográfica do Paraná; 4,7% situa-se na Região Hidrográfica do Atlântico Sudeste; e 2,9% encontra-se na Região Hidrográfica do Atlântico Sul.\n\nMesmo com essa característica intrínseca, há uma crescente preocupação com o abastecimento da população, principalmente nos grandes centros urbanos. Além disso, o saneamento básico é um direito que deve ser assegurado, não somente em nível regional mas, sobretudo, no âmbito local.\n\nOs municípios, que, em sua totalidade, são atendidos por uma rede de água potável, não são atendidos de modo uniforme com relação à rede de esgoto. Essa heterogeneidade intrínseca em diversos aspectos, sejam ambientais, sociais ou econômicos, ressalta o importante papel da gestão e do planejamento quanto ao saneamento e recursos hídricos. Ressalta-se, desse modo, a importância de um arcabouço eficiente e estruturado para a sua devida gestão.\n\nAs tendências das diversas regiões podem ser observadas com a finalidade de identificar os principais desafios futuros. O crescimento populacional e econômico, bem como as demandas por recursos naturais, são distintos entre as cidades paranaenses. Enquanto as mais populosas, como Curitiba, Maringá e Londrina, que abrigavam em torno de 26% da população total do Estado em 2021 (IPARDES, 2022), tendem a sofrer com a escassez hídrica, os municípios rurais, com baixa densidade demográfica, todavia com abundância em recursos naturais, possuem desafios relativamente maiores no âmbito do saneamento.\n\nO Paraná conta com o Plano Estadual de Recursos Hídricos (PLERH/PR), desde 1999, criado em consonância com o Sistema Estadual de Gerenciamento de Recursos Hídricos do Paraná. O Plano traça ações estratégicas de base; ferramentas de apoio à tomada de decisão; aplicação, ampliação e consolidação da base de conhecimentos especializados do órgão gestor de recursos hídricos; programa de capacitação para a gestão de recursos hídricos; programa integrado de comunicação; e proposta de programas voltados aos recursos hídricos.\n\n* Economista, pesquisadora do Núcleo de Macroeconomia e Desenvolvimento Regional do IPARDES."
+      "content": "# INTRODUÇÃO\n\nO Paraná é geograficamente um estado privilegiado, com diversas fontes de recursos hídricos. Das 12 regiões geográficas brasileiras, três abastecem o território paranaense, a saber: 92,4% do Estado está na Região Hidrográfica do Paraná; 4,7% situa-se na Região Hidrográfica do Atlântico Sudeste; e 2,9% encontra-se na Região Hidrográfica do Atlântico Sul.\n\nMesmo com essa característica intrínseca, há uma crescente preocupação com o abastecimento da população, principalmente nos grandes centros urbanos. Além disso, o saneamento básico é um direito que deve ser assegurado, não somente em nível regional mas, sobretudo, no âmbito local.\n\nOs municípios, que, em sua totalidade, são atendidos por uma rede de água potável, não são atendidos de modo uniforme com relação à rede de esgoto. Essa heterogeneidade intrínseca em diversos aspectos, sejam ambientais, sociais ou econômicos, ressalta o importante papel da gestão e do planejamento quanto ao saneamento e recursos hídricos. Ressalta-se, desse modo, a importância de um arcabouço eficiente e estruturado para a sua devida gestão.\n\nAs tendências das diversas regiões podem ser observadas com a finalidade de identificar os principais desafios futuros. O crescimento populacional e econômico, bem como as demandas por recursos naturais, são distintos entre as cidades paranaenses. Enquanto as mais populosas, como Curitiba, Maringá e Londrina, que abrigavam em torno de 26% da população total do Estado em 2021 (IPARDES, 2022), tendem a sofrer com a escassez hídrica, os municípios rurais, com baixa densidade demográfica, todavia com abundância em recursos naturais, possuem desafios relativamente maiores no âmbito do saneamento.\n\nO Paraná conta com o Plano Estadual de Recursos Hídricos (PLERH/PR), desde 1999, criado em consonância com o Sistema Estadual de Gerenciamento de Recursos Hídricos do Paraná. O Plano traça ações estratégicas de base; ferramentas de apoio à tomada de decisão; aplicação, ampliação e consolidação da base de conhecimentos especializados do órgão gestor de recursos hídricos; programa de capacitação para a gestão de recursos hídricos; programa integrado de comunicação; e proposta de programas voltados aos recursos hídricos.\n\n* Economista, pesquisadora do Núcleo de Macroeconomia e Desenvolvimento Regional do IPARDES."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -2429,10 +2888,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 194,
       "sections": [
+        "INTRODUÇÃO"
+      ],
+      "type": "text",
+      "content": "A segurança hídrica, de acordo com o conceito da Organização das Nações Unidas (ONU), existe quando há disponibilidade de água em quantidade e qualidade suficientes para o atendimento às necessidades humanas, à prática das atividades econômicas e à conservação dos ecossistemas aquáticos, acompanhada de um nível aceitável de risco relacionado a secas e cheias, devendo ser consideradas as suas quatro dimensões como balizadoras do planejamento da oferta e do uso da água em um país: humana, econômica, ecossistêmica e de resiliência.\n\nO presente artigo busca levantar as projeções de demandas hídricas já disponibilizadas por órgãos competentes no País e identificar necessidades em saneamento, com o intuito de identificar possíveis gargalos, com implicações sobre o desenvolvimento econômico de longo prazo, em quatro âmbitos pertinentes: humano, econômico, ecossistêmico e de resiliência. Especificamente, com base na metodologia de pesquisa documental, pautada pela revisão de literatura, este estudo visa destacar as metas existentes nos indicadores consolidados relativamente ao saneamento para 2035, com ênfase na questão da água e esgotamento sanitário.\n\nO artigo está organizado em quatro seções, além desta Introdução. A primeira apresenta a metodologia de pesquisa. Na sequência, são levantados pontos relevantes em relação ao saneamento básico segundo a literatura. Na terceira seção apresenta-se uma investigação dos aspectos sobre a água e esgoto no Estado do Paraná e discutem-se os resultados da pesquisa documental, descrevendo as principais preocupações em torno do assunto. Em seguida, têm-se as considerações finais."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 194,
+      "sections": [
         "1 METODOLOGIA"
       ],
       "type": "text",
-      "content": "A segurança hídrica, de acordo com o conceito da Organização das Nações Unidas (ONU), existe quando há disponibilidade de água em quantidade e qualidade suficientes para o atendimento às necessidades humanas, à prática das atividades econômicas e à conservação dos ecossistemas aquáticos, acompanhada de um nível aceitável de risco relacionado a secas e cheias, devendo ser consideradas as suas quatro dimensões como balizadoras do planejamento da oferta e do uso da água em um país: humana, econômica, ecossistêmica e de resiliência.\n\nO presente artigo busca levantar as projeções de demandas hídricas já disponibilizadas por órgãos competentes no País e identificar necessidades em saneamento, com o intuito de identificar possíveis gargalos, com implicações sobre o desenvolvimento econômico de longo prazo, em quatro âmbitos pertinentes: humano, econômico, ecossistêmico e de resiliência. Especificamente, com base na metodologia de pesquisa documental, pautada pela revisão de literatura, este estudo visa destacar as metas existentes nos indicadores consolidados relativamente ao saneamento para 2035, com ênfase na questão da água e esgotamento sanitário.\n\nO artigo está organizado em quatro seções, além desta Introdução. A primeira apresenta a metodologia de pesquisa. Na sequência, são levantados pontos relevantes em relação ao saneamento básico segundo a literatura. Na terceira seção apresenta-se uma investigação dos aspectos sobre a água e esgoto no Estado do Paraná e discutem-se os resultados da pesquisa documental, descrevendo as principais preocupações em torno do assunto. Em seguida, têm-se as considerações finais.\n\n# 1 METODOLOGIA\n\nO método aqui utilizado é a pesquisa documental, que visa levantar, por meio de documentos sem tratamento analítico - tais como relatórios públicos e estatísticos - dados informações relevantes que se encontram dispersos e que deverão ser organizados e discutidas de maneira crítica.\n\nO processo metodológico se dará por meio de: i) identificação das fontes; ii) localização das fontes e obtenção do material; iii) análise e interpretação dos dados; iv) redação do atual estudo.\n\nAlém disso, a metodologia também se pauta na revisão de literatura com o objetivo de identificar estudos documentais anteriores e textos para discussão relacionados ao tema. A atual pesquisa considera as externalidades socioeconômicas e ambientais causadas pelas ações à política de água e saneamento, limitando-se, contudo, aos serviços de abastecimento de água e esgotamento sanitário."
+      "content": "# 1 METODOLOGIA\n\nO método aqui utilizado é a pesquisa documental, que visa levantar, por meio de documentos sem tratamento analítico - tais como relatórios públicos e estatísticos - dados informações relevantes que se encontram dispersos e que deverão ser organizados e discutidas de maneira crítica.\n\nO processo metodológico se dará por meio de: i) identificação das fontes; ii) localização das fontes e obtenção do material; iii) análise e interpretação dos dados; iv) redação do atual estudo.\n\nAlém disso, a metodologia também se pauta na revisão de literatura com o objetivo de identificar estudos documentais anteriores e textos para discussão relacionados ao tema. A atual pesquisa considera as externalidades socioeconômicas e ambientais causadas pelas ações à política de água e saneamento, limitando-se, contudo, aos serviços de abastecimento de água e esgotamento sanitário."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -2447,10 +2915,19 @@
       "document": "desenvolvimento_paranaense",
       "page": 196,
       "sections": [
+        "2 REVISÃO DE LITERATURA"
+      ],
+      "type": "text",
+      "content": "A Lei considera o abastecimento de água potável e esgotamento sanitário como disponibilidade e manutenção de infraestruturas e instalações operacionais necessárias ao abastecimento público de água potável e esgotos sanitários, desde a origem até o destino, de forma adequada no meio ambiente. E, como limpeza urbana e manejo de resíduos sólidos considera a disponibilidade e manutenção de infraestruturas e instalações operacionais de coleta, varrição manual e mecanizada, asseio e conservação urbana, transporte, transbordo, tratamento e destinação final ambientalmente adequada dos resíduos sólidos domiciliares e dos resíduos de limpeza urbana.\n\nPor sua vez, a drenagem e o manejo das águas pluviais urbanas foram constituídos, conforme a Lei, por meio de atividades de infraestrutura e pelas instalações operacionais de drenagem de águas pluviais, transporte, detenção ou retenção para o amortecimento de vazões de cheias, tratamento e disposição final das águas pluviais drenadas, contempladas a limpeza e a fiscalização preventiva das redes.\n\nSegundo projeções da ANA, as demandas hídricas de retirada para suprimento de água a diversos setores usuários, incluindo a população e as atividades econômicas, podem alcançar cerca de 2.600 m 3 /s no Brasil, em 2030, representando um aumento de quase 2.000% em relação às demandas estimadas para o ano de 1931, ou seja, em um período de 100 anos. Tal condição resulta em riscos de ocorrência de balanço hídrico negativo entre oferta e demanda de água em diversas regiões do País.\n\nNo âmbito do Plano Nacional, entre as diretrizes cabe o apoio ao desenvolvimento científico e tecnológico com vistas a soluções inovadoras para solucionar problemas recorrentes, seja na prestação de serviços, no sistema, incluindo a organização, o planejamento, a regulação, a fiscalização e o controle social, considerando as especificidades locais e regionais.\n\nJá entre as estratégias relacionadas ao poder do Estado, embora não exclusivamente, cabem o apoio às estratégias ligadas à formulação de normas para a gestão dos serviços de saneamento básico necessárias à implementação da política nacional e à execução do PLANSAB, bem como o estabelecimento de diretrizes para o tratamento diferenciado das ações de saneamento básico nas Regiões Metropolitanas; em municípios de pequeno porte; em bacias hidrográficas críticas - segundo definição da ANA -; em áreas de especial interesse sócia; e nas áreas indutoras do desenvolvimento turístico."
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 196,
+      "sections": [
         "3 RESULTADOS E DISCUSSÃO"
       ],
       "type": "text",
-      "content": "A Lei considera o abastecimento de água potável e esgotamento sanitário como disponibilidade e manutenção de infraestruturas e instalações operacionais necessárias ao abastecimento público de água potável e esgotos sanitários, desde a origem até o destino, de forma adequada no meio ambiente. E, como limpeza urbana e manejo de resíduos sólidos considera a disponibilidade e manutenção de infraestruturas e instalações operacionais de coleta, varrição manual e mecanizada, asseio e conservação urbana, transporte, transbordo, tratamento e destinação final ambientalmente adequada dos resíduos sólidos domiciliares e dos resíduos de limpeza urbana.\n\nPor sua vez, a drenagem e o manejo das águas pluviais urbanas foram constituídos, conforme a Lei, por meio de atividades de infraestrutura e pelas instalações operacionais de drenagem de águas pluviais, transporte, detenção ou retenção para o amortecimento de vazões de cheias, tratamento e disposição final das águas pluviais drenadas, contempladas a limpeza e a fiscalização preventiva das redes.\n\nSegundo projeções da ANA, as demandas hídricas de retirada para suprimento de água a diversos setores usuários, incluindo a população e as atividades econômicas, podem alcançar cerca de 2.600 m 3 /s no Brasil, em 2030, representando um aumento de quase 2.000% em relação às demandas estimadas para o ano de 1931, ou seja, em um período de 100 anos. Tal condição resulta em riscos de ocorrência de balanço hídrico negativo entre oferta e demanda de água em diversas regiões do País.\n\nNo âmbito do Plano Nacional, entre as diretrizes cabe o apoio ao desenvolvimento científico e tecnológico com vistas a soluções inovadoras para solucionar problemas recorrentes, seja na prestação de serviços, no sistema, incluindo a organização, o planejamento, a regulação, a fiscalização e o controle social, considerando as especificidades locais e regionais.\n\nJá entre as estratégias relacionadas ao poder do Estado, embora não exclusivamente, cabem o apoio às estratégias ligadas à formulação de normas para a gestão dos serviços de saneamento básico necessárias à implementação da política nacional e à execução do PLANSAB, bem como o estabelecimento de diretrizes para o tratamento diferenciado das ações de saneamento básico nas Regiões Metropolitanas; em municípios de pequeno porte; em bacias hidrográficas críticas - segundo definição da ANA -; em áreas de especial interesse sócia; e nas áreas indutoras do desenvolvimento turístico.\n\n# 3 RESULTADOS E DISCUSSÃO\n\nO território paranaense é seccionado por bacias hidrográficas que o subdividem em 16 agrupamentos, conforme as condições geográficas (figura 1). Ao mesmo tempo, existem 12 Unidades Hidrográficas de Gerenciamento de Recursos Hídricos do Estado do Paraná, para a gestão das 16 bacias."
+      "content": "# 3 RESULTADOS E DISCUSSÃO\n\nO território paranaense é seccionado por bacias hidrográficas que o subdividem em 16 agrupamentos, conforme as condições geográficas (figura 1). Ao mesmo tempo, existem 12 Unidades Hidrográficas de Gerenciamento de Recursos Hídricos do Estado do Paraná, para a gestão das 16 bacias."
     },
     {
       "document": "desenvolvimento_paranaense",

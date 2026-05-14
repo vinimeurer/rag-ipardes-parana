@@ -173,18 +173,21 @@ class Preprocessor:
     def _process_with_section_detection(
         self, pdf_key: str, pages_data: list[dict]
     ) -> list[dict]:
-        """Process pages with markdown header detection.
+        """Process pages with markdown header detection, breaking each page into multiple items per section.
 
         Detects markdown headers (#, ##, ###, etc.) and maintains active
-        section state across pages using SectionParser. Each text item
-        inherits the currently active sections.
+        section state across pages using SectionParser. When a new header
+        is detected, the current block is finalized and a new block starts.
+        Each block inherits the sections that were active BEFORE the header
+        that initiates it, ensuring the block captures its surrounding context.
 
         Args:
             pdf_key: Document identifier.
             pages_data: List of page dicts with page_number and text.
 
         Returns:
-            List of content items ordered by page with detected sections.
+            List of content items ordered by page, with multiple items per page
+            when headers are detected.
         """
         content_items = []
         section_parser = SectionParser()
@@ -197,30 +200,60 @@ class Preprocessor:
                 continue
 
             cleaned_text, _ = self.cleaner.clean_markdown(
-                text,
-                source_id=f"{pdf_key}:p{page_num}",
+                text, source_id=f"{pdf_key}:p{page_num}"
             )
 
             if not cleaned_text.strip():
                 continue
 
             lines = cleaned_text.split("\n")
+            current_block_lines = []
+            current_block_sections = section_parser.current_sections.copy()
+
             for line in lines:
-                section_parser.update(line)
+                # Capture sections BEFORE updating parser
+                sections_before_update = section_parser.current_sections.copy()
 
-            sections = section_parser.current_sections.copy()
-            if not sections:
-                sections = [f"pagina_{page_num}"]
+                # Check if this line is a header and update parser
+                is_header = section_parser.update(line)
 
-            content_items.append(
-                {
-                    "document": pdf_key,
-                    "page": page_num,
-                    "sections": sections,
-                    "type": "text",
-                    "content": cleaned_text,
-                }
-            )
+                if is_header:
+                    # Finaliza bloco anterior com seções de ANTES do header
+                    if current_block_lines:
+                        block_text = "\n".join(current_block_lines).strip()
+                        if block_text:
+                            if not current_block_sections:
+                                current_block_sections = [f"pagina_{page_num}"]
+                            content_items.append({
+                                "document": pdf_key,
+                                "page": page_num,
+                                "sections": current_block_sections,
+                                "type": "text",
+                                "content": block_text,
+                            })
+
+                    # Novo bloco começa com seções APÓS o update (inclui o header atual)
+                    current_block_lines = [line]
+                    current_block_sections = section_parser.current_sections.copy() 
+                else:
+                    # Add content line to current block
+                    current_block_lines.append(line)
+
+            # Finalize last block
+            if current_block_lines:
+                block_text = "\n".join(current_block_lines).strip()
+                if block_text:
+                    # Apply page fallback if block has no sections
+                    if not current_block_sections:
+                        current_block_sections = [f"pagina_{page_num}"]
+
+                    content_items.append({
+                        "document": pdf_key,
+                        "page": page_num,
+                        "sections": current_block_sections,
+                        "type": "text",
+                        "content": block_text,
+                    })
 
         return content_items
 

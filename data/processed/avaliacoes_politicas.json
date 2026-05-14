@@ -3,7 +3,7 @@
     "pdf_key": "avaliacoes_politicas",
     "description": "Avaliações Políticas Públicas Brasil",
     "total_pages": 40,
-    "processed_at": "2026-05-13T17:01:08.962745",
+    "processed_at": "2026-05-13T23:59:43.543633",
     "has_sections": true
   },
   "content": [
@@ -11,10 +11,64 @@
       "document": "avaliacoes_politicas",
       "page": 1,
       "sections": [
+        "AVALIAÇÕES DE POLÍTICAS PÚBLICAS NO BRASIL: UMA REVISÃO DE ESCOPO"
+      ],
+      "type": "text",
+      "content": "# AVALIAÇÕES DE POLÍTICAS PÚBLICAS NO BRASIL: UMA REVISÃO DE ESCOPO"
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 1,
+      "sections": [
         "CURITIBA OUTUBRO 2025"
       ],
       "type": "text",
-      "content": "# AVALIAÇÕES DE POLÍTICAS PÚBLICAS NO BRASIL: UMA REVISÃO DE ESCOPO\n\n# CURITIBA OUTUBRO 2025"
+      "content": "# CURITIBA OUTUBRO 2025"
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 2,
+      "sections": [
+        "GOVERNO DO ESTADO DO PARANÁ"
+      ],
+      "type": "text",
+      "content": "# GOVERNO DO ESTADO DO PARANÁ\n\nCARLOS MASSA RATINHO JUNIOR - Governador DARCI PIANA - Vice-Governador"
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 2,
+      "sections": [
+        "SECRETARIA DE ESTADO DO PLANEJAMENTO"
+      ],
+      "type": "text",
+      "content": "# SECRETARIA DE ESTADO DO PLANEJAMENTO\n\nULISSES MAIA - Secretário"
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 2,
+      "sections": [
+        "INSTITUTO PARANAENSE DE DESENVOLVIMENTO ECONÔMICO E SOCIAL - IPARDES"
+      ],
+      "type": "text",
+      "content": "# INSTITUTO PARANAENSE DE DESENVOLVIMENTO ECONÔMICO E SOCIAL - IPARDES\n\nJORGE AUGUSTO CALLADO AFONSO - Diretor-Presidente CAROLINE BATISTA RIBEIRO - Diretora Administrativo-Financeira JULIO TAKESHI SUZUKI JÚNIOR - Diretor de Pesquisa MARCELO ANTONIO - Diretor de Estatística"
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 2,
+      "sections": [
+        "DEPARTAMENTO DE AVALIÇÕES DE POLÍTICAS PÚBLICAS"
+      ],
+      "type": "text",
+      "content": "# DEPARTAMENTO DE AVALIÇÕES DE POLÍTICAS PÚBLICAS\n\nANGELITA BAZOTTI (Socióloga) - Chefe do Departamento"
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 2,
+      "sections": [
+        "EQUIPE DO PROJETO"
+      ],
+      "type": "text",
+      "content": "# EQUIPE DO PROJETO\n\nLENITA MARIA MARQUES (Economista) - Coordenadora ALINE CRISTINA BATISTA LIMA (Socióloga) - Bolsista - Fundo PR LUCAS NEKEL DA SILVA (Sociólogo) - Bolsista - Fundo PR IAGO HAUER CHIARELLI (Economista) - Residente Técnico - UNICENTRO"
     },
     {
       "document": "avaliacoes_politicas",
@@ -23,7 +77,7 @@
         "CONSULTORA"
       ],
       "type": "text",
-      "content": "# GOVERNO DO ESTADO DO PARANÁ\n\nCARLOS MASSA RATINHO JUNIOR - Governador DARCI PIANA - Vice-Governador\n\n# SECRETARIA DE ESTADO DO PLANEJAMENTO\n\nULISSES MAIA - Secretário\n\n# INSTITUTO PARANAENSE DE DESENVOLVIMENTO ECONÔMICO E SOCIAL - IPARDES\n\nJORGE AUGUSTO CALLADO AFONSO - Diretor-Presidente CAROLINE BATISTA RIBEIRO - Diretora Administrativo-Financeira JULIO TAKESHI SUZUKI JÚNIOR - Diretor de Pesquisa MARCELO ANTONIO - Diretor de Estatística\n\n# DEPARTAMENTO DE AVALIÇÕES DE POLÍTICAS PÚBLICAS\n\nANGELITA BAZOTTI (Socióloga) - Chefe do Departamento\n\n# EQUIPE DO PROJETO\n\nLENITA MARIA MARQUES (Economista) - Coordenadora ALINE CRISTINA BATISTA LIMA (Socióloga) - Bolsista - Fundo PR LUCAS NEKEL DA SILVA (Sociólogo) - Bolsista - Fundo PR IAGO HAUER CHIARELLI (Economista) - Residente Técnico - UNICENTRO\n\n# CONSULTORA\n\nMARIANA ARCOS LORENCETTI (Cientista Política) - Consultora"
+      "content": "# CONSULTORA\n\nMARIANA ARCOS LORENCETTI (Cientista Política) - Consultora"
     },
     {
       "document": "avaliacoes_politicas",
@@ -75,10 +129,37 @@
       "document": "avaliacoes_politicas",
       "page": 7,
       "sections": [
+        "3. METODOLOGIA"
+      ],
+      "type": "text",
+      "content": "# 3. METODOLOGIA"
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 7,
+      "sections": [
+        "3.1 PROTOCOLO E REGISTRO"
+      ],
+      "type": "text",
+      "content": "# 3.1 PROTOCOLO E REGISTRO\n\nO presente relatório seguiu as diretrizes da checklist 'Preferred Reporting Items for Systematic Reviews and Meta-Analyses' (doravante PRISMA ou 'Protocolo PRISMA') em sua variante criada especificamente para scoping reviews PRISMA ScR (Tricco et al 2018). São fornecidas as informações na ordem requerida no documento. É possível consultar os tópicos e o modelo utilizado na página do PRISMA 1 . Foi escolhido este molde de relatório, pois garante a organização do relato de pesquisa da forma mais transparente e reprodutível possível, permitindo que o leitor possa avaliar a qualidade da análise com maior facilidade. O Protocolo PRISMA foi idealizado para reduzir vieses de relato e garantir que o texto seja direto e de fácil revisão por pares, uma vez que o processo de pesquisa e seus resultados são relatados mediante tópicos fixos e sucintos.\n\nA presente pesquisa ainda não apresenta registro publicado em database de revisões sistemáticas."
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 7,
+      "sections": [
         "3.2 CRITÉRIOS DE ELEGIBILIDADE"
       ],
       "type": "text",
-      "content": "# 3. METODOLOGIA\n\n# 3.1 PROTOCOLO E REGISTRO\n\nO presente relatório seguiu as diretrizes da checklist 'Preferred Reporting Items for Systematic Reviews and Meta-Analyses' (doravante PRISMA ou 'Protocolo PRISMA') em sua variante criada especificamente para scoping reviews PRISMA ScR (Tricco et al 2018). São fornecidas as informações na ordem requerida no documento. É possível consultar os tópicos e o modelo utilizado na página do PRISMA 1 . Foi escolhido este molde de relatório, pois garante a organização do relato de pesquisa da forma mais transparente e reprodutível possível, permitindo que o leitor possa avaliar a qualidade da análise com maior facilidade. O Protocolo PRISMA foi idealizado para reduzir vieses de relato e garantir que o texto seja direto e de fácil revisão por pares, uma vez que o processo de pesquisa e seus resultados são relatados mediante tópicos fixos e sucintos.\n\nA presente pesquisa ainda não apresenta registro publicado em database de revisões sistemáticas.\n\n# 3.2 CRITÉRIOS DE ELEGIBILIDADE\n\nAceitos apenas relatórios avaliativos de acesso aberto : Foram selecionados artigos, notas técnicas e relatórios publicados na web em página de livre acesso. Houve preferência por esses documentos devido à disponibilidade para que cidadãos ou pesquisadores interessados pudessem acessar, caso tivessem interesse em analisar a área, estando, assim, em consonância com o ideal de publicidade e transparência que devem ser almejados pela gestão pública. Portanto, não foram elegíveis artigos que demandassem login institucional, cadastro ou requisição aos órgãos formuladores.\n\nRecorte temático : Os temas escolhidos foram educação, saúde pública e segurança pública. Tal seleção figurou-se pela relevância destes aspectos para a gestão pública.\n\nRecorte temporal : Todos os relatórios e artigos foram publicados entre 2014 e março de 2024, não sendo incorporadas publicações anteriores ou posteriores a este período. Considera-se não apenas os limites de tempo da execução da pesquisa, como também o fato de que o projeto pretende contemplar o estado atual da pesquisa avaliativa nacional.\n\n1 PRISMAScoping Reviews , ver em <https://www.prisma-statement.org/scoping>"
+      "content": "# 3.2 CRITÉRIOS DE ELEGIBILIDADE\n\nAceitos apenas relatórios avaliativos de acesso aberto : Foram selecionados artigos, notas técnicas e relatórios publicados na web em página de livre acesso. Houve preferência por esses documentos devido à disponibilidade para que cidadãos ou pesquisadores interessados pudessem acessar, caso tivessem interesse em analisar a área, estando, assim, em consonância com o ideal de publicidade e transparência que devem ser almejados pela gestão pública. Portanto, não foram elegíveis artigos que demandassem login institucional, cadastro ou requisição aos órgãos formuladores.\n\nRecorte temático : Os temas escolhidos foram educação, saúde pública e segurança pública. Tal seleção figurou-se pela relevância destes aspectos para a gestão pública.\n\nRecorte temporal : Todos os relatórios e artigos foram publicados entre 2014 e março de 2024, não sendo incorporadas publicações anteriores ou posteriores a este período. Considera-se não apenas os limites de tempo da execução da pesquisa, como também o fato de que o projeto pretende contemplar o estado atual da pesquisa avaliativa nacional.\n\n1 PRISMAScoping Reviews , ver em <https://www.prisma-statement.org/scoping>"
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 8,
+      "sections": [
+        "3.2 CRITÉRIOS DE ELEGIBILIDADE"
+      ],
+      "type": "text",
+      "content": "Todas as políticas públicas analisadas são iniciativas do poder público brasileiro e implementadas no Brasil : Não foram consideradas políticas públicas quaisquer iniciativas de entidades privadas ou sem fins lucrativos, tampouco estudos sobre o caso de outros países.\n\nApenas documentos em português, inglês e espanhol foram incluídos na pesquisa : A vasta maioria de textos sobre o caso brasileiro são de fato publicados em português, de modo que não se considera que exista grande perda pela não inclusão de estudos em outros idiomas.\n\nAssim, foram consideradas avaliações de políticas públicas artigos e relatórios que buscaram avaliar ou medir o sucesso ou fracasso nos efeitos, resultados, ou implementação de políticas públicas no Brasil nos dez anos anteriores ao projeto. Análises críticas não abrangentes ou exposição de dados sem desdobramento avaliativo foram excluídas. Determinamos, no entanto, que todos os artigos que se autointitulam ou são indicados explicitamente como avaliações de políticas públicas foram aceitos. Nestes casos, as deficiências e lacunas do documento devem ser apontadas durante o processo de análise documental."
     },
     {
       "document": "avaliacoes_politicas",
@@ -87,7 +168,7 @@
         "3.3 FONTES DE INFORMAÇÃO"
       ],
       "type": "text",
-      "content": "Todas as políticas públicas analisadas são iniciativas do poder público brasileiro e implementadas no Brasil : Não foram consideradas políticas públicas quaisquer iniciativas de entidades privadas ou sem fins lucrativos, tampouco estudos sobre o caso de outros países.\n\nApenas documentos em português, inglês e espanhol foram incluídos na pesquisa : A vasta maioria de textos sobre o caso brasileiro são de fato publicados em português, de modo que não se considera que exista grande perda pela não inclusão de estudos em outros idiomas.\n\nAssim, foram consideradas avaliações de políticas públicas artigos e relatórios que buscaram avaliar ou medir o sucesso ou fracasso nos efeitos, resultados, ou implementação de políticas públicas no Brasil nos dez anos anteriores ao projeto. Análises críticas não abrangentes ou exposição de dados sem desdobramento avaliativo foram excluídas. Determinamos, no entanto, que todos os artigos que se autointitulam ou são indicados explicitamente como avaliações de políticas públicas foram aceitos. Nestes casos, as deficiências e lacunas do documento devem ser apontadas durante o processo de análise documental.\n\n# 3.3 FONTES DE INFORMAÇÃO\n\nSites institucionais de governos estaduais e do Governo Federal foram explorados em busca de links para autarquias, conselhos ou outros órgãos que tenham como função a avaliação e o monitoramento de políticas públicas. As páginas web foram verificadas em busca de relatórios publicados entre 2014 e 2024. A coleta foi efetuada entre dezembro de 2023 e março de 2024.\n\nPara entendimento do campo acadêmico, foi escolhida a plataforma SciELO Brasil para buscas de artigos e textos relevantes ao propósito da pesquisa.\n\nPor fim, a busca por think tanks e grupos não governamentais foi feita por meio tanto da página ' Thinkers Brasil', quanto da página que lista órgãos filiados à Associação Nacional das Instituições de Planejamento, Pesquisa e Estatística - ANIPES. Foi complementada a lista de fontes através de sugestões de especialistas do IPARDES. A lista de fontes a analisar foi organizada através de planilha do Libre Office, e quatro pesquisadores receberam a tarefa de visitar cada qual uma parcela dos endereços web constantes na lista."
+      "content": "# 3.3 FONTES DE INFORMAÇÃO\n\nSites institucionais de governos estaduais e do Governo Federal foram explorados em busca de links para autarquias, conselhos ou outros órgãos que tenham como função a avaliação e o monitoramento de políticas públicas. As páginas web foram verificadas em busca de relatórios publicados entre 2014 e 2024. A coleta foi efetuada entre dezembro de 2023 e março de 2024.\n\nPara entendimento do campo acadêmico, foi escolhida a plataforma SciELO Brasil para buscas de artigos e textos relevantes ao propósito da pesquisa.\n\nPor fim, a busca por think tanks e grupos não governamentais foi feita por meio tanto da página ' Thinkers Brasil', quanto da página que lista órgãos filiados à Associação Nacional das Instituições de Planejamento, Pesquisa e Estatística - ANIPES. Foi complementada a lista de fontes através de sugestões de especialistas do IPARDES. A lista de fontes a analisar foi organizada através de planilha do Libre Office, e quatro pesquisadores receberam a tarefa de visitar cada qual uma parcela dos endereços web constantes na lista."
     },
     {
       "document": "avaliacoes_politicas",
@@ -111,10 +192,19 @@
       "document": "avaliacoes_politicas",
       "page": 11,
       "sections": [
+        "3.4.1 Pesquisas Acadêmicas, Think Tanks e Organizações Não Governamentais"
+      ],
+      "type": "text",
+      "content": "# 3.4.1 Pesquisas Acadêmicas, Think Tanks e Organizações Não Governamentais\n\nO projeto também se dedicou a procurar iniciativas fora dos órgãos de Estado que promovessem avaliações de políticas públicas; a coleta foi iniciada, novamente, por recomendações de colegas, e plataformas conectadas à iniciativa Thinkers Brasil, uma iniciativa de divulgação de think tanks e organizações brasileiras voltadas a advocacy . A maioria destas organizações não é voltada à avaliação de políticas públicas, embora algumas delas tenham produzido relatórios de demanda, ou seja, textos que utilizavam dados sociodemográficos e outras informações para justificar seus posicionamentos favoráveis à implementação futura de políticas em uma área ou outra. Outros think tanks costumam fazer a exposição de dados relevantes, como o Anuário da Violência do Fórum Brasileiro de Segurança Pública, mas não avaliam políticas públicas de suas áreas de interesse.\n\nNão se quer afirmar que estudos expositivos ou diagnósticos sejam irrelevantes - não apenas tais documentos são importantíssimos, como também estudos diagnósticos são cruciais como ponto de partida da verificação de um problema que demande intervenção. No entanto, não são avaliações de políticas ou intervenções públicas e, assim, não podem ser incluídos nesse corpus de análise. Desta forma, o número de textos extraídos de plataformas não-governamentais e não acadêmicas foi bastante reduzido.\n\nA lista completa de think tanks e ONGs que tiveram suas páginas visitadas consta no Apêndice 1. É importante mencionar que constar na lista não indica, necessariamente, que textos da organização foram selecionados como parte do corpus de análise documental."
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 11,
+      "sections": [
         "3.4.2 A Coleta de Textos Acadêmicos de Avaliação de Políticas Públicas"
       ],
       "type": "text",
-      "content": "# 3.4.1 Pesquisas Acadêmicas, Think Tanks e Organizações Não Governamentais\n\nO projeto também se dedicou a procurar iniciativas fora dos órgãos de Estado que promovessem avaliações de políticas públicas; a coleta foi iniciada, novamente, por recomendações de colegas, e plataformas conectadas à iniciativa Thinkers Brasil, uma iniciativa de divulgação de think tanks e organizações brasileiras voltadas a advocacy . A maioria destas organizações não é voltada à avaliação de políticas públicas, embora algumas delas tenham produzido relatórios de demanda, ou seja, textos que utilizavam dados sociodemográficos e outras informações para justificar seus posicionamentos favoráveis à implementação futura de políticas em uma área ou outra. Outros think tanks costumam fazer a exposição de dados relevantes, como o Anuário da Violência do Fórum Brasileiro de Segurança Pública, mas não avaliam políticas públicas de suas áreas de interesse.\n\nNão se quer afirmar que estudos expositivos ou diagnósticos sejam irrelevantes - não apenas tais documentos são importantíssimos, como também estudos diagnósticos são cruciais como ponto de partida da verificação de um problema que demande intervenção. No entanto, não são avaliações de políticas ou intervenções públicas e, assim, não podem ser incluídos nesse corpus de análise. Desta forma, o número de textos extraídos de plataformas não-governamentais e não acadêmicas foi bastante reduzido.\n\nA lista completa de think tanks e ONGs que tiveram suas páginas visitadas consta no Apêndice 1. É importante mencionar que constar na lista não indica, necessariamente, que textos da organização foram selecionados como parte do corpus de análise documental.\n\n# 3.4.2 A Coleta de Textos Acadêmicos de Avaliação de Políticas Públicas\n\nConforme já mencionado, foi utilizada uma expressão de busca bastante abrangente na plataforma SciELO Brasil. A escolha por uma plataforma de periódicos, não sendo incluída a chamada 'literatura cinza', como anais de congresso, teses ou dissertações, se deve ao fato de que estes últimos não passam pelos mesmos processos de revisão que artigos publicados em periódicos. Também é possível argumentar que teses, dissertações e apresentações de congresso não raro são matéria-prima para artigos, que passam a ser versões mais sucintas, didáticas e revisadas que seu material de origem. Entendemos que a limitação de formato pode configurar em perdas informacionais. A SciELO Brasil foi escolhida por ser o maior repositório de textos da América Latina e exigir que periódicos façam revisão por pares do material publicado.\n\nPercebeu-se, à primeira vista, uma maioria pujante de textos da área da saúde, esta que é mais familiarizada e possui adesão mais antiga aos métodos necessários para avaliar uma política pública. O tema 'educação' também trouxe número considerável de trabalhos, ainda que nem sempre nos moldes esperados para inclusão no corpus da pesquisa. Apesar de existir uma rede de pesquisadores bastante engajada nos problemas da Segurança Pública, estudos focados em avaliar intervenções e ações governamentais ainda não possuem tanta popularidade entre aqueles engajados na área, de forma que estes trabalhos perfazem uma minoria daqueles coletados. Apenas será, no entanto, possível mensurar com exatidão a proporção de cada tema após a codificação pela análise de conteúdo."
+      "content": "# 3.4.2 A Coleta de Textos Acadêmicos de Avaliação de Políticas Públicas\n\nConforme já mencionado, foi utilizada uma expressão de busca bastante abrangente na plataforma SciELO Brasil. A escolha por uma plataforma de periódicos, não sendo incluída a chamada 'literatura cinza', como anais de congresso, teses ou dissertações, se deve ao fato de que estes últimos não passam pelos mesmos processos de revisão que artigos publicados em periódicos. Também é possível argumentar que teses, dissertações e apresentações de congresso não raro são matéria-prima para artigos, que passam a ser versões mais sucintas, didáticas e revisadas que seu material de origem. Entendemos que a limitação de formato pode configurar em perdas informacionais. A SciELO Brasil foi escolhida por ser o maior repositório de textos da América Latina e exigir que periódicos façam revisão por pares do material publicado.\n\nPercebeu-se, à primeira vista, uma maioria pujante de textos da área da saúde, esta que é mais familiarizada e possui adesão mais antiga aos métodos necessários para avaliar uma política pública. O tema 'educação' também trouxe número considerável de trabalhos, ainda que nem sempre nos moldes esperados para inclusão no corpus da pesquisa. Apesar de existir uma rede de pesquisadores bastante engajada nos problemas da Segurança Pública, estudos focados em avaliar intervenções e ações governamentais ainda não possuem tanta popularidade entre aqueles engajados na área, de forma que estes trabalhos perfazem uma minoria daqueles coletados. Apenas será, no entanto, possível mensurar com exatidão a proporção de cada tema após a codificação pela análise de conteúdo."
     },
     {
       "document": "avaliacoes_politicas",
@@ -138,10 +228,37 @@
       "document": "avaliacoes_politicas",
       "page": 14,
       "sections": [
+        "4.1 PROCESSO DE MAPEAMENTO DE DADOS ( DATA CHARTING PROCESS )"
+      ],
+      "type": "text",
+      "content": "# 4.1 PROCESSO DE MAPEAMENTO DE DADOS ( DATA CHARTING PROCESS )\n\nAs variáveis de pesquisa foram selecionadas a partir de reunião com a coordenação do projeto e o livro de códigos discutido coletivamente e moldado ao longo do período de um mês. Determinou-se que a pesquisa tinha como propósito entender quem e como se faz avaliação de políticas públicas no Brasil. Assim, foi dada ênfase às informações da origem dos textos (pesquisadores, demandantes etc.), informações contextuais a respeito da política pública (nome, área de implementação, nível da federação responsável), mas, sobretudo, grande parte dos códigos se referem aos métodos e à prática avaliativa.\n\nCada um dos textos selecionados na primeira etapa foi inserido para análise em um projeto dividido novamente em duas duplas de pesquisadores, utilizando o software Atlas.ti. Como o programa é atualizado automaticamente pela empresa desenvolvedora, o projeto atualmente utiliza a versão 25 do programa - mais recente - e já utilizou as versões anteriores 23 e 24 em momentos anteriores da pesquisa.\n\nA seleção de informações de interesse foi realizada com cada pesquisador criando marcações de texto relevantes, e atribuindo a estes trechos códigos simplificados para facilitar a análise, e possíveis checagens posteriores dos códigos aplicados. Cada marcação ou grifo no texto é considerada pelo Atlas.ti como uma unidade de análise. A marcação de sentenças, frases ou mesmo parágrafos inteiros possibilita a localização direta da informação para eventuais verificações e correções, obrigando que o trecho seja explicativo e completo o suficiente para justificar a codificação aplicada.\n\nAlgumas das variáveis, como métodos e técnicas, área do pesquisador, avaliador e nome da política pública receberam códigos que reproduziam a informação fornecida no texto conforme nele consta (i.e., codificação ' as is ' ou 'in vivo' ) e os dados assim obtidos passaram por um processo posterior de agregação para simplificação da análise e facilitação da comparação entre textos."
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 14,
+      "sections": [
         "4.1.1 Variáveis de Interesse à Questão de Pesquisa"
       ],
       "type": "text",
-      "content": "# 4.1 PROCESSO DE MAPEAMENTO DE DADOS ( DATA CHARTING PROCESS )\n\nAs variáveis de pesquisa foram selecionadas a partir de reunião com a coordenação do projeto e o livro de códigos discutido coletivamente e moldado ao longo do período de um mês. Determinou-se que a pesquisa tinha como propósito entender quem e como se faz avaliação de políticas públicas no Brasil. Assim, foi dada ênfase às informações da origem dos textos (pesquisadores, demandantes etc.), informações contextuais a respeito da política pública (nome, área de implementação, nível da federação responsável), mas, sobretudo, grande parte dos códigos se referem aos métodos e à prática avaliativa.\n\nCada um dos textos selecionados na primeira etapa foi inserido para análise em um projeto dividido novamente em duas duplas de pesquisadores, utilizando o software Atlas.ti. Como o programa é atualizado automaticamente pela empresa desenvolvedora, o projeto atualmente utiliza a versão 25 do programa - mais recente - e já utilizou as versões anteriores 23 e 24 em momentos anteriores da pesquisa.\n\nA seleção de informações de interesse foi realizada com cada pesquisador criando marcações de texto relevantes, e atribuindo a estes trechos códigos simplificados para facilitar a análise, e possíveis checagens posteriores dos códigos aplicados. Cada marcação ou grifo no texto é considerada pelo Atlas.ti como uma unidade de análise. A marcação de sentenças, frases ou mesmo parágrafos inteiros possibilita a localização direta da informação para eventuais verificações e correções, obrigando que o trecho seja explicativo e completo o suficiente para justificar a codificação aplicada.\n\nAlgumas das variáveis, como métodos e técnicas, área do pesquisador, avaliador e nome da política pública receberam códigos que reproduziam a informação fornecida no texto conforme nele consta (i.e., codificação ' as is ' ou 'in vivo' ) e os dados assim obtidos passaram por um processo posterior de agregação para simplificação da análise e facilitação da comparação entre textos.\n\n# 4.1.1 Variáveis de Interesse à Questão de Pesquisa\n\nOs tópicos de interesse podem ser descritos e categorizados da seguinte forma:\n\n' Quem avalia a política pública? ' Este tópico se refere a entender se os pesquisadores envolvidos são mencionados por nome ou por instituição, se suas áreas de formação são explicitadas, e se existe menção a algum órgão demandante que tenha 'encomendado' a pesquisa.\n\n' Qual a política pública avaliada? ' Para responder a esta questão, foram coletados: o nome da política pública em questão, sua área temática, o órgão formulador da ação, e possíveis financiadores."
+      "content": "# 4.1.1 Variáveis de Interesse à Questão de Pesquisa\n\nOs tópicos de interesse podem ser descritos e categorizados da seguinte forma:\n\n' Quem avalia a política pública? ' Este tópico se refere a entender se os pesquisadores envolvidos são mencionados por nome ou por instituição, se suas áreas de formação são explicitadas, e se existe menção a algum órgão demandante que tenha 'encomendado' a pesquisa.\n\n' Qual a política pública avaliada? ' Para responder a esta questão, foram coletados: o nome da política pública em questão, sua área temática, o órgão formulador da ação, e possíveis financiadores."
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 15,
+      "sections": [
+        "4.1.1 Variáveis de Interesse à Questão de Pesquisa"
+      ],
+      "type": "text",
+      "content": "' Como se avaliou a política pública? ' Para este tópico, elencaram-se o recorte geográfico utilizado para verificação dos efeitos da intervenção, se existe exposição de modelo lógico ou equivalente, o tipo de avaliação efetuada (p.ex. avaliação de impacto, avaliação executiva, avaliação de desenho etc.), os métodos e técnicas empregados, os indicadores mobilizados ou a sua ausência ou incompletude, quais as fontes de dados indicadas pelos autores e qual a qualidade da apresentação destas fontes (permitindo ou não replicação do estudo), se foram empregados recursos ou equipamentos para a avaliação e, por fim, se os pesquisadores relataram dificuldades no processo de avaliação."
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 15,
+      "sections": [
+        "4.1.2 Categorias de codificação aplicadas"
+      ],
+      "type": "text",
+      "content": "# 4.1.2 Categorias de codificação aplicadas\n\nSobre as equipes responsáveis:\n\n\"Avaliadores\": categorias \"identificados\" e \"não consta\". Aqui se buscou o nome dos pesquisadores, organização ou instituição responsável pela avaliação.\n\n\"Demandantes\": categorias \"identificados\" e \"não consta\". Esta categoria tem como propósito indicar casos de pesquisas \"encomendadas\" por governos ou feitas por demanda de agências financiadoras.\n\n\"Área do pesquisador\": as categorias foram feitas \" as is, \" ou seja, conforme constam em texto, em casos nos quais foi possível verificar a área de formação ou atuação dos avaliadores."
     },
     {
       "document": "avaliacoes_politicas",
@@ -150,7 +267,7 @@
         "4.1.3 Categorias referentes à política pública analisada"
       ],
       "type": "text",
-      "content": "' Como se avaliou a política pública? ' Para este tópico, elencaram-se o recorte geográfico utilizado para verificação dos efeitos da intervenção, se existe exposição de modelo lógico ou equivalente, o tipo de avaliação efetuada (p.ex. avaliação de impacto, avaliação executiva, avaliação de desenho etc.), os métodos e técnicas empregados, os indicadores mobilizados ou a sua ausência ou incompletude, quais as fontes de dados indicadas pelos autores e qual a qualidade da apresentação destas fontes (permitindo ou não replicação do estudo), se foram empregados recursos ou equipamentos para a avaliação e, por fim, se os pesquisadores relataram dificuldades no processo de avaliação.\n\n# 4.1.2 Categorias de codificação aplicadas\n\nSobre as equipes responsáveis:\n\n\"Avaliadores\": categorias \"identificados\" e \"não consta\". Aqui se buscou o nome dos pesquisadores, organização ou instituição responsável pela avaliação.\n\n\"Demandantes\": categorias \"identificados\" e \"não consta\". Esta categoria tem como propósito indicar casos de pesquisas \"encomendadas\" por governos ou feitas por demanda de agências financiadoras.\n\n\"Área do pesquisador\": as categorias foram feitas \" as is, \" ou seja, conforme constam em texto, em casos nos quais foi possível verificar a área de formação ou atuação dos avaliadores.\n\n# 4.1.3 Categorias referentes à política pública analisada\n\n\"Nome da Política Pública\": codificado em moldes \"conforme consta\", com o nome da política pública e, caso necessário, a sigla pela qual é mais conhecida.\n\n\"Órgão de Formulação\": consta o nível do órgão que formulou a política pública. As categorias são \"Governo Estadual\", \"Governo Federal\", \"Governo Municipal\" e \"Não Consta\".\n\n\"Financiadores\": foram classificados desta forma as agências financiadoras da política pública, como o Banco Mundial ou o BNDES. Caso nenhum financiador fosse identificado o código \"Não consta\" foi aplicado.\n\n\"Tema da Política Pública\": os textos receberam codificação segundo a área da política, sendo as áreas temáticas aceitas na presente pesquisa \"Educação\", \"Saúde\" e \"Segurança Pública\"."
+      "content": "# 4.1.3 Categorias referentes à política pública analisada\n\n\"Nome da Política Pública\": codificado em moldes \"conforme consta\", com o nome da política pública e, caso necessário, a sigla pela qual é mais conhecida.\n\n\"Órgão de Formulação\": consta o nível do órgão que formulou a política pública. As categorias são \"Governo Estadual\", \"Governo Federal\", \"Governo Municipal\" e \"Não Consta\".\n\n\"Financiadores\": foram classificados desta forma as agências financiadoras da política pública, como o Banco Mundial ou o BNDES. Caso nenhum financiador fosse identificado o código \"Não consta\" foi aplicado.\n\n\"Tema da Política Pública\": os textos receberam codificação segundo a área da política, sendo as áreas temáticas aceitas na presente pesquisa \"Educação\", \"Saúde\" e \"Segurança Pública\"."
     },
     {
       "document": "avaliacoes_politicas",
@@ -165,10 +282,28 @@
       "document": "avaliacoes_politicas",
       "page": 17,
       "sections": [
+        "4.1.4 Categorias referentes ao texto avaliativo estudado:"
+      ],
+      "type": "text",
+      "content": "'Estatística Inferencial', para regressões dos mais diversos tipos e outras técnicas de inferência estatística;\n\n'Grupo Focal, Painel de Especialistas e Oficinas', inclui métodos de entrevista coletiva, rodas de debate guiado, oficinas de diálogo, entre outros;\n\n'Outras técnicas qualitativas', abrangendo, sobretudo, técnicas antropológicas, como a observação participante e a etnografia;\n\n'Questionários e Survey ', para questionários fechados e de múltipla escolha;\n\n'Testes de confiabilidade' para autores que explicitam detalhadamente técnicas que garantam a robustez e confiabilidade de modelos mais complexos.\n\n' Indicadores': categoria que relata se os pesquisadores informam os indicadores utilizados para avaliar a política pública. As categorias são 'Presente', 'Ausente', 'Não se aplica' e 'Incompleto ou insuficiente'. 'Incompleto/insuficiente' foi aplicado em casos nos quais os indicadores não apresentaram elementos e variáveis suficientemente explicados.\n\n'Fontes' : consta nesta variável as fontes de dados utilizados na pesquisa, como bancos de dados oficiais, análise documental ou dados de elaboração própria. As categorias foram criadas segundo informações relatadas no texto.\n\n'Qualidade das Fontes': essa categoria tem como propósito avaliar a replicabilidade do estudo, o que é possível caso as fontes de dados tenham sido expostas de forma suficientemente explicativa. As categorias são 'Completo', para casos onde a origem dos dados foi informada de forma detalhada; 'Incompleto ou insuficiente' para casos nos quais não existe clareza o suficiente a respeito dos dados utilizados e, por fim 'não constam fontes' para casos nos quais os pesquisadores falharam em informar a origem de seus dados."
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 17,
+      "sections": [
         "4.1.5 Sobre o processo avaliativo:"
       ],
       "type": "text",
-      "content": "'Estatística Inferencial', para regressões dos mais diversos tipos e outras técnicas de inferência estatística;\n\n'Grupo Focal, Painel de Especialistas e Oficinas', inclui métodos de entrevista coletiva, rodas de debate guiado, oficinas de diálogo, entre outros;\n\n'Outras técnicas qualitativas', abrangendo, sobretudo, técnicas antropológicas, como a observação participante e a etnografia;\n\n'Questionários e Survey ', para questionários fechados e de múltipla escolha;\n\n'Testes de confiabilidade' para autores que explicitam detalhadamente técnicas que garantam a robustez e confiabilidade de modelos mais complexos.\n\n' Indicadores': categoria que relata se os pesquisadores informam os indicadores utilizados para avaliar a política pública. As categorias são 'Presente', 'Ausente', 'Não se aplica' e 'Incompleto ou insuficiente'. 'Incompleto/insuficiente' foi aplicado em casos nos quais os indicadores não apresentaram elementos e variáveis suficientemente explicados.\n\n'Fontes' : consta nesta variável as fontes de dados utilizados na pesquisa, como bancos de dados oficiais, análise documental ou dados de elaboração própria. As categorias foram criadas segundo informações relatadas no texto.\n\n'Qualidade das Fontes': essa categoria tem como propósito avaliar a replicabilidade do estudo, o que é possível caso as fontes de dados tenham sido expostas de forma suficientemente explicativa. As categorias são 'Completo', para casos onde a origem dos dados foi informada de forma detalhada; 'Incompleto ou insuficiente' para casos nos quais não existe clareza o suficiente a respeito dos dados utilizados e, por fim 'não constam fontes' para casos nos quais os pesquisadores falharam em informar a origem de seus dados.\n\n# 4.1.5 Sobre o processo avaliativo:\n\n'Ferramentas e Recursos': ilustra instâncias nas quais os autores da avaliação relataram artifícios adicionais para a pesquisa. As categorias são: 'Equipes contratadas', aplicada sobretudo em casos de pesquisa de campo envolvendo times amplos de pesquisadores; ' Software ', para os casos nos quais os pesquisadores relataram o uso de programas informatizados para análise ou gestão de dados; 'equipamentos físicos' para o uso de aparelhos como, por exemplo, gravadores, câmeras, entre outros; 'Infraestrutura' para casos de uso de salas e locais especiais para a pesquisa, como ambientes especiais para aplicação de grupo focal. Por fim, tem-se as categorias ' Incompleto/insuficiente ' para explanações vagas sobre o uso de recursos adicionais, e ' Não consta ' para casos"
+      "content": "# 4.1.5 Sobre o processo avaliativo:\n\n'Ferramentas e Recursos': ilustra instâncias nas quais os autores da avaliação relataram artifícios adicionais para a pesquisa. As categorias são: 'Equipes contratadas', aplicada sobretudo em casos de pesquisa de campo envolvendo times amplos de pesquisadores; ' Software ', para os casos nos quais os pesquisadores relataram o uso de programas informatizados para análise ou gestão de dados; 'equipamentos físicos' para o uso de aparelhos como, por exemplo, gravadores, câmeras, entre outros; 'Infraestrutura' para casos de uso de salas e locais especiais para a pesquisa, como ambientes especiais para aplicação de grupo focal. Por fim, tem-se as categorias ' Incompleto/insuficiente ' para explanações vagas sobre o uso de recursos adicionais, e ' Não consta ' para casos"
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 18,
+      "sections": [
+        "4.1.5 Sobre o processo avaliativo:"
+      ],
+      "type": "text",
+      "content": "nos quais não houve relato de uso de ferramentas.\n\n'Dificuldades de avaliação': Esta variável tem apenas duas categorias - 'Relatado' e 'Não Consta'. 'Relatado' foi uma marcação colocada em trechos dos textos que expuseram possíveis percalços na execução da pesquisa, como ausência de dados oficiais, problemas na aplicação dos métodos escolhidos ou lacunas importantes de informação. 'Não consta' se refere a textos que não mencionam dificuldades na formulação da pesquisa."
     },
     {
       "document": "avaliacoes_politicas",
@@ -177,7 +312,16 @@
         "5. AVALIAÇÃO CRÍTICA DE CADA FONTE DE EVIDÊNCIA"
       ],
       "type": "text",
-      "content": "nos quais não houve relato de uso de ferramentas.\n\n'Dificuldades de avaliação': Esta variável tem apenas duas categorias - 'Relatado' e 'Não Consta'. 'Relatado' foi uma marcação colocada em trechos dos textos que expuseram possíveis percalços na execução da pesquisa, como ausência de dados oficiais, problemas na aplicação dos métodos escolhidos ou lacunas importantes de informação. 'Não consta' se refere a textos que não mencionam dificuldades na formulação da pesquisa.\n\n# 5. AVALIAÇÃO CRÍTICA DE CADA FONTE DE EVIDÊNCIA\n\nNão foi efetuado processo de seleção com base em rigor metodológico das pesquisas coletadas ou qualidade e robustez das evidências apresentadas pelos autores, uma vez que o propósito da atual pesquisa é compreender o processo avaliativo aplicado no país, incluindo as possíveis deficiências no campo da avaliação de políticas públicas. Ou seja: trabalhos de baixo rigor ou com falhas metodológicas são parte relevante da pergunta que rege esta pesquisa, 'como se avaliam políticas públicas no Brasil? '.\n\nNo entanto, todos os textos aceitos obedeciam aos seguintes critérios: ser necessário que o texto fosse sobre o caso brasileiro; sobre políticas públicas implementadas pelo Estado nas áreas de Saúde, Educação ou Segurança Pública; e que o texto tivesse como propósito central avaliar tal política pública. Estas exigências pressupõem um mínimo de coerência técnica e temática nos materiais selecionados. Deve-se explicitar que textos 'de má qualidade' frequentemente não se encaixavam nos moldes de uma avaliação de política pública sendo, naturalmente, excluídos. Outro motivo para a ausência de avaliação crítica de cada fonte foi a prevenção de vieses de caráter pessoal ou ideológico. Também não foi aplicada a Escala Maryland de Métodos Científicos pois não se deseja excluir material plausível quando pensamos 'quem faz e como fazem as avaliações de políticas públicas': a exclusão de artigos com 'evidências fracas' seria uma grande perda para nossa análise."
+      "content": "# 5. AVALIAÇÃO CRÍTICA DE CADA FONTE DE EVIDÊNCIA\n\nNão foi efetuado processo de seleção com base em rigor metodológico das pesquisas coletadas ou qualidade e robustez das evidências apresentadas pelos autores, uma vez que o propósito da atual pesquisa é compreender o processo avaliativo aplicado no país, incluindo as possíveis deficiências no campo da avaliação de políticas públicas. Ou seja: trabalhos de baixo rigor ou com falhas metodológicas são parte relevante da pergunta que rege esta pesquisa, 'como se avaliam políticas públicas no Brasil? '.\n\nNo entanto, todos os textos aceitos obedeciam aos seguintes critérios: ser necessário que o texto fosse sobre o caso brasileiro; sobre políticas públicas implementadas pelo Estado nas áreas de Saúde, Educação ou Segurança Pública; e que o texto tivesse como propósito central avaliar tal política pública. Estas exigências pressupõem um mínimo de coerência técnica e temática nos materiais selecionados. Deve-se explicitar que textos 'de má qualidade' frequentemente não se encaixavam nos moldes de uma avaliação de política pública sendo, naturalmente, excluídos. Outro motivo para a ausência de avaliação crítica de cada fonte foi a prevenção de vieses de caráter pessoal ou ideológico. Também não foi aplicada a Escala Maryland de Métodos Científicos pois não se deseja excluir material plausível quando pensamos 'quem faz e como fazem as avaliações de políticas públicas': a exclusão de artigos com 'evidências fracas' seria uma grande perda para nossa análise."
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 19,
+      "sections": [
+        "6. METODOLOGIA DE SÍNTESE DE RESULTADOS"
+      ],
+      "type": "text",
+      "content": "# 6. METODOLOGIA DE SÍNTESE DE RESULTADOS\n\nOs documentos obtidos devem passar por organização a partir dos moldes da análise de conteúdo, com livro de códigos fixo, nos moldes descritivo-exploratório (Harding, Whitehead 2012). Mais precisamente, as categorias atribuídas a cada documento foram descritas por meio de frequências simples (buscando afirmações como 'tais práticas ou tal formato é o mais utilizado') e, posteriormente, a testes de coocorrência, de forma que seja possível relacionar temas, práticas e métodos.\n\nAssim, é pretendido que seja possível relacionar temas e práticas como, por exemplo, 'políticas deste tema são analisadas mais comumente por esta metodologia' ou 'contratempos da pesquisa são relatados com a seguinte frequência', tornando assim possível a criação de um quadro que indique boas práticas ou erros mais comuns na área."
     },
     {
       "document": "avaliacoes_politicas",
@@ -186,7 +330,7 @@
         "6.1 SELEÇÃO DE FONTES DE EVIDÊNCIA"
       ],
       "type": "text",
-      "content": "# 6. METODOLOGIA DE SÍNTESE DE RESULTADOS\n\nOs documentos obtidos devem passar por organização a partir dos moldes da análise de conteúdo, com livro de códigos fixo, nos moldes descritivo-exploratório (Harding, Whitehead 2012). Mais precisamente, as categorias atribuídas a cada documento foram descritas por meio de frequências simples (buscando afirmações como 'tais práticas ou tal formato é o mais utilizado') e, posteriormente, a testes de coocorrência, de forma que seja possível relacionar temas, práticas e métodos.\n\nAssim, é pretendido que seja possível relacionar temas e práticas como, por exemplo, 'políticas deste tema são analisadas mais comumente por esta metodologia' ou 'contratempos da pesquisa são relatados com a seguinte frequência', tornando assim possível a criação de um quadro que indique boas práticas ou erros mais comuns na área.\n\n# 6.1 SELEÇÃO DE FONTES DE EVIDÊNCIA\n\nO processo de filtragem dos textos ocorreu em duas etapas: primeiramente, os textos coletados foram analisados superficialmente, considerando os resumos quando estes constavam, ou lendo a introdução e objetivos dos textos cujo formato não possuía resumo. Já era esperado que nem todos os textos do corpus aceitos nessa etapa seriam selecionados após leitura em profundidade, necessária à aplicação dos códigos relevantes. A seleção em ambas as etapas foi feita por dois pesquisadores, com a coordenação da equipe sendo o terceiro seletor em casos de discordância. Quando nem mesmo o terceiro codificador foi capaz de decidir o destino de algum documento, reuniões de toda a equipe foram marcadas para leitura cuidadosa e discussão a respeito da relevância do material. Durante o primeiro processo de filtragem, 508 dos documentos de origem não governamental e não acadêmica foram excluídos, 171 dos documentos de órgãos governamentais foram excluídos e 59 dos artigos acadêmicos tiveram o mesmo destino (figura 1).\n\nApós reuniões periódicas para condução da pesquisa, durante o processo de codificação, mais uma parcela do conjunto de textos foi excluída, sendo 19 documentos provenientes de organizações não governamentais e think tanks , e o mesmo ocorreu com 54 dos documentos de fontes governamentais e 52 dos artigos acadêmicos coletados da SciELO Brasil. A razão mais listada para exclusão era que o texto expunha alguns aspectos críticos de uma política pública, mas não executava uma avaliação de políticas públicas, não possuindo conclusões nesse sentido (figura 1).\n\nPor último, durante o processo de correção das codificações e reuniões periódicas, três outros textos foram excluídos por não serem avaliações de políticas públicas completas, e sim relatórios parciais desprovidos de resultados."
+      "content": "# 6.1 SELEÇÃO DE FONTES DE EVIDÊNCIA\n\nO processo de filtragem dos textos ocorreu em duas etapas: primeiramente, os textos coletados foram analisados superficialmente, considerando os resumos quando estes constavam, ou lendo a introdução e objetivos dos textos cujo formato não possuía resumo. Já era esperado que nem todos os textos do corpus aceitos nessa etapa seriam selecionados após leitura em profundidade, necessária à aplicação dos códigos relevantes. A seleção em ambas as etapas foi feita por dois pesquisadores, com a coordenação da equipe sendo o terceiro seletor em casos de discordância. Quando nem mesmo o terceiro codificador foi capaz de decidir o destino de algum documento, reuniões de toda a equipe foram marcadas para leitura cuidadosa e discussão a respeito da relevância do material. Durante o primeiro processo de filtragem, 508 dos documentos de origem não governamental e não acadêmica foram excluídos, 171 dos documentos de órgãos governamentais foram excluídos e 59 dos artigos acadêmicos tiveram o mesmo destino (figura 1).\n\nApós reuniões periódicas para condução da pesquisa, durante o processo de codificação, mais uma parcela do conjunto de textos foi excluída, sendo 19 documentos provenientes de organizações não governamentais e think tanks , e o mesmo ocorreu com 54 dos documentos de fontes governamentais e 52 dos artigos acadêmicos coletados da SciELO Brasil. A razão mais listada para exclusão era que o texto expunha alguns aspectos críticos de uma política pública, mas não executava uma avaliação de políticas públicas, não possuindo conclusões nesse sentido (figura 1).\n\nPor último, durante o processo de correção das codificações e reuniões periódicas, três outros textos foram excluídos por não serem avaliações de políticas públicas completas, e sim relatórios parciais desprovidos de resultados."
     },
     {
       "document": "avaliacoes_politicas",
@@ -220,10 +364,28 @@
       "document": "avaliacoes_politicas",
       "page": 22,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO"
+      ],
+      "type": "text",
+      "content": "Dos artigos publicados por organizações não governamentais, um deles foi publicado pelo Banco Interamericano de Desenvolvimento e um pelo Banco Mundial, um pelo Instituto Natura e dois pelo IEPS (Instituto de Estudos para Políticas de Saúde). Notase que o número de artigos por tipo de origem não é o mesmo do fluxograma: por vezes, as buscas em fontes não governamentais levaram a páginas de órgãos públicos e vice-versa ."
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 22,
+      "sections": [
+        "7.1 RESULTADOS"
+      ],
+      "type": "text",
+      "content": "# 7.1 RESULTADOS\n\nDuas perguntas de pesquisa regem o presente trabalho: quem avalia políticas públicas no Brasil, e como são feitas tais avaliações. Para responder a estas perguntas, duas divisões cruciais são feitas: primeiramente, se deseja diferenciar os tipos de pesquisador, sobretudo pelo tipo de fonte de dados - entre trabalhos acadêmicos, publicações governamentais e artigos de órgãos não governamentais e autarquias. Outra divisão importante é entender as formas de avaliação que acompanham cada um dos temas aqui analisados, sendo eles políticas de saúde, educação e segurança pública."
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 22,
+      "sections": [
         "7.2 RESULTADOS GERAIS"
       ],
       "type": "text",
-      "content": "Dos artigos publicados por organizações não governamentais, um deles foi publicado pelo Banco Interamericano de Desenvolvimento e um pelo Banco Mundial, um pelo Instituto Natura e dois pelo IEPS (Instituto de Estudos para Políticas de Saúde). Notase que o número de artigos por tipo de origem não é o mesmo do fluxograma: por vezes, as buscas em fontes não governamentais levaram a páginas de órgãos públicos e vice-versa .\n\n# 7.1 RESULTADOS\n\nDuas perguntas de pesquisa regem o presente trabalho: quem avalia políticas públicas no Brasil, e como são feitas tais avaliações. Para responder a estas perguntas, duas divisões cruciais são feitas: primeiramente, se deseja diferenciar os tipos de pesquisador, sobretudo pelo tipo de fonte de dados - entre trabalhos acadêmicos, publicações governamentais e artigos de órgãos não governamentais e autarquias. Outra divisão importante é entender as formas de avaliação que acompanham cada um dos temas aqui analisados, sendo eles políticas de saúde, educação e segurança pública.\n\n# 7.2 RESULTADOS GERAIS\n\nDeve-se lembrar, novamente, do pormenor metodológico de que se buscou informações presentes nos documentos analisados e não foi permitido a busca de fontes externas de dados. Assim, é possível que diversos autores não mencionem aspectos importantes de suas pesquisas, deixando lacunas informacionais. Considerou-se tais lacunas achados de pesquisa, previsíveis diante do baixo uso de checklists e protocolos de registro.\n\nNa vasta maioria dos casos, os pesquisadores foram identificados individualmente, ou seja, com os nomes de cada um dos integrantes da equipe avaliadora. Em oito casos, constava identificado o nome da instituição, e não seus integrantes."
+      "content": "# 7.2 RESULTADOS GERAIS\n\nDeve-se lembrar, novamente, do pormenor metodológico de que se buscou informações presentes nos documentos analisados e não foi permitido a busca de fontes externas de dados. Assim, é possível que diversos autores não mencionem aspectos importantes de suas pesquisas, deixando lacunas informacionais. Considerou-se tais lacunas achados de pesquisa, previsíveis diante do baixo uso de checklists e protocolos de registro.\n\nNa vasta maioria dos casos, os pesquisadores foram identificados individualmente, ou seja, com os nomes de cada um dos integrantes da equipe avaliadora. Em oito casos, constava identificado o nome da instituição, e não seus integrantes."
     },
     {
       "document": "avaliacoes_politicas",
@@ -239,10 +401,19 @@
       "document": "avaliacoes_politicas",
       "page": 23,
       "sections": [
+        "7.3 DISTRIBUIÇÃO DE DOCUMENTOS POR TEMA DA POLÍTICA PÚBLICA"
+      ],
+      "type": "text",
+      "content": "# 7.3 DISTRIBUIÇÃO DE DOCUMENTOS POR TEMA DA POLÍTICA PÚBLICA\n\nUm comentário se faz necessário: o Programa Nacional de Alimentação Escolar foi codificado tanto como Educação quanto Saúde em textos nos quais os autores faziam uma boa conexão entre as áreas temáticas, e é por este motivo que têm mais casos do que o número de documentos analisados.\n\nÉ importante mencionar que boa parte dos resultados comparativos usa contagens brutas pela grande disparidade de número de casos por tema. Não se pode afirmar, com certeza, os motivos por trás de uma contagem tão baixa de casos para a Segurança Pública, mas pode-se considerar que as outras áreas possuam uma tradição mais forte de diálogo com a área de políticas públicas ou gestão pública, maior contato com moldes e práticas necessárias para a avaliação de políticas públicas, e maior disponibilidade de dados publicados."
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 23,
+      "sections": [
         "7.4 DEMANDANTES"
       ],
       "type": "text",
-      "content": "# 7.3 DISTRIBUIÇÃO DE DOCUMENTOS POR TEMA DA POLÍTICA PÚBLICA\n\nUm comentário se faz necessário: o Programa Nacional de Alimentação Escolar foi codificado tanto como Educação quanto Saúde em textos nos quais os autores faziam uma boa conexão entre as áreas temáticas, e é por este motivo que têm mais casos do que o número de documentos analisados.\n\nÉ importante mencionar que boa parte dos resultados comparativos usa contagens brutas pela grande disparidade de número de casos por tema. Não se pode afirmar, com certeza, os motivos por trás de uma contagem tão baixa de casos para a Segurança Pública, mas pode-se considerar que as outras áreas possuam uma tradição mais forte de diálogo com a área de políticas públicas ou gestão pública, maior contato com moldes e práticas necessárias para a avaliação de políticas públicas, e maior disponibilidade de dados publicados.\n\n# 7.4 DEMANDANTES\n\nOs \"Demandantes\" da Política Pública (ou seja, órgãos governamentais, autarquias, bancos e outros interessados que possam ter \"encomendado\" a avaliação) raramente foram identificados. Em 67 avaliações não se mencionam demandantes e, em 32 delas mencionam, entre chamadas de órgãos públicos com demandas para a comunidade acadêmica e órgãos públicos que coordenam pesquisas. Aqui, considera-se que todos os textos produzidos por entidades governamentais já constam seus demandantes - sendo o próprio governo e seus órgãos. Oito das avaliações (sendo cinco documentos) foram de produção do Instituto Jones dos Santos Neves, ligado ao Governo do Estado do Espírito Santo, e quatro delas eram do IPECE, ligado ao governo do Ceará. Dos textos demandados pelo Governo Federal, quatro vieram do CMAP, dois foram demandados pelo BNDES e um pelo Ministério da Educação.\n\nDos textos que não foram produzidos por governos, temos os seguintes demandantes mais comuns:"
+      "content": "# 7.4 DEMANDANTES\n\nOs \"Demandantes\" da Política Pública (ou seja, órgãos governamentais, autarquias, bancos e outros interessados que possam ter \"encomendado\" a avaliação) raramente foram identificados. Em 67 avaliações não se mencionam demandantes e, em 32 delas mencionam, entre chamadas de órgãos públicos com demandas para a comunidade acadêmica e órgãos públicos que coordenam pesquisas. Aqui, considera-se que todos os textos produzidos por entidades governamentais já constam seus demandantes - sendo o próprio governo e seus órgãos. Oito das avaliações (sendo cinco documentos) foram de produção do Instituto Jones dos Santos Neves, ligado ao Governo do Estado do Espírito Santo, e quatro delas eram do IPECE, ligado ao governo do Ceará. Dos textos demandados pelo Governo Federal, quatro vieram do CMAP, dois foram demandados pelo BNDES e um pelo Ministério da Educação.\n\nDos textos que não foram produzidos por governos, temos os seguintes demandantes mais comuns:"
     },
     {
       "document": "avaliacoes_politicas",
@@ -258,10 +429,28 @@
       "document": "avaliacoes_politicas",
       "page": 24,
       "sections": [
+        "7.4 DEMANDANTES"
+      ],
+      "type": "text",
+      "content": "Não se considera como demandantes e tampouco como financiadores de pesquisa documentos acadêmicos cujos autores foram beneficiados por bolsas do CNPq e similares, uma vez que entendemos que bolsas de pós-graduação e iniciação científica não exercem controle rígido sobre os autores, que gozam de relativa liberdade na escolha de seus objetos de pesquisa."
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 24,
+      "sections": [
+        "7.5 FINANCIADORES"
+      ],
+      "type": "text",
+      "content": "# 7.5 FINANCIADORES\n\nEste aspecto contempla financiadores externos da política pública analisada. Excetuando-se os dois documentos demandados pelo Banco Mundial e dois documentos do BNDES, que se presume que são de políticas financiadas pelo Banco Mundial e o BNDES, respectivamente, nenhum dos autores menciona a fonte de financiamento da política pública. Sabe-se que tal omissão não significa que o programa não possuiu financiamento externo, e sim, que os autores consideraram que tal informação era irrelevante."
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 24,
+      "sections": [
         "7.6 ÁREA DO PESQUISADOR"
       ],
       "type": "text",
-      "content": "Não se considera como demandantes e tampouco como financiadores de pesquisa documentos acadêmicos cujos autores foram beneficiados por bolsas do CNPq e similares, uma vez que entendemos que bolsas de pós-graduação e iniciação científica não exercem controle rígido sobre os autores, que gozam de relativa liberdade na escolha de seus objetos de pesquisa.\n\n# 7.5 FINANCIADORES\n\nEste aspecto contempla financiadores externos da política pública analisada. Excetuando-se os dois documentos demandados pelo Banco Mundial e dois documentos do BNDES, que se presume que são de políticas financiadas pelo Banco Mundial e o BNDES, respectivamente, nenhum dos autores menciona a fonte de financiamento da política pública. Sabe-se que tal omissão não significa que o programa não possuiu financiamento externo, e sim, que os autores consideraram que tal informação era irrelevante.\n\n# 7.6 ÁREA DO PESQUISADOR\n\nSobre a Área do Pesquisador, a vasta maioria - 57 das avaliações - não mencionava a formação ou área de expertise dos avaliadores. No caso dos artigos acadêmicos, era comum que se mencionasse a universidade dos quais os avaliadores eram membros, por vezes o departamento da universidade mencionada, sem que especificasse qual o curso de formação do pesquisador. Considerou-se esta ausência de informação uma perda considerável para o entendimento do perfil de quem avalia políticas públicas no Brasil. Algumas deduções foram feitas, como departamentos que eram centralizados unicamente em áreas da saúde foram classificados como 'Ciências da Saúde', mas grande parte dos departamentos citados eram de alta heterogeneidade interna (como 'Departamento de Ciências Humanas') não podendo inferir a respeito do curso de onde se origina o autor do material. Isso foi particularmente comum no caso dos textos da área de Educação.\n\nQuando o documento apresentou múltiplos autores com formações distintas entre si, cada uma das áreas mencionadas foi aplicada como código. Isso explica o fato de que a contagem de áreas do conhecimento foi superior ao número de documentos analisados."
+      "content": "# 7.6 ÁREA DO PESQUISADOR\n\nSobre a Área do Pesquisador, a vasta maioria - 57 das avaliações - não mencionava a formação ou área de expertise dos avaliadores. No caso dos artigos acadêmicos, era comum que se mencionasse a universidade dos quais os avaliadores eram membros, por vezes o departamento da universidade mencionada, sem que especificasse qual o curso de formação do pesquisador. Considerou-se esta ausência de informação uma perda considerável para o entendimento do perfil de quem avalia políticas públicas no Brasil. Algumas deduções foram feitas, como departamentos que eram centralizados unicamente em áreas da saúde foram classificados como 'Ciências da Saúde', mas grande parte dos departamentos citados eram de alta heterogeneidade interna (como 'Departamento de Ciências Humanas') não podendo inferir a respeito do curso de onde se origina o autor do material. Isso foi particularmente comum no caso dos textos da área de Educação.\n\nQuando o documento apresentou múltiplos autores com formações distintas entre si, cada uma das áreas mencionadas foi aplicada como código. Isso explica o fato de que a contagem de áreas do conhecimento foi superior ao número de documentos analisados."
     },
     {
       "document": "avaliacoes_politicas",
@@ -277,10 +466,19 @@
       "document": "avaliacoes_politicas",
       "page": 25,
       "sections": [
+        "7.6 ÁREA DO PESQUISADOR"
+      ],
+      "type": "text",
+      "content": "Das categorias que puderam ser coletadas, as duas áreas que foram mencionadas mais vezes foram as Ciências da Saúde, com 12 casos, e a Economia, com 11 casos. Economistas se mostraram bem distribuídos por todos os temas, possivelmente devido à afinidade metodológica da área ao tema da avaliação de políticas públicas."
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 25,
+      "sections": [
         "7.7 ÓRGÃO DE FORMULAÇÃO E RECORTE DA AVALIAÇÃO"
       ],
       "type": "text",
-      "content": "Das categorias que puderam ser coletadas, as duas áreas que foram mencionadas mais vezes foram as Ciências da Saúde, com 12 casos, e a Economia, com 11 casos. Economistas se mostraram bem distribuídos por todos os temas, possivelmente devido à afinidade metodológica da área ao tema da avaliação de políticas públicas.\n\n# 7.7 ÓRGÃO DE FORMULAÇÃO E RECORTE DA AVALIAÇÃO\n\nSobre os órgãos formuladores das políticas públicas, 53 avaliações tinham como objeto iniciativas do Governo Federal; 28 avaliavam políticas formuladas por governos estaduais; e apenas quatro das avaliações consideravam iniciativas de prefeituras. No entanto, isso não significa que os avaliadores utilizaram recortes integrais em suas análises: 32 avaliações utilizavam como objeto dados de nível estadual, 22 analisavam efeitos e impactos em nível municipal, e oito avaliações usaram como objeto níveis inferiores ao municipal, como estudos de caso. Apenas 20 avaliações tinham recorte nacional ."
+      "content": "# 7.7 ÓRGÃO DE FORMULAÇÃO E RECORTE DA AVALIAÇÃO\n\nSobre os órgãos formuladores das políticas públicas, 53 avaliações tinham como objeto iniciativas do Governo Federal; 28 avaliavam políticas formuladas por governos estaduais; e apenas quatro das avaliações consideravam iniciativas de prefeituras. No entanto, isso não significa que os avaliadores utilizaram recortes integrais em suas análises: 32 avaliações utilizavam como objeto dados de nível estadual, 22 analisavam efeitos e impactos em nível municipal, e oito avaliações usaram como objeto níveis inferiores ao municipal, como estudos de caso. Apenas 20 avaliações tinham recorte nacional ."
     },
     {
       "document": "avaliacoes_politicas",
@@ -296,10 +494,19 @@
       "document": "avaliacoes_politicas",
       "page": 26,
       "sections": [
+        "7.7 ÓRGÃO DE FORMULAÇÃO E RECORTE DA AVALIAÇÃO"
+      ],
+      "type": "text",
+      "content": "A categoria 'submunicipal', referente a recortes menores que uma cidade (estudos de caso, comparação entre escolas, avaliação de alguns postos de saúde, como exemplos) esteve presente na avaliação de uma política promovida por um governo estadual e sete políticas de nível federal. Das 22 avaliações nas quais os autores verificaram resultados de um município ou compararam municípios, 15 eram políticas de abrangência federal e cinco eram propostas de governos estaduais. Estas avaliações com limitações metodológicas de recorte geográfico são todas avaliações de origem acadêmica, e podemos atribuir tal fenômeno à limitação de recursos de pesquisa disponíveis aos autores, e não tanto pela presença de casos sui generis que demandassem recortes específicos para análise em profundidade ."
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 26,
+      "sections": [
         "7.8 DESENHO DA POLÍTICA PÚBLICA"
       ],
       "type": "text",
-      "content": "A categoria 'submunicipal', referente a recortes menores que uma cidade (estudos de caso, comparação entre escolas, avaliação de alguns postos de saúde, como exemplos) esteve presente na avaliação de uma política promovida por um governo estadual e sete políticas de nível federal. Das 22 avaliações nas quais os autores verificaram resultados de um município ou compararam municípios, 15 eram políticas de abrangência federal e cinco eram propostas de governos estaduais. Estas avaliações com limitações metodológicas de recorte geográfico são todas avaliações de origem acadêmica, e podemos atribuir tal fenômeno à limitação de recursos de pesquisa disponíveis aos autores, e não tanto pela presença de casos sui generis que demandassem recortes específicos para análise em profundidade .\n\n# 7.8 DESENHO DA POLÍTICA PÚBLICA\n\nNeste tópico, buscamos textos que ilustrassem o desenho da política pública, como seu público-alvo, metas, indicadores e problemas-foco. Foi considerado 'Presente' quando existia Modelo Lógico, Quadro Lógico, Matriz Insumo-Produto e similares.\n\nAssim, podemos afirmar que, das 83 avaliações presentes em 81 documentos, 32 apresentavam o desenho da política pública, e 51 omitiram esta informação. Esta marcante ausência pode ser devida à limitação de espaço para texto em publicações acadêmicas e à ausência de padrão tipo checklist para quais informações são relevantes a uma avaliação de políticas públicas."
+      "content": "# 7.8 DESENHO DA POLÍTICA PÚBLICA\n\nNeste tópico, buscamos textos que ilustrassem o desenho da política pública, como seu público-alvo, metas, indicadores e problemas-foco. Foi considerado 'Presente' quando existia Modelo Lógico, Quadro Lógico, Matriz Insumo-Produto e similares.\n\nAssim, podemos afirmar que, das 83 avaliações presentes em 81 documentos, 32 apresentavam o desenho da política pública, e 51 omitiram esta informação. Esta marcante ausência pode ser devida à limitação de espaço para texto em publicações acadêmicas e à ausência de padrão tipo checklist para quais informações são relevantes a uma avaliação de políticas públicas."
     },
     {
       "document": "avaliacoes_politicas",
@@ -381,10 +588,28 @@
       "document": "avaliacoes_politicas",
       "page": 31,
       "sections": [
+        "7.11 INDICADORES"
+      ],
+      "type": "text",
+      "content": "# 7.11 INDICADORES\n\nDas 83 avaliações, 68 possuíam indicadores bem ilustrados, oito não informaram os indicadores utilizados para avaliar a política pública, e seis textos tiveram indicadores de explicação incompleta, não expondo as variáveis componentes ou sua forma de mensuração."
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 31,
+      "sections": [
+        "7.12 FONTES E QUALIDADE DAS FONTES"
+      ],
+      "type": "text",
+      "content": "# 7.12 FONTES E QUALIDADE DAS FONTES\n\nTodos os textos mostravam suas fontes, embora 16 deles relatassem tal informação de maneira insatisfatória, que não permitia reprodutibilidade da pesquisa, como o uso de documentos sem referência ou link . Isso foi particularmente comum no caso de uso de documentos de circulação interna da gestão estatal (13 casos), que eram materiais não publicados tampouco anexados pelos autores. Nenhum dos textos selecionados foi desprovido de fontes. Foram feitas 10 menções a dados produzidos pelo próprio programa analisado, e 38 instâncias de uso de fontes primárias (de formulação do próprio autor). A vasta maioria das fontes era de databases governamentais."
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 31,
+      "sections": [
         "7.13 FERRAMENTAS E RECURSOS"
       ],
       "type": "text",
-      "content": "# 7.11 INDICADORES\n\nDas 83 avaliações, 68 possuíam indicadores bem ilustrados, oito não informaram os indicadores utilizados para avaliar a política pública, e seis textos tiveram indicadores de explicação incompleta, não expondo as variáveis componentes ou sua forma de mensuração.\n\n# 7.12 FONTES E QUALIDADE DAS FONTES\n\nTodos os textos mostravam suas fontes, embora 16 deles relatassem tal informação de maneira insatisfatória, que não permitia reprodutibilidade da pesquisa, como o uso de documentos sem referência ou link . Isso foi particularmente comum no caso de uso de documentos de circulação interna da gestão estatal (13 casos), que eram materiais não publicados tampouco anexados pelos autores. Nenhum dos textos selecionados foi desprovido de fontes. Foram feitas 10 menções a dados produzidos pelo próprio programa analisado, e 38 instâncias de uso de fontes primárias (de formulação do próprio autor). A vasta maioria das fontes era de databases governamentais.\n\n# 7.13 FERRAMENTAS E RECURSOS\n\nDos documentos analisados, 54 não mencionaram nenhum tipo de recurso adicional na execução da pesquisa. Cinco artigos mencionaram o uso de equipamento (entre gravadores, painéis com fotografias e tablets ), quatro mencionaram equipes de pesquisadores contratados para campo, e três instâncias de 'infraestrutura', sendo o uso de sala específica para condução da pesquisa, ainda que não construída com este único propósito. Este tipo de informação não é obrigatório no relato de uma pesquisa, de forma que podemos deduzir que o número de artigos que utilizou equipamentos, por exemplo, deve ser maior, uma vez que entrevistas precisam ser gravadas e transcritas utilizando algum artifício.\n\nSobre o uso de software , 24 artigos mencionaram programas utilizados para análise. Este último ponto merece atenção, já que se espera que pesquisadores utilizem programas para cálculo quantitativo ou organização de dados qualitativos, mas a nãoobrigatoriedade de exposição destes recursos causou o baixo número relativo de relatos."
+      "content": "# 7.13 FERRAMENTAS E RECURSOS\n\nDos documentos analisados, 54 não mencionaram nenhum tipo de recurso adicional na execução da pesquisa. Cinco artigos mencionaram o uso de equipamento (entre gravadores, painéis com fotografias e tablets ), quatro mencionaram equipes de pesquisadores contratados para campo, e três instâncias de 'infraestrutura', sendo o uso de sala específica para condução da pesquisa, ainda que não construída com este único propósito. Este tipo de informação não é obrigatório no relato de uma pesquisa, de forma que podemos deduzir que o número de artigos que utilizou equipamentos, por exemplo, deve ser maior, uma vez que entrevistas precisam ser gravadas e transcritas utilizando algum artifício.\n\nSobre o uso de software , 24 artigos mencionaram programas utilizados para análise. Este último ponto merece atenção, já que se espera que pesquisadores utilizem programas para cálculo quantitativo ou organização de dados qualitativos, mas a nãoobrigatoriedade de exposição destes recursos causou o baixo número relativo de relatos."
     },
     {
       "document": "avaliacoes_politicas",
@@ -399,10 +624,19 @@
       "document": "avaliacoes_politicas",
       "page": 33,
       "sections": [
+        "8. SUMÁRIO DE EVIDÊNCIAS: QUEM AVALIA POLÍTICAS PÚBLICAS NO BRASIL?"
+      ],
+      "type": "text",
+      "content": "Sobre as lacunas, é particularmente importante mencionar que a maior parte dos estudos não mencionou o desenho da política pública, quem financiou o programa em questão, e houve frequente omissão a respeito de instrumentos e insumos aplicados para a formulação da pesquisa."
+    },
+    {
+      "document": "avaliacoes_politicas",
+      "page": 33,
+      "sections": [
         "9. COMO SE AVALIAM POLÍTICAS PÚBLICAS NO BRASIL?"
       ],
       "type": "text",
-      "content": "Sobre as lacunas, é particularmente importante mencionar que a maior parte dos estudos não mencionou o desenho da política pública, quem financiou o programa em questão, e houve frequente omissão a respeito de instrumentos e insumos aplicados para a formulação da pesquisa.\n\n# 9. COMO SE AVALIAM POLÍTICAS PÚBLICAS NO BRASIL?\n\nExiste grande heterogeneidade nos estudos avaliativos de políticas públicas, mas é possível afirmar que ainda existe grande lacuna pela baixa frequência de estudos exante . É possível deduzir que tais baixas frequências se devem ao fato de que pesquisadores acadêmicos se apoiam sobretudo em dados oficiais já publicados, de forma que estudos sobre demandas e apelos por políticas públicas são frequentemente escritos no formato de análise crítica e não por processos avaliativos.\n\nA avaliação de impacto, considerada particularmente relevante pois oferece informações sobre o desempenho dos programas, foi a mais frequentemente encontrada nos textos coletados. Textos da área de saúde também apresentaram, com frequência, estudos de implementação e implantação, como forma de entender se as políticas de grande abrangência atingem seu público-alvo e se seus aspectos constituintes foram efetivamente realizados. Tais prioridades fazem sentido diante de políticas de saúde de abrangência nacional, de forma que é desejável entender o alcance dos programas implementados.\n\nAs limitações temáticas também merecem comentário: ciências da saúde possuem maior facilidade na aplicação de modelos de análise complexos pela riqueza de dados disponíveis, como as diversas bases do DATASUS. Isso também explica o uso de análises qualitativas e dados de formulação própria no caso dos estudos sobre educação. No caso da segurança pública, o baixo número de análises pode se dever à escassez de dados abertos sobre políticas implementadas.\n\nOs métodos e técnicas observados, cujo teste de coocorrência pode ser observado em quadro 1, no apêndice 1, mostra que existe pouca frequência de uso de métodos mistos, e sim trabalhos de cunho puramente qualitativo ou quantitativo. O maior trânsito metodológico se encontrou na combinação de análises gerenciais e ferramentas de gestão de processos (como ferramentas de desenho de pesquisa) que foram presentes em textos de todas as abordagens metodológicas."
+      "content": "# 9. COMO SE AVALIAM POLÍTICAS PÚBLICAS NO BRASIL?\n\nExiste grande heterogeneidade nos estudos avaliativos de políticas públicas, mas é possível afirmar que ainda existe grande lacuna pela baixa frequência de estudos exante . É possível deduzir que tais baixas frequências se devem ao fato de que pesquisadores acadêmicos se apoiam sobretudo em dados oficiais já publicados, de forma que estudos sobre demandas e apelos por políticas públicas são frequentemente escritos no formato de análise crítica e não por processos avaliativos.\n\nA avaliação de impacto, considerada particularmente relevante pois oferece informações sobre o desempenho dos programas, foi a mais frequentemente encontrada nos textos coletados. Textos da área de saúde também apresentaram, com frequência, estudos de implementação e implantação, como forma de entender se as políticas de grande abrangência atingem seu público-alvo e se seus aspectos constituintes foram efetivamente realizados. Tais prioridades fazem sentido diante de políticas de saúde de abrangência nacional, de forma que é desejável entender o alcance dos programas implementados.\n\nAs limitações temáticas também merecem comentário: ciências da saúde possuem maior facilidade na aplicação de modelos de análise complexos pela riqueza de dados disponíveis, como as diversas bases do DATASUS. Isso também explica o uso de análises qualitativas e dados de formulação própria no caso dos estudos sobre educação. No caso da segurança pública, o baixo número de análises pode se dever à escassez de dados abertos sobre políticas implementadas.\n\nOs métodos e técnicas observados, cujo teste de coocorrência pode ser observado em quadro 1, no apêndice 1, mostra que existe pouca frequência de uso de métodos mistos, e sim trabalhos de cunho puramente qualitativo ou quantitativo. O maior trânsito metodológico se encontrou na combinação de análises gerenciais e ferramentas de gestão de processos (como ferramentas de desenho de pesquisa) que foram presentes em textos de todas as abordagens metodológicas."
     },
     {
       "document": "avaliacoes_politicas",
