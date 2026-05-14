@@ -3,110 +3,10 @@
     "pdf_key": "avaliacoes_politicas",
     "description": "Avaliações Políticas Públicas Brasil",
     "total_pages": 40,
-    "processed_at": "2026-05-14T00:10:49.558213",
+    "processed_at": "2026-05-14T11:08:46.235038",
     "has_sections": true
   },
   "content": [
-    {
-      "document": "avaliacoes_politicas",
-      "page": 1,
-      "sections": [
-        "AVALIAÇÕES DE POLÍTICAS PÚBLICAS NO BRASIL: UMA REVISÃO DE ESCOPO"
-      ],
-      "type": "text",
-      "content": "# AVALIAÇÕES DE POLÍTICAS PÚBLICAS NO BRASIL: UMA REVISÃO DE ESCOPO"
-    },
-    {
-      "document": "avaliacoes_politicas",
-      "page": 1,
-      "sections": [
-        "CURITIBA OUTUBRO 2025"
-      ],
-      "type": "text",
-      "content": "# CURITIBA OUTUBRO 2025"
-    },
-    {
-      "document": "avaliacoes_politicas",
-      "page": 2,
-      "sections": [
-        "GOVERNO DO ESTADO DO PARANÁ"
-      ],
-      "type": "text",
-      "content": "# GOVERNO DO ESTADO DO PARANÁ\n\nCARLOS MASSA RATINHO JUNIOR - Governador DARCI PIANA - Vice-Governador"
-    },
-    {
-      "document": "avaliacoes_politicas",
-      "page": 2,
-      "sections": [
-        "SECRETARIA DE ESTADO DO PLANEJAMENTO"
-      ],
-      "type": "text",
-      "content": "# SECRETARIA DE ESTADO DO PLANEJAMENTO\n\nULISSES MAIA - Secretário"
-    },
-    {
-      "document": "avaliacoes_politicas",
-      "page": 2,
-      "sections": [
-        "INSTITUTO PARANAENSE DE DESENVOLVIMENTO ECONÔMICO E SOCIAL - IPARDES"
-      ],
-      "type": "text",
-      "content": "# INSTITUTO PARANAENSE DE DESENVOLVIMENTO ECONÔMICO E SOCIAL - IPARDES\n\nJORGE AUGUSTO CALLADO AFONSO - Diretor-Presidente CAROLINE BATISTA RIBEIRO - Diretora Administrativo-Financeira JULIO TAKESHI SUZUKI JÚNIOR - Diretor de Pesquisa MARCELO ANTONIO - Diretor de Estatística"
-    },
-    {
-      "document": "avaliacoes_politicas",
-      "page": 2,
-      "sections": [
-        "DEPARTAMENTO DE AVALIÇÕES DE POLÍTICAS PÚBLICAS"
-      ],
-      "type": "text",
-      "content": "# DEPARTAMENTO DE AVALIÇÕES DE POLÍTICAS PÚBLICAS\n\nANGELITA BAZOTTI (Socióloga) - Chefe do Departamento"
-    },
-    {
-      "document": "avaliacoes_politicas",
-      "page": 2,
-      "sections": [
-        "EQUIPE DO PROJETO"
-      ],
-      "type": "text",
-      "content": "# EQUIPE DO PROJETO\n\nLENITA MARIA MARQUES (Economista) - Coordenadora ALINE CRISTINA BATISTA LIMA (Socióloga) - Bolsista - Fundo PR LUCAS NEKEL DA SILVA (Sociólogo) - Bolsista - Fundo PR IAGO HAUER CHIARELLI (Economista) - Residente Técnico - UNICENTRO"
-    },
-    {
-      "document": "avaliacoes_politicas",
-      "page": 2,
-      "sections": [
-        "CONSULTORA"
-      ],
-      "type": "text",
-      "content": "# CONSULTORA\n\nMARIANA ARCOS LORENCETTI (Cientista Política) - Consultora"
-    },
-    {
-      "document": "avaliacoes_politicas",
-      "page": 3,
-      "sections": [
-        "SUMÁRIO"
-      ],
-      "type": "text",
-      "content": "# SUMÁRIO"
-    },
-    {
-      "document": "avaliacoes_politicas",
-      "page": 3,
-      "sections": [
-        "SUMÁRIO"
-      ],
-      "type": "table",
-      "caption": null,
-      "content": "| 0 | 1 |\n| --- | --- |\n| LISTA DE SIGLAS.........................................................................................................................1 |  |\n| 1. INTRODUÇÃO...........................................................................................................................2 |  |\n| 2. UMA REVISÃO DE ESCOPO ...................................................................................................3 |  |\n| 3. METODOLOGIA........................................................................................................................4 |  |\n| 3.1 PROTOCOLO E REGISTRO...................................................................................................4 |  |\n| 3.2 CRITÉRIOS DE ELEGIBILIDADE...........................................................................................4 |  |\n| 3.3 FONTES DE INFORMAÇÃO...................................................................................................5 |  |\n| 3.4 O PROCESSO DE BUSCA NAS FONTES.............................................................................6 |  |\n| 3.4.1 Pesquisas Acadêmicas, ThinkTanks eOrganizações NãoGovernamentais.................................................................... | 8 |\n| 3.4.2 A Coleta de Textos Acadêmicos de Avaliação de Políticas Públicas | ...................................................................... 8 |\n| 4. SELEÇÃO DE EVIDÊNCIAS...................................................................................................10 |  |\n| 4.1 PROCESSO DE MAPEAMENTO DE DADOS ( DATA CHARTING PROCESS ) | ..................11 |\n| 4.1.1 Variáveis de Interesse à Questão de Pesquisa .................................................................................................... | 11 |\n| 4.1.2 Categorias de codificação aplicadas.................................................................................................................... | 12 |\n| 4.1.3 Categorias referentes à política pública analisada.............................................................................................. | 12 |\n| 4.1.4 Categorias referentes ao texto avaliativo estudado: .......................................................................................... | 13 |\n| 4.1.5 Sobre o processo avaliativo: | ............................................................................................................................... 14 |\n| 5. AVALIAÇÃO CRÍTICA DE CADA FONTE DE EVIDÊNCIA....................................................15 |  |\n| 6. METODOLOGIA DE SÍNTESE DE RESULTADOS................................................................16 |  |\n| 6.1 SELEÇÃO DE FONTES DE EVIDÊNCIA..............................................................................16 |  |\n| 7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO.....................................................................................18 |  |\n| 7.1 RESULTADOS.......................................................................................................................19 |  |\n| 7.2 RESULTADOS GERAIS........................................................................................................19 |  |\n| 7.3 DISTRIBUIÇÃO DE DOCUMENTOS POR TEMA DA POLÍTICA PÚBLICA........................20 |  |\n| 7.4 DEMANDANTES...................................................................................................................20 |  |\n| 7.5 FINANCIADORES | .................................................................................................................21 |\n| 7.6 ÁREA DO PESQUISADOR...................................................................................................21 |  |\n| 7.7 ÓRGÃO DE FORMULAÇÃO E RECORTE DA AVALIAÇÃO ...............................................22 |  |\n| 7.8 DESENHO DA POLÍTICA PÚBLICA.....................................................................................23 |  |\n| 7.9 TIPOS DE AVALIAÇÃO MAIS COMUNS..............................................................................24 |  |\n| 7.10 MÉTODOS E TÉCNICAS: TIPOS MAIS COMUNS............................................................26 |  |\n| 7.11 INDICADORES....................................................................................................................28 |  |\n| 7.12 FONTES E QUALIDADE DAS FONTES.............................................................................28 |  |\n| 7.13 FERRAMENTAS E RECURSOS.........................................................................................28 |  |\n| 8. SUMÁRIO DE EVIDÊNCIAS: QUEM AVALIA POLÍTICAS PÚBLICAS NO BRASIL? | ...........29 |\n| 9. COMO SE AVALIAM POLÍTICAS PÚBLICAS NO BRASIL?..................................................30 |  |\n| 9.1 LIMITAÇÕES DA PESQUISA................................................................................................31 10. CONSIDERAÇÕES | FINAIS...................................................................................................32 |\n| REFERÊNCIAS | ...........................................................................................................................33 |\n| APENDICE | 1................................................................................................................................34 |"
-    },
-    {
-      "document": "avaliacoes_politicas",
-      "page": 4,
-      "sections": [
-        "LISTA DE SIGLAS"
-      ],
-      "type": "text",
-      "content": "# LISTA DE SIGLAS\n\nANIPES - Associação Nacional das Instituições de Planejamento\n\nCMAP - Conselho de Avaliação e Monitoramento de Políticas Públicas\n\nDATASUS - Departamento de Informação e Informática do Sistema Único de Saúde\n\nIPEA - Instituto de Pesquisa Econômica Aplicada\n\nIPARDES - Instituto Paranaense de Desenvolvimento Econômico e Social\n\nIPECE - Instituto de Pesquisa e Estratégia Econômica do Ceará\n\nSEI - Superintendência de Estudos Econômicos e Sociais da Bahia\n\nIETS - Instituto de Estudos do Trabalho e Sociedade\n\nENAP - Escola Nacional de Administração Pública\n\nNUMA/DEPLAN Núcleo de Monitoramento e Avaliação de Políticas Públicas/ Departamento de Planejamento Governamental\n\nIDH - Índice de Desenvolvimento Humano\n\nUNICAMP - Universidade Estadual de Campinas\n\nBNDES - Banco Nacional de Desenvolvimento Econômico e Social\n\nSWOT Strengths (Forças), Weaknesses (Fraquezas), Opportunities (Oportunidades) e Threats (Ameaças)"
-    },
     {
       "document": "avaliacoes_politicas",
       "page": 5,
@@ -124,15 +24,6 @@
       ],
       "type": "text",
       "content": "# 2. UMA REVISÃO DE ESCOPO\n\nA proposta do Projeto de Sistematização da Avaliação de Políticas Públicas no Brasil visa inventariar as diferentes metodologias de avaliação desenvolvidas no país, concentranda nas metodologias que subsidiam a análise de políticas no âmbito da saúde, educação e segurança pública, bem como conhecer as tecnologias utilizadas para as análises e coletas de dados.\n\nO objetivo do projeto previa um estudo de revisão de escopo de avaliações de políticas públicas brasileiras efetuadas entre 2014 e 2024, na qual buscou-se compreender os objetos de estudo mais citados, as metodologias avaliativas mais comumente aplicadas, e possíveis deficiências relatadas por pesquisadores envolvidos no tema.\n\nDentro dos critérios de elegibilidade, as avaliações de políticas públicas selecionadas se restringiram as áreas de saúde, educação e segurança pública, publicadas entre 2014 e 2024, por grupos acadêmicos, órgãos governamentais e think tanks ou outros grupos de interesse da sociedade civil. Não foram aceitos estudos prescritivos que não avaliem um programa ou política e documentos meramente expositivos. Todos os textos coletados se referiram ao caso brasileiro ou de suas subdivisões territoriais, não sendo aprovados artigos sobre outros países.\n\nOs textos governamentais foram buscados nos sites de órgãos oficiais e dos governos dos estados da federação. As páginas de think tanks foram detectadas por meio do site Thinkers Brasil. As pesquisas acadêmicas foram encontradas por meio da plataforma SciELO Brasil. As informações foram complementadas por meio da página da ANIPES (Associação Nacional das Instituições de Planejamento, Pesquisa e Estatística). Também foram utilizadas recomendações de pares e especialistas.\n\nOs documentos selecionados passaram por métodos qualitativos de análise documental, mais precisamente a análise de conteúdo. O software Atlas.ti foi a ferramenta escolhida para auxiliar na categorização de trechos referentes a metodologia aplicada, objeto de estudo, perfil dos pesquisadores envolvidos e natureza da política pública em questão.\n\nBuscou-se identificar a maneira como se avaliam políticas públicas no Brasil, as maiores lacunas no campo e os temas prioritários nas áreas selecionadas. No Brasil há baixas redes de cooperação entre pesquisadores, alta endogeneidade da produção acadêmica e baixa circulação de conhecimentos produzidos (Crumpton et al 2018) o que pode ocasionar repetição excessiva de estudos preliminares, desenvolvimentos incipientes sobre um determinado tema e grande número de publicações de baixo impacto."
-    },
-    {
-      "document": "avaliacoes_politicas",
-      "page": 7,
-      "sections": [
-        "3. METODOLOGIA"
-      ],
-      "type": "text",
-      "content": "# 3. METODOLOGIA"
     },
     {
       "document": "avaliacoes_politicas",
@@ -713,15 +604,6 @@
       ],
       "type": "text",
       "content": "# 10. CONSIDERAÇÕES FINAIS\n\nO objetivo do projeto foi sistematizar avaliações de políticas e programas públicos brasileiros, focadas nas áreas de saúde, educação e segurança pública. Ao longo de 24 meses foram realizadas atividades como identificação de estratégias para busca do material e ferramenta mais eficiente para auxiliar no trabalho; a coleta de publicações técnicas e acadêmicas; seleção e revisão de escopo utilizando diretrizes do Protocolo Prisma ( Preferred Reporting Items for Systematic Reviews and Meta-Analyses)\n\nA busca por artigos e relatórios foram feitas exclusivamente pela internet, que estavam disponíveis ou publicados na rede. Foram selecionados mais de 1.600 documentos que, após passarem por processo de filtragem dentro dos critérios pré-estabelecidos, chegou-se a 209 documentos para serem lidos em profundidade e codificados. Essa fase foi a que mais exigiu esforços e tempo.\n\nComo resultado, foram aprovados 81 documentos nas áreas da saúde, educação e segurança pública. Os resultados demonstraram, por exemplo, que no Brasil, o tipo de avaliação de impacto é a mais realizada. Por outro lado, há uma escassez de avaliações ex-ante . A quantidade de informações omitidas também chama a atenção, indicando a necessidade de uma padronização do relato de avaliação.\n\nAlém desse documento, outro produto resultado do Projeto de Sistematização da Avaliação de Políticas Públicas no Brasil é o Repositório Avaliação de Políticas Públicas no Brasil, que pode ser acessado na página web do Ipardes/Publicações ou diretamente pelo link < https://www.ipardes.pr.gov.br/Pagina/Repositorio-Avaliacao-de-PoliticasPublicas>. Nele, pode-se acessar as 81 publicações com 83 avaliações de políticas públicas no país, sendo nos temas educação (32), saúde (41) e segurança pública (8), que foram submetidas a revisão de escopo."
-    },
-    {
-      "document": "avaliacoes_politicas",
-      "page": 36,
-      "sections": [
-        "REFERÊNCIAS"
-      ],
-      "type": "text",
-      "content": "# REFERÊNCIAS\n\nCRUMPTON, C. D.; MEDEIROS, J. J.; FERREIRA, V. D. R. S.; SOUSA, M. D. M.; NAJBERG, E. Evaluation of public policies in Brazil and the United States: a research analysis in the last 10 years. Revista de Administração Pública , v. 50, n. 6, p. 981-1001, 2016. https://doi.org/10.1590/0034-7612156363.\n\nFARIA, C. A. P. D. A política da avaliação de políticas públicas. Revista Brasileira de Ciências Sociais , v. 20, n. 59, p. 97-110, 2005. https://doi.org/10.1590/S010269092005000300007.\n\nSIDONE, O. J. G.; HADDAD, E. A.; MENA-CHALCO, J. P. A ciência nas regiões brasileiras: evolução da produção e das redes de colaboração científica. Transinformação , v. 28, n. 1, p. 15-32, 2016. https://doi.org/10.1590/2318-08892016002800002.\n\nTRICCO, A. C.; LILLIE, E.; ZARIN, W.; et al. PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation. Annals of Internal Medicine , v. 169, n. 7, p. 467-473, 2018. https://doi.org/10.7326/M18-0850.\n\nWHITEHEAD, D.; HARDING, THOMAS. Analysing Data in Qualitative Research . Nursing and midwifery research: methods and appraisal for evidence-based practice. 5 ed., v. 1, p.141-160, 2016. Chatswood, N.S.W: Elsevier Australia."
     },
     {
       "document": "avaliacoes_politicas",

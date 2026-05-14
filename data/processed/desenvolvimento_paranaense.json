@@ -3,110 +3,10 @@
     "pdf_key": "desenvolvimento_paranaense",
     "description": "Desenvolvimento Paranaense - Análise socioeconômica do Estado",
     "total_pages": 211,
-    "processed_at": "2026-05-14T00:10:49.544486",
+    "processed_at": "2026-05-14T11:08:46.214635",
     "has_sections": true
   },
   "content": [
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 1,
-      "sections": [
-        "DESENVOLVIMENTO PARANAENSE: CONTEXTO, TENDÊNCIAS E DESAFIOS"
-      ],
-      "type": "text",
-      "content": "# DESENVOLVIMENTO PARANAENSE: CONTEXTO, TENDÊNCIAS E DESAFIOS"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 1,
-      "sections": [
-        "CURITIBA JULHO 2022"
-      ],
-      "type": "text",
-      "content": "# CURITIBA JULHO 2022"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 2,
-      "sections": [
-        "GOVERNO DO ESTADO DO PARANÁ"
-      ],
-      "type": "text",
-      "content": "# GOVERNO DO ESTADO DO PARANÁ\n\nCARLOS MASSA RATINHO JÚNIOR Governador"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 2,
-      "sections": [
-        "SECRETARIA DO PLANEJAMENTO E PROJETOS ESTRUTURANTES"
-      ],
-      "type": "text",
-      "content": "# SECRETARIA DO PLANEJAMENTO E PROJETOS ESTRUTURANTES\n\nLOUISE DA COSTA E SILVA GARNICA Secretária"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 2,
-      "sections": [
-        "INSTITUTO PARANAENSE DE DESENVOLVIMENTO ECONÔMICO E SOCIAL"
-      ],
-      "type": "text",
-      "content": "# INSTITUTO PARANAENSE DE DESENVOLVIMENTO ECONÔMICO E SOCIAL\n\nDANIEL NOJIMA Diretor-Presidente FRANCISCO CARLOS ROGÉRIO Diretor Administrativo-Financeiro JULIO TAKESHI SUZUKI JÚNIOR Diretor do Centro de Pesquisa\n\nGUSTAVO NUNES MOURÃO Diretor do Centro Estadual de Estatística EQUIPE TÉCNICA Daniel Nojima Coordenador Francisco José Gouveia de Castro Guilherme Amorim Julio Takeshi Suzuki Júnior Leonildo Pereira de Souza Mari Aparecida dos Santos Paulo Roberto Delgado Reynaldo Aquino de Paula (colaborador)\n\nEDITORAÇÃO Marcelo Antonio Coordenação Maria Laura Zocolotti - Supervisão Editorial Diogo Augusto Cotovicz Web Designer/Criação\n\nDESENVOLVIMENTO PARANAENSE: CONTEXTO, TENDÊNCIAS E DESAFIOS\n\n2"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 3,
-      "sections": [
-        "APRESENTAÇÃO"
-      ],
-      "type": "text",
-      "content": "# APRESENTAÇÃO\n\nA presente publicação se origina das preocupações do Governo do Estado do Paraná e da Secretaria de Planejamento e Projetos Estruturantes com os rumos do desenvolvimento paranaense. Ao mesmo tempo, resulta da missão institucional do IPARDES de acompanhamento, avaliação e interpretação da realidade estadual. Sob esse contexto, a Secretaria e o IPARDES compartilharam trabalhos de definição de focos relevantes e de interação dos mesmos com o sistema de planejamento estadual, na perspectiva de sua melhoria e modernização. Dessa sinergia derivam as diretrizes dos estudos aqui apresentados.\n\nEste relatório procura lançar luzes sobre o futuro, tendo por objetivo maior oferecer insumos à discussão sobre os caminhos do desenvolvimento paranaense em prazo de pouco mais de uma década, atingindo especificamente o ano de 2035. Nessa linha, pretende indicar trajetórias e, sempre que possível, linhas de condução mais gerais, com o fim de ampliar o desenvolvimento estadual para além das tendências históricas registradas ao longo das últimas décadas.\n\nO trabalho não é exaustivo nos temas sobre o Paraná, e se concentra em algumas áreas essenciais do ponto de vista de desenvolvimento regional. Fruto do esforço integrado e cooperado entre os pesquisadores do IPARDES dedicados à tarefa, as contribuições aqui apresentadas estão estruturadas em dois blocos de análise.\n\nNa Parte 1, os capítulos versam sobre o campo da economia, com a verificação de componentes macroeconômicos, definidores das trajetórias de longo prazo, e da questão crucial sobre produtividade, com destaque a características de avanço nas últimas décadas e indicações prospectivas. Adicionalmente, analisam a estrutura industrial estadual, inclusive sob um ponto de vista tecnológico e das relações de comércio exterior, em que se verifica o perfil de vantagens comparativas do parque produtivo local. Na sequência, examinam pontos igualmente relevantes relativos à infraestrutura, com atenção a transportes e energia, para os quais apontam-se condições e possíveis trajetórias de expansão.\n\nA Parte 2 é voltada às questões do desenvolvimento humano. No primeiro capítulo discute-se a evolução tendencial e das possibilidades de avanço do IDH paranaense. O segundo capítulo, por sua vez, trata da expectativa de vida, sobre a qual se analisa a evolução presente e se indicam caminhos para sua otimização. Na continuidade, o capítulo sobre educação chama a atenção aos condicionantes do progresso educacional, principalmente em termos dos níveis (em anos de estudo) e da qualidade do ensino. Fechando os trabalhos, o capítulo sobre a questão habitacional procura analisar a situação presente e tratar dos indicativos de demanda futura por moradias no Estado, ao passo que o capítulo sobre saneamento básico trata da evolução hídrica e das condições de saneamento nos anos à frente."
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 4,
-      "sections": [
-        "PARTE 1"
-      ],
-      "type": "text",
-      "content": "# PARTE 1"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 4,
-      "sections": [
-        "SUMARIO"
-      ],
-      "type": "text",
-      "content": "# SUMARIO\n\n7\n\n17\n\n39\n\n61\n\n71\n\n85"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 4,
-      "sections": [
-        "SUMARIO"
-      ],
-      "type": "table",
-      "caption": null,
-      "content": "| 0 | 1 |\n| --- | --- |\n| TRAJETÓRIA E PERSPECTIVAS DO CRESCIMENTO ECONÔMICO DO PARANÁ Daniel Nojima ......................................................................................................... | 7 |\n| CONSIDERAÇÕES SOBRE A PRODUTIVIDADE DA ECONOMIA PARANAENSE Daniel Nojima ......................................................................................................... | 17 |\n| REESTRUTURAÇÃO INDUSTRIAL E COMPETITIVIDADE DO COMÉRCIO EXTERIOR DO PARANÁ Francisco José Gouveia de Castro ............................................................................ | 39 |\n| I NFRAESTRUTURA DE TRANSPORTESDO PARANÁ: DEMANDAS, IMPORTÂNCIA E NECESSIDADES Julio Takeshi Suzuki Júnior ...................................................................................... | 61 |\n| ENERGIA NO PARANÁ: BREVE PANORAMA E INDICAÇÕES SOBRE A DEMANDA FUTURA Daniel Nojima ......................................................................................................... | 71 |\n| CONDIÇÕES E PERSPECTIVAS DA OFERTA DE ENERGIA ELÉTRICA NO PARANÁ Guilherme Amorim .................................................................................................. | 85 |\n| PARTE 2 |  |\n| DESENVOLVIMENTO HUMANO - O PARANÁ NO CONTEXTO INTERNACIONAL Paulo Roberto Delgado e Mari Aparecida dos Santos................................................. | 103 |\n| EXPECTATIVA DE VIDA NO PARANÁ: CENÁRIOS E GANHOS POTENCIAIS DE ANOS Leonildo Pereira de Souza ....................................................................................... | 133 |\n| CONDICIONANTES DE ESCOLARIZAÇÃO NO PARANÁ Leonildo Pereira de Souza ....................................................................................... | 163 |\n| SITUAÇÃO E PERSPECTIVA HABITACIONAL NO PARANÁ Paulo Roberto Delgado e Leonildo Pereira de Souza.................................................. | 181 |\n| ÁGUAS E SANEAMENTO BÁSICO : APONTAMENTOS SOBRE A EVOLUÇÃOFUTURANO PARANÁ Mari Aparecida dos Santos....................................................................................... | 203 |"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 5,
-      "sections": [
-        "PARTE 1"
-      ],
-      "type": "text",
-      "content": "# PARTE 1"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 6,
-      "sections": [
-        "TRAJETÓRIA E PERSPECTIVAS DO CRESCIMENTO ECONÔMICO DO PARANÁ"
-      ],
-      "type": "text",
-      "content": "# TRAJETÓRIA E PERSPECTIVAS DO CRESCIMENTO ECONÔMICO DO PARANÁ"
-    },
     {
       "document": "desenvolvimento_paranaense",
       "page": 6,
@@ -198,24 +98,6 @@
       ],
       "type": "text",
       "content": "# CONSIDERAÇÕES FINAIS\n\nAs elaborações acima conduzidas procuram indicar possíveis cenários de expansão da economia paranaense, tendo em vista o histórico anterior, e, a partir deste, propiciar antevisões de performances superiores à tendência. Ainda que em parte baseadas em parâmetros extraídos da experiência acumulada da pesquisa econômica em crescimento, essas elaborações são construídas a partir de outras variáveis relevantes, cujas realidades, diferentemente dos primeiros, são calcadas em estimativas mais sólidas quanto a alguns aspectos do Paraná, a saber, a força de trabalho e a taxa de investimentos, respectivamente do IBGE e de construções do IPARDES, estas últimas a partir de estatísticas de contas regionais, comércio exterior e de dados fazendários do Estado.\n\nPartindo do cenário tendencial, a proposição dos cenários alternativos é marcadamente conservadora, mas que redunda em taxas que se poderiam considerar de certa ousadia, principalmente quando implicam dobrar a performance em termos de PIB per capita . De todo modo, as taxas finais de produto (total e per capita ) alcançadas servem para orientar algumas preocupações e possíveis ações relativas a variáveis intervenientes importantes.\n\nNessa linha, e levando-se em conta o papel reservado ao setor público estadual, seria oportuno, entre diversas frentes, perseguir a melhoria da condição fiscal de forma a possibilitar o aumento da poupança pública e a alavancagem de financiamentos para complementação em projetos estratégicos, particularmente em infraestrutura. Ao mesmo tempo, seria pertinente voltar a atenção às questões regulatórias, ambientais e de órgãos de controle nos níveis federal e estadual com fins de condução equilibrada, a qual permita a efetivação de investimentos em infraestrutura.\n\nPor outro lado, mantém-se relevante a atenção do poder público - na extensão do que lhe é possível incentivar - ao processo de inovação no setor produtivo estadual. Uma observação especial deve ser feita em relação a serviços e à indústria, nos quais há margens consideráveis para ampliação da produtividade econômica. Em complemento, é desejável buscar avanços mais intensos na área de educação, em especial nos quesitos taxa de conclusão e qualidade do ensino básico, destacados em IPARDES (2022a), visando à geração de reflexos mais consistentes sobre a produtividade e, ainda, em termos de melhoria de distribuição de renda e das condições sociais. 3\n\n3 Nessas direções, vale menção a observações contidas em Schymura (2022), que, retomando estudos de pesquisadores da FGV, registra expressivos efeitos da elevação dos níveis de educação formal no Brasil entre os anos de 1992 e 2021 sobre o mercado de trabalho, como a redução da informalidade entre os trabalhadores e a elevação da remuneração média do trabalho."
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 14,
-      "sections": [
-        "REFERÊNCIAS"
-      ],
-      "type": "text",
-      "content": "# REFERÊNCIAS\n\nBACHA, E. L.; BONELLI, R. Crescimento econômico brasileiro revisitado. In : VELOSO, F. et al. Desenvolvimento econômico : uma perspectiva brasileira. Rio de Janeiro: Elsevier, 2013.\n\nBNDES. Banco Nacional de Desenvolvimento Econômico e Social. O crescimento da economia brasileira 2018-2023 . Rio de Janeiro: BNDES, abr. 2018.\n\nIPARDES. Instituto Paranaense de Desenvolvimento Econômico e Social. Condicionantes de escolarização no Paraná . Curitiba: IPARDES, 2022a.\n\nIPARDES. Instituto Paranaense de Desenvolvimento Econômico e Social. Considerações sobre a produtividade da economia paranaense . Curitiba: IPARDES, 2022b.\n\nIPARDES. Instituto Paranaense de Desenvolvimento Econômico e Social. Infraestrutura de transportes do Paraná : demandas, importância e necessidades. Curitiba: IPARDES, 2022c.\n\nIPARDES. Instituto Paranaense de Desenvolvimento Econômico e Social. Energia no Paraná : breve panorama e indicações sobre a demanda futura. Curitiba: IPARDES, 2022d.\n\nIPARDES. Instituto Paranaense de Desenvolvimento Econômico e Social. Investimento e crescimento econômico: uma análise para o Paraná. Nota Técnica , Curitiba: IPARDES, 2022e.\n\nROS, J. Development theory and the economics of growth - development and inequality in the market economy. Ann Arbor, Michigan: University of Michigan Press, 2000.\n\nSCHYMURA, L. G. Mercado de trabalho: momento macro é desanimador, mas há toda uma agenda micro, Carta do IBRE. Conjuntura Econômica , Rio de Janeiro: FGV, abr. 2022.\n\nSOUZA JUNIOR, J. R. C.; GIAMBIAGI, F. Recuperação econômica e fechamento gradual do hiato: um exercício de consistência de médio e longo prazos, Textos para Discussão , Rio de Janeiro: IPEA, n. 2.690, set. 2021."
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 15,
-      "sections": [
-        "CONSIDERAÇÕES SOBRE A PRODUTIVIDADE DA ECONOMIA PARANAENSE"
-      ],
-      "type": "text",
-      "content": "# CONSIDERAÇÕES SOBRE A PRODUTIVIDADE DA ECONOMIA PARANAENSE"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -543,15 +425,6 @@
     },
     {
       "document": "desenvolvimento_paranaense",
-      "page": 35,
-      "sections": [
-        "REFERÊNCIAS"
-      ],
-      "type": "text",
-      "content": "# REFERÊNCIAS\n\nALAM, A.; CASERO, P. A.; KHAN, F. U. C. Unleashing prosperity - productivity and growth in Eastern Europe and Former Soviet Union. Washington DC: World Bank, 2008.\n\nBAZOTTI, A. SILVA, R. C. E. O. da. Censo agropecuário 2017: primeiros resultados para o Paraná. Revista Paranaense de Desenvolvimento , Curitiba: IPARDES, v.41, n.139, p.103-118, jul./dez. 2020.\n\nCIMOLI, M. P. W.; PORCILE, G.; SCATOLIN, F. Structural change, technology, and economic growth. Research Paper , Helsinki, Finlândia: UNU-WIDER, n.105, Dez. 2008.\n\nDELGADO, P. R. Evolução e perfil do emprego no setor sucroalcooleiro paranaense. Caderno Ipardes , Curitiba, v.2, n.1, p.44-57, jan./jun. 2012.\n\nFIEP. Federação das Indústrias do Estado do Paraná. Bússola da inovação, perfil da inovação industrial . Curitiba: FIEP, 2019. Disponível em: https://issuu.com/observatorios/docs/perfil-inovacao-industrial-2019.\n\nFRISCHTAK, C. Infraestrutura e desenvolvimento no Brasil. In : VELOSO, F.; CAVALCANTI, P.; GIAMBIAGI, F.; PESSOA, S. (orgs.). Desenvolvimento econômico sob uma perspectiva brasileira . Rio de Janeiro: Elsevier, 2013.\n\nIEDI. Instituto de Estudos para o Desenvolvimento Industrial. Crise e inovação no Brasil . jun. 2020. Disponível em: https://iedi.org.br/cartas/carta_iedi_n_1010.html. Acesso em: jan. 2022.\n\nIPARDES. Instituto Paranaense de Desenvolvimento Econômico e Social. Reestruturação industrial e a competitividade do comércio exterior do Paraná . Curitiba: IPARDES, 2022.\n\nLEAL, C. I. S.; FIGUEIREDO, P. N. Inovação tecnológica no Brasil: desafios e insumos para políticas públicas. Revista de Administração Pública , Rio de Janeiro: FGV: EBAPE, v.55, n.3, p.512-537, maio/jun. 2021.\n\nMENEZES FILHO, N.; KANNEBLEY JUNIOR, S. Abertura comercial, exportações e inovações no Brasil . In : VELOSO, F.; CAVALCANTI, P.; GIAMBIAGI, F.; PESSOA, S. (orgs.). Desenvolvimento econômico sob uma perspectiva brasileira . Rio de Janeiro: Elsevier, 2013."
-    },
-    {
-      "document": "desenvolvimento_paranaense",
       "page": 36,
       "sections": [
         "REESTRUTURAÇÃO INDUSTRIAL E COMPETITIVIDADE DO COMÉRCIO EXTERIOR DO PARANÁ"
@@ -845,15 +718,6 @@
       ],
       "type": "text",
       "content": "# CONCLUSÕES\n\nCom o objetivo de identificar a estrutura industrial e a competitividade do comércio exterior do Estado do Paraná, o presente trabalho concluiu que a reestruturação produtiva, especialmente da indústria, é a primeira premissa para criar um ambiente favorável ao desenvolvimento socioeconômico do Estado. Na comparação com economias próximas aos padrões paranaenses, o Estado deve utilizar como benchmarking o Estado de São Paulo, que é o melhor exemplo de desenvolvimento econômico, estrutura industrial diversificada, maior teor tecnológico na composição das atividades industriais e competitividade no mercado exterior.\n\nPelo fato de fatores subjacentes à competitividade definirem o desempenho de longo prazo, em particular pesquisa, inovação, tecnologia e capital humano, para acelerar o crescimento econômico é essencial uma política que combine acumulação de conhecimento, combate à deterioração da infraestrutura e diversificação da estrutura produtiva.\n\nTais fatores são precedidos de desejáveis alterações na estrutura produtiva do Paraná, uma vez que a análise empírica desenvolvida ao longo deste trabalho mostrou evidências de reprimarização da economia, afetando negativamente o setor industrial e diminuindo os efeitos de encadeamento produtivo voltados para setores de alto teor tecnológico. No caso paranaense, ficaram evidentes a crescente homogeneidade na produção total da economia; a cada vez mais elevada participação de atividades que possuem baixa agregação de valor no sistema produtivo; e a dependência excessiva de recursos naturais, que traz insegurança devido às recorrentes intempéries climáticas.\n\nPor fim, o estudo analisou a pauta de comércio exterior paranaense, uma vez que é um componente fundamental para identificar as condições da própria estrutura produtiva do Estado e reflete as condições de abertura da economia com o resto do mundo e a integração do Paraná na cadeia produtiva global.\n\nNesse quesito, a análise concluiu que o padrão industrial refletiu-se no comércio exterior, isto somado à dependência tecnológica que hoje o Estado detém do resto do mundo, envolvendo desde insumos básicos para a produção agropecuária até bens mais sofisticados que compõem a planilha de custo dos bens industrializados."
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 56,
-      "sections": [
-        "REFERÊNCIAS"
-      ],
-      "type": "text",
-      "content": "# REFERÊNCIAS\n\nBARROS, A. A. de; PEREIRA, C. M. M. de A. Empreendedorismo e crescimento econômico: uma análise empírica. Revista de Administração Contemporânea , v.12, n.4, p.975-993, 2008.\n\nCASTRO, F. J. G. Estratégias de desenvolvimento e abertura comercial : impactos na estrutura produtiva e nas exportações brasileiras - 1980-2005. 2007. Monografia (Especialização em Contabilidade e Finanças) - Universidade Federal do Paraná (UFPR), Curitiba, 2007.\n\nCASTRO, F. J. G.; FEGER, J. E. Os destinos turísticos do Estado do Paraná, Brasil: espacialização baseada na concentração e especialização turística. Pasos Revista de Turismo y Patrimonio Cultural , v.19, n.3, 2021.\n\nCREPEAU, S.; DUHAMEL, M. Competition intensity in Canada: a critique of recent OECD findings. Industry Canada : Working Paper Series 2008-09, Ottawa, 2008.\n\nERBER, F. S. O padrão de desenvolvimento industrial e tecnológico e o futuro da indústria brasileira. Rev. Econ. Contemp. , v.5, 2001. Edição especial.\n\nFEIJÓ, C. A. (org.) Contabilidade social : referência atualizada das contas nacionais do Brasil. Rio de Janeiro: Elsevier, 2017.\n\nFONTENELE, A. M.; MELO, M. C.; ROSA, A. L. T. A indústria nordestina sob a ótica da competitividade sistêmica . Fortaleza: EUFC/SUDENE/ACEP, 2000.\n\nGALINDO-RUEDA, F.; VERGER, F. OECD taxonomy of economic ativities based on R&D intesity\", OECD Science, technology and Industry Working Papers 2016/4 . Paris: OECD Publishing, 2016.\n\nGONÇALVES, R.; BAUMANN, R.; PRADOS, L. C. D.; CANUTO, P. A nova economia internacional : uma perspectiva brasileira. Rio de Janeiro: Campus, 1998.\n\nMEDEIROS, V.; GODOI, L. G.; TEIXEIRA, E. C. La competitividad y sus factores determinantes: un análisis sistémico para países en desarrollo. Revista de la CEPAL , n.129, 2019.\n\nMORCEIRO, P. C. Nova classificação de intensidade tecnológica da OCDE e a posição do Brasil. Informações FIPE , fevereiro de 2019.\n\nPERES, W. El retorno de las políticas industriales en América Latina y el Caribe. Revista de la CEPAL , n.88, 2006.\n\nROWTHORN, R.; RAMASWAMY, R. Growth, trade, and deindustrialization. IMF Staff Papers , v.46, n.1, 1999.\n\nSILVA, M. L.; FRANCK, A. G. S.; SILVA, R. A.; CORONEL, D. A. Padrão de especialização do comércio internacional agrícola brasileiro: uma análise por meio de indicadores de competitividade. Revista em Agronegócio e Meio Ambiente , v.11, n.2, 2018.\n\nTIGRE, P. B. O papel da política tecnológica na promoção das exportações. In : PINHEIRO, A. C.; MARKWALD, R.; PEREIRA, L. V. (orgs.). O desafio das exportações . Rio de Janeiro: BNDES, 2002."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1177,15 +1041,6 @@
     },
     {
       "document": "desenvolvimento_paranaense",
-      "page": 79,
-      "sections": [
-        "REFERÊNCIAS"
-      ],
-      "type": "text",
-      "content": "# REFERÊNCIAS\n\nEPE. Empresa de Pesquisa Energética. Terminais de regaseificação de GNL no Brasil panorama dos principais projetos ciclo 2018-2019 . Rio de Janeiro, 30 ago. 2019.\n\nEPE. Empresa de Pesquisa Energética. Demanda de gás natural nos mercados nacional e internacional - horizonte 2020-2030. Nota Técnica, EPE/DPG/SPG, dez. 2020.\n\nEPE. Empresa de Pesquisa Energética. Plano decenal de expansão de energia 2030 . Brasília: MME/EPE, 2021.\n\nFIPE. Fundação Instituto de Pesquisas Econômicas . Respostas à solicitação de informações pelo Comitê Técnico Intersecretarial - Despacho n.º 01/2021, Ofício n.º 05.07.2021 - 013/Fipe/5411. São Paulo: FIPE, 5 jul. 2021.\n\nGOMBATA, M. Brasil bate recorde na compra de gás dos EUA após crise hídrica. Valor Econômico , p.A4, 2 dez. 2021.\n\nIPARDES. Instituto Paranaense de Desenvolvimento Econômico e Social. Paraná em Perspectiva . Curitiba: IPARDES, 2020.\n\nIPARDES. Instituto Paranaense de Desenvolvimento Econômico e Social. Condições e perspectivas da oferta de energia elétrica no Paraná . Curitiba: IPARDES, 2022a.\n\nIPARDES. Instituto Paranaense de Desenvolvimento Econômico e Social. Infraestrutura de Transportes do Paraná : demandas, importância e necessidades, Curitiba, IPARDES, 2022b.\n\nIPARDES. Instituto Paranaense de Desenvolvimento Econômico e Social. Trajetória e perspectivas do crescimento econômico do Paraná . Curitiba: IPARDES, 2022c."
-    },
-    {
-      "document": "desenvolvimento_paranaense",
       "page": 80,
       "sections": [
         "CONDIÇÕES E PERSPECTIVAS DA OFERTA DE ENERGIA ELÉTRICA NO PARANÁ"
@@ -1361,15 +1216,6 @@
       "type": "table",
       "caption": "TABELA 6 - INCREMENTOS AO SISTEMA INTEGRADO NACIONAL - PARANÁ",
       "content": "Tabela: TABELA 6 - INCREMENTOS AO SISTEMA INTEGRADO NACIONAL - PARANÁ\n\n| EMPREENDIMENTO | CARACTERÍSTICA | NOME | DATA PREVISTA | INVESTIMENTO (R$ MIL) |\n| --- | --- | --- | --- | --- |\n| Subestação | Expansão | SE 230/69 kV Umbará | 2024 | 12.136,56 |\n| Subestação | Expansão | SE 230/69/13.8 kV Uberaba | 2024 | ... |\n| Subestação | Expansão | SE 525/230/138 kV Sarandi | 2029 | 82.296,48 |\n| Subestação | Expansão | SE 230/69/13.8 kV Uberaba | 2030 | 15.960,46 |\n| Subestação | Expansão | SE 230/13.8 kV Campo Comprido | 2033 | 15.960,46 |\n| Linha de Transmissão | Nova | LT 525 kV Curitiba Leste - Litorânea, C1 e C2 (CD) | 2030 | 41.547,97 |\n| Subestação | Nova | SE 230/138 kV Curitiba Sul | 2033 | 69.832,54 |\n| Seccionamento de Linha de Transmissão | Nova | SECC LT 230 kV Curitiba - Joinville Norte, C1 (CD), na SE Joinville Norte 2 | 2031 | 17.818,54 |\n| Subestação | Expansão | SE 230/69/13.8 kV CIC | 2024 | ... |\n| Subestação | Expansão | SE 230/34.5/13.8 kV Ponta Grossa Norte | 2024 | ... |\n| Seccionamento de Linha de Transmissão | Nova | SECC LT 525 kV Bateias - Curitiba, C2 (CD), na SE Curitiba Oeste | 2029 | 39.007,67 |\n| Subestação | Expansão | SE 230/138 kV Guaíra | 2024 | 24.684,13 |\n| Linha de Transmissão | Expansão | LT 230 kV Figueira - Jaguariaíva, C1 | 2033 | 20.107,42 |\n| Linha de Transmissão | Expansão | LT 230 kV Londrina - Apucarana, C2 | 2033 | 15.973,96 |\n| Linha de Transmissão | Expansão | LT 230 kV Santa Mônica - Governador Parigot de Souza, C1 | 2030 | 17.405,92 |\n| Subestação | Expansão | SE 230/138 kV Ponta Grossa Norte | 2033 | 49.876,94 |\n| Seccionamento de Linha de Transmissão | Nova | SECC LT 230 kV Curitiba - Joinville Norte, C2 (CD), na SE Joinville Norte 2 | 2031 | 17.818,54 |\n| Linha de Transmissão | Expansão | LT 230 kV Posto Fiscal - Curitiba Leste, C1 | 2030 | 19.360,93 |\n| Seccionamento de Linha de Transmissão | Nova | SECC LT 525 kV Bateias - Areia, C1 (CD), na SE Curitiba Oeste | 2029 | 75.421,72 |\n| Subestação | Expansão | SE 525/230/138 kV Bateias | 2033 | 22.959,68 |\n| Linha de Transmissão | Expansão | LT 230 kV Campo Comprido - Santa Quitéria, C1 | 2024 | 3.125,34 |\n| Subestação | Nova | SE 230/138 kV Barigui 2 | 2027 | 117.053,24 |\n| Subestação | Expansão | SE 230/138 kV Umuarama Sul | 2024 | 29.972,44 |\n| Linha de Transmissão | Expansão | LT 230 kV Bateias - Santa Quitéria, C1 | 2030 | ... |\n| Linha de Transmissão | Nova | LT 525 kV Abdon Batista 2 - Segredo, C1 | 2030 | 434.696,31 |\n| Linha de Transmissão | Nova | LT 500 kV Assis - Ponta Grossa, C1 e C2 (CD) | 2027 | 860.798,68 |\n| Linha de Transmissão | Nova | LT 525 kV Abdon Batista 2 - Ponta Grossa, C1 e C2 (CD) | 2030 | 1.064.330,20 |\n| Linha de Transmissão | Expansão | LT 500 kV Ibiúna - Bateias, C1 e C2 (CD) | 2033 | ... |"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 90,
-      "sections": [
-        "4 PERSPECTIVAS E POTENCIAL DE FONTES ALTERNATIVAS E RENOVÁVEIS"
-      ],
-      "type": "text",
-      "content": "# 4 PERSPECTIVAS E POTENCIAL DE FONTES ALTERNATIVAS E RENOVÁVEIS"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1754,24 +1600,6 @@
     },
     {
       "document": "desenvolvimento_paranaense",
-      "page": 117,
-      "sections": [
-        "REFERÊNCIAS"
-      ],
-      "type": "text",
-      "content": "# REFERÊNCIAS\n\nBARROS, R. P. de et al. Consequências da violação do direito à educação . 1.ed. Rio de Janeiro: Autografia, 2021.\n\nDELGADO, P. R. Desenvolvimento Humano no Paraná - avanços e desafios. Revista Paranaense de Desenvolvimento , Curitiba, v.41, n.138, p.177-185, jan./jun. 2020.\n\nGLOBAL DATA LAB. Institute for Management Research, Radboud University. Subnational Human Development Index (SHDI Version 5.0). Disponível em: https://globaldatalab.org/shdi/. Acesso em: 28 out. 2021.\n\nKUMMU, M.; TAKA, M.; GUILLAUME, J. H. A. 2018) Gridded global datasets for gross domestic product and human development index over 1990-2015. Scientific Data , v.5, p.1-15, 2018.\n\nPINTOE, S. L. V. Modelos matemáticos para o Índice de Desenvolvimento Humano dos estados brasileiros. Revista da Graduação , v.7, n.1, 2014.\n\nPNUD. Programa das Nações Unidas para o Desenvolvimento. Informe Regional de desarrollo humano . Atrapados: alta desigualdade y bajo crecimiento em América latina y el Caribe, jun. 2021.\n\nPRADO, F. L.; MAIA, T. Análise do Índice de Desenvolvimento Humano (IDH) e alguns componentes do Sofi nos países BRICS (China, India, Russia e Brasil) e seus contra pontos aos demais países do mundo - uma análise estatística. Disponível em: https://www.pucsp.br/sites/default/files/download/posgraduacao/programas/ administracao/basta/2S2007/Fabio.pdf. Acesso em: fev. 2022.\n\nRAIHER, A. P. Desenvolvimento econômico dos municípios de Santa Catarina e a ação do estado. Gestão & Regionalidade , v.29, n.86, 2013.\n\nSCHERBOV S.; GIETEL-BASTEN S. Measuring inequalities of development at the subnational level: From the human development index to the human life indicator. PLoS ONE , v.15, n.4, 2020.\n\nSCOTT, A. C. et al. Sustainable Development Goals Report: Brazil 2030 . 2017. Disponível em: https://korbel.du.edu/pardee/resources/sustainable-development-goalsreport-brazil-2030.\n\nSILVA, L. L. A. Análise Estatística do Índice de Desenvolvimento Humano (IDH). Disponível em: http://www.fea.pucsp.br/basta/2S2007/Lucia.pdf. Acesso em: fev. 2022.\n\nSMITS, J. GDL Area Database Sub-national development indicators for research and policy-making (version 3.4.0). GDL Working Paper , p.16-101, Sep. 2016.\n\nSMITS, J.; PERMANYER, I. The subnational human development database. Sci Data 6 , 190038, 2019.\n\nUNDP. Human Development Report , 2020. Disponível em: https://hdr.undp.org/ sites/default/files/hdr2020_technical_notes.pdf. Acesso em: 25 fev. 2022.\n\nWOOLDRIDGE, J. M. Introdução à econometria : uma abordagem moderna. 6.ed. São Paulo: Cengage Learning, 2016."
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 118,
-      "sections": [
-        "APÊNDICE 1 ÍNDICE DE DESENVOLVIMENTO HUMANO, TOTAL E POR DIMENSÃO, SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS"
-      ],
-      "type": "text",
-      "content": "# APÊNDICE 1 ÍNDICE DE DESENVOLVIMENTO HUMANO, TOTAL E POR DIMENSÃO, SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
       "page": 119,
       "sections": [
         "APÊNDICE 1 ÍNDICE DE DESENVOLVIMENTO HUMANO, TOTAL E POR DIMENSÃO, SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS"
@@ -1791,33 +1619,6 @@
     },
     {
       "document": "desenvolvimento_paranaense",
-      "page": 120,
-      "sections": [
-        "APÊNDICE 2 INDICADORES DO ÍNDICE DE DESENVOLVIMENTO HUMANO SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS"
-      ],
-      "type": "text",
-      "content": "# APÊNDICE 2 INDICADORES DO ÍNDICE DE DESENVOLVIMENTO HUMANO SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 121,
-      "sections": [
-        "INDICADORES DO ÍNDICE DE DESENVOLVIMENTO HUMANO SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS"
-      ],
-      "type": "text",
-      "content": "# INDICADORES DO ÍNDICE DE DESENVOLVIMENTO HUMANO SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 121,
-      "sections": [
-        "continua"
-      ],
-      "type": "text",
-      "content": "# continua"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
       "page": 121,
       "sections": [
         "continua"
@@ -1825,15 +1626,6 @@
       "type": "table",
       "caption": null,
       "content": "| GRUPO (NÍVEL DE INCREMENTO).GRUPO (NÍVEL DE INCREMENTO) | REGIÃO.REGIÃO | PAÍS.PAÍS | PERÍODO DE OBSERVAÇÃO.Ano Inicial | PERÍODO DE OBSERVAÇÃO.Ano Final | ANOS ESPERADOS DE ESCOLARIDADE.Ano inicial | ANOS ESPERADOS DE ESCOLARIDADE.Ano Final | ANOS MÉDIOS DE ESCOLARIDADE.Ano Inicial | ANOS MÉDIOS DE ESCOLARIDADE.Ano Final | EXPECTATIVA DE VIDA.Ano Inicial | EXPECTATIVA DE VIDA.Ano Final | log RENDA NACIONAL BRUTA PER CAPITA (US$ PPP 2017).Ano Inicial | log RENDA NACIONAL BRUTA PER CAPITA (US$ PPP 2017).Ano Final | RENDA NACIONAL BRUTA PER CAPITA.Ano Inicial | RENDA NACIONAL BRUTA PER CAPITA.Ano Final |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | América Latina/Sul | Bahamas | 2000 | 2016 | 12,1 | 12,8 | 10,9 | 11,4 | 71,9 | 73,3 | 10,610 | 10,440 | 40.369 | 34.330 |\n|  | Estados Árabes | Bahrain | 1994 | 2010 | 13,6 | 13,5 | 6,9 | 8,4 | 73,2 | 76,1 | 10,710 | 10,610 | 44.958 | 40.353 |\n|  | América Latina/Sul | Barbados | 2002 | 2018 | 14,2 | 15,2 | 9,1 | 10,6 | 77,5 | 79,1 | 9,578 | 9,614 | 14.450 | 14.970 |\n|  | Oriente Médio | Kuwait | 1996 | 2012 | 13,3 | 13,1 | 5,9 | 7,3 | 72,9 | 74,7 | 11,230 | 11,140 | 75.430 | 68.824 |\n|  | América Latina/Sul | Argentina | 1999 | 2015 | 15,0 | 17,4 | 8,9 | 10,4 | 73,4 | 76,1 | 9,827 | 10,060 | 18.535 | 23.466 |\n|  | Ásia & Pacífico | Brunei Darussalam | 1991 | 2007 | 12,3 | 14,0 | 7,6 | 8,6 | 70,4 | 74,4 | 11,180 | 11,180 | 71.643 | 71.648 |\n|  | América Latina/Sul | Chile | 2003 | 2019 | 13,9 | 16,4 | 9,4 | 10,6 | 77,1 | 80,2 | 9,641 | 10,060 | 15.389 | 23.261 |\n|  | Europa | Croatia | 2002 | 2018 | 12,9 | 15,2 | 9,8 | 11,4 | 75,0 | 78,3 | 9,909 | 10,210 | 20.114 | 27.151 |\n|  | Europa | Czech Republic | 1996 | 2012 | 13,1 | 16,1 | 9,6 | 12,4 | 73,7 | 78,1 | 10,060 | 10,360 | 23.427 | 31.662 |\n|  | Europa | Estonia | 1999 | 2015 | 14,4 | 16,1 | 11,5 | 12,9 | 70,0 | 77,8 | 9,674 | 10,330 | 15.904 | 30.529 |\n|  | Europa | France | 1990 | 2006 | 14,2 | 15,2 | 7,1 | 10,6 | 76,8 | 80,6 | 10,430 | 10,680 | 33.981 | 43.371 |\n|  | Europa | Greece | 1994 | 2010 | 12,8 | 16,2 | 8,1 | 10,3 | 77,6 | 80,5 | 10,140 | 10,410 | 25.301 | 33.282 |\n|  | Europa | Hungary | 2000 | 2016 | 14,2 | 15,2 | 10,2 | 11,8 | 71,7 | 76,3 | 9,818 | 10,220 | 18.362 | 27.503 |\n|  | Europa | Italy | 1990 | 2006 | 12,8 | 16,1 | 7,3 | 9,3 | 76,9 | 81,2 | 10,500 | 10,720 | 36.282 | 45.315 |\n|  | Europa | Latvia | 2002 | 2018 | 15,0 | 16,2 | 10,6 | 13,0 | 70,4 | 75,2 | 9,618 | 10,290 | 15.029 | 29.410 |\n|  | Europa | Lithuania | 2001 | 2017 | 15,0 | 16,5 | 10,9 | 13,0 | 71,2 | 75,5 | 9,599 | 10,390 | 14.747 | 32.561 |"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 122,
-      "sections": [
-        "INDICADORES DO ÍNDICE DE DESENVOLVIMENTO HUMANO SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS"
-      ],
-      "type": "text",
-      "content": "# INDICADORES DO ÍNDICE DE DESENVOLVIMENTO HUMANO SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -2030,15 +1822,6 @@
       ],
       "type": "text",
       "content": "TABELA 2 - PROPORÇÃO DE ÓBITOS, SEGUNDO CAPÍTULOS DA CID-10, POR FAIXAS ETÁRIAS - PARANÁ - ANOS SELECIONADOS"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 133,
-      "sections": [
-        "continua"
-      ],
-      "type": "text",
-      "content": "# continua"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -2293,24 +2076,6 @@
     },
     {
       "document": "desenvolvimento_paranaense",
-      "page": 152,
-      "sections": [
-        "REFERÊNCIAS"
-      ],
-      "type": "text",
-      "content": "# REFERÊNCIAS\n\nDIAS JUNIOR, C. S. expectativa de vida O impacto da mortalidade por causas externas e dos homicídios na: uma análise comparativa entre cinco regiões metropolitanas do Brasil. In : 2.º CONGRESSO PORTUGUÊS DE DEMOGRAFIA. 2004, Lisboa. Anais [...], Lisboa, Portugal, 2004.\n\nIBGE. Instituto Brasileiro de Geografia e Estatística. Projeções da população : Brasil e unidades da federação. 2.ed. rev. atual. Rio de Janeiro: IBGE, 2018.\n\nIBGE. Instituto Brasileiro de Geografia e Estatística. Tábua completa de mortalidade para o Brasil - 2019 : breve análise da evolução da mortalidade no Brasil. Rio de Janeiro: IBGE, 2020.\n\nIPARDES. Instituto Paranaense de Desenvolvimento Econômico e Social. Projeção da população dos municípios do Paraná para o período 2018 a 2040 . Curitiba: IPARDES, 2018.\n\nMALTA, D.; ANDRADE, S.; OLIVEIRA, T.; MOURA, L.: PRADO, R.; SOUZA, M. Probabilidade de morte prematura por doenças crônicas não transmissíveis, Brasil e regiões, projeções para 2025. Revista Brasileira de Epidemiologia , v.22, 2019.\n\nOECD. Organisation for Economic Co-operation and Development. Health at a glance 2021 : OECD indicators. Paris: OECD Publishing, 2021.\n\nUNDP. United Nations Development Programme. Human development report 2020. New York: UNDP, 2020."
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 153,
-      "sections": [
-        "CONDICIONANTES DE ESCOLARIZAÇÃO NO PARANÁ *"
-      ],
-      "type": "text",
-      "content": "# CONDICIONANTES DE ESCOLARIZAÇÃO NO PARANÁ *"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
       "page": 153,
       "sections": [
         "INTRODUÇÃO"
@@ -2546,24 +2311,6 @@
       ],
       "type": "text",
       "content": "Assim, as estratégias, quando identificada a necessidade, passam menos pela ampliação da oferta de vagas no ensino regular e mais por projetos de acompanhamento pedagógico de estudantes com atraso escolar; por ações de busca ativa e sensibilização de crianças e adolescentes fora da escola; por estímulos - inclusive financeiros - à educação de jovens e adultos com ensino incompleto; bem como por alavancar e atrair para o ensino na modalidade técnica e profissionalizante.\n\nAcredita-se que a articulação da área educacional com outras políticas públicas deve focalizar suas ações de implementação e execução orientada por indicadores que expressem a tendência e o ritmo da escolaridade, de modo a preparar o desenvolvimento educacional da população paranaense para as questões e mudanças que sempre são impostas pelo futuro.\n\nSem pretensão de esgotar as possibilidades de abordagem, esta Nota pretendeu fornecer indicações para subsidiar o aprimoramento de políticas públicas em educação baseadas em evidências, focadas no aumento da escolaridade, com vistas a contribuir com o progresso social e econômico do Paraná."
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 169,
-      "sections": [
-        "REFERÊNCIAS"
-      ],
-      "type": "text",
-      "content": "# REFERÊNCIAS\n\nBARROS, R. P. de et al. Consequências da violação do direito à educação . Rio de Janeiro: Autografia, 2021.\n\nINEP. Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira. Plano Nacional de Educação PNE 2014-2024 : linha de base. Brasília: INEP, 2015.\n\nIPARDES. Instituto Paranaense de Desenvolvimento Econômico e Social. Paraná em Perspectiva . Curitiba: IPARDES, 2020.\n\nIPARDES. Determinantes do aumento da escolaridade e seus efeitos sobre o desenvolvimento econômico paranaense . Curitiba: IPARDES, 2022."
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 170,
-      "sections": [
-        "SITUAÇÃO E PERSPECTIVA HABITACIONAL NO PARANÁ"
-      ],
-      "type": "text",
-      "content": "# SITUAÇÃO E PERSPECTIVA HABITACIONAL NO PARANÁ"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -2895,15 +2642,6 @@
     },
     {
       "document": "desenvolvimento_paranaense",
-      "page": 191,
-      "sections": [
-        "REFERÊNCIAS"
-      ],
-      "type": "text",
-      "content": "# REFERÊNCIAS\n\nFJP. Fundação João Pinheiro. Inadequação de domicílios no Brasil - 2016-2019 . Belo Horizonte: FJP, 2020c. Disponível em: http://fjp.mg.gov.br/wp-content/uploads/2021 /03/14.05_Relatorio-Inadequacao-de-Domicilios-no-Brasil-2016-2019-versao2.0_compressed.pdf.\n\nFJP. Fundação João Pinheiro. Déficit habitacional e inadequação de moradias no Brasil . Principais resultados para o período de 2016 a 2019. Belo Horizonte: FJP, 2020a. Disponível em: http://fjp.mg.gov.br/wp-content/uploads/2020/12/04.03_Cartilha_ DH_compressed.pdf.\n\nFJP. Fundação João Pinheiro. Déficit habitacional no Brasil - 2016-2019. Belo Horizonte: FJP, 2020b. Disponível em: http://fjp.mg.gov.br/wpcontent/uploads/2021/04/21.05_ Relatorio-Deficit-Habitacional-no-Brasil-2016-2019v2.0.pdf.\n\nGIVISIEZ, G. H. N.; OLIVEIRA, E. L. (orgs .). Demanda futura por moradias : demografia, habitação e mercado. Niterói, RJ: UFF, Pró-reitoria de Pesquisa, Pós-Graduação e Inovação, 2018.\n\nIPARDES, Instituto Paranaense de Desenvolvimento Econômico e Social. Paraná em Perspectiva . Curitiba: Ipardes, 2020. Disponível em: (https://www.ipardes.pr.gov.br/sites/ipardes/arquivos_restritos/files/documento/202002/PARANA%20EM%20PERSPECTIVA-p%C3%A1ginas-exclu%C3%ADdas.pdf).\n\nJANNUZZI, P. M.; PASQUALI, F. A. Estimação de demandas sociais para fins de formulação de políticas públicas municipais. Revista de Administração Pública , Rio de Janeiro, v.33, n.2, p.75-94, 1999."
-    },
-    {
-      "document": "desenvolvimento_paranaense",
       "page": 192,
       "sections": [
         "ÁGUAS E SANEAMENTO BÁSICO: APONTAMENTOS SOBRE A EVOLUÇÃO FUTURA NO PARANÁ"
@@ -3169,15 +2907,6 @@
       ],
       "type": "text",
       "content": "As ações recomendadas têm relação com a alocação de recursos orçamentários para o setor, que serão cada vez mais escassos. Por isso é preciso uma sustentabilidade econômica, considerando os estudos sobre alternativas para a necessidade de buscar água em mananciais cada vez mais distantes. A poluição dos rios em potencial nas grandes cidades, em especial na Região Metropolitana de Curitiba, pode ser contornada com medidas eficientes e estudos estratégicos, como ressalta o plano estadual."
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 211,
-      "sections": [
-        "REFERÊNCIAS"
-      ],
-      "type": "text",
-      "content": "# REFERÊNCIAS\n\nANA. Agência Nacional de Águas (Brasil). Atlas esgotos . Agência Nacional de Águas, Secretaria Nacional de Saneamento Ambiental. Brasília: ANA, 2022.\n\nANA. Agência Nacional de Águas (Brasil). Plano Nacional de Segurança Hídrica . Agência Nacional de Águas. Brasília: ANA, 2019. Disponível em: https://arquivos.ana.gov.br/pnsh/pnsh.pdf. Acesso em: maio 2022.\n\nANA. Agência Nacional de Águas (Brasil). PNSH Plano Nacional de Segurança Hídrica. 2019. Disponível em: https://arquivos.ana.gov.br/pnsh/pnsh.pdf. Acesso em: jun. 2022.\n\nBRASIL. Lei n.º 14.026, de 15 de julho de 2020 . Atualiza o marco legal do saneamento básico e altera a Lei n.º 9.984, de 17 de julho de 2000. Brasília, 15 de julho de 2020.\n\nBRASIL. Ministério do Desenvolvimento Regional. Secretaria Nacional de Saneamento. PLANSAB - Plano Nacional de Saneamento Básico . 2019. Disponível em: https://antigo.mdr.gov.br/images/stories/ArquivosSDRU/ArquivosPDF/Versao_Conselhos_ Resolu%C3%A7%C3%A3o_Alta_-_Capa_Atualizada.pdf. Acesso em: jun. 2022.\n\nIAT. Instituto Água e Terra. Bacias hidrográficas do Paraná . Disponível em: https://www.iat.pr.gov.br/sites/agua-terra/arquivos_restritos/files/documento/202007/bacias_hidrograficas_a4.pdf?msclkid=dbaee459c72811ecab75fa5b14f4ff78. Acesso em: abr. 2022.\n\nIAT. Instituto Água e Terra. Monitoramento da qualidade de água . Disponível em: https://geo.iat.pr.gov.br/portal/apps/opsdashboard/index.html#/3543e8d8d6284e8fb1d62ab dfb0f1895. Acesso em: maio 2022.\n\nIAT. Instituto Água e Terra. Relatório de conjuntura dos recursos hídricos do Estado do Paraná . Curitiba: IAT, 2020.\n\nIBGE. Instituto Brasileiro de Geografia e Estatística. Pesquisa nacional por amostra de domicílios contínua anual . Disponível em: https://sidra.ibge.gov.br/tabela/7192. Acesso em: maio 2022a.\n\nIBGE. Instituto Brasileiro de Geografia e Estatística. Estimativas da população . Disponível em: https://sidra.ibge.gov.br/tabela/6579. Acesso em: jan. 2022b.\n\nIPARDES. Instituto Paranaense de Desenvolvimento Econômico e Social. Base de Dados do Estado - BDEweb . Disponível em: http://www.ipardes.gov.br/imp/index.php. Acesso em: maio 2022.\n\nOLIVEIRA, J. A.; KURESKI, R.; SANTOS, M. PIB do agronegócio no Paraná . Curitiba: IPARDES, 2020.\n\nPNUD. O futuro do desenvolvimento no Paraná : aumentando a produtividade e reduzindo a desigualdade. 2019. Brasília: PNUD, 2019.\n\nREBOUÇAS, A. C. Água no Brasil: abundância, desperdício e escassez. Bahia análise & dados , Salvador, v.13, p.341-345, 2003.\n\nSNIS. Sistema Nacional de Informações sobre Saneamento. Disponível em: http://www.snis.gov.br/painel-informacoes-saneamento-brasil/web/painel-setorsaneamento. Acesso em: fev. 2022."
     }
   ]
 }

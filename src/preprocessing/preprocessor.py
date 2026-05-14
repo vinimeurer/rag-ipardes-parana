@@ -14,6 +14,7 @@ from typing import Optional
 
 from ..core.logger import setup_logger
 from ..core.preprocessing_config import PreprocessingConfig
+from .content_filter import ContentFilter
 from .section_parser import SectionParser
 from .table_processor import TableProcessor
 from .text_cleaner import TextCleaner
@@ -28,6 +29,7 @@ class ProcessResult:
     total_table_items: int
     has_sections: bool
     used_page_fallback: bool = False
+    items_filtered: int = 0
 
     @property
     def total_items(self) -> int:
@@ -63,6 +65,7 @@ class Preprocessor:
         self.out_dir = Path(self.config.paths.processed_dir)
         self.cleaner = TextCleaner(self.config.cleaning)
         self.table_processor = TableProcessor()
+        self.content_filter = ContentFilter()
         self.logger = setup_logger(__name__)
 
     def run_document(self, pdf_key: str) -> ProcessResult:
@@ -95,6 +98,9 @@ class Preprocessor:
 
         tables = self.table_processor.load_tables_for_document(pdf_key, self.in_dir)
         content_items = self._merge_content_and_tables(content_items, tables)
+        items_before_filter = len(content_items)
+        content_items = self.content_filter.filter(content_items, pdf_key)
+        items_filtered = items_before_filter - len(content_items)
 
         metadata = {
             "pdf_key": pdf_key,
@@ -128,6 +134,7 @@ class Preprocessor:
             total_table_items=table_items,
             has_sections=has_sections,
             used_page_fallback=used_fallback,
+            items_filtered=items_filtered,
         )
 
         self._log_processing_summary(result)
@@ -385,12 +392,13 @@ class Preprocessor:
         """
         fallback_note = " (página fallback)" if result.used_page_fallback else ""
         self.logger.info(
-            "[%s] páginas=%d | itens_texto=%d | tabelas=%d | total=%d%s | saída=%s",
+            "[%s] páginas=%d | itens_texto=%d | tabelas=%d | total=%d | filtrados=%d%s | saída=%s",
             result.pdf_key,
             result.total_pages,
             result.total_text_items,
             result.total_table_items,
             result.total_items,
+            result.items_filtered,
             fallback_note,
             result.output_path.name,
         )
