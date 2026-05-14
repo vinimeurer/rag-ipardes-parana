@@ -211,14 +211,12 @@ class Preprocessor:
             current_block_sections = section_parser.current_sections.copy()
 
             for line in lines:
-                # Capture sections BEFORE updating parser
                 sections_before_update = section_parser.current_sections.copy()
 
-                # Check if this line is a header and update parser
                 is_header = section_parser.update(line)
 
                 if is_header:
-                    # Finaliza bloco anterior com seções de ANTES do header
+
                     if current_block_lines:
                         block_text = "\n".join(current_block_lines).strip()
                         if block_text:
@@ -232,18 +230,15 @@ class Preprocessor:
                                 "content": block_text,
                             })
 
-                    # Novo bloco começa com seções APÓS o update (inclui o header atual)
                     current_block_lines = [line]
                     current_block_sections = section_parser.current_sections.copy() 
                 else:
-                    # Add content line to current block
                     current_block_lines.append(line)
 
-            # Finalize last block
             if current_block_lines:
                 block_text = "\n".join(current_block_lines).strip()
                 if block_text:
-                    # Apply page fallback if block has no sections
+
                     if not current_block_sections:
                         current_block_sections = [f"pagina_{page_num}"]
 

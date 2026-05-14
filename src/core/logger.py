@@ -30,15 +30,13 @@ def setup_logger(name: str, log_file: str = None) -> logging.Logger:
     logger = logging.getLogger(name)
     logger.setLevel(getattr(logging, LOG_LEVEL))
     
-    # Handler para console (sempre)
-    if not logger.handlers:  # Evitar duplicação
+    if not logger.handlers:
         console_handler = logging.StreamHandler(sys.stdout)
         console_handler.setLevel(getattr(logging, LOG_LEVEL))
         formatter = logging.Formatter(LOG_FORMAT)
         console_handler.setFormatter(formatter)
         logger.addHandler(console_handler)
         
-        # Handler para arquivo (opcional)
         if log_file:
             LOGS_DIR.mkdir(parents=True, exist_ok=True)
             log_path = LOGS_DIR / log_file

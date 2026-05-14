@@ -12,11 +12,11 @@ class SectionParser:
     """
 
     _HEADER_RE = re.compile(r"^(#+)\s+(.+)$")
-    # Detecta padrões como "3.", "3.1", "3.1.2", "1.2.3.4"
+
     _NUMERIC_RE = re.compile(r"^(\d+(?:\.\d+)*\.?)\s+")
 
     def __init__(self):
-        self._sections = []  # lista de (level, title)
+        self._sections = []
 
     def _infer_level(self, title: str, markdown_level: int) -> int:
         """Infer section depth from numeric prefix, fallback to markdown level.
