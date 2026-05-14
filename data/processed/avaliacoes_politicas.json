@@ -3,7 +3,7 @@
     "pdf_key": "avaliacoes_politicas",
     "description": "Avaliações Políticas Públicas Brasil",
     "total_pages": 40,
-    "processed_at": "2026-05-13T23:59:43.543633",
+    "processed_at": "2026-05-14T00:10:49.558213",
     "has_sections": true
   },
   "content": [
@@ -138,6 +138,7 @@
       "document": "avaliacoes_politicas",
       "page": 7,
       "sections": [
+        "3. METODOLOGIA",
         "3.1 PROTOCOLO E REGISTRO"
       ],
       "type": "text",
@@ -147,6 +148,7 @@
       "document": "avaliacoes_politicas",
       "page": 7,
       "sections": [
+        "3. METODOLOGIA",
         "3.2 CRITÉRIOS DE ELEGIBILIDADE"
       ],
       "type": "text",
@@ -156,6 +158,7 @@
       "document": "avaliacoes_politicas",
       "page": 8,
       "sections": [
+        "3. METODOLOGIA",
         "3.2 CRITÉRIOS DE ELEGIBILIDADE"
       ],
       "type": "text",
@@ -165,6 +168,7 @@
       "document": "avaliacoes_politicas",
       "page": 8,
       "sections": [
+        "3. METODOLOGIA",
         "3.3 FONTES DE INFORMAÇÃO"
       ],
       "type": "text",
@@ -174,6 +178,7 @@
       "document": "avaliacoes_politicas",
       "page": 9,
       "sections": [
+        "3. METODOLOGIA",
         "3.4 O PROCESSO DE BUSCA NAS FONTES"
       ],
       "type": "text",
@@ -183,6 +188,7 @@
       "document": "avaliacoes_politicas",
       "page": 10,
       "sections": [
+        "3. METODOLOGIA",
         "3.4 O PROCESSO DE BUSCA NAS FONTES"
       ],
       "type": "text",
@@ -192,6 +198,8 @@
       "document": "avaliacoes_politicas",
       "page": 11,
       "sections": [
+        "3. METODOLOGIA",
+        "3.4 O PROCESSO DE BUSCA NAS FONTES",
         "3.4.1 Pesquisas Acadêmicas, Think Tanks e Organizações Não Governamentais"
       ],
       "type": "text",
@@ -201,6 +209,8 @@
       "document": "avaliacoes_politicas",
       "page": 11,
       "sections": [
+        "3. METODOLOGIA",
+        "3.4 O PROCESSO DE BUSCA NAS FONTES",
         "3.4.2 A Coleta de Textos Acadêmicos de Avaliação de Políticas Públicas"
       ],
       "type": "text",
@@ -210,6 +220,8 @@
       "document": "avaliacoes_politicas",
       "page": 12,
       "sections": [
+        "3. METODOLOGIA",
+        "3.4 O PROCESSO DE BUSCA NAS FONTES",
         "3.4.2 A Coleta de Textos Acadêmicos de Avaliação de Políticas Públicas"
       ],
       "type": "text",
@@ -228,6 +240,7 @@
       "document": "avaliacoes_politicas",
       "page": 14,
       "sections": [
+        "4. SELEÇÃO DE EVIDÊNCIAS",
         "4.1 PROCESSO DE MAPEAMENTO DE DADOS ( DATA CHARTING PROCESS )"
       ],
       "type": "text",
@@ -237,6 +250,8 @@
       "document": "avaliacoes_politicas",
       "page": 14,
       "sections": [
+        "4. SELEÇÃO DE EVIDÊNCIAS",
+        "4.1 PROCESSO DE MAPEAMENTO DE DADOS ( DATA CHARTING PROCESS )",
         "4.1.1 Variáveis de Interesse à Questão de Pesquisa"
       ],
       "type": "text",
@@ -246,6 +261,8 @@
       "document": "avaliacoes_politicas",
       "page": 15,
       "sections": [
+        "4. SELEÇÃO DE EVIDÊNCIAS",
+        "4.1 PROCESSO DE MAPEAMENTO DE DADOS ( DATA CHARTING PROCESS )",
         "4.1.1 Variáveis de Interesse à Questão de Pesquisa"
       ],
       "type": "text",
@@ -255,6 +272,8 @@
       "document": "avaliacoes_politicas",
       "page": 15,
       "sections": [
+        "4. SELEÇÃO DE EVIDÊNCIAS",
+        "4.1 PROCESSO DE MAPEAMENTO DE DADOS ( DATA CHARTING PROCESS )",
         "4.1.2 Categorias de codificação aplicadas"
       ],
       "type": "text",
@@ -264,6 +283,8 @@
       "document": "avaliacoes_politicas",
       "page": 15,
       "sections": [
+        "4. SELEÇÃO DE EVIDÊNCIAS",
+        "4.1 PROCESSO DE MAPEAMENTO DE DADOS ( DATA CHARTING PROCESS )",
         "4.1.3 Categorias referentes à política pública analisada"
       ],
       "type": "text",
@@ -273,6 +294,8 @@
       "document": "avaliacoes_politicas",
       "page": 16,
       "sections": [
+        "4. SELEÇÃO DE EVIDÊNCIAS",
+        "4.1 PROCESSO DE MAPEAMENTO DE DADOS ( DATA CHARTING PROCESS )",
         "4.1.4 Categorias referentes ao texto avaliativo estudado:"
       ],
       "type": "text",
@@ -282,6 +305,8 @@
       "document": "avaliacoes_politicas",
       "page": 17,
       "sections": [
+        "4. SELEÇÃO DE EVIDÊNCIAS",
+        "4.1 PROCESSO DE MAPEAMENTO DE DADOS ( DATA CHARTING PROCESS )",
         "4.1.4 Categorias referentes ao texto avaliativo estudado:"
       ],
       "type": "text",
@@ -291,6 +316,8 @@
       "document": "avaliacoes_politicas",
       "page": 17,
       "sections": [
+        "4. SELEÇÃO DE EVIDÊNCIAS",
+        "4.1 PROCESSO DE MAPEAMENTO DE DADOS ( DATA CHARTING PROCESS )",
         "4.1.5 Sobre o processo avaliativo:"
       ],
       "type": "text",
@@ -300,6 +327,8 @@
       "document": "avaliacoes_politicas",
       "page": 18,
       "sections": [
+        "4. SELEÇÃO DE EVIDÊNCIAS",
+        "4.1 PROCESSO DE MAPEAMENTO DE DADOS ( DATA CHARTING PROCESS )",
         "4.1.5 Sobre o processo avaliativo:"
       ],
       "type": "text",
@@ -327,6 +356,7 @@
       "document": "avaliacoes_politicas",
       "page": 19,
       "sections": [
+        "6. METODOLOGIA DE SÍNTESE DE RESULTADOS",
         "6.1 SELEÇÃO DE FONTES DE EVIDÊNCIA"
       ],
       "type": "text",
@@ -336,6 +366,7 @@
       "document": "avaliacoes_politicas",
       "page": 20,
       "sections": [
+        "6. METODOLOGIA DE SÍNTESE DE RESULTADOS",
         "6.1 SELEÇÃO DE FONTES DE EVIDÊNCIA"
       ],
       "type": "text",
@@ -373,6 +404,7 @@
       "document": "avaliacoes_politicas",
       "page": 22,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.1 RESULTADOS"
       ],
       "type": "text",
@@ -382,6 +414,7 @@
       "document": "avaliacoes_politicas",
       "page": 22,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.2 RESULTADOS GERAIS"
       ],
       "type": "text",
@@ -391,6 +424,7 @@
       "document": "avaliacoes_politicas",
       "page": 22,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.2 RESULTADOS GERAIS"
       ],
       "type": "table",
@@ -401,6 +435,7 @@
       "document": "avaliacoes_politicas",
       "page": 23,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.3 DISTRIBUIÇÃO DE DOCUMENTOS POR TEMA DA POLÍTICA PÚBLICA"
       ],
       "type": "text",
@@ -410,6 +445,7 @@
       "document": "avaliacoes_politicas",
       "page": 23,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.4 DEMANDANTES"
       ],
       "type": "text",
@@ -419,6 +455,7 @@
       "document": "avaliacoes_politicas",
       "page": 23,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.4 DEMANDANTES"
       ],
       "type": "table",
@@ -429,6 +466,7 @@
       "document": "avaliacoes_politicas",
       "page": 24,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.4 DEMANDANTES"
       ],
       "type": "text",
@@ -438,6 +476,7 @@
       "document": "avaliacoes_politicas",
       "page": 24,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.5 FINANCIADORES"
       ],
       "type": "text",
@@ -447,6 +486,7 @@
       "document": "avaliacoes_politicas",
       "page": 24,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.6 ÁREA DO PESQUISADOR"
       ],
       "type": "text",
@@ -456,6 +496,7 @@
       "document": "avaliacoes_politicas",
       "page": 24,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.6 ÁREA DO PESQUISADOR"
       ],
       "type": "table",
@@ -466,6 +507,7 @@
       "document": "avaliacoes_politicas",
       "page": 25,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.6 ÁREA DO PESQUISADOR"
       ],
       "type": "text",
@@ -475,6 +517,7 @@
       "document": "avaliacoes_politicas",
       "page": 25,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.7 ÓRGÃO DE FORMULAÇÃO E RECORTE DA AVALIAÇÃO"
       ],
       "type": "text",
@@ -484,6 +527,7 @@
       "document": "avaliacoes_politicas",
       "page": 25,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.7 ÓRGÃO DE FORMULAÇÃO E RECORTE DA AVALIAÇÃO"
       ],
       "type": "table",
@@ -494,6 +538,7 @@
       "document": "avaliacoes_politicas",
       "page": 26,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.7 ÓRGÃO DE FORMULAÇÃO E RECORTE DA AVALIAÇÃO"
       ],
       "type": "text",
@@ -503,6 +548,7 @@
       "document": "avaliacoes_politicas",
       "page": 26,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.8 DESENHO DA POLÍTICA PÚBLICA"
       ],
       "type": "text",
@@ -512,6 +558,7 @@
       "document": "avaliacoes_politicas",
       "page": 26,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.8 DESENHO DA POLÍTICA PÚBLICA"
       ],
       "type": "table",
@@ -522,6 +569,7 @@
       "document": "avaliacoes_politicas",
       "page": 27,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.9 TIPOS DE AVALIAÇÃO MAIS COMUNS"
       ],
       "type": "text",
@@ -531,6 +579,7 @@
       "document": "avaliacoes_politicas",
       "page": 27,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.9 TIPOS DE AVALIAÇÃO MAIS COMUNS"
       ],
       "type": "table",
@@ -541,6 +590,7 @@
       "document": "avaliacoes_politicas",
       "page": 28,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.9 TIPOS DE AVALIAÇÃO MAIS COMUNS"
       ],
       "type": "text",
@@ -550,6 +600,7 @@
       "document": "avaliacoes_politicas",
       "page": 28,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.9 TIPOS DE AVALIAÇÃO MAIS COMUNS"
       ],
       "type": "table",
@@ -560,6 +611,7 @@
       "document": "avaliacoes_politicas",
       "page": 29,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.10 MÉTODOS E TÉCNICAS: TIPOS MAIS COMUNS"
       ],
       "type": "text",
@@ -569,6 +621,7 @@
       "document": "avaliacoes_politicas",
       "page": 29,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.10 MÉTODOS E TÉCNICAS: TIPOS MAIS COMUNS"
       ],
       "type": "table",
@@ -579,6 +632,7 @@
       "document": "avaliacoes_politicas",
       "page": 30,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.10 MÉTODOS E TÉCNICAS: TIPOS MAIS COMUNS"
       ],
       "type": "text",
@@ -588,6 +642,7 @@
       "document": "avaliacoes_politicas",
       "page": 31,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.11 INDICADORES"
       ],
       "type": "text",
@@ -597,6 +652,7 @@
       "document": "avaliacoes_politicas",
       "page": 31,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.12 FONTES E QUALIDADE DAS FONTES"
       ],
       "type": "text",
@@ -606,6 +662,7 @@
       "document": "avaliacoes_politicas",
       "page": 31,
       "sections": [
+        "7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO",
         "7.13 FERRAMENTAS E RECURSOS"
       ],
       "type": "text",
@@ -642,6 +699,7 @@
       "document": "avaliacoes_politicas",
       "page": 34,
       "sections": [
+        "9. COMO SE AVALIAM POLÍTICAS PÚBLICAS NO BRASIL?",
         "9.1 LIMITAÇÕES DA PESQUISA"
       ],
       "type": "text",

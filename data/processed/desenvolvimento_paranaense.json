@@ -3,7 +3,7 @@
     "pdf_key": "desenvolvimento_paranaense",
     "description": "Desenvolvimento Paranaense - Análise socioeconômica do Estado",
     "total_pages": 211,
-    "processed_at": "2026-05-13T23:59:43.529810",
+    "processed_at": "2026-05-14T00:10:49.544486",
     "has_sections": true
   },
   "content": [
@@ -1375,6 +1375,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 90,
       "sections": [
+        "4 PERSPECTIVAS E POTENCIAL DE FONTES ALTERNATIVAS E RENOVÁVEIS",
         "4.1 GÁS"
       ],
       "type": "text",
@@ -1384,6 +1385,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 91,
       "sections": [
+        "4 PERSPECTIVAS E POTENCIAL DE FONTES ALTERNATIVAS E RENOVÁVEIS",
         "4.2 BIOENERGIA"
       ],
       "type": "text",
@@ -1393,6 +1395,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 92,
       "sections": [
+        "4 PERSPECTIVAS E POTENCIAL DE FONTES ALTERNATIVAS E RENOVÁVEIS",
         "4.3 BIOGÁS"
       ],
       "type": "text",
@@ -1402,6 +1405,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 93,
       "sections": [
+        "4 PERSPECTIVAS E POTENCIAL DE FONTES ALTERNATIVAS E RENOVÁVEIS",
         "4.3 BIOGÁS"
       ],
       "type": "text",
@@ -1411,6 +1415,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 93,
       "sections": [
+        "4 PERSPECTIVAS E POTENCIAL DE FONTES ALTERNATIVAS E RENOVÁVEIS",
         "4.3 BIOGÁS"
       ],
       "type": "table",
@@ -1566,6 +1571,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 105,
       "sections": [
+        "2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035",
         "2.1 PROJEÇÃO DA EVOLUÇÃO DO IDH"
       ],
       "type": "text",
@@ -1575,6 +1581,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 105,
       "sections": [
+        "2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035",
         "2.1 PROJEÇÃO DA EVOLUÇÃO DO IDH"
       ],
       "type": "table",
@@ -1585,6 +1592,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 106,
       "sections": [
+        "2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035",
         "2.1 PROJEÇÃO DA EVOLUÇÃO DO IDH"
       ],
       "type": "text",
@@ -1594,6 +1602,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 107,
       "sections": [
+        "2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035",
         "2.1 PROJEÇÃO DA EVOLUÇÃO DO IDH"
       ],
       "type": "text",
@@ -1603,6 +1612,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 107,
       "sections": [
+        "2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035",
         "2.1 PROJEÇÃO DA EVOLUÇÃO DO IDH"
       ],
       "type": "table",
@@ -1613,6 +1623,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 108,
       "sections": [
+        "2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035",
         "2.1 PROJEÇÃO DA EVOLUÇÃO DO IDH"
       ],
       "type": "text",
@@ -1622,6 +1633,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 108,
       "sections": [
+        "2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035",
         "2.1 PROJEÇÃO DA EVOLUÇÃO DO IDH"
       ],
       "type": "table",
@@ -1632,6 +1644,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 109,
       "sections": [
+        "2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035",
         "2.1 PROJEÇÃO DA EVOLUÇÃO DO IDH"
       ],
       "type": "text",
@@ -1641,6 +1654,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 109,
       "sections": [
+        "2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035",
         "2.1 PROJEÇÃO DA EVOLUÇÃO DO IDH"
       ],
       "type": "table",
@@ -1651,6 +1665,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 110,
       "sections": [
+        "2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035",
         "2.2 TRAJETÓRIA COMPARADA"
       ],
       "type": "text",
@@ -1660,6 +1675,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 110,
       "sections": [
+        "2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035",
         "2.2 TRAJETÓRIA COMPARADA"
       ],
       "type": "table",
@@ -1670,6 +1686,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 111,
       "sections": [
+        "2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035",
         "2.2 TRAJETÓRIA COMPARADA"
       ],
       "type": "text",
@@ -1679,6 +1696,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 111,
       "sections": [
+        "2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035",
         "2.2 TRAJETÓRIA COMPARADA"
       ],
       "type": "table",
@@ -1689,6 +1707,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 112,
       "sections": [
+        "2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035",
         "2.2 TRAJETÓRIA COMPARADA"
       ],
       "type": "text",
@@ -1698,6 +1717,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 112,
       "sections": [
+        "2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035",
         "2.2 TRAJETÓRIA COMPARADA"
       ],
       "type": "table",
@@ -1708,6 +1728,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 113,
       "sections": [
+        "2 IDH PARANÁ - TRAJETÓRIA TENDENCIAL NO PERÍODO 2020/2035",
         "2.2 TRAJETÓRIA COMPARADA"
       ],
       "type": "text",
@@ -2604,6 +2625,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 173,
       "sections": [
+        "2 DÉFICIT E INADEQUAÇÃO HABITACIONAL",
         "2.1 DÉFICIT HABITACIONAL"
       ],
       "type": "text",
@@ -2613,6 +2635,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 173,
       "sections": [
+        "2 DÉFICIT E INADEQUAÇÃO HABITACIONAL",
         "2.1 DÉFICIT HABITACIONAL"
       ],
       "type": "table",
@@ -2623,6 +2646,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 174,
       "sections": [
+        "2 DÉFICIT E INADEQUAÇÃO HABITACIONAL",
         "2.1 DÉFICIT HABITACIONAL"
       ],
       "type": "text",
@@ -2632,6 +2656,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 174,
       "sections": [
+        "2 DÉFICIT E INADEQUAÇÃO HABITACIONAL",
         "2.1 DÉFICIT HABITACIONAL"
       ],
       "type": "table",
@@ -2642,6 +2667,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 175,
       "sections": [
+        "2 DÉFICIT E INADEQUAÇÃO HABITACIONAL",
         "2.1 DÉFICIT HABITACIONAL"
       ],
       "type": "text",
@@ -2651,6 +2677,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 176,
       "sections": [
+        "2 DÉFICIT E INADEQUAÇÃO HABITACIONAL",
         "2.1 DÉFICIT HABITACIONAL"
       ],
       "type": "text",
@@ -2660,6 +2687,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 176,
       "sections": [
+        "2 DÉFICIT E INADEQUAÇÃO HABITACIONAL",
         "2.2 INADEQUAÇÃO HABITACIONAL"
       ],
       "type": "text",
@@ -2669,6 +2697,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 177,
       "sections": [
+        "2 DÉFICIT E INADEQUAÇÃO HABITACIONAL",
         "2.2 INADEQUAÇÃO HABITACIONAL"
       ],
       "type": "text",
@@ -2678,6 +2707,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 177,
       "sections": [
+        "2 DÉFICIT E INADEQUAÇÃO HABITACIONAL",
         "2.2 INADEQUAÇÃO HABITACIONAL"
       ],
       "type": "table",
@@ -2688,6 +2718,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 178,
       "sections": [
+        "2 DÉFICIT E INADEQUAÇÃO HABITACIONAL",
         "2.2 INADEQUAÇÃO HABITACIONAL"
       ],
       "type": "text",
@@ -2697,6 +2728,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 178,
       "sections": [
+        "2 DÉFICIT E INADEQUAÇÃO HABITACIONAL",
         "2.2 INADEQUAÇÃO HABITACIONAL"
       ],
       "type": "table",
@@ -2707,6 +2739,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 179,
       "sections": [
+        "2 DÉFICIT E INADEQUAÇÃO HABITACIONAL",
         "2.2 INADEQUAÇÃO HABITACIONAL"
       ],
       "type": "text",
@@ -2716,6 +2749,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 179,
       "sections": [
+        "2 DÉFICIT E INADEQUAÇÃO HABITACIONAL",
         "2.2 INADEQUAÇÃO HABITACIONAL"
       ],
       "type": "table",
@@ -2726,6 +2760,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 180,
       "sections": [
+        "2 DÉFICIT E INADEQUAÇÃO HABITACIONAL",
         "2.2 INADEQUAÇÃO HABITACIONAL"
       ],
       "type": "text",
@@ -2735,6 +2770,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 181,
       "sections": [
+        "2 DÉFICIT E INADEQUAÇÃO HABITACIONAL",
         "2.2 INADEQUAÇÃO HABITACIONAL"
       ],
       "type": "text",
@@ -2753,6 +2789,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 181,
       "sections": [
+        "3 PROJEÇÃO HABITACIONAL NO PARANÁ",
         "3.1 ESTOQUE E DEMANDA FUTURA POR MORADIAS"
       ],
       "type": "text",
@@ -2762,6 +2799,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 182,
       "sections": [
+        "3 PROJEÇÃO HABITACIONAL NO PARANÁ",
         "3.1 ESTOQUE E DEMANDA FUTURA POR MORADIAS"
       ],
       "type": "text",
@@ -2771,6 +2809,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 183,
       "sections": [
+        "3 PROJEÇÃO HABITACIONAL NO PARANÁ",
         "3.1 ESTOQUE E DEMANDA FUTURA POR MORADIAS"
       ],
       "type": "text",
@@ -2780,6 +2819,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 184,
       "sections": [
+        "3 PROJEÇÃO HABITACIONAL NO PARANÁ",
         "3.1 ESTOQUE E DEMANDA FUTURA POR MORADIAS"
       ],
       "type": "text",
@@ -2789,6 +2829,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 185,
       "sections": [
+        "3 PROJEÇÃO HABITACIONAL NO PARANÁ",
         "3.1 ESTOQUE E DEMANDA FUTURA POR MORADIAS"
       ],
       "type": "text",
@@ -2798,6 +2839,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 186,
       "sections": [
+        "3 PROJEÇÃO HABITACIONAL NO PARANÁ",
         "3.1 ESTOQUE E DEMANDA FUTURA POR MORADIAS"
       ],
       "type": "text",
@@ -2807,6 +2849,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 187,
       "sections": [
+        "3 PROJEÇÃO HABITACIONAL NO PARANÁ",
         "3.1 ESTOQUE E DEMANDA FUTURA POR MORADIAS"
       ],
       "type": "text",
@@ -2816,6 +2859,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 188,
       "sections": [
+        "3 PROJEÇÃO HABITACIONAL NO PARANÁ",
         "3.1 ESTOQUE E DEMANDA FUTURA POR MORADIAS"
       ],
       "type": "text",
@@ -2825,6 +2869,7 @@
       "document": "desenvolvimento_paranaense",
       "page": 189,
       "sections": [
+        "3 PROJEÇÃO HABITACIONAL NO PARANÁ",
         "3.1 ESTOQUE E DEMANDA FUTURA POR MORADIAS"
       ],
       "type": "text",
