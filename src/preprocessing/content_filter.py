@@ -20,6 +20,7 @@ SKIP_UNTIL_PAGE = {
 SUMMARY_SECTIONS = {"SUMÁRIO", "SUMARIO", "SUMARIO EXECUTIVO", "ÍNDICE"}
 REFERENCES_SECTIONS = {"REFERÊNCIAS", "REFERENCIAS", "BIBLIOGRAPHY", "REFERÊNCIAS BIBLIOGRÁFICAS"}
 AUXILIARY_SECTIONS = {"LISTA DE SIGLAS", "SIGLAS", "ABREVIAÇÕES"}
+ORPHAN_REFERENCE_PREFIXES = ("GRÁFICO", "FIGURA", "QUADRO", "TABELA")
 
 
 class ContentFilter:
@@ -57,6 +58,7 @@ class ContentFilter:
             "institutional_pages": 0,
             "sumario": 0,
             "referencias": 0,
+            "orphan_references": 0,
             "auxiliary_marked": 0,
         }
 
@@ -89,6 +91,10 @@ class ContentFilter:
                 counts["referencias"] += 1
                 continue
 
+            if self._is_orphan_reference(item):
+                counts["orphan_references"] += 1
+                continue
+
             item = self._mark_auxiliary(item)
             if item.get("is_auxiliary"):
                 counts["auxiliary_marked"] += 1
@@ -99,7 +105,7 @@ class ContentFilter:
 
         self.logger.debug(
             "[%s] Filtrage concluída: %d → %d itens | "
-            "header_only=%d | institutional=%d | sumario=%d | referencias=%d | auxiliary_marked=%d",
+            "header_only=%d | institutional=%d | sumario=%d | referencias=%d | orphan_references=%d | auxiliary_marked=%d",
             pdf_key,
             original_count,
             len(filtered),
@@ -107,6 +113,7 @@ class ContentFilter:
             counts["institutional_pages"],
             counts["sumario"],
             counts["referencias"],
+            counts["orphan_references"],
             counts["auxiliary_marked"],
         )
 
@@ -148,6 +155,35 @@ class ContentFilter:
             True se qualquer seção corresponder a um termo de referências.
         """
         return any(s.strip().upper() in REFERENCES_SECTIONS for s in item.get("sections", []))
+
+    def _is_orphan_reference(self, item: dict) -> bool:
+        """
+        Verifica se um item curto é apenas uma referência solta a gráfico, figura,
+        quadro ou tabela sem corpo de dados associado.
+
+        Esses blocos costumam ser títulos extraídos de imagens/tabelas e não
+        contêm informação suficiente para responder perguntas.
+        """
+        content = item.get("content", "").strip()
+        if not content:
+            return False
+
+        token_count = len(content.split())
+        if token_count >= 30:
+            return False
+
+        first_line = content.lstrip().splitlines()[0].strip().upper()
+        if not first_line.startswith(ORPHAN_REFERENCE_PREFIXES):
+            return False
+
+        if self._has_table_body(content):
+            return False
+
+        return True
+
+    def _has_table_body(self, content: str) -> bool:
+        """Detecta se o conteúdo já contém linhas de tabela Markdown."""
+        return any(line.lstrip().startswith("|") for line in content.splitlines())
 
     def _mark_auxiliary(self, item: dict) -> dict:
         """
