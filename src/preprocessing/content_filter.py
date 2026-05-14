@@ -81,11 +81,11 @@ class ContentFilter:
                 counts["institutional_pages"] += 1
                 continue
 
-            if self._is_sumario(item):
+            if self._is_summary(item):
                 counts["sumario"] += 1
                 continue
 
-            if self._is_referencias(item):
+            if self._is_reference(item):
                 counts["referencias"] += 1
                 continue
 
