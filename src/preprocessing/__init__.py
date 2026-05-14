@@ -1,3 +1,8 @@
+"""
+Módulo de preprocessamento para o pipeline RAG IPARDES.
+
+Exporta as classes principais para uso externo.
+"""
 
 from .preprocessor import Preprocessor, ProcessResult
 from .section_parser import SectionParser

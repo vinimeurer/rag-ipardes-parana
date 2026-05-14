@@ -1,3 +1,10 @@
+"""
+Configurações centralizadas para o pipeline de preprocessamento.
+
+Define as classes de configuração usando dataclasses para organizar os parâmetros 
+relacionados ao preprocessamento de documentos.
+"""
+
 from dataclasses import dataclass, field
 from pathlib import Path
 

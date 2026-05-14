@@ -1,14 +1,20 @@
+"""
+Módulo responsável por manter o estado das seções ativas durante a travessia das linhas de markdown.
+"""
+
 import re
 
 
 class SectionParser:
-    """Maintains state of active sections while traversing markdown lines.
+    """
+    Mantém o estado das seções ativas durante a travessia das linhas de markdown.
 
-    Detects markdown headers and infers hierarchy from section numbering
-    (e.g. '3.', '3.1', '3.1.2') rather than markdown heading level (#, ##).
-    This is necessary because docling often exports all headers at the same
-    markdown level (#), losing the visual hierarchy of the original PDF.
-    Falls back to markdown level when no numeric pattern is detected.
+    Detecta cabeçalhos markdown e infere hierarquia a partir da numeração das seções(ex: '3.', '3.1', '3.1.2') 
+    em vez do nível de cabeçalho markdown (#, ##). Isso é necessário porque o docling frequentemente exporta 
+    todos os cabeçalhos no mesmo nível markdown (#), perdendo a hierarquia visual do PDF original. 
+    
+    O método _infer_level tenta recuperar essa hierarquia numéricapara manter a estrutura de seções mais fiel 
+    ao documento original, o que é crucial para o pré-processamento e a organização do conteúdo para o pipeline RAG.
     """
 
     _HEADER_RE = re.compile(r"^(#+)\s+(.+)$")
@@ -19,11 +25,16 @@ class SectionParser:
         self._sections = []
 
     def _infer_level(self, title: str, markdown_level: int) -> int:
-        """Infer section depth from numeric prefix, fallback to markdown level.
+        """
+        Infere a profundidade da seção a partir do prefixo numérico, 
+        com fallback para o nível markdown.
 
-        '3.'     → depth 1
-        '3.1'    → depth 2
-        '3.1.2'  → depth 3
+        Args:
+            title: Título do cabeçalho markdown (sem os #)
+            markdown_level: Nível do cabeçalho markdown (1 para #, 2 para ##, etc.)
+
+        Returns:
+            Profundidade inferida da seção, onde 1 é a seção mais externa.
         """
         match = self._NUMERIC_RE.match(title)
         if not match:
@@ -33,6 +44,15 @@ class SectionParser:
         return len(numeric_part.split("."))
 
     def update(self, line: str) -> bool:
+        """
+        Atualiza o estado das seções ativas com base em uma linha de markdown.
+
+        Args:
+            line: Linha de markdown a ser processada.
+            
+        Returns:
+            True se a linha for um cabeçalho markdown e o estado foi atualizado, False caso contrário.
+        """
         match = self._HEADER_RE.match(line.strip())
         if not match:
             return False

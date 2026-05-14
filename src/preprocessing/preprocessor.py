@@ -1,3 +1,10 @@
+"""
+Módulo principal de pré-processamento dos documentos extraídos.
+Lê os arquivos markdown gerados pelo extrator, processa o texto 
+por página com detecção de seções, integra as tabelas, e salva 
+em formato JSON unificado para o pipeline
+"""
+
 import json
 import re
 from dataclasses import dataclass
@@ -29,15 +36,23 @@ class ProcessResult:
 
 
 class Preprocessor:
-    """Run preprocessing over extracted documents.
-
-    Converts extracted markdown files to processed JSON format compatible
-    with the chunking pipeline. Handles text cleaning, section detection,
-    and table integration.
+    """
+    Converte os arquivos markdown extraídos para o formato JSON processado c
+    compatível com o pipeline de chunking. Lida com limpeza de texto, 
+    detecção de seções e integração de tabelas.
 
     Args:
-        config: Optional preprocessing configuration. If omitted, defaults
-            are used.
+        config: Configuração de pré-processamento opcional. Se omitida, são usadas as configurações padrão.
+
+    Métodos:
+        run_document: Pré-processa um único documento identificado por `pdf_key`.
+        run_all: Pré-processa todos os documentos encontrados no diretório de extração.
+        _parse_pages_from_markdown: Analisa o conteúdo markdown em páginas usando tags PAGE.
+        _process_with_section_detection: Processa páginas com detecção de cabeçalhos markdown, quebrando cada página em múltiplos itens por seção.
+        _process_with_page_fallback: Processa páginas usando apenas números de página como seções (para analise_conjuntural).
+        _merge_content_and_tables: Mescla itens de texto e tabela mantendo a ordem das páginas.
+        _get_timestamp: Retorna o timestamp atual em formato ISO.
+        _log_processing_summary: Registra estatísticas resumidas após processar um documento.
     """
 
     _PAGE_TAG_RE = re.compile(r"<!--\s*PAGE:\s*(\d+)\s*-->")
@@ -51,17 +66,17 @@ class Preprocessor:
         self.logger = setup_logger(__name__)
 
     def run_document(self, pdf_key: str) -> ProcessResult:
-        """Preprocess a single extracted document identified by `pdf_key`.
+        """
+        Pré-processa um único documento extraído identificado por `pdf_key`.
 
-        Reads the markdown source, processes text by page with section
-        tracking, integrates tables, and saves as unified JSON format.
+        Lê a fonte markdown, processa o texto por página com rastreamento 
+        de seções, integra tabelas, e salva em formato JSON unificado.
 
         Args:
-            pdf_key: Identifier of the document (matches folder name in
-                the extracted directory).
-
+            pdf_key: Identificador do documento (corresponde ao nome da pasta no diretório de extração).
+        
         Returns:
-            A ProcessResult with processing statistics.
+            Um ProcessResult com estatísticas do processamento.
         """
         src_md = self.in_dir / pdf_key / f"{pdf_key}.md"
         if not src_md.exists():
@@ -119,13 +134,14 @@ class Preprocessor:
         return result
 
     def run_all(self, keys: Optional[list[str]] = None) -> list[ProcessResult]:
-        """Preprocess all documents found in the extracted directory.
+        """
+        Pré-processa todos os documentos encontrados no diretório de extração.
 
         Args:
-            keys: Optional explicit list of `pdf_key` values to process.
+            keys: Lista opcional de `pdf_key` explícitos para processar. Se omitida, processa todos os diretórios encontrados.
 
         Returns:
-            List of ProcessResult for each processed document.
+            Lista de ProcessResult para cada documento processado.
         """
         keys = keys or [p.name for p in self.in_dir.iterdir() if p.is_dir()]
         results = []
@@ -144,16 +160,17 @@ class Preprocessor:
         return results
 
     def _parse_pages_from_markdown(self, content: str) -> list[dict]:
-        """Parse markdown content into pages using PAGE tags.
+        """
+        Parseia o conteúdo markdown em páginas usando tags PAGE.
 
-        Each page is extracted between consecutive PAGE tags. The first
-        page starts from the beginning of the document.
+        Cada página é extraída entre tags PAGE consecutivas. 
+        A primeira página começa do início do documento.
 
         Args:
-            content: Full markdown content from source file.
+            content: Conteúdo markdown completo do arquivo fonte.
 
         Returns:
-            List of dicts with 'page_number' and 'text' keys.
+            Lista de dicionários com chaves 'page_number' e 'text'.
         """
         pages = []
         tag_positions = [(m.start(), int(m.group(1))) for m in self._PAGE_TAG_RE.finditer(content)]
@@ -170,24 +187,24 @@ class Preprocessor:
 
         return pages
 
-    def _process_with_section_detection(
-        self, pdf_key: str, pages_data: list[dict]
-    ) -> list[dict]:
-        """Process pages with markdown header detection, breaking each page into multiple items per section.
+    def _process_with_section_detection(self, pdf_key: str, pages_data: list[dict]) -> list[dict]:
+        """
+        Processa as páginas com detecção de cabeçalhos markdown, 
+        quebrando cada página em múltiplos itens por seção.
 
-        Detects markdown headers (#, ##, ###, etc.) and maintains active
-        section state across pages using SectionParser. When a new header
-        is detected, the current block is finalized and a new block starts.
-        Each block inherits the sections that were active BEFORE the header
-        that initiates it, ensuring the block captures its surrounding context.
+        Detecta cabeçalhos markdown (#, ##, ###, etc.) e mantém o estado das 
+        seções ativas usando SectionParser. Quando um novo cabeçalho é detectado, 
+        o bloco atual é finalizado e um novo bloco começa. Cada bloco herda as seções 
+        que estavam ativas ANTES do cabeçalho que o inicia, garantindo que o bloco 
+        capture seu contexto circundante.
 
         Args:
-            pdf_key: Document identifier.
-            pages_data: List of page dicts with page_number and text.
+            pdf_key: Identificador do documento.
+            pages_data: Lista de dicionários de páginas com page_number e text.
 
         Returns:
-            List of content items ordered by page, with multiple items per page
-            when headers are detected.
+            Lista de itens de conteúdo ordenados por página, com múltiplos itens por página
+            quando cabeçalhos são detectados.
         """
         content_items = []
         section_parser = SectionParser()
@@ -252,20 +269,19 @@ class Preprocessor:
 
         return content_items
 
-    def _process_with_page_fallback(
-        self, pdf_key: str, pages_data: list[dict]
-    ) -> list[dict]:
-        """Process pages with page-number-only sections (for analise_conjuntural).
+    def _process_with_page_fallback(self, pdf_key: str, pages_data: list[dict]) -> list[dict]:
+        """
+        Processa as páginas usando apenas números de página como seções.
 
-        Documents without true section hierarchy use page numbers as pseudo-sections.
-        This preserves document structure for retrieval without inferring sections.
+        Documentos sem hierarquia de seções verdadeira usam números de página como pseudo-seções, 
+        preservando a estrutura do documento para recuperação sem inferir seções.
 
         Args:
-            pdf_key: Document identifier.
-            pages_data: List of page dicts with page_number and text.
+            pdf_key: Identificador do documento.
+            pages_data: Lista de dicionários de páginas com page_number e text.
 
         Returns:
-            List of content items with page-based sections.
+            Lista de itens de conteúdo com seções baseadas em páginas.
         """
         content_items = []
 
@@ -296,22 +312,21 @@ class Preprocessor:
 
         return content_items
 
-    def _merge_content_and_tables(
-        self, text_items: list[dict], table_items: list[dict]
-    ) -> list[dict]:
-        """Merge text and table items maintaining page order.
+    def _merge_content_and_tables(self, text_items: list[dict], table_items: list[dict]) -> list[dict]:
+        """
+        Mescla itens de texto e tabela mantendo a ordem das páginas.
 
-        Combines text and table content into a single ordered array,
-        then sorts by page number. Within each page, text appears before
-        tables. Fills in section information for tables based on active
-        sections at their page or nearest preceding page with sections.
+        Combina o conteúdo de texto e tabela em um único array ordenado, depois ordena 
+        por número de página. Dentro de cada página, o texto aparece antes das tabelas. 
+        Preenche as informações de seção para as tabelas com base nas seções ativas em sua 
+        página ou na página precedente mais próxima com seções.
 
         Args:
-            text_items: List of text content items.
-            table_items: List of table content items (with empty sections).
+            text_items: Lista de itens de conteúdo de texto.
+            table_items: Lista de itens de conteúdo de tabela (com seções vazias).
 
         Returns:
-            Merged and sorted list of content items.
+            Lista mesclada e ordenada de itens de conteúdo.
         """
         all_items = text_items + table_items
         all_items.sort(key=lambda x: (x.get("page", 0), x.get("type") == "table"))
@@ -339,13 +354,14 @@ class Preprocessor:
         return all_items
 
     def _get_document_description(self, pdf_key: str) -> str:
-        """Get human-readable description for a document.
+        """
+        Pega uma descrição legível para um documento com base em seu `pdf_key`.
 
         Args:
-            pdf_key: Document identifier.
+            pdf_key: Identificador do documento.
 
         Returns:
-            Description string.
+            String de descrição.
         """
         descriptions = {
             "desenvolvimento_paranaense": "Desenvolvimento Paranaense - Análise socioeconômica do Estado",
@@ -355,14 +371,17 @@ class Preprocessor:
         return descriptions.get(pdf_key, pdf_key)
 
     def _get_timestamp(self) -> str:
-        """Return current timestamp in ISO format."""
+        """
+        Retorna o timestamp atual em formato ISO.
+        """
         return datetime.now().isoformat()
 
     def _log_processing_summary(self, result: ProcessResult) -> None:
-        """Log summary statistics after processing a document.
+        """
+        Registra estatísticas resumidas após processar um documento.
 
         Args:
-            result: Processing result object.
+            result: Objeto de resultado do processamento.
         """
         fallback_note = " (página fallback)" if result.used_page_fallback else ""
         self.logger.info(

@@ -1,3 +1,9 @@
+"""
+Módulo responsável por processar as tabelas extraídas dos PDFs. 
+Lê os arquivos markdown e JSON gerados pelo extrator, extrai metadados, 
+e salva as tabelas processadas com conteúdo limpo e metadados em formato JSON.
+"""
+
 import json
 from dataclasses import dataclass
 from pathlib import Path
@@ -10,7 +16,9 @@ from .text_cleaner import TextCleaner
 
 @dataclass
 class ProcessedTable:
-    """Represents a processed table with content and metadata."""
+    """
+    Representa uma tabela processada com conteúdo e metadados.
+    """
 
     table_index: int
     page_number: int | None
@@ -20,14 +28,20 @@ class ProcessedTable:
 
 
 class TableProcessor:
-    """Process extracted tables and prepare them for RAG pipeline.
+    """
+    Processa as tabelas extraídas e prepara para o pipeline RAG.
 
-    Reads markdown and JSON files from extracted directory, extracts
-    metadata, and saves processed tables with embedded content and
-    metadata in JSON format.
+    Lê os arquivos markdown e JSON do diretório de extração, extrai
+    metadados, e salva as tabelas processadas com conteúdo e metadados
+    embutidos em formato JSON.
 
     Args:
-        config: Table processing configuration.
+        config: Configuração de processamento de tabelas.
+
+    Métodos:
+        load_tables_for_document: Carrega tabelas de um documento como itens de conteúdo.
+        process_document_tables: Processa todas as tabelas de um documento.
+        save_processed_tables: Salva as tabelas processadas em arquivos JSON.
     """
 
     def __init__(self, config: Optional[TableProcessingConfig] = None):
@@ -35,21 +49,20 @@ class TableProcessor:
         self.cleaner = TextCleaner(CleaningConfig())
         self.logger = setup_logger(__name__)
 
-    def load_tables_for_document(
-        self, pdf_key: str, extracted_dir: Path
-    ) -> list[dict]:
-        """Load tables for a document as content items ready for insertion.
+    def load_tables_for_document(self, pdf_key: str, extracted_dir: Path) -> list[dict]:
+        """
+        Carrega as tabelas de um documento como itens de conteúdo prontos para inserção.
 
-        Returns a list of dicts in the format expected by the preprocessor's
-        content array. The sections field is left empty and will be filled
-        by the preprocessor based on active sections at the table's page.
+        Retorna uma lista de dicionários no formato esperado pelo array de conteúdo do pré-processador. 
+        O campo de seções é deixado vazio e será preenchido pelo pré-processador com base nas seções 
+        ativas na página da tabela.
 
         Args:
-            pdf_key: Document identifier.
-            extracted_dir: Root directory containing extracted data.
+            pdf_key: Identificador do documento.
+            extracted_dir: Diretório raiz contendo os dados extraídos.
 
         Returns:
-            List of content items with type='table'.
+            Lista de itens de conteúdo com type='table'.
         """
         tables_src = extracted_dir / pdf_key / "tables"
         if not tables_src.exists():
@@ -80,18 +93,17 @@ class TableProcessor:
 
         return content_items
 
-    def _table_info_to_content_item(
-        self, pdf_key: str, tables_dir: Path, table_info: dict
-    ) -> dict | None:
-        """Convert table info to a content item for the unified content array.
+    def _table_info_to_content_item(self, pdf_key: str, tables_dir: Path, table_info: dict) -> dict | None:
+        """
+        Converte as informações da tabela em um item de conteúdo para o array unificado.
 
         Args:
-            pdf_key: Document identifier.
-            tables_dir: Directory containing table files.
-            table_info: Metadata from tables_index.json.
+            pdf_key: Identificador do documento.
+            tables_dir: Diretório contendo os arquivos de tabela.
+            table_info: Metadados do tables_index.json.
 
         Returns:
-            Content item dict or None if conversion fails.
+            Dicionário do item de conteúdo ou None se a conversão falhar.
         """
         table_index = table_info.get("table_index")
         if table_index is None:
@@ -116,18 +128,17 @@ class TableProcessor:
             "content": content,
         }
 
-    def process_document_tables(
-        self, pdf_key: str, extracted_dir: Path, processed_dir: Path
-    ) -> List[ProcessedTable]:
-        """Process all tables for a single document.
+    def process_document_tables(self, pdf_key: str, extracted_dir: Path, processed_dir: Path) -> List[ProcessedTable]:
+        """
+        Processa todas as tabelas de um documento.
 
         Args:
-            pdf_key: Document identifier.
-            extracted_dir: Root directory containing extracted data.
-            processed_dir: Root directory for processed outputs.
+            pdf_key: Identificador do documento.
+            extracted_dir: Diretório raiz contendo os dados extraídos.
+            processed_dir: Diretório raiz para os outputs processados.
 
         Returns:
-            List of ProcessedTable objects.
+            Lista de objetos ProcessedTable.
         """
         tables_src = extracted_dir / pdf_key / "tables"
         if not tables_src.exists():
@@ -170,18 +181,17 @@ class TableProcessor:
 
         return tables_list
 
-    def _process_single_table(
-        self, pdf_key: str, tables_dir: Path, table_info: dict
-    ) -> ProcessedTable | None:
-        """Process a single table from extracted files.
+    def _process_single_table(self, pdf_key: str, tables_dir: Path, table_info: dict) -> ProcessedTable | None:
+        """
+        Processa uma única tabela a partir dos arquivos extraídos.
 
         Args:
-            pdf_key: Document identifier.
-            tables_dir: Directory containing table files.
-            table_info: Metadata from tables_index.json.
+            pdf_key: Identificador do documento.
+            tables_dir: Diretório contendo os arquivos de tabela.
+            table_info: Metadados do tables_index.json.
 
         Returns:
-            ProcessedTable or None if extraction fails.
+            ProcessedTable ou None se a extração falhar.
         """
         table_index = table_info.get("table_index")
         if table_index is None:
@@ -216,23 +226,18 @@ class TableProcessor:
             document=pdf_key,
         )
 
-    def save_processed_tables(
-        self,
-        pdf_key: str,
-        tables: List[ProcessedTable],
-        extracted_dir: Path,
-        processed_dir: Path,
-    ) -> None:
-        """Save processed tables to JSON files in processed directory.
+    def save_processed_tables(self, pdf_key: str, tables: List[ProcessedTable], extracted_dir: Path, processed_dir: Path) -> None:
+        """
+        Salva as tabelas processadas em arquivos JSON no diretório de processados.
 
-        Creates processed/[pdf_key]/tables/ with individual JSON files
-        containing table content and metadata.
+        Cria processed/[pdf_key]/tables/ com arquivos JSON 
+        individuais contendo o conteúdo da tabela e metadados.
 
         Args:
-            pdf_key: Document identifier.
-            tables: List of ProcessedTable objects.
-            extracted_dir: Root directory containing extracted data.
-            processed_dir: Root directory for processed outputs.
+            pdf_key: Identificador do documento.
+            tables: Lista de objetos ProcessedTable.
+            extracted_dir: Diretório raiz contendo os dados extraídos.
+            processed_dir: Diretório raiz para os outputs processados.
         """
         if not tables:
             return

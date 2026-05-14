@@ -1,5 +1,6 @@
-#!/usr/bin/env python3
-"""Script principal para pré-processamento de documentos PDF extraídos."""
+"""
+Script principal para pré-processamento de documentos PDF extraídos.
+"""
 
 import sys
 from pathlib import Path
@@ -12,10 +13,11 @@ from src.preprocessing.preprocessor import Preprocessor
 
 
 def main() -> int:
-	"""Execute the preprocessing pipeline for all extracted documents.
+	"""
+	Executa o pipeline de pré-processamento para todos os documentos extraídos.
 
-	Returns:
-		Exit code 0 on success.
+	Retorna:
+		Código de saída 0 em caso de sucesso.
 	"""
 	logger = setup_logger(__name__, log_file=get_timestamped_logfile("preprocess"))
 	config = PreprocessingConfig()
