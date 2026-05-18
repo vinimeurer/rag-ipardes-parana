@@ -177,6 +177,7 @@ class TextCleaner:
 
     def _normalize_whitespace(self, text: str) -> str:
         """Colapsa múltiplos espaços em um único espaço."""
+        text = text.replace('\xa0', ' ')
         text = self._MULTI_SPACE_RE.sub(" ", text)
         lines = [line.rstrip() for line in text.splitlines()]
         return "\n".join(lines)

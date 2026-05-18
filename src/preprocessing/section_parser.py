@@ -20,6 +20,7 @@ class SectionParser:
     _HEADER_RE = re.compile(r"^(#+)\s+(.+)$")
 
     _NUMERIC_RE = re.compile(r"^(\d+(?:\.\d+)*\.?)\s+")
+    _PAREN_NUMERIC_SEQUENCE_RE = re.compile(r"^(?:\(\s*[-+]?\d[\d.,]*\s*\)\s*){2,}$")
 
     def __init__(self):
         self._sections = []
@@ -58,7 +59,11 @@ class SectionParser:
             return False
 
         markdown_level = len(match.group(1))
-        title = match.group(2).strip()
+        title = self._normalize_title(match.group(2))
+
+        if self._looks_like_formula(title):
+            return False
+
         level = self._infer_level(title, markdown_level)
 
         while self._sections and self._sections[-1][0] >= level:
@@ -73,3 +78,24 @@ class SectionParser:
 
     def reset(self):
         self._sections = []
+
+    def _normalize_title(self, title: str) -> str:
+        """Normaliza espaçamento do título antes de decidir se é seção válida."""
+        return re.sub(r"\s+", " ", title.replace("\xa0", " ")).strip()
+
+    def _looks_like_formula(self, title: str) -> bool:
+        """Rejeita títulos que parecem fórmulas ou saídas algébricas."""
+        if not title:
+            return True
+
+        if "=" in title:
+            return True
+
+        if self._PAREN_NUMERIC_SEQUENCE_RE.match(title):
+            return True
+
+        if any(op in title for op in ("+", "-", "*", "/", "×", "÷")):
+            if re.search(r"\d", title) and "(" in title and ")" in title:
+                return True
+
+        return False

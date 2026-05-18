@@ -14,6 +14,7 @@ from typing import Optional
 
 from ..core.logger import setup_logger
 from ..core.preprocessing_config import PreprocessingConfig
+from ..core.constants import PDF_SOURCES
 from .content_filter import ContentFilter
 from .section_parser import SectionParser
 from .table_processor import TableProcessor
@@ -65,7 +66,7 @@ class Preprocessor:
         self.out_dir = Path(self.config.paths.processed_dir)
         self.cleaner = TextCleaner(self.config.cleaning)
         self.table_processor = TableProcessor()
-        self.content_filter = ContentFilter()
+        self.content_filter = ContentFilter(self.config.content_filter)
         self.logger = setup_logger(__name__)
 
     def run_document(self, pdf_key: str) -> ProcessResult:
@@ -370,12 +371,7 @@ class Preprocessor:
         Returns:
             String de descrição.
         """
-        descriptions = {
-            "desenvolvimento_paranaense": "Desenvolvimento Paranaense - Análise socioeconômica do Estado",
-            "analise_conjuntural": "Análise Conjuntural - Julho/Agosto 2025",
-            "avaliacoes_politicas": "Avaliações Políticas Públicas Brasil",
-        }
-        return descriptions.get(pdf_key, pdf_key)
+        return PDF_SOURCES.get(pdf_key, {}).get("description", pdf_key)
 
     def _get_timestamp(self) -> str:
         """

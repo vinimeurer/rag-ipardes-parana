@@ -9,17 +9,21 @@ import re
 from typing import Optional
 
 from ..core.logger import setup_logger
+from ..core.preprocessing_config import ContentFilterConfig, PreprocessingConfig
+from ..core.constants import PDF_SOURCES
 
 
-SKIP_UNTIL_PAGE = {
-    "desenvolvimento_paranaense": 5,
-    "analise_conjuntural": 3,
-    "avaliacoes_politicas": 4,
-}
-
-SUMMARY_SECTIONS = {"SUMÁRIO", "SUMARIO", "SUMARIO EXECUTIVO", "ÍNDICE"}
-REFERENCES_SECTIONS = {"REFERÊNCIAS", "REFERENCIAS", "BIBLIOGRAPHY", "REFERÊNCIAS BIBLIOGRÁFICAS"}
-AUXILIARY_SECTIONS = {"LISTA DE SIGLAS", "SIGLAS", "ABREVIAÇÕES"}
+def get_skip_until_page(pdf_key: str) -> int:
+    """
+    Obtém o número de página até a qual pular para um documento.
+    
+    Args:
+        pdf_key: Identificador do documento.
+    
+    Returns:
+        Número de páginas a pular (0 se não configurado).
+    """
+    return PDF_SOURCES.get(pdf_key, {}).get("skip_until_page", 0)
 
 
 class ContentFilter:
@@ -28,9 +32,13 @@ class ContentFilter:
 
     Aplica filtros sequenciais apenas em itens de tipo 'text', deixando
     tabelas intactas. Marca itens auxiliares para diferenciação posterior.
+    
+    Args:
+        config: Configuração de filtro opcional. Se omitida, usa a configuração padrão.
     """
 
-    def __init__(self):
+    def __init__(self, config: Optional[ContentFilterConfig] = None):
+        self.config = config or ContentFilterConfig()
         self.logger = setup_logger(__name__)
 
     def filter(self, content_items: list[dict], pdf_key: str) -> list[dict]:
@@ -50,6 +58,7 @@ class ContentFilter:
         """
         original_count = len(content_items)
         items_before_filter = content_items.copy()
+        skip_until_page = get_skip_until_page(pdf_key)
 
         filtered = []
         counts = {
@@ -57,6 +66,8 @@ class ContentFilter:
             "institutional_pages": 0,
             "sumario": 0,
             "referencias": 0,
+            "orphan_references": 0,
+            "short_captions": 0,
             "auxiliary_marked": 0,
         }
 
@@ -64,7 +75,7 @@ class ContentFilter:
             if item.get("type") != "text":
                 if item.get("type") == "table":
                     page = item.get("page", 0)
-                    if page > SKIP_UNTIL_PAGE.get(pdf_key, 0):
+                    if page > skip_until_page:
                         filtered.append(item)
                     else:
                         counts["institutional_pages"] += 1
@@ -77,7 +88,7 @@ class ContentFilter:
                 continue
 
             page = item.get("page", 0)
-            if page <= SKIP_UNTIL_PAGE.get(pdf_key, 0):
+            if page <= skip_until_page:
                 counts["institutional_pages"] += 1
                 continue
 
@@ -87,6 +98,14 @@ class ContentFilter:
 
             if self._is_reference(item):
                 counts["referencias"] += 1
+                continue
+
+            if self._is_orphan_reference(item):
+                counts["orphan_references"] += 1
+                continue
+
+            if self._is_short_caption(item):
+                counts["short_captions"] += 1
                 continue
 
             item = self._mark_auxiliary(item)
@@ -99,7 +118,7 @@ class ContentFilter:
 
         self.logger.debug(
             "[%s] Filtrage concluída: %d → %d itens | "
-            "header_only=%d | institutional=%d | sumario=%d | referencias=%d | auxiliary_marked=%d",
+            "header_only=%d | institutional=%d | sumario=%d | referencias=%d | orphan_references=%d | short_captions=%d | auxiliary_marked=%d",
             pdf_key,
             original_count,
             len(filtered),
@@ -107,6 +126,8 @@ class ContentFilter:
             counts["institutional_pages"],
             counts["sumario"],
             counts["referencias"],
+            counts["orphan_references"],
+            counts["short_captions"],
             counts["auxiliary_marked"],
         )
 
@@ -135,7 +156,7 @@ class ContentFilter:
         Returns:
             True se qualquer seção corresponder a um termo de sumário.
         """
-        return any(s.strip().upper() in SUMMARY_SECTIONS for s in item.get("sections", []))
+        return any(s.strip().upper() in self.config.summary_sections for s in item.get("sections", []))
 
     def _is_reference(self, item: dict) -> bool:
         """
@@ -147,7 +168,50 @@ class ContentFilter:
         Returns:
             True se qualquer seção corresponder a um termo de referências.
         """
-        return any(s.strip().upper() in REFERENCES_SECTIONS for s in item.get("sections", []))
+        return any(s.strip().upper() in self.config.references_sections for s in item.get("sections", []))
+
+    def _is_orphan_reference(self, item: dict) -> bool:
+        """
+        Verifica se um item curto é apenas uma referência solta a gráfico, figura,
+        quadro ou tabela sem corpo de dados associado.
+
+        Esses blocos costumam ser títulos extraídos de imagens/tabelas e não
+        contêm informação suficiente para responder perguntas.
+        """
+        content = item.get("content", "").strip()
+        if not content:
+            return False
+
+        token_count = len(content.split())
+        if token_count >= 30:
+            return False
+
+        first_line = content.lstrip().splitlines()[0].strip().upper()
+        if not first_line.startswith(self.config.orphan_reference_prefixes):
+            return False
+
+        if self._has_table_body(content):
+            return False
+
+        return True
+
+    def _has_table_body(self, content: str) -> bool:
+        """Detecta se o conteúdo já contém linhas de tabela Markdown."""
+        return any(line.lstrip().startswith("|") for line in content.splitlines())
+
+    def _is_short_caption(self, item: dict) -> bool:
+        """
+        Verifica se um item é um caption muito curto (10-50 tokens).
+
+        Esses itens são legítimos como captions de tabelas, mas geram chunks
+        minúsculos no chunker e não têm valor semântico suficiente por si só.
+        """
+        content = item.get("content", "").strip()
+        if not content:
+            return False
+
+        token_count = len(content.split())
+        return self.config.short_caption_min_tokens <= token_count <= self.config.short_caption_max_tokens
 
     def _mark_auxiliary(self, item: dict) -> dict:
         """
@@ -159,6 +223,6 @@ class ContentFilter:
         Returns:
             Item com campo 'is_auxiliary' definido se aplicável.
         """
-        if any(s.strip().upper() in AUXILIARY_SECTIONS for s in item.get("sections", [])):
+        if any(s.strip().upper() in self.config.auxiliary_sections for s in item.get("sections", [])):
             item["is_auxiliary"] = True
         return item
