@@ -3,26 +3,75 @@
 ```
 rag-ipardes-parana/
 │
-├── README.md                           # Visão geral + execução rápida
-├── requirements.txt                    # Dependências Python
-├── pyproject.toml                      # Configuração do projeto
-├── .env.example                        # Variáveis de ambiente
-├── Makefile                            # Comandos utilitários
-├── .gitignore
+├── data/
+│   ├── raw/                            # PDFs originais (descartáveis)
+│   │   ├── desenvolvimento_paranaense.pdf
+│   │   ├── analise_conjuntural.pdf
+│   │   └── avaliacoes_politicas.pdf
+│   │
+│   ├── extracted/                                   # Artefatos de extração por documento (texto, markdown, tabelas)
+│   │   ├── desenvolvimento_paranaense/
+│   │   │   ├── desenvolvimento_paranaense.txt       # Texto plano limpo sem tabelas
+│   │   │   ├── desenvolvimento_paranaense.md        # Markdown com estrutura hierárquica
+│   │   │   ├── desenvolvimento_paranaense.json      # Metadados + páginas
+│   │   │   └── tables/                              # Tabelas extraídas com semântica matricial
+│   │   │       ├── tables_index.json                # Índice de todas as tabelas
+│   │   │       ├── table_000.md                     # Cada tabela em Markdown para embedding
+│   │   │       ├── table_000.json                   # Cada tabela em JSON estruturado
+│   │   │       └── ... (table_001, table_002, etc)
+│   │   ├── analise_conjuntural/
+│   │   │   ├── analise_conjuntural.txt
+│   │   │   ├── analise_conjuntural.md
+│   │   │   ├── analise_conjuntural.json
+│   │   │   └── tables/
+│   │   └── avaliacoes_politicas/
+│   │       ├── avaliacoes_politicas.txt
+│   │       ├── avaliacoes_politicas.md
+│   │       ├── avaliacoes_politicas.json
+│   │       └── tables/
+│   │
+│   ├── processed/                      # Texto após limpeza/normalização (JSON)
+│   │   ├── desenvolvimento_paranaense.json
+│   │   ├── analise_conjuntural.json
+│   │   └── avaliacoes_politicas.json
+│   │
+│   ├── chunks/                         # Chunks finais com metadados
+│   │   ├── chunks.json
+│   │   └── chunks_manifest.json        # Qual chunker? qual chunk_size? quando?
+│   │
+│   ├── embeddings/                     # Vetores + metadata
+│   │   ├── embeddings.npy
+│   │   └── embeddings_manifest.json    # Qual modelo? qual tamanho? quando?
+│   │
+│   └── vector_db/                      # Índice persistido
+│       ├── faiss.index
+│       └── faiss_manifest.json         # Versão FAISS, timestamp, dim
 │
 ├── src/
 │   ├── core/
-│   │   ├── config.py                   # Configurações globais
-│   │   ├── logger.py                   # Sistema de logging centralizado
-│   │   └── utils.py                    # Helpers genéricos
-│   │
-│   ├── ingestion/
-│   │   ├── pdf_extractor.py            # Extração de PDFs
+│   │   ├── constants.py                 # Paths, PDF sources, configurações globais do projeto
+│   │   ├── ingestion_config.py          # Configuração centralizada do pipeline de ingestão
+│   │   ├── preprocessing_config.py      # Configuração centralizada do pipeline de preprocessamento
+│   │   ├── logger.py                    # Sistema de logging centralizado com suporte a arquivo
 │   │   └── __init__.py
 │   │
-│   ├── preprocessing/
-│   │   ├── cleaner.py                  # Limpeza de texto
-│   │   ├── normalizer.py               # Normalização linguística
+│   ├── ingestion/                       # Pipeline de extração de PDFs com Docling + tratamento de tabelas
+│   │   ├── ingestion_pipeline.py        # Orquestrador: executa extração + serialização para cada PDF
+│   │   ├── pdf_extractor.py             # Extrator CPU-only usando Docling (sem GPU, sem APIs externas)
+│   │   ├── table_extractor.py           # Extração dedicada de tabelas em formato matricial e Markdown
+│   │   ├── serializer.py                # Persiste artefatos em múltiplos formatos (txt, md, json + tables/)
+│   │   └── __init__.py
+│   │
+│   ├── preprocessing/                   # Limpeza, normalização e processamento de conteúdo extraído
+│   │   ├── preprocessor.py              # Orquestrador: converte markdown extraído → JSON processado
+│   │   ├── text_cleaner.py              # Limpeza Unicode, remoção de artefatos, normalização de espaços
+│   │   ├── section_parser.py            # Detector de hierarquia de seções via prefixo numérico (ex: 3.1.2)
+│   │   ├── page_parser.py               # Parser de páginas delimitadas por tags <!-- PAGE: X -->
+│   │   ├── content_processor.py         # Estratégias de processamento: detecção de seções vs fallback por página
+│   │   ├── content_filter.py            # Filtros progressivos: headers-only, institucionais, sumários, refs
+│   │   ├── content_merger.py            # Mescla e ordenação de itens de texto e tabelas por página
+│   │   ├── table_processor.py           # Processamento de tabelas: carregamento, limpeza, serialização
+│   │   ├── preprocessor_utils.py        # Utilitários: build_metadata, logging de resumos, ProcessResult
 │   │   └── __init__.py
 │   │
 │   ├── vectorization/
@@ -66,34 +115,6 @@ rag-ipardes-parana/
 │   ├── pipeline.py                     # Orquestração completa (RAG)
 │   └── __init__.py
 │
-├── data/
-│   ├── raw/                            # PDFs originais (descartáveis)
-│   │   ├── desenvolvimento_paranaense.pdf
-│   │   ├── analise_conjuntural.pdf
-│   │   └── avaliacoes_politicas.pdf
-│   │
-│   ├── extracted/                      # Texto BRUTO do PDF (JSON)
-│   │   ├── desenvolvimento_paranaense.json
-│   │   ├── analise_conjuntural.json
-│   │   └── avaliacoes_politicas.json
-│   │
-│   ├── processed/                      # Texto após limpeza/normalização (JSON)
-│   │   ├── desenvolvimento_paranaense.json
-│   │   ├── analise_conjuntural.json
-│   │   └── avaliacoes_politicas.json
-│   │
-│   ├── chunks/                         # Chunks finais com metadados
-│   │   ├── chunks.json
-│   │   └── chunks_manifest.json        # Qual chunker? qual chunk_size? quando?
-│   │
-│   ├── embeddings/                     # Vetores + metadata
-│   │   ├── embeddings.npy
-│   │   └── embeddings_manifest.json    # Qual modelo? qual tamanho? quando?
-│   │
-│   └── vector_db/                      # Índice persistido
-│       ├── faiss.index
-│       └── faiss_manifest.json         # Versão FAISS, timestamp, dim
-│
 ├── outputs/
 │   ├── prompts/                        # Prompt final de cada query
 │   │   └── query_YYYYMMDD_HHMMSS.json
@@ -116,25 +137,10 @@ rag-ipardes-parana/
 │       └── mistral-7b-instruct-q4.gguf  # Quantizado para rodar local
 │
 ├── logs/                               # Logs de execução estruturados
-│   ├── ingest_YYYYMMDD_HHMMSS.log
-│   ├── api_YYYYMMDD_HHMMSS.log
-│   └── evaluation_YYYYMMDD_HHMMSS.log
 │
 ├── scripts/
-│   ├── setup.py                        # Download/preparação inicial
-│   ├── ingest.py                       # Orquestração: PDF → chunks → index
-│   ├── run_api.py                      # Inicialização da API
-│   ├── evaluate.py                     # Runner de avaliação com métricas
-│   └── debug_retrieval.py              # CLI para debugar retrieval
-│
-├── notebooks/
-│   ├── 01_eda.ipynb                    # Exploração dos PDFs
-│   ├── 02_chunking_analysis.ipynb      # Análise de chunks
-│   └── 03_retrieval_debug.ipynb        # Debugging de retrieval
-│
-├── configs/
-│   ├── config.yaml                     # Parâmetros do RAG (chunk_size, top_k, etc)
-│   └── prompts.yaml                    # Templates de prompt
+│   ├── ingest.py                       # Pipeline de ingestão: PDF → Docling → extração + serialização em data/extracted
+│   └── preprocess.py                   # Pipeline de pré-processamento: markdown → JSON processado em data/processed
 │
 ├── docker/
 │   ├── Dockerfile
@@ -147,9 +153,14 @@ rag-ipardes-parana/
 │   ├── EVALUATION.md                   # Estratégia de métricas
 │   └── DECISIONS.md                    # Justificativas de cada escolha
 │
+├── README.md                           # Visão geral + execução rápida
+├── requirements.txt                    # Dependências Python
+├── pyproject.toml                      # Configuração do projeto
+├── .env.example                        # Variáveis de ambiente
+├── Makefile                            # Comandos utilitários
+├── .gitignore
 └── .gitkeep                            # Placeholder para pastas vazias
 ```
-
 
 ## limpar cache
 
