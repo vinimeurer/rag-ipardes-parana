@@ -13,7 +13,6 @@ DATA_DIR = PROJECT_ROOT / "data"
 MODELS_DIR = PROJECT_ROOT / "models"
 OUTPUTS_DIR = PROJECT_ROOT / "outputs"
 LOGS_DIR = PROJECT_ROOT / "logs"
-CONFIGS_DIR = PROJECT_ROOT / "configs"
 SCRIPTS_DIR = PROJECT_ROOT / "scripts"
 DOCS_DIR = PROJECT_ROOT / "docs"
 
@@ -143,7 +142,6 @@ def create_directories():
         RESPONSES_OUTPUT_DIR,
         EVALUATIONS_OUTPUT_DIR,
         LOGS_DIR,
-        CONFIGS_DIR,
         SCRIPTS_DIR,
     ]
     for directory in dirs:
