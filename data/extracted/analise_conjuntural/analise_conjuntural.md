@@ -1,0 +1,429 @@
+<!-- PAGE: 1 -->
+
+<!-- PAGE: 2 -->
+
+# GOVERNO DO ESTADO DO PARANÁ
+
+CARLOS MASSA RATINHO JUNIOR - Governador
+
+# VICE-GOVERNADOR
+
+DARCI PIANA
+
+# SECRETARIA DE ESTADO DO PLANEJAMENTO
+
+ULISSES MAIA Secretário
+
+# INSTITUTO PARANAENSE DE DESENVOLVIMENTO ECONÔMICO E SOCIAL
+
+JORGE AUGUSTO CALLADO AFONSO Diretor-Presidente
+
+CAROLINE BATISTA RIBEIRO Diretora Administrativo-Financeira
+
+JULIO TAKESHI SUZUKI JUNIOR Diretor de Pesquisa
+
+MARCELO ANTONIO
+
+Diretor de Estatística
+
+# EQUIPE EDITORIAL
+
+FRANCISCO JOSÉ GOUVEIA DE CASTRO ( editor ) GUILHERME AMORIM THIAGO MAGALHÃES BORGES
+
+# EDITORAÇÃO
+
+MARIA LAURA ZOCOLOTTI (Coordenação Editorial e Diagramação)
+
+Análise Conjuntural / Instituto Paranaense de Desenvolvimento Econômico e Social. - v. 5, n. 1 (Jan. 1983) Curitiba : IPARDES, 1983 - .
+
+Bimestral : 1983. Continuação de : Boletim de Análise Conjuntural / Fundação Instituto Paranaense de Desenvolvimento Econômico e Social, v. 1, n. 1 (1979) - v. 4, n. 12 (1982 / 1983), mensal. - ISSN 0100/7424.
+
+ISSN impresso 0102-0374 ISSN on-line 2764-5096
+
+1. Economia. 2. Condições Econômicas. 3. Desenvolvimento Econômico. 4. Paraná. I. Instituto Paranaense de Desenvolvimento Econômico e Social.
+
+CDU 3 (816.2) (05)
+
+<!-- PAGE: 3 -->
+
+O Instituto Paranaense de Desenvolvimento Econômico e Social (IPARDES) lança o novo número (v.47, n.4) da Análise Conjuntural, periódico bimestral composto por artigos que destacam a descrição, avaliação e previsão dos movimentos de curto prazo da economia paranaense.
+
+Neste fascículo, a Análise Conjuntural tem o foco no crédito e inadimplência de pessoas físicas, no mercado de trabalho paranaense e na frota de veículos elétricos do Paraná, com três artigos que abordam temas de destaque no 4 º bimestre de 2025.
+
+No primeiro artigo, de autoria de Guilherme Amorim, o objetivo é analisar amplamente as condições de crédito para pessoas físicas e as inadimplências de acordo com as modalidades de empréstimos. O segundo, de autoria de Thiago Magalhães Borges, aborda a situação do mercado de trabalho do Estado, com análise pormenorizada dos diversos setores da economia paranaense. O terceiro artigo, também escrito por Thiago Borges, analisa a dinâmica da frota estadual de veículos elétricos, inclusive a infraestrutura existente nos municípios do Paraná, como por exemplo, a existência de eletropostos numa abordagem local.
+
+A seção Economia Paranaense - Indicadores selecionados apresenta um conjunto de tabelas de indicadores econômicos que incorporam questões ligadas ao panorama regional.
+
+A Análise Conjuntural é uma publicação bimestral, composta por artigos organizados por economistas do Departamento de Estudos Econômicos e Ambientais do IPARDES.
+
+Boa leitura!
+
+JORGE AUGUSTO CALLADO AFONSO Diretor-Presidente do IPARDES
+
+<!-- PAGE: 4 -->
+
+* Economista, técnico permanente desta publicação.
+
+Entre junho de 2024 e o mesmo mês de 2025, a carteira de crédito a pessoas físicas cresceu 22,27% no Paraná, em termos reais 1 . Nesse período, a proporção de ativos problemáticos e a quantidade de empréstimos inadimplentes cresceu em todas as faixas de rendimento definidas pelo Banco Central 2 (tabela 1). A extensão da inadimplência cresceu em todas as faixas de rendimentos, se sobressaindo em três delas: aquelas da base da pirâmide (até um salário mínimo e entre um e dois salários) e a do topo (acima de 20 salários mínimos). Houve sensível melhoria no perfil das carteiras em meados de 2024, em relação ao mesmo período dos anos anteriores, mas as condições se deterioraram no ano corrente.
+
+TABELA 1 - CRÉDITO A PESSOA FÍSICA, POR PORTE DOS CLIENTES - JUNHO DE 2022 A JUNHO DE 2025 - PARANÁ
+
+FONTE: Banco Central do Brasil - Sistema de Informações de Créditos
+
+NOTAS: Valores Correntes
+
+Consideradas todas as modalidades, indexadores e origens de recursos.
+
+1 Valores deflacionados pelo Índice de Preços ao Consumidor Amplo - Brasil (IBGE).
+
+2 Serviço de Informações de Crédito (BCB).
+
+<!-- PAGE: 5 -->
+
+Esse processo ocorre em período de pleno emprego no Estado, que registra taxa de desocupação inferior a 5,0% desde o segundo trimestre de 2023, associado ao crescimento ininterrupto da massa real de rendimentos desde o primeiro trimestre de 2023 3 .
+
+O exame dos ativos problemáticos por modalidade de crédito revela que a categoria denominada Outros Créditos reúne os pagamentos mais incertos (tabela 2). Essa classe inclui o crédito rotativo vinculado a uma conta de depósitos, popularmente conhecido como cheque especial.
+
+TABELA 2 - CRÉDITO A PESSOAS FÍSICAS, POR MODALIDADE E PORTE DOS CLIENTES - PARANÁ - JUN 2025
+
+FONTE: Banco Central do Brasil - Sistema de Informações de Crédito
+
+NOTAS: Valores Correntes.
+
+Considerados todos os indexadores e origens de recursos.
+
+A modalidade reúne a maior parte dos ativos problemáticos e da inadimplência, tanto na faixa de renda mais elevada quanto nas mais baixas. Chama a atenção não apenas o fato de que essa e outras modalidades de contratação facilitada - como cartões de crédito e empréstimos sem consignação possuam ativos problemáticos acima da média histórica, mas que financiamentos habitacionais também exibam créditos duvidosos em patamares incomumente altos. Convém lembrar que a maior parte desses contratos utiliza o sistema de amortização constante, onde o valor das parcelas decresce ao longo do tempo.
+
+3 IBGE - Diretoria de Pesquisas, Coordenação de Trabalho e Rendimento - Pesquisa Nacional por Amostra de Domicílios Contínua -Divulgação Trimestral.
+
+<!-- PAGE: 6 -->
+
+Desse modo, é possível que o comprometimento da renda doméstica em múltiplas modalidades de dívida esteja a minar a adimplência de financiamentos habitacionais, historicamente pouco problemáticos. Também tem concorrido para a fragilização do perfil das carteiras de pessoas físicas a inflação 4 , em patamar bastante acima da meta de 3,0% estipulada pelo Conselho Monetário Nacional.
+
+Dentre os clientes do sistema financeiro, aqueles com rendimento até um salário mínimo apresentam os piores indicadores de adimplência. Nos doze meses terminados em junho, a proporção de ativos problemáticos aumentou de 7,63% para 11,84% da carteira, enquanto a inadimplência variou de 4,36% para 7,03%. Quando se cruzam as informações dos contratantes dessa faixa de renda por ocupação e modalidade de dívida assumida (tabela 3), se percebe que a piora nas condições de pagamento não possui características uniformes.
+
+TABELA 3 - CRÉDITO A PESSOAS FÍSICAS COM RENDIMENTO ATÉ UM SALÁRIO MÍNIMO, POR OCUPAÇÃO E MODALIDADE PARANÁ - JUN 2025
+
+continua
+
+4 Nos doze m eses terminados em junho de 2025, o Índice de Preços ao Consumidor Amplo (IPCA-IBGE) alcançou 5,35%.
+
+<!-- PAGE: 7 -->
+
+TABELA 3 - CRÉDITO A PESSOAS FÍSICAS COM RENDIMENTO ATÉ UM SALÁRIO MÍNIMO, POR OCUPAÇÃO E MODALIDADE PARANÁ - JUN 2025
+
+FONTE: Banco Central do Brasil - Sistema de Informações de Créditos
+
+NOTAS: Valores Correntes.
+
+Considerados todos os indexadores e origens de recursos.
+
+Outrora considerada a modalidade com o maior risco de desconformidade, o cartão de crédito passou a responder pela segunda maior taxa de inadimplência. As alterações nas regras de financiamento do saldo devedor, popularmente conhecido como crédito rotativo, pelo Conselho Monetário Nacional em 2024 são parcialmente responsáveis por essa mudança no perfil de endividamento. A imposição de um teto ao montante cobrado a título de juros, correspondente a 100% do valor original da dívida, restringiu a escalada de obrigações deterioradas nessa modalidade. Convém lembrar que o CMN também limitou a utilização do rotativo a 30 dias, prazo após o qual o saldo deve ser transferido para linha de crédito com taxas de juros inferiores. O cartão de crédito ainda é fator de descontrole nos orçamentos domésticos, associado, principalmente, ao acúmulo de parcelamentos.
+
+Quando é analisada a situação dos financiamentos concedidos às pessoas com rendimento entre um e dois salários mínimos, se percebem condições menos agudas de inadimplência, mas mesmo assim insustentáveis. Se sobressaem as condições dos financiamentos de veículos, com alta inadimplência mesmo entre aposentados ou pensionistas (5,62%) e entre servidores ou empregados públicos (5,29%), tipicamente contratantes com elevada previsibilidade de rendimentos (tabela 4). Uma vez que a inconstância no recebimento de recursos é praticamente nula para esses dois grupos de tomadores, a modalidade com maior participação dentre suas carteiras é o empréstimo com consignação em folha. Por isso mesmo, merece atenção o volume de ativos problemáticos que essa linha de financiamento registra entre esses clientes. Os créditos de questionável recebimento respondem por 2,85% da carteira de empréstimos com consignação de aposentados ou pensionistas e por 6,42% da carteira dos servidores ou empregados públicos.
+
+<!-- PAGE: 8 -->
+
+TABELA 4 - CRÉDITO A PESSOAS FÍSICAS COM RENDIMENTO ENTRE UM E DOIS SALÁRIOS MÍNIMOS, POR OCUPAÇÃO E MODALIDADE - PARANÁ - JUN 2025
+
+<!-- PAGE: 9 -->
+
+TABELA 4 - CRÉDITO A PESSOAS FÍSICAS COM RENDIMENTO ENTRE UM E DOIS SALÁRIOS MÍNIMOS, POR OCUPAÇÃO E MODALIDADE - PARANÁ - JUN 2025
+
+(conclusão)
+
+FONTE: Banco Central do Brasil - Sistema de Informações de Créditos
+
+NOTAS: Valores Correntes.
+
+Considerados todos os indexadores e origens de recursos.
+
+Também se destaca nesse recorte de renda, independentemente da ocupação, os embaraços na administração de cartões de crédito. Os ativos problemáticos têm participação entre 13,31% e 20,94% da carteira e a inadimplência supera 11,00% nos recursos concedidos a profissionais autônomos, empregados de empresas privadas e microempreendedores individuais.
+
+O uso de cartões de crédito como fonte de capital de giro pelos microempreendedores e os riscos associados a essa prática são percebidos, outrossim, na maior faixa de rendimento, aquela acima de vinte salários mínimos. Em que pese a carteira associada à ocupação nesse escalão ser menos volumosa, as proporções de ativos problemáticos (7,83%) e inadimplência (5,57%) destoam dos demais grupos (tabela 5).
+
+<!-- PAGE: 10 -->
+
+TABELA 5 - CRÉDITO A PESSOAS FÍSICAS COM RENDIMENTO ACIMA DE VINTE SALÁRIOS MÍNIMOS, POR OCUPAÇÃO E MODALIDADE - PARANÁ - JUN 2025
+
+(continua)
+
+<!-- PAGE: 11 -->
+
+TABELA 5 - CRÉDITO A PESSOAS FÍSICAS COM RENDIMENTO ACIMA DE VINTE SALÁRIOS MÍNIMOS, POR OCUPAÇÃO E MODALIDADE - PARANÁ - JUN 2025
+
+FONTE: Banco Central do Brasil - Sistema de Informações de Créditos
+
+NOTAS: Valores Correntes.
+
+Considerados todos os indexadores e origens de recursos.
+
+A inconsistência dos financiamentos assumidos pelos tomadores com mais alta renda é mais grave no chamado cheque especial. A modalidade outros créditos , que o engloba, apresenta entre 16,09% e 23,14% de ativos questionáveis. Ainda que os perfis com maior fragilidade sejam, no caso, os de autônomos (22,62%) e profissionais de empresas privadas (23,14%), a maior vulnerabilidade está associada aos empresários, maiores tomadores desses recursos. O volume a eles concedido responde por 41,49% da modalidade no Paraná e registra problemas em 17,54% dos casos, com 4,93% de inadimplência.
+
+Os empresários são contratantes de 38,69% dos financiamentos a pessoas físicas no Estado, parcela equivalente a R$ 33,40 bilhões. A maior parte dessa dívida (58,92%) está vinculada a empréstimos rurais que, comparativamente, possuem menores graus de ativos problemáticos (5,33%) e de inadimplência (1,69%). Ainda assim, há sensível piora em relação a períodos anteriores.
+
+Todas as faixas de renda apresentam preocupante piora de adimplência. Questões de fundo, como poupança frágil e impulsividade na contratação de crédito, se combinam à elevação das taxas de juros e ao endividamento em múltiplas modalidades. O encarecimento das concessões, retroalimentado pela inadimplência, se tornará mais acentuado com a utilização do Imposto sobre Operações de Crédito, Câmbio e Seguro ou relativas a Títulos ou Valores Mobiliários (IOF) para aplacar déficits orçamentários da União. A despeito de libelos e palavras de ordem, o aumento da alíquota tornará os financiamentos mais distantes das faixas de renda mais baixas e as renegociações de dívidas mais complexas. O quadro revela esgotamento desse ciclo de elevação de montantes de crédito, com previsível desaceleração no ritmo do consumo das famílias.
+
+<!-- PAGE: 12 -->
+
+* Economista, pesquisador do Departamento de Estudos Econômicos e Ambientais do IPARDES.
+
+Thiago Magalhães Borges*
+
+O mercado de trabalho paranaense segue em tendência crescente, segundo a PNAD Contínua, no segundo trimestre de 2025 a taxa de ocupação foi de 96,2% da força de trabalho (gráfico 1). Mesmo diante de impactos negativos ligados às novas barreiras alfandegárias dos Estados Unidos, o resultado é o maior nível de ocupação registrado para o segundo quarto desde o início da série, em 2012.
+
+GRÁFICO 1 - TAXA DE OCUPAÇÃO DA FORÇA DE TRABALHO - PARANÁ - 2 º TRIM 2023-2025
+
+FONTE: PNADC/ IBGE
+
+Com relação ao primeiro trimestre, se verificou oscilação negativa no número de trabalhadores no setor privado com carteira assinada (-1,4%) e sem (-3,9%). Embora estas tratem-se da principal e da terceira modalidade de emprego, sua queda foi compensada pelo crescimento do trabalho por contaprópria (4,3%), militares e servidores estatuários (3,3%) e empregadores (5,0%), que se tratam da segunda, quarta e quinta principal forma de emprego no Estado. Como consequência do crescimento do trabalho por conta-própria e como empregador, a contribuição previdenciária oscilou negativamente em 0,4 pontos percentuais, de 75,6% dos ocupados para 75,2%.
+
+Com relação à massa de remunerações, ocorreu estabilidade na média salarial, embora identifique-se crescimento quando considerada a média de horas trabalhadas por semana. Em valores de 2025 atualizados pelo IPCA, o rendimento médio mensal dos trabalhadores no Paraná foi de R$ 3.765,35 no segundo semestre de 2024, oscilando positivamente em 2,43%, chegando a R$ 3.857,00 no mesmo período de 2025. Já a média de horas semanais trabalhadas pouco mudou, oscilando de 40 para 39,8.
+
+A maioria dos ocupados está no setor de serviços (67,8%), em seguida na indústria (23,6%) e na agropecuária (8,3%). Entre as atividades econômicas que mais contrataram em contraste ao mesmo período de 2024, estão as dos setores primário e secundário, onde a ocupação cresceu 5,8% e 4,3%, respectivamente. Já as atividades de transformação e extrativistas registraram retração de 3,2% na demanda por mão de obra (tabela 1).
+
+<!-- PAGE: 13 -->
+
+TABELA 1 - VARIAÇÃO PERCENTUAL NA OCUPAÇÃO - PARANÁ - 2 º TRIM 2023-2025
+
+FONTE: IBGE/PNADC
+
+No setor primário, apesar do crescimento no abate para os dois primeiros trimestres de 2025 1 , a criação de bovinos demandou 5,3% menos trabalhadores, ainda se mantendo como principal empregadora do setor. Já o cultivo de soja, segundo maior empregador da agropecuária no período de 2024, ocupou 8,3% menos, sendo ultrapassado pelo fumo, que registrou crescimento de 52,7% em pessoal ocupado. Além deste tipo de produção fumícola destacar-se pela alta intensidade necessária trabalho 2 , o Deral 3 aponta um crescimento de 11,5% para Safra 25/26 da cultura, diante de preços de mercado atrativos registrados nos últimos anos 4 . Já cultivo de soja, além do alto grau de mecanização, enfrenta nas regiões de arenito, onde a baixa produtividade observada nos últimos anos e o aumento no cultivo de mandioca ameaçam a manutenção da área plantada 5 .
+
+Na indústria, a PIM/PF 6 regionalizada indica um crescimento médio de 3,6% com relação ao período em 2024, indicando que a retração nas contratações pode estar ligada à desligamentos em atividades mais intensivas em mão de obra, como é o caso da indústria de produtos alimentícios. Responsáveis por pouco menos de um quarto do total de empregos no setor de transformação paranaense, essas atividades registraram recuo médio de produção de 3,6%, reduzindo também seu quadro de funcionários em 3,5%. Já as empresas dedicadas à fabricação de produtos da madeira, com o quarto maior contingente de empregados no setor e impactadas diretamente pelas expectativas negativas causadas pelas barreiras tarifárias levantadas pelos Estados Unidos, informaram uma redução média de 6,3% em suas produções. Neste contexto, enxugaram seu quadro de empregados em 17,4%. Em contraste, a indústria automotiva, quinta maior empregadora, registrou um crescimento médio de 21,6% da produção sob contexto de avanço das exportações, empregando 34,5% mais.
+
+Para o setor terciário, a PMS 7 por meio do índice de volume de serviços registrou aumento de 2,6% no Estado, com relação ao segundo trimestre de 2025. Tal crescimento reflete-se na ocupação nos três principais empregadores do ramo, que oscilou positivamente. Comércio, educação e saúde apresentaram crescimento de 2,7%, 17,9% e 17,5% em pessoal ocupado, respectivamente. Além do desempenho positivo no varejo e no atacado, o crescimento da procura por trabalho das atividades de educação e saúde reflete aumento nas contratações por parte do setor público e privado. Em comparação com o mesmo período de 2025, a quantidade de trabalhadores ocupados na educação pública e privada cresceu 25,7% e 6,6%, nesta ordem. Já na saúde, ocupados no setor público aumentaram em 13,3% e no setor privado 17,5%.
+
+Por consequência, a quantidade de trabalhadores desempregados em busca de ocupação de abril a junho foi de 3,8% da força de trabalho local. A redução pode ser observada na comparação com o semestre anterior, quando a pesquisa registrou 4,0% de trabalhadores nesta condição, e com relação ao mesmo de 2025, quando o Estado possuía 4,4% de desocupados. Entre os indivíduos nesta situação, 54% são mulheres e 46% homens. A maioria autodeclara sua cor/ raça como branca (56,9%), em seguida parda (36,6), preta (4,7%) amarela (1,6%) e indígena (0,1%). No geral, são profissionais com qualificação média concluída, já que 39,7% finalizaram o ensino médio e 17,3% possuem ensino superior completo. Por fim, 23,8% concluíram o ensino fundamental e 19,2% não possuem instrução formal.
+
+1 Pesquisa Trimestral do Abate Animal/IBGE.
+
+2
+
+Prognóstico
+
+Agropecuário: Fumo (2022/2023), v.14, n.43 - SEAB.
+
+3 Previsão Subjetiva de Safra (28/08/2025) - Departamento de Economia Rural (SEAB).
+
+4 Condição de tempo e cultivo (08 a 14/08/2025) - Departamento de Economia Rural (SEAB).
+
+5 Condição de tempo e cultivo (01 a 07/04/2025) - Departamento de Economia Rural (SEAB).
+
+6 Pesquisa Industria Mensal - Produção Física/IBGE.
+
+7 Pesquisa Mensal de Serviços/IBGE .
+
+<!-- PAGE: 14 -->
+
+Embora o principal perfil de trabalhadores em busca de emprego sejam jovens de 14 a 19 anos (22,1%), a desagregação por faixa etária demonstra redução da desocupação entre os mais novos. Já as faixas etárias que abrangem trabalhadores de 25 a 29, 40 a 44 e 45 a 49 anos de idade registraram alta (tabela 2).
+
+TABELA 2 - DESOCUPADOS POR FAIXA ETÁRIA - PARANÁ - 2 o TRIM 2024-2025
+
+FONTE: IBGE/ PNADC
+
+NOTA: Valores arredondados.
+
+Ainda entre os que procuram emprego, mais da metade alega estar sem qualquer trabalho por um período superior a um mês e inferior a um ano (59,1%). Em seguida estão os que alegam estar sem ocupação a menos de um mês (18,8%), dois anos ou mais (14,5%) e um a dois anos (7,6%).
+
+Diante das expectativas de queda da taxa geral juros da economia brasileira e dos desdobramentos das barreiras tarifárias nos Estados Unidos, espera-se que as estatísticas futuras sobre o nível de emprego na região sejam impactadas por fatores conjunturais de ordem ambivalente. Ao passo que a expectativa de arrefecimento dos juros amplia as possibilidades de investimento em capital fixo nos próximos meses, levando ao aumento da demanda por mão de obra na indústria, espera-se que as exportações do setor continuem a ser impactadas pelo fechamento do mercado ao norte. Adicionalmente, há de se considerar a boa performance alcançada pelas exportações ao Mercosul, sobretudo da indústria automotiva paranaense. Neste cenário, espera-se impacto positivo, mas segmentado.
+
+Na agricultura, existe a possibilidade de impacto negativo sobre as atividades ligadas à criação de bovinos diante das restrições apontadas. Por outro lado, a forte expansão de culturas mais intensivas em trabalho vem gerando novas vagas de emprego no setor. Já na indústria menos dependente do mercado estadunidense e nos serviços, a sustentação da demanda está diretamente ligada à oferta de crédito e à demanda gerada pelo mercado de trabalho aquecido. Nesses termos, há perspectiva de oferta de novas vagas, sobretudo para trabalhadores jovens e com menor grau de formação.
+
+<!-- PAGE: 15 -->
+
+* Economista, pesquisador do Departamento de Estudos Econômicos e Ambientais do IPARDES.
+
+Thiago Magalhães Borges *
+
+O Paraná conta com uma das maiores frotas da União. Considerando todos os tipos de veículos terrestres emplacados no Brasil, 7,41% estão registrados no Estado, aponta a Secretaria Nacional de Trânsito 1 . Embora aqueles movidos à gasolina, álcool e/ ou gás natural veicular (GNV) por meio do processo de combustão interna sejam amplamente majoritários, os eletrificados têm ganhado espaço, sobretudo em aglomerações urbanas, dada a menor distância das comutações e maior oferta de infraestrutura de carregamento.
+
+De acordo com o Programa Brasileiro de Etiquetagem Veicular (PBEV) 2 , os veículos comercializados em território nacional são classificados de acordo com 6 categorias de propulsão: elétricos, plug-in , híbridos, flex, gasolina e diesel. Considerando as tecnologias disponíveis no mercado, é possível agregar estas formas de propulsão em três grandes grupos. O mais representativo, composto por veículos propulsionados exclusivamente por combustão interna. Em seguida, o que abarca elétricos híbridos. Esses veículos combinam um motor à combustão à propulsão elétrica e podem ou não necessitar carregamento via conexão externa. Por fim, o terceiro grupo é composto pelos elétricos a bateria que cotam apenas com motores elétricos, necessitando eventual conexão à rede elétrica para recarga.
+
+A substituição da frota movida à combustíveis tradicionais é um processo que se acelerou nos últimos dois anos no Brasil, sobretudo no segmento de automóveis. No mercado internacional, a redução nos preços dos minerais críticos como lítio, níquel e cobalto somada às inovações que permitiram a redução nos custos de produção de baterias, foram um dos principais motivadores da ampliação da oferta de eletrificados 3 . Segundo dados da Fenabrave 4 , 3,07% dos veículos vendidos no Brasil em 2022 eram eletrificados. Em 2024, a participação deles avançou para 11,61% das vendas nacionais (tabela 1).
+
+TABELA 1 - PARTICIPAÇÃO DOS ELETRIFICADOS NAS VENDAS DE VEÍCULOS - BRASIL - 2022-2024
+
+FONTE: Fenabrave; ABVE
+
+NOTA: Foram consideradas as vendas de automóveis, excluídas motocicletas, comerciais leves, caminhões e ônibus.
+
+No Paraná, considerando a frota total (inclusive motos, caminhões e ônibus) 99,90% dos veículos registrados em julho de 2022 eram movidos à combustão interna. Dois anos mais tarde, em julho de 2025, esse número reduziu para 99,59%, conforme os emplacamentos de veículos movidos a métodos alternativos de propulsão evoluíram. Embora os resultados sejam modestos, entre 2022 e 2025 a representação dos veículos eletrificados no Estado cresceu cerca de 290%, quando agregados os híbridos e os a bateria.
+
+1 Frota nacional/ Ministério dos Transportes - SENATRAN.
+
+2 PBVE/ INMETRO .
+
+3 Global EV Outlook 2025 Agência Internacional de Energia.
+
+4 Anuário 2024 - Federação Nacional da Distribuição de Veículos Automotores.
+
+<!-- PAGE: 16 -->
+
+GRÁFICO 1 - FROTA DE VEÍCULOS TERRESTRE POR TIPO DE PROPULSÃO - PARANÁ - 2022-2025
+
+FONTE: Ministério dos Transportes (2025); Frota nacional/Ministério dos Transportes - SENATRAN
+
+NOTA: Com base na classificação de combustíveis utilizada pela Secretaria Nacional de Trânsito, foram considerados híbridos veículos elétricos/ fonte interna, gasolina/ elétrico, híbrido e híbrido plug-in . Para elétricos considerou-se elétrico e elétrico/fonte externa.
+
+Perante a realidade nacional, o Estado encontra-se entre as 10 unidades da federação com a maior proporção de veículos eletrificados com relação aos tradicionais. Os movidos a bateria representam 0,15% dos licenciados no Estado, já os híbridos são 0,25%. Em termos absolutos, o Paraná é o terceiro em veículos elétricos emplacados e sexto em híbridos. Segundo a ABVE 5 , de janeiro a agosto de 2025, dos 164.525 veículos eletrificados vendidos no Brasil, 9.409 foram comercializados no Estado, tornando o Paraná o quinto maior mercado no país. Entre as capitais, Curitiba foi responsável por 4,8% das vendas, ficando atrás de São Paulo (22,9%), Brasília (16,4%), Belo Horizonte (12,4%) e Rio de Janeiro (7,8%).
+
+Outro desafio à expansão da frota eletrificada é o estabelecimento de infraestrutura adequada à recarga. Para o caso dos veículos que requerem energia proveniente da rede externa, as mudanças necessárias para sua operacionalização requerem a instalação de pontos de carregamentos por parte dos consumidores e de uma malha de eletropostos de acesso ao público, sobretudo para viabilizar deslocamentos superiores à autonomia desses veículos. Embora a Associação Brasileira de Normas Técnicas (ABNT) indique as diretrizes para a instalação da estrutura de carregamento 6 , consumidores ainda enfrentam restrições para instalação de estações de carregamentos domésticas, sobretudo em aglomerações urbanas, levando a discussão de diretrizes para o estabelecimento destes equipamentos em condomínios verticais 7 . Já em termos de eletropostos, o Estado conta com uma rede de 1.262 unidades das quais 368 oferecem o serviço de carregamento rápido (gráfico 2).
+
+5 Frotas/ Associação Brasileira de Veículos Elétricos.
+
+6 NBR 17019: 2022 .
+
+7 Projeto de Lei 158 de 2025/ Câmara dos Deputados.
+
+<!-- PAGE: 17 -->
+
+GRÁFICO 2 - OFERTA DE ELETROPOSTOS - 2025
+
+FONTE: ABVE (2025)
+
+Ainda segundo dados da ABVE, a maior parte desta infraestrutura está concentrada nas cidadespolo do Estado (57,54%). Curitiba, quarta cidade brasileira com maior oferta desse serviço, abriga 32,26% da oferta paranaense. Em seguida estão Maringá (9,59%), Londrina (6,50%), Cascavel (4,99%), Ponta Grossa (3,09%) e Guarapuava (1,11%). A figura 1 demonstra esta distribuição na região. É possível notar a existência de maior infraestrutura unindo Curitiba, Ponta Grossa, Londrina e Maringá, formando um corredor de eletropostos ao longo da BR-376. Nas regiões Central e Oeste, ainda há escassez na oferta do serviço de carregamento, considerando a conexão entre Guarapuava e Cascavel via BR-277, Cascavel e Maringá/ Londrina via BR-369/ PR-082 e Cascavel e Londrina com Guarapuava, via BR-466.
+
+FIGURA 1 - DISTRIBUIÇÃO MUNICIPAL DE ELETROPOSTOS - PARANA - 2025
+
+FONTE: ABVE Data (2025)
+
+<!-- PAGE: 18 -->
+
+Apesar da oferta do serviço de carregamento para deslocamentos entre cidades-polo, seu principal limitante é a escala. A baixa disponibilidade de estações de carregamentos causa incerteza aos motoristas diante do tempo necessário para recarga. Diferentemente dos veículos à combustão, os eletrificados necessitam utilizar infraestrutura por maiores períodos de tempo para recomposição de sua autonomia, que já é reduzida em trajetos rodoviários em comparação aos urbanos, devido à menor oportunidade de regeneração via frenagens.
+
+O veículo elétrico mais vendido no Paraná em 2025 8 , por exemplo, possuí uma autonomia de 280 km 9 e segundo sua montadora, é equipado com uma bateria de 38 kWh que carrega a até 40 kW. Ou seja, caso um viajante realizasse a recarga à potência máxima de transferência de energia, levaria cerca de 30 minutos para seguir viagem após recuperar cerca de 50% da autonomia seu veículo. Logo, se as estações de carregamento são ocupadas por períodos de tempo mais extensos, seriam necessárias em maior proporção que as bombas de combustível. Em agosto de 2025, constata-se uma relação de 3,26 veículos eletrificados carregados pela rede externa para cada eletroposto no Estado do Paraná. No Brasil, esta relação é de 3,10 para 1 10 .
+
+De maneira geral, há razões para se esperar a continuidade da eletrificação dos transportes no Paraná. Com base no fortalecimento cambial e na expectativa de arrefecimento da taxa básica de juros sob um contexto de mercado de trabalho aquecido, projeta-se a redução do endividamento interno e o estímulo ao investimento e ao consumo das famílias, abrindo espaço para efeitos positivos sobre o comércio de bens de consumo duráveis. No mercado de automóveis, isso poderia significar a desaceleração da venda de usados, que se encontra elevada em função da escassez de crédito.
+
+Além da ampliação das possibilidades de investimento e de consumo, a substituição de veículos de propulsão tradicional por eletrificados depende das preferências dos consumidores diante diferentes combinações de bens substitutos. O consumo de veículos híbridos sem necessidade de carga externa depende da relação de substituição com veículos tradicionais baseada nos preços dos combustíveis e na economia possibilitada pela tecnologia em questão. No caso dos dependentes de carga externa, ela é impactada pela mesma relação e ainda pelos custos da tarifa de energia elétrica.
+
+Neste contexto, a valorização cambial é um estímulo à substituição da frota, mas não necessariamente à opção por tipos alternativos de propulsão, uma vez que o cenário descrito também tende a reduzir o preço interno dos combustíveis fósseis. No mesmo sentido, a alteração da lei estadual que estabelece as normas para o imposto sobre propriedade de veículos automoves (IPVA) 11 , deverá estimular a venda de veículos, diante de uma redução na alíquota do imposto pago sobre a posse destes bens. Já em âmbito federal, mudanças recentes ao programa MOVER, apontam para a descarbonizarão da frota por meio do incentivo fiscal à compra de elétricos a bateria e híbridos, desde que estes últimos aceitem etanol.
+
+Sob um panorama mais amplo, a redução da dependência regional de combustíveis fósseis pode fomentar uma rede de transportes menos intensiva em gases do efeito estufa, diante do caráter renovável da energia gerada no Estado. Em contraposição, a volatilidade dos preços internacionais dos minerais críticos potencialmente representa um entrave ao avanço à eletrificação. Por fim, se projeta que a eletrificação da frota regional siga um ritmo lento, mas constante. A nacionalização da produção deste tipo de veículo deverá contribuir para reduzir preços e elevar a confiança dos consumidores, embora gargalos de infraestrutura ainda precisem ser superados para viabilizar ganhos de escala.
+
+8 Segundo dados da ABVE, de janeiro a agosto o veículo elétrico a bateria mais vendido no Estado foi o modelo Dolphin Mini GS5EV, responsável por 10,5% do mercado regional de eletrificados.
+
+9 17 º Ciclo PBVE / INMETRO.
+
+10 Eletropostos ( Agosto )/ ABVE.
+
+11 Lei nº 14.260, de 22 de dezembro de 2003.
+
+<!-- PAGE: 19 -->
+
+TABELA 1 - ÁREA, PRODUÇÃO E PRODUTIVIDADE DOS PRINCIPAIS PRODUTOS AGRÍCOLAS DO PARANÁ - 1993-2026
+
+<!-- PAGE: 20 -->
+
+TABELA 1 - ÁREA, PRODUÇÃO E PRODUTIVIDADE DOS PRINCIPAIS PRODUTOS AGRÍCOLAS DO PARANÁ - 1993-2026
+
+conclusão
+
+FONTE: SEAB/DERAL
+
+NOTAS: Sinal convencional utilizado:
+
+... Dado não disponível.
+
+(1) Estimativa.
+
+<!-- PAGE: 21 -->
+
+TABELA 2 - ABATES DE AVES, BOVINOS E SUÍNOS - PARANÁ - 1997-2025
+
+FONTE: IBGE - Pesquisa Trimestral de Abate de Animais
+
+NOTA: Elaboração do IPARDES.
+
+(1) Resultados preliminares.
+
+<!-- PAGE: 22 -->
+
+TABELA 3 - EXPORTAÇÕES, SEGUNDO PRINCIPAIS PRODUTOS E RESPECTIVOS PAÍSES DE DESTINO - PARANÁ - 2024-2025
+
+FONTE: MDIC-SECEX
+
+NOTA: Elaboração do IPARDES.
+
+(1) Variação superior a 1.000%.
+
+(2) Compreende os territórios de Hong Kong e Macau.
+
+<!-- PAGE: 23 -->
+
+TABELA 4 - BALANÇA COMERCIAL PARANAENSE E BRASILEIRA - 2003-2025
+
+FONTE: MDIC - SECEX
+
+(1) Dados preliminares.
+
+<!-- PAGE: 24 -->
+
+TABELA 5 - ÍNDICES DE PREÇO, DE QUANTUM E DE TERMOS DE TROCA - PARANÁ - 1997-2024
+
+FONTE: IPARDES
+
+NOTAS: Base fixa: 1997=100
+
+Elaborado com dados brutos do MDIC-SECEX.
+
+Utilizou-se índices de Fisher.
+
+<!-- PAGE: 25 -->
+
+TABELA 6 - ÍNDICE DE VOLUME DE VENDAS DO COMÉRCIO VAREJISTA AMPLIADO DO PARANÁ - 2022-2025
+
+FONTE: IBGE - Pesquisa Mensal do Comércio
+
+NOTAS: O comércio varejista ampliado difere do restrito por compreender as atividades de Veículos, motocicletas, partes e peças, de material de construção. Para essas duas atividades, são consideradas também as vendas no atacado. Reúne também, desde 2023, indicadores de Atacado especializado em produtos alimentícios, bebidas e fumo, atividade usualmente denominada como atacarejo.
+
+Índice sem ajuste sazonal.
+
+<!-- PAGE: 26 -->
+
+TABELA 7 - PRODUÇÃO FÍSICA DA INDÚSTRIA DE TRANSFORMAÇÃO, SEGUNDO SEÇÕES E ATIVIDADES INDUSTRIAIS - PARANÁ - 2022-2025
+
+FONTE: IBGE - Pesquisa Industrial Mensal
+
+NOTA: Índice sem ajuste sazonal.
+
+(1) Somente as atividades que apresentam produtos incluídos na amostra.
+
+<!-- PAGE: 27 -->
+
+TABELA 8 - RENDIMENTO HABITUAL REAL E TAXA DE DESOCUPAÇÃO, NO PARANÁ - 2014-2025
+
+FONTE: IBGE - Pesquisa Nacional por Amostra de Domicílios Contínua Trimestral
+
+NOTA: Elaboração do IPARDES.
+
+(1) Rendimento médio real do trabalho principal, habitualmente recebido por mês, pelas pessoas. A preços do último trimestre móvel divulgado, de acordo com o Índice de Preços ao Consumidor Amplo da Região Metropolitana de Curitiba. Deflacionado para o mês de agosto de 2025.
+
+<!-- PAGE: 28 -->
+
+TABELA 9 - SALDO DO EMPREGO FORMAL - PARANÁ - 2022-2025
+
+FONTE: Ministério do Trabalho - Novo CAGED
+
+NOTAS: O último mês do ano corrente conta com dados sem ajuste.
+
+Sinal convencional utilizado:
+
+- Dado inexistente.
+
+<!-- PAGE: 29 -->
+
+TABELA 10 - PRODUTO INTERNO BRUTO DO PARANÁ E DO BRASIL - 2002-2023
+
+FONTE: IBGE/IPARDES - Contas Regionais do Brasil
+
+NOTA: Nova metodologia, referência 2010.
+
+(1) Preços correntes de mercado.
+
+TABELA 11 - TAXAS DE VARIAÇÃO DO PRODUTO INTERNO BRUTO - PARANÁ - 3 º TRIM 2025
+
+FONTE: IPARDES
+
+<!-- PAGE: 30 -->

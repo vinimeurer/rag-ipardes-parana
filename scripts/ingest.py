@@ -1,88 +1,66 @@
 """
-Script de orquestração para ingestão de PDFs.
-Extrai todos os 3 PDFs e valida os resultados.
-"""
+Script principal de ingestão de PDFs.
 
+Ponto de entrada para executar o pipeline completo de extração,
+limpeza e serialização dos PDFs do projeto RAG IPARDES.
+
+Uso:
+    python -m scripts.ingest
+"""
 import sys
 from pathlib import Path
 
-# Adicionar src ao path para imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from src.core.logger import setup_logger, get_timestamped_logfile
-from src.core.constants import create_directories, PDF_SOURCES
-from src.ingestion.pdf_extractor import PDFExtractor, validate_extraction
-
-logger = setup_logger(__name__, log_file=get_timestamped_logfile("ingest"))
+from src.core.logger import get_timestamped_logfile, setup_logger
+from src.ingestion import IngestionPipeline
 
 
-def main():
+def main() -> int:
     """
-    Função principal: Extrai todos os PDFs e salva como JSON.
+    Executa o pipeline completo de ingestão para todos os PDFs configurados.
+
+    Processa sequencialmente todos os documentos definidos em PDF_SOURCES,
+    aplicando extração via Docling e serialização dos artefatos em
+    data/extracted/. PDFs já extraídos são pulados automaticamente.
+
+    Returns:
+        Código de saída: 0 se todos os documentos foram processados com
+        sucesso, 1 se houve falha em ao menos um documento.
     """
-    try:
-        # Step 1: Criar diretórios necessários
-        logger.info("Step 1: Criando estrutura de diretórios...")
-        create_directories()
-        logger.info("✓ Diretórios criados com sucesso\n")
-        
-        # Step 2: Verificar que os PDFs existem
-        logger.info("Step 2: Verificando disponibilidade dos PDFs...")
-        missing_pdfs = []
-        for pdf_key, pdf_info in PDF_SOURCES.items():
-            pdf_path = pdf_info["local_path"]
-            if pdf_path.exists():
-                logger.info(f"✓ Encontrado: {pdf_key}")
-            else:
-                logger.warning(f"✗ Não encontrado: {pdf_key}")
-                logger.warning(f"  Caminho esperado: {pdf_path}")
-                logger.warning(f"  URL para download: {pdf_info['url']}")
-                missing_pdfs.append(pdf_key)
-        
-        if missing_pdfs:
-            logger.warning(f"\n⚠️  {len(missing_pdfs)} PDF(s) não encontrado(s)")
-            logger.warning("Por favor, baixe os PDFs e coloque em data/raw/")
-            logger.warning("\nDica: Você pode baixar com wget ou curl:")
-            for pdf_key in missing_pdfs:
-                pdf_info = PDF_SOURCES[pdf_key]
-                logger.warning(f"  wget '{pdf_info['url']}' -O {pdf_info['local_path']}")
-            return 1
-        
-        logger.info("✓ Todos os PDFs encontrados\n")
-        
-        # Step 3: Extrair PDFs
-        logger.info("Step 3: Iniciando extração de PDFs...")
-        extractor = PDFExtractor()
-        results = extractor.extract_all_pdfs()
-        logger.info("✓ Extração concluída\n")
-        
-        # Step 4: Validar resultados
-        logger.info("Step 4: Validando resultados...")
-        stats = validate_extraction(results)
-        logger.info("✓ Validação concluída\n")
-        
-        # Step 5: Resumo final
-        logger.info("=" * 70)
-        logger.info("RESUMO DA INGESTÃO")
-        logger.info("=" * 70)
-        logger.info(f"Total de PDFs: {stats['total_pdfs']}")
-        logger.info(f"Sucesso: {stats['successful']}")
-        logger.info(f"Falhas: {stats['failed']}")
-        logger.info(f"Total de páginas extraídas: {stats['total_pages']}")
-        logger.info("=" * 70)
-        
-        if stats['failed'] == 0:
-            logger.info("✓ INGESTÃO BEM-SUCEDIDA!")
-            return 0
+    logger = setup_logger(__name__, log_file=get_timestamped_logfile("ingest"))
+
+    logger.info("=" * 60)
+    logger.info("Iniciando pipeline de ingestão RAG IPARDES")
+    logger.info("=" * 60)
+
+    pipeline = IngestionPipeline()
+    run_result = pipeline.run()
+
+    logger.info("-" * 60)
+    for doc in run_result.documents:
+        status = "SKIP" if doc.skipped else ("OK" if doc.success else "FAIL")
+        if doc.success and not doc.skipped:
+            pages = len(doc.extraction.pages) if doc.extraction else 0
+            tables = len(doc.extraction.tables) if doc.extraction else 0
+            logger.info(
+                "[%s] %s | páginas=%d | tabelas=%d | artefatos: %s",
+                status,
+                doc.pdf_key,
+                pages,
+                tables,
+                list(doc.saved_artifacts.keys()),
+            )
+        elif doc.skipped:
+            logger.info("[%s] %s", status, doc.pdf_key)
         else:
-            logger.error("✗ INGESTÃO COM ERROS")
-            return 1
-    
-    except Exception as e:
-        logger.error(f"Erro fatal: {str(e)}", exc_info=True)
-        return 1
+            logger.error("[%s] %s — %s", status, doc.pdf_key, doc.error)
+
+    logger.info("-" * 60)
+    logger.info(run_result.summary())
+
+    return 0 if run_result.failures == 0 else 1
 
 
 if __name__ == "__main__":
-    exit_code = main()
-    sys.exit(exit_code)
+    sys.exit(main())

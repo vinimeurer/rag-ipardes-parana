@@ -39,25 +39,33 @@ PDF_SOURCES = {
     "desenvolvimento_paranaense": {
         "url": "https://www.ipardes.pr.gov.br/sites/ipardes/arquivos_restritos/files/documento/2023-09/desenvolvimento_paranaense.pdf",
         "local_path": RAW_DATA_DIR / "desenvolvimento_paranaense.pdf",
-        "description": "Desenvolvimento Paranaense - Análise socioeconômica do Estado"
+        "description": "Desenvolvimento Paranaense - Análise socioeconômica do Estado",
+        "skip_until_page": 5,
     },
     "analise_conjuntural": {
         "url": "https://www.ipardes.pr.gov.br/sites/ipardes/arquivos_restritos/files/documento/2026-02/Analise_Conjuntural_julho_agosto_2025.pdf",
         "local_path": RAW_DATA_DIR / "Analise_Conjuntural_julho_agosto_2025.pdf",
-        "description": "Análise Conjuntural - Julho/Agosto 2025"
+        "description": "Análise Conjuntural - Julho/Agosto 2025",
+        "skip_until_page": 3,
     },
     "avaliacoes_politicas": {
         "url": "https://www.ipardes.pr.gov.br/sites/ipardes/arquivos_restritos/files/documento/2025-12/Avaliacoes%20Politicas%20Publicas%20Brasil_revisao%20escopo.pdf",
         "local_path": RAW_DATA_DIR / "Avaliacoes Politicas Publicas Brasil_revisao escopo.pdf",
-        "description": "Avaliações de Políticas Públicas Brasil - Revisão de Escopo"
+        "description": "Avaliações de Políticas Públicas Brasil - Revisão de Escopo",
+        "skip_until_page": 4,
     }
 }
 
+
 # ============================================================================
-# PDF Extraction Configuration
+# Preprocessing - Content Filter Configuration
 # ============================================================================
-PDF_EXTRACTOR_TIMEOUT = 300  # segundos
-PDF_EXTRACTOR_MAX_PAGES = None  # None = todos os PDFs
+SUMMARY_SECTIONS = {"SUMÁRIO", "SUMARIO", "SUMARIO EXECUTIVO", "ÍNDICE"}
+REFERENCES_SECTIONS = {"REFERÊNCIAS", "REFERENCIAS", "BIBLIOGRAPHY", "REFERÊNCIAS BIBLIOGRÁFICAS"}
+AUXILIARY_SECTIONS = {"LISTA DE SIGLAS", "SIGLAS", "ABREVIAÇÕES"}
+ORPHAN_REFERENCE_PREFIXES = ("GRÁFICO", "FIGURA", "QUADRO", "TABELA")
+SHORT_CAPTION_MIN_TOKENS = 1
+SHORT_CAPTION_MAX_TOKENS = 40
 
 # ============================================================================
 # Chunking Configuration Defaults
@@ -97,13 +105,6 @@ LLM_CONTEXT_WINDOW = 4096
 LLM_TEMPERATURE = 0.1  # Baixa temperatura para respostas factuais
 LLM_MAX_TOKENS = 500
 LLM_TOP_P = 0.95
-
-# ============================================================================
-# Preprocessing Configuration
-# ============================================================================
-REMOVE_STOPWORDS = False
-APPLY_LEMMATIZATION = False
-APPLY_STEMMING = False
 
 # ============================================================================
 # Logging Configuration

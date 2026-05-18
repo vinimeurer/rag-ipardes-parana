@@ -1,0 +1,114 @@
+{
+  "pdf_key": "avaliacoes_politicas",
+  "total_tables": 12,
+  "tables": [
+    {
+      "table_index": 0,
+      "page_number": 3,
+      "caption": "",
+      "num_rows": 39,
+      "num_cols": 2,
+      "markdown_file": "table_000.md",
+      "json_file": "table_000.json"
+    },
+    {
+      "table_index": 1,
+      "page_number": 21,
+      "caption": "",
+      "num_rows": 11,
+      "num_cols": 3,
+      "markdown_file": "table_001.md",
+      "json_file": "table_001.json"
+    },
+    {
+      "table_index": 2,
+      "page_number": 22,
+      "caption": "",
+      "num_rows": 6,
+      "num_cols": 3,
+      "markdown_file": "table_002.md",
+      "json_file": "table_002.json"
+    },
+    {
+      "table_index": 3,
+      "page_number": 23,
+      "caption": "",
+      "num_rows": 3,
+      "num_cols": 2,
+      "markdown_file": "table_003.md",
+      "json_file": "table_003.json"
+    },
+    {
+      "table_index": 4,
+      "page_number": 24,
+      "caption": "",
+      "num_rows": 4,
+      "num_cols": 2,
+      "markdown_file": "table_004.md",
+      "json_file": "table_004.json"
+    },
+    {
+      "table_index": 5,
+      "page_number": 25,
+      "caption": "",
+      "num_rows": 17,
+      "num_cols": 5,
+      "markdown_file": "table_005.md",
+      "json_file": "table_005.json"
+    },
+    {
+      "table_index": 6,
+      "page_number": 26,
+      "caption": "",
+      "num_rows": 5,
+      "num_cols": 5,
+      "markdown_file": "table_006.md",
+      "json_file": "table_006.json"
+    },
+    {
+      "table_index": 7,
+      "page_number": 27,
+      "caption": "",
+      "num_rows": 12,
+      "num_cols": 2,
+      "markdown_file": "table_007.md",
+      "json_file": "table_007.json"
+    },
+    {
+      "table_index": 8,
+      "page_number": 28,
+      "caption": "",
+      "num_rows": 12,
+      "num_cols": 7,
+      "markdown_file": "table_008.md",
+      "json_file": "table_008.json"
+    },
+    {
+      "table_index": 9,
+      "page_number": 29,
+      "caption": "",
+      "num_rows": 12,
+      "num_cols": 2,
+      "markdown_file": "table_009.md",
+      "json_file": "table_009.json"
+    },
+    {
+      "table_index": 10,
+      "page_number": 39,
+      "caption": "",
+      "num_rows": 12,
+      "num_cols": 24,
+      "markdown_file": "table_010.md",
+      "json_file": "table_010.json"
+    },
+    {
+      "table_index": 11,
+      "page_number": 40,
+      "caption": "",
+      "num_rows": 12,
+      "num_cols": 7,
+      "markdown_file": "table_011.md",
+      "json_file": "table_011.json"
+    }
+  ]
+}

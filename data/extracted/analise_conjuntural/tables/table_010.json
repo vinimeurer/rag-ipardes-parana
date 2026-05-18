@@ -1,0 +1,42 @@
+{
+  "table_index": 10,
+  "page_number": 15,
+  "caption": "TABELA 1 - PARTICIPAÇÃO DOS ELETRIFICADOS NAS VENDAS DE VEÍCULOS - BRASIL - 2022-2024",
+  "headers": [
+    "",
+    "VENDAS TOTAIS.VENDAS TOTAIS",
+    "ELETRIFICADOS.Híbridos",
+    "ELETRIFICADOS.Elétricos",
+    "ELETRIFICADOS.Total",
+    "PARTICIPAÇÃO DOS ELETRIFICADOS (%)."
+  ],
+  "rows": [
+    [
+      "2022",
+      "1.576.902",
+      "40.814",
+      "7.522",
+      "48.336",
+      "3,07%"
+    ],
+    [
+      "2023",
+      "1.720.833",
+      "74.344",
+      "18.499",
+      "92.843",
+      "5,40%"
+    ],
+    [
+      "2024",
+      "1.948.110",
+      "114.614",
+      "60.127",
+      "174.741",
+      "8,97%"
+    ]
+  ],
+  "markdown": "|  | VENDAS TOTAIS.VENDAS TOTAIS | ELETRIFICADOS.Híbridos | ELETRIFICADOS.Elétricos | ELETRIFICADOS.Total | PARTICIPAÇÃO DOS ELETRIFICADOS (%). |\n| --- | --- | --- | --- | --- | --- |\n| 2022 | 1.576.902 | 40.814 | 7.522 | 48.336 | 3,07% |\n| 2023 | 1.720.833 | 74.344 | 18.499 | 92.843 | 5,40% |\n| 2024 | 1.948.110 | 114.614 | 60.127 | 174.741 | 8,97% |",
+  "num_rows": 3,
+  "num_cols": 6
+}

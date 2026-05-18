@@ -1,0 +1,52 @@
+{
+  "table_index": 6,
+  "page_number": 26,
+  "caption": "",
+  "headers": [
+    "RECORTE GEOGRÁFICO DAAVALIAÇÃO.RECORTE GEOGRÁFICO DAAVALIAÇÃO",
+    "ÓRGÃOS DE FORMULAÇÃO DA POLÍTICA PÚBLICA.Governo Estadual",
+    "ÓRGÃOS DE FORMULAÇÃO DA POLÍTICA PÚBLICA.Governo Federal",
+    "ÓRGÃOS DE FORMULAÇÃO DA POLÍTICA PÚBLICA.Prefeitura",
+    "TOTAL (POR RECORTE).TOTAL (POR RECORTE)"
+  ],
+  "rows": [
+    [
+      "Federal",
+      "0",
+      "21",
+      "0",
+      "21"
+    ],
+    [
+      "Estado(s)",
+      "22",
+      "10",
+      "0",
+      "32"
+    ],
+    [
+      "Município(s)",
+      "5",
+      "15",
+      "4",
+      "22"
+    ],
+    [
+      "Submunicipal",
+      "1",
+      "7",
+      "0",
+      "08"
+    ],
+    [
+      "Total (por Órgão de Formulação)",
+      "28",
+      "53",
+      "04",
+      ""
+    ]
+  ],
+  "markdown": "| RECORTE GEOGRÁFICO DAAVALIAÇÃO.RECORTE GEOGRÁFICO DAAVALIAÇÃO | ÓRGÃOS DE FORMULAÇÃO DA POLÍTICA PÚBLICA.Governo Estadual | ÓRGÃOS DE FORMULAÇÃO DA POLÍTICA PÚBLICA.Governo Federal | ÓRGÃOS DE FORMULAÇÃO DA POLÍTICA PÚBLICA.Prefeitura | TOTAL (POR RECORTE).TOTAL (POR RECORTE) |\n| --- | --- | --- | --- | --- |\n| Federal | 0 | 21 | 0 | 21 |\n| Estado(s) | 22 | 10 | 0 | 32 |\n| Município(s) | 5 | 15 | 4 | 22 |\n| Submunicipal | 1 | 7 | 0 | 08 |\n| Total (por Órgão de Formulação) | 28 | 53 | 04 |  |",
+  "num_rows": 5,
+  "num_cols": 5
+}

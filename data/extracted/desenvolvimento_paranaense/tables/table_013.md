@@ -1,0 +1,28 @@
+| FAIXADE INTENSIDADE EMP&D | SEÇÃO, DIVISÃO OU GRUPO DE ATIVIDADE DA CIIU | CÓDIGO DA CIIU, REV 4 | POSIÇÃO EM P&D |
+| --- | --- | --- | --- |
+| Alta | Fabricação de aeronaves | 303 | 1 |
+| Alta | Fabricação de produtos farmoquímicos e farmacêuticos | 21 | 4 |
+| Alta | Fabricação de equipamentos de informática, produtos eletrônicos e ópticos | 26 | 5 |
+| Alta | Publicação de programas de informática | 582 | 3 |
+| Alta | Pesquisa e desenvolvimento científico | 72 | 2 |
+| Média-Alta | Fabricação de equipamentos bélicos pesados, armas e munições | 252 | 6 |
+| Média-Alta | Fabricação de veículos automotores, reboques e carrocerias | 29 | 7 |
+| Média-Alta | Fabricação de instrumentos e materiais para uso médico e odontológico e de artigos ópticos | 325 | 8 |
+| Média-Alta | Fabricação de máquinas e equipamentos | 28 | 9 |
+| Média-Alta | Fabricação de produtos químicos | 20 | 10 |
+| Média-Alta | Fabricação de máquinas, aparelhos e materiais elétricos | 27 | 11 |
+| Média-Alta | Fabricação de veículos ferroviários, veículos militares e combate e equipamentos de transporte não especificados anteriormente | 302+304+309 | 13 |
+| Média-Alta | Atividades de serviços de tecnologia da informação e de prestação de serviços de informação | 62-63 | 12 |
+| Média | Fabricação de produtos de borracha e de material plástico | 22 | 14 |
+| Média | Construção de embarcações | 301 | 15 |
+| Média | Fabricação de produtos diversos (exceto os do grupo 325) | 32 (exc. 325) | 16 |
+| Média | Fabricação de produtos de minerais não-metálicos | 23 | 17 |
+| Média | Metalurgia | 24 | 18 |
+| Média | Manutenção, reparação e instalação de máquinas e equipamentos | 33 | 19 |
+| Média-Baixa | Fabricação de produtos têxteis | 13 | 21 |
+| Média-Baixa | Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados | 15 | 22 |
+| Média-Baixa | Fabricação de celulose, papel e produtos de papel | 17 | 23 |
+| Média-Baixa | Fabricação de produtos alimentícios, bebidas e fumo | 10 a 12 | 25 |
+| Média-Baixa | Confecção de artigos dos vestuário e acessórios | 14 | 26 |
+| Média-Baixa | Fabricação de produtos de metal (exceto do grupo 252) | 25 (exc. 252) | 27 |
+| Média-Baixa | Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis | 19 | 28 |
