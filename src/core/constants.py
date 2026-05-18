@@ -14,7 +14,6 @@ MODELS_DIR = PROJECT_ROOT / "models"
 OUTPUTS_DIR = PROJECT_ROOT / "outputs"
 LOGS_DIR = PROJECT_ROOT / "logs"
 SCRIPTS_DIR = PROJECT_ROOT / "scripts"
-DOCS_DIR = PROJECT_ROOT / "docs"
 
 # Data subdirectories
 RAW_DATA_DIR = DATA_DIR / "raw"
