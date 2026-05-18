@@ -145,38 +145,71 @@ class TextCleaner:
         return markdown, stats
 
     def clean_table_content(self, content: str) -> str:
-        """Clean table content with minimal processing.
+        """
+        Limpeza de conteúdo de tabelas com processamento mínimo.
 
-        Applies only unicode normalization and control character removal
-        without line or paragraph filtering. Table cells are naturally
-        short and would be incorrectly removed by heuristic filters
-        designed for body text. Filtering short lines would destroy
-        table structure, removing valuable data cells and headers.
+        Aplica apenas normalização Unicode e remoção de caracteres de controle
+        sem filtragem de linhas ou parágrafos. Células de tabelas são naturalmente 
+        curtas e seriam removidas incorretamente por filtros heurísticos projetados 
+        para texto de corpo. Filtrar linhas curtas destruiria a estrutura da tabela,
+        removendo dados valiosos ecabeçalhos.
 
         Args:
-            content: Raw table content from extraction.
+            content: Conteúdo bruto de tabela da extração.
 
         Returns:
-            Minimally processed table content.
+            Conteúdo de tabela minimamente processado.
         """
         content = self._normalize_unicode(content)
         content = self._remove_control_chars(content)
         return content.strip()
 
     def _normalize_unicode(self, text: str) -> str:
-        """Normaliza o texto para forma Unicode NFC."""
+        """
+        Normaliza o texto para forma Unicode NFC.
+
+        Args:
+            text: Texto a ser normalizado.
+
+        Returns:
+            Texto normalizado em NFC.
+        """
         return unicodedata.normalize("NFC", text)
 
     def _remove_control_chars(self, text: str) -> str:
-        """Remove caracteres de controle exceto tabulações e quebras de linha."""
+        """
+        Remove caracteres de controle exceto tabulações e quebras de linha.
+
+        Args:
+            text: Texto a ser processado.
+
+        Returns:
+            Texto sem caracteres de controle.
+        """
         return self._CONTROL_CHARS_RE.sub("", text)
 
     def _fix_hyphenation(self, text: str) -> str:
-        """Remove hifenização artificial de quebra de linha."""
+        """
+        Remove hifenização artificial de quebra de linha.
+
+        Args:
+            text: Texto a ser processado.
+
+        Returns:
+            Texto sem hifenização artificial.
+        """
         return self._HYPHENATION_RE.sub(r"\1\2", text)
 
     def _normalize_whitespace(self, text: str) -> str:
-        """Colapsa múltiplos espaços em um único espaço."""
+        """
+        Colapsa múltiplos espaços em um único espaço.
+
+        Args:
+            text: Texto a ser processado.
+
+        Returns:
+            Texto com espaços normalizados.
+        """
         text = text.replace('\xa0', ' ')
         text = self._MULTI_SPACE_RE.sub(" ", text)
         lines = [line.rstrip() for line in text.splitlines()]
@@ -185,6 +218,9 @@ class TextCleaner:
     def _remove_page_numbers(self, text: str) -> tuple[str, int]:
         """
         Remove linhas que contêm apenas números de página.
+
+        Args:
+            text: Texto a ser processado.
 
         Returns:
             Tupla (texto sem números de página, quantidade de linhas removidas).
@@ -198,6 +234,9 @@ class TextCleaner:
         Filtra linhas abaixo do comprimento mínimo configurado.
 
         Lines que iniciam com '#' (títulos Markdown) são preservadas.
+
+        Args:
+            text: Texto a ser processado.
 
         Returns:
             Tupla (lista de linhas válidas, quantidade removida).
@@ -219,6 +258,9 @@ class TextCleaner:
         """
         Filtra parágrafos com menos tokens que o mínimo configurado.
 
+        Args:
+            text: Texto a ser processado.
+
         Returns:
             Tupla (lista de parágrafos válidos, quantidade removida).
         """
@@ -236,5 +278,13 @@ class TextCleaner:
         return filtered, removed
 
     def _dedup_blank_lines(self, text: str) -> str:
-        """Colapsa sequências de mais de duas linhas em branco para duas."""
+        """
+        Colapsa sequências de mais de duas linhas em branco para duas.
+
+        Args:
+            text: Texto a ser processado.
+
+        Returns:
+            Texto com linhas em branco normalizadas.
+        """
         return self._MULTI_BLANK_RE.sub("\n\n", text)

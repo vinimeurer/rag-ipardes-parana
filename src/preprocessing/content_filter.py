@@ -175,8 +175,11 @@ class ContentFilter:
         Verifica se um item curto é apenas uma referência solta a gráfico, figura,
         quadro ou tabela sem corpo de dados associado.
 
-        Esses blocos costumam ser títulos extraídos de imagens/tabelas e não
-        contêm informação suficiente para responder perguntas.
+        Args:
+            item: Dicionário de item com campo 'content' e 'sections'.
+            
+        Returns:
+            True se o item parecer uma referência órfã, False caso contrário.
         """
         content = item.get("content", "").strip()
         if not content:
@@ -196,7 +199,15 @@ class ContentFilter:
         return True
 
     def _has_table_body(self, content: str) -> bool:
-        """Detecta se o conteúdo já contém linhas de tabela Markdown."""
+        """
+        Detecta se o conteúdo já contém linhas de tabela Markdown.
+
+        Args:
+            content: Conteúdo a ser verificado.
+
+        Returns:
+            True se o conteúdo contiver linhas de tabela, False caso contrário.
+        """
         return any(line.lstrip().startswith("|") for line in content.splitlines())
 
     def _is_short_caption(self, item: dict) -> bool:
@@ -205,6 +216,12 @@ class ContentFilter:
 
         Esses itens são legítimos como captions de tabelas, mas geram chunks
         minúsculos no chunker e não têm valor semântico suficiente por si só.
+
+        Args:
+            item: Dicionário de item com campo 'content'.
+
+        Returns:
+            True se o item parecer um caption curto, False caso contrário.
         """
         content = item.get("content", "").strip()
         if not content:

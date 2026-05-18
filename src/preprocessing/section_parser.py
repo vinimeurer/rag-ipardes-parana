@@ -74,17 +74,42 @@ class SectionParser:
 
     @property
     def current_sections(self) -> list[str]:
+        """
+        Retorna a lista de títulos das seções ativas, ordenadas da mais externa para a mais interna.
+
+        Args:
+            None
+
+        Returns:
+            Lista de títulos das seções ativas.
+        """
         return [title for _, title in self._sections]
 
     def reset(self):
         self._sections = []
 
     def _normalize_title(self, title: str) -> str:
-        """Normaliza espaçamento do título antes de decidir se é seção válida."""
+        """
+        Normaliza espaçamento do título antes de decidir se é seção válida.
+
+        Args:
+            title: Título a ser normalizado.
+
+        Returns:
+            Título normalizado.
+        """
         return re.sub(r"\s+", " ", title.replace("\xa0", " ")).strip()
 
     def _looks_like_formula(self, title: str) -> bool:
-        """Rejeita títulos que parecem fórmulas ou saídas algébricas."""
+        """
+        Rejeita títulos que parecem fórmulas ou saídas algébricas.
+
+        Args:
+            title: Título a ser verificado.
+
+        Returns:
+            True se o título parecer uma fórmula, False caso contrário.
+        """
         if not title:
             return True
 
