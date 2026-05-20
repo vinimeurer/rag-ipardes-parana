@@ -35,9 +35,8 @@ rag-ipardes-parana/
 │   │   ├── analise_conjuntural.json
 │   │   └── avaliacoes_politicas.json
 │   │
-│   ├── chunks/                         # Chunks finais com metadados
-│   │   ├── chunks.json
-│   │   └── chunks_manifest.json        # Qual chunker? qual chunk_size? quando?
+│   ├── chunks/                         # Chunks section-aware prontos para indexação vetorial (JSONL)
+│   │   └── chunks.jsonl                # Array de objetos Chunk (chunk_id, document, page, sections, type, content, token_count)
 │   │
 │   ├── embeddings/                     # Vetores + metadata
 │   │   ├── embeddings.npy
@@ -52,6 +51,7 @@ rag-ipardes-parana/
 │   │   ├── constants.py                 # Paths, PDF sources, configurações globais do projeto
 │   │   ├── ingestion_config.py          # Configuração centralizada do pipeline de ingestão
 │   │   ├── preprocessing_config.py      # Configuração centralizada do pipeline de preprocessamento
+│   │   ├── chunking_config.py           # Configuração centralizada do pipeline de chunking
 │   │   ├── logger.py                    # Sistema de logging centralizado com suporte a arquivo
 │   │   └── __init__.py
 │   │
@@ -72,6 +72,12 @@ rag-ipardes-parana/
 │   │   ├── content_merger.py            # Mescla e ordenação de itens de texto e tabelas por página
 │   │   ├── table_processor.py           # Processamento de tabelas: carregamento, limpeza, serialização
 │   │   ├── preprocessor_utils.py        # Utilitários: build_metadata, logging de resumos, ProcessResult
+│   │   └── __init__.py
+│   │
+│   ├── chunking/                       # Divisão section-aware de conteúdo em chunks para indexação
+│   │   ├── chunker.py                  # Orquestrador: gera chunks a partir de itens processados com preservação de seções
+│   │   ├── text_splitter.py            # Recursive character splitting com overlap configurável
+│   │   ├── chunk_dataclass.py          # Estrutura de dados Chunk com metadados de rastreabilidade
 │   │   └── __init__.py
 │   │
 │   ├── vectorization/
@@ -140,7 +146,8 @@ rag-ipardes-parana/
 │
 ├── scripts/
 │   ├── ingest.py                       # Pipeline de ingestão: PDF → Docling → extração + serialização em data/extracted
-│   └── preprocess.py                   # Pipeline de pré-processamento: markdown → JSON processado em data/processed
+│   ├── preprocess.py                   # Pipeline de pré-processamento: markdown → JSON processado em data/processed
+│   └── chunk.py                        # Pipeline de chunking: JSON → chunks section-aware com token counting e overlap
 │
 ├── docker/
 │   ├── Dockerfile
