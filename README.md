@@ -41,9 +41,9 @@ rag-ipardes-parana/
 │   ├── embeddings/                         # Chunks com vetores de embedding prontos para busca vetorial
 │   │   └── chunks_with_embeddings.jsonl    # Array de chunks com campo 'embedding' (lista de floats)
 │   │
-│   └── vector_db/                      # Índice persistido
-│       ├── faiss.index
-│       └── faiss_manifest.json         # Versão FAISS, timestamp, dim
+│   └── vector_db/                      # Índice persistente ChromaDB com coleções
+│       ├── chroma.sqlite3              # Banco de dados ChromaDB persistente
+│       └── {uuid}/                     # Coleção "chunks" com vetores indexados
 │
 ├── src/
 │   ├── core/
@@ -52,6 +52,7 @@ rag-ipardes-parana/
 │   │   ├── preprocessing_config.py      # Configuração centralizada do pipeline de preprocessamento
 │   │   ├── chunking_config.py           # Configuração centralizada do pipeline de chunking
 │   │   ├── embedding_config.py          # Configuração centralizada do pipeline de embedding
+│   │   ├── indexing_config.py           # Configuração centralizada do pipeline de indexação (ChromaDB)
 │   │   ├── logger.py                    # Sistema de logging centralizado com suporte a arquivo
 │   │   └── __init__.py
 │   │
@@ -83,6 +84,10 @@ rag-ipardes-parana/
 │   ├── embedding/                      # Geração de embeddings vetoriais para indexação
 │   │   ├── embedder.py                 # Orquestrador: carrega chunks + gera embeddings em lotes + salva JSONL
 │   │   ├── text_encoder.py             # TextEncoder com sentence-transformers (cache local + offline)
+│   │   └── __init__.py
+│   │
+│   ├── indexing/                       # Indexação vetorial em banco persistente ChromaDB
+│   │   ├── indexer.py                  # Orquestrador: recria coleção + insere embeddings em lotes
 │   │   └── __init__.py
 │   │
 │   ├── vectorization/
@@ -153,7 +158,8 @@ rag-ipardes-parana/
 │   ├── ingest.py                       # Pipeline de ingestão: PDF → Docling → extração + serialização em data/extracted
 │   ├── preprocess.py                   # Pipeline de pré-processamento: markdown → JSON processado em data/processed
 │   ├── chunk.py                        # Pipeline de chunking: JSON → chunks section-aware com token counting e overlap
-│   └── embed.py                        # Pipeline de embedding: chunks → vetores com modelo sentence-transformers (offline-first)
+│   ├── embed.py                        # Pipeline de embedding: chunks → vetores com modelo sentence-transformers (offline-first)
+│   └── index.py                        # Pipeline de indexação: vetores → ChromaDB com recriação de coleção + inserção em lotes
 │
 ├── docker/
 │   ├── Dockerfile
