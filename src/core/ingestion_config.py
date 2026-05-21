@@ -45,6 +45,7 @@ class IngestionPipelineConfig:
     timeout_seconds: int = 300
     max_pages: Optional[int] = None
     num_workers: int = 1
+    batch_size: int = 10
     backend: DoclingBackendConfig = field(default_factory=DoclingBackendConfig)
     output: ExtractionOutputConfig = field(default_factory=ExtractionOutputConfig)
 
