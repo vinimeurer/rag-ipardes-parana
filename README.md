@@ -38,9 +38,8 @@ rag-ipardes-parana/
 │   ├── chunks/                         # Chunks section-aware prontos para indexação vetorial (JSONL)
 │   │   └── chunks.jsonl                # Array de objetos Chunk (chunk_id, document, page, sections, type, content, token_count)
 │   │
-│   ├── embeddings/                     # Vetores + metadata
-│   │   ├── embeddings.npy
-│   │   └── embeddings_manifest.json    # Qual modelo? qual tamanho? quando?
+│   ├── embeddings/                         # Chunks com vetores de embedding prontos para busca vetorial
+│   │   └── chunks_with_embeddings.jsonl    # Array de chunks com campo 'embedding' (lista de floats)
 │   │
 │   └── vector_db/                      # Índice persistido
 │       ├── faiss.index
@@ -52,6 +51,7 @@ rag-ipardes-parana/
 │   │   ├── ingestion_config.py          # Configuração centralizada do pipeline de ingestão
 │   │   ├── preprocessing_config.py      # Configuração centralizada do pipeline de preprocessamento
 │   │   ├── chunking_config.py           # Configuração centralizada do pipeline de chunking
+│   │   ├── embedding_config.py          # Configuração centralizada do pipeline de embedding
 │   │   ├── logger.py                    # Sistema de logging centralizado com suporte a arquivo
 │   │   └── __init__.py
 │   │
@@ -78,6 +78,11 @@ rag-ipardes-parana/
 │   │   ├── chunker.py                  # Orquestrador: gera chunks a partir de itens processados com preservação de seções
 │   │   ├── text_splitter.py            # Recursive character splitting com overlap configurável
 │   │   ├── chunk_dataclass.py          # Estrutura de dados Chunk com metadados de rastreabilidade
+│   │   └── __init__.py
+│   │
+│   ├── embedding/                      # Geração de embeddings vetoriais para indexação
+│   │   ├── embedder.py                 # Orquestrador: carrega chunks + gera embeddings em lotes + salva JSONL
+│   │   ├── text_encoder.py             # TextEncoder com sentence-transformers (cache local + offline)
 │   │   └── __init__.py
 │   │
 │   ├── vectorization/
@@ -147,7 +152,8 @@ rag-ipardes-parana/
 ├── scripts/
 │   ├── ingest.py                       # Pipeline de ingestão: PDF → Docling → extração + serialização em data/extracted
 │   ├── preprocess.py                   # Pipeline de pré-processamento: markdown → JSON processado em data/processed
-│   └── chunk.py                        # Pipeline de chunking: JSON → chunks section-aware com token counting e overlap
+│   ├── chunk.py                        # Pipeline de chunking: JSON → chunks section-aware com token counting e overlap
+│   └── embed.py                        # Pipeline de embedding: chunks → vetores com modelo sentence-transformers (offline-first)
 │
 ├── docker/
 │   ├── Dockerfile
