@@ -8,9 +8,7 @@ relacionados à geração de chunks para o pipeline RAG.
 from dataclasses import dataclass, field
 from pathlib import Path
 
-
-PROCESSED_DATA_DIR = Path("data/processed")
-CHUNKS_DATA_DIR = Path("data/chunks")
+from .directory_config import PROCESSED_DATA_DIR, CHUNKS_DATA_DIR
 
 
 @dataclass

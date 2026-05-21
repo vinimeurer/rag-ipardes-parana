@@ -6,7 +6,9 @@ import logging
 import sys
 from pathlib import Path
 from datetime import datetime
-from .constants import LOGS_DIR, LOG_LEVEL, LOG_FORMAT
+
+from .directory_config import LOGS_DIR
+from .logging_config import LOG_LEVEL, LOG_FORMAT
 
 
 def setup_logger(name: str, log_file: str = None) -> logging.Logger:

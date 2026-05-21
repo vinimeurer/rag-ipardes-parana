@@ -5,9 +5,7 @@ Configurações centralizadas para o pipeline de indexação vetorial.
 from dataclasses import dataclass, field
 from pathlib import Path
 
-
-EMBEDDINGS_DATA_DIR = Path("data/embeddings")
-VECTOR_DB_DIR = Path("data/vector_db")
+from .directory_config import EMBEDDINGS_DATA_DIR, VECTOR_DB_DIR
 
 
 @dataclass

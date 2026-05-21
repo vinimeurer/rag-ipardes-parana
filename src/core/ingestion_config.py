@@ -7,12 +7,9 @@ são definidas aqui, sem duplicação nos módulos de ingestão.
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Optional
-from .constants import (
-    RAW_DATA_DIR,
-    EXTRACTED_DATA_DIR,
-    LOGS_DIR,
-    PDF_SOURCES,
-)
+
+from .directory_config import RAW_DATA_DIR, EXTRACTED_DATA_DIR, LOGS_DIR
+from .pdf_config import PDF_SOURCES
 
 
 @dataclass

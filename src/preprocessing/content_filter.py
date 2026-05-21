@@ -10,7 +10,7 @@ from typing import Optional
 
 from ..core.logger import setup_logger
 from ..core.preprocessing_config import ContentFilterConfig, PreprocessingConfig
-from ..core.constants import PDF_SOURCES
+from ..core.pdf_config import PDF_SOURCES
 
 
 def get_skip_until_page(pdf_key: str) -> int:

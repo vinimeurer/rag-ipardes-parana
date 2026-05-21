@@ -8,16 +8,8 @@ relacionados ao preprocessamento de documentos.
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from .constants import (
-    EXTRACTED_DATA_DIR,
-    PROCESSED_DATA_DIR,
-    SUMMARY_SECTIONS,
-    REFERENCES_SECTIONS,
-    AUXILIARY_SECTIONS,
-    ORPHAN_REFERENCE_PREFIXES,
-    SHORT_CAPTION_MIN_TOKENS,
-    SHORT_CAPTION_MAX_TOKENS,
-)
+from .directory_config import EXTRACTED_DATA_DIR, PROCESSED_DATA_DIR
+from .pdf_config import ContentFilterConfig
 
 
 @dataclass
@@ -44,18 +36,6 @@ class TableProcessingConfig:
     markdown_file_pattern: str = "table_{:03d}.md"
     json_output_pattern: str = "table{:03d}.json"
     extract_metadata: bool = False
-
-
-@dataclass
-class ContentFilterConfig:
-    """Configuração de filtros de conteúdo para documentos processados."""
-    
-    summary_sections: set[str] = field(default_factory=lambda: SUMMARY_SECTIONS)
-    references_sections: set[str] = field(default_factory=lambda: REFERENCES_SECTIONS)
-    auxiliary_sections: set[str] = field(default_factory=lambda: AUXILIARY_SECTIONS)
-    orphan_reference_prefixes: tuple[str, ...] = ORPHAN_REFERENCE_PREFIXES
-    short_caption_min_tokens: int = SHORT_CAPTION_MIN_TOKENS
-    short_caption_max_tokens: int = SHORT_CAPTION_MAX_TOKENS
 
 
 @dataclass
