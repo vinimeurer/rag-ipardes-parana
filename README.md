@@ -47,13 +47,15 @@ rag-ipardes-parana/
 │
 ├── src/
 │   ├── core/
-│   │   ├── constants.py                 # Paths, PDF sources, configurações globais do projeto
-│   │   ├── ingestion_config.py          # Configuração centralizada do pipeline de ingestão
+│   │   ├── directory_config.py          # Centralização de paths: PROJECT_ROOT, DATA_DIR, MODELS_DIR, LOGS_DIR, outputs
+│   │   ├── pdf_config.py                # Configuração de PDFs: PDFSourceConfig, PDF_SOURCES com URLs e skip_until_page
+│   │   ├── logging_config.py            # Configuração centralizada: LOG_LEVEL, LOG_FORMAT
+│   │   ├── ingestion_config.py          # Configuração centralizada do pipeline de ingestão (Docling backend)
 │   │   ├── preprocessing_config.py      # Configuração centralizada do pipeline de preprocessamento
 │   │   ├── chunking_config.py           # Configuração centralizada do pipeline de chunking
 │   │   ├── embedding_config.py          # Configuração centralizada do pipeline de embedding
 │   │   ├── indexing_config.py           # Configuração centralizada do pipeline de indexação (ChromaDB)
-│   │   ├── logger.py                    # Sistema de logging centralizado com suporte a arquivo
+│   │   ├── logger.py                    # Sistema de logging centralizado com suporte a arquivo + timestamp
 │   │   └── __init__.py
 │   │
 │   ├── ingestion/                       # Pipeline de extração de PDFs com Docling + tratamento de tabelas
