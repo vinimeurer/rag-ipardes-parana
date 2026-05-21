@@ -77,6 +77,20 @@ Converter os PDFs originais em representações estruturadas em texto, preservan
 
 O extrator roda exclusivamente na CPU (`AcceleratorOptions(num_threads=4, device=AcceleratorDevice.CPU)`), sem dependência de GPU, garantindo reprodutibilidade em qualquer máquina.
 
+### Processamento em batches para PDFs grandes
+
+Para evitar erro `std::bad_alloc` (estouro de memória) ao processar PDFs grandes, a extração implementa estratégia de **split-process-merge**:
+
+**Divisão em batches** — o `pdf_splitter.py` divide o PDF em chunks temporários contendo `batch_size` páginas cada (padrão: 10 páginas). Usa PyPDF2 para manipulação de páginas sem carregar o documento inteiro em memória.
+
+**Processamento independente** — cada batch é convertido isoladamente pelo Docling, liberando memória após cada conversão.
+
+**Agregação com rastreabilidade** — os resultados são mesclados preservando offset de página global. Cada página e tabela recebe ajuste de numeração (`page.page_number += offset`) para manter correspondência com o PDF original. Índices de tabelas são reajustados globalmente (`table.table_index = len(all_tables)`) para evitar overwrite no serializer.
+
+**Cleanup automático** — arquivos temporários são removidos imediatamente após processamento.
+
+Impacto: elimina `std::bad_alloc`, reduz consumo de memória para O(batch_size) em vez de O(total_pages), com custo negligenciável de tempo.
+
 ### O que é gerado
 
 Para cada documento, a etapa produz:
@@ -397,7 +411,7 @@ python3 scripts/index.py
 ## Dependências
 
 ```bash
-pip install docling sentence-transformers chromadb
+pip install docling sentence-transformers chromadb PyPDF2
 ```
 
 Todas as bibliotecas são de código aberto e disponíveis via PyPI. Nenhuma API externa ou serviço de nuvem é necessário após o download inicial das bibliotecas e do modelo de embedding.
@@ -407,6 +421,7 @@ Todas as bibliotecas são de código aberto e disponíveis via PyPI. Nenhuma API
 | `docling` | 2.x | Extração de PDFs com detecção de layout |
 | `sentence-transformers` | 3.x | Geração de embeddings vetoriais |
 | `chromadb` | 0.5.x | Banco vetorial persistente |
+| `PyPDF2` | 4.x | Divisão de PDFs em batches para memory-efficiency |
 
 ---
 
