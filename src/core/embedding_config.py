@@ -5,10 +5,7 @@ Configurações centralizadas para o pipeline de embedding.
 from dataclasses import dataclass, field
 from pathlib import Path
 
-
-CHUNKS_DATA_DIR = Path("data/chunks")
-EMBEDDINGS_DATA_DIR = Path("data/embeddings")
-MODELS_DIR = Path("models/embeddings")
+from .directory_config import CHUNKS_DATA_DIR, EMBEDDINGS_DATA_DIR, EMBEDDINGS_MODELS_DIR
 
 
 @dataclass
@@ -17,7 +14,7 @@ class EmbeddingPaths:
 
     chunks_dir: Path = CHUNKS_DATA_DIR
     embeddings_dir: Path = EMBEDDINGS_DATA_DIR
-    models_dir: Path = MODELS_DIR
+    models_dir: Path = EMBEDDINGS_MODELS_DIR
 
 
 @dataclass

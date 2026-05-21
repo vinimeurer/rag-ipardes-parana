@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 
 from ..core.logger import setup_logger
-from ..core.constants import PDF_SOURCES
+from ..core.pdf_config import PDF_SOURCES
 
 
 @dataclass
