@@ -1,25 +1,28 @@
-Tabela: TABELA 5 - TAXA DE COBERTURA DAS IMPORTAÇÕES SEGUNDO SETORES DA INDÚSTRIA DE TRANSFORMAÇÃO PARANÁ - 2011-2020
+Tabela: TABELA 7 - TAXA DE PARTICIPAÇÃO DAS IMPORTAÇÕES DAS ATIVIDADES DA INDÚSTRIA DE TRANSFORMAÇÃO PARANÁ - 2011-2020
 
-| DESCRIÇÃO ISIC DIVISÃO | TAXA DE COBERTURA DAS IMPORTAÇÕES.2011 | TAXA DE COBERTURA DAS IMPORTAÇÕES.2012 | TAXA DE COBERTURA DAS IMPORTAÇÕES.2013 | TAXA DE COBERTURA DAS IMPORTAÇÕES.2014 | TAXA DE COBERTURA DAS IMPORTAÇÕES.2015 | TAXA DE COBERTURA DAS IMPORTAÇÕES.2016 | TAXA DE COBERTURA DAS IMPORTAÇÕES.2017 | TAXA DE COBERTURA DAS IMPORTAÇÕES.2018 | TAXA DE COBERTURA DAS IMPORTAÇÕES.2019 | TAXA DE COBERTURA DAS IMPORTAÇÕES.2020 |
+| DESCRIÇÃO ISIC DIVISÃO | IMPORTAÇÕES (%).2011 | IMPORTAÇÕES (%).2012 | IMPORTAÇÕES (%).2013 | IMPORTAÇÕES (%).2014 | IMPORTAÇÕES (%).2015 | IMPORTAÇÕES (%).2016 | IMPORTAÇÕES (%).2017 | IMPORTAÇÕES (%).2018 | IMPORTAÇÕES (%).2019 | IMPORTAÇÕES (%).2020 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Produtos alimentícios | 11,1 | 11,1 | 12,0 | 10,8 | 9,9 | 9,1 | 7,8 | 8,9 | 11,0 | 8,0 |
-| Bebidas | 0,4 | 0,4 | 0,2 | 0,3 | 0,4 | 0,1 | 0,1 | 0,2 | 0,1 | 0,1 |
-| Produtos de fumo | 1019,6 | 121,1 | 0,0 | 82,7 | 26,7 | 4,0 | 15,5 | 67,4 | 13,7 | 3,4 |
-| Têxteis | 1,2 | 1,6 | 2,0 | 1,5 | 1,4 | 1,3 | 1,2 | 1,1 | 1,0 | 0,8 |
-| Vestuário | 0,0 | 0,0 | 0,1 | 0,1 | 0,1 | 0,1 | 0,1 | 0,1 | 0,2 | 0,2 |
-| Couro e produtos afins | 2,2 | 2,1 | 7,4 | 12,7 | 7,6 | 6,0 | 6,3 | 4,1 | 5,1 | 5,4 |
-| Fabricação de madeira e de produtos de madeira | 15,4 | 30,9 | 28,7 | 28,1 | 40,1 | 54,4 | 55,4 | 67,7 | 74,8 | 66,1 |
-| Fabricação de papel e produtos de papel | 1,7 | 1,5 | 1,5 | 1,6 | 2,1 | 3,3 | 4,3 | 4,8 | 4,8 | 4,2 |
-| Produtos petrolíferos refinados | 2,1 | 1,3 | 0,7 | 0,1 | 0,2 | 0,0 | 0,0 | 0,1 | 0,1 | 0,1 |
-| Produtos químicos | 0,2 | 0,2 | 0,2 | 0,2 | 0,1 | 0,1 | 0,1 | 0,1 | 0,1 | 0,1 |
-| Produtos farmacêuticos e preparações farmacêuticas | 0,1 | 0,1 | 0,2 | 0,2 | 0,1 | 0,1 | 0,1 | 0,1 | 0,2 | 0,2 |
-| Produtos de borracha e plásticos | 0,1 | 0,1 | 0,1 | 0,1 | 0,1 | 0,2 | 0,2 | 0,2 | 0,2 | 0,2 |
-| Produtos minerais não-metálicos | 0,2 | 0,2 | 0,2 | 0,5 | 0,4 | 0,4 | 0,3 | 0,3 | 0,3 | 0,4 |
-| Metais básicos | 0,2 | 0,2 | 0,4 | 0,3 | 0,4 | 0,5 | 0,4 | 0,1 | 0,2 | 0,2 |
-| Produtos metálicos fabricados | 0,2 | 0,3 | 0,3 | 0,3 | 0,3 | 0,3 | 0,3 | 0,3 | 0,3 | 0,3 |
-| Produtos informáticos, eletrônicos e ópticos | 0,1 | 0,1 | 0,1 | 0,1 | 0,1 | 0,1 | 0,1 | 0,1 | 0,1 | 0,1 |
-| Equipamentos elétricos | 0,2 | 0,2 | 0,2 | 0,2 | 0,2 | 0,2 | 0,2 | 0,2 | 0,2 | 0,2 |
-| Máquinas e equipamentos | 0,3 | 0,3 | 0,3 | 0,3 | 0,3 | 0,3 | 0,4 | 0,3 | 0,3 | 0,3 |
-| Veículos automóveis | 0,5 | 0,5 | 0,5 | 0,5 | 0,5 | 0,8 | 0,8 | 0,5 | 0,5 | 0,6 |
-| Equipamento de transporte | 0,1 | 0,1 | 0,1 | 0,0 | 0,0 | 0,2 | 0,1 | 0,1 | 0,1 | 0,1 |
-| Fabricação de móveis | 2,1 | 1,7 | 1,3 | 1,2 | 1,1 | 1,1 | 1,1 | 1,1 | 1,2 | 1,4 |
+| Produtos alimentícios | 3,5 | 3,4 | 3,1 | 3,8 | 4,0 | 4,3 | 4,5 | 3,6 | 3,2 | 4,4 |
+| Bebidas | 0,3 | 0,4 | 0,6 | 0,8 | 0,6 | 1,6 | 1,1 | 0,9 | 0,9 | 1,3 |
+| Produtos de fumo | 0,0 | 0,0 | 0,0 | 0,0 | 0,0 | 0,0 | 0,0 | 0,0 | 0,0 | 0,0 |
+| Têxteis | 0,8 | 0,5 | 0,4 | 0,5 | 0,6 | 0,5 | 0,5 | 0,4 | 0,4 | 0,5 |
+| Fabricação de vestuário | 0,5 | 0,5 | 0,3 | 0,3 | 0,3 | 0,2 | 0,3 | 0,3 | 0,2 | 0,3 |
+| Couro e produtos afins | 0,6 | 0,6 | 0,2 | 0,2 | 0,2 | 0,2 | 0,2 | 0,2 | 0,2 | 0,2 |
+| Fabricação de madeira e de produtos de madeira | 0,2 | 0,1 | 0,2 | 0,2 | 0,1 | 0,1 | 0,1 | 0,1 | 0,1 | 0,1 |
+| Fabricação de papel e produtos de papel | 1,6 | 1,7 | 1,8 | 1,9 | 1,8 | 1,8 | 1,4 | 1,4 | 1,5 | 1,5 |
+| Impressão e reprodução de mídia gravada | 0,0 | 0,0 | 0,0 | 0,0 | 0,0 | 0,0 | 0,0 | 0,0 | 0,0 | 0,0 |
+| Produtos petrolíferos refinados | 0,8 | 1,5 | 0,5 | 3,6 | 3,0 | 9,4 | 16,8 | 10,3 | 11,6 | 9,8 |
+| Produtos químicos | 16,8 | 18,4 | 21,5 | 22,9 | 25,7 | 23,9 | 22,7 | 26,4 | 24,3 | 28,3 |
+| Produtos farmacêuticos e preparações farmacêuticas | 1,2 | 1,2 | 1,3 | 1,3 | 1,8 | 2,3 | 2,3 | 2,1 | 2,0 | 2,2 |
+| Produtos de borracha e plásticos | 3,7 | 3,8 | 4,3 | 4,0 | 3,8 | 3,2 | 3,7 | 3,7 | 3,5 | 3,7 |
+| Produtos minerais não-metálicos | 1,0 | 0,9 | 1,0 | 1,1 | 0,9 | 0,8 | 0,9 | 0,9 | 1,0 | 1,1 |
+| Metais básicos | 2,5 | 1,9 | 1,8 | 2,1 | 2,1 | 1,7 | 1,5 | 1,5 | 1,4 | 1,7 |
+| Produtos metálicos fabricados | 2,5 | 2,4 | 2,4 | 2,7 | 2,8 | 2,6 | 2,5 | 2,9 | 2,8 | 2,9 |
+| Produtos informáticos, eletrônicos e ópticos | 7,9 | 6,9 | 7,0 | 6,1 | 5,8 | 4,9 | 4,8 | 4,2 | 5,2 | 5,5 |
+| Equipamentos elétricos | 4,5 | 4,8 | 4,4 | 4,2 | 4,9 | 4,2 | 4,5 | 4,6 | 4,7 | 5,1 |
+| Fabricação de máquinas e equipamentos | 11,6 | 10,7 | 12,2 | 12,0 | 13,0 | 12,2 | 10,1 | 10,3 | 10,0 | 11,0 |
+| Veículos automóveis | 22,4 | 22,5 | 21,9 | 18,4 | 16,7 | 14,1 | 15,2 | 17,7 | 19,8 | 12,4 |
+| Equipamento de transporte | 0,4 | 0,4 | 0,2 | 0,3 | 0,4 | 0,1 | 0,3 | 0,2 | 0,2 | 0,3 |
+| Fabricação de móveis | 0,3 | 0,4 | 0,5 | 0,5 | 0,5 | 0,5 | 0,5 | 0,5 | 0,5 | 0,4 |
+| Outras manufaturas | 0,8 | 0,7 | 0,7 | 0,8 | 0,9 | 0,9 | 1,0 | 1,0 | 0,9 | 1,0 |
+| Outros setores | 16,1 | 16,5 | 13,5 | 12,3 | 9,9 | 10,4 | 5,3 | 6,7 | 5,6 | 6,3 |

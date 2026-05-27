@@ -1,40 +1,46 @@
 {
   "table_index": 71,
-  "page_number": 201,
-  "caption": "TABELA 3 - CONSUMO E RETIRADA PERCENTUAL DE ÁGUA POR SEGMENTO NO PARANÁ - 2018",
+  "page_number": 208,
+  "caption": "TABELA 7 - INDICADORES DE SANEAMENTO PARA 2020, METAS PARA 2033 E 2035 E VARIAÇÃO NO PERÍODO PARANÁ",
   "headers": [
-    "SEGMENTO",
-    "CONSUMO (%) (1)",
-    "RETIRADA (%) (2)"
+    "INDICADORES.INDICADORES",
+    "2020.2020",
+    "META (1).2035",
+    "∆% NECESSÁRIO."
   ],
   "rows": [
     [
-      "Indústria",
-      "30",
-      "28"
+      "IN055 - Índice de atendimento total de água (%)",
+      "95,26",
+      "99,00",
+      "4%"
     ],
     [
-      "Uso animal",
-      "27",
-      "17"
+      "IN056 - Índice de atendimento total de esgoto referido aos municípios atendidos com água (%)",
+      "74,53",
+      "-",
+      "21%"
     ],
     [
-      "Irrigação",
-      "22",
-      "12"
+      "IN015 - Índice de coleta de esgoto (%)",
+      "79,58",
+      "90,00",
+      "13%"
     ],
     [
-      "Abastecimento urbano",
-      "17",
-      "38"
+      "IN016 - Índice de tratamento de esgoto (%)",
+      "99,87",
+      "100,00",
+      "0%"
     ],
     [
-      "Abastecimento rural",
-      "4",
-      "3"
+      "IN015 - Taxa de cobertura regular do serviço de coleta de RDO (2) em relação à população total do município (%)",
+      "90,78",
+      "97,80",
+      "8%"
     ]
   ],
-  "markdown": "| SEGMENTO | CONSUMO (%) (1) | RETIRADA (%) (2) |\n| --- | --- | --- |\n| Indústria | 30 | 28 |\n| Uso animal | 27 | 17 |\n| Irrigação | 22 | 12 |\n| Abastecimento urbano | 17 | 38 |\n| Abastecimento rural | 4 | 3 |",
+  "markdown": "| INDICADORES.INDICADORES | 2020.2020 | META (1).2035 | ∆% NECESSÁRIO. |\n| --- | --- | --- | --- |\n| IN055 - Índice de atendimento total de água (%) | 95,26 | 99,00 | 4% |\n| IN056 - Índice de atendimento total de esgoto referido aos municípios atendidos com água (%) | 74,53 | - | 21% |\n| IN015 - Índice de coleta de esgoto (%) | 79,58 | 90,00 | 13% |\n| IN016 - Índice de tratamento de esgoto (%) | 99,87 | 100,00 | 0% |\n| IN015 - Taxa de cobertura regular do serviço de coleta de RDO (2) em relação à população total do município (%) | 90,78 | 97,80 | 8% |",
   "num_rows": 5,
-  "num_cols": 3
+  "num_cols": 4
 }

@@ -1,23 +1,42 @@
-Tabela: TABELA 1 - CRÉDITO A PESSOA FÍSICA, POR PORTE DOS CLIENTES - JUNHO DE 2022 A JUNHO DE 2025 - PARANÁ
-
-|  | PERÍODO.Junho de 2022.Carteira (Reais) | PERÍODO.Junho de 2022.Ativo Problemático (%) | PERÍODO.Junho de 2022.Inadimplência (%) | PERÍODO.Junho de 2023.Carteira (Reais) | PERÍODO.Junho de 2023.Ativo Problemático (%) | PERÍODO.Junho de 2023.Inadimplência (%) |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sem rendimento | 455.261.970,72 | 27,32 | 21,97 | 376.003.930,11 | 20,04 | 16,60 |
-| Até 1 salário mínimo | 8.538.176.272,92 | 9,16 | 5,38 | 11.647.181.366,20 | 9,23 | 5,78 |
-| Mais de 1 a 2 salários mínimos | 30.997.255.359,31 | 9,73 | 4,90 | 35.179.557.362,59 | 10,68 | 5,67 |
-| Mais de 2 a 3 salários mínimos | 23.385.138.076,17 | 8,78 | 4,15 | 22.490.823.928,77 | 9,49 | 5,09 |
-| Mais de 3 a 5 salários mínimos | 29.191.137.877,88 | 6,87 | 3,38 | 31.220.996.693,11 | 8,39 | 4,65 |
-| Mais de 5 a 10 salários mínimos | 32.552.828.445,83 | 5,32 | 2,53 | 34.053.337.208,52 | 6,18 | 3,14 |
-| Mais de 10 a 20 salários mínimos | 24.621.429.249,75 | 3,10 | 1,31 | 26.883.273.073,07 | 4,00 | 1,85 |
-| Acima de 20 salários mínimos | 56.998.072.243,53 | 1,32 | 0,38 | 67.896.626.766,06 | 2,19 | 0,63 |
-|  | PERÍODO | PERÍODO | PERÍODO | PERÍODO | PERÍODO | PERÍODO |
-|  | Junho de 2024 | Junho de 2024 | Junho de 2024 | Junho de 2025 | Junho de 2025 | Junho de 2025 |
-| PORTE DOS CLIENTES | Carteira (Reais) | Ativo Problemático (%) | Inadimplência (%) | Carteira (Reais) | Ativo Problemático (%) | Inadimplência (%) |
-| Sem rendimento | 356.995.015,50 | 22,77 | 19,19 | 566.864.466,67 | 30,89 | 22,09 |
-| Até 1 salário mínimo | 13.169.873.702,18 | 7,63 | 4,36 | 11.341.117.016,79 | 11,84 | 7,03 |
-| Mais de 1 a 2 salários mínimos | 38.036.014.091,29 | 9,00 | 4,59 | 39.886.210.229,83 | 10,49 | 5,38 |
-| Mais de 2 a 3 salários mínimos | 24.344.103.694,05 | 8,62 | 4,50 | 32.933.649.967,61 | 8,95 | 4,09 |
-| Mais de 3 a 5 salários mínimos | 31.660.368.630,29 | 7,50 | 3,97 | 43.148.491.540,49 | 8,20 | 3,79 |
-| Mais de 5 a 10 salários mínimos | 38.264.391.160,66 | 5,99 | 3,04 | 55.187.968.486,40 | 6,76 | 3,03 |
-| Mais de 10 a 20 salários mínimos | 30.576.157.311,48 | 4,31 | 1,98 | 40.726.755.877,24 | 5,25 | 2,37 |
-| Acima de 20 salários mínimos | 76.777.884.022,74 | 3,56 | 1,22 | 88.804.308.153,55 | 6,86 | 2,58 |
+| OCUPAÇÃO | Cartão de Crédito | Empréstimo com consignação em folha | Empréstimo sem consignação em folha | Veículos |
+| --- | --- | --- | --- | --- |
+| Aposentado ou pensionista |  |  |  |  |
+| Carteira (Reais) | 193.160.542,96 | 252.483.247,24 | 179.880.023,50 | 41.782.964,12 |
+| Ativos Problemáticos (%) | 2,68 | 2,76 | 6,12 | 2,45 |
+| Inadimplência (%) | 1,15 | 0,85 | 4,46 | 1,69 |
+| Autônomo |  |  |  |  |
+| Carteira (Reais) | 539.246.289,87 | 36.529.358,02 | 1.576.263.069,38 | 380.761.541,70 |
+| Ativos Problemáticos (%) | 3,90 | 2,82 | 8,49 | 4,64 |
+| Inadimplência (%) | 1,90 | 1,03 | 3,65 | 2,63 |
+| Empregado de empresa privada |  |  |  |  |
+| Carteira (Reais) | 666.993.636,21 | 71.890.783,99 | 613.835.451,43 | 265.560.639,43 |
+| Ativos Problemáticos (%) | 4,32 | 3,75 | 8,71 | 6,22 |
+| Inadimplência (%) | 2,27 | 2,64 | 4,63 | 4,09 |
+| Empregado de entidades sem fins lucrativos |  |  |  |  |
+| Carteira (Reais) | 2.717.851,23 | 118.233,00 | 1.369.918,64 | 1.431.079,73 |
+| Ativos Problemáticos (%) | 0,64 | 8,59 | 10,03 | 11,52 |
+| Inadimplência (%) | 0,12 | 8,59 | 0,03 | 0,00 |
+| Empresário |  |  |  |  |
+| Carteira (Reais) | 2.062.166.114,74 | 41.376.754,93 | 3.054.192.736,24 | 915.151.758,62 |
+| Ativos Problemáticos (%) | 4,28 | 3,41 | 6,57 | 4,74 |
+| Inadimplência (%) | 1,98 | 1,29 | 3,73 | 2,62 |
+| MEI |  |  |  |  |
+| Carteira (Reais) | 37.425.413,66 | 1.354.251,91 | 24.617.294,60 | 21.568.791,44 |
+| Ativos Problemáticos (%) | 7,83 | 14,37 | 23,54 | 4,52 |
+| Inadimplência (%) | 5,57 | 0,00 | 12,33 | 2,42 |
+| Servidor ou empregado público |  |  |  |  |
+| Carteira (Reais) | 430.787.384,22 | 633.131.364,20 | 268.103.760,01 | 900.667.343,38 |
+| Ativos Problemáticos (%) | 2,98 | 2,68 | 7,08 | 3,51 |
+| Inadimplência (%) | 1,33 | 1,45 | 4,44 | 2,49 |
+| Outros |  |  |  |  |
+| Carteira (Reais) | 665.724.710,06 | 93.823.864,33 | 1.796.776.843,54 | 340.332.051,69 |
+| Ativos Problemáticos (%) | 4,00 | 2,13 | 6,96 | 9,21 |
+| Inadimplência (%) | 2,13 | 0,87 | 4,48 | 6,57 |
+| Aposentado ou pensionista |  |  |  |  |
+| Carteira (Reais) | 65.749.411,46 |  | 101.019.907,63 | 710.270.302,10 |
+| Ativos Problemáticos (%) | 0,00 |  | 16,52 | 6,20 |
+| Inadimplência (%) | 0,00 |  | 5,53 | 1,62 |
+| Autônomo |  |  |  |  |
+| Carteira (Reais) | 850.206.015,62 |  | 1.918.179.374,61 | 13.089.394.829,99 |
+| Ativos Problemáticos (%) | 1,42 |  | 22,62 | 7,78 |
+| Inadimplência (%) | 0,46 |  | 6,99 | 2,91 |

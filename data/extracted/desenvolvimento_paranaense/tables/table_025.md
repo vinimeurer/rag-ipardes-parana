@@ -1,20 +1,32 @@
-Tabela: TABELA 1 - GERAÇÃO DE ENERGIA ELÉTRICA, POR FONTE - PARANÁ E BRASIL - 2018
+Tabela: TABELA 6 - INCREMENTOS AO SISTEMA INTEGRADO NACIONAL - PARANÁ
 
-| FONTE | PARANÁ.Geração (MW) | PARANÁ.Part. (%) | BRASIL.Geração (MW) | BRASIL.Part. (%) |
+| EMPREENDIMENTO | CARACTERÍSTICA | NOME | DATA PREVISTA | INVESTIMENTO (R$ MIL) |
 | --- | --- | --- | --- | --- |
-| Hidrelétrica | 88.746 | 94,68 | 388.971 | 64,68 |
-| Eólica | 19 | 0,02 | 48.475 | 8,06 |
-| Solar | 30 | 0,03 | 3.461 | 0,58 |
-| Nuclear | - | - | 15.674 | 2,61 |
-| Termelétrica | 4.942 | 5,27 | 144.815 | 24,08 |
-| Biomassa - Cana-de-açúcar | 1.517 | 1,62 | 35.435 | 5,89 |
-| Biomassa - Lenha | 482 | 0,51 | 2.360 | 0,39 |
-| Biomassa - Lixívia | 2.165 | 2,31 | 14.081 | 2,34 |
-| Outras fontes renováveis | 58 | 0,06 | 2.116 | 0,35 |
-| Carvão | 50 | 0,05 | 14.204 | 2,36 |
-| Gás natural | 403 | 0,43 | 54.295 | 9,03 |
-| Gás de coqueria | - | - | 1.620 | 0,27 |
-| Óleo combustível | 57 | 0,06 | 5.047 | 0,84 |
-| Óleo diesel | 22 | 0,02 | 5.246 | 0,87 |
-| Outras fontes não renováveis | 189 | 0,20 | 10.412 | 1,73 |
-| TOTAL | 93.737 | 100,00 | 601.396 | 100,00 |
+| Subestação | Expansão | SE 230/69 kV Umbará | 2024 | 12.136,56 |
+| Subestação | Expansão | SE 230/69/13.8 kV Uberaba | 2024 | ... |
+| Subestação | Expansão | SE 525/230/138 kV Sarandi | 2029 | 82.296,48 |
+| Subestação | Expansão | SE 230/69/13.8 kV Uberaba | 2030 | 15.960,46 |
+| Subestação | Expansão | SE 230/13.8 kV Campo Comprido | 2033 | 15.960,46 |
+| Linha de Transmissão | Nova | LT 525 kV Curitiba Leste - Litorânea, C1 e C2 (CD) | 2030 | 41.547,97 |
+| Subestação | Nova | SE 230/138 kV Curitiba Sul | 2033 | 69.832,54 |
+| Seccionamento de Linha de Transmissão | Nova | SECC LT 230 kV Curitiba - Joinville Norte, C1 (CD), na SE Joinville Norte 2 | 2031 | 17.818,54 |
+| Subestação | Expansão | SE 230/69/13.8 kV CIC | 2024 | ... |
+| Subestação | Expansão | SE 230/34.5/13.8 kV Ponta Grossa Norte | 2024 | ... |
+| Seccionamento de Linha de Transmissão | Nova | SECC LT 525 kV Bateias - Curitiba, C2 (CD), na SE Curitiba Oeste | 2029 | 39.007,67 |
+| Subestação | Expansão | SE 230/138 kV Guaíra | 2024 | 24.684,13 |
+| Linha de Transmissão | Expansão | LT 230 kV Figueira - Jaguariaíva, C1 | 2033 | 20.107,42 |
+| Linha de Transmissão | Expansão | LT 230 kV Londrina - Apucarana, C2 | 2033 | 15.973,96 |
+| Linha de Transmissão | Expansão | LT 230 kV Santa Mônica - Governador Parigot de Souza, C1 | 2030 | 17.405,92 |
+| Subestação | Expansão | SE 230/138 kV Ponta Grossa Norte | 2033 | 49.876,94 |
+| Seccionamento de Linha de Transmissão | Nova | SECC LT 230 kV Curitiba - Joinville Norte, C2 (CD), na SE Joinville Norte 2 | 2031 | 17.818,54 |
+| Linha de Transmissão | Expansão | LT 230 kV Posto Fiscal - Curitiba Leste, C1 | 2030 | 19.360,93 |
+| Seccionamento de Linha de Transmissão | Nova | SECC LT 525 kV Bateias - Areia, C1 (CD), na SE Curitiba Oeste | 2029 | 75.421,72 |
+| Subestação | Expansão | SE 525/230/138 kV Bateias | 2033 | 22.959,68 |
+| Linha de Transmissão | Expansão | LT 230 kV Campo Comprido - Santa Quitéria, C1 | 2024 | 3.125,34 |
+| Subestação | Nova | SE 230/138 kV Barigui 2 | 2027 | 117.053,24 |
+| Subestação | Expansão | SE 230/138 kV Umuarama Sul | 2024 | 29.972,44 |
+| Linha de Transmissão | Expansão | LT 230 kV Bateias - Santa Quitéria, C1 | 2030 | ... |
+| Linha de Transmissão | Nova | LT 525 kV Abdon Batista 2 - Segredo, C1 | 2030 | 434.696,31 |
+| Linha de Transmissão | Nova | LT 500 kV Assis - Ponta Grossa, C1 e C2 (CD) | 2027 | 860.798,68 |
+| Linha de Transmissão | Nova | LT 525 kV Abdon Batista 2 - Ponta Grossa, C1 e C2 (CD) | 2030 | 1.064.330,20 |
+| Linha de Transmissão | Expansão | LT 500 kV Ibiúna - Bateias, C1 e C2 (CD) | 2033 | ... |

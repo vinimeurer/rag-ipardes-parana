@@ -174,7 +174,7 @@ Maranhão (relatórios referentes ao Programa Mais IDH, publicados em 2021).
 
 Apesar de ser costumeiramente obrigatório que estados criem relatórios relativos a programas para os quais receberam financiamento externo, não existe regra que demande que tais relatórios estejam disponíveis livremente ao público após a aprovação. Também não  existe  determinação  de  que  materiais  escritos  durante  uma  gestão  continuem disponíveis online após seu término. Assim, se supõe que existam muito mais grupos com expertise na avaliação de políticas públicas dentro dos estados do que é possível encontrar nas redes.
 
-<!-- PAGE: 11 -->
+<!-- PAGE: 1 -->
 
 # 3.4.1 Pesquisas Acadêmicas, Think Tanks e Organizações Não Governamentais
 
@@ -190,7 +190,7 @@ Conforme  já  mencionado,  foi  utilizada  uma  expressão  de  busca  bastante
 
 Percebeu-se, à primeira vista, uma maioria pujante de textos da área da saúde, esta que é mais familiarizada e possui adesão mais antiga aos métodos necessários para avaliar  uma política  pública.  O  tema  'educação'  também  trouxe  número  considerável  de trabalhos,  ainda  que  nem  sempre  nos  moldes  esperados  para  inclusão  no  corpus da pesquisa. Apesar de existir uma rede de pesquisadores bastante engajada nos problemas da Segurança Pública, estudos focados em avaliar intervenções e ações governamentais ainda não possuem tanta popularidade entre aqueles engajados na área, de forma que estes trabalhos  perfazem  uma  minoria  daqueles  coletados.  Apenas  será,  no  entanto,  possível mensurar  com  exatidão  a  proporção  de  cada  tema  após  a  codificação  pela  análise  de conteúdo.
 
-<!-- PAGE: 12 -->
+<!-- PAGE: 2 -->
 
 A lista de periódicos presentes no conjunto de textos para análise documental consta a seguir:
 
@@ -238,7 +238,7 @@ Saúde e Sociedade
 
 Todas as publicações foram selecionadas com base em seu título ou resumo e os  respectivos  arquivos  em  .pdf  foram  salvos  e  inseridos  no software Atlas.ti  para organização e subsequentemente o primeiro processo de screening (filtragem) com a leitura para exclusão de documentos irrelevantes.
 
-<!-- PAGE: 13 -->
+<!-- PAGE: 3 -->
 
 # 4. SELEÇÃO DE EVIDÊNCIAS
 
@@ -252,7 +252,7 @@ Durante  o  processo  de  análise  de  conteúdo  dos  documentos  coletados,  
 
 2 Para mais informações, ver Wahesh , Edward. "Content Analysis." Making Research Relevant. Routledge, 2024. 136-152.
 
-<!-- PAGE: 14 -->
+<!-- PAGE: 4 -->
 
 # 4.1 PROCESSO DE MAPEAMENTO DE DADOS ( DATA CHARTING PROCESS )
 
@@ -272,7 +272,7 @@ Os tópicos de interesse podem ser descritos e categorizados da seguinte forma:
 
 ' Qual a política pública avaliada? ' Para responder a esta questão, foram coletados: o nome da política pública em questão, sua área temática, o órgão formulador da ação, e possíveis financiadores.
 
-<!-- PAGE: 15 -->
+<!-- PAGE: 5 -->
 
 ' Como se avaliou a política pública? ' Para este tópico, elencaram-se o recorte geográfico utilizado para verificação dos efeitos da intervenção, se existe exposição de modelo lógico ou  equivalente,  o  tipo  de  avaliação  efetuada  (p.ex.  avaliação  de  impacto,  avaliação executiva, avaliação  de  desenho  etc.),  os  métodos  e  técnicas  empregados,  os indicadores mobilizados ou a sua ausência ou incompletude, quais as fontes de dados indicadas pelos autores e qual a qualidade da apresentação destas fontes (permitindo ou não  replicação  do  estudo),  se  foram  empregados  recursos  ou  equipamentos  para  a avaliação e, por fim, se os pesquisadores relataram dificuldades no processo de avaliação.
 
@@ -296,7 +296,7 @@ Sobre as equipes responsáveis:
 
 "Tema da Política Pública": os textos receberam codificação segundo a área da política, sendo  as  áreas  temáticas  aceitas  na  presente  pesquisa  "Educação",  "Saúde"  e "Segurança Pública".
 
-<!-- PAGE: 16 -->
+<!-- PAGE: 6 -->
 
 # 4.1.4 Categorias referentes ao texto avaliativo estudado:
 
@@ -322,7 +322,7 @@ Sobre as equipes responsáveis:
 
 'Estatística  descritiva',  para  frequências  simples,  análise  de  correspondência,  entre outros;
 
-<!-- PAGE: 17 -->
+<!-- PAGE: 7 -->
 
 'Estatística Inferencial', para regressões dos mais diversos tipos e outras técnicas de inferência estatística;
 
@@ -344,7 +344,7 @@ Sobre as equipes responsáveis:
 
 'Ferramentas  e  Recursos': ilustra  instâncias  nas  quais  os  autores  da  avaliação relataram artifícios adicionais para a pesquisa. As categorias são: 'Equipes contratadas', aplicada  sobretudo  em  casos  de  pesquisa  de  campo  envolvendo  times  amplos  de pesquisadores; ' Software ', para os casos nos quais os pesquisadores relataram o uso de programas informatizados para análise ou gestão de dados; 'equipamentos físicos' para o uso de aparelhos como, por exemplo, gravadores, câmeras, entre outros; 'Infraestrutura' para casos de uso de salas e locais especiais para a pesquisa, como ambientes especiais para  aplicação  de  grupo  focal.  Por  fim,  tem-se  as  categorias  ' Incompleto/insuficiente ' para explanações vagas sobre o uso de recursos adicionais, e ' Não consta ' para casos
 
-<!-- PAGE: 18 -->
+<!-- PAGE: 8 -->
 
 nos quais não houve relato de uso de ferramentas.
 
@@ -356,7 +356,7 @@ Não  foi  efetuado  processo  de  seleção  com  base  em  rigor  metodológic
 
 No  entanto,  todos  os  textos  aceitos  obedeciam  aos  seguintes  critérios:  ser necessário que o texto fosse sobre o caso brasileiro; sobre políticas públicas implementadas pelo Estado nas áreas de Saúde, Educação ou Segurança Pública; e que o texto tivesse como propósito central avaliar tal política pública. Estas exigências pressupõem um mínimo de coerência técnica e temática nos materiais selecionados. Deve-se explicitar que textos 'de má qualidade' frequentemente não se encaixavam nos moldes de uma avaliação de política pública sendo, naturalmente, excluídos. Outro motivo para a ausência de avaliação crítica de cada fonte foi a prevenção de vieses de caráter pessoal ou ideológico. Também não  foi  aplicada  a  Escala  Maryland  de  Métodos  Científicos  pois  não  se  deseja  excluir material plausível quando pensamos 'quem faz e como fazem as avaliações de políticas públicas': a exclusão de artigos com 'evidências fracas' seria uma grande perda para nossa análise.
 
-<!-- PAGE: 19 -->
+<!-- PAGE: 9 -->
 
 # 6. METODOLOGIA DE SÍNTESE DE RESULTADOS
 
@@ -372,7 +372,7 @@ Após reuniões periódicas para condução da pesquisa, durante o processo de c
 
 Por  último,  durante  o  processo  de  correção  das  codificações  e  reuniões periódicas, três outros textos foram excluídos por não serem avaliações de políticas públicas completas, e sim relatórios parciais desprovidos de resultados.
 
-<!-- PAGE: 20 -->
+<!-- PAGE: 10 -->
 
 Deve-se  comentar  que  o  número  de  avaliações  não  é  o  mesmo  número  de documentos analisados: três dos documentos eram relatórios amplos que possuíam mais de uma avaliação. No caso, eram três relatórios anuais de avaliação do Instituto Jones dos Santos  Neves,  que  periodicamente  publicam  arquivos  os  quais  compilam  avaliações completas ou em andamento. Nestes, cada um dos documentos avaliava duas políticas públicas  pertinentes  aos  propósitos  do  projeto.  Sendo  assim,  o  corpus  contou  com  81 documentos, e 83 avaliações de políticas públicas.
 
@@ -380,7 +380,7 @@ FIGURA 1 - PROCESSO DE FILTRAGEM DOS TEXTOS
 
 Elaboração do DAPP/IPARDES
 
-<!-- PAGE: 21 -->
+<!-- PAGE: 1 -->
 
 # 7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO
 
@@ -396,7 +396,7 @@ A maioria dos textos selecionados eram artigos de periódicos, e os periódicos 
 
 3 Repositório Avaliação de Políticas Públicas em:< https://www.ipardes.pr.gov.br/Pagina/Repositorio-Avaliacao-de-Politicas-Publicas>
 
-<!-- PAGE: 22 -->
+<!-- PAGE: 2 -->
 
 Dos  artigos  publicados  por  organizações  não  governamentais,  um  deles  foi publicado pelo Banco Interamericano de Desenvolvimento e um pelo Banco Mundial, um pelo Instituto Natura e dois pelo IEPS (Instituto de Estudos para Políticas de Saúde). Notase que o número de artigos por tipo de origem não é o mesmo do fluxograma: por vezes, as buscas em fontes não governamentais levaram a páginas de órgãos públicos e vice-versa .
 
@@ -410,7 +410,7 @@ Deve-se  lembrar,  novamente,  do  pormenor  metodológico  de  que  se  buscou 
 
 Na vasta maioria dos casos, os pesquisadores foram identificados individualmente, ou seja, com os nomes de cada um dos integrantes da equipe avaliadora. Em oito casos, constava identificado o nome da instituição, e não seus integrantes.
 
-<!-- PAGE: 23 -->
+<!-- PAGE: 3 -->
 
 # 7.3 DISTRIBUIÇÃO DE DOCUMENTOS POR TEMA DA POLÍTICA PÚBLICA
 
@@ -424,7 +424,7 @@ Os  "Demandantes"  da  Política  Pública  (ou  seja,  órgãos  governamentais
 
 Dos  textos  que  não  foram  produzidos  por  governos,  temos  os  seguintes demandantes mais comuns:
 
-<!-- PAGE: 24 -->
+<!-- PAGE: 4 -->
 
 Não  se  considera  como  demandantes  e  tampouco  como  financiadores  de pesquisa documentos acadêmicos cujos autores foram beneficiados por bolsas do CNPq e similares, uma vez que entendemos que bolsas de pós-graduação e iniciação científica não exercem controle rígido sobre os autores, que gozam de relativa liberdade na escolha de seus objetos de pesquisa.
 
@@ -438,7 +438,7 @@ Sobre  a  Área  do  Pesquisador,  a  vasta  maioria  -  57  das  avaliações  
 
 Quando  o  documento  apresentou  múltiplos  autores  com  formações  distintas entre si, cada uma das áreas mencionadas foi aplicada como código. Isso explica o fato de que  a  contagem  de  áreas  do  conhecimento  foi  superior  ao  número  de  documentos analisados.
 
-<!-- PAGE: 25 -->
+<!-- PAGE: 5 -->
 
 Das  categorias que  puderam  ser  coletadas, as duas  áreas  que  foram mencionadas mais vezes foram as Ciências da Saúde, com 12 casos, e a Economia, com 11 casos. Economistas se mostraram bem distribuídos por todos os temas, possivelmente devido à afinidade metodológica da área ao tema da avaliação de políticas públicas.
 
@@ -446,7 +446,7 @@ Das  categorias que  puderam  ser  coletadas, as duas  áreas  que  foram mencio
 
 Sobre os órgãos formuladores das políticas públicas, 53 avaliações tinham como objeto  iniciativas  do  Governo  Federal;  28  avaliavam  políticas  formuladas  por  governos estaduais;  e  apenas  quatro  das  avaliações  consideravam  iniciativas  de  prefeituras.  No entanto, isso não significa que os avaliadores utilizaram recortes integrais em suas análises: 32  avaliações  utilizavam  como  objeto  dados  de  nível  estadual,  22  analisavam  efeitos  e impactos  em  nível  municipal,  e  oito  avaliações  usaram  como  objeto  níveis  inferiores  ao municipal, como estudos de caso. Apenas 20 avaliações tinham recorte nacional .
 
-<!-- PAGE: 26 -->
+<!-- PAGE: 6 -->
 
 A  categoria  'submunicipal',  referente  a  recortes  menores  que  uma  cidade (estudos de caso, comparação entre escolas, avaliação de alguns postos de saúde, como exemplos) esteve presente na avaliação de uma política promovida por um governo estadual e  sete  políticas  de  nível  federal.  Das  22  avaliações  nas  quais  os  autores  verificaram resultados de um município ou compararam municípios, 15 eram políticas de abrangência federal  e  cinco  eram  propostas  de governos  estaduais.  Estas  avaliações  com  limitações metodológicas de recorte geográfico são todas avaliações de origem acadêmica, e podemos atribuir tal fenômeno à limitação de recursos de pesquisa disponíveis aos autores, e não tanto  pela  presença  de  casos sui  generis que  demandassem  recortes  específicos  para análise em profundidade .
 
@@ -456,7 +456,7 @@ Neste tópico, buscamos textos que ilustrassem o desenho da política pública, 
 
 Assim, podemos afirmar que, das 83 avaliações presentes em 81 documentos, 32  apresentavam  o  desenho  da  política  pública,  e  51  omitiram  esta  informação.  Esta marcante  ausência  pode  ser  devida  à  limitação  de  espaço  para  texto  em  publicações acadêmicas e à ausência de padrão tipo checklist para quais informações são relevantes a uma avaliação de políticas públicas.
 
-<!-- PAGE: 27 -->
+<!-- PAGE: 7 -->
 
 # 7.9 TIPOS DE AVALIAÇÃO MAIS COMUNS
 
@@ -470,13 +470,13 @@ O predomínio das avaliações de impacto era esperado,  uma vez que esta é con
 
 5 Para mais informações: https://repositorio.mcti.gov.br/handle/mctic/6862
 
-<!-- PAGE: 28 -->
+<!-- PAGE: 8 -->
 
 O  uso  da  Avaliação  Executiva  também  merece  comentário:  passível  de aplicação em qualquer momento do ciclo da Política Pública e em qualquer área da política, e  de  execução  mais  'rápida',  todas  as  publicações  que  usaram  este  método  foram documentos classificados como 'governamentais'.
 
 A avaliação de impacto se encontrou distribuída uniformemente entre todos os temas.  Deve-se  notar  a  concentração  de  casos  de  avaliações  de  implementação  e implantação nos textos de temas da saúde, que pode se dever ao fato de que políticas de abrangência nacional devem ser investigadas em sua capacidade de alcance e capilaridade.
 
-<!-- PAGE: 29 -->
+<!-- PAGE: 9 -->
 
 # 7.10 MÉTODOS E TÉCNICAS: TIPOS MAIS COMUNS
 
@@ -486,7 +486,7 @@ Métodos  estatísticos  dominaram  o  quadro,  com  42  instâncias  de  uso  d
 
 Sabe-se  que  testes  de  confiabilidade  (como  verificação  de  colinearidade  e consistência do modelo) são parte integral da Estatística Inferencial, mas optou-se por inserir ambas as categorias em casos nos quais os autores detalharam de forma pormenorizada este processo analítico, que pode passar despercebido em textos com limitações de número de páginas. Medidas de confiabilidade aplicadas à Análise de Conteúdo, como o Alfa de Cronbach, também são incluídos nesta categoria, embora raramente textos de Análise de Conteúdo ou Discurso passassem por tal etapa. Testes de confiabilidade foram explicados de forma pormenorizada em 27 trabalhos. Isso não significa que todos os trabalhos que usam estatística inferencial não contassem com tais medidas, mas sim que os autores não detalharam o processo, talvez por limitações de tamanho de texto. No caso de tais medidas aplicadas  à  análise  de  conteúdo,  podemos  sim  afirmar  que  medidas  de  confiabilidade  e consistência  raramente  foram  utilizadas.  Tal  metodologia  não  é  de  uso  obrigatório,  mas ajudaria sobremaneira no entendimento do método aplicado.
 
-<!-- PAGE: 30 -->
+<!-- PAGE: 10 -->
 
 As categorias de entrevistas merecem uma explicação de ordem metodológica: denominamos 'Entrevistas e Similares' entrevistas em profundidade, semiestruturadas ou abertas.  Para  questionários  fechados,  se  utilizou  a  categoria  'Questionários  e Survey '. Grupos de discussão e entrevistas coletivas, como painéis de especialista e grupo focal, receberam  categorização  separada.  Juntos,  entrevistas  e  métodos  afins  somaram  57 menções.  Questionários  e Surveys e  entrevistas  abertas  apareceram  quase  na  mesma frequência, com 26 e 27 casos, respectivamente. Mais raro foi o uso de oficinas, grupo focal e  painéis  de  especialistas,  com  oito  casos.  Isso  se  explica  pela  complexidade  destes métodos, que exigem maior coordenação para reunião dos entrevistados, e não raro exigem o uso de salas específicas e maior uso de recursos.
 
@@ -498,7 +498,7 @@ A categoria "Análise de Gestão, Processos e Estrutura" se refere a metodologia
 
 Por fim, em 'outras técnicas qualitativas' temos métodos como a observação participante e a etnografia, mais comuns em estudos de pequeno recorte. Oito dos textos aplicaram tais medidas.
 
-<!-- PAGE: 31 -->
+<!-- PAGE: 1 -->
 
 # 7.11 INDICADORES
 
@@ -514,7 +514,7 @@ Dos  documentos  analisados,  54  não  mencionaram  nenhum  tipo  de  recurso a
 
 Sobre o uso de software ,  24  artigos  mencionaram  programas  utilizados  para análise. Este último ponto merece atenção, já que se espera que pesquisadores utilizem programas  para  cálculo  quantitativo  ou  organização  de  dados  qualitativos,  mas  a  nãoobrigatoriedade de exposição destes recursos causou o baixo número relativo de relatos.
 
-<!-- PAGE: 32 -->
+<!-- PAGE: 2 -->
 
 # 8. SUMÁRIO DE EVIDÊNCIAS: QUEM AVALIA POLÍTICAS PÚBLICAS NO BRASIL?
 
@@ -526,7 +526,7 @@ Houve grande variedade de políticas analisadas, mas devemos comentar que o Prog
 
 A pesquisa acadêmica, predominante no corpus de análise aqui exposto, tem limitações importantes. Como existe número definido de páginas para artigos de periódicos, e pesquisadores não raro sofrem com parcos recursos para a elaboração de suas pesquisas, isso se traduziu em lacunas consideráveis nos relatos de pesquisa e também em recortes reduzidos de análise ao invés de pesquisas de cunho geral. Estudos de caso e recortes reduzidos têm sobretudo grande valia para verificação de casos sui generis , o que não foi a motivação dos pesquisadores observados, cujos achados costumeiramente acompanharam e  corroboraram  aquilo  que  já  se  sabia  sobre  a  política  pública  analisada.  Desta  forma, entende-se  que  o  uso  de  recortes  restritos  foi  motivado  única  e  exclusivamente  por limitações de recursos.
 
-<!-- PAGE: 33 -->
+<!-- PAGE: 3 -->
 
 Sobre as lacunas, é particularmente importante mencionar que a maior parte dos estudos  não  mencionou  o  desenho  da  política  pública,  quem  financiou  o  programa  em questão, e houve frequente omissão a respeito de instrumentos e insumos aplicados para a formulação da pesquisa.
 
@@ -540,7 +540,7 @@ As  limitações  temáticas  também  merecem  comentário:  ciências  da  sa�
 
 Os  métodos  e  técnicas  observados,  cujo  teste  de  coocorrência  pode  ser observado em quadro 1, no apêndice 1, mostra que existe pouca frequência de uso de métodos mistos, e sim trabalhos de cunho puramente qualitativo ou quantitativo. O maior trânsito metodológico se encontrou na combinação de análises gerenciais e ferramentas de gestão de processos (como ferramentas de desenho de pesquisa) que foram presentes em textos de todas as abordagens metodológicas.
 
-<!-- PAGE: 34 -->
+<!-- PAGE: 4 -->
 
 # 9.1 LIMITAÇÕES DA PESQUISA
 
@@ -548,7 +548,7 @@ Primeiramente, uma limitação importante da presente revisão é o fato de que 
 
 É  importante  mencionar  também  que  não  existe  protocolo  fixo  para  relatar avaliações de políticas públicas, de modo que certas informações relevantes não puderam ser encontradas. Por exemplo, raramente uma avaliação de uma política informou a respeito de órgãos financiadores. Mesmo sabendo que o programa analisado foi beneficiário de tais recursos, a pesquisa demandava registro apenas de informações relatadas pelos autores ou seja, não era possível o uso de fontes externas de informação. Assim, existem lacunas informacionais nos textos analisados que poderiam ser remediadas com a criação de uma checklist ou protocolo fixo para relatar avaliações de políticas públicas.
 
-<!-- PAGE: 35 -->
+<!-- PAGE: 5 -->
 
 # 10. CONSIDERAÇÕES FINAIS
 
@@ -560,7 +560,7 @@ Como  resultado,  foram  aprovados  81  documentos  nas  áreas  da  saúde, edu
 
 Além desse documento, outro produto resultado do Projeto de Sistematização da Avaliação de Políticas Públicas no Brasil é o Repositório Avaliação de Políticas Públicas no Brasil, que pode ser acessado na página web do Ipardes/Publicações ou diretamente pelo link < https://www.ipardes.pr.gov.br/Pagina/Repositorio-Avaliacao-de-PoliticasPublicas>. Nele, pode-se acessar as 81 publicações com 83 avaliações de políticas públicas no país, sendo nos temas educação (32), saúde (41) e segurança pública (8), que foram submetidas a revisão de escopo.
 
-<!-- PAGE: 36 -->
+<!-- PAGE: 6 -->
 
 # REFERÊNCIAS
 
@@ -574,7 +574,7 @@ TRICCO, A.  C.;  LILLIE,  E.;  ZARIN,  W.;  et  al.  PRISMA  Extension  for  Sco
 
 WHITEHEAD, D.; HARDING, THOMAS. Analysing Data in Qualitative Research . Nursing and midwifery  research:  methods  and  appraisal for  evidence-based  practice.  5  ed.,  v.  1, p.141-160, 2016. Chatswood, N.S.W: Elsevier Australia.
 
-<!-- PAGE: 37 -->
+<!-- PAGE: 7 -->
 
 # APENDICE 1
 
@@ -642,7 +642,7 @@ Lista de think tanks e outras organizações não governamentais que foram visit
 
  Instituto Alana
 
-<!-- PAGE: 38 -->
+<!-- PAGE: 8 -->
 
  Instituto Igarapé
 
@@ -678,12 +678,12 @@ Lista de think tanks e outras organizações não governamentais que foram visit
 
  UNESCO Institute for Statistics (UIS/UNESCO)
 
-<!-- PAGE: 39 -->
+<!-- PAGE: 9 -->
 
 # QUADRO1- COOCORRÊNCIA DE MÉTODOS E TÉCNICAS DE AVALIAÇÃO
 
 Elaboração: DAPP/IPARDES
 
-<!-- PAGE: 40 -->
+<!-- PAGE: 10 -->
 
 Elaboração: DAPP/IPARDES
