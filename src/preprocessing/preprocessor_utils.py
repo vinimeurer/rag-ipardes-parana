@@ -57,7 +57,8 @@ class PreprocessorUtils:
         Returns:
             String de descrição.
         """
-        return PDF_SOURCES.get(pdf_key, {}).get("description", pdf_key)
+        pdf_config = PDF_SOURCES.get(pdf_key)
+        return pdf_config.description if pdf_config else pdf_key
     
     @staticmethod
     def get_timestamp() -> str:

@@ -23,7 +23,8 @@ def get_skip_until_page(pdf_key: str) -> int:
     Returns:
         Número de páginas a pular (0 se não configurado).
     """
-    return PDF_SOURCES.get(pdf_key, {}).get("skip_until_page", 0)
+    pdf_config = PDF_SOURCES.get(pdf_key)
+    return pdf_config.skip_until_page if pdf_config else 0
 
 
 class ContentFilter:
