@@ -61,6 +61,7 @@ rag-ipardes-parana/
 │   ├── ingestion/                       # Pipeline de extração de PDFs com Docling + tratamento de tabelas
 │   │   ├── ingestion_pipeline.py        # Orquestrador: executa extração + serialização para cada PDF
 │   │   ├── pdf_extractor.py             # Extrator CPU-only usando Docling (sem GPU, sem APIs externas)
+│   │   ├── pdf_splitter.py              # Divisão de PDFs em batches para processamento memory-efficient (evita bad_alloc)
 │   │   ├── table_extractor.py           # Extração dedicada de tabelas em formato matricial e Markdown
 │   │   ├── serializer.py                # Persiste artefatos em múltiplos formatos (txt, md, json + tables/)
 │   │   └── __init__.py

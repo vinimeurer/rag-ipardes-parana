@@ -14,6 +14,7 @@ from docling.datamodel.document import DoclingDocument
 from docling.datamodel.pipeline_options import PdfPipelineOptions
 from docling.document_converter import DocumentConverter, PdfFormatOption
 
+from .pdf_splitter import split_pdf, cleanup_splits
 from .table_extractor import ExtractedTable, TableExtractionResult, TableExtractor
 from ..core.ingestion_config import IngestionPipelineConfig
 from ..core.logger import setup_logger
@@ -121,7 +122,7 @@ class DoclingPDFExtractor:
                 error=f"Chave '{pdf_key}' não encontrada em PDF_SOURCES.",
             )
 
-        pdf_path: Path = source_info["local_path"]
+        pdf_path: Path = source_info.local_path
 
         if not pdf_path.exists():
             return ExtractionResult(
@@ -134,41 +135,62 @@ class DoclingPDFExtractor:
         logger.info("Iniciando extração de '%s' (%s)", pdf_key, pdf_path.name)
 
         try:
-            conversion = self._converter.convert(str(pdf_path))
-            docling_doc: DoclingDocument = conversion.document
-
-            full_text = docling_doc.export_to_text()
-
-            pages = self._extract_pages(docling_doc)
+            splits = split_pdf(pdf_path, self.config.batch_size)
             
-            full_markdown = "\n\n".join(page.markdown for page in pages)
+            all_pages: list[ExtractedPage] = []
+            all_tables: list[ExtractedTable] = []
 
-            table_result: TableExtractionResult = self._table_extractor.extract(
-                pdf_key, docling_doc
-            )
+            for split_path, page_offset in splits:
+                conversion = self._converter.convert(str(split_path))
+                docling_doc: DoclingDocument = conversion.document
+
+                batch_pages = self._extract_pages(docling_doc)
+
+                for page in batch_pages:
+                    page.page_number += page_offset
+
+                all_pages.extend(batch_pages)
+
+                table_result: TableExtractionResult = self._table_extractor.extract(
+                    pdf_key, docling_doc
+                )
+
+                for table in table_result.tables:
+                    table.page_number += page_offset
+                    table.table_index = len(all_tables)
+
+                all_tables.extend(table_result.tables)
+
+            cleanup_splits(splits)
+
+            full_text = "\n\n".join(page.text for page in all_pages)
+            full_markdown = "\n\n".join(page.markdown for page in all_pages)
 
             metadata = {
                 "pdf_key": pdf_key,
                 "source_path": str(pdf_path),
-                "description": source_info.get("description", ""),
-                "total_pages": len(pages),
-                "total_tables": table_result.total_extracted,
-                "tables_found": table_result.total_found,
+                "description": getattr(source_info, "description", ""),
+                "total_pages": len(all_pages),
+                "total_tables": len(all_tables),
+                "tables_found": len(all_tables),
                 "docling_schema_version": "2",
+                "batch_size": self.config.batch_size,
+                "num_batches": len(splits),
             }
 
             logger.info(
-                "Extração concluída para '%s': %d páginas, %d tabelas.",
+                "Extração concluída para '%s': %d páginas, %d tabelas, %d batches.",
                 pdf_key,
-                len(pages),
-                table_result.total_extracted,
+                len(all_pages),
+                len(all_tables),
+                len(splits),
             )
 
             return ExtractionResult(
                 pdf_key=pdf_key,
                 pdf_path=pdf_path,
-                pages=pages,
-                tables=table_result.tables,
+                pages=all_pages,
+                tables=all_tables,
                 full_text=full_text,
                 full_markdown=full_markdown,
                 metadata=metadata,
