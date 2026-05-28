@@ -85,7 +85,7 @@ Para evitar erro `std::bad_alloc` (estouro de memória) ao processar PDFs grande
 
 **Processamento independente** — cada batch é convertido isoladamente pelo Docling, liberando memória após cada conversão.
 
-**Agregação com rastreabilidade** — os resultados são mesclados preservando offset de página global. Cada página e tabela recebe ajuste de numeração (`page.page_number += offset`) para manter correspondência com o PDF original. Índices de tabelas são reajustados globalmente (`table.table_index = len(all_tables)`) para evitar overwrite no serializer.
+**Agregação com rastreabilidade** — os resultados são mesclados preservando offset de página global. Cada página e tabela recebe ajuste de numeração (`page.page_number += offset`) para manter correspondência com o PDF original. Índices de tabelas são reajustados globalmente com incremento sequencial (`table.table_index = len(all_tables) + idx`) para garantir que cada tabela receba um índice único e evitar overwrite no serializer.
 
 **Cleanup automático** — arquivos temporários são removidos imediatamente após processamento.
 

@@ -3,7 +3,7 @@
     "pdf_key": "desenvolvimento_paranaense",
     "description": "Desenvolvimento Paranaense - Análise socioeconômica do Estado",
     "total_pages": 211,
-    "processed_at": "2026-05-14T11:08:46.214635",
+    "processed_at": "2026-05-28T12:07:23.842187",
     "has_sections": true
   },
   "content": [
@@ -50,7 +50,7 @@
         "1 CONDIÇÕES DA EXPANSÃO ECONÔMICA PARANAENSE DESDE OS ANOS NOVENTA"
       ],
       "type": "text",
-      "content": "TABELA 1 - CRESCIMENTO DE PIB E PIB PER CAPITA DO PARANÁ, SOB HIPÓTESES DE AJUSTE DE POUPANÇA E TECNOLOGIA\n\nFONTE: IPARDES (2022)\n\nNOTAS:  Taxa de depreciação em 3%.\n\nCrescimento da força de trabalho (população de 15 a 64 anos) em 1,24% ao ano.\n\nCrescimento populacional em 0,94%.\n\nOs resultados das simulações I a IV parecem bastante razoáveis ao aderirem à velocidade recente do PIB per capita estadual, em particular, no horizonte de mais de duas décadas (conforme sugerido pela linha de crescimento médio para o intervalo completo entre 1999 e 2019, no gráfico 1). E ao derivarem do uso dos valores estimados para a média de taxa de poupança e o crescimento da força de trabalho, implicam assumir ao Paraná uma condição da produtividade muito convergente com o que pesquisa econômica dos últimos anos vem apontando para o País, a saber: baixa taxa de crescimento. Reforçam esse argumento os resultados obtidos em IPARDES (2022), em que a produtividade do trabalho alcançou, nos últimos 20 anos, algo próximo a uma média de 0,9% anual. Mesmo que não seja um padrão em períodos históricos diversos, a taxa da PTF usualmente mantém-se significativamente abaixo da medida parcial mencionada. 1\n\nAs simulações V e VI têm, tão somente, a intenção de indicar razões para o período em que o Paraná apresentou taxas de renda per capita mais elevadas, particularmente entre o fim da década de 2000 até meados da década de 2010, em conformidade com o gráfico 1, tendo sido relevantes, nessa fase, as prováveis elevações de poupança e produtividade. 2\n\nPor fim, o exercício aponta dois outros resultados importantes. Primeiro, que a economia paranaense não estaria muito distante de uma expansão per capita de longo prazo de apenas 1,2% ao ano - valor que pode ser considerado baixo, levando-se em conta, por exemplo, a diferença a ser diminuída do padrão per capita do Paraná com o da economia paulista. Segundo, antecipa que, mesmo com os padrões de crescimento demográfico declinantes projetados para os próximos anos, reserva-se uma tarefa maior à taxa de poupança e à produtividade como saídas para uma ampliação per capita mais significativa.\n\n1 Sobre esse ponto, verificar Bacha e Bonelli (2012), cujos resultados para o PIB por trabalhador e para a PTF da economia brasileira revelam para a maior parte dos subperíodos, e mesmo para o período como um todo (entre 1948 e 2011), taxas significativamente superiores do primeiro aos da PTF. Para o período 20022020, os dados do Observatório da Produtividade da FGV para o Brasil vão no mesmo sentido: resultam em taxas anuais de 0,9% para a produtividade do trabalho e 0,5% para a PTF.\n\n2 De fato, em IPARDES (2022) aponta-se um significativo aumento da taxa de investimento nesse período, em linha com o que se observou no País."
+      "content": "TABELA 1 - CRESCIMENTO DE PIB E PIB PER CAPITA DO PARANÁ, SOB HIPÓTESES DE AJUSTE DE POUPANÇA E TECNOLOGIA\n\nFONTE: IPARDES (2022)\n\nNOTAS: Taxa de depreciação em 3%.\n\nCrescimento da força de trabalho (população de 15 a 64 anos) em 1,24% ao ano.\n\nCrescimento populacional em 0,94%.\n\nOs resultados das simulações I a IV parecem bastante razoáveis ao aderirem à velocidade recente do PIB per capita estadual, em particular, no horizonte de mais de duas décadas (conforme sugerido pela linha de crescimento médio para o intervalo completo entre 1999 e 2019, no gráfico 1). E ao derivarem do uso dos valores estimados para a média de taxa de poupança e o crescimento da força de trabalho, implicam assumir ao Paraná uma condição da produtividade muito convergente com o que pesquisa econômica dos últimos anos vem apontando para o País, a saber: baixa taxa de crescimento. Reforçam esse argumento os resultados obtidos em IPARDES (2022), em que a produtividade do trabalho alcançou, nos últimos 20 anos, algo próximo a uma média de 0,9% anual. Mesmo que não seja um padrão em períodos históricos diversos, a taxa da PTF usualmente mantém-se significativamente abaixo da medida parcial mencionada. 1\n\nAs simulações V e VI têm, tão somente, a intenção de indicar razões para o período em que o Paraná apresentou taxas de renda per capita mais elevadas, particularmente entre o fim da década de 2000 até meados da década de 2010, em conformidade com o gráfico 1, tendo sido relevantes, nessa fase, as prováveis elevações de poupança e produtividade. 2\n\nPor fim, o exercício aponta dois outros resultados importantes. Primeiro, que a economia paranaense não estaria muito distante de uma expansão per capita de longo prazo de apenas 1,2% ao ano - valor que pode ser considerado baixo, levando-se em conta, por\n\n1 Sobre esse ponto, verificar Bacha e Bonelli (2012), cujos resultados para o PIB por trabalhador e para a PTF da economia brasileira revelam para a maior parte dos subperíodos, e mesmo para o período como um todo (entre 1948 e 2011), taxas significativamente superiores do primeiro aos da PTF. Para o período 20022020, os dados do Observatório da Produtividade da FGV para o Brasil vão no mesmo sentido: resultam em taxas anuais de 0,9% para a produtividade do trabalho e 0,5% para a PTF.\n\n2 De fato, em IPARDES (2022) aponta-se um significativo aumento da taxa de investimento nesse período, em linha com o que se observou no País."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -61,6 +61,15 @@
       "type": "table",
       "caption": "TABELA 1 - CRESCIMENTO DE PIB E PIB PER CAPITA DO PARANÁ, SOB HIPÓTESES DE AJUSTE DE POUPANÇA E TECNOLOGIA",
       "content": "Tabela: TABELA 1 - CRESCIMENTO DE PIB E PIB PER CAPITA DO PARANÁ, SOB HIPÓTESES DE AJUSTE DE POUPANÇA E TECNOLOGIA\n\n| SIMULAÇÕES.SIMULAÇÕES | POUPANÇA.Taxa (%) | TECNOLOGIA (g).Taxa de Crescimento (%) | TAXAS DE CRESCIMENTO (%).PIB | TAXAS DE CRESCIMENTO (%).PIB per capita |\n| --- | --- | --- | --- | --- |\n| I | 17 | 0,3 | 2,1 | 1,2 |\n| II | 17 | 0,5 | 2,2 | 1,3 |\n| III | 18 | 0,3 | 2,4 | 1,4 |\n| IV | 18 | 0,5 | 2,5 | 1,6 |\n| V | 19 | 0,3 | 2,6 | 1,7 |\n| VI | 19 | 0,6 | 2,8 | 1,9 |"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 11,
+      "sections": [
+        "1 CONDIÇÕES DA EXPANSÃO ECONÔMICA PARANAENSE DESDE OS ANOS NOVENTA"
+      ],
+      "type": "text",
+      "content": "exemplo, a diferença a ser diminuída do padrão per capita do Paraná com o da economia paulista. Segundo, antecipa que, mesmo com os padrões de crescimento demográfico declinantes projetados para os próximos anos, reserva-se uma tarefa maior à taxa de poupança e à produtividade como saídas para uma ampliação per capita mais significativa."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -178,7 +187,7 @@
         "3 AVANÇOS E PERFIL DA PRODUTIVIDADE NO PARANÁ"
       ],
       "type": "text",
-      "content": "inferior à média da economia. Além disso, sobressai implicitamente o caráter pró-cíclico da produtividade, com fases de ampliação e redução coincidentes com respectivos períodos de expansão e estagnação das economias nacional e estadual.\n\nQuais são as possíveis fontes de expansão dos níveis gerais de produtividade identificados: predominam ganhos generalizados entre as diversas atividades ou ganhos advindos da realocação de fatores, de atividades menos produtivas para mais produtivas?\n\nA aplicação da técnica shift and share à economia paranaense revela uma série de insights . Considerando as concepções da técnica, observa-se na última linha da tabela 1 a produtividade determinada mais por ganhos generalizados, dados pelo efeito III, do que por alocações estruturais entre grandes setores econômicos, conforme efeito I.\n\nTABELA 1 - PRODUTIVIDADE DO TRABALHO, EM ANÁLISE SHIFT AND SHARE PARANÁ - 2002-2019\n\nFONTE: IPARDES\n\nEntretanto, o efeito I revela movimento importante de alocação nos ganhos de produtividade. A inspeção setorial denota aumentos de produtividade fortemente influenciados pelo setor agropecuário, caracterizado pela expulsão e menor uso de mão de obra (comportamento capturado pelos componentes I e II do setor), a partir do que, a propósito, presume-se uma elevação da relação entre os fatores capital e trabalho, com ampliação do uso de máquinas e equipamentos em detrimento da mão de obra aplicada, a qual decresce significativamente, conforme os dados da PNAD demonstram enfaticamente desde meados da década passada. Em conjunto com inovações tecnológicas no campo, observa-se continuidade de uma transição iniciada, na realidade, nos anos 1970 com a modernização do seu setor agropecuário. Em específico, a modernização vincula-se fortemente à opção regional da especialização nas commoditie s mundiais milho e soja e, mais distanciadamente, feijão, bem como em proteína animal - destacadamente frangos e suínos. 1\n\nO contraponto é dado por ganhos de produtividade oriundos de realocação de recursos e mão de obra para o setor de serviços (conforme o efeito I para esse setor), o qual teve aumentados níveis de produtividade, porém, embora em velocidade bastante inferior. Em outras palavras, os ganhos de produtividade advieram de uma reestruturação setorial, com redução do contingente ocupado em um setor de menor produtividade (principalmente no início do período de análise) e subsequente realocação em outro de maior produtividade, marcadamente o setor de serviços.\n\n1 As informações do Censo Agropecuário de 2017, em cotejo com o de 2006, segundo análise em Bazotti e Silva (2020) seguem confirmando essas direções, em que mudanças observadas no perfil produtivo, entre outras, redundaram no expressivo declínio do pessoal ocupado na atividade agropecuária."
+      "content": "inferior à média da economia. Além disso, sobressai implicitamente o caráter pró-cíclico da produtividade, com fases de ampliação e redução coincidentes com respectivos períodos de expansão e estagnação das economias nacional e estadual.\n\nQuais são as possíveis fontes de expansão dos níveis gerais de produtividade identificados: predominam ganhos generalizados entre as diversas atividades ou ganhos advindos da realocação de fatores, de atividades menos produtivas para mais produtivas?\n\nA aplicação da técnica shift and share à economia paranaense revela uma série de insights . Considerando as concepções da técnica, observa-se na última linha da tabela 1 a produtividade determinada mais por ganhos generalizados, dados pelo efeito III, do que por alocações estruturais entre grandes setores econômicos, conforme efeito I.\n\nTABELA 1 - PRODUTIVIDADE DO TRABALHO, EM ANÁLISE SHIFT AND SHARE PARANÁ - 2002-2019\n\nFONTE: IPARDES\n\nEntretanto, o efeito I revela movimento importante de alocação nos ganhos de produtividade. A inspeção setorial denota aumentos de produtividade fortemente influenciados pelo setor agropecuário, caracterizado pela expulsão e menor uso de mão de obra (comportamento capturado pelos componentes I e II do setor), a partir do que, a propósito, presume-se uma elevação da relação entre os fatores capital e trabalho, com ampliação do uso de máquinas e equipamentos em detrimento da mão de obra aplicada, a qual decresce significativamente, conforme os dados da PNAD demonstram enfaticamente desde meados da década passada. Em conjunto com inovações tecnológicas no campo, observa-se continuidade de uma transição iniciada, na realidade, nos anos 1970 com a modernização do seu setor agropecuário. Em específico, a modernização vincula-se fortemente à opção regional da especialização nas commoditie s mundiais milho e soja e, mais distanciadamente, feijão, bem como em proteína animal - destacadamente frangos e suínos. 1\n\nO contraponto é dado por ganhos de produtividade oriundos de realocação de recursos e mão de obra para o setor de serviços (conforme o efeito I para esse setor), o qual teve aumentados níveis de produtividade, porém, embora em velocidade bastante\n\n1 As informações do Censo Agropecuário de 2017, em cotejo com o de 2006, segundo análise em Bazotti e Silva (2020) seguem confirmando essas direções, em que mudanças observadas no perfil produtivo, entre outras, redundaram no expressivo declínio do pessoal ocupado na atividade agropecuária."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -197,7 +206,7 @@
         "3 AVANÇOS E PERFIL DA PRODUTIVIDADE NO PARANÁ"
       ],
       "type": "text",
-      "content": "Pelo prisma do efeito III, os ganhos intrassetoriais de produtividade também tiveram por maior contribuição o campo, cujo fluxo de inovações e maior aplicação de capital permitiu menor uso de mão de obra no campo, sendo o componente II (termo cruzado) revelador desse movimento.\n\nEsses ganhos também se revelam em uma análise a partir de outro fator particularmente importante, a terra. Por área plantada das principais culturas, o milho e o feijão, considerando a organização e disponibilidade de dados pela Companhia Nacional de Abastecimento (CONAB), crescem da safra 2000/2001 até a safra (estimada) de 2021/2022 respectivamente 0,8% e 1,2% ao ano. Quando se consideram, dentro desse período, os melhores anos, as performances anuais alcançam taxas superiores a 2%, superando picos de mais de 5% no caso do feijão, ainda na década de 2000. Sob esses mesmos comparativos, a soja apresentou comportamento menos favorável, com decréscimo de 1,9% no critério ponta a ponta (em função da forte estiagem durante a última safra) e com pico de 1,3% em seu melhor momento da série (a safra 2019/2020).\n\nNa pecuária, os ganhos são mais expressivos nas cadeias de destaque no Estado. Pela pesquisa trimestral de abate do IBGE, a produção de frangos cresce 5,7% entre 1997 e 2021, enquanto em suínos observa-se expansão de 5,8% ao ano, no mesmo intervalo - taxa que propiciou desde 2015 à produção paranaense alcançar o segundo posto entre os demais estados.\n\nPor sua vez, em todo o período o setor industrial é marcado por um quadro de estagnação, conforme já antecipado por sua quase nula taxa de crescimento. Lembrandose que na classificação utilizada este setor inclui segmentos de eletricidade, gás e saneamento, construção civil e indústrias extrativas de transformação, o exercício shift and share indica irrisória contribuição no conjunto dos grandes setores no resultado final da produtividade, em que se observa a quase ausência de realocação (efeito I) e de ganhos internos de eficiência (efeito III)."
+      "content": "inferior. Em outras palavras, os ganhos de produtividade advieram de uma reestruturação setorial, com redução do contingente ocupado em um setor de menor produtividade (principalmente no início do período de análise) e subsequente realocação em outro de maior produtividade, marcadamente o setor de serviços.\n\nPelo prisma do efeito III, os ganhos intrassetoriais de produtividade também tiveram por maior contribuição o campo, cujo fluxo de inovações e maior aplicação de capital permitiu menor uso de mão de obra no campo, sendo o componente II (termo cruzado) revelador desse movimento.\n\nEsses ganhos também se revelam em uma análise a partir de outro fator particularmente importante, a terra. Por área plantada das principais culturas, o milho e o feijão, considerando a organização e disponibilidade de dados pela Companhia Nacional de Abastecimento (CONAB), crescem da safra 2000/2001 até a safra (estimada) de 2021/2022 respectivamente 0,8% e 1,2% ao ano. Quando se consideram, dentro desse período, os melhores anos, as performances anuais alcançam taxas superiores a 2%, superando picos de mais de 5% no caso do feijão, ainda na década de 2000. Sob esses mesmos comparativos, a soja apresentou comportamento menos favorável, com decréscimo de 1,9% no critério ponta a ponta (em função da forte estiagem durante a última safra) e com pico de 1,3% em seu melhor momento da série (a safra 2019/2020).\n\nNa pecuária, os ganhos são mais expressivos nas cadeias de destaque no Estado. Pela pesquisa trimestral de abate do IBGE, a produção de frangos cresce 5,7% entre 1997 e 2021, enquanto em suínos observa-se expansão de 5,8% ao ano, no mesmo intervalo - taxa que propiciou desde 2015 à produção paranaense alcançar o segundo posto entre os demais estados.\n\nPor sua vez, em todo o período o setor industrial é marcado por um quadro de estagnação, conforme já antecipado por sua quase nula taxa de crescimento. Lembrandose que na classificação utilizada este setor inclui segmentos de eletricidade, gás e saneamento, construção civil e indústrias extrativas de transformação, o exercício shift and share indica irrisória contribuição no conjunto dos grandes setores no resultado final da produtividade, em que se observa a quase ausência de realocação (efeito I) e de ganhos internos de eficiência (efeito III)."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -422,15 +431,6 @@
       ],
       "type": "text",
       "content": "Por fim, embora este trabalho não tenha explorado o tema, cabe mencionar que esses ganhos podem ser aumentados por via de economias de escala proporcionadas por investimentos em setores de infraestrutura. Sobre esse ponto, é oportuno o trabalho de Frischtak (2012). O autor não trata exatamente dessa relação, mas é possível considera-la implícita na inspeção que realiza na relação entre infraestrutura e PIB per capita , para a qual sugere evidências de efeitos positivos da infraestrutura sobre o PIB, considerando evidências da experiência internacional; e nota, ainda, que rendas per capita mais elevadas requerem maior oferta de serviços de infraestrutura."
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 36,
-      "sections": [
-        "REESTRUTURAÇÃO INDUSTRIAL E COMPETITIVIDADE DO COMÉRCIO EXTERIOR DO PARANÁ"
-      ],
-      "type": "text",
-      "content": "# REESTRUTURAÇÃO INDUSTRIAL E COMPETITIVIDADE DO COMÉRCIO EXTERIOR DO PARANÁ\n\nFrancisco José Gouveia de Castro *"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -723,15 +723,6 @@
       "document": "desenvolvimento_paranaense",
       "page": 57,
       "sections": [
-        "INFRAESTRUTURA DE TRANSPORTES DO PARANÁ: DEMANDAS, IMPORTÂNCIA E NECESSIDADES"
-      ],
-      "type": "text",
-      "content": "# INFRAESTRUTURA DE TRANSPORTES DO PARANÁ: DEMANDAS, IMPORTÂNCIA E NECESSIDADES\n\nJulio Takeshi Suzuki Júnior *"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 57,
-      "sections": [
         "INTRODUÇÃO"
       ],
       "type": "text",
@@ -771,7 +762,7 @@
         "2 A EVOLUÇÃO DA DEMANDA POR SERVIÇOS DE TRANSPORTES"
       ],
       "type": "text",
-      "content": "local totalizou 282.762 unidades, o que correspondeu a uma expressiva participação de 9,8% no total nacional de caminhões, muito acima, por exemplo, do peso do Estado no PIB brasileiro (6,3%) ou na população do País (5,4%), demonstrando a relevância da atividade de transportes no Paraná, derivada da necessidade de movimentação de grandes volumes de cargas. Com a citada dimensão da frota, o Estado ocupou a 3ª posição no rankin g das UFs, atrás apenas de São Paulo e Minas Gerais.\n\nGRÁFICO 2 - FROTA DE CAMINHÕES - PARANÁ - 2006-2020\n\nFONTE: IBGE\n\nO crescimento do segmento de transportes e a consequente necessidade de expansão da capacidade da infraestrutura rodoviária podem ser comprovados também por um certo desequilíbrio entre a ampliação do VAB da atividade e a evolução da extensão da malha pavimentada. No ano de 2017, o índice resultante do quociente entre as duas variáveis mencionadas foi 39,5% superior ao observado em 2002 (gráfico 3), o que denota, possivelmente, contínua aproximação aos limites do sistema estadual de rodovias, que podem ser expandidos por inversões para a elevação da capacidade, não apenas pela via do aumento da extensão da rede, como também por meio de duplicaç ões, terceiras pistas e outras melhorias qualitativas.\n\nSomente a título de comparação, o índice em questão evoluiu 7,7% no País no período 2002-2019, subindo 28,8% em Santa Catarina, 7,3% no Rio Grande do Sul e 32,2% em São Paulo. Ou seja, as demandas por serviços de transporte parecem ter exercido maiores pressões sobre a infraestrutura rodoviária paranaense, no confronto com os outros quatro territórios selecionados."
+      "content": "local totalizou 282.762 unidades, o que correspondeu a uma expressiva participação de 9,8% no total nacional de caminhões, muito acima, por exemplo, do peso do Estado no PIB brasileiro (6,3%) ou na população do País (5,4%), demonstrando a relevância da atividade de transportes no Paraná, derivada da necessidade de movimentação de grandes volumes de cargas. Com a citada dimensão da frota, o Estado ocupou a 3ª posição no rankin g das UFs, atrás apenas de São Paulo e Minas Gerais.\n\nGRÁFICO 2 - FROTA DE CAMINHÕES - PARANÁ - 2006-2020\n\nFONTE: IBGE\n\nO crescimento do segmento de transportes e a consequente necessidade de expansão da capacidade da infraestrutura rodoviária podem ser comprovados também por um certo desequilíbrio entre a ampliação do VAB da atividade e a evolução da extensão da malha pavimentada. No ano de 2017, o índice resultante do quociente entre as duas variáveis mencionadas foi 39,5% superior ao observado em 2002 (gráfico 3), o que denota, possivelmente, contínua aproximação aos limites do sistema estadual de rodovias, que podem ser expandidos por inversões para a elevação da capacidade, não apenas pela via do aumento da extensão da rede, como também por meio de duplicaç ões, terceiras pistas e outras melhorias qualitativas.\n\nSomente a título de comparação, o índice em questão evoluiu 7,7% no País no período 2002-2019, subindo 28,8% em Santa Catarina, 7,3% no Rio Grande do Sul e 32,2% em São Paulo. Ou seja, as demandas por serviços de transporte parecem ter exercido maiores pressões sobre a infraestrutura rodoviária paranaense, no confronto com os outros quatro territórios selecionados."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -781,15 +772,6 @@
       ],
       "type": "text",
       "content": "GRÁFICO 3 - ÍNDICE DO QUOCIENTE ENTRE O VALOR ADICIONADO BRUTO (VAB) DOS TRANSPORTES E A EXTENSÃO DA MALHA RODOVIÁRIA PAVIMENTADA - PARANÁ, SANTA CATARINA, RIO GRANDE DO SUL, SÃO PAULO E BRASIL - 2002-2017\n\nPor fim, a despeito de não contemplar a totalidade da malha, o fluxo de veículos nas estradas pedagiadas do Estado igualmente corrobora a ampliação dos serviços de transporte rodoviário. De acordo com números da ABCR, a movimentação de veículos pesados, que expressa o deslocamento da produção física, cresceu 50,1% no Paraná de 1999 a 2020 (gráfico 4), delineando uma trajetória um pouco mais estável que a dos veículos leves (carros, motocicletas e caminhonetes), cuja tendência expansionista foi muito marcante de meados da década de 2000 até o início da recessão brasileira do período 2014-2016, refletindo a favorável condição do consumo familiar daquele intervalo, em contraposição ao forte declínio observado em 2020, com a evolução da pandemia do coronavírus."
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 62,
-      "sections": [
-        "2 A EVOLUÇÃO DA DEMANDA POR SERVIÇOS DE TRANSPORTES"
-      ],
-      "type": "text",
-      "content": "GRÁFICO 4 - ÍNDICE ABCR DOS VEÍCULOS LEVES E PESADOS - PARANÁ - 1999-2020\n\nFONTE: ABCR"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -844,15 +826,6 @@
       ],
       "type": "text",
       "content": "GRÁFICO 8 - PARTICIPAÇÃO NO PIB BRASILEIRO - PARANÁ - 1985-2020\n\nFONTES: IBGE, IPARDES\n\nTodavia, alguns desafios estão colocados para a ampliação, e até mesmo para a manutenção, da representatividade econômica paranaense, lembrando casos como o do Rio Grande do Sul, com queda da participação na economia brasileira de 7,88% para 6,53% no período de 1985 a 2019, e o da Bahia, de 5,35% para 3,97%, como resultado de taxas médias anuais de crescimento inferiores à do País nas últimas décadas.\n\nConsiderando a mencionada maturidade da economia local, que representa, entre outros, a expiração de antigos vetores de crescimento como a exploração de novas fronteiras agrícolas e a intensa migração de mão de obra para atividades com produtividade mais elevada, a continuidade do processo de desenvolvimento parece estar condicionada cada vez mais às melhorias de caráter horizontal, que favorecem a atividade econômica sistemicamente, não se restringindo a segmentos eleitos como estratégicos ou prioritários. Nessa perspectiva, não há dúvida de que são imprescindíveis os avanços educacionais, de modo a ampliar o capital humano, a racionalização do sistema tributário, o fortalecimento das instituições e a desburocratização, somente para mencionar alguns exemplos, cabendo à eficiência logística papel igualmente importante.\n\nPor isso, são desejáveis melhorias qualitativas e quantitativas na infraestrutura de transportes paranaense, com o objetivo não apenas de comportar o projetado aumento da movimentação de cargas, mas também para promover o ingresso de novos empreendimentos produtivos, atraídos por um diferenciado aparato logístico, o que adensaria o tecido econômico local. Essas melhorias não se resumiriam ao aumento da capacidade do sistema rodoviário, pela via da ampliação da extensão da malha ou da elevação da proporção de estradas duplicadas, envolvendo também os modais ferroviário, com grande potencial na movimentação de commodities agrícolas para exportação, aeroportuário, dutoviário e aquaviário, assegurando ganhos tanto nas movimentações internas quanto nos deslocamentos que extrapolam o território estadual, dadas as interligações entre as estruturas logísticas regionais."
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 67,
-      "sections": [
-        "ENERGIA NO PARANÁ: BREVE PANORAMA E INDICAÇÕES SOBRE A DEMANDA FUTURA"
-      ],
-      "type": "text",
-      "content": "# ENERGIA NO PARANÁ: BREVE PANORAMA E INDICAÇÕES SOBRE A DEMANDA FUTURA\n\nDaniel Nojima *"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1043,15 +1016,6 @@
       "document": "desenvolvimento_paranaense",
       "page": 80,
       "sections": [
-        "CONDIÇÕES E PERSPECTIVAS DA OFERTA DE ENERGIA ELÉTRICA NO PARANÁ"
-      ],
-      "type": "text",
-      "content": "# CONDIÇÕES E PERSPECTIVAS DA OFERTA DE ENERGIA ELÉTRICA NO PARANÁ\n\nGuilherme Amorim *"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 80,
-      "sections": [
         "INTRODUÇÃO"
       ],
       "type": "text",
@@ -1084,15 +1048,6 @@
       "type": "table",
       "caption": "TABELA 1 - GERAÇÃO DE ENERGIA ELÉTRICA, POR FONTE - PARANÁ E BRASIL - 2018",
       "content": "Tabela: TABELA 1 - GERAÇÃO DE ENERGIA ELÉTRICA, POR FONTE - PARANÁ E BRASIL - 2018\n\n| FONTE | PARANÁ.Geração (MW) | PARANÁ.Part. (%) | BRASIL.Geração (MW) | BRASIL.Part. (%) |\n| --- | --- | --- | --- | --- |\n| Hidrelétrica | 88.746 | 94,68 | 388.971 | 64,68 |\n| Eólica | 19 | 0,02 | 48.475 | 8,06 |\n| Solar | 30 | 0,03 | 3.461 | 0,58 |\n| Nuclear | - | - | 15.674 | 2,61 |\n| Termelétrica | 4.942 | 5,27 | 144.815 | 24,08 |\n| Biomassa - Cana-de-açúcar | 1.517 | 1,62 | 35.435 | 5,89 |\n| Biomassa - Lenha | 482 | 0,51 | 2.360 | 0,39 |\n| Biomassa - Lixívia | 2.165 | 2,31 | 14.081 | 2,34 |\n| Outras fontes renováveis | 58 | 0,06 | 2.116 | 0,35 |\n| Carvão | 50 | 0,05 | 14.204 | 2,36 |\n| Gás natural | 403 | 0,43 | 54.295 | 9,03 |\n| Gás de coqueria | - | - | 1.620 | 0,27 |\n| Óleo combustível | 57 | 0,06 | 5.047 | 0,84 |\n| Óleo diesel | 22 | 0,02 | 5.246 | 0,87 |\n| Outras fontes não renováveis | 189 | 0,20 | 10.412 | 1,73 |\n| TOTAL | 93.737 | 100,00 | 601.396 | 100,00 |"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 83,
-      "sections": [
-        "1 PANORAMA DO MERCADO DE ENERGIA ELÉTRICA"
-      ],
-      "type": "text",
-      "content": "TABELA 2 - AUTOGERAÇÃO DE ENERGIA ELÉTRICA, POR FONTE - PARANÁ E BRASIL - MARÇO DE 2022\n\nFONTE: ANEEL"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1185,15 +1140,6 @@
       "sections": [
         "3 TRANSMISSÃO"
       ],
-      "type": "text",
-      "content": "TABELA 6 - INCREMENTOS AO SISTEMA INTEGRADO NACIONAL - PARANÁ\n\ncontinua"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 88,
-      "sections": [
-        "3 TRANSMISSÃO"
-      ],
       "type": "table",
       "caption": "TABELA 6 - INCREMENTOS AO SISTEMA INTEGRADO NACIONAL - PARANÁ",
       "content": "Tabela: TABELA 6 - INCREMENTOS AO SISTEMA INTEGRADO NACIONAL - PARANÁ\n\n| EMPREENDIMENTO | CARACTERÍSTICA | NOME | DATA PREVISTA | INVESTIMENTO (R$ MIL) |\n| --- | --- | --- | --- | --- |\n| Subestação | Expansão | SE 230/69 kV D.I. São José dos Pinhais | 2024 | 7.654,78 |\n| Seccionamento de Linha de Transmissão | Nova | SECC LT 230 kV Umbará - Santa Quitéria, C1 (CD), na SE Barigui 2 | 2027 | 28.650,00 |\n| Subestação | Expansão | SE 230/138 kV Campo Mourão | 2033 | 9.544,46 |\n| Subestação | Expansão | SE 230/69/13.8 kV CIC | 2024 | 15.960,46 |\n| Subestação | Expansão | SE 230/69/13.8 kV Santa Quitéria | 2024 | ... |\n| Seccionamento de Linha de Transmissão | Nova | SECC LT 230 kV Uberaba - Umbará, C2 (CD), na SE Curitiba Sul | 2033 | 20.821,57 |\n| Linha de Transmissão | Nova | LT 525 kV Bateias - Curitiba Leste, C1 e C2 (CD) | 2027 | 246.271,81 |\n| Seccionamento de Linha de Transmissão | Nova | SECC LT 525 kV Bateias - Curitiba, C1 (CD), na SE Curitiba Oeste | 2029 | 39.007,67 |\n| Subestação | Expansão | SE 525/230 kV Areia | 2024 | 32.181,93 |\n| Subestação | Expansão | SE 230/69/13.8 kV Campo Comprido | 2024 | ... |\n| Seccionamento de Linha de Transmissão | Nova | SECC LT 525 kV Areia - Curitiba, C1 (CD), na SE UTE Araucária II | 2031 | 59.596,23 |\n| Linha de Transmissão | Nova | LT 525 kV Cascavel Oeste - Segredo, C1 | 2030 | 362.987,00 |\n| Subestação | Expansão | SE 525/230/138 kV Sarandi | 2024 | 22.959,68 |\n| Linha de Transmissão | Nova | LT 230 kV Litorânea - Posto Fiscal, C1 e C2 (CD) | 2030 | 18.568,19 |\n| Subestação | Nova | SE 525/230 kV Curitiba Oeste | 2029 | 255.036,02 |\n| Subestação | Nova | SE 525/230/138 kV Litorânea | 2030 | 246.177,11 |\n| Subestação | Expansão | SE 230/69 kV Pilarzinho | 2024 | 3.827,39 |\n| Subestação | Expansão | SE 525/230 kV Curitiba Leste | 2033 | 47.139,35 |\n| Subestação | Expansão | SE 525 kV Curitiba Leste | 2031 | 22.257,53 |\n| Linha de Transmissão | Expansão | LT 230 kV Governador Parigot de Souza - Posto Fiscal, C1 | 2030 | 22.072,72 |\n| Subestação | Expansão | SE 230/138 kV Santa Mônica | 2033 | 87.697,68 |\n| Subestação | Expansão | SE 230/69/13.8 kV D.I. São José dos Pinhais | 2024 | ... |\n| Subestação | Expansão | SE 230/13.8 kV Campo Comprido | 2024 | 15.136,25 |\n| Subestação | Expansão | SE 230/138/13.8 kV Campo do Assobio | 2024 | 22.833,89 |\n| Linha de Transmissão | Nova | LT 230 kV Curitiba Oeste - Barigui 2, C1 e C2 (CD) | 2029 | 83.605,84 |\n| Linha de Transmissão | Nova | LT 230 kV Curitiba Leste - Posto Fiscal, C2 e C3 (CD) | 2030 | 181.902,05 |\n| Subestação | Expansão | SE 525 kV Curitiba | 2024 | 79.743,28 |\n| Subestação | Expansão | SE 230/13.8 kV Santa Quitéria | 2033 | 17.963,54 |\n| Linha de Transmissão | Nova | LT 230 kV Curitiba Leste - Curitiba Sul, C1 e C2 (CD) | 2033 | 41.924,50 |\n| Subestação | Expansão | SE 230/138/13.8 kV Campo do Assobio | 2024 | ... |\n| Subestação | Expansão | SE 230/138 kV Posto Fiscal | 2033 | 22.959,68 |\n| Seccionamento de Linha de Transmissão | Nova | SECC LT 230 kV Campo Comprido - CIC, C1 (CD), na SE Curitiba Oeste | 2029 | 41.851,36 |\n| Subestação | Expansão | SE 230/138 kV Uberaba | 2027 | 74.190,92 |"
@@ -1225,7 +1171,17 @@
         "4.1 GÁS"
       ],
       "type": "text",
-      "content": "# 4.1 GÁS\n\nA Nova Lei do Gás, sancionada em abril de 2021, pôs fim ao monopólio da Petrobras e modificou o arcabouço jurídico e regulatório com o intuito de promover concorrência. Tem-se como meta triplicar a produção de gás natural em dez anos. Primordialmente, almeja-se integrar o segmento do gás ao sistema elétrico. O novo marco permite que consumidores industriais adquiram gás diretamente dos fornecedores. Tornam-se, portanto, independentes de distribuidoras locais que adquiriam o combustível exclusivamente da Petrobras. Os principais ramos industriais beneficiados são os de papel e celulose, cerâmica, fertilizantes, químicos e siderurgia.\n\nO texto procura harmonizar as regras regulatórias dos estados com o novo marco e promove ainda a remoção de barreiras tributárias. Destaca-se a substituição do regime de outorga da concessão pela autorização para explorar os serviços de transporte de gás natural e de estocagem subterrânea, o que tende a reduzir as exigências legais para a expansão da malha de transporte. A lei confere tratamento isonômico a todas as empresas que utilizarem os dutos de transporte para a passagem do gás às suas redes de distribuição, instalações de tratamento ou processamento de gás natural e terminais de gás natural liquefeito (GNL). Os maiores desafios estão associados à falta de infraestrutura para movimentação e armazenamento de gás, mais custosas do que as utilizadas na cadeia do petróleo. Atualmente, cerca de metade do gás extraído offshore é reinjetado por inexistência de rede de transporte. As inversões necessárias para a construção de gasodutos implicam extensa maturação, que, por sua vez, exige demanda mínima constante.\n\nNo tocante à geração de eletricidade, as termelétricas a diesel ou carvão são as principais candidatas à conversão ao uso de gás natural. Projeção da EPE estima que a modernização do setor deve acrescentar 0,5% de crescimento ao PIB até 2030.\n\nA produção brasileira de gás natural dobrou entre 2011 e 2021, de 24,07 bilhões para 48,82 bilhões de metros cúbicos, segundo informações da Agência Nacional de Petróleo (ANP). Somados os campos terrestres e marítimos, o volume reinjetado, contudo, cresceu 5,5 vezes nesse período. Essa falha estrutural se mostrou evidente em 2021, quando a ANEEL se viu obrigada, ante a indisponibilidade de gás e à escassez de energia hidrelétrica, a que termelétricas fossem reconvertidas para uso de diesel. Os projetos para expansão da malha de gasodutos offshore , pré-sal e pós-sal foram estudados pela EPE em 2021 e podem ser agrupados em três hubs , nas bacias de Campos, Espírito Santo e Sergipe-Alagoas. Somados, teriam extensão de 1.562 quilômetros e vazão diária de 100,4 milhões de metros cúbicos. Há que se esperar por mais resultados concretos da nova legislação."
+      "content": "# 4.1 GÁS\n\nA Nova Lei do Gás, sancionada em abril de 2021, pôs fim ao monopólio da Petrobras e modificou o arcabouço jurídico e regulatório com o intuito de promover concorrência. Tem-se como meta triplicar a produção de gás natural em dez anos. Primordialmente, almeja-se integrar o segmento do gás ao sistema elétrico. O novo marco permite que consumidores industriais adquiram gás diretamente dos fornecedores. Tornam-se, portanto, independentes de distribuidoras locais que adquiriam o combustível exclusivamente da Petrobras. Os principais ramos industriais beneficiados são os de papel e celulose, cerâmica, fertilizantes, químicos e siderurgia.\n\nO texto procura harmonizar as regras regulatórias dos estados com o novo marco e promove ainda a remoção de barreiras tributárias. Destaca-se a substituição do regime de outorga da concessão pela autorização para explorar os serviços de transporte de gás natural e de estocagem subterrânea, o que tende a reduzir as exigências legais para a expansão da malha de transporte. A lei confere tratamento isonômico a todas as empresas que utilizarem os dutos de transporte para a passagem do gás às suas redes de distribuição, instalações de tratamento ou processamento de gás natural e terminais de gás natural liquefeito (GNL). Os maiores desafios estão associados à falta de infraestrutura para movimentação e armazenamento de gás, mais custosas do que as utilizadas na cadeia do petróleo. Atualmente, cerca de metade do gás extraído offshore é reinjetado por inexistência de rede de transporte. As inversões necessárias para a construção de gasodutos implicam extensa maturação, que, por sua vez, exige demanda mínima constante.\n\nNo tocante à geração de eletricidade, as termelétricas a diesel ou carvão são as principais candidatas à conversão ao uso de gás natural. Projeção da EPE estima que a modernização do setor deve acrescentar 0,5% de crescimento ao PIB até 2030.\n\nA produção brasileira de gás natural dobrou entre 2011 e 2021, de 24,07 bilhões para 48,82 bilhões de metros cúbicos, segundo informações da Agência Nacional de Petróleo (ANP). Somados os campos terrestres e marítimos, o volume reinjetado, contudo, cresceu 5,5 vezes nesse período. Essa falha estrutural se mostrou evidente em 2021, quando a ANEEL se"
+    },
+    {
+      "document": "desenvolvimento_paranaense",
+      "page": 91,
+      "sections": [
+        "4 PERSPECTIVAS E POTENCIAL DE FONTES ALTERNATIVAS E RENOVÁVEIS",
+        "4.1 GÁS"
+      ],
+      "type": "text",
+      "content": "viu obrigada, ante a indisponibilidade de gás e à escassez de energia hidrelétrica, a que termelétricas fossem reconvertidas para uso de diesel. Os projetos para expansão da malha de gasodutos offshore , pré-sal e pós-sal foram estudados pela EPE em 2021 e podem ser agrupados em três hubs , nas bacias de Campos, Espírito Santo e Sergipe-Alagoas. Somados, teriam extensão de 1.562 quilômetros e vazão diária de 100,4 milhões de metros cúbicos. Há que se esperar por mais resultados concretos da nova legislação."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1279,33 +1235,6 @@
     },
     {
       "document": "desenvolvimento_paranaense",
-      "page": 95,
-      "sections": [
-        "CONCLUSÃO"
-      ],
-      "type": "text",
-      "content": "DESENVOLVIMENTO PARANAENSE: CONTEXTO, TENDÊNCIAS E DESAFIOS"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 95,
-      "sections": [
-        "PARTE 2"
-      ],
-      "type": "text",
-      "content": "# PARTE 2\n\n101"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 96,
-      "sections": [
-        "DESENVOLVIMENTO HUMANO - O PARANÁ NO CONTEXTO INTERNACIONAL"
-      ],
-      "type": "text",
-      "content": "# DESENVOLVIMENTO HUMANO - O PARANÁ NO CONTEXTO INTERNACIONAL\n\nPaulo Roberto Delgado * Mari Aparecida dos Santos **"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
       "page": 96,
       "sections": [
         "INTRODUÇÃO"
@@ -1348,15 +1277,6 @@
       ],
       "type": "text",
       "content": "Mas o avanço na escolarização pode ser apreciado em termos de perspectiva para as gerações que estão iniciando sua trajetória escolar, conforme o indicador 'anos esperados de escolaridade'. Uma criança que iniciou sua trajetória escolar em 1990, dado o padrão de matrícula educacional naquele ano, tinha por expectativa alcançar, em média, cerca de 12 anos de escolaridade, equivalente à conclusão da educação de nível médio. Esta expectativa ampliou-se para mais de 15 anos no ano de 2019, o que significa que muitos dos jovens nascidos nesse ano deverão alcançar o nível superior de ensino.\n\nCabe observar que este indicador retrata um desempenho médio, persistindo ainda relevante desigualdade quanto à escolarização dos jovens. A Pesquisa Nacional por Amostra de Domicílios (PNAD) de 2019 mostra que, no Paraná, o grupo de jovens de 25 a 29 anos de idade, que em tese já encerrou sua trajetória escolar, 10 atingiu a média de 12,0 anos de escolaridade, de certo modo correspondendo à expectativa de escolaridade que se tinha para os nascidos na primeira metade dos anos 1990. Porém, 29,9% destes jovens não concluíram o ensino médio, alcançando a média de 8,3 anos de estudo; entre os concluintes do ensino médio a escolaridade média sobe para 13,7 anos, revelando um enorme diferencial em termos de realização escolar entre estes dois grupos de jovens.\n\nA tabela 1 apresenta, também, um indicador da relação entre os valores verificados para o Paraná relativamente ao desempenho do País. Chama atenção que para todos os índices e indicadores essa relação gravita em torno do valor 100, indicando que a performance paranaense sempre esteve próxima à média brasileira. Mas há alguns movimentos interessantes a se observar, como o fato de que nos dois indicadores da dimensão Educação o Paraná vem apresentando incremento ligeiramente superior ao observado no País; o contrário ocorre com os indicadores de renda e longevidade, este principalmente, indicativo de que outras regiões vêm tendo performance maior, apontando para certa convergência regional nestas dimensões.\n\n10 Barros et al. (2021, p.20) mostram que a partir de 25 anos de idade pouco se altera a taxa de conclusão da educação básica, podendo-se usar esse grupo de jovens para se verificar o alcance das trajetórias escolares."
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 101,
-      "sections": [
-        "1 O PARANÁ SEGUNDO O SUBNATIONAL HUMAN DEVELOPMENT INDEX (SDHI)"
-      ],
-      "type": "text",
-      "content": "TABELA 1 - ÍNDICE E INDICADORES DE DESENVOLVIMENTO HUMANO - BRASIL E PARANÁ - ANOS SELECIONADOS\n\nFONTE: Global Data Lab - Institute for Management Research, Radboud University. Subnational Human Development Index ( SHDI Version 5.0)"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1591,24 +1511,6 @@
     },
     {
       "document": "desenvolvimento_paranaense",
-      "page": 116,
-      "sections": [
-        "CONSIDERAÇÕES FINAIS"
-      ],
-      "type": "text",
-      "content": "17 ' Along many of the forecasted indicators, including education, GDP, and life expectancy, the Integrated Push scenario generates the strongest impacts, suggesting that an integrated policy package is greater than the sum of sector-specific interventions .' (SCOTT, 2017, p.53)."
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 119,
-      "sections": [
-        "APÊNDICE 1 ÍNDICE DE DESENVOLVIMENTO HUMANO, TOTAL E POR DIMENSÃO, SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS"
-      ],
-      "type": "text",
-      "content": "ÍNDICE DE DESENVOLVIMENTO HUMANO, TOTAL E POR DIMENSÃO, SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS\n\nFONTE: Global Data Lab - Institute for Management Research, Radboud University. Subnational Human Development Index (SHDI Version 5.0)"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
       "page": 119,
       "sections": [
         "APÊNDICE 1 ÍNDICE DE DESENVOLVIMENTO HUMANO, TOTAL E POR DIMENSÃO, SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS"
@@ -1633,27 +1535,9 @@
       "sections": [
         "conclusão"
       ],
-      "type": "text",
-      "content": "# conclusão\n\nFONTE: Global Data Lab - Institute for Management Research, Radboud University. Subnational Human Development Index (SHDI Version 5.0)"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 122,
-      "sections": [
-        "conclusão"
-      ],
       "type": "table",
       "caption": null,
       "content": "| GRUPO (NÍVEL DE INCREMENTO).GRUPO (NÍVEL DE INCREMENTO) | REGIÃO.REGIÃO | PAÍS.PAÍS | PERÍODO DE OBSERVAÇÃO.Ano Inicial | PERÍODO DE OBSERVAÇÃO.Ano Final | ANOS ESPERADOS DE ESCOLARIDADE.Ano inicial | ANOS ESPERADOS DE ESCOLARIDADE.Ano Final | ANOS MÉDIOS DE ESCOLARIDADE.Ano Inicial | ANOS MÉDIOS DE ESCOLARIDADE.Ano Final | EXPECTATIVA DE VIDA.Ano Inicial | EXPECTATIVA DE VIDA.Ano Final | log RENDA NACIONAL BRUTA PER CAPITA (US$ PPP 2017).Ano Inicial | log RENDA NACIONAL BRUTA PER CAPITA (US$ PPP 2017).Ano Final | RENDA NACIONAL BRUTA PER CAPITA (US$ PPP 2017) *.Ano Inicial | RENDA NACIONAL BRUTA PER CAPITA (US$ PPP 2017) *.Ano Final |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | Europa | Luxembourg | 1990 | 2006 | 11,1 | 13,5 | 8,8 | 11,5 | 75,2 | 79,1 | 11,160 | 11,420 | 70.538 | 91.297 |\n|  | Europa | Poland | 1998 | 2014 | 14,2 | 16,0 | 10,8 | 12,1 | 72,9 | 77,6 | 9,588 | 10,160 | 14.584 | 25.931 |\n|  | Europa | Portugal | 1996 | 2012 | 15,4 | 16,1 | 6,5 | 8,5 | 75,6 | 80,5 | 10,190 | 10,290 | 26.503 | 29.497 |\n|  | Oriente Médio | Qatar | 1994 | 2010 | 12,6 | 12,8 | 5,8 | 8,4 | 76,6 | 79,1 | 11,050 | 11,430 | 63.057 | 91.652 |\n|  | Europa | Slovakia | 2002 | 2018 | 13,5 | 14,5 | 10,3 | 12,6 | 73,7 | 77,4 | 9,761 | 10,360 | 17.349 | 31.403 |\n|  | Europa | Slovenia | 1990 | 2006 | 12,0 | 16,8 | 10,9 | 11,8 | 73,2 | 78,0 | 10,000 | 10,390 | 22.042 | 32.544 |\n|  | Europa | Spain | 1991 | 2007 | 14,3 | 16,1 | 6,4 | 9,2 | 77,4 | 81,1 | 10,240 | 10,560 | 27.938 | 38.627 |\n|  | Oriente Médio | United Arab Emirates | 1999 | 2015 | 10,5 | 13,7 | 8,0 | 10,6 | 74,1 | 77,3 | 11,500 | 11,090 | 98.569 | 65.529 |\n|  | Europa | Finland | 1990 | 2006 | 15,0 | 17,2 | 7,5 | 12,6 | 75,3 | 79,2 | 10,380 | 10,750 | 32.063 | 46.837 |\n|  | Europa | Ireland | 1990 | 2006 | 12,1 | 17,0 | 9,7 | 11,8 | 74,8 | 79,2 | 10,100 | 10,850 | 24.384 | 51.356 |\n| Alto | Ásia & Pacífico | Singapore | 1995 | 2011 | 11,6 | 15,4 | 7,3 | 11,1 | 76,8 | 82,0 | 10,810 | 11,270 | 49.261 | 78.783 |\n| Alto | Ásia & Pacífico | South Korea | 1994 | 2010 | 14,2 | 16,8 | 9,8 | 11,6 | 73,5 | 80,4 | 9,721 | 10,450 | 16.667 | 34.480 |\n| Alto | Europa | United Kingdom | 1990 | 2006 | 13,7 | 16,1 | 7,9 | 12,4 | 75,7 | 79,3 | 10,320 | 10,680 | 30.456 | 43.652 |"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 123,
-      "sections": [
-        "EXPECTATIVA DE VIDA NO PARANÁ: CENÁRIOS E GANHOS POTENCIAIS DE ANOS"
-      ],
-      "type": "text",
-      "content": "# EXPECTATIVA DE VIDA NO PARANÁ: CENÁRIOS E GANHOS POTENCIAIS DE ANOS\n\nLeonildo Pereira de Souza *"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1697,27 +1581,9 @@
       "sections": [
         "1 CARACTERÍSTICAS DA MORTALIDADE NO PARANÁ NO SÉCULO XXI"
       ],
-      "type": "text",
-      "content": "TABELA 1 - PROPORÇÃO DE ÓBITOS, POR FAIXAS ETÁRIAS, SEGUNDO CAPÍTULOS DA CID-10 - PARANÁ - ANOS SELECIONADOS\n\ncontinua continua"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 126,
-      "sections": [
-        "1 CARACTERÍSTICAS DA MORTALIDADE NO PARANÁ NO SÉCULO XXI"
-      ],
       "type": "table",
       "caption": "TABELA 1 - PROPORÇÃO DE ÓBITOS, POR FAIXAS ETÁRIAS, SEGUNDO CAPÍTULOS DA CID-10 - PARANÁ - ANOS SELECIONADOS",
       "content": "Tabela: TABELA 1 - PROPORÇÃO DE ÓBITOS, POR FAIXAS ETÁRIAS, SEGUNDO CAPÍTULOS DA CID-10 - PARANÁ - ANOS SELECIONADOS\n\n| ANO.ANO | CAPÍTULOS.I | CAPÍTULOS.II | CAPÍTULOS.III | CAPÍTULOS.IV | CAPÍTULOS.V | CAPÍTULOS.VI | CAPÍTULOS.VII | CAPÍTULOS.VIII | CAPÍTULOS.IX | CAPÍTULOS.X | CAPÍTULOS.XI | CAPÍTULOS.XII | CAPÍTULOS.XIII | CAPÍTULOS.XIV | CAPÍTULOS.XV | CAPÍTULOS.XVI | CAPÍTULOS.XVII | CAPÍTULOS.XVIII | CAPÍTULOS.XX | TOTAL.TOTAL |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 2000 | 5,7 | 0,2 | 0,2 | 2,3 | - | 1,6 | - | 0,1 | 0,5 | 7,0 | 0,6 | 0,1 | 0,1 | 0,1 | - | 56,3 | 16,0 | 4,5 | 4,7 | 100,0 |\n| 2005 | 3,9 | 0,2 | 0,3 | 1,3 | - | 1,6 | - | 0,0 | 0,7 | 4,2 | 0,4 | 0,1 | - | 0,3 | - | 58,6 | 20,2 | 3,6 | 4,5 | 100,0 |\n| 2010 | 2,1 | 0,5 | 0,1 | 0,7 | - | 1,1 | - | 0,1 | 0,4 | 2,4 | 0,8 |  | - | 0,1 | - | 58,9 | 25,3 | 2,8 | 4,7 | 100,0 |\n| 2015 | 2,7 | 0,4 | 0,5 | 0,8 | - | 0,7 | - | - | 0,3 | 2,7 | 0,5 | 0,1 | - | 0,2 | - | 56,3 | 28,0 | 2,0 | 4,9 | 100,0 |\n| 2020 | 2,7 | 0,4 | 0,4 | 0,5 | - | 0,9 | - | 0,1 | 0,8 | 1,0 | 0,7 | 0,1 | - | 0,1 | - | 57,6 | 28,8 | 2,7 | 3,2 | 100,0 |\n| 2000 | 15,3 | 9,4 | 1,0 | 7,5 | - | 6,8 | - | - | 1,9 | 17,2 | 1,9 | 0,2 | - | 0,3 | - | 0,3 | 10,1 | 6,1 | 22,0 | 100,0 |\n| 2005 | 11,8 | 9,3 | 1,3 | 5,4 | - | 10,3 | - | - | 0,5 | 13,1 | 2,6 | - | 0,3 | 1,3 | - | 0,5 | 12,3 | 6,2 | 25,2 | 100,0 |\n| 2010 | 12,1 | 8,2 | 2,5 | 3,2 | - | 13,2 | - | - | 1,4 | 10,0 | 1,8 | - | 0,4 | 0,4 | - | - | 13,6 | 4,6 | 28,6 | 100,0 |\n| 2015 | 9,4 | 12,0 | 0,9 | 1,3 | - | 11,5 | - | - | 2,1 | 7,7 | 0,4 | - | 1,3 |  | - | 0,9 | 19,2 | 4,3 | 29,1 | 100,0 |\n| 2020 | 6,2 | 18,7 | 1,0 | 2,4 | - | 11,0 | - | - | 1,9 | 5,7 | 1,9 | - | - | 1,0 | - | 1,0 | 15,3 | 2,4 | 31,6 | 100,0 |\n| 2000 | 8,5 | 15,8 | 0,3 | 1,8 | - | 9,7 | - | - | 1,2 | 6,7 | 2,4 | - | 0,3 | 0,3 | - | - | 3,3 | 2,4 | 47,3 | 100,0 |\n| 2005 | 9,4 | 14,0 | 1,1 | 2,3 | - | 12,1 | - | - | 3,8 | 3,0 | 3,0 | - | 0,8 | 0,4 | - | - | 5,7 | 1,5 | 43,0 | 100,0 |\n| 2010 | 3,4 | 20,0 | 1,0 | 2,4 | - | 12,7 | - | - | 2,9 | 5,4 | 1,5 | - | - | 1,0 | - | - | 8,8 | 2,4 | 38,5 | 100,0 |\n| 2015 | 4,8 | 22,3 | 0,6 | 1,8 | 0,6 | 12,7 | - | - | 3,6 | 7,8 | 0,6 | - | 0,6 | 0,6 | - | - | 7,2 | 3,0 | 33,7 | 100,0 |\n| 2020 | 7,8 | 19,4 | 0,8 | 1,6 | - | 10,9 | - | - | 7,0 | 3,1 | 4,7 | 0,8 | - | 1,6 | - | 0,8 | 7,8 | 1,6 | 32,6 | 100,0 |\n| 2000 | 4,1 | 9,6 | - | 0,6 | - | 6,7 | - | 0,3 | 6,4 | 3,8 | 1,5 | - | 0,9 | - | 0,6 | - | 3,8 | 5,0 | 56,7 | 100,0 |\n| 2005 | 3,0 | 9,3 | 0,9 | 2,1 | - 0,3 | 9,3 | - | - | 3,0 1,3 | 3,6 | 0,9 | - | 0,6 1,0 | 0,3 0,7 | 0,3 | - | 4,8 | 3,0 | 58,7 | 100,0 |\n| 2015 | 3,0 | 14,6 | 1,7 | 4,3 | - | 12,2 | - | - | 3,0 | 3,0 | 5,2 | 0,4 | 0,4 | 0,9 | 0,9 | - | 2,2 | 2,2 | 43,9 | 100,0 |\n| 2010 | 4,6 |  | 2,0 | 1,7 |  | 12,9 | - | 0,3 |  | 4,0 | 1,7 | - |  |  | 0,7 | - | 3,0 | 2,0 | 49,3 | 100,0 |\n| 2020 2000 | 4,8 2,3 | 16,5 17,5 5,9 | 2,1 0,5 | 1,1 1,1 | 0,5 0,1 | 12,2 | - | - 0,1 | 4,8 2,2 | 5,3 2,7 | 1,1 1,0 | - - | 1,6 0,4 | 1,6 0,2 | - 2,3 | - - | 3,2 1,1 | 3,7 | 40,7 73,8 | 100,0 100,0 |\n| 2005 | 1,3 | 5,4 | 0,5 | 0,5 | 0,1 | 3,7 | - | - | 1,8 | 1,9 | 0,9 | 0,2 |  | 0,5 | 1,0 | - | 0,7 | 1,9 | 78,7 |  |\n| 2010 | 1,3 | 5,1 | 0,5 | 0,8 | 0,3 | 3,3 | - |  |  | 1,4 | 1,1 | - | 0,8 |  |  |  | 3,1 |  |  |  |\n|  |  |  |  |  |  |  |  | 0,1 |  |  |  |  | 0,5 | 0,4 | 0,8 |  |  |  |  | 100,0 |\n| 2020 | 1,3 | 3,6 | 0,3 | 1,7 | - | 3,7 | - | 0,1 | 2,3 |  |  | - | 0,7 | 0,5 | 1,1 | - | 0,5 | 1,6 | 79,5 | 100,0 |\n| 2015 |  | 6,1 | 0,8 | 0,7 |  | 4,8 | - |  | 2,2 | 1,6 | 1,1 0,7 | - | 0,6 | 0,9 | 0,9 | - - | 1,4 1,3 | 1,7 3,2 | 75,8 74,2 | 100,0 100,0 |\n| 2000 2005 | 5,7 2,8 | 4,5 3,9 | 0,6 0,5 | 1,1 0,7 | 0,2 0,7 | 2,2 2,7 | - - | - 0,1 | 3,1 2,4 | 2,8 1,2 | 1,6 | - | 0,4 | 0,7 | 2,1 | - | 0,4 0,5 | 2,3 | 72,4 | 100,0 |\n|  | 3,0 |  |  |  | 0,3 | 4,8 | - | 0,1 | 2,0 | 2,5 | 1,5 | - | 0,5 | 0,6 | 1,6 | - | 1,0 |  | 79,3 | 100,0 |"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 127,
-      "sections": [
-        "1 CARACTERÍSTICAS DA MORTALIDADE NO PARANÁ NO SÉCULO XXI"
-      ],
-      "type": "text",
-      "content": "TABELA 1 - PROPORÇÃO DE ÓBITOS, POR FAIXAS ETÁRIAS, SEGUNDO CAPÍTULOS DA CID-10 - PARANÁ - ANOS SELECIONADOS"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1735,27 +1601,9 @@
       "sections": [
         "1 CARACTERÍSTICAS DA MORTALIDADE NO PARANÁ NO SÉCULO XXI"
       ],
-      "type": "text",
-      "content": "TABELA 1 - PROPORÇÃO DE ÓBITOS, POR FAIXAS ETÁRIAS, SEGUNDO CAPÍTULOS DA CID-10 - PARANÁ - ANOS SELECIONADOS\n\nFONTE: MS/SVS/CGIAE - Sistema de Informações sobre Mortalidade (SIM)"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 128,
-      "sections": [
-        "1 CARACTERÍSTICAS DA MORTALIDADE NO PARANÁ NO SÉCULO XXI"
-      ],
       "type": "table",
       "caption": "TABELA 1 - PROPORÇÃO DE ÓBITOS, POR FAIXAS ETÁRIAS, SEGUNDO CAPÍTULOS DA CID-10 - PARANÁ - ANOS SELECIONADOS",
       "content": "Tabela: TABELA 1 - PROPORÇÃO DE ÓBITOS, POR FAIXAS ETÁRIAS, SEGUNDO CAPÍTULOS DA CID-10 - PARANÁ - ANOS SELECIONADOS\n\n| ANO.ANO | CAPÍTULOS.I | CAPÍTULOS.II | CAPÍTULOS.III | CAPÍTULOS.IV | CAPÍTULOS.V | CAPÍTULOS.VI | CAPÍTULOS.VII | CAPÍTULOS.VIII | CAPÍTULOS.IX | CAPÍTULOS.X | CAPÍTULOS.XI | CAPÍTULOS.XII | CAPÍTULOS.XIII | CAPÍTULOS.XIV | CAPÍTULOS.XV | CAPÍTULOS.XVI | CAPÍTULOS.XVII | CAPÍTULOS.XVIII | CAPÍTULOS.XX |  |  | TOTAL |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 2000 | 3,1 | 20,6 | 0,4 | 6,9 | 1,0 | 0,8 | - | - | 40,5 | 9,9 | 5,8 | 0,1 | 0,3 | 1,4 |  | - - | 0,0 | 5,2 | 4,1 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2005 | 2,9 | 23,9 | 0,4 | 6,7 | 0,9 | 0,9 | - | - | 37,2 | 8,8 | 6,3 | 0,1 | 0,2 | 1,8 | - | - | - | 4,6 | 5,3 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2010 | 2,4 | 27,3 | 0,4 | 7,5 | 1,4 | 1,2 | - | - | 32,5 | 8,3 | 6,5 | 0,1 | 0,4 | 1,4 | - | - | 0,1 | 4,6 | 5,9 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2015 | 3,3 | 28,6 | 0,3 | 7,4 | 1,4 | 1,5 | - | - | 31,2 | 9,1 | 6,5 | 0,3 | 0,5 | 1,7 | - | - | 0,1 | 2,5 | 5,7 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2020 | 15,4 | 24,9 | 0,3 | 6,6 | 1,5 | 1,6 | - | - | 24,9 | 6,8 | 6,0 | 0,4 | 0,3 | 2,2 | - | - | 0,1 | 3,3 | 5,8 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2000 | 2,7 | 20,2 | 0,3 | 6,8 | 0,5 | 1,0 | - | - | 43,1 | 11,7 | 4,7 | 0,1 | 0,3 | 1,1 | - | - | 0,0 | 4,5 | 2,9 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2005 | 2,3 | 23,2 | 0,3 | 7,0 | 0,7 | 1,1 | - | - | 39,2 | 10,8 | 5,2 | 0,1 | 0,3 | 1,9 | - | - | 0,1 | 4,1 | 3,9 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2010 | 2,5 | 24,7 | 0,2 | 9,0 | 0,8 | 0,9 | - | - | 35,5 | 10,7 |  |  | 0,4 | 1,9 | - | - | 0,0 | 3,8 | 3,8 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2015 | 2,8 |  | 0,4 | 8,0 | 0,8 | 1,5 | - | - | 34,6 |  | 5,6 | 0,2 0,2 | 0,3 | 2,3 | - | - | 0,1 | 2,4 | 4,2 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2020 | 16,3 | 25,7 23,8 | 0,2 | 6,8 | 1,1 | 1,8 | - | - | 26,6 | 11,1 8,4 | 5,7 5,5 | 0,3 | 0,4 | 2,2 | - | - | 0,1 | 2,6 | 3,7 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2000 | 2,3 | 18,6 | 0,2 | 6,9 | 0,3 | 1,0 | - | - | 43,4 | 13,6 | 5,1 | 0,1 | 0,2 | 1,5 | - | - | 0,0 | 4,5 | 2,1 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2005 | 2,3 | 21,2 | 0,3 | 7,2 | 0,3 | 1,3 | - | - | 40,4 | 12,8 | 4,9 | 0,1 | 0,3 | 2,0 | - | - | 0,0 | 4,1 | 2,7 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2010 | 2,3 | 22,2 | 0,3 | 7,7 | 0,6 | 1,7 | - | - | 37,3 | 12,8 | 4,7 | 0,1 | 0,4 | 1,8 | - | - | 0,0 | 4,4 | 3,6 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2015 | 2,4 | 24,3 | 0,4 | 8,1 | 0,6 | 2,1 | - | - | 33,9 | 13,8 | 5,3 | 0,3 | 0,5 | 2,6 | - | - | 0,0 | 2,3 | 3,5 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2020 | 15,4 | 22,6 | 0,4 | 7,3 | 0,6 | 2,8 | - | - | 27,3 | 9,9 | 5,1 | 0,3 | 0,4 | 2,5 | - | - | 0,1 | 2,4 | 3,1 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2005 | 1,9 | 15,5 | 0,4 | 6,9 | 0,2 | 2,2 | - | - | 42,5 | 13,8 | 4,2 | 0,2 | 0,2 | 1,8 | - | - - | - - | 5,6 | 1,7 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2000 | 2,0 |  | 0,2 | 6,8 | 0,4 | 1,1 | - | - | 45,4 | 14,8 | 4,6 | 0,2 | 0,3 | 2,1 |  | - | 4,5 |  | 2,5 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2010 | 1,9 | 17,9 | 0,3 | 7,5 |  |  |  |  | 40,0 |  | 4,8 |  | 0,3 | 2,1 |  |  |  |  | 3,0 |  |  |  |  |\n|  | 2,6 | 18,3 20,4 | 0,4 | 7,0 | 0,5 | 2,6 | - | - | 37,3 | 14,2 |  | 0,1 0,2 | 0,5 | 2,5 | - - | - | - | 4,3 |  | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2015 |  |  |  |  | 0,4 | 3,5 | - | - |  | 14,8 | 4,7 |  | 0,3 | 2,9 | - | - | - | 2,5 | 3,3 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2020 | 14,6 | 19,1 | 0,3 | 6,8 | 0,5 | 4,1 | - | - | 29,8 | 11,3 | 4,6 | 0,4 |  |  |  | - | - | 2,2 | 3,1 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2000 | 2,0 | 10,5 | 0,4 | 5,5 | 0,3 | 1,3 | - | - | 46,2 | 17,2 | 3,8 | 0,1 | 0,3 | 1,6 | - | - - | 8,3 |  | 2,5 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2005 | 2,0 | 12,1 | 0,4 | 5,9 | 0,5 | 2,5 | - | - | 43,1 | 16,8 | 4,1 | 0,2 | 0,2 | 2,3 | - | - | - | 7,5 | 2,5 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2010 2015 | 1,7 | 12,7 | 0,4 | 6,6 | 0,7 | 4,1 | - | - | 38,7 | 17,2 | 4,2 | 0,2 | 0,4 | 2,6 | - | - | - | 7,4 | 3,2 | 100,0 | 100,0 | 100,0 | 100,0 |\n|  | 2,6 | 12,8 | 0,4 | 5,9 | 0,2 | 6,3 | - | - | 35,8 | 19,5 | 4,2 | 0,2 | 0,5 | 3,8 | - | - | - | 4,1 | 3,7 | 100,0 | 100,0 | 100,0 | 100,0 |\n|  | 3,3 |  |  | 5,2 |  |  |  |  |  | 10,7 |  | 0,1 | 0,4 | 1,7 | 0,2 |  |  |  | 14,2 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2020 | 11,5 | 12,5 | 0,3 | 6,4 | 0,4 | 8,2 | - | - | 30,3 | 13,5 | 4,3 | 0,4 | 0,3 | 4,4 | - | - | - | 3,1 | 4,1 | 100,0 | 100,0 | 100,0 | 100,0 |\n| 2000 | 3,8 | 14,9 | 0,4 |  | 0,8 | 1,4 | - | - | 33,3 |  | 5,1 | 0,1 | 0,3 | 1,3 | 0,2 | 3,5 | 1,2 |  | 5,4 |  | 12,1 | 100,0 |  |\n| 2005 2010 | 2,9 | 16,9 17,8 | 0,3 0,4 | 5,2 6,0 | 0,9 1,2 | 1,9 2,5 | - - | - - | 31,5 29,4 | 9,9 10,3 | 5,2 5,3 | 0,1 | 0,4 | 1,7 | 2,3 0,1 | 1,0 1,6 | 4,8 0,9 |  | 5,1 | 5,1 | 14,2 | 100,0 | 5,1 |"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 129,
-      "sections": [
-        "1 CARACTERÍSTICAS DA MORTALIDADE NO PARANÁ NO SÉCULO XXI"
-      ],
-      "type": "text",
-      "content": "QUADRO 1 RANKING DAS CAUSAS DE ÓBITOS, SEGUNDO CAPÍTULOS DA CID-10, POR FAIXAS ETÁRIAS - PARANÁ - 2019\n\nFONTE: MS/SVS/CGIAE - Sistema de Informações sobre Mortalidade (SIM)"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1782,27 +1630,9 @@
       "sections": [
         "1 CARACTERÍSTICAS DA MORTALIDADE NO PARANÁ NO SÉCULO XXI"
       ],
-      "type": "text",
-      "content": "TABELA 2 - PROPORÇÃO DE ÓBITOS, SEGUNDO CAPÍTULOS DA CID-10, POR FAIXAS ETÁRIAS - PARANÁ - ANOS SELECIONADOS"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 131,
-      "sections": [
-        "1 CARACTERÍSTICAS DA MORTALIDADE NO PARANÁ NO SÉCULO XXI"
-      ],
       "type": "table",
       "caption": "TABELA 2 - PROPORÇÃO DE ÓBITOS, SEGUNDO CAPÍTULOS DA CID-10, POR FAIXAS ETÁRIAS - PARANÁ - ANOS SELECIONADOS",
       "content": "Tabela: TABELA 2 - PROPORÇÃO DE ÓBITOS, SEGUNDO CAPÍTULOS DA CID-10, POR FAIXAS ETÁRIAS - PARANÁ - ANOS SELECIONADOS\n\n| ANO | I | II | III | IV | V | VI | VII | VIII | IX | X | XI | XII | XIII | XIV | XV | XVI | XVII | XVIII | XX |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 2000 | 9,4 | 0,1 | 3,4 | 2,8 | - | 6,9 | - | 23,1 | 0,1 | 4,0 | 0,7 | 5,4 | 1,8 | 0,7 | - | 99,9 | 81,3 | 5,2 | 2,4 |\n| 2005 | 4,7 | 0,0 | 3,1 | 1,0 | - | 3,3 | - | 20,0 | 0,1 | 1,7 | 0,3 | 2,7 | - | 0,7 | - | 99,9 | 78,5 | 3,0 | 1,3 |\n| 2010 | 2,0 | 0,1 | 0,8 | 0,3 | - | 1,3 | - | 12,5 | 0,0 | 0,7 | 0,4 | - | - | 0,1 | - | 100,0 | 78,2 | 1,5 | 0,9 |\n| 2015 | 2,0 | 0,1 | 3,2 | 0,3 | - | 0,5 | - | - | 0,0 | 0,6 | 0,2 | 0,7 | - | 0,2 | - | 99,8 | 79,8 | 1,7 | 1,0 |\n| 2020 | 0,3 | 0,0 | 1,8 | 0,1 | - | 0,4 | - | 25,0 | 0,1 | 0,2 | 0,2 | 0,4 | - | 0,1 | - | 99,4 | 71,6 | 1,4 | 0,5 |\n| 2000 | 4,1 | 0,6 | 3,0 | 1,5 | - | 4,8 | - | - | 0,1 | 1,6 | 0,4 | 1,8 | - | 0,3 | - | 0,1 | 8,4 | 1,1 | 1,9 |\n| 2005 | 2,4 | 0,4 | 2,6 | 0,7 | - | 3,5 | - | - | 0,0 | 0,9 | 0,3 | - | 0,5 | 0,5 | - | 0,1 | 8,0 | 0,9 | 1,2 |\n| 2010 | 1,8 | 0,2 | 2,7 | 0,2 | - | 2,3 | - | - | 0,0 | 0,4 | 0,1 | - | 0,4 | 0,1 | - | - | 6,4 | 0,4 | 0,8 |\n| 2015 | 0,9 | 0,2 | 0,7 | 0,1 | - | 1,1 | - | - | 0,0 | 0,2 | 0,0 | - | 0,8 | - | - | 0,2 | 7,3 | 0,5 | 0,8 |\n| 2020 | 0,1 | 0,3 | 0,7 | 0,1 | - | 0,7 | - | - | 0,0 | 0,2 | 0,1 | - | - | 0,1 | - | 0,3 | 5,9 | 0,2 | 0,8 |\n| 2000 | 1,3 | 0,6 | 0,5 | 0,2 | - | 3,9 | - | - | 0,0 | 0,4 | 0,3 | - | 0,6 | 0,1 | - | - | 1,6 | 0,3 | 2,3 |\n| 2005 | 1,3 | 0,4 | 1,5 | 0,2 | - | 2,8 | - | - | 0,1 | 0,1 | 0,3 | - | 0,9 | 0,1 | - | - | 2,5 | 0,1 | 1,4 |\n| 2010 | 0,4 | 0,3 | 0,8 | 0,1 | - | 1,6 | - | - | 0,0 | 0,2 | 0,1 | - | - | 0,2 | - | - | 3,0 | 0,1 | 0,8 |\n| 2015 | 0,3 | 0,3 | 0,4 | 0,1 | 0,1 | 0,9 | - | - | 0,0 | 0,2 | 0,0 | - | 0,3 | 0,1 | - | - | 2,0 | 0,2 | 0,6 |\n| 2020 | 0,1 | 0,2 | 0,4 | 0,0 | - | 0,4 | - | - | 0,0 | 0,1 | 0,1 | 0,4 | - | 0,1 | - | 0,1 | 1,8 | 0,1 | 0,5 |\n| 2000 | 0,7 | 0,4 | - | 0,1 | - | 2,8 | - | 7,7 | 0,1 | 0,2 | 0,2 | - | 1,8 | - | 1,5 | - | 1,9 | 0,6 | 2,9 |\n| 2005 | 0,5 | 0,3 | 1,5 | 0,2 | - | 2,7 | - | - | 0,1 | 0,2 | 0,1 | - | 0,9 | 0,1 | 0,8 | - | 2,7 | 0,4 | 2,3 |\n| 2010 | 0,7 | 0,4 | 2,3 | 0,1 | 0,1 | 2,4 | - | 12,5 | 0,0 | 0,2 | 0,1 | - | 1,1 | 0,2 | 2,2 | - | 1,5 | 0,2 | 1,6 |\n| 2015 | 0,3 | 0,3 | 1,4 | 0,2 | - | 1,2 | - | - | 0,0 | 0,1 | 0,3 | 0,7 | 0,3 | 0,1 | 2,0 | - | 0,8 | 0,2 | 1,2 |\n| 2020 | 0,1 | 0,2 | 1,4 | 0,0 0,4 | 0,1 | 0,7 3,9 | - - | - 7,7 | 0,0 | 0,1 | 0,0 | - | 0,9 | 0,1 0,3 | - | - - | 1,1 1,6 | 0,3 1,0 | 0,9 |\n| 2000 2005 | 1,0 0,9 | 0,7 0,7 | 2,5 3,6 |  | 0,2 0,2 | 4,2 | - | - | 0,1 0,1 | 0,4 | 0,4 0,4 | - 2,7 | 2,4 4,7 |  | 16,8 | - | 1,5 | 0,9 | 10,5 12,1 |\n|  |  |  |  | 0,3 |  |  |  |  |  | 0,4 |  |  |  | 0,6 | 10,7 |  |  |  |  |\n|  |  |  |  | 0,2 |  |  |  |  |  |  |  |  | 2,7 | 0,4 |  |  |  |  |  |\n| 2010 | 0,9 | 0,6 | 2,3 | 0,2 | 0,5 | 2,9 | - | 12,5 | 0,2 | 0,3 | 0,4 | - |  |  | 12,2 | - | 1,2 | 0,6 | 10,8 |\n| 2015 | 0,6 | 0,5 | 2,9 |  | - | 2,1 | - | 16,7 | 0,1 | 0,2 | 0,3 | - | 1,9 | 0,3 | 11,9 | - | 2,4 | 0,9 | 9,1 |\n| 2020 | 0,2 | 0,2 | 0,7 | 0,2 | 0,2 | 1,0 | - | 25,0 | 0,1 | 0,2 | 0,1 | - | 1,3 | 0,3 | 7,5 | - | 1,7 | 0,9 | 6,0 |\n| 2000 | 3,3 | 0,7 | 3,4 | 0,5 | 0,6 | 3,4 | - | - | 0,2 | 0,6 | 0,7 | - | 3,6 | 1,0 | 19,8 | - | 0,7 | 0,9 | 13,3 |\n| 2005 | 2,2 | 0,6 | 4,1 | 0,4 | 1,8 | 3,6 | - | 20,0 | 0,2 | 0,3 | 0,8 | - | 2,8 | 1,0 | 19,7 | - | 1,3 | 0,6 | 14,6 |\n| 2010 2015 | 1,1 1,4 | 0,6 0,6 | 0,8 2,1 | 0,3 0,2 | 1,1 1,3 | 2,1 1,4 | - - | - - | 0,2 0,2 | 0,3 0,3 | 0,5 0,5 | 1,2 - | 1,5 3,3 | 0,8 0,3 | 13,3 18,8 | - - | 1,3 1,1 1,2 | 1,0 12,8 | 14,9 |"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 132,
-      "sections": [
-        "1 CARACTERÍSTICAS DA MORTALIDADE NO PARANÁ NO SÉCULO XXI"
-      ],
-      "type": "text",
-      "content": "TABELA 2 - PROPORÇÃO DE ÓBITOS, SEGUNDO CAPÍTULOS DA CID-10, POR FAIXAS ETÁRIAS - PARANÁ - ANOS SELECIONADOS"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -1818,29 +1648,11 @@
       "document": "desenvolvimento_paranaense",
       "page": 133,
       "sections": [
-        "1 CARACTERÍSTICAS DA MORTALIDADE NO PARANÁ NO SÉCULO XXI"
-      ],
-      "type": "text",
-      "content": "TABELA 2 - PROPORÇÃO DE ÓBITOS, SEGUNDO CAPÍTULOS DA CID-10, POR FAIXAS ETÁRIAS - PARANÁ - ANOS SELECIONADOS"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 133,
-      "sections": [
         "continua"
       ],
       "type": "table",
       "caption": null,
       "content": "| FAIXA ETÁRIA.FAIXA ETÁRIA | ANO | I | II | III | IV | V | VI | VII | VIII | IX | X | XI | XII | XIII | XIV | XV | XVI | XVII | XVIII | XX |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  | 2000 | 6,1 | 10,3 | 8,4 | 8,0 | 8,6 | 4,1 | - | - | 6,9 | 5,3 | 8,3 | 1,8 | 6,6 | 7,0 | - | - | - | 6,2 | 4,2 |\n|  | 2005 | 6,9 | 10,2 | 9,2 | 6,8 | 10,0 | 3,6 | - | - | 7,1 | 4,4 | 9,8 | 5,4 | 6,2 | 6,9 | - | - | 0,2 | 5,8 | 3,9 |\n| 55 a 59 anos | 2010 | 8,1 | 10,4 | 7,8 | 8,2 | 9,1 | 2,8 | - | - | 6,9 | 4,5 | 9,1 | 8,6 | 8,4 | 5,9 | - | - | 0,7 | 6,3 | 3,9 |\n|  | 2015 | 9,7 | 10,2 | 6,4 | 7,1 | 14,3 | 3,1 | - | 16,7 | 6,7 | 4,4 | 9,6 | 4,2 | 6,8 | 6,1 | - | - | 0,5 | 6,5 | 4,6 |\n|  | 2020 | 7,9 | 9,8 | 9,3 | 7,0 | 14,7 | 3,1 | - | - | 6,8 | 4,9 | 9,4 | 6,8 | 9,8 | 4,5 | - | - | 1,8 | 7,0 | 4,8 |\n|  | 2000 | 7,1 | 11,8 | 8,4 | 11,2 | 9,7 | 4,7 | - | 15,4 | 10,4 | 7,8 | 9,7 | 8,9 | 7,2 | 9,2 | - | - | 0,1 | 8,1 | 2,9 |\n|  | 2005 | 6,9 | 11,3 | 8,7 | 10,2 | 7,3 | 3,9 | - | - | 9,4 | 7,0 | 9,7 | 8,1 | 4,7 | 8,5 | - | - | - | 7,6 | 3,0 |\n| 60 a 64 anos | 2010 | 6,5 | 11,9 | 8,9 | 9,7 | 8,7 | 3,8 | - | 12,5 | 8,6 | 6,3 | 9,5 | 8,6 | 7,7 | 6,4 | - | - | 0,5 | 7,0 | 3,2 |\n|  | 2015 | 8,0 | 12,2 | 5,7 | 10,4 | 10,1 | 3,6 | - | - | 8,9 | 6,3 | 10,0 | 12,6 | 7,9 | 6,0 | - | - | 0,5 | 6,8 | 3,8 |\n|  | 2020 | 10,2 | 12,1 | 6,8 | 9,9 | 10,7 | 3,4 | - | - | 9,0 | 6,7 | 10,2 | 11,2 | 7,3 | 7,2 | - | - | 0,9 | 9,2 | 4,9 |\n|  | 2000 | 7,2 | 13,5 | 7,9 | 12,8 | 5,7 | 7,0 | - | - | 12,8 | 10,8 | 9,2 | 12,5 | 9,0 | 8,9 | - | - | 0,1 | 8,2 | 2,4 |\n|  | 2005 | 6,7 | 13,4 | 7,7 | 13,2 | 7,3 | 5,4 | - | 20,0 | 12,2 | 10,6 | 9,7 | 10,8 | 8,5 | 11,3 | - | - | 0,5 | 8,3 | 2,7 |\n| 65 a 69 anos | 2010 | 8,0 | 12,8 | 4,7 | 13,8 | 5,8 | 3,4 | - | - | 11,2 | 9,6 | 9,7 | 13,6 | 10,3 | 10,1 | - | - | 0,2 | 6,9 | 2,5 |\n|  | 2015 | 7,7 | 12,5 | 9,6 | 13,0 | 7,1 | 4,1 | - | - | 11,3 | 8,8 | 9,9 | 11,2 | 6,3 | 9,1 | - | - | 0,7 | 7,6 | 3,2 |\n|  | 2020 | 12,8 | 13,7 | 7,1 | 12,0 | 9,3 | 4,5 | - | - | 11,3 | 9,8 | 11,1 | 10,1 | 11,0 | 8,6 | - | 0,1 | 1,8 | 8,7 | 3,7 |\n|  | 2000 | 6,6 | 13,8 | 7,4 | 14,5 | 4,0 | 7,6 | - | 15,4 | 14,4 | 14,0 | 11,1 | 12,5 | 6,0 | 13,4 | - | - | 0,1 | 9,1 | 1,9 |\n|  | 2005 | 7,5 | 13,7 | 9,7 | 15,1 | 4,0 | 7,3 | - | - | 14,0 | 14,1 | 10,2 | 8,1 | 8,1 | 13,3 | - | - | 0,3 | 9,2 | 2,1 |\n| 70 a 74 anos | 2010 | 8,4 | 13,1 | 8,2 | 13,5 | 5,4 | 7,5 | 100,0 | - | 13,4 | 13,1 | 9,2 | 11,1 | 10,3 | 10,9 | - | - | 0,2 | 9,1 | 2,7 |\n|  | 2015 | 7,4 | 13,5 | 9,6 | 14,8 | 5,3 | 6,6 | - | - | 12,6 | 12,5 | 10,6 | 14,0 | 9,5 | 11,9 | - | - | 0,2 | 8,2 | 3,1 |\n|  | 2020 | 12,8 | 13,8 | 12,5 | 13,5 | 5,0 | 7,4 | - |  | 12,3 | 12,2 | 10,9 | 8,6 | 12,3 | 10,2 | - |  | 0,9 | 8,3 | 3,3 |\n|  | 2000 | 5,2 | 10,7 | 12,8 | 13,7 | 2,1 | 8,0 | - | - |  | 14,2 | 8,5 | 19,6 | 8,4 | 15,1 | - | - - | - | 10,5 | 1,5 |\n|  | 2005 | 6,6 | 11,6 | 6,1 |  |  |  |  | - | 14,1 |  | 9,6 |  |  | 13,5 | - | - | 0,2 | 10,4 |  |\n|  |  |  |  |  | 14,4 | 4,5 | 12,4 | - | - | 14,8 | 15,3 |  | 14,9 | 10,0 |  |  |  |  |  | 1,9 |\n| 75 a 79 anos | 2010 | 7,6 | 11,6 | 9,3 | 14,2 | 4,9 | 12,2 | - | - | 15,4 | 15,7 | 10,1 | 6,2 | 8,4 | 13,9 | - | - | - | 9,5 | 2,4 |\n|  | 2015 | 8,9 | 12,5 | 12,1 | 14,1 | 4,0 | 12,4 | - | - | 15,3 | 14,7 | 10,4 | 11,9 | 12,2 | 12,7 | - | - | - | 9,7 | 3,2 |\n|  | 2020 | 12,7 | 12,2 | 9,3 | 13,4 | 4,6 | 11,5 | - | - | 14,1 | 14,6 | 10,3 | 14,0 | 10,1 | 12,4 | - | 0,1 | 0,6 8,2 |  | 3,4 |"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 134,
-      "sections": [
-        "continua"
-      ],
-      "type": "text",
-      "content": "TABELA 2 - PROPORÇÃO DE ÓBITOS, SEGUNDO CAPÍTULOS DA CID-10, POR FAIXAS ETÁRIAS - PARANÁ - ANOS SELECIONADOS\n\nFONTE: MS/SVS/CGIAE - Sistema de Informações sobre Mortalidade (SIM)"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -2183,25 +1995,7 @@
         "1 NÚMERO MÉDIO DE ANOS DE ESTUDO"
       ],
       "type": "text",
-      "content": "QUADRO 1 - ESTIMATIVA DE GANHO EM ANOS MÉDIOS DE ESCOLARIDADE NO PARANÁ\n\nFONTE: IPARDES\n\n(1)  Resulta de regressão por mínimos quadrados ordinários com correção de heterocedasticidade:\n\nAME(2529) = 3,56 + 0,0941*TCEF(25-29)"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 160,
-      "sections": [
-        "(0,124) (0,00188)"
-      ],
-      "type": "text",
-      "content": "# (0,124) (0,00188)\n\nNúmero de períodos: 18, R-quadrado = 0,994, erros padrão entre parênteses.\n\n(2)  Resulta de regressão por mínimos quadrados ordinários com correção de heterocedasticidade:"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 160,
-      "sections": [
-        "AME(25-29) = 5,42 + 0,0925*TCEM(25-29)"
-      ],
-      "type": "text",
-      "content": "# AME(25-29) = 5,42 + 0,0925*TCEM(25-29)\n\n(0,116) (0,00196)\n\nNúmero de períodos: 18, R-quadrado = 0,993, erros padrão entre parênteses."
+      "content": "QUADRO 1 - ESTIMATIVA DE GANHO EM ANOS MÉDIOS DE ESCOLARIDADE NO PARANÁ\n\nFONTE: IPARDES\n\n(1) Resulta de regressão por mínimos quadrados ordinários com correção de heterocedasticidade:\n\nAME(2529) = 3,56 + 0,0941*TCEF(25-29)\n\n# (0,124) (0,00188)\n\nNúmero de períodos: 18, R-quadrado = 0,994, erros padrão entre parênteses.\n\n(2) Resulta de regressão por mínimos quadrados ordinários com correção de heterocedasticidade:\n\n# AME(25-29) = 5,42 + 0,0925*TCEM(25-29)\n\n(0,116) (0,00196)\n\nNúmero de períodos: 18, R-quadrado = 0,993, erros padrão entre parênteses."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -2242,15 +2036,6 @@
     },
     {
       "document": "desenvolvimento_paranaense",
-      "page": 163,
-      "sections": [
-        "2 INDICADORES EDUCACIONAIS E APRENDIZAGEM"
-      ],
-      "type": "text",
-      "content": "GRÁFICO 7 - DISTRIBUIÇÃO PERCENTUAL DOS ESTUDANTES DA REDE PÚBLICA ESTADUAL, POR NÍVEL DE PROFICIÊNCIA, SEGUNDO DISCIPLINA E ETAPA DE ENSINO - PARANÁ - 2019\n\nFONTE: INEP/SAEB"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
       "page": 164,
       "sections": [
         "2 INDICADORES EDUCACIONAIS E APRENDIZAGEM"
@@ -2284,15 +2069,6 @@
       ],
       "type": "text",
       "content": "Por fim, como ponto relevante no ensino médio tem-se a variável extracurricular e exógena de Nível Socioeconômico, indicador demonstrativo de que a educação, no desafio para o aumento da qualidade, enfrenta os obstáculos de equidade educacional.\n\nOs dados para classificação do Nível Socioeconômico dos alunos são obtidos por meio de questionários, aplicados conjuntamente com as provas do SAEB, que procuram aferir a escolaridade dos pais e a posse de bens e serviços presentes na residência dos estudantes.\n\nCom isso, mensurou-se (gráfico 9) que na rede estadual paranaense são minoria os estudantes categorizados nos extremos da escala socioeconômica: apenas 0,22% no nível 1 e 1,48% no nível 8. O nível 1 corresponde ao menor da escala e é caracterizado pela ausência da maioria dos bens e serviços listados, tais como computador, wi-fi , mesa para estudar, freeze r, micro-ondas, aspirador de pó, máquina de lavar roupa etc. Além disso, os pais ou responsáveis, em sua maioria, não concluíram o ensino fundamental. Já o nível 8 é o maior da escala e, nele, os pais ou responsáveis têm ensino superior completo e a residência possuí duas ou mais unidades dos seguintes bens: computador, televisão, geladeira, banheiro e carro.\n\nProporcionalmente, a maior parcela dos estudantes encontra-se no nível 5 da escala. Considerando-se os dois níveis intermediários da escala, isto é, os níveis 4 e 5, somam-se 43,88% dos estudantes. No nível 4, parcela dos pais ou responsáveis já possui o ensino médio concluído, mas a residência ainda não dispõe de todos os bens e serviços. No nível 5, parte dos pais ou responsáveis têm ensino superior completo, e a residência, além de possuir os bens e serviços, dispõe de dois banheiros.\n\nNesse panorama, destacam-se como objeto primordial de atenção os níveis 1, 2 e 3, mas também carecendo de alguma deferência o nível 4. A agenda de melhoria da qualidade da educação envolve toda a rede pública, com ações de apoio pedagógico e melhoria da formação e das carreiras docentes. Esses dados, contudo, demonstram a necessidade de identificação das escolas que concentram essa população mais vulnerável, de modo a intensificar ações que promovam maior equidade educacional.\n\nAssim, na perspectiva da política educacional, por um lado, no campo do rendimento escolar são necessárias ações de atenção especializada aos alunos oriundos dos menores níveis socioeconômicos, visando oferecer suporte aos déficits e limitações que derivam das condições sociais da família; por outro lado, no âmbito da escolaridade média da população, pode-se incentivar a atração dos pais ou responsáveis que têm educação básica incompleta para que voltem ao sistema escolar, e, ainda, promover incentivos para o seu ingresso nos ensinos técnico-profissionalizante e superior.\n\nPela ótica dos bens e serviços, pode-se pensar em programas de incremento da renda familiar e da ocupação dos pais ou responsáveis, campo este em que seria oportuno dialogar ou atuar de modo transversal com a política setorial do trabalho - visando proporcionar qualificação profissional ou técnica, além de mecanismos de inserção no mercado de trabalho - bem como com a política pública de assistência social, em particular, mediante projetos para benefícios adicionais de transferência de renda vinculados a estímulos para a formação educacional dos indivíduos, mas também com o apoio e acompanhamento de segmentos populacionais considerados em situação de risco e vulnerabilidade."
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 168,
-      "sections": [
-        "2 INDICADORES EDUCACIONAIS E APRENDIZAGEM"
-      ],
-      "type": "text",
-      "content": "GRÁFICO 11 - DISTRIBUIÇÃO (%) DOS ALUNOS POR NÍVEL SOCIOECONÔMICO - REDE ESTADUAL PARANÁ - 2019\n\nFONTE: INEP/Indicadores Educacionais"
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -2644,15 +2420,6 @@
       "document": "desenvolvimento_paranaense",
       "page": 192,
       "sections": [
-        "ÁGUAS E SANEAMENTO BÁSICO: APONTAMENTOS SOBRE A EVOLUÇÃO FUTURA NO PARANÁ"
-      ],
-      "type": "text",
-      "content": "# ÁGUAS E SANEAMENTO BÁSICO: APONTAMENTOS SOBRE A EVOLUÇÃO FUTURA NO PARANÁ\n\nMari Aparecida dos Santos *"
-    },
-    {
-      "document": "desenvolvimento_paranaense",
-      "page": 192,
-      "sections": [
         "INTRODUÇÃO"
       ],
       "type": "text",
@@ -2766,7 +2533,7 @@
         "3 RESULTADOS E DISCUSSÃO"
       ],
       "type": "text",
-      "content": "e Londrina, ao longo da área de contribuição do Rio Tibagi. Nota-se que o Estado do Paraná encontra-se numa fase de pequeno crescimento populacional (0,5% a.a.). Em algumas bacias, a população projetada tem uma tendência decrescente, como ocorre nas bacias de Cinzas, Itararé, Paranapanema 1 e 2 e Piquiri. Todavia, a população cresce anualmente acima da média do Estado nas bacias do Alto Iguaçu (0,8%), onde já existe uma alta densidade demográfica (habitante/km 2 ). Assim ocorre também nas sub-bacias do Baixo Ivaí (0,9%) e do Baixo Tibagi (0,5%), as quais concentram mais de 1 milhão de habitantes, um crescimento acima ou próximo da média do Estado, o qual também pode ser observado em bacias com menor densidade demográfica, como na Litorânea (0,8%), Pirapó (0,8%), Ribeira (0,9%) e Alto Tibagi (0,5%).\n\nAlém da apreensão que recai sobre a oferta de recursos hídricos para o abastecimento humano, sobretudo nas grandes cidades, há uma pertinente preocupação com relação à qualidade da água. Segundo o Índice de Qualidade da Àgua (IQA), que vai de 0 (muito boa) a 1 (poluída), nos 157 pontos monitorados no Estado do Paraná a água é classificada como muito boa em 20 pontos, como boa em 62, e mediamente poluída em 12. Em 52 pontos a água foi considerada pouco poluída. Cabe maior atenção a 11 locais onde a água foi classificada como poluída, dentre os quais somente dois não se localizam na Região Metropolitana de Curitiba (Estações Pedreira e Porto Amazonas).\n\nOs índices acima de 0,8 foram registrados nos seguintes locais: Estação Pedreira, na cidade de Toledo, que fica na região oeste do Paraná, com índice de 0,83; Estação Balsa Nova, na cidade de mesmo nome, com índice 0,84; Estação Pinhais, na cidade de Pinhais, com índice de 0,91; Estação Estrada Graciosa, em Quatro Barras, e Estação de Porto Amazonas, no município de mesmo nome, ambas com índice de 0,92; Estação Ponte da Caximba, em Araucária, Estação de Captação da Sanepar, em Pinhais, e Ponte BR-277, em São José dos Pinhais, as três com índice de 0,94; Estações ETE Araucária, em Araucária, e Ponte do Umbarazinho, em São José dos Pinhais, com índices de 0,96 e 0,97 respectivamente. 1\n\nNota-se uma concentração de pontos considerados poluídos na sub-bacia do Alto Iguaçu, a qual concentra a maior parte da população, que, por sua vez, tende a crescer em torno de 0,8% anualmente, acima da média do Estado, até 2035. Assim, a garantia de água para abastecimento humano no longo prazo deve ser observada, principalmente, nessa região.\n\nCom relação à dimensão econômica , a taxa de crescimento econômico pressiona o consumo. Para amenizar essa tendência é preciso fazer o aproveitamento dos recursos hídricos locais e da infraestrutura hídrica existente e em obras. Com o desenvolvimento econômico e o avanço da urbanização, a situação atual revela maior diversidade de usos, com ampliação da importância do uso urbano e relevante expansão do uso industrial e para a agricultura irrigada. Os indicadores a serem observados estão relacionados à garantia de água destinada à irrigação e pecuária para além da atividade industrial.\n\n1 Monitoramento da qualidade da água. Disponível em: https://geo.iat.pr.gov.br/portal/apps/opsdashboard /index.html#/3543e8d8d6284e8fb1d62abdfb0f1895. Acesso em: abr. 2022."
+      "content": "e Londrina, ao longo da área de contribuição do Rio Tibagi. Nota-se que o Estado do Paraná encontra-se numa fase de pequeno crescimento populacional (0,5% a.a.). Em algumas bacias, a população projetada tem uma tendência decrescente, como ocorre nas bacias de Cinzas, Itararé, Paranapanema 1 e 2 e Piquiri. Todavia, a população cresce anualmente acima da média do Estado nas bacias do Alto Iguaçu (0,8%), onde já existe uma alta densidade demográfica (habitante/km 2 ). Assim ocorre também nas sub-bacias do Baixo Ivaí (0,9%) e do Baixo Tibagi (0,5%), as quais concentram mais de 1 milhão de habitantes, um crescimento acima ou próximo da média do Estado, o qual também pode ser observado em bacias com menor densidade demográfica, como na Litorânea (0,8%), Pirapó (0,8%), Ribeira (0,9%) e Alto Tibagi (0,5%).\n\nAlém da apreensão que recai sobre a oferta de recursos hídricos para o abastecimento humano, sobretudo nas grandes cidades, há uma pertinente preocupação com relação à qualidade da água. Segundo o Índice de Qualidade da Àgua (IQA), que vai de 0 (muito boa) a 1 (poluída), nos 157 pontos monitorados no Estado do Paraná a água é classificada como muito boa em 20 pontos, como boa em 62, e mediamente poluída em 12. Em 52 pontos a água foi considerada pouco poluída. Cabe maior atenção a 11 locais onde a água foi classificada como poluída, dentre os quais somente dois não se localizam na Região Metropolitana de Curitiba (Estações Pedreira e Porto Amazonas).\n\nOs índices acima de 0,8 foram registrados nos seguintes locais: Estação Pedreira, na cidade de Toledo, que fica na região oeste do Paraná, com índice de 0,83; Estação Balsa Nova, na cidade de mesmo nome, com índice 0,84; Estação Pinhais, na cidade de Pinhais, com índice de 0,91; Estação Estrada Graciosa, em Quatro Barras, e Estação de Porto Amazonas, no município de mesmo nome, ambas com índice de 0,92; Estação Ponte da Caximba, em Araucária, Estação de Captação da Sanepar, em Pinhais, e Ponte BR-277, em São José dos Pinhais, as três com índice de 0,94; Estações ETE Araucária, em Araucária, e Ponte do Umbarazinho, em São José dos Pinhais, com índices de 0,96 e 0,97 respectivamente. 1\n\nNota-se uma concentração de pontos considerados poluídos na sub-bacia do Alto Iguaçu, a qual concentra a maior parte da população, que, por sua vez, tende a crescer em torno de 0,8% anualmente, acima da média do Estado, até 2035. Assim, a garantia de água para abastecimento humano no longo prazo deve ser observada, principalmente, nessa região.\n\nCom relação à dimensão econômica , a taxa de crescimento econômico pressiona o consumo. Para amenizar essa tendência é preciso fazer o aproveitamento dos recursos\n\n1 Monitoramento da qualidade da água. Disponível em: https://geo.iat.pr.gov.br/portal/apps/opsdashboard /index.html#/3543e8d8d6284e8fb1d62abdfb0f1895. Acesso em: abr. 2022."
     },
     {
       "document": "desenvolvimento_paranaense",
@@ -2775,7 +2542,7 @@
         "3 RESULTADOS E DISCUSSÃO"
       ],
       "type": "text",
-      "content": "A demanda por uso da água tem uma tendência crescente, embora haja uma variação de crescimento ligada diretamente ao crescimento econômico e ao processo de urbanização do Estado. Nessa ótica, a Indústria é a que demanda maior parcela de consumo e o abastecimento urbano de retirada, uma vez que grande parcela da água para esse último segmento retorna para os rios (tabela 3).\n\nTABELA 3 - CONSUMO E RETIRADA PERCENTUAL DE ÁGUA POR SEGMENTO NO PARANÁ - 2018\n\nFONTE: IAT (2020)\n\n(1) Água que não retorna diretamente aos corpos hídricos.\n\n(2) Água bruta total captada para uso.\n\nA distribuição percentual do uso de água por segmento, em 2018, se deu a partir de um total de 60,52 m 3 /s de retirada e 27,14 m 3 /s de consumo. O segmento voltado ao abastecimento humano é responsável pela maior parcela de água retirada (38%), o que correspondeu a 22,71 m 3 /s, embora esta água retorne para os rios, por meio do esgoto, resultando num consumo de 4,54 m 3 /s e retorno de 18,17 m 3 /s. Por sua vez, a indústria é responsável pelo maior consumo (30%), pois necessitou de 8,09 m 3 /s, nesse mesmo ano. A retirada para esse segmento foi de 17,03 m 3 /s e o retorno de 8,94 m 3 /s. Para uso animal a retirada foi de 10,29 m 3 /s e o consumo de 7,24 m 3 /s, gerando uma diferença de 3,05 m 3 /s como retorno. Já para irrigação, mineração e termoelétrica, o consumo, retirada e retorno foram, respectivamente, em torno de 6,01 m 3 /s, 8,92 m 3 /s e 2,91 m 3 /s.\n\nPara a atividade agropecuária as maiores vazões outorgadas são das bacias localizadas mais a leste do Paraná, sendo possível observar, a partir dos dados, que há uma tendência de maiores vazões outorgadas nas bacias mais populosas e urbanizadas, ao sul, para indústria e saneamento.\n\nA figura 2 ilustra as vazões de retirada para a atividade industrial distribuídas geograficamente pelo estado paranaense."
+      "content": "hídricos locais e da infraestrutura hídrica existente e em obras. Com o desenvolvimento econômico e o avanço da urbanização, a situação atual revela maior diversidade de usos, com ampliação da importância do uso urbano e relevante expansão do uso industrial e para a agricultura irrigada. Os indicadores a serem observados estão relacionados à garantia de água destinada à irrigação e pecuária para além da atividade industrial.\n\nA demanda por uso da água tem uma tendência crescente, embora haja uma variação de crescimento ligada diretamente ao crescimento econômico e ao processo de urbanização do Estado. Nessa ótica, a Indústria é a que demanda maior parcela de consumo e o abastecimento urbano de retirada, uma vez que grande parcela da água para esse último segmento retorna para os rios (tabela 3).\n\nTABELA 3 - CONSUMO E RETIRADA PERCENTUAL DE ÁGUA POR SEGMENTO NO PARANÁ - 2018\n\nFONTE: IAT (2020)\n\n(1) Água que não retorna diretamente aos corpos hídricos.\n\n(2) Água bruta total captada para uso.\n\nA distribuição percentual do uso de água por segmento, em 2018, se deu a partir de um total de 60,52 m 3 /s de retirada e 27,14 m 3 /s de consumo. O segmento voltado ao abastecimento humano é responsável pela maior parcela de água retirada (38%), o que correspondeu a 22,71 m 3 /s, embora esta água retorne para os rios, por meio do esgoto, resultando num consumo de 4,54 m 3 /s e retorno de 18,17 m 3 /s. Por sua vez, a indústria é responsável pelo maior consumo (30%), pois necessitou de 8,09 m 3 /s, nesse mesmo ano. A retirada para esse segmento foi de 17,03 m 3 /s e o retorno de 8,94 m 3 /s. Para uso animal a retirada foi de 10,29 m 3 /s e o consumo de 7,24 m 3 /s, gerando uma diferença de 3,05 m 3 /s como retorno. Já para irrigação, mineração e termoelétrica, o consumo, retirada e retorno foram, respectivamente, em torno de 6,01 m 3 /s, 8,92 m 3 /s e 2,91 m 3 /s.\n\nPara a atividade agropecuária as maiores vazões outorgadas são das bacias localizadas mais a leste do Paraná, sendo possível observar, a partir dos dados, que há uma tendência de maiores vazões outorgadas nas bacias mais populosas e urbanizadas, ao sul, para indústria e saneamento.\n\nA figura 2 ilustra as vazões de retirada para a atividade industrial distribuídas geograficamente pelo estado paranaense."
     },
     {
       "document": "desenvolvimento_paranaense",
