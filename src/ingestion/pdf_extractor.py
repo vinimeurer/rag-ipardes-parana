@@ -149,15 +149,17 @@ class DoclingPDFExtractor:
                 for page in batch_pages:
                     page.page_number += page_offset
 
+                    page.markdown = f"<!-- PAGE: {page.page_number} -->\n\n{page.markdown}"
+
                 all_pages.extend(batch_pages)
 
                 table_result: TableExtractionResult = self._table_extractor.extract(
                     pdf_key, docling_doc
                 )
 
-                for table in table_result.tables:
+                for idx, table in enumerate(table_result.tables):
                     table.page_number += page_offset
-                    table.table_index = len(all_tables)
+                    table.table_index = len(all_tables) + idx
 
                 all_tables.extend(table_result.tables)
 
@@ -215,13 +217,17 @@ class DoclingPDFExtractor:
         seja duplicado no texto corrido das páginas.
 
         O campo 'text' é salvo puro (texto plano) para o JSON.
-        O campo 'markdown' preserva a estrutura markdown do Docling e adiciona `<!-- PAGE: X -->`.
+        O campo 'markdown' preserva a estrutura markdown do Docling.
+        
+        **Nota**: A tag `<!-- PAGE: X -->` será adicionada APÓS o offset ser
+        aplicado na função extract(). Isso garante que os números de página
+        sejam globais (considerando todos os batches) e não locais ao batch.
 
         Args:
             docling_doc: Documento convertido pelo Docling.
 
         Returns:
-            Lista de ExtractedPage com texto por página, sem tabelas.
+            Lista de ExtractedPage com texto por página, sem tabelas, sem tag PAGE.
         """
         from docling_core.types.doc import TableItem as _TableItem
 
@@ -266,7 +272,8 @@ class DoclingPDFExtractor:
             page_text = "\n\n".join(t for t in page_texts[page_no] if t)
 
             page_md_content = "\n\n".join(t for t in page_markdowns[page_no] if t)
-            page_markdown = f"<!-- PAGE: {page_no} -->\n\n{page_md_content}"
+
+            page_markdown = page_md_content
 
             pages.append(
                 ExtractedPage(
