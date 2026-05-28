@@ -6,7 +6,9 @@
     "total_pages": 40,
     "total_tables": 12,
     "tables_found": 12,
-    "docling_schema_version": "2"
+    "docling_schema_version": "2",
+    "batch_size": 10,
+    "num_batches": 4
   },
   "pages": [
     {

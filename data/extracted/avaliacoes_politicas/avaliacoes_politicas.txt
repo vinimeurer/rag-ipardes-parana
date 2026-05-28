@@ -28,47 +28,6 @@ MARIANA ARCOS LORENCETTI (Cientista Política) - Consultora
 
 SUMÁRIO
 
-| LISTA DE SIGLAS.........................................................................................................................1                                                 |                                                                                                                                     |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| 1. INTRODUÇÃO...........................................................................................................................2                                                 |                                                                                                                                     |
-| 2. UMA REVISÃO DE ESCOPO ...................................................................................................3                                                             |                                                                                                                                     |
-| 3. METODOLOGIA........................................................................................................................4                                                   |                                                                                                                                     |
-| 3.1 PROTOCOLO E REGISTRO...................................................................................................4                                                              |                                                                                                                                     |
-| 3.2 CRITÉRIOS DE ELEGIBILIDADE...........................................................................................4                                                                |                                                                                                                                     |
-| 3.3 FONTES DE INFORMAÇÃO...................................................................................................5                                                              |                                                                                                                                     |
-| 3.4 O PROCESSO DE BUSCA NAS FONTES.............................................................................6                                                                          |                                                                                                                                     |
-| 3.4.1 Pesquisas Acadêmicas, ThinkTanks eOrganizações NãoGovernamentais....................................................................                                                | 8                                                                                                                                   |
-| 3.4.2 A Coleta de Textos Acadêmicos de Avaliação de Políticas Públicas                                                                                                                    | ...................................................................... 8                                                            |
-| 4. SELEÇÃO DE EVIDÊNCIAS...................................................................................................10                                                             |                                                                                                                                     |
-| 4.1 PROCESSO DE MAPEAMENTO DE DADOS ( DATA CHARTING PROCESS )                                                                                                                             | ..................11                                                                                                                |
-| 4.1.1 Variáveis de Interesse à Questão de Pesquisa ....................................................................................................                                   | 11                                                                                                                                  |
-| 4.1.2 Categorias de codificação aplicadas....................................................................................................................                             | 12                                                                                                                                  |
-| 4.1.3 Categorias referentes à política pública analisada..............................................................................................                                    | 12                                                                                                                                  |
-| 4.1.4 Categorias referentes ao texto avaliativo estudado: ..........................................................................................                                      | 13                                                                                                                                  |
-| 4.1.5 Sobre o processo avaliativo:                                                                                                                                                        | ............................................................................................................................... 14  |
-| 5. AVALIAÇÃO CRÍTICA DE CADA FONTE DE EVIDÊNCIA....................................................15                                                                                     |                                                                                                                                     |
-| 6. METODOLOGIA DE SÍNTESE DE RESULTADOS................................................................16                                                                                 |                                                                                                                                     |
-| 6.1 SELEÇÃO DE FONTES DE EVIDÊNCIA..............................................................................16                                                                        |                                                                                                                                     |
-| 7. CARACTERÍSTICAS E RESULTADOS DAS FONTES DE EVIDÊNCIAS E AVALIAÇÃO CRÍTICA DO MATERIAL PUBLICADO.....................................................................................18 |                                                                                                                                     |
-| 7.1 RESULTADOS.......................................................................................................................19                                                   |                                                                                                                                     |
-| 7.2 RESULTADOS GERAIS........................................................................................................19                                                           |                                                                                                                                     |
-| 7.3 DISTRIBUIÇÃO DE DOCUMENTOS POR TEMA DA POLÍTICA PÚBLICA........................20                                                                                                     |                                                                                                                                     |
-| 7.4 DEMANDANTES...................................................................................................................20                                                      |                                                                                                                                     |
-| 7.5 FINANCIADORES                                                                                                                                                                         | .................................................................................................................21                 |
-| 7.6 ÁREA DO PESQUISADOR...................................................................................................21                                                              |                                                                                                                                     |
-| 7.7 ÓRGÃO DE FORMULAÇÃO E RECORTE DA AVALIAÇÃO ...............................................22                                                                                          |                                                                                                                                     |
-| 7.8 DESENHO DA POLÍTICA PÚBLICA.....................................................................................23                                                                    |                                                                                                                                     |
-| 7.9 TIPOS DE AVALIAÇÃO MAIS COMUNS..............................................................................24                                                                        |                                                                                                                                     |
-| 7.10 MÉTODOS E TÉCNICAS: TIPOS MAIS COMUNS............................................................26                                                                                  |                                                                                                                                     |
-| 7.11 INDICADORES....................................................................................................................28                                                    |                                                                                                                                     |
-| 7.12 FONTES E QUALIDADE DAS FONTES.............................................................................28                                                                         |                                                                                                                                     |
-| 7.13 FERRAMENTAS E RECURSOS.........................................................................................28                                                                    |                                                                                                                                     |
-| 8. SUMÁRIO DE EVIDÊNCIAS: QUEM AVALIA POLÍTICAS PÚBLICAS NO BRASIL?                                                                                                                       | ...........29                                                                                                                       |
-| 9. COMO SE AVALIAM POLÍTICAS PÚBLICAS NO BRASIL?..................................................30                                                                                      |                                                                                                                                     |
-| 9.1 LIMITAÇÕES DA PESQUISA................................................................................................31 10. CONSIDERAÇÕES                                            | FINAIS...................................................................................................32                         |
-| REFERÊNCIAS                                                                                                                                                                               | ...........................................................................................................................33       |
-| APENDICE                                                                                                                                                                                  | 1................................................................................................................................34 |
-
 LISTA DE SIGLAS
 
 ANIPES - Associação Nacional das Instituições de Planejamento
@@ -173,18 +132,25 @@ Muitos  dos  estados  brasileiros  não  relatam  possuir  órgão  de  análise
 
 Das plataformas com atualização regular, foram encontrados:
 
-- Instituto Jones dos Santos Neves (Espírito Santo);
-- Fundação João Pinheiro (Minas Gerais);
-- Instituto de Pesquisa e Estratégia Econômica do Ceará (IPECE - Ceará);
-- Superintendência de Estudos Econômicos e Sociais da Bahia (SEI - Bahia).
-- Sob o governo federal, foram coletados relatórios e publicações do Conselho de Monitoramento e Avaliação de Políticas Públicas (CMAP), ligado ao Ministério do Planejamento  e  Orçamento,  e  publicações  do  Instituto  de  Pesquisa Econômica Aplicada (IPEA).
+Instituto Jones dos Santos Neves (Espírito Santo);
+
+Fundação João Pinheiro (Minas Gerais);
+
+Instituto de Pesquisa e Estratégia Econômica do Ceará (IPECE - Ceará);
+
+Superintendência de Estudos Econômicos e Sociais da Bahia (SEI - Bahia).
+
+Sob o governo federal, foram coletados relatórios e publicações do Conselho de Monitoramento e Avaliação de Políticas Públicas (CMAP), ligado ao Ministério do Planejamento  e  Orçamento,  e  publicações  do  Instituto  de  Pesquisa Econômica Aplicada (IPEA).
 
 Estados com publicações pontuais ou sem atualização recente foram:
 
-- Mato Grosso do Sul (um artigo, de 2017);
-- Piauí (artigos de 2018 em parceria com o IETS, órgão do Rio de Janeiro);
-- Rio  Grande  do  Sul  (relatórios  do  Núcleo  de  Monitoramento  e  Avaliação  de Políticas Públicas do Departamento de Planejamento Governamental -NUMA/DEPLAN, cujo trabalho mais recente era de 2019);
-- Maranhão (relatórios referentes ao Programa Mais IDH, publicados em 2021).
+Mato Grosso do Sul (um artigo, de 2017);
+
+Piauí (artigos de 2018 em parceria com o IETS, órgão do Rio de Janeiro);
+
+Rio  Grande  do  Sul  (relatórios  do  Núcleo  de  Monitoramento  e  Avaliação  de Políticas Públicas do Departamento de Planejamento Governamental -NUMA/DEPLAN, cujo trabalho mais recente era de 2019);
+
+Maranhão (relatórios referentes ao Programa Mais IDH, publicados em 2021).
 
 Apesar de ser costumeiramente obrigatório que estados criem relatórios relativos a programas para os quais receberam financiamento externo, não existe regra que demande que tais relatórios estejam disponíveis livremente ao público após a aprovação. Também não  existe  determinação  de  que  materiais  escritos  durante  uma  gestão  continuem disponíveis online após seu término. Assim, se supõe que existam muito mais grupos com expertise na avaliação de políticas públicas dentro dos estados do que é possível encontrar nas redes.
 
@@ -204,27 +170,47 @@ Percebeu-se, à primeira vista, uma maioria pujante de textos da área da saúde
 
 A lista de periódicos presentes no conjunto de textos para análise documental consta a seguir:
 
-- Avaliação (Campinas)
-- Cadernos de Saúde Pública
-- Ciência e Saúde Coletiva
-- Economia e Sociedade (Unicamp)
-- Educação e Realidade
-- Ensaio: Avaliação de Políticas Públicas Educacionais
-- Epidemiologia e Serviço de Saúde
-- Escola Ana Nery
-- Estudos Econômicos
-- Interface
-- Movimento
-- Physis Saúde Coletiva
-- Psicologia Escolar e Educacional
-- Rev. Brasileira de Enfermagem
-- Rev. Brasileira de Epidemiologia
-- Rev. Brasileira de Economia
-- Rev. Latinoamericana de Enfermagem
-- Rev. de Saúde Pública
-- Rev. Brasileira de Educação
-- Saúde e Debate
-- Saúde e Sociedade
+Avaliação (Campinas)
+
+Cadernos de Saúde Pública
+
+Ciência e Saúde Coletiva
+
+Economia e Sociedade (Unicamp)
+
+Educação e Realidade
+
+Ensaio: Avaliação de Políticas Públicas Educacionais
+
+Epidemiologia e Serviço de Saúde
+
+Escola Ana Nery
+
+Estudos Econômicos
+
+Interface
+
+Movimento
+
+Physis Saúde Coletiva
+
+Psicologia Escolar e Educacional
+
+Rev. Brasileira de Enfermagem
+
+Rev. Brasileira de Epidemiologia
+
+Rev. Brasileira de Economia
+
+Rev. Latinoamericana de Enfermagem
+
+Rev. de Saúde Pública
+
+Rev. Brasileira de Educação
+
+Saúde e Debate
+
+Saúde e Sociedade
 
 Todas as publicações foram selecionadas com base em seu título ou resumo e os  respectivos  arquivos  em  .pdf  foram  salvos  e  inseridos  no software Atlas.ti  para organização e subsequentemente o primeiro processo de screening (filtragem) com a leitura para exclusão de documentos irrelevantes.
 
@@ -254,55 +240,79 @@ Algumas  das  variáveis,  como  métodos  e  técnicas,  área  do  pesquisador
 
 Os tópicos de interesse podem ser descritos e categorizados da seguinte forma:
 
-1.  ' Quem avalia a política pública? ' Este tópico se refere a entender se os pesquisadores envolvidos são mencionados por nome ou por instituição, se suas áreas de formação são explicitadas, e se existe menção a algum órgão demandante que tenha 'encomendado' a pesquisa.
-2.  ' Qual a política pública avaliada? ' Para responder a esta questão, foram coletados: o nome da política pública em questão, sua área temática, o órgão formulador da ação, e possíveis financiadores.
+' Quem avalia a política pública? ' Este tópico se refere a entender se os pesquisadores envolvidos são mencionados por nome ou por instituição, se suas áreas de formação são explicitadas, e se existe menção a algum órgão demandante que tenha 'encomendado' a pesquisa.
 
-3.  ' Como se avaliou a política pública? ' Para este tópico, elencaram-se o recorte geográfico utilizado para verificação dos efeitos da intervenção, se existe exposição de modelo lógico ou  equivalente,  o  tipo  de  avaliação  efetuada  (p.ex.  avaliação  de  impacto,  avaliação executiva, avaliação  de  desenho  etc.),  os  métodos  e  técnicas  empregados,  os indicadores mobilizados ou a sua ausência ou incompletude, quais as fontes de dados indicadas pelos autores e qual a qualidade da apresentação destas fontes (permitindo ou não  replicação  do  estudo),  se  foram  empregados  recursos  ou  equipamentos  para  a avaliação e, por fim, se os pesquisadores relataram dificuldades no processo de avaliação.
+' Qual a política pública avaliada? ' Para responder a esta questão, foram coletados: o nome da política pública em questão, sua área temática, o órgão formulador da ação, e possíveis financiadores.
+
+' Como se avaliou a política pública? ' Para este tópico, elencaram-se o recorte geográfico utilizado para verificação dos efeitos da intervenção, se existe exposição de modelo lógico ou  equivalente,  o  tipo  de  avaliação  efetuada  (p.ex.  avaliação  de  impacto,  avaliação executiva, avaliação  de  desenho  etc.),  os  métodos  e  técnicas  empregados,  os indicadores mobilizados ou a sua ausência ou incompletude, quais as fontes de dados indicadas pelos autores e qual a qualidade da apresentação destas fontes (permitindo ou não  replicação  do  estudo),  se  foram  empregados  recursos  ou  equipamentos  para  a avaliação e, por fim, se os pesquisadores relataram dificuldades no processo de avaliação.
 
 4.1.2 Categorias de codificação aplicadas
 
 Sobre as equipes responsáveis:
 
-4. "Avaliadores": categorias "identificados" e "não consta". Aqui se buscou o nome dos pesquisadores, organização ou instituição responsável pela avaliação.
-5. "Demandantes": categorias "identificados" e "não consta". Esta categoria tem como propósito indicar casos de pesquisas "encomendadas" por governos ou feitas por demanda de agências financiadoras.
-6. "Área  do  pesquisador": as  categorias  foram  feitas  " as  is, "  ou  seja,  conforme constam em texto, em casos nos quais foi possível verificar a área de formação ou atuação dos avaliadores.
+"Avaliadores": categorias "identificados" e "não consta". Aqui se buscou o nome dos pesquisadores, organização ou instituição responsável pela avaliação.
+
+"Demandantes": categorias "identificados" e "não consta". Esta categoria tem como propósito indicar casos de pesquisas "encomendadas" por governos ou feitas por demanda de agências financiadoras.
+
+"Área  do  pesquisador": as  categorias  foram  feitas  " as  is, "  ou  seja,  conforme constam em texto, em casos nos quais foi possível verificar a área de formação ou atuação dos avaliadores.
 
 4.1.3 Categorias referentes à política pública analisada
 
-7. "Nome da Política Pública": codificado em moldes "conforme consta", com o nome da política pública e, caso necessário, a sigla pela qual é mais conhecida.
-8. "Órgão  de  Formulação": consta  o  nível  do  órgão  que  formulou  a  política  pública.  As categorias  são  "Governo  Estadual",  "Governo  Federal",  "Governo  Municipal"  e  "Não Consta".
-9. "Financiadores": foram classificados desta forma as agências financiadoras da política pública, como o Banco Mundial ou o BNDES. Caso nenhum financiador fosse identificado o código "Não consta" foi aplicado.
-10. "Tema da Política Pública": os textos receberam codificação segundo a área da política, sendo  as  áreas  temáticas  aceitas  na  presente  pesquisa  "Educação",  "Saúde"  e "Segurança Pública".
+"Nome da Política Pública": codificado em moldes "conforme consta", com o nome da política pública e, caso necessário, a sigla pela qual é mais conhecida.
+
+"Órgão  de  Formulação": consta  o  nível  do  órgão  que  formulou  a  política  pública.  As categorias  são  "Governo  Estadual",  "Governo  Federal",  "Governo  Municipal"  e  "Não Consta".
+
+"Financiadores": foram classificados desta forma as agências financiadoras da política pública, como o Banco Mundial ou o BNDES. Caso nenhum financiador fosse identificado o código "Não consta" foi aplicado.
+
+"Tema da Política Pública": os textos receberam codificação segundo a área da política, sendo  as  áreas  temáticas  aceitas  na  presente  pesquisa  "Educação",  "Saúde"  e "Segurança Pública".
 
 4.1.4 Categorias referentes ao texto avaliativo estudado:
 
-11. "Recorte da avaliação": foi aplicado para entendimento de qual o recorte geográfico da análise avaliativa. Não deve ser confundido com "Órgão de Formulação", que se refere à formulação da política pública e não da avaliação. As categorias utilizadas foram: "estado ou  estados",  "federal",  "município  ou  municípios",  "submunicipal"  e,  por  fim,  "não consta/insuficiente" para os casos nos quais o recorte de pesquisa não foi devidamente explicado pelos avaliadores.
-12. "Desenho da Política": possui três categorias, sendo "Presente", "Ausente" e "Parcial ou Incompleto".  Aqui  entendemos  como  "desenho"  a  apresentação  de  modelo  lógico  ou outras formas de ilustração dos resultados esperados, público alvo e ações da política pública analisada.
-13. 'Tipo  de  Avaliação': categoria  que  agrega  tipos  de  avaliações,  conforme  informado pelos pesquisadores.
-14. 'Métodos e Técnicas': nesta categoria constam todas as técnicas e métodos de análise relatados  pelos  autores.  Inicialmente  os  códigos  relacionados  a  metodologia  foram aplicados pelos pesquisadores em moldes 'conforme consta', e a heterogeneidade de especialidades do grupo - sendo um economista, dois cientistas sociais e um cientista político - foi aproveitada de forma que certos métodos que poderiam ter sido ignorados por um dos pesquisadores seriam, sem dúvida, localizados por seu colega de dupla. Após discussão entre os participantes e diálogo com especialistas, as categorias de métodos foram classificadas da seguinte forma:
-5. 'Amostragem e Pareamento', para técnicas explicitamente listadas de amostragem ou criação de grupos para comparação;
-6. 'Análise de Conteúdo e de Discurso', autoexplicativa;
-7. 'Análise de gestão, processos e estrutura', para técnicas de gestão de políticas públicas, como Matriz SWOT, Modelo Lógico, entre outros;
-8. 'Documental', para análise em profundidade de literatura e legislação sem aplicação de técnicas de análise de conteúdo e discurso;
-9. 'Entrevistas  e  similares',  para  entrevistas  abertas,  semiestruturadas,  entre  outras técnicas mais abertas que surveys e questionários;
-10. 'Escalas, Índices e Escores', para técnicas que buscam agregar indicadores e mensurar intensidade ou qualidade da ocorrência de um processo;
-11. 'Estatística  descritiva',  para  frequências  simples,  análise  de  correspondência,  entre outros;
+"Recorte da avaliação": foi aplicado para entendimento de qual o recorte geográfico da análise avaliativa. Não deve ser confundido com "Órgão de Formulação", que se refere à formulação da política pública e não da avaliação. As categorias utilizadas foram: "estado ou  estados",  "federal",  "município  ou  municípios",  "submunicipal"  e,  por  fim,  "não consta/insuficiente" para os casos nos quais o recorte de pesquisa não foi devidamente explicado pelos avaliadores.
 
-- 'Estatística Inferencial', para regressões dos mais diversos tipos e outras técnicas de inferência estatística;
-- 'Grupo Focal, Painel de Especialistas e Oficinas', inclui métodos de entrevista coletiva, rodas de debate guiado, oficinas de diálogo, entre outros;
-- 'Outras técnicas qualitativas', abrangendo, sobretudo, técnicas antropológicas, como a observação participante e a etnografia;
-- 'Questionários e Survey ', para questionários fechados e de múltipla escolha;
-- 'Testes  de  confiabilidade'  para  autores  que  explicitam  detalhadamente  técnicas  que garantam a robustez e confiabilidade de modelos mais complexos.
-15. ' Indicadores':  categoria que  relata  se  os  pesquisadores  informam  os  indicadores utilizados para avaliar a política pública. As categorias são 'Presente', 'Ausente', 'Não se aplica' e 'Incompleto ou insuficiente'. 'Incompleto/insuficiente' foi aplicado em casos nos  quais  os  indicadores  não  apresentaram  elementos  e  variáveis  suficientemente explicados.
-16. 'Fontes' : consta nesta variável as fontes de dados utilizados na pesquisa, como bancos de  dados  oficiais,  análise  documental  ou  dados  de  elaboração  própria.  As  categorias foram criadas segundo informações relatadas no texto.
-17. 'Qualidade das Fontes': essa categoria tem como propósito avaliar a replicabilidade do estudo,  o  que  é  possível  caso  as  fontes  de  dados  tenham  sido  expostas  de  forma suficientemente explicativa. As categorias são 'Completo', para casos onde a origem dos dados foi  informada  de  forma  detalhada;  'Incompleto  ou  insuficiente'  para  casos  nos quais  não  existe  clareza  o  suficiente  a  respeito  dos  dados  utilizados  e,  por  fim  'não constam fontes' para casos nos quais os pesquisadores falharam em informar a origem de seus dados.
+"Desenho da Política": possui três categorias, sendo "Presente", "Ausente" e "Parcial ou Incompleto".  Aqui  entendemos  como  "desenho"  a  apresentação  de  modelo  lógico  ou outras formas de ilustração dos resultados esperados, público alvo e ações da política pública analisada.
+
+'Tipo  de  Avaliação': categoria  que  agrega  tipos  de  avaliações,  conforme  informado pelos pesquisadores.
+
+'Métodos e Técnicas': nesta categoria constam todas as técnicas e métodos de análise relatados  pelos  autores.  Inicialmente  os  códigos  relacionados  a  metodologia  foram aplicados pelos pesquisadores em moldes 'conforme consta', e a heterogeneidade de especialidades do grupo - sendo um economista, dois cientistas sociais e um cientista político - foi aproveitada de forma que certos métodos que poderiam ter sido ignorados por um dos pesquisadores seriam, sem dúvida, localizados por seu colega de dupla. Após discussão entre os participantes e diálogo com especialistas, as categorias de métodos foram classificadas da seguinte forma:
+
+'Amostragem e Pareamento', para técnicas explicitamente listadas de amostragem ou criação de grupos para comparação;
+
+'Análise de Conteúdo e de Discurso', autoexplicativa;
+
+'Análise de gestão, processos e estrutura', para técnicas de gestão de políticas públicas, como Matriz SWOT, Modelo Lógico, entre outros;
+
+'Documental', para análise em profundidade de literatura e legislação sem aplicação de técnicas de análise de conteúdo e discurso;
+
+'Entrevistas  e  similares',  para  entrevistas  abertas,  semiestruturadas,  entre  outras técnicas mais abertas que surveys e questionários;
+
+'Escalas, Índices e Escores', para técnicas que buscam agregar indicadores e mensurar intensidade ou qualidade da ocorrência de um processo;
+
+'Estatística  descritiva',  para  frequências  simples,  análise  de  correspondência,  entre outros;
+
+'Estatística Inferencial', para regressões dos mais diversos tipos e outras técnicas de inferência estatística;
+
+'Grupo Focal, Painel de Especialistas e Oficinas', inclui métodos de entrevista coletiva, rodas de debate guiado, oficinas de diálogo, entre outros;
+
+'Outras técnicas qualitativas', abrangendo, sobretudo, técnicas antropológicas, como a observação participante e a etnografia;
+
+'Questionários e Survey ', para questionários fechados e de múltipla escolha;
+
+'Testes  de  confiabilidade'  para  autores  que  explicitam  detalhadamente  técnicas  que garantam a robustez e confiabilidade de modelos mais complexos.
+
+' Indicadores':  categoria que  relata  se  os  pesquisadores  informam  os  indicadores utilizados para avaliar a política pública. As categorias são 'Presente', 'Ausente', 'Não se aplica' e 'Incompleto ou insuficiente'. 'Incompleto/insuficiente' foi aplicado em casos nos  quais  os  indicadores  não  apresentaram  elementos  e  variáveis  suficientemente explicados.
+
+'Fontes' : consta nesta variável as fontes de dados utilizados na pesquisa, como bancos de  dados  oficiais,  análise  documental  ou  dados  de  elaboração  própria.  As  categorias foram criadas segundo informações relatadas no texto.
+
+'Qualidade das Fontes': essa categoria tem como propósito avaliar a replicabilidade do estudo,  o  que  é  possível  caso  as  fontes  de  dados  tenham  sido  expostas  de  forma suficientemente explicativa. As categorias são 'Completo', para casos onde a origem dos dados foi  informada  de  forma  detalhada;  'Incompleto  ou  insuficiente'  para  casos  nos quais  não  existe  clareza  o  suficiente  a  respeito  dos  dados  utilizados  e,  por  fim  'não constam fontes' para casos nos quais os pesquisadores falharam em informar a origem de seus dados.
 
 4.1.5 Sobre o processo avaliativo:
 
-18. 'Ferramentas  e  Recursos': ilustra  instâncias  nas  quais  os  autores  da  avaliação relataram artifícios adicionais para a pesquisa. As categorias são: 'Equipes contratadas', aplicada  sobretudo  em  casos  de  pesquisa  de  campo  envolvendo  times  amplos  de pesquisadores; ' Software ', para os casos nos quais os pesquisadores relataram o uso de programas informatizados para análise ou gestão de dados; 'equipamentos físicos' para o uso de aparelhos como, por exemplo, gravadores, câmeras, entre outros; 'Infraestrutura' para casos de uso de salas e locais especiais para a pesquisa, como ambientes especiais para  aplicação  de  grupo  focal.  Por  fim,  tem-se  as  categorias  ' Incompleto/insuficiente ' para explanações vagas sobre o uso de recursos adicionais, e ' Não consta ' para casos
+'Ferramentas  e  Recursos': ilustra  instâncias  nas  quais  os  autores  da  avaliação relataram artifícios adicionais para a pesquisa. As categorias são: 'Equipes contratadas', aplicada  sobretudo  em  casos  de  pesquisa  de  campo  envolvendo  times  amplos  de pesquisadores; ' Software ', para os casos nos quais os pesquisadores relataram o uso de programas informatizados para análise ou gestão de dados; 'equipamentos físicos' para o uso de aparelhos como, por exemplo, gravadores, câmeras, entre outros; 'Infraestrutura' para casos de uso de salas e locais especiais para a pesquisa, como ambientes especiais para  aplicação  de  grupo  focal.  Por  fim,  tem-se  as  categorias  ' Incompleto/insuficiente ' para explanações vagas sobre o uso de recursos adicionais, e ' Não consta ' para casos
 
-- nos quais não houve relato de uso de ferramentas.
-19. 'Dificuldades de avaliação': Esta variável tem apenas duas categorias - 'Relatado' e 'Não  Consta'.  'Relatado'  foi  uma  marcação  colocada  em  trechos  dos  textos  que expuseram  possíveis  percalços  na  execução  da  pesquisa,  como  ausência  de  dados oficiais,  problemas  na  aplicação  dos  métodos  escolhidos  ou  lacunas  importantes  de informação.  'Não  consta'  se  refere  a  textos  que  não  mencionam  dificuldades  na formulação da pesquisa.
+nos quais não houve relato de uso de ferramentas.
+
+'Dificuldades de avaliação': Esta variável tem apenas duas categorias - 'Relatado' e 'Não  Consta'.  'Relatado'  foi  uma  marcação  colocada  em  trechos  dos  textos  que expuseram  possíveis  percalços  na  execução  da  pesquisa,  como  ausência  de  dados oficiais,  problemas  na  aplicação  dos  métodos  escolhidos  ou  lacunas  importantes  de informação.  'Não  consta'  se  refere  a  textos  que  não  mencionam  dificuldades  na formulação da pesquisa.
 
 5. AVALIAÇÃO CRÍTICA DE CADA FONTE DE EVIDÊNCIA
 
@@ -342,28 +352,7 @@ Nota-se,  assim,  que  de  todas  as  unidades  da  federação  que  se  pesqui
 
 A maioria dos textos selecionados eram artigos de periódicos, e os periódicos de origem de tais materiais constam no quadro a seguir:
 
-| NOME DO PERIÓDICO                                    | ÁREADO PERIÓDICO   | NÚMERO DE CASOS   |
-|------------------------------------------------------|--------------------|-------------------|
-| Acta Paulista de Enfermagem                          | Saúde              | 1 caso            |
-| Avaliação: Revista da Avaliação da Educação Superior | Educação           | 2 casos           |
-| Cadernos de Saúde Coletiva                           | Saúde              | 7 casos           |
-| Ciência e Saúde Coletiva                             | Saúde              | 4 casos           |
-| Educação e Pesquisa                                  | Educação           | 1 caso            |
-| Epidemiologia e Serviços de Saúde                    | Saúde              | 4 casos           |
-| Escola Ana Nery                                      | Saúde              | 1 caso            |
-| Estudos Econômicos                                   | Economia           | 2 casos           |
-| Interface                                            | Interdisciplinar   | 3 casos           |
-| Paideia                                              | Psicologia         | 1 caso            |
-| Physis Saúde Coletiva                                | Saúde              | 5 casos           |
-
-| NOME DO PERIÓDICO                           | ÁREADO PERIÓDICO   | NÚMERO DE CASOS   |
-|---------------------------------------------|--------------------|-------------------|
-| Revista Brasileira de Ciência Política      | Ciência Política   | 1 caso            |
-| Revista Brasileira de Estudos Populacionais | Interdisciplinar   | 1 caso            |
-| Revista Brasileira de Economia              | Economia           | 3 casos           |
-| Revista de Saúde Pública                    | Saúde              | 3 casos           |
-| Saúde e Debate                              | Saúde              | 8 casos           |
-| Temas em Psicologia                         | Psicologia         | 1 caso            |
+3 Repositório Avaliação de Políticas Públicas em:< https://www.ipardes.pr.gov.br/Pagina/Repositorio-Avaliacao-de-Politicas-Publicas>
 
 Dos  artigos  publicados  por  organizações  não  governamentais,  um  deles  foi publicado pelo Banco Interamericano de Desenvolvimento e um pelo Banco Mundial, um pelo Instituto Natura e dois pelo IEPS (Instituto de Estudos para Políticas de Saúde). Notase que o número de artigos por tipo de origem não é o mesmo do fluxograma: por vezes, as buscas em fontes não governamentais levaram a páginas de órgãos públicos e vice-versa .
 
@@ -381,12 +370,6 @@ Na vasta maioria dos casos, os pesquisadores foram identificados individualmente
 
 Um comentário se faz necessário: o Programa Nacional de Alimentação Escolar foi codificado tanto como Educação quanto Saúde em textos nos quais os autores faziam uma boa conexão entre as áreas temáticas, e é por este motivo que têm mais casos do que o número de documentos analisados.
 
-| TEMA DA POLÍTICA PÚBLICA   | CONTAGEM   |
-|----------------------------|------------|
-| Educação                   | 34 casos   |
-| Saúde                      | 44 casos   |
-| Segurança Pública          | 8 casos    |
-
 É  importante  mencionar  que  boa  parte  dos  resultados  comparativos  usa contagens  brutas  pela  grande  disparidade  de  número  de  casos  por  tema.  Não  se  pode afirmar,  com  certeza,  os  motivos  por  trás  de  uma  contagem  tão  baixa  de  casos  para  a Segurança Pública, mas pode-se considerar que as outras áreas possuam uma tradição mais forte de diálogo com a área de políticas públicas ou gestão pública, maior contato com moldes e práticas necessárias para a avaliação de políticas públicas, e maior disponibilidade de dados publicados.
 
 7.4 DEMANDANTES
@@ -394,13 +377,6 @@ Um comentário se faz necessário: o Programa Nacional de Alimentação Escolar 
 Os  "Demandantes"  da  Política  Pública  (ou  seja,  órgãos  governamentais, autarquias,  bancos  e  outros  interessados  que  possam  ter  "encomendado"  a  avaliação) raramente foram identificados. Em 67 avaliações não se mencionam demandantes e, em 32 delas mencionam, entre chamadas de órgãos públicos com demandas para a comunidade acadêmica e órgãos públicos que coordenam pesquisas. Aqui, considera-se que todos os textos produzidos por entidades governamentais já constam seus demandantes - sendo o próprio governo e seus órgãos. Oito das avaliações (sendo cinco documentos) foram de produção do Instituto Jones dos Santos Neves, ligado ao Governo do Estado do Espírito Santo, e quatro delas eram do IPECE, ligado ao governo do Ceará. Dos textos demandados pelo Governo Federal, quatro vieram do CMAP, dois foram demandados pelo BNDES e um pelo Ministério da Educação.
 
 Dos  textos  que  não  foram  produzidos  por  governos,  temos  os  seguintes demandantes mais comuns:
-
-| DEMANDANTE/FINANCIADOR MENCIONADO   |   CONTAGEM DE CASOS |
-|-------------------------------------|---------------------|
-| Chamada Pública do IPEA             |                  11 |
-| Banco Mundial                       |                   2 |
-| Programa Cátedras Brasil (ENAP)     |                   2 |
-| Editais do Ministério da Saúde      |                   1 |
 
 Não  se  considera  como  demandantes  e  tampouco  como  financiadores  de pesquisa documentos acadêmicos cujos autores foram beneficiados por bolsas do CNPq e similares, uma vez que entendemos que bolsas de pós-graduação e iniciação científica não exercem controle rígido sobre os autores, que gozam de relativa liberdade na escolha de seus objetos de pesquisa.
 
@@ -416,38 +392,9 @@ Quando  o  documento  apresentou  múltiplos  autores  com  formações  distint
 
 Das  categorias que  puderam  ser  coletadas, as duas  áreas  que  foram mencionadas mais vezes foram as Ciências da Saúde, com 12 casos, e a Economia, com 11 casos. Economistas se mostraram bem distribuídos por todos os temas, possivelmente devido à afinidade metodológica da área ao tema da avaliação de políticas públicas.
 
-| ÁREADO TEMA                     |   EDUCAÇÃO |   SAÚDE |   SEGURANÇA PÚBLICA |   SOMADOS TEMAS |
-|---------------------------------|------------|---------|---------------------|-----------------|
-| Não consta                      |         24 |      28 |                   6 |              58 |
-| Ciências da Saúde               |          1 |      12 |                   0 |              13 |
-| Economia                        |          7 |       4 |                   0 |              11 |
-| Administração ou Gestão Pública |          4 |       2 |                   0 |               6 |
-| Enfermagem                      |          0 |       4 |                   0 |               4 |
-| Nutrição                        |          2 |       2 |                   0 |               4 |
-| Medicina                        |          0 |       3 |                   0 |               3 |
-| Políticas Públicas              |          0 |       3 |                   0 |               3 |
-| Ciência Política                |          1 |       0 |                   2 |               3 |
-| Ciências Sociais                |          0 |       1 |                   1 |               2 |
-| Geografia                       |          0 |       1 |                   1 |               2 |
-| Sociologia                      |          0 |       1 |                   1 |               2 |
-| Estatística                     |          2 |       0 |                   0 |               2 |
-| Serviço Social                  |          0 |       1 |                   0 |               1 |
-| Demografia                      |          0 |       0 |                   1 |               1 |
-| Engenharia                      |          1 |       0 |                   0 |               1 |
-| Total por Tema                  |         42 |      62 |                  12 |             116 |
-
 7.7 ÓRGÃO DE FORMULAÇÃO E RECORTE DA AVALIAÇÃO
 
 Sobre os órgãos formuladores das políticas públicas, 53 avaliações tinham como objeto  iniciativas  do  Governo  Federal;  28  avaliavam  políticas  formuladas  por  governos estaduais;  e  apenas  quatro  das  avaliações  consideravam  iniciativas  de  prefeituras.  No entanto, isso não significa que os avaliadores utilizaram recortes integrais em suas análises: 32  avaliações  utilizavam  como  objeto  dados  de  nível  estadual,  22  analisavam  efeitos  e impactos  em  nível  municipal,  e  oito  avaliações  usaram  como  objeto  níveis  inferiores  ao municipal, como estudos de caso. Apenas 20 avaliações tinham recorte nacional .
-
-| RECORTE GEOGRÁFICO DAAVALIAÇÃO   | ÓRGÃOS DE FORMULAÇÃO DA POLÍTICA PÚBLICA   | ÓRGÃOS DE FORMULAÇÃO DA POLÍTICA PÚBLICA   | ÓRGÃOS DE FORMULAÇÃO DA POLÍTICA PÚBLICA   | TOTAL (POR RECORTE)   |
-|----------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|-----------------------|
-| RECORTE GEOGRÁFICO DAAVALIAÇÃO   | Governo Estadual                           | Governo Federal                            | Prefeitura                                 | TOTAL (POR RECORTE)   |
-| Federal                          | 0                                          | 21                                         | 0                                          | 21                    |
-| Estado(s)                        | 22                                         | 10                                         | 0                                          | 32                    |
-| Município(s)                     | 5                                          | 15                                         | 4                                          | 22                    |
-| Submunicipal                     | 1                                          | 7                                          | 0                                          | 08                    |
-| Total (por Órgão de Formulação)  | 28                                         | 53                                         | 04                                         |                       |
 
 A  categoria  'submunicipal',  referente  a  recortes  menores  que  uma  cidade (estudos de caso, comparação entre escolas, avaliação de alguns postos de saúde, como exemplos) esteve presente na avaliação de uma política promovida por um governo estadual e  sete  políticas  de  nível  federal.  Das  22  avaliações  nas  quais  os  autores  verificaram resultados de um município ou compararam municípios, 15 eram políticas de abrangência federal  e  cinco  eram  propostas  de governos  estaduais.  Estas  avaliações  com  limitações metodológicas de recorte geográfico são todas avaliações de origem acadêmica, e podemos atribuir tal fenômeno à limitação de recursos de pesquisa disponíveis aos autores, e não tanto  pela  presença  de  casos sui  generis que  demandassem  recortes  específicos  para análise em profundidade .
 
@@ -458,21 +405,6 @@ Neste tópico, buscamos textos que ilustrassem o desenho da política pública, 
 Assim, podemos afirmar que, das 83 avaliações presentes em 81 documentos, 32  apresentavam  o  desenho  da  política  pública,  e  51  omitiram  esta  informação.  Esta marcante  ausência  pode  ser  devida  à  limitação  de  espaço  para  texto  em  publicações acadêmicas e à ausência de padrão tipo checklist para quais informações são relevantes a uma avaliação de políticas públicas.
 
 7.9 TIPOS DE AVALIAÇÃO MAIS COMUNS
-
-| TIPO DE AVALIAÇÃO CITADA PELO AUTOR   |   MENÇÕES (CONTAGEM) |
-|---------------------------------------|----------------------|
-| Avaliação de Impacto                  |                   33 |
-| Avaliação de Implementação            |                   19 |
-| Avaliação de Implantação              |                   18 |
-| Avaliação de Desempenho               |                    7 |
-| Avaliação Executiva                   |                    7 |
-| Avaliação de Efeito                   |                    4 |
-| Avaliação Normativa                   |                    4 |
-| Avaliação de Eficácia                 |                    4 |
-| Avaliação de Efetividade              |                    3 |
-| Avaliação de Utilidade                |                    3 |
-| Avaliação de Diagnóstico              |                    2 |
-| Avaliação de Quarta Geração           |                    1 |
 
 Dois comentários se fazem necessários: a relativa infrequência de avaliações ex -ante ,  e  a  grande  heterogeneidade de tipos de avaliação. Houve casos em que foram atribuídos um, dois ou três tipos de avaliações. Tendo em vista que a nomenclatura da área não é padronizada, e uma avaliação pode ser parte integrante de outra ou um subtópico dentro  de  outra,  optou-se  por  manter  todas  as  atribuições  realizadas.  Como  recurso metodológico,  não  se  presumiu  quais  eram  os  tipos  de  avaliações,  caso  estes  não estivessem mencionados. Nestes casos, o documento foi excluído da análise.
 
@@ -486,42 +418,11 @@ O predomínio das avaliações de impacto era esperado,  uma vez que esta é con
 
 O  uso  da  Avaliação  Executiva  também  merece  comentário:  passível  de aplicação em qualquer momento do ciclo da Política Pública e em qualquer área da política, e  de  execução  mais  'rápida',  todas  as  publicações  que  usaram  este  método  foram documentos classificados como 'governamentais'.
 
-| TIPO                              | EDUCAÇÃO N = 34   | EDUCAÇÃO N = 34   | SAÚDE N = 44   | SAÚDE N = 44   | SEGURANÇA PÚBLICA N = 8   | SEGURANÇA PÚBLICA N = 8   |
-|-----------------------------------|-------------------|-------------------|----------------|----------------|---------------------------|---------------------------|
-|                                   | Nº                | Coeficiente       | Nº             | Coeficiente    | Nº                        | Coeficiente               |
-| Avaliação de Desempenho N = 7     | 1                 | 3,0%              | 6              | 13,0%          | 0                         | 0,0%                      |
-| Avaliação de Diagnóstico N = 2    | 1                 | 3,0%              | 1              | 2,0%           | 0                         | 0,0%                      |
-| Avaliação de Efeito N = 4         | 1                 | 3,0%              | 2              | 4,0%           | 1                         | 9,0%                      |
-| Avaliação de Efetividade N = 3    | 2                 | 6,0%              | 1              | 2,0%           | 0                         | 0,0%                      |
-| Avaliação de Eficácia N = 4       | 3                 | 9,0%              | 2              | 4,0%           | 0                         | 0,0%                      |
-| Avaliação de Impacto N = 33       | 18                | 37,0%             | 8              | 13,0%          | 6                         | 17,0%                     |
-| Avaliação de Implantação N = 18   | 2                 | 4,0%              | 16             | 35,0%          | 0                         | 0,0%                      |
-| Avaliação de Implementação N = 19 | 5                 | 10,0%             | 16             | 34,0%          | 1                         | 4,0%                      |
-| Avaliação de Quarta Geração N = 1 | 0                 | 0,0%              | 1              | 2,0%           | 0                         | 0,0%                      |
-| Avaliação de Utilidade N = 3      | 0                 | 0,0%              | 2              | 4,0%           | 1                         | 10,0%                     |
-| Avaliação Executiva N = 7         | 4                 | 11,0%             | 1              | 2,0%           | 1                         | 7,0%                      |
-| Avaliação Normativa N = 4         | 0                 | 0,0%              | 4              | 9,0%           | 0                         | 0,0%                      |
-
 A avaliação de impacto se encontrou distribuída uniformemente entre todos os temas.  Deve-se  notar  a  concentração  de  casos  de  avaliações  de  implementação  e implantação nos textos de temas da saúde, que pode se dever ao fato de que políticas de abrangência nacional devem ser investigadas em sua capacidade de alcance e capilaridade.
 
 7.10 MÉTODOS E TÉCNICAS: TIPOS MAIS COMUNS
 
 Diante da multiplicidade e heterogeneidade das técnicas e métodos apontados pelos autores, opta-se no presente relatório por uso de categorias agregadas. Apesar de existirem mais categorias de análise qualitativa, a análise quantitativa demonstrou o maior número de casos. Não se deve ignorar que autores podem aplicar métodos mistos, ou seja, combinar técnicas quantitativas e qualitativas. Todas as técnicas mencionadas pelos autores receberam categorização e um mesmo autor pode utilizar diversos métodos num mesmo estudo; é por esse motivo que se tem mais casos que documentos.
-
-| TIPO DE TÉCNICA                                 |   CONTAGEM |
-|-------------------------------------------------|------------|
-| Estatística Inferencial                         |         42 |
-| Amostragem e Pareamento                         |         33 |
-| Análise de Gestão, Processos e Estrutura        |         29 |
-| Testes de Confiabilidade                        |         27 |
-| Questionários e Surveys                         |         26 |
-| Entrevistas e Similares                         |         23 |
-| Estatística Descritiva                          |         19 |
-| Análise de Conteúdo e Discurso                  |         14 |
-| Outros tipos de Análise Documental              |         13 |
-| Escalas, Índices e Escores                      |         11 |
-| Grupo Focal, Painel de Especialistas e Oficinas |          8 |
-| Outras técnicas qualitativas                    |          7 |
 
 Métodos  estatísticos  dominaram  o  quadro,  com  42  instâncias  de  uso  de Estatística Inferencial, e 19 estudos com Estatística Descritiva. Como 'Estatística Inferencial' entendemos métodos que permitem fazer inferências sobre um fenômeno, como regressões. Já  a  estatística  descritiva  englobou  métodos  descritivos  como  contagem,  frequências  e correspondência entre variáveis.
 
@@ -605,90 +506,104 @@ APENDICE 1
 
 Lista de think tanks e outras organizações não governamentais que foram visitadas durante a busca por materiais:
 
--  Associação Bem Comum
--  Banco Interamericano
--  Banco Mundial
--  Banco Nacional de Desenvolvimento Econômico e Social (BNDES)
--  Campbell Collaboration
--  Centro Brasileiro de Análise e Planejamento (CEBRAP)
--  Centro de Estudos Estratégicos da Fundação Oswaldo Cruz (CEE-FIOCRUZ)
--  Centro de Estudos e Pesquisas em Educação, Cultura e Ação Comunitária (CENPEC)
--  Centro de Políticas Sociais da Fundação Getúlio Vargas (FGV Social)
--  Fundação Lemann
--  Centro de Aprendizagem em Avaliação e Resultados Para a África Lusófona e Brasil da Fundação Getúlio Vargas (CLEAR - FGV)
--  ONG Conectas - Direitos Humanos
--  Departamento Intersindical de Estatística e Estudos Econômicos (DIEESE)
--  Escola  de  Administração  de  Empresas  de  São  Paulo  da  Fundação  Getúlio  Vargas (EAESP-FGV)
--  Escola Nacional de Administração Pública (ENAP)
--  Fórum Brasileiro de Segurança Pública (FBSP)
--  Fundação Bradesco
--  Fundação Maria Cecília Souto Vidigal
--  Fundação Renova
--  Fundação Roberto Marinho
--  Fundação Santillana
--  Fundação Unibanco
--  Fundação Vale
--  Fundação Joaquim Nabuco (FUNDAJ)
--  Instituto Brasileiro de Análises Sociais e Econômicas (IBASE)
--  Instituto Brasileiro de Ciências Criminais (IBCCRIM)
--  Instituto de Estudos para Políticas de Saúde (IEPS)
--  Imaginable Futures
--  Instituto de Estudos Socioeconômicos (INESC)
--  Instituto Gesto
--  Instituto Alana
+ Associação Bem Comum
 
--  Instituto Igarapé
--  Instituto Natura
--  Instituto Península
--  Instituto Sou Ciência da Universidade Federal de São Paulo (Sou Ciência - UNIFESP)
--  Instituto Itaú Social
--  Joanna Briggs Institute
--  Abdul Latif Jameel Poverty Action Lab (J-PAL)
--  Laboratório de Estudos e Pesquisas em Economia Social da Universidade de São Paulo (LEPES-USP)
--  Núcleo de Acompanhamento de Políticas Públicas da Fundação Perseu Abramo (NAPP - Perseu Abramo)
--  Núcleo de Estudos da Cidadania, Conflito e Violência Urbana da Universidade Federal do Rio de Janeiro (NECVU-UFRJ)
--  Núcleo de Estudos da Violência da USP (NEV-USP)
--  Organização das Nações Unidas (ONU)
--  Oxfam International
--  Plataforma Freire da Fundação Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Plataforma Freire - CAPES)
--  Think Olga
--  Todos Pela Educação
--  UNESCO Institute for Statistics (UIS/UNESCO)
+ Banco Interamericano
+
+ Banco Mundial
+
+ Banco Nacional de Desenvolvimento Econômico e Social (BNDES)
+
+ Campbell Collaboration
+
+ Centro Brasileiro de Análise e Planejamento (CEBRAP)
+
+ Centro de Estudos Estratégicos da Fundação Oswaldo Cruz (CEE-FIOCRUZ)
+
+ Centro de Estudos e Pesquisas em Educação, Cultura e Ação Comunitária (CENPEC)
+
+ Centro de Políticas Sociais da Fundação Getúlio Vargas (FGV Social)
+
+ Fundação Lemann
+
+ Centro de Aprendizagem em Avaliação e Resultados Para a África Lusófona e Brasil da Fundação Getúlio Vargas (CLEAR - FGV)
+
+ ONG Conectas - Direitos Humanos
+
+ Departamento Intersindical de Estatística e Estudos Econômicos (DIEESE)
+
+ Escola  de  Administração  de  Empresas  de  São  Paulo  da  Fundação  Getúlio  Vargas (EAESP-FGV)
+
+ Escola Nacional de Administração Pública (ENAP)
+
+ Fórum Brasileiro de Segurança Pública (FBSP)
+
+ Fundação Bradesco
+
+ Fundação Maria Cecília Souto Vidigal
+
+ Fundação Renova
+
+ Fundação Roberto Marinho
+
+ Fundação Santillana
+
+ Fundação Unibanco
+
+ Fundação Vale
+
+ Fundação Joaquim Nabuco (FUNDAJ)
+
+ Instituto Brasileiro de Análises Sociais e Econômicas (IBASE)
+
+ Instituto Brasileiro de Ciências Criminais (IBCCRIM)
+
+ Instituto de Estudos para Políticas de Saúde (IEPS)
+
+ Imaginable Futures
+
+ Instituto de Estudos Socioeconômicos (INESC)
+
+ Instituto Gesto
+
+ Instituto Alana
+
+ Instituto Igarapé
+
+ Instituto Natura
+
+ Instituto Península
+
+ Instituto Sou Ciência da Universidade Federal de São Paulo (Sou Ciência - UNIFESP)
+
+ Instituto Itaú Social
+
+ Joanna Briggs Institute
+
+ Abdul Latif Jameel Poverty Action Lab (J-PAL)
+
+ Laboratório de Estudos e Pesquisas em Economia Social da Universidade de São Paulo (LEPES-USP)
+
+ Núcleo de Acompanhamento de Políticas Públicas da Fundação Perseu Abramo (NAPP - Perseu Abramo)
+
+ Núcleo de Estudos da Cidadania, Conflito e Violência Urbana da Universidade Federal do Rio de Janeiro (NECVU-UFRJ)
+
+ Núcleo de Estudos da Violência da USP (NEV-USP)
+
+ Organização das Nações Unidas (ONU)
+
+ Oxfam International
+
+ Plataforma Freire da Fundação Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Plataforma Freire - CAPES)
+
+ Think Olga
+
+ Todos Pela Educação
+
+ UNESCO Institute for Statistics (UIS/UNESCO)
 
 QUADRO1- COOCORRÊNCIA DE MÉTODOS E TÉCNICAS DE AVALIAÇÃO
 
-| METODOS E TÉCNICAS                                  | AMOSTRA- GEM E PA- REAMENTO N = 33   | AMOSTRA- GEM E PA- REAMENTO N = 33   | ANÁLISE DE CONTEÚDO E DE DISCURSO N = 14   | ANÁLISE DE CONTEÚDO E DE DISCURSO N = 14   | ANÁLISE DE GESTÃO, PRO- CESSOS E ES- TRUTURA N = 29   | ANÁLISE DE GESTÃO, PRO- CESSOS E ES- TRUTURA N = 29   | DOCUMENTAL N = 13 E   | DOCUMENTAL N = 13 E   | ENTREVISTAS SIMILARES N= 23   | ENTREVISTAS SIMILARES N= 23   | ESCALAS, ÍN- DICES E ES- CORES Nº: 11   | ESCALAS, ÍN- DICES E ES- CORES Nº: 11   | Nº: 19        | ESTATÍSTICA DESCRITIVA ESTATÍSTICA INFEREN- CIAL Nº: 42   | ESTATÍSTICA DESCRITIVA ESTATÍSTICA INFEREN- CIAL Nº: 42   | GRUPO FO- CAL, PAINEL ESPECIALIS- TAS, OFICINAS N = 8   | GRUPO FO- CAL, PAINEL ESPECIALIS- TAS, OFICINAS N = 8   | OUTRAS TÉCNICAS QUALITATI- VAS N = 7   | OUTRAS TÉCNICAS QUALITATI- VAS N = 7   | QUESTIONÁ- RIOS E SUR- VEYS N = 26 TESTES CONFIABILI- DADE N   | QUESTIONÁ- RIOS E SUR- VEYS N = 26 TESTES CONFIABILI- DADE N   |    | DE 27         |
-|-----------------------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------------|--------------------------------------------|-------------------------------------------------------|-------------------------------------------------------|-----------------------|-----------------------|-------------------------------|-------------------------------|-----------------------------------------|-----------------------------------------|---------------|-----------------------------------------------------------|-----------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------------------------------|----------------------------------------------------------------|----|---------------|
-| METODOS E TÉCNICAS                                  | N                                    | Coefici- ente                        | N Coefici- ente                            | N                                          | Coefici- ente                                         | N                                                     | Coefici- ente         | N                     | Coefici- ente                 | N                             | Coefici- ente                           | N                                       | Coefici- ente | N                                                         | Coefici- ente                                             | N                                                       | Coefici- ente                                           | N                                      | Coefici- ente N                        | ente                                                           | Coefici-                                                       | N  | Coefici- ente |
-| Amostragem e Pareamento N = 33                      | 0                                    | 0,00                                 | 2 4,0%                                     | 4                                          | 7,0%                                                  | 0                                                     |                       | 0,0%                  | 5                             | 10,0% 1                       | 2,0%                                    | 9                                       | 21,0%         | 31                                                        | 70,0%                                                     | 1                                                       | 3,0%                                                    | 0                                      | 0,0% 4                                 | 7,0%                                                           |                                                                | 22 | 58,0%         |
-| Análise de Conteúdo e de Discurso N = 14            | 2                                    | 4,0%                                 | 0 0,00                                     | 9                                          | 26,0%                                                 | 5                                                     | 23,0%                 | 7                     |                               | 23,0% 0                       | 0,0%                                    | 2                                       | 6,0%          | 2                                                         | 4,0%                                                      | 5                                                       | 29,0%                                                   | 3                                      | 17,0% 6                                | 18,0%                                                          |                                                                | 0  | 0,0%          |
-| Análise de gestão, proces- sos e estrutura N = 29   | 4                                    | 7,0%                                 | 9                                          | 26,0% 0                                    | 000                                                   | 8                                                     | 24,0%                 | 11                    |                               | 27,0% 6                       | 18,0%                                   | 3                                       | 7,0%          | 4                                                         | 6,0%                                                      | 4                                                       | 12,0%                                                   | 6                                      | 20,0%                                  | 19                                                             | 53,0%                                                          | 4  | 8,0%          |
-| Documental N = 13                                   | 0                                    | 0,0                                  | 5                                          | 23,0% 8                                    | 24,0%                                                 | 0                                                     | ,00                   | 7                     |                               | 24,0% 3                       | 14,0%                                   | 2                                       | 7,0%          | 1                                                         | 2,0%                                                      | 4                                                       | 24,0%                                                   | 4                                      | 25,0% 5                                | 15,0%                                                          |                                                                | 0  | 0,0%          |
-| Entrevistas e similares N = 23                      | 5                                    | 10,0%                                | 7                                          | 23,0% 11                                   | 27,0%                                                 | 7                                                     | 24,0%                 | 0                     |                               | 000 7                         | 26,0%                                   | 5                                       | 14,0%         | 5                                                         | 8,0%                                                      | 5                                                       | 19,0%                                                   | 3                                      | 11,0% 10                               | 26,0%                                                          |                                                                | 1  | 2,0%          |
-| Escalas, Índices e Escores N = 11                   | 1                                    | 2,0%                                 | 0                                          | 0,0% 6                                     | 18,0%                                                 |                                                       | 3                     | 14,0%                 | 7                             | 26,0% 0                       | 000                                     | 1                                       | 3,0%          | 4                                                         | 8,0%                                                      | 2                                                       | 12,0%                                                   | 0                                      | 0,0% 7                                 |                                                                | 23,0%                                                          | 3  | 9,0%          |
-| Estatística Descritiva N = 19                       | 9                                    | 21,0%                                | 2                                          | 6,0% 3                                     | 7,0%                                                  | 2                                                     |                       | 7,0% 5                |                               | 14,0% 1                       | 3,0%                                    | 0                                       | 000           | 12                                                        | 24,0%                                                     | 1                                                       | 4,0%                                                    | 0                                      | 0,0% 4                                 | 10,0%                                                          |                                                                | 6  | 15,0%         |
-| Estatística Inferencial N = 42                      | 31                                   | 70,0%                                | 2 4,0%                                     | 4                                          | 6,0%                                                  | 1                                                     |                       | 2,0%                  | 5                             | 8,0% 4                        | 8,0%                                    | 12                                      | 24,0%         | 0                                                         | 000                                                       | 1                                                       | 2,0%                                                    | 0 0,0%                                 | 5                                      |                                                                | 8,0%                                                           | 24 | 53,0%         |
-| Grupo Focal, Painel especi- alistas, Oficinas N = 8 | 1                                    | 3,0%                                 | 5 29,0%                                    | 4                                          | 12,0%                                                 | 4                                                     | 24,0%                 | 5                     |                               | 19,0% 2                       | 12,0%                                   | 1                                       | 4,0%          | 1                                                         |                                                           | 2,0% 0                                                  | 000                                                     | 3 25,0%                                | 3                                      |                                                                | 10,0%                                                          | 1  | 3,0%          |
-| Outras técnicas qualitativas N = 7                  | 0                                    | 0,0%                                 | 3 17,0%                                    | 6                                          | 20,0%                                                 | 4                                                     |                       | 25,0% 3               |                               | 11,0% 0                       | 0,0%                                    | 0                                       | 0,0%          | 0                                                         | 0,0%                                                      | 3                                                       | 25,0%                                                   | 0                                      | 000 4                                  |                                                                | 14,0%                                                          | 0  | 0,0%          |
-| Questionários e Surveys N = 26                      | 4                                    | 7,0%                                 | 6 18,0%                                    | 19                                         | 53,0%                                                 | 5                                                     | 15,0%                 | 10                    |                               | 26,0% 7                       | 23,0%                                   | 4                                       | 10,0%         | 5                                                         | 8,0%                                                      | 3                                                       | 10,0%                                                   | 4                                      | 14,0% 0                                | 000                                                            |                                                                | 3  | 6,0%          |
-| Testes de confiabilidade N = 27                     | 22                                   | 58,00%                               | 0                                          | 0,0% 4                                     | 8,0%                                                  | 0                                                     |                       | 0,0% 1                |                               | 2,0% 3                        | 9,0%                                    | 6                                       | 15,00%        | 24                                                        | 53,0%                                                     | 1                                                       | 3,0%                                                    | 0                                      | 0,0%                                   | 3                                                              | 6,0%                                                           | 0  | 000           |
-
 Elaboração: DAPP/IPARDES
-
-| TIPO DE AVALIAÇÃO                | EDUCAÇÃO N: 34   | EDUCAÇÃO N: 34   | SAÚDE N: 44   | SAÚDE N: 44   | SEGURANÇA PÚBLICA N: 8   | SEGURANÇA PÚBLICA N: 8   |
-|----------------------------------|------------------|------------------|---------------|---------------|--------------------------|--------------------------|
-| TIPO DE AVALIAÇÃO                | Nº               | Coeficiente      | Nº            | Coeficiente   | Nº                       | Coeficiente              |
-| Avaliação de Desempenho N: 7     | 1                | 3,0%             | 6             | 13,0%         | 0                        | 0,0%                     |
-| Avaliação de Diagnóstico N: 2    | 1                | 3,0%             | 1             | 2,0%          | 0                        | 0,0%                     |
-| Avaliação de Efeito N: 4         | 1                | 3,0%             | 2             | 4,0%          | 1                        | 9,0%                     |
-| Avaliação de Efetividade N: 3    | 2                | 6,0%             | 1             | 2,0%          | 0                        | 0,0%                     |
-| Avaliação de Eficácia N: 4       | 3                | 9,0%             | 2             | 4,0%          | 0                        | 0,0%                     |
-| Avaliação de Impacto N: 33       | 18               | 37,0%            | 9             | 13,0%         | 6                        | 17,0%                    |
-| Avaliação de Implantação N: 18   | 2                | 4,0%             | 16            | 35,0%         | 0                        | 0,0%                     |
-| Avaliação de Implementação N: 19 | 5                | 10,0%            | 16            | 34,0%         | 1                        | 4,0%                     |
-| Avaliação de Quarta Geração N: 1 | 0                | 0,0%             | 1             | 2,0%          | 0                        | 0,0%                     |
-| Avaliação de Utilidade N: 3      | 0                | 0,0%             | 2             | 4,0%          | 1                        | 10,0%                    |
-| Avaliação Executiva N: 7         | 4                | 11,0%            | 1             | 2,0%          | 1                        | 7,0%                     |
-| Avaliação Normativa N: 4         | 0                | 0,0%             | 4             | 9,0%          | 0                        | 0,0%                     |
 
 Elaboração: DAPP/IPARDES
