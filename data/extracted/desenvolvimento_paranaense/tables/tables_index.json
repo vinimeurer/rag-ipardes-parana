@@ -12,13 +12,13 @@
       "json_file": "table_000.json"
     },
     {
-      "table_index": 0,
+      "table_index": 1,
       "page_number": 10,
       "caption": "TABELA 1 - CRESCIMENTO DE PIB E PIB PER CAPITA DO PARANÁ, SOB HIPÓTESES DE AJUSTE DE POUPANÇA E TECNOLOGIA",
       "num_rows": 6,
       "num_cols": 5,
-      "markdown_file": "table_000.md",
-      "json_file": "table_000.json"
+      "markdown_file": "table_001.md",
+      "json_file": "table_001.json"
     },
     {
       "table_index": 2,
@@ -30,13 +30,13 @@
       "json_file": "table_002.json"
     },
     {
-      "table_index": 2,
+      "table_index": 3,
       "page_number": 20,
       "caption": "TABELA 1 - PRODUTIVIDADE DO TRABALHO, EM ANÁLISE SHIFT AND SHARE PARANÁ - 2002-2019",
       "num_rows": 4,
       "num_cols": 7,
-      "markdown_file": "table_002.md",
-      "json_file": "table_002.json"
+      "markdown_file": "table_003.md",
+      "json_file": "table_003.json"
     },
     {
       "table_index": 4,
@@ -48,49 +48,49 @@
       "json_file": "table_004.json"
     },
     {
-      "table_index": 4,
+      "table_index": 5,
       "page_number": 24,
       "caption": "TABELA 3 -  PERFIL  DOS  GANHOS  DE  PRODUTIVIDADE  DO  TRABALHO  NA INDÚSTRIA EXTRATIVA E DE TRANSFORMAÇÃO, POR UNIDADES DA FEDERAÇÃO - 1996-2019",
       "num_rows": 27,
       "num_cols": 4,
-      "markdown_file": "table_004.md",
-      "json_file": "table_004.json"
+      "markdown_file": "table_005.md",
+      "json_file": "table_005.json"
     },
     {
-      "table_index": 4,
+      "table_index": 6,
       "page_number": 25,
       "caption": "TABELA 4 - PRODUTIVIDADE  DO  TRABALHO  NA  INDÚSTRIA  EXTRATIVA  E  DE  TRANSFORMAÇÃO,  EM  ANÁLISE SHIFT AND SHARE PARANÁ - 1996-2019",
       "num_rows": 22,
       "num_cols": 7,
-      "markdown_file": "table_004.md",
-      "json_file": "table_004.json"
+      "markdown_file": "table_006.md",
+      "json_file": "table_006.json"
     },
     {
-      "table_index": 4,
+      "table_index": 7,
       "page_number": 28,
       "caption": "TABELA 5 - PERCENTUAL  DE  EMPRESAS  DA  INDÚSTRIA  EXTRATIVA  MINERAL  E  DE  TRANSFORMAÇÃO  QUE REALIZARAM INOVAÇÕES - BRASIL E UNIDADES DA FEDERAÇÃO - 1998-2017",
       "num_rows": 27,
       "num_cols": 8,
-      "markdown_file": "table_004.md",
-      "json_file": "table_004.json"
+      "markdown_file": "table_007.md",
+      "json_file": "table_007.json"
     },
     {
-      "table_index": 4,
+      "table_index": 8,
       "page_number": 29,
       "caption": "TABELA 6 - PERCENTUAL  DE  EMPRESAS  DA  INDÚSTRIA  EXTRATIVA  MINERAL  E  DE  TRANSFORMAÇÃO  QUE REALIZARAM  INOVAÇÕES  E  QUE  RECEBERAM  APOIO  DO  GOVERNO  -  BRASIL  E  UNIDADES  DA FEDERAÇÃO - 1998-2017",
       "num_rows": 27,
       "num_cols": 8,
-      "markdown_file": "table_004.md",
-      "json_file": "table_004.json"
+      "markdown_file": "table_008.md",
+      "json_file": "table_008.json"
     },
     {
-      "table_index": 4,
+      "table_index": 9,
       "page_number": 30,
       "caption": "TABELA 7 -  PERCENTUAL  DE EMPRESAS DA INDÚSTRIA EXTRATIVA MINERAL E DE TRANSFORMAÇÃO QUE REALIZARAM  INOVAÇÕES  E  QUE  TIVERAM  PROJETOS  FINANCIADOS  EM  PARCERIA  COM UNIVERSIDADES - BRASIL E UNIDADES DA FEDERAÇÃO - 2001-2017",
       "num_rows": 27,
       "num_cols": 7,
-      "markdown_file": "table_004.md",
-      "json_file": "table_004.json"
+      "markdown_file": "table_009.md",
+      "json_file": "table_009.json"
     },
     {
       "table_index": 10,
@@ -102,13 +102,13 @@
       "json_file": "table_010.json"
     },
     {
-      "table_index": 10,
+      "table_index": 11,
       "page_number": 33,
       "caption": "TABELA 9 - DESEMBOLSOS DA FUNDAÇÃO ARAUCÁRIA - PARANÁ - 2003-2021",
       "num_rows": 19,
       "num_cols": 9,
-      "markdown_file": "table_010.md",
-      "json_file": "table_010.json"
+      "markdown_file": "table_011.md",
+      "json_file": "table_011.json"
     },
     {
       "table_index": 12,
@@ -120,40 +120,40 @@
       "json_file": "table_012.json"
     },
     {
-      "table_index": 12,
+      "table_index": 13,
       "page_number": 43,
       "caption": "",
       "num_rows": 26,
       "num_cols": 4,
-      "markdown_file": "table_012.md",
-      "json_file": "table_012.json"
+      "markdown_file": "table_013.md",
+      "json_file": "table_013.json"
     },
     {
-      "table_index": 12,
+      "table_index": 14,
       "page_number": 44,
       "caption": "",
       "num_rows": 19,
       "num_cols": 5,
-      "markdown_file": "table_012.md",
-      "json_file": "table_012.json"
+      "markdown_file": "table_014.md",
+      "json_file": "table_014.json"
     },
     {
-      "table_index": 12,
+      "table_index": 15,
       "page_number": 46,
       "caption": "TABELA 3 -  PRODUTIVIDADE DO TRABALHO (VAB/ HORAS TRABALHADAS) A PREÇOS CORRENTES - SÃO PAULO E PARANÁ - 2012-2019",
       "num_rows": 8,
       "num_cols": 3,
-      "markdown_file": "table_012.md",
-      "json_file": "table_012.json"
+      "markdown_file": "table_015.md",
+      "json_file": "table_015.json"
     },
     {
-      "table_index": 12,
+      "table_index": 16,
       "page_number": 47,
       "caption": "TABELA 4 -  PARTICIPAÇÃO DO EMPREGO FORMAL NO TOTAL DE EMPREGOS  DA  INDÚSTRIA  DE  TRANSFORMAÇÃO, SEGUNDO INTENSIDADE TECNOLÓGICA - PARANÁ E SÃO PAULO - 2006-2019",
       "num_rows": 14,
       "num_cols": 3,
-      "markdown_file": "table_012.md",
-      "json_file": "table_012.json"
+      "markdown_file": "table_016.md",
+      "json_file": "table_016.json"
     },
     {
       "table_index": 17,
@@ -165,22 +165,22 @@
       "json_file": "table_017.json"
     },
     {
-      "table_index": 17,
+      "table_index": 18,
       "page_number": 53,
       "caption": "TABELA 6 -  TAXA DE PARTICIPAÇÃO DAS EXPORTAÇÕES DAS ATIVIDADES DA INDÚSTRIA DE TRANSFORMAÇÃO PARANÁ - 2011-2020",
       "num_rows": 22,
       "num_cols": 11,
-      "markdown_file": "table_017.md",
-      "json_file": "table_017.json"
+      "markdown_file": "table_018.md",
+      "json_file": "table_018.json"
     },
     {
-      "table_index": 17,
+      "table_index": 19,
       "page_number": 54,
       "caption": "TABELA 7 - TAXA DE PARTICIPAÇÃO DAS IMPORTAÇÕES DAS ATIVIDADES DA INDÚSTRIA DE TRANSFORMAÇÃO PARANÁ - 2011-2020",
       "num_rows": 24,
       "num_cols": 11,
-      "markdown_file": "table_017.md",
-      "json_file": "table_017.json"
+      "markdown_file": "table_019.md",
+      "json_file": "table_019.json"
     },
     {
       "table_index": 20,
@@ -192,13 +192,13 @@
       "json_file": "table_020.json"
     },
     {
-      "table_index": 20,
+      "table_index": 21,
       "page_number": 70,
       "caption": "TABELA 2 - ELASTICIDADE CONSUMO-RENDA",
       "num_rows": 2,
       "num_cols": 4,
-      "markdown_file": "table_020.md",
-      "json_file": "table_020.json"
+      "markdown_file": "table_021.md",
+      "json_file": "table_021.json"
     },
     {
       "table_index": 22,
@@ -210,22 +210,22 @@
       "json_file": "table_022.json"
     },
     {
-      "table_index": 22,
+      "table_index": 23,
       "page_number": 74,
       "caption": "TABELA 4 - TAXAS  DE  CRESCIMENTO  ANUAIS  DE  CONSUMO  DE  ELETRICIDADE, SEGUNDO CLASSES - PARANÁ - 1995-2020",
       "num_rows": 16,
       "num_cols": 7,
-      "markdown_file": "table_022.md",
-      "json_file": "table_022.json"
+      "markdown_file": "table_023.md",
+      "json_file": "table_023.json"
     },
     {
-      "table_index": 22,
+      "table_index": 24,
       "page_number": 76,
       "caption": "TABELA 5 -  PERCENTUAL  SIMULADO  DE  USO  DE  GÁS  NATURAL  NOS  CUSTOS  DA  INDÚSTRIA  EM UNIDADES DA FEDERAÇÃO SELECIONADAS - 2019",
       "num_rows": 6,
       "num_cols": 6,
-      "markdown_file": "table_022.md",
-      "json_file": "table_022.json"
+      "markdown_file": "table_024.md",
+      "json_file": "table_024.json"
     },
     {
       "table_index": 25,
@@ -237,58 +237,58 @@
       "json_file": "table_025.json"
     },
     {
-      "table_index": 25,
+      "table_index": 26,
       "page_number": 83,
       "caption": "TABELA 2 - AUTOGERAÇÃO DE ENERGIA ELÉTRICA, POR FONTE - PARANÁ E BRASIL - MARÇO DE 2022",
       "num_rows": 8,
       "num_cols": 7,
-      "markdown_file": "table_025.md",
-      "json_file": "table_025.json"
+      "markdown_file": "table_026.md",
+      "json_file": "table_026.json"
     },
     {
-      "table_index": 25,
+      "table_index": 27,
       "page_number": 85,
       "caption": "TABELA 3 - USINAS DE ENERGIA ELÉTRICA EM IMPLANTAÇÃO -PARANÁ",
       "num_rows": 8,
       "num_cols": 3,
-      "markdown_file": "table_025.md",
-      "json_file": "table_025.json"
+      "markdown_file": "table_027.md",
+      "json_file": "table_027.json"
     },
     {
-      "table_index": 25,
+      "table_index": 28,
       "page_number": 86,
       "caption": "TABELA 4 - PERTURBAÇÕES EM LINHAS DE TRANSMISSÃO DA REDE BÁSICA - SISTEMA INTEGRADO NACIONAL 2012-2020",
       "num_rows": 9,
       "num_cols": 14,
-      "markdown_file": "table_025.md",
-      "json_file": "table_025.json"
+      "markdown_file": "table_028.md",
+      "json_file": "table_028.json"
     },
     {
-      "table_index": 25,
+      "table_index": 29,
       "page_number": 87,
       "caption": "TABELA 5 - EXTENSÃO  DAS  LINHAS  DE  TRANSMISSÃO  DO SISTEMA INTEGRADO NACIONAL - 2019",
       "num_rows": 11,
       "num_cols": 3,
-      "markdown_file": "table_025.md",
-      "json_file": "table_025.json"
+      "markdown_file": "table_029.md",
+      "json_file": "table_029.json"
     },
     {
-      "table_index": 25,
+      "table_index": 30,
       "page_number": 88,
       "caption": "TABELA 6 - INCREMENTOS AO SISTEMA INTEGRADO NACIONAL - PARANÁ",
       "num_rows": 33,
       "num_cols": 5,
-      "markdown_file": "table_025.md",
-      "json_file": "table_025.json"
+      "markdown_file": "table_030.md",
+      "json_file": "table_030.json"
     },
     {
-      "table_index": 25,
+      "table_index": 31,
       "page_number": 89,
       "caption": "TABELA 6 - INCREMENTOS AO SISTEMA INTEGRADO NACIONAL - PARANÁ",
       "num_rows": 28,
       "num_cols": 5,
-      "markdown_file": "table_025.md",
-      "json_file": "table_025.json"
+      "markdown_file": "table_031.md",
+      "json_file": "table_031.json"
     },
     {
       "table_index": 32,
@@ -309,49 +309,49 @@
       "json_file": "table_033.json"
     },
     {
-      "table_index": 33,
+      "table_index": 34,
       "page_number": 105,
       "caption": "TABELA 2 - ÍNDICE DE DESENVOLVIMENTO HUMANO - UNIDADES TERRITORIAIS SELECIONADAS - 2000-2019",
       "num_rows": 5,
       "num_cols": 9,
-      "markdown_file": "table_033.md",
-      "json_file": "table_033.json"
+      "markdown_file": "table_034.md",
+      "json_file": "table_034.json"
     },
     {
-      "table_index": 33,
+      "table_index": 35,
       "page_number": 107,
       "caption": "TABELA 3 - MODELO ANOVA",
       "num_rows": 3,
       "num_cols": 6,
-      "markdown_file": "table_033.md",
-      "json_file": "table_033.json"
+      "markdown_file": "table_035.md",
+      "json_file": "table_035.json"
     },
     {
-      "table_index": 33,
+      "table_index": 36,
       "page_number": 108,
       "caption": "QUADRO 1 - ESTATÍSTICAS DE REGRESSÃO",
       "num_rows": 4,
       "num_cols": 2,
-      "markdown_file": "table_033.md",
-      "json_file": "table_033.json"
+      "markdown_file": "table_036.md",
+      "json_file": "table_036.json"
     },
     {
-      "table_index": 33,
+      "table_index": 37,
       "page_number": 109,
       "caption": "TABELA 4 - SÉRIE HISTÓRICA E PROJETADA DO ÍNDICE DE DESENVOLVIMENTO HUMANO - PARANÁ - 1990/2035",
       "num_rows": 16,
       "num_cols": 6,
-      "markdown_file": "table_033.md",
-      "json_file": "table_033.json"
+      "markdown_file": "table_037.md",
+      "json_file": "table_037.json"
     },
     {
-      "table_index": 33,
+      "table_index": 38,
       "page_number": 110,
       "caption": "TABELA 5 - NÚMERO DE PAÍSES SEGUNDO  REGIÃO E PERÍODO INICIAL DE OBSERVAÇÃO",
       "num_rows": 5,
       "num_cols": 5,
-      "markdown_file": "table_033.md",
-      "json_file": "table_033.json"
+      "markdown_file": "table_038.md",
+      "json_file": "table_038.json"
     },
     {
       "table_index": 39,
@@ -363,22 +363,22 @@
       "json_file": "table_039.json"
     },
     {
-      "table_index": 39,
+      "table_index": 40,
       "page_number": 112,
       "caption": "TABELA 7 - ÍNDICE  DE  DESENVOLVIMENTO  HUMANO,  TOTAL  E  POR  DIMENSÃO,  EM  PAÍSES  SELECIONADOS, SEGUNDO GRUPO DE INCREMENTO DO ÍNDICE EM PERÍODOS DE 16 ANOS",
       "num_rows": 9,
       "num_cols": 9,
-      "markdown_file": "table_039.md",
-      "json_file": "table_039.json"
+      "markdown_file": "table_040.md",
+      "json_file": "table_040.json"
     },
     {
-      "table_index": 39,
+      "table_index": 41,
       "page_number": 119,
       "caption": "ÍNDICE DE DESENVOLVIMENTO HUMANO, TOTAL E POR DIMENSÃO, SEGUNDO GRUPO, REGIÃO E PERÍODO DE OBSERVAÇÃO - PAÍSES SELECIONADOS",
       "num_rows": 27,
       "num_cols": 17,
-      "markdown_file": "table_039.md",
-      "json_file": "table_039.json"
+      "markdown_file": "table_041.md",
+      "json_file": "table_041.json"
     },
     {
       "table_index": 42,
@@ -390,49 +390,49 @@
       "json_file": "table_042.json"
     },
     {
-      "table_index": 42,
+      "table_index": 43,
       "page_number": 122,
       "caption": "",
       "num_rows": 13,
       "num_cols": 15,
-      "markdown_file": "table_042.md",
-      "json_file": "table_042.json"
+      "markdown_file": "table_043.md",
+      "json_file": "table_043.json"
     },
     {
-      "table_index": 42,
+      "table_index": 44,
       "page_number": 126,
       "caption": "TABELA 1 - PROPORÇÃO DE ÓBITOS, POR FAIXAS ETÁRIAS, SEGUNDO CAPÍTULOS DA CID-10 - PARANÁ - ANOS SELECIONADOS",
       "num_rows": 27,
       "num_cols": 21,
-      "markdown_file": "table_042.md",
-      "json_file": "table_042.json"
+      "markdown_file": "table_044.md",
+      "json_file": "table_044.json"
     },
     {
-      "table_index": 42,
+      "table_index": 45,
       "page_number": 127,
       "caption": "TABELA 1 - PROPORÇÃO DE ÓBITOS, POR FAIXAS ETÁRIAS, SEGUNDO CAPÍTULOS DA CID-10 - PARANÁ - ANOS SELECIONADOS",
       "num_rows": 37,
       "num_cols": 24,
-      "markdown_file": "table_042.md",
-      "json_file": "table_042.json"
+      "markdown_file": "table_045.md",
+      "json_file": "table_045.json"
     },
     {
-      "table_index": 42,
+      "table_index": 46,
       "page_number": 128,
       "caption": "TABELA 1 - PROPORÇÃO DE ÓBITOS, POR FAIXAS ETÁRIAS, SEGUNDO CAPÍTULOS DA CID-10 - PARANÁ - ANOS SELECIONADOS",
       "num_rows": 29,
       "num_cols": 24,
-      "markdown_file": "table_042.md",
-      "json_file": "table_042.json"
+      "markdown_file": "table_046.md",
+      "json_file": "table_046.json"
     },
     {
-      "table_index": 42,
+      "table_index": 47,
       "page_number": 129,
       "caption": "QUADRO 1 RANKING DAS CAUSAS DE ÓBITOS, SEGUNDO CAPÍTULOS DA CID-10, POR FAIXAS ETÁRIAS - PARANÁ - 2019",
       "num_rows": 11,
       "num_cols": 4,
-      "markdown_file": "table_042.md",
-      "json_file": "table_042.json"
+      "markdown_file": "table_047.md",
+      "json_file": "table_047.json"
     },
     {
       "table_index": 48,
@@ -444,31 +444,31 @@
       "json_file": "table_048.json"
     },
     {
-      "table_index": 48,
+      "table_index": 49,
       "page_number": 132,
       "caption": "TABELA 2 - PROPORÇÃO DE ÓBITOS, SEGUNDO CAPÍTULOS DA CID-10, POR FAIXAS ETÁRIAS - PARANÁ - ANOS SELECIONADOS",
       "num_rows": 31,
       "num_cols": 20,
-      "markdown_file": "table_048.md",
-      "json_file": "table_048.json"
+      "markdown_file": "table_049.md",
+      "json_file": "table_049.json"
     },
     {
-      "table_index": 48,
+      "table_index": 50,
       "page_number": 133,
       "caption": "",
       "num_rows": 26,
       "num_cols": 21,
-      "markdown_file": "table_048.md",
-      "json_file": "table_048.json"
+      "markdown_file": "table_050.md",
+      "json_file": "table_050.json"
     },
     {
-      "table_index": 48,
+      "table_index": 51,
       "page_number": 134,
       "caption": "TABELA 2 - PROPORÇÃO DE ÓBITOS, SEGUNDO CAPÍTULOS DA CID-10, POR FAIXAS ETÁRIAS - PARANÁ - ANOS SELECIONADOS",
       "num_rows": 15,
       "num_cols": 20,
-      "markdown_file": "table_048.md",
-      "json_file": "table_048.json"
+      "markdown_file": "table_051.md",
+      "json_file": "table_051.json"
     },
     {
       "table_index": 52,
@@ -480,49 +480,49 @@
       "json_file": "table_052.json"
     },
     {
-      "table_index": 52,
+      "table_index": 53,
       "page_number": 145,
       "caption": "TABELA 4 - TÁBUA DE MORTALIDADE PROJETADA - PARANÁ - 2035",
       "num_rows": 20,
       "num_cols": 9,
-      "markdown_file": "table_052.md",
-      "json_file": "table_052.json"
+      "markdown_file": "table_053.md",
+      "json_file": "table_053.json"
     },
     {
-      "table_index": 52,
+      "table_index": 54,
       "page_number": 146,
       "caption": "TABELA 5 - TÁBUA DE MORTALIDADE ESTIMADA - CENÁRIO DESEJÁVEL - PARANÁ - 2035",
       "num_rows": 18,
       "num_cols": 9,
-      "markdown_file": "table_052.md",
-      "json_file": "table_052.json"
+      "markdown_file": "table_054.md",
+      "json_file": "table_054.json"
     },
     {
-      "table_index": 52,
+      "table_index": 55,
       "page_number": 147,
       "caption": "TABELA 6 - TÁBUA DE MORTALIDADE ESTIMADA - CENÁRIO DESACELERAÇÃO - PARANÁ - 2035",
       "num_rows": 18,
       "num_cols": 9,
-      "markdown_file": "table_052.md",
-      "json_file": "table_052.json"
+      "markdown_file": "table_055.md",
+      "json_file": "table_055.json"
     },
     {
-      "table_index": 52,
+      "table_index": 56,
       "page_number": 148,
       "caption": "TABELA 7 - TÁBUA DE MORTALIDADE ESTIMADA - CENÁRIO SUPERAÇÃO - PARANÁ - 2035",
       "num_rows": 18,
       "num_cols": 9,
-      "markdown_file": "table_052.md",
-      "json_file": "table_052.json"
+      "markdown_file": "table_056.md",
+      "json_file": "table_056.json"
     },
     {
-      "table_index": 52,
+      "table_index": 57,
       "page_number": 150,
       "caption": "TABELA 8 - POTENCIAIS GANHOS DE ANOS DE VIDA, SEGUNDO REDUÇÃO HIPOTÉTICA, POR CAUSAS DE ÓBITO PARANÁ - 2019",
       "num_rows": 8,
       "num_cols": 10,
-      "markdown_file": "table_052.md",
-      "json_file": "table_052.json"
+      "markdown_file": "table_057.md",
+      "json_file": "table_057.json"
     },
     {
       "table_index": 58,
@@ -534,31 +534,31 @@
       "json_file": "table_058.json"
     },
     {
-      "table_index": 58,
+      "table_index": 59,
       "page_number": 156,
       "caption": "TABELA 2 - NÚMERO MÉDIO DE ANOS DE ESTUDO DAS PESSOAS, POR COR OU RAÇA E GRUPO DE IDADE - PARANÁ - 2016-2019",
       "num_rows": 14,
       "num_cols": 6,
-      "markdown_file": "table_058.md",
-      "json_file": "table_058.json"
+      "markdown_file": "table_059.md",
+      "json_file": "table_059.json"
     },
     {
-      "table_index": 58,
+      "table_index": 60,
       "page_number": 158,
       "caption": "TABELA 3 - ANOS MÉDIOS DE ESTUDO E TAXA DE CONCLUINTES DAS ETAPAS DA EDUCAÇÃO BÁSICA REFERENTES À POPULAÇÃO DE    25 A 29 ANOS DE IDADE - PARANÁ - 2001 A 2019",
       "num_rows": 19,
       "num_cols": 4,
-      "markdown_file": "table_058.md",
-      "json_file": "table_058.json"
+      "markdown_file": "table_060.md",
+      "json_file": "table_060.json"
     },
     {
-      "table_index": 58,
+      "table_index": 61,
       "page_number": 160,
       "caption": "QUADRO 1 - ESTIMATIVA  DE  GANHO  EM  ANOS  MÉDIOS  DE  ESCOLARIDADE NO PARANÁ",
       "num_rows": 8,
       "num_cols": 3,
-      "markdown_file": "table_058.md",
-      "json_file": "table_058.json"
+      "markdown_file": "table_061.md",
+      "json_file": "table_061.json"
     },
     {
       "table_index": 62,
@@ -570,58 +570,58 @@
       "json_file": "table_062.json"
     },
     {
-      "table_index": 62,
+      "table_index": 63,
       "page_number": 172,
       "caption": "TABELA 2 - CONDIÇÃO DE OCUPAÇÃO E ESPÉCIE DE UNIDADE DOMÉSTICA - PARANÁ E REGIÕES - 2019",
       "num_rows": 16,
       "num_cols": 4,
-      "markdown_file": "table_062.md",
-      "json_file": "table_062.json"
+      "markdown_file": "table_063.md",
+      "json_file": "table_063.json"
     },
     {
-      "table_index": 62,
+      "table_index": 64,
       "page_number": 173,
       "caption": "QUADRO 1 - COMPONENTES E SUBCOMPONENTES DO DEFICIT HABITACIONAL",
       "num_rows": 5,
       "num_cols": 4,
-      "markdown_file": "table_062.md",
-      "json_file": "table_062.json"
+      "markdown_file": "table_064.md",
+      "json_file": "table_064.json"
     },
     {
-      "table_index": 62,
+      "table_index": 65,
       "page_number": 174,
       "caption": "TABELA 3 -  DÉFICIT HABITACIONAL E DISTRIBUIÇÃO POR SITUAÇÃO DO DOMICILIO - PARANÁ E REGIÕES 2016-2019",
       "num_rows": 21,
       "num_cols": 5,
-      "markdown_file": "table_062.md",
-      "json_file": "table_062.json"
+      "markdown_file": "table_065.md",
+      "json_file": "table_065.json"
     },
     {
-      "table_index": 62,
+      "table_index": 66,
       "page_number": 177,
       "caption": "QUADRO 2 - COMPONENTES E SUBCOMPONENTES DA INADEQUAÇÃO HABITACIONAL",
       "num_rows": 10,
       "num_cols": 3,
-      "markdown_file": "table_062.md",
-      "json_file": "table_062.json"
+      "markdown_file": "table_066.md",
+      "json_file": "table_066.json"
     },
     {
-      "table_index": 62,
+      "table_index": 67,
       "page_number": 178,
       "caption": "TABELA 4 - INADEQUAÇÃO DOMICILIAR EM ÁREAS URBANAS - PARANÁ E REGIÕES - 2016-2019",
       "num_rows": 10,
       "num_cols": 5,
-      "markdown_file": "table_062.md",
-      "json_file": "table_062.json"
+      "markdown_file": "table_067.md",
+      "json_file": "table_067.json"
     },
     {
-      "table_index": 62,
+      "table_index": 68,
       "page_number": 179,
       "caption": "TABELA 5 -  NÚMERO E PERCENTUAL DE DOMICÍLIOS PARTICULARES DURÁVEIS URBANOS COM INADEQUAÇÃO SEGUNDO COMPONENTE - PARANÁ E REGIÕES - 2016-2019",
       "num_rows": 25,
       "num_cols": 5,
-      "markdown_file": "table_062.md",
-      "json_file": "table_062.json"
+      "markdown_file": "table_068.md",
+      "json_file": "table_068.json"
     },
     {
       "table_index": 69,
@@ -633,13 +633,13 @@
       "json_file": "table_069.json"
     },
     {
-      "table_index": 69,
+      "table_index": 70,
       "page_number": 199,
       "caption": "TABELA 2 - ÁREA  TERRITORIAL  E  POPULAÇÃO  PROJETADA  ABSOLUTA  E  VARIAÇÃO  ANUAL,  POR  BACIA HIDROGRÁFICA - PARANÁ - 2022 E 2035",
       "num_rows": 21,
       "num_cols": 5,
-      "markdown_file": "table_069.md",
-      "json_file": "table_069.json"
+      "markdown_file": "table_070.md",
+      "json_file": "table_070.json"
     },
     {
       "table_index": 71,
@@ -651,40 +651,40 @@
       "json_file": "table_071.json"
     },
     {
-      "table_index": 71,
+      "table_index": 72,
       "page_number": 207,
       "caption": "TABELA 4 - DISPONIBILIDADE HÍDRICA NO ESTADO DO PARANÁ - 2018",
       "num_rows": 20,
       "num_cols": 4,
-      "markdown_file": "table_071.md",
-      "json_file": "table_071.json"
+      "markdown_file": "table_072.md",
+      "json_file": "table_072.json"
     },
     {
-      "table_index": 71,
+      "table_index": 73,
       "page_number": 207,
       "caption": "TABELA 5 - RETIRADA DE ÁGUA NO PARANÁ (2010/2030) E VARIAÇÃO ANUALIZADA, POR TIPO DE USO",
       "num_rows": 7,
       "num_cols": 5,
-      "markdown_file": "table_071.md",
-      "json_file": "table_071.json"
+      "markdown_file": "table_073.md",
+      "json_file": "table_073.json"
     },
     {
-      "table_index": 71,
+      "table_index": 74,
       "page_number": 208,
       "caption": "TABELA 6 - CONSUMO  DE  ÁGUA  NO  PARANÁ  (2010/2030)  E  VARIAÇÃO ANUALIZADA, POR TIPO DE USO",
       "num_rows": 7,
       "num_cols": 5,
-      "markdown_file": "table_071.md",
-      "json_file": "table_071.json"
+      "markdown_file": "table_074.md",
+      "json_file": "table_074.json"
     },
     {
-      "table_index": 71,
+      "table_index": 75,
       "page_number": 208,
       "caption": "TABELA 7 - INDICADORES DE SANEAMENTO PARA 2020, METAS PARA 2033 E 2035 E VARIAÇÃO NO PERÍODO PARANÁ",
       "num_rows": 5,
       "num_cols": 4,
-      "markdown_file": "table_071.md",
-      "json_file": "table_071.json"
+      "markdown_file": "table_075.md",
+      "json_file": "table_075.json"
     }
   ]
 }

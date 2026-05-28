@@ -1,55 +1,52 @@
 {
   "table_index": 2,
-  "page_number": 20,
-  "caption": "TABELA 1 - PRODUTIVIDADE DO TRABALHO, EM ANÁLISE SHIFT AND SHARE PARANÁ - 2002-2019",
+  "page_number": 12,
+  "caption": "TABELA 2 - CENÁRIOS DE CRESCIMENTO ECONÔMICO DO PARANÁ PARA 2020-2035",
   "headers": [
-    "ATIVIDADE ECONÔMICA.ATIVIDADE ECONÔMICA",
-    "SHIFT AND SHARE - COMPONENTES.I",
-    "SHIFT AND SHARE - COMPONENTES.II",
-    "SHIFT AND SHARE - COMPONENTES.III",
-    "CRESCIMENTO DA PRODUTIVIDADE.Acumulado no Período (%)",
-    "CRESCIMENTO DA PRODUTIVIDADE.Anual em Pontos Percentuais",
-    "CRESCIMENTO DA PRODUTIVIDADE.Anual (%)"
+    "CENÁRIOS.",
+    "INDICADORES.Taxa de.Poupança (%)",
+    "INDICADORES.Taxa de Crescimento (%).Produtividade",
+    "INDICADORES.Taxa de Crescimento (%).PIB",
+    "INDICADORES.Taxa de Crescimento (%).PIB per capita"
   ],
   "rows": [
     [
-      "Agropecuária",
-      "-3,39",
-      "-4,23",
-      "9,70",
-      "2,08",
-      "0,12",
-      "4,88"
+      "Tendencial",
+      "17",
+      "0,5",
+      "2,0",
+      "1,4"
     ],
     [
-      "Indústria",
-      "1,24",
-      "0,01",
-      "0,18",
-      "1,42",
-      "0,08",
-      "0,04"
+      "Avanço estrutural",
+      "",
+      "",
+      "",
+      ""
     ],
     [
-      "Serviços",
-      "6,96",
-      "0,59",
-      "5,35",
-      "12,91",
-      "0,72",
-      "0,48"
+      "I",
+      "17",
+      "1,2",
+      "2,7",
+      "2,1"
     ],
     [
-      "TOTAL",
-      "4,81",
-      "-3,63",
-      "15,23",
-      "16,41",
-      "0,90",
-      "0,90"
+      "II",
+      "22",
+      "0,5",
+      "2,7",
+      "2,1"
+    ],
+    [
+      "III",
+      "22",
+      "1,2",
+      "3,4",
+      "2,8"
     ]
   ],
-  "markdown": "| ATIVIDADE ECONÔMICA.ATIVIDADE ECONÔMICA | SHIFT AND SHARE - COMPONENTES.I | SHIFT AND SHARE - COMPONENTES.II | SHIFT AND SHARE - COMPONENTES.III | CRESCIMENTO DA PRODUTIVIDADE.Acumulado no Período (%) | CRESCIMENTO DA PRODUTIVIDADE.Anual em Pontos Percentuais | CRESCIMENTO DA PRODUTIVIDADE.Anual (%) |\n| --- | --- | --- | --- | --- | --- | --- |\n| Agropecuária | -3,39 | -4,23 | 9,70 | 2,08 | 0,12 | 4,88 |\n| Indústria | 1,24 | 0,01 | 0,18 | 1,42 | 0,08 | 0,04 |\n| Serviços | 6,96 | 0,59 | 5,35 | 12,91 | 0,72 | 0,48 |\n| TOTAL | 4,81 | -3,63 | 15,23 | 16,41 | 0,90 | 0,90 |",
-  "num_rows": 4,
-  "num_cols": 7
+  "markdown": "| CENÁRIOS. | INDICADORES.Taxa de.Poupança (%) | INDICADORES.Taxa de Crescimento (%).Produtividade | INDICADORES.Taxa de Crescimento (%).PIB | INDICADORES.Taxa de Crescimento (%).PIB per capita |\n| --- | --- | --- | --- | --- |\n| Tendencial | 17 | 0,5 | 2,0 | 1,4 |\n| Avanço estrutural |  |  |  |  |\n| I | 17 | 1,2 | 2,7 | 2,1 |\n| II | 22 | 0,5 | 2,7 | 2,1 |\n| III | 22 | 1,2 | 3,4 | 2,8 |",
+  "num_rows": 5,
+  "num_cols": 5
 }

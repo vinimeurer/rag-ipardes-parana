@@ -1,0 +1,42 @@
+{
+  "table_index": 35,
+  "page_number": 107,
+  "caption": "TABELA 3 - MODELO ANOVA",
+  "headers": [
+    "FONTE DE VARIAÇÃO",
+    "GRAUS DE LIBERDADE (gl)",
+    "SOMA DE QUADRADOS (SQ)",
+    "QUADRADO MÉDIO (MQ)",
+    "F CALCULADO",
+    "F DE SIGNIFICAÇÃO"
+  ],
+  "rows": [
+    [
+      "Regressão",
+      "2",
+      "0,046950801",
+      "0,023475401",
+      "584,5058",
+      "2,44802E-22"
+    ],
+    [
+      "Resíduo",
+      "26",
+      "0,001044233",
+      "4,01628E-05",
+      "",
+      ""
+    ],
+    [
+      "TOTAL",
+      "28",
+      "0,047995034",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "markdown": "| FONTE DE VARIAÇÃO | GRAUS DE LIBERDADE (gl) | SOMA DE QUADRADOS (SQ) | QUADRADO MÉDIO (MQ) | F CALCULADO | F DE SIGNIFICAÇÃO |\n| --- | --- | --- | --- | --- | --- |\n| Regressão | 2 | 0,046950801 | 0,023475401 | 584,5058 | 2,44802E-22 |\n| Resíduo | 26 | 0,001044233 | 4,01628E-05 |  |  |\n| TOTAL | 28 | 0,047995034 |  |  |  |",
+  "num_rows": 3,
+  "num_cols": 6
+}

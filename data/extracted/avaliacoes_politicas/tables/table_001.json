@@ -1,62 +1,70 @@
 {
   "table_index": 1,
-  "page_number": 29,
+  "page_number": 21,
   "caption": "",
   "headers": [
-    "TIPO DE TÉCNICA",
-    "CONTAGEM"
+    "NOME DO PERIÓDICO",
+    "ÁREADO PERIÓDICO",
+    "NÚMERO DE CASOS"
   ],
   "rows": [
     [
-      "Estatística Inferencial",
-      "42"
+      "Acta Paulista de Enfermagem",
+      "Saúde",
+      "1 caso"
     ],
     [
-      "Amostragem e Pareamento",
-      "33"
+      "Avaliação: Revista da Avaliação da Educação Superior",
+      "Educação",
+      "2 casos"
     ],
     [
-      "Análise de Gestão, Processos e Estrutura",
-      "29"
+      "Cadernos de Saúde Coletiva",
+      "Saúde",
+      "7 casos"
     ],
     [
-      "Testes de Confiabilidade",
-      "27"
+      "Ciência e Saúde Coletiva",
+      "Saúde",
+      "4 casos"
     ],
     [
-      "Questionários e Surveys",
-      "26"
+      "Educação e Pesquisa",
+      "Educação",
+      "1 caso"
     ],
     [
-      "Entrevistas e Similares",
-      "23"
+      "Epidemiologia e Serviços de Saúde",
+      "Saúde",
+      "4 casos"
     ],
     [
-      "Estatística Descritiva",
-      "19"
+      "Escola Ana Nery",
+      "Saúde",
+      "1 caso"
     ],
     [
-      "Análise de Conteúdo e Discurso",
-      "14"
+      "Estudos Econômicos",
+      "Economia",
+      "2 casos"
     ],
     [
-      "Outros tipos de Análise Documental",
-      "13"
+      "Interface",
+      "Interdisciplinar",
+      "3 casos"
     ],
     [
-      "Escalas, Índices e Escores",
-      "11"
+      "Paideia",
+      "Psicologia",
+      "1 caso"
     ],
     [
-      "Grupo Focal, Painel de Especialistas e Oficinas",
-      "8"
-    ],
-    [
-      "Outras técnicas qualitativas",
-      "7"
+      "Physis Saúde Coletiva",
+      "Saúde",
+      "5 casos"
     ]
   ],
-  "markdown": "| TIPO DE TÉCNICA | CONTAGEM |\n| --- | --- |\n| Estatística Inferencial | 42 |\n| Amostragem e Pareamento | 33 |\n| Análise de Gestão, Processos e Estrutura | 29 |\n| Testes de Confiabilidade | 27 |\n| Questionários e Surveys | 26 |\n| Entrevistas e Similares | 23 |\n| Estatística Descritiva | 19 |\n| Análise de Conteúdo e Discurso | 14 |\n| Outros tipos de Análise Documental | 13 |\n| Escalas, Índices e Escores | 11 |\n| Grupo Focal, Painel de Especialistas e Oficinas | 8 |\n| Outras técnicas qualitativas | 7 |",
-  "num_rows": 12,
-  "num_cols": 2
+  "markdown": "| NOME DO PERIÓDICO | ÁREADO PERIÓDICO | NÚMERO DE CASOS |\n| --- | --- | --- |\n| Acta Paulista de Enfermagem | Saúde | 1 caso |\n| Avaliação: Revista da Avaliação da Educação Superior | Educação | 2 casos |\n| Cadernos de Saúde Coletiva | Saúde | 7 casos |\n| Ciência e Saúde Coletiva | Saúde | 4 casos |\n| Educação e Pesquisa | Educação | 1 caso |\n| Epidemiologia e Serviços de Saúde | Saúde | 4 casos |\n| Escola Ana Nery | Saúde | 1 caso |\n| Estudos Econômicos | Economia | 2 casos |\n| Interface | Interdisciplinar | 3 casos |\n| Paideia | Psicologia | 1 caso |\n| Physis Saúde Coletiva | Saúde | 5 casos |",
+  "num_rows": 11,
+  "num_cols": 3
 }

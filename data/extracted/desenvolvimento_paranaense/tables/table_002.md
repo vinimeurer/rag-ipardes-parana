@@ -1,8 +1,9 @@
-Tabela: TABELA 1 - PRODUTIVIDADE DO TRABALHO, EM ANÁLISE SHIFT AND SHARE PARANÁ - 2002-2019
+Tabela: TABELA 2 - CENÁRIOS DE CRESCIMENTO ECONÔMICO DO PARANÁ PARA 2020-2035
 
-| ATIVIDADE ECONÔMICA.ATIVIDADE ECONÔMICA | SHIFT AND SHARE - COMPONENTES.I | SHIFT AND SHARE - COMPONENTES.II | SHIFT AND SHARE - COMPONENTES.III | CRESCIMENTO DA PRODUTIVIDADE.Acumulado no Período (%) | CRESCIMENTO DA PRODUTIVIDADE.Anual em Pontos Percentuais | CRESCIMENTO DA PRODUTIVIDADE.Anual (%) |
-| --- | --- | --- | --- | --- | --- | --- |
-| Agropecuária | -3,39 | -4,23 | 9,70 | 2,08 | 0,12 | 4,88 |
-| Indústria | 1,24 | 0,01 | 0,18 | 1,42 | 0,08 | 0,04 |
-| Serviços | 6,96 | 0,59 | 5,35 | 12,91 | 0,72 | 0,48 |
-| TOTAL | 4,81 | -3,63 | 15,23 | 16,41 | 0,90 | 0,90 |
+| CENÁRIOS. | INDICADORES.Taxa de.Poupança (%) | INDICADORES.Taxa de Crescimento (%).Produtividade | INDICADORES.Taxa de Crescimento (%).PIB | INDICADORES.Taxa de Crescimento (%).PIB per capita |
+| --- | --- | --- | --- | --- |
+| Tendencial | 17 | 0,5 | 2,0 | 1,4 |
+| Avanço estrutural |  |  |  |  |
+| I | 17 | 1,2 | 2,7 | 2,1 |
+| II | 22 | 0,5 | 2,7 | 2,1 |
+| III | 22 | 1,2 | 3,4 | 2,8 |

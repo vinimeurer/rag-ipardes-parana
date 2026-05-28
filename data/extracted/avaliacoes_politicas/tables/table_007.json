@@ -1,0 +1,62 @@
+{
+  "table_index": 7,
+  "page_number": 27,
+  "caption": "",
+  "headers": [
+    "TIPO DE AVALIAÇÃO CITADA PELO AUTOR",
+    "MENÇÕES (CONTAGEM)"
+  ],
+  "rows": [
+    [
+      "Avaliação de Impacto",
+      "33"
+    ],
+    [
+      "Avaliação de Implementação",
+      "19"
+    ],
+    [
+      "Avaliação de Implantação",
+      "18"
+    ],
+    [
+      "Avaliação de Desempenho",
+      "7"
+    ],
+    [
+      "Avaliação Executiva",
+      "7"
+    ],
+    [
+      "Avaliação de Efeito",
+      "4"
+    ],
+    [
+      "Avaliação Normativa",
+      "4"
+    ],
+    [
+      "Avaliação de Eficácia",
+      "4"
+    ],
+    [
+      "Avaliação de Efetividade",
+      "3"
+    ],
+    [
+      "Avaliação de Utilidade",
+      "3"
+    ],
+    [
+      "Avaliação de Diagnóstico",
+      "2"
+    ],
+    [
+      "Avaliação de Quarta Geração",
+      "1"
+    ]
+  ],
+  "markdown": "| TIPO DE AVALIAÇÃO CITADA PELO AUTOR | MENÇÕES (CONTAGEM) |\n| --- | --- |\n| Avaliação de Impacto | 33 |\n| Avaliação de Implementação | 19 |\n| Avaliação de Implantação | 18 |\n| Avaliação de Desempenho | 7 |\n| Avaliação Executiva | 7 |\n| Avaliação de Efeito | 4 |\n| Avaliação Normativa | 4 |\n| Avaliação de Eficácia | 4 |\n| Avaliação de Efetividade | 3 |\n| Avaliação de Utilidade | 3 |\n| Avaliação de Diagnóstico | 2 |\n| Avaliação de Quarta Geração | 1 |",
+  "num_rows": 12,
+  "num_cols": 2
+}

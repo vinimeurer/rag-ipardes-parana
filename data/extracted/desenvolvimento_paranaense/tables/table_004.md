@@ -1,31 +1,31 @@
-Tabela: TABELA 7 -  PERCENTUAL  DE EMPRESAS DA INDÚSTRIA EXTRATIVA MINERAL E DE TRANSFORMAÇÃO QUE REALIZARAM  INOVAÇÕES  E  QUE  TIVERAM  PROJETOS  FINANCIADOS  EM  PARCERIA  COM UNIVERSIDADES - BRASIL E UNIDADES DA FEDERAÇÃO - 2001-2017
+Tabela: TABELA 2 - PRODUTIVIDADE DO TRABALHO, EM ANÁLISE SHIFT AND SHARE - PARANÁ - 1997-2019
 
-| ÁREAS | PERÍODO (%).2001-2003 | PERÍODO (%).2003-2005 | PERÍODO (%).2006-2008 | PERÍODO (%).2009-2011 | PERÍODO (%).2012-2014 | PERÍODO (%).2015-2017 |
-| --- | --- | --- | --- | --- | --- | --- |
-| Brasil | 1,4 | 1,2 | 0,8 | 0,9 | 0,9 | 1,2 |
-| Norte | 1,9 | 1,9 | 3,0 | 0,4 | 0,7 | 1,9 |
-| Região Norte |  |  |  |  |  |  |
-| Amazonas | 3,3 | 4,1 | 8,0 | 0,8 | 2,2 | 4,6 |
-| Pará | 0,5 | 1,3 | 0,2 | 0,0 | 0,0 | 0,0 |
-| Rio Grande do Norte |  |  |  |  |  |  |
-| Nordeste | 1,9 | 1,4 | 1,3 | 0,3 | 0,6 | 0,6 |
-| Região Nordeste |  |  |  |  |  |  |
-| Ceará | 0,2 | 1,3 | 0,9 | 0,3 | 0,7 | 1,7 |
-| Pernambuco | 7,5 | 0,6 | 0,3 | 0,2 | 0,2 | 0,7 |
-| Bahia | 1,3 | 2,6 |  | 0,6 | 0,9 | 0,6 |
-| Sudeste | 0,7 | 1,1 | 0,4 | 1,0 | 0,9 | 1,0 |
-| Região Sudeste (exclusive São Paulo) |  |  |  |  |  |  |
-| Minas Gerais | 1,2 | 1,1 | 0,3 | 0,9 | 1,1 | 0,5 |
-| Espírito Santo | 0,2 | 0,3 | 0,1 | 2,1 | 0,4 | 0,1 |
-| Rio de Janeiro | 0,2 | 1,2 | 1,1 | 0,8 | 0,8 | 4,4 |
-| São Paulo | 0,7 | 1,2 | 0,4 | 1,1 | 0,9 | 1,0 |
-| Região Sul |  |  |  |  |  |  |
-| Sul | 2,4 | 1,5 | 1,3 | 0,8 | 0,9 | 1,8 |
-| Paraná | 2,2 | 0,2 | 1,2 | 1,0 | 0,8 | 1,2 |
-| Santa Catarina | 1,5 | 1,5 | 0,4 | 0,7 | 0,4 | 0,5 |
-| Rio Grande do Sul | 3,1 | 2,9 | 2,1 | 0,8 | 1,6 | 3,7 |
-| Centro-Oeste | 2,0 | 0,2 | 0,5 | 2,2 | 1,0 | 0,6 |
-| Região Centro-Oeste |  |  |  |  |  |  |
-| Mato Grosso |  |  |  | 0,0 | 1,1 | 1,8 |
-| Mato Grosso do Sul |  |  |  |  |  | 0,7 |
-| Goiás | 0,1 | 0,3 | 0,3 | 0,7 | 1,1 | 0,2 |
+| UNIDADES DA FEDERAÇÃO.UNIDADES DA FEDERAÇÃO | COMPONENTES DO SHIFT AND SHARE.I | COMPONENTES DO SHIFT AND SHARE.II | COMPONENTES DO SHIFT AND SHARE.III | COMPONENTES DO SHIFT AND SHARE.Var. P/Po | 1997-2019.Taxa Anual (%) | 2019.VTI/PO (R$ mil) | 2019.PO/FT (%) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Rondônia | 21,2 | 30,2 | 74,6 | 125,9 | 3,6 | 79,49 | 2,5 |
+| Acre | 22,6 | -3,7 | 17,5 | 36,4 | 1,4 | 60,67 | 0,9 |
+| Amazonas | 15,8 | -20,0 | 28,6 | 24,4 | 1,0 | 363,36 | 3,4 |
+| Roraima | 2,2 | -29,7 | 91,0 | 63,4 | 2,2 | 37,59 | 0,4 |
+| Pará | 83,8 | 114,7 | 43,8 | 242,2 | 5,5 | 465,66 | 1,6 |
+| Amapá | -24,7 | 30,6 | -64,0 | -58,1 | -3,7 | 100,36 | 0,2 |
+| Tocantins | -13,3 | 12,7 | 35,7 | 35,1 | 1,3 | 102,61 | 1,4 |
+| Maranhão | -14,8 | 17,0 | 51,5 | 53,7 | 1,9 | 253,68 | 0,8 |
+| Piauí | 24,5 | 10,7 | 6,8 | 42,1 | 1,5 | 71,60 | 1,1 |
+| Ceará | -1,6 | -6,8 | 24,4 | 16,0 | 0,6 | 86,21 | 3,5 |
+| Rio Grande do Norte | -18,4 | -6,6 | 84,5 | 59,5 | 2,1 | 142,67 | 2,3 |
+| Paraíba | -10,5 | 10,1 | -3,7 | -4,2 | -0,2 | 68,63 | 2,4 |
+| Pernambuco | 4,1 | 16,3 | 17,1 | 37,5 | 1,4 | 134,85 | 2,9 |
+| Alagoas | 3,0 | 3,0 | -58,6 | -52,5 | -3,2 | 59,79 | 2,7 |
+| Sergipe | -12,5 | -47,7 | 82,7 | 22,6 | 0,9 | 117,21 | 2,5 |
+| Bahia | -33,1 | -13,6 | 30,1 | -16,7 | -0,8 | 254,41 | 2,1 |
+| Minas Gerais | 0,8 | -1,5 | 28,4 | 27,7 | 1,1 | 185,80 | 5,4 |
+| Espírito Santo | 3,0 | 5,5 | 43,3 | 51,8 | 1,8 | 257,75 | 4,2 |
+| Rio de Janeiro | 7,5 | 33,7 | 24,6 | 65,8 | 2,2 | 424,04 | 2,9 |
+| São Paulo | 23,0 | -14,7 | -10,9 | -2,7 | -0,1 | 188,60 | 7,3 |
+| Paraná | 5,4 | -30,2 | 40,3 | 15,5 | 0,6 | 146,72 | 7,9 |
+| Santa Catarina | 1,4 | -0,6 | 18,2 | 19,0 | 0,8 | 102,66 | 13,1 |
+| Rio Grande do Sul | 9,4 | -1,4 | 14,7 | 22,7 | 0,9 | 148,44 | 8,0 |
+| Mato Grosso do Sul | 19,0 | 32,4 | 10,3 | 61,6 | 2,1 | 218,06 | 4,8 |
+| Mato Grosso | 16,8 | 0,2 | 17,5 | 34,6 | 1,3 | 171,05 | 4,2 |
+| Goiás | 26,8 | -12,3 | 10,7 | 25,2 | 1,0 | 139,92 | 4,6 |
+| Distrito Federal | 2,9 | 1,6 | -3,3 | 1,2 | 0,1 | 104,72 | 1,2 |

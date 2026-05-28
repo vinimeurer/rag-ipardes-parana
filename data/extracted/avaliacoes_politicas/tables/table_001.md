@@ -1,14 +1,13 @@
-| TIPO DE TÉCNICA | CONTAGEM |
-| --- | --- |
-| Estatística Inferencial | 42 |
-| Amostragem e Pareamento | 33 |
-| Análise de Gestão, Processos e Estrutura | 29 |
-| Testes de Confiabilidade | 27 |
-| Questionários e Surveys | 26 |
-| Entrevistas e Similares | 23 |
-| Estatística Descritiva | 19 |
-| Análise de Conteúdo e Discurso | 14 |
-| Outros tipos de Análise Documental | 13 |
-| Escalas, Índices e Escores | 11 |
-| Grupo Focal, Painel de Especialistas e Oficinas | 8 |
-| Outras técnicas qualitativas | 7 |
+| NOME DO PERIÓDICO | ÁREADO PERIÓDICO | NÚMERO DE CASOS |
+| --- | --- | --- |
+| Acta Paulista de Enfermagem | Saúde | 1 caso |
+| Avaliação: Revista da Avaliação da Educação Superior | Educação | 2 casos |
+| Cadernos de Saúde Coletiva | Saúde | 7 casos |
+| Ciência e Saúde Coletiva | Saúde | 4 casos |
+| Educação e Pesquisa | Educação | 1 caso |
+| Epidemiologia e Serviços de Saúde | Saúde | 4 casos |
+| Escola Ana Nery | Saúde | 1 caso |
+| Estudos Econômicos | Economia | 2 casos |
+| Interface | Interdisciplinar | 3 casos |
+| Paideia | Psicologia | 1 caso |
+| Physis Saúde Coletiva | Saúde | 5 casos |

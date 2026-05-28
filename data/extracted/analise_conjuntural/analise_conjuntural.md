@@ -150,7 +150,7 @@ TABELA 5 -  CRÉDITO A PESSOAS FÍSICAS COM RENDIMENTO ACIMA DE VINTE SALÁRIOS 
 
 (continua)
 
-<!-- PAGE: 1 -->
+<!-- PAGE: 11 -->
 
 TABELA 5 -  CRÉDITO A PESSOAS FÍSICAS COM  RENDIMENTO ACIMA DE VINTE SALÁRIOS MÍNIMOS, POR OCUPAÇÃO E MODALIDADE - PARANÁ - JUN 2025
 
@@ -166,7 +166,7 @@ Os empresários são contratantes de 38,69% dos financiamentos a pessoas física
 
 Todas as faixas de renda apresentam preocupante piora de adimplência. Questões de fundo, como poupança frágil e impulsividade na contratação de crédito, se combinam à elevação das taxas de  juros  e  ao  endividamento  em  múltiplas  modalidades.  O  encarecimento  das  concessões, retroalimentado  pela  inadimplência,  se  tornará  mais  acentuado  com  a  utilização  do  Imposto  sobre Operações de Crédito, Câmbio e Seguro ou relativas a Títulos ou Valores Mobiliários (IOF) para aplacar déficits orçamentários da União. A despeito de libelos e palavras de ordem, o aumento da alíquota tornará  os  financiamentos  mais  distantes  das  faixas  de  renda  mais  baixas  e  as  renegociações  de dívidas  mais  complexas.  O  quadro  revela  esgotamento  desse  ciclo  de  elevação  de  montantes  de crédito, com previsível desaceleração no ritmo do consumo das famílias.
 
-<!-- PAGE: 2 -->
+<!-- PAGE: 12 -->
 
 * Economista, pesquisador do Departamento de Estudos Econômicos e Ambientais do IPARDES.
 
@@ -184,7 +184,7 @@ Com  relação  à  massa  de  remunerações,  ocorreu  estabilidade  na  médi
 
 A maioria dos ocupados está no setor de serviços (67,8%), em seguida na indústria (23,6%) e na agropecuária (8,3%). Entre as atividades econômicas que mais contrataram em contraste ao mesmo período de 2024, estão as dos setores primário e secundário, onde a ocupação cresceu 5,8% e 4,3%, respectivamente. Já as atividades de transformação e extrativistas registraram retração de 3,2% na demanda por mão de obra (tabela 1).
 
-<!-- PAGE: 3 -->
+<!-- PAGE: 13 -->
 
 TABELA 1 - VARIAÇÃO PERCENTUAL NA OCUPAÇÃO - PARANÁ - 2 º TRIM 2023-2025
 
@@ -216,7 +216,7 @@ Agropecuário: Fumo (2022/2023), v.14, n.43 - SEAB.
 
 7   Pesquisa Mensal de Serviços/IBGE .
 
-<!-- PAGE: 4 -->
+<!-- PAGE: 14 -->
 
 Embora o principal perfil de trabalhadores em busca de emprego sejam jovens de 14 a 19 anos (22,1%), a desagregação por faixa etária demonstra redução da desocupação entre os mais novos. Já as faixas etárias que abrangem trabalhadores de 25 a 29, 40 a 44 e 45 a 49 anos de idade registraram alta (tabela 2).
 
@@ -232,7 +232,7 @@ Diante das expectativas de queda  da  taxa geral juros da economia  brasileira e
 
 Na agricultura, existe a possibilidade de impacto negativo sobre as atividades ligadas à criação de bovinos diante das restrições apontadas. Por outro lado, a forte expansão de culturas mais intensivas em trabalho vem gerando novas vagas de emprego no setor. Já na indústria menos dependente do mercado estadunidense e nos serviços, a sustentação da demanda está diretamente ligada à oferta de crédito e à demanda gerada pelo mercado de trabalho aquecido. Nesses termos, há perspectiva de oferta de novas vagas, sobretudo para trabalhadores jovens e com menor grau de formação.
 
-<!-- PAGE: 5 -->
+<!-- PAGE: 15 -->
 
 * Economista, pesquisador do Departamento de Estudos Econômicos e Ambientais do IPARDES.
 
@@ -260,7 +260,7 @@ No Paraná, considerando a frota total (inclusive motos, caminhões e ônibus) 9
 
 4 Anuário 2024 - Federação Nacional da Distribuição de Veículos Automotores.
 
-<!-- PAGE: 6 -->
+<!-- PAGE: 16 -->
 
 GRÁFICO 1 - FROTA DE VEÍCULOS TERRESTRE POR TIPO DE PROPULSÃO - PARANÁ - 2022-2025
 
@@ -278,7 +278,7 @@ Outro desafio à expansão da frota eletrificada é o estabelecimento de infraes
 
 7 Projeto de Lei 158 de 2025/ Câmara dos Deputados.
 
-<!-- PAGE: 7 -->
+<!-- PAGE: 17 -->
 
 GRÁFICO 2 - OFERTA DE ELETROPOSTOS - 2025
 
@@ -290,7 +290,7 @@ FIGURA 1 - DISTRIBUIÇÃO MUNICIPAL DE ELETROPOSTOS - PARANA - 2025
 
 FONTE: ABVE Data (2025)
 
-<!-- PAGE: 8 -->
+<!-- PAGE: 18 -->
 
 Apesar  da  oferta  do  serviço  de  carregamento  para  deslocamentos  entre  cidades-polo,  seu principal limitante é a escala. A baixa disponibilidade de estações de carregamentos causa incerteza aos motoristas diante do tempo necessário para recarga. Diferentemente dos veículos à combustão, os eletrificados necessitam utilizar infraestrutura por maiores períodos de tempo para recomposição de sua autonomia, que já é reduzida em trajetos rodoviários em comparação aos urbanos, devido à menor oportunidade de regeneração via frenagens.
 
@@ -312,11 +312,11 @@ Sob um panorama mais amplo, a redução da dependência regional de combustívei
 
 11 Lei nº 14.260, de 22 de dezembro de 2003.
 
-<!-- PAGE: 9 -->
+<!-- PAGE: 19 -->
 
 TABELA 1 - ÁREA, PRODUÇÃO E PRODUTIVIDADE DOS PRINCIPAIS PRODUTOS AGRÍCOLAS DO PARANÁ - 1993-2026
 
-<!-- PAGE: 10 -->
+<!-- PAGE: 20 -->
 
 TABELA 1 - ÁREA, PRODUÇÃO E PRODUTIVIDADE DOS PRINCIPAIS PRODUTOS AGRÍCOLAS DO PARANÁ - 1993-2026
 
@@ -330,7 +330,7 @@ NOTAS: Sinal convencional utilizado:
 
 (1) Estimativa.
 
-<!-- PAGE: 1 -->
+<!-- PAGE: 21 -->
 
 TABELA 2 - ABATES DE AVES, BOVINOS E SUÍNOS - PARANÁ - 1997-2025
 
@@ -340,7 +340,7 @@ NOTA: Elaboração do IPARDES.
 
 (1) Resultados preliminares.
 
-<!-- PAGE: 2 -->
+<!-- PAGE: 22 -->
 
 TABELA 3 - EXPORTAÇÕES, SEGUNDO PRINCIPAIS PRODUTOS E RESPECTIVOS PAÍSES DE DESTINO - PARANÁ - 2024-2025
 
@@ -352,7 +352,7 @@ NOTA: Elaboração do IPARDES.
 
 (2) Compreende os territórios de Hong Kong e Macau.
 
-<!-- PAGE: 3 -->
+<!-- PAGE: 23 -->
 
 TABELA 4 - BALANÇA COMERCIAL PARANAENSE E BRASILEIRA - 2003-2025
 
@@ -360,7 +360,7 @@ FONTE: MDIC - SECEX
 
 (1) Dados preliminares.
 
-<!-- PAGE: 4 -->
+<!-- PAGE: 24 -->
 
 TABELA 5 - ÍNDICES DE PREÇO, DE QUANTUM E DE TERMOS DE TROCA - PARANÁ - 1997-2024
 
@@ -372,7 +372,7 @@ Elaborado com dados brutos do MDIC-SECEX.
 
 Utilizou-se índices de Fisher.
 
-<!-- PAGE: 5 -->
+<!-- PAGE: 25 -->
 
 TABELA 6 - ÍNDICE DE VOLUME DE VENDAS DO COMÉRCIO VAREJISTA AMPLIADO DO PARANÁ - 2022-2025
 
@@ -382,7 +382,7 @@ NOTAS: O comércio varejista ampliado difere do restrito por compreender as ativ
 
 Índice sem ajuste sazonal.
 
-<!-- PAGE: 6 -->
+<!-- PAGE: 26 -->
 
 TABELA 7 - PRODUÇÃO FÍSICA DA INDÚSTRIA DE TRANSFORMAÇÃO, SEGUNDO SEÇÕES E ATIVIDADES INDUSTRIAIS - PARANÁ - 2022-2025
 
@@ -392,7 +392,7 @@ NOTA: Índice sem ajuste sazonal.
 
 (1) Somente as atividades que apresentam produtos incluídos na amostra.
 
-<!-- PAGE: 7 -->
+<!-- PAGE: 27 -->
 
 TABELA 8 - RENDIMENTO HABITUAL REAL E TAXA DE DESOCUPAÇÃO, NO PARANÁ - 2014-2025
 
@@ -402,7 +402,7 @@ NOTA: Elaboração do IPARDES.
 
 (1) Rendimento médio real do trabalho principal, habitualmente recebido por mês, pelas pessoas. A preços do último trimestre móvel divulgado, de acordo com o Índice de Preços ao Consumidor Amplo da Região Metropolitana de Curitiba. Deflacionado para o mês de agosto de 2025.
 
-<!-- PAGE: 8 -->
+<!-- PAGE: 28 -->
 
 TABELA 9 - SALDO DO EMPREGO FORMAL - PARANÁ - 2022-2025
 
@@ -414,7 +414,7 @@ Sinal convencional utilizado:
 
 - Dado inexistente.
 
-<!-- PAGE: 9 -->
+<!-- PAGE: 29 -->
 
 TABELA 10 - PRODUTO INTERNO BRUTO DO PARANÁ E DO BRASIL - 2002-2023
 
@@ -428,5 +428,5 @@ TABELA 11 - TAXAS DE VARIAÇÃO DO PRODUTO INTERNO BRUTO - PARANÁ - 3 º TRIM 2
 
 FONTE: IPARDES
 
-<!-- PAGE: 10 -->
+<!-- PAGE: 30 -->
 

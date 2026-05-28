@@ -1,10 +1,8 @@
-Tabela: TABELA 5 -  PERCENTUAL  SIMULADO  DE  USO  DE  GÁS  NATURAL  NOS  CUSTOS  DA  INDÚSTRIA  EM UNIDADES DA FEDERAÇÃO SELECIONADAS - 2019
+Tabela: TABELA 3 - CENÁRIOS DE CONSUMO ENERGÉTICO FINAL NO PARANÁ POR ELASTICIDADE
 
-| UNIDADE DA FEDERAÇÃO (UF) | DISTRIBUIDORA (1) | INDÚSTRIA EXTRATIVA E DE TRANSFORMAÇÃO.Custo com Gás Aproximado (2) (R$ mil) | INDÚSTRIA EXTRATIVA E DE TRANSFORMAÇÃO.COI - CMPC (3) (R$ mil) | INDÚSTRIA EXTRATIVA E DE TRANSFORMAÇÃO.Percentual de Aplicação do Gás | INDÚSTRIA EXTRATIVA E DE TRANSFORMAÇÃO.Proporção UF/PR para Percentual de Aplicação de Gás |
-| --- | --- | --- | --- | --- | --- |
-| São Paulo | Comgás (SP) | 8 158 208 | 74 931 286 | 10,89 | 4,58 |
-| Minas Gerais | GásMig (MG) | 1 764 372 | 35 149 990 | 5,02 | 2,11 |
-| Rio de Janeiro (4) | CEG Naturgy (RJ) | 2 502 904 | 37 918 524 | 6,60 | 2,78 |
-| Santa Catarina | SCGÁS (SC) | 1 352 716 | 14 560 475 | 9,29 | 3,91 |
-| Rio Grande do Sul | Sulgás (RS) | 984 828 | 15 273 045 | 6,45 | 2,71 |
-| Paraná | Compagás (PR) | 351 164 | 14 783 535 | 2,38 | 1,00 |
+| CENÁRIOS. | PIB.Taxa de Crescimento Percentual ao Ano. | CONSUMO ENERGÉTICO FINAL (10 6 tep).Taxa de percentual ao ano.crescimento | CONSUMO ENERGÉTICO FINAL (10 6 tep).2030.Taxa percentual acumulada | CONSUMO ENERGÉTICO FINAL (10 6 tep).2030.(10 6 tep) | CONSUMO ENERGÉTICO FINAL (10 6 tep).2030.PR/BR Percentual em 2030 | CONSUMO ENERGÉTICO FINAL (10 6 tep).2035.Taxa percentual acumulada | CONSUMO ENERGÉTICO FINAL (10 6 tep).2035.(10 6 tep) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Tendencial | 2,0 | 2,5 | 28,4 | 20 458,32 | 6,2 | 45,5 | 23 181,04 |
+| Avanço estrutural |  |  |  |  |  |  |  |
+| I | 2,7 | 3,4 | 39,9 | 22 295,76 | 6,8 | 65,5 | 26 373,11 |
+| II | 3,4 | 4,3 | 52,4 | 24 280,41 | 7,4 | 88,1 | 29 971,75 |
