@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAG IPARDES Paraná - Chat</title>
+
+  <!-- Tabler Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
+  />
+
+  <!-- Fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --font-sans: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+
+      --color-background-primary: #ffffff;
+      --color-background-secondary: #f8fafc;
+      --color-background-tertiary: #eef2f7;
+      --color-background-info: #2563eb;
+
+      --color-text-primary: #0f172a;
+      --color-text-secondary: #475569;
+      --color-text-tertiary: #94a3b8;
+      --color-text-info: #ffffff;
+
+      --color-border-primary: #2563eb;
+      --color-border-secondary: #cbd5e1;
+      --color-border-tertiary: #e2e8f0;
+
+      --color-error: #dc2626;
+      --color-success: #16a34a;
+
+      --border-radius-md: 10px;
+      --border-radius-lg: 16px;
+
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.06);
+      --shadow-md: 0 8px 24px rgba(15, 23, 42, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background: #e9eef5;
+      color: var(--color-text-primary);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    #app {
+      width: 100%;
+      max-width: 1500px;
+      height: 88vh;
+      min-height: 680px;
+      display: flex;
+      overflow: hidden;
+      border-radius: 20px;
+      background: var(--color-background-primary);
+      border: 1px solid var(--color-border-tertiary);
+      box-shadow: var(--shadow-md);
+    }
+
+    #sidebar-left {
+      width: 320px;
+      min-width: 220px;
+      max-width: 700px;
+      resize: horizontal;
+      overflow: auto;
+      display: flex;
+      flex-direction: column;
+      border-right: 1px solid var(--color-border-tertiary);
+      background: var(--color-background-secondary);
+    }
+
+    #sidebar-left::-webkit-resizer {
+      background: var(--color-border-secondary);
+    }
+
+    .sidebar-header,
+    .ref-panel-header {
+      padding: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--color-border-tertiary);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--color-text-secondary);
+    }
+
+    #prompt-toggle,
+    .ref-nav button,
+    #send-btn,
+    #close-ref {
+      transition: all 0.15s ease;
+    }
+
+    #prompt-toggle {
+      border: 1px solid var(--color-border-secondary);
+      background: white;
+      color: var(--color-text-secondary);
+      padding: 6px 10px;
+      border-radius: 8px;
+      font-size: 11px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    #prompt-toggle:hover {
+      background: var(--color-background-tertiary);
+    }
+
+    #prompt-label {
+      padding: 14px 18px 4px;
+      font-size: 11px;
+      color: var(--color-text-tertiary);
+    }
+
+    #prompt-content {
+      flex: 1;
+      padding: 14px 18px 20px;  
+      font-size: 12px;
+      line-height: 1.7;
+      color: var(--color-text-secondary);
+      font-family: var(--font-mono);
+      overflow-x: auto;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+      background: white;
+      border-top: 1px solid var(--color-border-tertiary);
+      scrollbar-width: thin;
+    }
+
+    #main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      background: #fcfdff;
+    }
+
+    #chat-area {
+      flex: 1;
+      overflow-y: auto;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .msg-user {
+      align-self: flex-end;
+      max-width: 78%;
+      padding: 12px 16px;
+      border-radius: 16px 16px 4px 16px;
+      background: var(--color-background-info);
+      color: var(--color-text-info);
+      font-size: 14px;
+      line-height: 1.6;
+      box-shadow: var(--shadow-sm);
+      word-wrap: break-word;
+    }
+
+    .msg-agent {
+      align-self: flex-start;
+      max-width: 86%;
+    }
+
+    .msg-agent-bubble {
+      padding: 14px 16px;
+      border-radius: 6px 16px 16px 16px;
+      background: white;
+      border: 1px solid var(--color-border-tertiary);
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--color-text-primary);
+      box-shadow: var(--shadow-sm);
+      word-wrap: break-word;
+    }
+
+    .msg-error {
+      align-self: flex-start;
+      max-width: 86%;
+      padding: 14px 16px;
+      border-radius: 6px 16px 16px 16px;
+      background: #fee2e2;
+      border: 1px solid #fecaca;
+      color: var(--color-error);
+      font-size: 14px;
+      line-height: 1.6;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .msg-out-of-scope {
+      align-self: flex-start;
+      max-width: 86%;
+      padding: 14px 16px;
+      border-radius: 6px 16px 16px 16px;
+      background: #fef3c7;
+      border: 1px solid #fde68a;
+      color: #92400e;
+      font-size: 14px;
+      line-height: 1.6;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .refs-label {
+      margin-top: 10px;
+      margin-bottom: 8px;
+      padding-left: 4px;
+      font-size: 11px;
+      color: var(--color-text-tertiary);
+      font-weight: 500;
+    }
+
+    .refs-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .ref-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid var(--color-border-secondary);
+      background: white;
+      color: var(--color-text-secondary);
+      padding: 8px 12px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 11px;
+      transition: all 0.15s ease;
+    }
+
+    .ref-chip:hover {
+      background: var(--color-background-tertiary);
+      border-color: var(--color-border-primary);
+      color: var(--color-text-primary);
+    }
+
+    #input-area {
+      display: flex;
+      align-items: flex-end;
+      gap: 10px;
+      padding: 18px 20px;
+      border-top: 1px solid var(--color-border-tertiary);
+      background: white;
+    }
+
+    #user-input {
+      flex: 1;
+      resize: none;
+      min-height: 48px;
+      max-height: 140px;
+      padding: 12px 14px;
+      border-radius: 14px;
+      border: 1px solid var(--color-border-secondary);
+      background: var(--color-background-secondary);
+      color: var(--color-text-primary);
+      font-family: var(--font-sans);
+      font-size: 14px;
+      line-height: 1.5;
+      overflow-y: auto;
+    }
+
+    #user-input:focus {
+      outline: none;
+      border-color: var(--color-border-primary);
+      background: white;
+    }
+
+    #user-input:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    #send-btn {
+      width: 48px;
+      height: 48px;
+      border: none;
+      border-radius: 14px;
+      background: var(--color-background-info);
+      color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      box-shadow: var(--shadow-sm);
+    }
+
+    #send-btn:hover:not(:disabled) {
+      transform: translateY(-1px);
+      opacity: 0.95;
+    }
+
+    #send-btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    #send-btn i {
+      font-size: 20px;
+    }
+
+    #sidebar-right {
+      width: 320px;
+      min-width: 320px;
+      display: flex;
+      flex-direction: column;
+      border-left: 1px solid var(--color-border-tertiary);
+      background: var(--color-background-secondary);
+    }
+
+    #close-ref {
+      width: 30px;
+      height: 30px;
+      border: none;
+      border-radius: 8px;
+      background: transparent;
+      cursor: pointer;
+      color: var(--color-text-tertiary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #close-ref:hover {
+      background: var(--color-background-tertiary);
+      color: var(--color-text-primary);
+    }
+
+    #ref-detail {
+      flex: 1;
+      overflow-y: auto;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .ref-field label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--color-text-tertiary);
+    }
+
+    .ref-field p {
+      color: var(--color-text-primary);
+      font-size: 13px;
+      line-height: 1.6;
+      word-wrap: break-word;
+    }
+
+    .ref-excerpt {
+      padding-left: 12px;
+      border-left: 3px solid var(--color-border-secondary);
+      color: var(--color-text-secondary) !important;
+      font-style: italic;
+      overflow-x: auto;
+    }
+
+    .ref-nav {
+      display: flex;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .ref-nav button {
+      flex: 1;
+      border: 1px solid var(--color-border-secondary);
+      background: white;
+      border-radius: 10px;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 12px;
+      color: var(--color-text-secondary);
+    }
+
+    .ref-nav button:hover {
+      background: var(--color-background-tertiary);
+    }
+
+    #empty-ref {
+      margin: auto;
+      text-align: center;
+      color: var(--color-text-tertiary);
+      line-height: 1.7;
+      font-size: 13px;
+      max-width: 220px;
+    }
+
+    #empty-ref i {
+      display: block;
+      margin-bottom: 12px;
+      font-size: 40px;
+      opacity: 0.4;
+    }
+
+    .typing-dot {
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--color-text-tertiary);
+      margin: 0 2px;
+      animation: blink 1s infinite;
+    }
+
+    .typing-dot:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .typing-dot:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    @keyframes blink {
+      0%, 80%, 100% {
+        opacity: 0.2;
+      }
+      40% {
+        opacity: 1;
+      }
+    }
+
+    .score-badge {
+      display: inline-block;
+      padding: 4px 8px;
+      background: var(--color-background-tertiary);
+      color: var(--color-text-secondary);
+      font-size: 11px;
+      border-radius: 6px;
+      font-weight: 500;
+    }
+
+    @media (max-width: 1200px) {
+      #sidebar-left {
+        display: none;
+      }
+    }
+
+    @media (max-width: 980px) {
+      body {
+        padding: 0;
+      }
+
+      #app {
+        height: 100vh;
+        border-radius: 0;
+      }
+
+      #sidebar-right {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div id="app">
+
+  <div id="sidebar-left">
+    <div class="sidebar-header">
+      Prompts
+      <button id="prompt-toggle">system msg</button>
+    </div>
+
+    <div id="prompt-label">Exibindo: system message</div>
+
+    <div id="prompt-content"></div>
+  </div>
+
+  <div id="main">
+
+    <div id="chat-area">
+      <div class="msg-agent">
+        <div class="msg-agent-bubble">
+          Olá! Sou o assistente RAG sobre documentos oficiais do IPARDES (Instituto Paranaense de Desenvolvimento Econômico e Social).
+          <br><br>
+          Faça uma pergunta sobre os seguintes documentos:
+          <ul style="margin-top: 8px; margin-left: 20px;">
+            <li>desenvolvimento_paranaense.pdf</li>
+            <li>Análise Conjuntural (julho-agosto 2025)</li>
+            <li>Avaliações de Políticas Públicas</li>
+          </ul>
+          <br>
+          Responderei apenas com base nos trechos encontrados, com referências completas.
+        </div>
+      </div>
+    </div>
+
+    <div id="input-area">
+      <textarea id="user-input" placeholder="Digite sua pergunta..." rows="1"></textarea>
+
+      <button id="send-btn" aria-label="Enviar">
+        <i class="ti ti-arrow-up"></i>
+      </button>
+    </div>
+  </div>
+
+  <div id="sidebar-right">
+    <div class="ref-panel-header">
+      Referência
+
+      <button id="close-ref" aria-label="Fechar referência">
+        <i class="ti ti-x"></i>
+      </button>
+    </div>
+
+    <div id="ref-detail">
+      <div id="empty-ref">
+        <i class="ti ti-file-search"></i>
+        Clique em uma referência para visualizar os detalhes do trecho utilizado.
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const API_BASE_URL = '/api';
+
+  // Estado global
+  let currentMode = 'system';
+  let lastRefs = [];
+  let currentRefIdx = 0;
+  let lastQuestion = '';
+  let lastSystemMessage = '';
+  let isLoading = false;
+
+  // Elementos DOM
+  const promptContent = document.getElementById('prompt-content');
+  const promptLabel = document.getElementById('prompt-label');
+  const promptToggle = document.getElementById('prompt-toggle');
+  const chatArea = document.getElementById('chat-area');
+  const userInput = document.getElementById('user-input');
+  const sendBtn = document.getElementById('send-btn');
+  const refDetail = document.getElementById('ref-detail');
+  const closeRefBtn = document.getElementById('close-ref');
+
+  // ========================================================================
+  // Funções auxiliares
+  // ========================================================================
+
+  function getSystemMessage() {
+    return `Você é um assistente especializado em documentos oficiais do governo do Paraná (IPARDES).
+
+REGRAS RIGOROSAS:
+- Responda APENAS com base nos trechos fornecidos no contexto abaixo.
+- Se a resposta não estiver nos documentos, diga claramente: "Este assunto não está coberto pelo material disponível."
+- SEMPRE cite o documento, a página e a seção de origem de cada informação.
+- NÃO invente dados, complementações ou informações externas.
+- Seja objetivo e direto nas respostas.
+- Se houver ambiguidade, indique incerteza.`;
+  }
+
+  function buildFinalPrompt(question, chunks) {
+    const systemMsg = getSystemMessage();
+    
+    if (chunks.length === 0) {
+      return `${systemMsg}\n\n[Nenhum trecho relevante encontrado]\n\nPergunta: ${question}`;
+    }
+
+    const context = chunks
+      .map((chunk, i) => {
+        const scoreInfo = chunk.rerank_score !== null 
+          ? ` | rerank_score: ${chunk.rerank_score.toFixed(4)}`
+          : ` | similarity: ${chunk.similarity.toFixed(4)}`;
+        
+        const sections = chunk.sections.join(' > ') || 'Sem seção';
+        return `TRECHO ${i + 1} (${chunk.document}, p.${chunk.page} — ${sections}${scoreInfo}):\n"${chunk.content}"`;
+      })
+      .join('\n\n');
+
+    return `${systemMsg}\n\n--- CONTEXTO RECUPERADO VIA RAG ---\n\n${context}\n\n--- PERGUNTA DO USUÁRIO ---\n${question}`;
+  }
+
+  function showPromptMode(mode, question, chunks) {
+    currentMode = mode;
+
+    if (mode === 'system') {
+      promptLabel.textContent = 'Exibindo: system message';
+      promptToggle.textContent = 'prompt final';
+      const sysMsg = getSystemMessage();
+      promptContent.textContent = sysMsg;
+      lastSystemMessage = sysMsg;
+      return;
+    }
+
+    promptLabel.textContent = 'Exibindo: prompt final';
+    promptToggle.textContent = 'system msg';
+    promptContent.textContent = buildFinalPrompt(question, chunks);
+  }
+
+  promptToggle.addEventListener('click', () => {
+    if (!lastRefs.length) {
+      return;
+    }
+    const newMode = currentMode === 'system' ? 'final' : 'system';
+    showPromptMode(newMode, lastQuestion, lastRefs);
+  });
+
+  // ========================================================================
+  // Painel de Referências
+  // ========================================================================
+
+  function renderRefPanel(ref) {
+    const scoreDisplay = ref.rerank_score !== null
+      ? `<span class="score-badge">Rerank: ${ref.rerank_score.toFixed(4)}</span>`
+      : `<span class="score-badge">Similaridade: ${ref.similarity.toFixed(4)}</span>`;
+
+    refDetail.innerHTML = `
+      <div class="ref-field">
+        <label>Documento</label>
+        <p>${ref.document}</p>
+      </div>
+
+      <div class="ref-field">
+        <label>Página</label>
+        <p>${ref.page}</p>
+      </div>
+
+      <div class="ref-field">
+        <label>Seção</label>
+        <p>${ref.sections.length > 0 ? ref.sections.join(' > ') : 'Sem seção'}</p>
+      </div>
+
+      <div class="ref-field">
+        <label>Tipo de Conteúdo</label>
+        <p>${ref.type === 'text' ? 'Texto' : 'Tabela'}</p>
+      </div>
+
+      <div class="ref-field">
+        <label>Score</label>
+        <p>${scoreDisplay}</p>
+      </div>
+
+      <div class="ref-field">
+        <label>Trecho Utilizado</label>
+        <p class="ref-excerpt">${ref.content}</p>
+      </div>
+      ${ref.caption ? `
+      <div class="ref-field">
+        <label>Legenda</label>
+        <p>${ref.caption}</p>
+      </div>
+      ` : ''}
+    `;
+
+    if (lastRefs.length > 1) {
+      const nav = document.createElement('div');
+      nav.className = 'ref-nav';
+
+      nav.innerHTML = `
+        <button id="ref-prev">
+          <i class="ti ti-chevron-left"></i>
+          Anterior
+        </button>
+        <button id="ref-count" style="flex: 0; min-width: 50px; text-align: center;">
+          ${currentRefIdx + 1} / ${lastRefs.length}
+        </button>
+        <button id="ref-next">
+          Próxima
+          <i class="ti ti-chevron-right"></i>
+        </button>
+      `;
+
+      refDetail.appendChild(nav);
+
+      document.getElementById('ref-prev').addEventListener('click', () => {
+        currentRefIdx = (currentRefIdx - 1 + lastRefs.length) % lastRefs.length;
+        renderRefPanel(lastRefs[currentRefIdx]);
+      });
+
+      document.getElementById('ref-next').addEventListener('click', () => {
+        currentRefIdx = (currentRefIdx + 1) % lastRefs.length;
+        renderRefPanel(lastRefs[currentRefIdx]);
+      });
+    }
+  }
+
+  closeRefBtn.addEventListener('click', () => {
+    refDetail.innerHTML = `
+      <div id="empty-ref">
+        <i class="ti ti-file-search"></i>
+        Clique em uma referência para visualizar os detalhes do trecho utilizado.
+      </div>
+    `;
+  });
+
+  // ========================================================================
+  // Renderização de Mensagens
+  // ========================================================================
+
+  function appendMessage(type, content, refs = []) {
+    if (type === 'user') {
+      const userMessage = document.createElement('div');
+      userMessage.className = 'msg-user';
+      userMessage.textContent = content;
+      chatArea.appendChild(userMessage);
+      return;
+    }
+
+    const wrapper = document.createElement('div');
+    wrapper.className = 'msg-agent';
+
+    if (type === 'error') {
+      wrapper.innerHTML = `<div class="msg-error">${content}</div>`;
+      chatArea.appendChild(wrapper);
+      return;
+    }
+
+    if (type === 'out-of-scope') {
+      wrapper.innerHTML = `<div class="msg-out-of-scope">${content}</div>`;
+      chatArea.appendChild(wrapper);
+      return;
+    }
+
+    // Mensagem normal
+    const bubble = document.createElement('div');
+    bubble.className = 'msg-agent-bubble';
+    bubble.textContent = content;
+    wrapper.appendChild(bubble);
+
+    if (refs && refs.length > 0) {
+      const refsLabel = document.createElement('div');
+      refsLabel.className = 'refs-label';
+      refsLabel.textContent = `${refs.length} trecho(s) utilizado(s) como base`;
+      wrapper.appendChild(refsLabel);
+
+      const refsGrid = document.createElement('div');
+      refsGrid.className = 'refs-grid';
+
+      refs.forEach((ref, index) => {
+        const chip = document.createElement('button');
+        chip.className = 'ref-chip';
+
+        const docName = ref.document
+          .replace('.pdf', '')
+          .replace(/^[a-z_]+\//, '')
+          .substring(0, 18);
+        
+        chip.innerHTML = `
+          <i class="ti ti-file-text"></i>
+          ${docName}... p.${ref.page}
+        `;
+
+        chip.addEventListener('click', () => {
+          currentRefIdx = index;
+          renderRefPanel(ref);
+        });
+
+        refsGrid.appendChild(chip);
+      });
+
+      wrapper.appendChild(refsGrid);
+    }
+
+    chatArea.appendChild(wrapper);
+  }
+
+  function appendTyping() {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'msg-agent';
+    wrapper.id = 'typing-indicator';
+
+    wrapper.innerHTML = `
+      <div class="msg-agent-bubble">
+        <span class="typing-dot"></span>
+        <span class="typing-dot"></span>
+        <span class="typing-dot"></span>
+      </div>
+    `;
+
+    chatArea.appendChild(wrapper);
+    chatArea.scrollTop = chatArea.scrollHeight;
+
+    return wrapper;
+  }
+
+  function scrollToBottom() {
+    chatArea.scrollTop = chatArea.scrollHeight;
+  }
+
+  // ========================================================================
+  // Textarea auto-resize
+  // ========================================================================
+
+  function autoResizeTextarea() {
+    userInput.style.height = 'auto';
+    userInput.style.height = `${Math.min(userInput.scrollHeight, 140)}px`;
+  }
+
+  userInput.addEventListener('input', autoResizeTextarea);
+
+  // ========================================================================
+  // Envio de Mensagem
+  // ========================================================================
+
+  async function sendMessage() {
+    const question = userInput.value.trim();
+
+    if (!question || isLoading) {
+      return;
+    }
+
+    // Limpa input
+    userInput.value = '';
+    autoResizeTextarea();
+
+    // Mostra pergunta do usuário
+    appendMessage('user', question);
+    scrollToBottom();
+
+    // Mostra indicador de digitação
+    const typing = appendTyping();
+
+    isLoading = true;
+    userInput.disabled = true;
+    sendBtn.disabled = true;
+
+    try {
+      // Faz chamada à API
+      const response = await fetch(`${API_BASE_URL}/chat`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ question }),
+      });
+
+      typing.remove();
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        const errorMsg = errorData.detail || 'Erro desconhecido';
+        appendMessage('error', `⚠️ Erro: ${errorMsg}`);
+        scrollToBottom();
+        return;
+      }
+
+      const data = await response.json();
+
+      // Salva referências e pergunta
+      lastQuestion = data.question;
+      lastRefs = data.chunks || [];
+      currentRefIdx = 0;
+
+      // Mostra resposta
+      if (data.out_of_scope) {
+        appendMessage('out-of-scope', data.answer);
+      } else {
+        appendMessage('agent', data.answer, lastRefs);
+      }
+
+      // Mostra o prompt final
+      showPromptMode('final', question, lastRefs);
+
+      scrollToBottom();
+
+    } catch (error) {
+      typing.remove();
+      console.error('Erro na requisição:', error);
+      appendMessage('error', `⚠️ Erro de conexão: ${error.message}`);
+      scrollToBottom();
+    } finally {
+      isLoading = false;
+      userInput.disabled = false;
+      sendBtn.disabled = false;
+      userInput.focus();
+    }
+  }
+
+  // ========================================================================
+  // Event Listeners
+  // ========================================================================
+
+  sendBtn.addEventListener('click', sendMessage);
+
+  userInput.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter' && !event.shiftKey) {
+      event.preventDefault();
+      sendMessage();
+    }
+  });
+
+  // Inicializa system message no painel esquerdo
+  const sysMsg = getSystemMessage();
+  promptContent.textContent = sysMsg;
+  lastSystemMessage = sysMsg;
+
+  // Focus inicial
+  userInput.focus();
+</script>
+
+</body>
+</html>
