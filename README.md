@@ -119,20 +119,25 @@ rag-ipardes-parana/
 │   ├── chunk.py                        # Pipeline de chunking: JSON → chunks section-aware com token counting e overlap
 │   ├── embed.py                        # Pipeline de embedding: chunks → vetores com modelo sentence-transformers (offline-first)
 │   ├── index.py                        # Pipeline de indexação: vetores → ChromaDB com recriação de coleção + inserção em lotes
-│   └── chat.py                         # Interface CLI interativa para o pipeline RAG (retrieval + reranking + LLM)
+│   ├── chat.py                         # Interface CLI interativa para o pipeline RAG (retrieval + reranking + LLM)
+│   └── server.py                       # Servidor FastAPI com endpoints HTTP para o frontend web
+│
+├── frontend/
+│   └── index.html                      # Interface web com 3 painéis (prompts, chat, referências)
 │
 ├── docker/
 │   ├── Dockerfile
 │   └── docker-compose.yml
 │
 ├── docs/
+│   ├── technical_documentation.md      # Documentação técnica completa (6 etapas + frontend)
+│   ├── FRONTEND_README.md              # Guia detalhado da interface web
+│   ├── QUICKSTART_FRONTEND.md          # Quick start do frontend (3 passos)
 │   ├── SETUP.md                        # Instalação e execução offline
 │   ├── ARCHITECTURE.md                 # Decisões arquiteturais
-│   ├── RAG_FLOW.md                     # Pipeline completo com diagramas
-│   ├── EVALUATION.md                   # Estratégia de métricas
 │   └── DECISIONS.md                    # Justificativas de cada escolha
 │
-├── README.md                           # Visão geral + execução rápida
+├── README.md                           # Este arquivo — visão geral + estrutura do projeto
 ├── requirements.txt                    # Dependências Python
 ├── pyproject.toml                      # Configuração do projeto
 ├── .env.example                        # Variáveis de ambiente
