@@ -21,10 +21,6 @@ class PDFSourceConfig:
     description: str
     skip_until_page: int = 0
 
-
-# ============================================================================
-# PDF Sources - Os 3 documentos oficiais do IPARDES
-# ============================================================================
 PDF_SOURCES = {
     "desenvolvimento_paranaense": PDFSourceConfig(
         url="https://www.ipardes.pr.gov.br/sites/ipardes/arquivos_restritos/files/documento/2023-09/desenvolvimento_paranaense.pdf",
@@ -45,7 +41,6 @@ PDF_SOURCES = {
         skip_until_page=4,
     ),
 }
-
 
 @dataclass
 class ContentFilterConfig:

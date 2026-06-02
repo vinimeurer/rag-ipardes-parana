@@ -32,7 +32,7 @@ class EmbeddingConfig:
     """
 
     paths: EmbeddingPaths = field(default_factory=EmbeddingPaths)
-    model_name: str = "BAAI/bge-m3" # "paraphrase-multilingual-mpnet-base-v2"
+    model_name: str = "BAAI/bge-m3"
     batch_size: int = 64
     normalize: bool = True
     device: str = "cpu"

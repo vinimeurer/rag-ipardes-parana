@@ -18,11 +18,6 @@ from ..core.logger import setup_logger
 from ..core.rag_config import RAGConfig
 from ..rag.rag_pipeline import RAGPipeline, RAGResponse
 
-# ============================================================================
-# Modelos de requisição/resposta
-# ============================================================================
-
-
 class ChunkData(BaseModel):
     """Representação de um chunk recuperado para o frontend."""
 
@@ -61,11 +56,6 @@ class ChatResponse(BaseModel):
     out_of_scope: bool
     chunks_before_rerank: Optional[list[ChunkData]] = None
 
-
-# ============================================================================
-# Inicialização da API
-# ============================================================================
-
 logger = setup_logger(__name__)
 
 app = FastAPI(
@@ -74,7 +64,6 @@ app = FastAPI(
     version="1.0.0",
 )
 
-# Carrega configuração e inicializa pipeline
 try:
     config = RAGConfig()
     pipeline = RAGPipeline(config)
@@ -82,12 +71,6 @@ try:
 except Exception as e:
     logger.error(f"Erro ao inicializar pipeline: {e}")
     pipeline = None
-
-
-# ============================================================================
-# Rotas
-# ============================================================================
-
 
 @app.get("/api/health")
 async def health() -> dict:
@@ -131,10 +114,8 @@ async def chat(request: ChatRequest) -> ChatResponse:
     try:
         logger.info(f"Processando query: {question}")
 
-        # Executa pipeline
         rag_response: RAGResponse = pipeline.query(question)
 
-        # Converte chunks para modelo de resposta
         chunks_data = [
             ChunkData(
                 chunk_id=chunk.chunk_id,
@@ -191,11 +172,6 @@ async def root() -> FileResponse:
         return {"message": "Frontend não encontrado. Acesse /api/health para verificar o status da API."}
     return FileResponse(frontend_path)
 
-
-# ============================================================================
-# Servir arquivos estáticos do frontend
-# ============================================================================
-
 frontend_path = Path(__file__).parent.parent.parent / "frontend"
 assets_path = frontend_path / "assets"
 if assets_path.exists():
@@ -204,11 +180,6 @@ if assets_path.exists():
         StaticFiles(directory=str(assets_path)),
         name="assets",
     )
-
-
-# ============================================================================
-# Configuração CORS (se necessário)
-# ============================================================================
 
 from fastapi.middleware.cors import CORSMiddleware
 
