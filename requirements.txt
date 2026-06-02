@@ -3,3 +3,6 @@ PyPDF2==3.0.1
 sentence-transformers==5.5.0
 chromadb==1.5.9
 ollama==0.6.2
+fastapi==0.136.3
+uvicorn==0.47.0
+pydantic==2.13.3
