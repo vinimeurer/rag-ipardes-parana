@@ -41,9 +41,9 @@ rag-ipardes-parana/
 │   ├── embeddings/                         # Chunks com vetores de embedding prontos para busca vetorial
 │   │   └── chunks_with_embeddings.jsonl    # Array de chunks com campo 'embedding' (lista de floats)
 │   │
-│   └── vector_db/                      # Índice persistente ChromaDB com coleções
-│       ├── chroma.sqlite3              # Banco de dados ChromaDB persistente
-│       └── {uuid}/                     # Coleção "chunks" com vetores indexados
+│   └── vector_db/                      # Índice persistente ChromaDB com coleções prontas para retrieval
+│       ├── chroma.sqlite3              # Banco de dados ChromaDB com coleção "chunks" indexada
+│       └── {uuid}/                     # Coleção "chunks" com vetores para similarity search
 │
 ├── src/
 │   ├── core/
@@ -55,6 +55,7 @@ rag-ipardes-parana/
 │   │   ├── chunking_config.py           # Configuração centralizada do pipeline de chunking
 │   │   ├── embedding_config.py          # Configuração centralizada do pipeline de embedding
 │   │   ├── indexing_config.py           # Configuração centralizada do pipeline de indexação (ChromaDB)
+│   │   ├── rag_config.py                # Configuração centralizada do pipeline RAG (RetrieverConfig, RerankerConfig, LLMConfig)
 │   │   ├── logger.py                    # Sistema de logging centralizado com suporte a arquivo + timestamp
 │   │   └── __init__.py
 │   │
@@ -93,67 +94,22 @@ rag-ipardes-parana/
 │   │   ├── indexer.py                  # Orquestrador: recria coleção + insere embeddings em lotes
 │   │   └── __init__.py
 │   │
-│   ├── vectorization/
-│   │   ├── chunker.py                  # Estratégias de chunking
-│   │   ├── embedding_model.py          # Carregamento e cache de embeddings
-│   │   ├── vector_store.py             # FAISS/Qdrant persistência
+│   ├── rag/                            # Pipeline completo de Retrieval-Augmented Generation
+│   │   ├── rag_pipeline.py             # Orquestrador: retrieval → reranking → prompt building → geração
+│   │   ├── retriever.py                # ChromaDB retrieval com SentenceTransformer + threshold de similaridade
+│   │   ├── reranker.py                 # Cross-encoder reranking (bge-reranker-v2-m3 para português)
+│   │   ├── prompt_builder.py           # Construção de prompts com trechos e formatação de fontes
+│   │   ├── llm_client.py               # Cliente Ollama para LLM local (sem APIs externas)
 │   │   └── __init__.py
 │   │
-│   ├── retrieval/
-│   │   ├── retriever.py                # Similarity search + MMR
-│   │   ├── reranker.py                 # Cross-encoder ranking
-│   │   └── __init__.py
-│   │
-│   ├── prompting/
-│   │   ├── prompt_builder.py           # Construção do prompt final
-│   │   ├── citation_handler.py         # Formatação de citações
-│   │   └── __init__.py
-│   │
-│   ├── llm/
-│   │   ├── client.py                   # Interface com ollama/llama.cpp
-│   │   ├── generation.py               # Geração com controle de parâmetros
-│   │   └── __init__.py
-│   │
-│   ├── api/
-│   │   ├── main.py                     # FastAPI init + middleware
-│   │   ├── routes/
-│   │   │   ├── chat.py                 # POST /chat
-│   │   │   ├── debug.py                # GET /debug-retrieval
-│   │   │   └── health.py               # GET /health
-│   │   ├── schemas/
-│   │   │   ├── request.py              # Pydantic models de entrada
-│   │   │   └── response.py             # Pydantic models de saída
-│   │   └── __init__.py
-│   │
-│   ├── evaluation/
-│   │   ├── retrieval_metrics.py        # Precision, recall, NDCG
-│   │   ├── grounding_check.py          # Validação de correspondência
-│   │   ├── hallucination_detector.py   # Detecção de alucinações
-│   │   └── __init__.py
-│   │
-│   ├── pipeline.py                     # Orquestração completa (RAG)
 │   └── __init__.py
-│
-├── outputs/
-│   ├── prompts/                        # Prompt final de cada query
-│   │   └── query_YYYYMMDD_HHMMSS.json
-│   │
-│   ├── retrieval_logs/                 # Chunks recuperados + scores
-│   │   └── query_YYYYMMDD_HHMMSS.json
-│   │
-│   ├── responses/                      # Resposta final da LLM
-│   │   └── query_YYYYMMDD_HHMMSS.json
-│   │
-│   └── evaluations/                    # Resultados de métricas
-│       ├── session_YYYYMMDD_HHMMSS.json
-│       └── benchmark_report.md
 │
 ├── models/
 │   ├── embeddings/
-│   │   └── multilingual-e5-large/      # Cache local do modelo
+│   │   └── models--BAAI--bge-m3/      # Cache local do modelo
 │   │
-│   └── llm/
-│       └── mistral-7b-instruct-q4.gguf  # Quantizado para rodar local
+│   └── rerankers/
+│       └── models--BAAI--bge-reranker-v2-m3/  # Cache local do modelo
 │
 ├── logs/                               # Logs de execução estruturados
 │
@@ -162,7 +118,8 @@ rag-ipardes-parana/
 │   ├── preprocess.py                   # Pipeline de pré-processamento: markdown → JSON processado em data/processed
 │   ├── chunk.py                        # Pipeline de chunking: JSON → chunks section-aware com token counting e overlap
 │   ├── embed.py                        # Pipeline de embedding: chunks → vetores com modelo sentence-transformers (offline-first)
-│   └── index.py                        # Pipeline de indexação: vetores → ChromaDB com recriação de coleção + inserção em lotes
+│   ├── index.py                        # Pipeline de indexação: vetores → ChromaDB com recriação de coleção + inserção em lotes
+│   └── chat.py                         # Interface CLI interativa para o pipeline RAG (retrieval + reranking + LLM)
 │
 ├── docker/
 │   ├── Dockerfile
