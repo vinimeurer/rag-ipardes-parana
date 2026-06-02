@@ -2,7 +2,7 @@
 Recuperação de chunks relevantes a partir do banco vetorial ChromaDB.
 """
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 
 import chromadb
@@ -24,8 +24,9 @@ class RetrievedChunk:
         type: Tipo do conteúdo ('text' ou 'table').
         content: Texto do chunk.
         caption: Legenda da tabela, quando aplicável.
-        similarity: Pontuação de similaridade (1 - distância cosseno).
-            Valores próximos a 1 indicam alta relevância.
+        similarity: Pontuação de similaridade cosseno do retriever inicial.
+        rerank_score: Score do cross-encoder após reranking.
+            None se o reranker não foi aplicado.
     """
 
     chunk_id: str
@@ -36,6 +37,7 @@ class RetrievedChunk:
     content: str
     caption: str | None
     similarity: float
+    rerank_score: float | None = field(default=None)
 
 
 class Retriever:
