@@ -2,6 +2,7 @@
 """
 
 import pytest
+import numpy as np
 from unittest.mock import patch, MagicMock
 from pathlib import Path
 import tempfile
@@ -58,14 +59,15 @@ class TestTextEncoder:
 
         mock_instance = MagicMock()
         mock_instance.get_sentence_embedding_dimension.return_value = 768
-        mock_instance.encode.return_value = [[0.1] * 768]
+        mock_instance.encode.return_value = np.array([[0.1] * 768])
         mock_transformer.return_value = mock_instance
         
-        encoder = TextEncoder(
-            model_name="test",
-            model_local_path=Path("/fake"),
-            models_dir=Path("/fake")
-        )
+        with tempfile.TemporaryDirectory() as tmpdir:
+            encoder = TextEncoder(
+                model_name="test",
+                model_local_path=Path(tmpdir),
+                models_dir=Path(tmpdir)
+            )
         
         result = encoder.encode_single("test text")
         
@@ -76,14 +78,15 @@ class TestTextEncoder:
 
         mock_instance = MagicMock()
         mock_instance.get_sentence_embedding_dimension.return_value = 768
-        mock_instance.encode.return_value = [[0.1] * 768, [0.2] * 768]
+        mock_instance.encode.return_value = np.array([[0.1] * 768, [0.2] * 768])
         mock_transformer.return_value = mock_instance
         
-        encoder = TextEncoder(
-            model_name="test",
-            model_local_path=Path("/fake"),
-            models_dir=Path("/fake")
-        )
+        with tempfile.TemporaryDirectory() as tmpdir:
+            encoder = TextEncoder(
+                model_name="test",
+                model_local_path=Path(tmpdir),
+                models_dir=Path(tmpdir)
+            )
         
         result = encoder.encode(["text1", "text2"])
         
@@ -94,14 +97,15 @@ class TestTextEncoder:
 
         mock_instance = MagicMock()
         mock_instance.get_sentence_embedding_dimension.return_value = 768
-        mock_instance.encode.return_value = [[0.1] * 768]
+        mock_instance.encode.return_value = np.array([[0.1] * 768])
         mock_transformer.return_value = mock_instance
-        
-        encoder = TextEncoder(
-            model_name="test",
-            model_local_path=Path("/fake"),
-            models_dir=Path("/fake")
-        )
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            encoder = TextEncoder(
+                model_name="test",
+                model_local_path=Path(tmpdir),
+                models_dir=Path(tmpdir)
+            )
         
         encoder.encode(["text"], batch_size=32)
         
@@ -112,15 +116,16 @@ class TestTextEncoder:
 
         mock_instance = MagicMock()
         mock_instance.get_sentence_embedding_dimension.return_value = 768
-        mock_instance.encode.return_value = [[0.1] * 768]
+        mock_instance.encode.return_value = np.array([[0.1] * 768])
         mock_transformer.return_value = mock_instance
         
-        encoder = TextEncoder(
-            model_name="test",
-            model_local_path=Path("/fake"),
-            models_dir=Path("/fake"),
-            normalize=True
-        )
+        with tempfile.TemporaryDirectory() as tmpdir:
+            encoder = TextEncoder(
+                model_name="test",
+                model_local_path=Path(tmpdir),
+                models_dir=Path(tmpdir),
+                normalize=True
+            )
         
         encoder.encode(["text"])
         
@@ -152,11 +157,12 @@ class TestTextEncoder:
         mock_instance.get_sentence_embedding_dimension.return_value = 1024
         mock_transformer.return_value = mock_instance
         
-        encoder = TextEncoder(
-            model_name="test",
-            model_local_path=Path("/fake"),
-            models_dir=Path("/fake")
-        )
+        with tempfile.TemporaryDirectory() as tmpdir:
+            encoder = TextEncoder(
+                model_name="test",
+                model_local_path=Path(tmpdir),
+                models_dir=Path(tmpdir)
+            )
         
         assert encoder.embedding_dim == 1024
 
@@ -164,14 +170,15 @@ class TestTextEncoder:
 
         mock_instance = MagicMock()
         mock_instance.get_sentence_embedding_dimension.return_value = 768
-        mock_instance.encode.return_value = []
+        mock_instance.encode.return_value = np.array([])
         mock_transformer.return_value = mock_instance
         
-        encoder = TextEncoder(
-            model_name="test",
-            model_local_path=Path("/fake"),
-            models_dir=Path("/fake")
-        )
+        with tempfile.TemporaryDirectory() as tmpdir:
+            encoder = TextEncoder(
+                model_name="test",
+                model_local_path=Path(tmpdir),
+                models_dir=Path(tmpdir)
+            )
         
         result = encoder.encode([])
         
@@ -183,11 +190,12 @@ class TestTextEncoder:
         mock_instance.get_sentence_embedding_dimension.return_value = 768
         mock_transformer.return_value = mock_instance
         
-        model_name = "bert-large-portuguese"
-        encoder = TextEncoder(
-            model_name=model_name,
-            model_local_path=Path("/fake"),
-            models_dir=Path("/fake")
-        )
+        with tempfile.TemporaryDirectory() as tmpdir:
+            model_name = "bert-large-portuguese"
+            encoder = TextEncoder(
+                model_name=model_name,
+                model_local_path=Path(tmpdir),
+                models_dir=Path(tmpdir)
+            )
         
         assert encoder.model_name == model_name
