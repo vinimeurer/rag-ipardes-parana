@@ -1,111 +1,111 @@
-"""
-"""
-
 import pytest
-from unittest.mock import patch, MagicMock
-
-from src.preprocessing.content_processor import get_processing_strategy, SectionDetectionStrategy
-from src.preprocessing.section_parser import SectionParser
-from src.preprocessing.text_cleaner import TextCleaner
+from src.preprocessing.content_processor import (
+    SectionDetectionStrategy,
+    PageFallbackStrategy,
+    get_processing_strategy,
+)
 from src.core.preprocessing_config import CleaningConfig
 
 
 class TestContentProcessingStrategy:
-    """
-    """
 
     def test_section_detection_strategy_initialization(self):
-
         strategy = SectionDetectionStrategy()
-        
-        assert strategy is not None
+        assert strategy.cleaner is not None
 
-    def test_section_detection_strategy_process(self):
-
+    def test_section_detection_empty_input(self):
         strategy = SectionDetectionStrategy()
-        
+
+        result = strategy.process("doc", [])
+        assert result == []
+
+    def test_section_detection_basic_flow(self):
+        strategy = SectionDetectionStrategy()
+
         pages_data = [
             {
                 "page_number": 1,
-                "text": "# Section\nContent here"
+                "text": "# Title\nSome content here"
             }
         ]
-        result = strategy.process("test_doc", pages_data)
-        
+
+        result = strategy.process("doc", pages_data)
+
         assert isinstance(result, list)
+        assert len(result) >= 1
 
-    def test_section_detection_strategy_empty_pages(self):
+        item = result[0]
+        assert item["document"] == "doc"
+        assert item["page"] == 1
+        assert item["type"] == "text"
+        assert "content" in item
+        assert "sections" in item
 
+    def test_section_detection_multiple_lines(self):
         strategy = SectionDetectionStrategy()
-        
-        result = strategy.process("test_doc", [])
-        
-        assert isinstance(result, list)
 
-    def test_section_detection_strategy_with_headers(self):
-
-        strategy = SectionDetectionStrategy()
-        
         pages_data = [
             {
                 "page_number": 1,
-                "text": "# Section\nContent here"
+                "text": "# A\nline1\nline2\n## B\nline3"
             }
         ]
-        result = strategy.process("test_doc", pages_data)
-        
-        assert isinstance(result, list)
 
-    def test_section_detection_multiple_sections(self):
+        result = strategy.process("doc", pages_data)
 
+        assert len(result) >= 1
+
+        assert all("content" in r for r in result)
+
+    def test_section_detection_ignores_empty_text(self):
         strategy = SectionDetectionStrategy()
-        
+
+        pages_data = [
+            {"page_number": 1, "text": "   \n   "}
+        ]
+
+        result = strategy.process("doc", pages_data)
+
+        assert result == []
+
+
+class TestPageFallbackStrategy:
+
+    def test_fallback_strategy_basic(self):
+        strategy = PageFallbackStrategy()
+
         pages_data = [
             {
-                "page_number": 1,
-                "text": "# Section\nContent here"
+                "page_number": 2,
+                "text": "Simple content"
             }
         ]
-        result = strategy.process("test_doc", pages_data)
-        
-        assert len(result) > 0
 
-    def test_section_detection_preserves_content(self):
+        result = strategy.process("doc", pages_data)
 
-        strategy = SectionDetectionStrategy()
-        
-        pages_data = [
-            {
-                "page_number": 1,
-                "text": "# Section\nContent here"
-            }
-        ]
-        result = strategy.process("test_doc", pages_data)
-        
-        assert len(result) > 0
+        assert len(result) == 1
+        assert result[0]["sections"] == ["pagina_2"]
+        assert result[0]["type"] == "text"
+
+    def test_fallback_strategy_empty_input(self):
+        strategy = PageFallbackStrategy()
+
+        assert strategy.process("doc", []) == []
 
 
 class TestGetProcessingStrategy:
-    """
-    """
 
-    def test_get_processing_strategy_returns_strategy(self):
+    def test_returns_section_strategy_default(self):
+        strategy = get_processing_strategy("any_doc")
 
-        text_cleaner = TextCleaner(CleaningConfig())
-        strategy = get_processing_strategy("test_doc")
-        
-        assert strategy is not None
+        assert isinstance(strategy, SectionDetectionStrategy)
 
-    def test_get_processing_strategy_callable(self):
+    def test_returns_fallback_for_specific_doc(self):
+        strategy = get_processing_strategy("analise_conjuntural")
 
-        text_cleaner = TextCleaner(CleaningConfig())
-        strategy = get_processing_strategy("test_doc")
-        
-        assert hasattr(strategy, 'process')
+        assert isinstance(strategy, PageFallbackStrategy)
 
-    def test_get_processing_strategy_returns_section_detection(self):
+    def test_strategy_has_process_method(self):
+        strategy = get_processing_strategy("doc")
 
-        text_cleaner = TextCleaner(CleaningConfig())
-        strategy = get_processing_strategy("test_doc")
-        
-        assert isinstance(strategy, SectionDetectionStrategy) or strategy is not None
+        assert callable(strategy.process)
