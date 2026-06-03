@@ -4,7 +4,6 @@ Módulo core do projeto RAG IPARDES Paraná.
 Centraliza todas as configurações e utilitários do projeto.
 """
 
-# Import configuration modules
 from .directory_config import (
     PROJECT_ROOT,
     DATA_DIR,
@@ -68,7 +67,6 @@ from .logging_config import (
 from .logger import setup_logger
 
 __all__ = [
-    # Directory Configuration
     "PROJECT_ROOT",
     "DATA_DIR",
     "MODELS_DIR",
@@ -87,29 +85,22 @@ __all__ = [
     "RESPONSES_OUTPUT_DIR",
     "EVALUATIONS_OUTPUT_DIR",
     "create_directories",
-    # PDF Configuration
     "PDF_SOURCES",
     "PDFSourceConfig",
     "ContentFilterConfig",
-    # Chunking Configuration
     "ChunkingConfig",
     "ChunkingPaths",
-    # Embedding Configuration
     "EmbeddingConfig",
     "EmbeddingPaths",
-    # Indexing Configuration
     "IndexingConfig",
     "IndexingPaths",
-    # Ingestion Configuration
     "IngestionPipelineConfig",
     "ExtractionOutputConfig",
     "DoclingBackendConfig",
-    # Preprocessing Configuration
     "PreprocessingConfig",
     "PreprocessingPaths",
     "CleaningConfig",
     "TableProcessingConfig",
-    # Logging Configuration
     "LOG_LEVEL",
     "LOG_FORMAT",
     "setup_logger",]

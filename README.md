@@ -1,150 +1,178 @@
-# Estrutura do Projeto
+# RAG IPARDES Paraná
+
+## Sumário
+
+- [Visão Geral](#visão-geral)
+- [Estrutura do projeto](#estrutura-do-projeto)
+- [Como Executar](#como-executar)
+   - [Configuração do Ambiente](#1-configuração-do-ambiente)
+   - [Construir o banco de dados (opcional)](#2-construir-o-banco-de-dados-opcional)
+   - [Iniciar o servidor RAG](#3-iniciar-o-servidor-rag)
+
+
+## Visão Geral
+
+Pipeline completo de Retrieval-Augmented Generation (RAG) sobre documentos oficiais publicados pelo governo do Estado do Paraná. O sistema responde perguntas em linguagem natural citando trechos e fontes dos documentos indexados, ou informa quando o assunto não está coberto pelo material disponível.
+
+Todo o pipeline foi projetado para execução **100% offline**, sem dependência de APIs externas ou serviços de LLM na internet, utilizando exclusivamente ferramentas de código aberto.
+
+## Estrutura do projeto
 
 ```
 rag-ipardes-parana/
-│
 ├── data/
-│   ├── raw/                            # PDFs originais (descartáveis)
-│   │   ├── desenvolvimento_paranaense.pdf
-│   │   ├── analise_conjuntural.pdf
-│   │   └── avaliacoes_politicas.pdf
-│   │
-│   ├── extracted/                                   # Artefatos de extração por documento (texto, markdown, tabelas)
-│   │   ├── desenvolvimento_paranaense/
-│   │   │   ├── desenvolvimento_paranaense.txt       # Texto plano limpo sem tabelas
-│   │   │   ├── desenvolvimento_paranaense.md        # Markdown com estrutura hierárquica
-│   │   │   ├── desenvolvimento_paranaense.json      # Metadados + páginas
-│   │   │   └── tables/                              # Tabelas extraídas com semântica matricial
-│   │   │       ├── tables_index.json                # Índice de todas as tabelas
-│   │   │       ├── table_000.md                     # Cada tabela em Markdown para embedding
-│   │   │       ├── table_000.json                   # Cada tabela em JSON estruturado
-│   │   │       └── ... (table_001, table_002, etc)
-│   │   ├── analise_conjuntural/
-│   │   │   ├── analise_conjuntural.txt
-│   │   │   ├── analise_conjuntural.md
-│   │   │   ├── analise_conjuntural.json
-│   │   │   └── tables/
-│   │   └── avaliacoes_politicas/
-│   │       ├── avaliacoes_politicas.txt
-│   │       ├── avaliacoes_politicas.md
-│   │       ├── avaliacoes_politicas.json
-│   │       └── tables/
-│   │
-│   ├── processed/                      # Texto após limpeza/normalização (JSON)
-│   │   ├── desenvolvimento_paranaense.json
-│   │   ├── analise_conjuntural.json
-│   │   └── avaliacoes_politicas.json
-│   │
-│   ├── chunks/                         # Chunks section-aware prontos para indexação vetorial (JSONL)
-│   │   └── chunks.jsonl                # Array de objetos Chunk (chunk_id, document, page, sections, type, content, token_count)
-│   │
-│   ├── embeddings/                         # Chunks com vetores de embedding prontos para busca vetorial
-│   │   └── chunks_with_embeddings.jsonl    # Array de chunks com campo 'embedding' (lista de floats)
-│   │
-│   └── vector_db/                      # Índice persistente ChromaDB com coleções prontas para retrieval
-│       ├── chroma.sqlite3              # Banco de dados ChromaDB com coleção "chunks" indexada
-│       └── {uuid}/                     # Coleção "chunks" com vetores para similarity search
+│   ├── raw/                        # PDFs originais
+│   ├── extracted/                  # Artefatos de extração (markdown, tabelas)
+│   ├── processed/                  # JSON processado e estruturado por documento
+│   ├── chunks/                     # Chunks section-aware prontos para indexação
+│   ├── embeddings/                 # Chunks com vetores de embedding
+│   └── vector_db/                  # Índice vetorial persistido (ChromaDB)
+│
+├── docs/                           # Artefatos de documentação técnica
+│
+├── frontend/                       # Código da interface web (HTML/CSS/JS)
+│
+├── logs/                           # (Não Versionado) Logs estruturados por execução
+│
+├── models/                         # (Não Versionado) Cache local dos modelos de embedding e reranking
+│
+├── scripts/                        # Scripts de execução de cada etapa
 │
 ├── src/
-│   ├── core/
-│   │   ├── directory_config.py          # Centralização de paths: PROJECT_ROOT, DATA_DIR, MODELS_DIR, LOGS_DIR, outputs
-│   │   ├── pdf_config.py                # Configuração de PDFs: PDFSourceConfig, PDF_SOURCES com URLs e skip_until_page
-│   │   ├── logging_config.py            # Configuração centralizada: LOG_LEVEL, LOG_FORMAT
-│   │   ├── ingestion_config.py          # Configuração centralizada do pipeline de ingestão (Docling backend)
-│   │   ├── preprocessing_config.py      # Configuração centralizada do pipeline de preprocessamento
-│   │   ├── chunking_config.py           # Configuração centralizada do pipeline de chunking
-│   │   ├── embedding_config.py          # Configuração centralizada do pipeline de embedding
-│   │   ├── indexing_config.py           # Configuração centralizada do pipeline de indexação (ChromaDB)
-│   │   ├── rag_config.py                # Configuração centralizada do pipeline RAG (RetrieverConfig, RerankerConfig, LLMConfig)
-│   │   ├── logger.py                    # Sistema de logging centralizado com suporte a arquivo + timestamp
-│   │   └── __init__.py
-│   │
-│   ├── ingestion/                       # Pipeline de extração de PDFs com Docling + tratamento de tabelas
-│   │   ├── ingestion_pipeline.py        # Orquestrador: executa extração + serialização para cada PDF
-│   │   ├── pdf_extractor.py             # Extrator CPU-only usando Docling (sem GPU, sem APIs externas)
-│   │   ├── pdf_splitter.py              # Divisão de PDFs em batches para processamento memory-efficient (evita bad_alloc)
-│   │   ├── table_extractor.py           # Extração dedicada de tabelas em formato matricial e Markdown
-│   │   ├── serializer.py                # Persiste artefatos em múltiplos formatos (txt, md, json + tables/)
-│   │   └── __init__.py
-│   │
-│   ├── preprocessing/                   # Limpeza, normalização e processamento de conteúdo extraído
-│   │   ├── preprocessor.py              # Orquestrador: converte markdown extraído → JSON processado
-│   │   ├── text_cleaner.py              # Limpeza Unicode, remoção de artefatos, normalização de espaços
-│   │   ├── section_parser.py            # Detector de hierarquia de seções via prefixo numérico (ex: 3.1.2)
-│   │   ├── page_parser.py               # Parser de páginas delimitadas por tags <!-- PAGE: X -->
-│   │   ├── content_processor.py         # Estratégias de processamento: detecção de seções vs fallback por página
-│   │   ├── content_filter.py            # Filtros progressivos: headers-only, institucionais, sumários, refs
-│   │   ├── content_merger.py            # Mescla e ordenação de itens de texto e tabelas por página
-│   │   ├── table_processor.py           # Processamento de tabelas: carregamento, limpeza, serialização
-│   │   ├── preprocessor_utils.py        # Utilitários: build_metadata, logging de resumos, ProcessResult
-│   │   └── __init__.py
-│   │
-│   ├── chunking/                       # Divisão section-aware de conteúdo em chunks para indexação
-│   │   ├── chunker.py                  # Orquestrador: gera chunks a partir de itens processados com preservação de seções
-│   │   ├── text_splitter.py            # Recursive character splitting com overlap configurável
-│   │   ├── chunk_dataclass.py          # Estrutura de dados Chunk com metadados de rastreabilidade
-│   │   └── __init__.py
-│   │
-│   ├── embedding/                      # Geração de embeddings vetoriais para indexação
-│   │   ├── embedder.py                 # Orquestrador: carrega chunks + gera embeddings em lotes + salva JSONL
-│   │   ├── text_encoder.py             # TextEncoder com sentence-transformers (cache local + offline)
-│   │   └── __init__.py
-│   │
-│   ├── indexing/                       # Indexação vetorial em banco persistente ChromaDB
-│   │   ├── indexer.py                  # Orquestrador: recria coleção + insere embeddings em lotes
-│   │   └── __init__.py
-│   │
-│   ├── rag/                            # Pipeline completo de Retrieval-Augmented Generation
-│   │   ├── rag_pipeline.py             # Orquestrador: retrieval → reranking → prompt building → geração
-│   │   ├── retriever.py                # ChromaDB retrieval com SentenceTransformer + threshold de similaridade
-│   │   ├── reranker.py                 # Cross-encoder reranking (bge-reranker-v2-m3 para português)
-│   │   ├── prompt_builder.py           # Construção de prompts com trechos e formatação de fontes
-│   │   ├── llm_client.py               # Cliente Ollama para LLM local (sem APIs externas)
-│   │   └── __init__.py
-│   │
-│   └── __init__.py
+│   ├── core/                       # Módulos de configurações e utilitários do projeto
+│   ├── ingestion/                  # Módulos de Extração de PDFs com Docling
+│   ├── preprocessing/              # Módulos de Limpeza, estruturação e filtragem
+│   ├── chunking/                   # Módulos de Divisão section-aware em chunks
+│   ├── embedding/                  # Módulos de Geração de vetores com sentence-transformers
+│   └── indexing/                   # Módulos de Construção do índice ChromaDB
 │
-├── models/
-│   ├── embeddings/
-│   │   └── models--BAAI--bge-m3/      # Cache local do modelo
-│   │
-│   └── rerankers/
-│       └── models--BAAI--bge-reranker-v2-m3/  # Cache local do modelo
-│
-├── logs/                               # Logs de execução estruturados
-│
-├── scripts/
-│   ├── ingest.py                       # Pipeline de ingestão: PDF → Docling → extração + serialização em data/extracted
-│   ├── preprocess.py                   # Pipeline de pré-processamento: markdown → JSON processado em data/processed
-│   ├── chunk.py                        # Pipeline de chunking: JSON → chunks section-aware com token counting e overlap
-│   ├── embed.py                        # Pipeline de embedding: chunks → vetores com modelo sentence-transformers (offline-first)
-│   ├── index.py                        # Pipeline de indexação: vetores → ChromaDB com recriação de coleção + inserção em lotes
-│   ├── chat.py                         # Interface CLI interativa para o pipeline RAG (retrieval + reranking + LLM)
-│   └── server.py                       # Servidor FastAPI com endpoints HTTP para o frontend web
-│
-├── frontend/
-│   └── index.html                      # Interface web com 3 painéis (prompts, chat, referências)
-│
-├── docker/
-│   ├── Dockerfile
-│   └── docker-compose.yml
-│
-├── docs/
-│   ├── technical_documentation.md      # Documentação técnica completa (6 etapas + frontend)
-│   ├── FRONTEND_README.md              # Guia detalhado da interface web
-│   ├── QUICKSTART_FRONTEND.md          # Quick start do frontend (3 passos)
-│   ├── SETUP.md                        # Instalação e execução offline
-│   ├── ARCHITECTURE.md                 # Decisões arquiteturais
-│   └── DECISIONS.md                    # Justificativas de cada escolha
-│
-├── README.md                           # Este arquivo — visão geral + estrutura do projeto
-├── requirements.txt                    # Dependências Python
-├── pyproject.toml                      # Configuração do projeto
-├── .env.example                        # Variáveis de ambiente
-├── Makefile                            # Comandos utilitários
-├── .gitignore
-└── .gitkeep                            # Placeholder para pastas vazias
+├── README.md                       # Documentação principal do projeto
+├── build_database.py               # Script orquestrador para construção do banco de dados
+├── run_rag.py                      # Script para iniciar o servidor RAG
+└── requirements.txt                # Dependências do projeto
 ```
+
+
+
+
+
+## Como Executar
+
+### 1. Configuração do Ambiente
+
+1. **Clone o repositório:**
+   ```sh
+   git clone <url-do-repositorio>
+   ```
+
+2. **Entre no diretório:**
+   ```sh
+   cd rag-ipardes-parana
+   ```
+
+3. **Criação do ambiente virtual:**
+   ```sh
+   python3 -m venv .venv
+   ```
+
+4. **Ative o ambiente virtual:**
+   - Linux/macOS:
+     ```sh
+     source .venv/bin/activate
+     ```
+   - Windows:
+     ```sh
+     .venv\Scripts\activate
+     ```
+
+5. **Instalação das dependências:**
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+### 2. Construir o banco de dados (opcional)
+
+Os dados já estão pré-processados e indexados no repositório, mas se quiser reconstruir o banco de dados do zero (por exemplo, para atualizar os documentos ou testar o pipeline), execute:
+
+```bash
+python build_database.py
+```
+
+Este script executa automaticamente todo o pipeline:
+- Extração de PDFs (Docling)
+- Pré-processamento (limpeza e estruturação)
+- Chunking (divisão section-aware)
+- Embedding (geração de vetores)
+- Indexação vetorial (ChromaDB)
+
+
+### 3. Iniciar o servidor RAG
+
+Para iniciar o servidor web, é necessário que o Ollama esteja rodando. Para certificar-se disso, abra um terminal separado e execute:
+
+```bash
+ollama serve
+```
+
+Caso retorne uma mensagem semelhante a `address already in use`, significa que o serviço já está ativo e você pode prosseguir para iniciar o servidor RAG. Em outro terminal, execute:
+
+```bash
+python run_rag.py
+```
+
+Após a inicialização, o terminal exibirá mensagens de log indicando que o servidor está rodando e pronto para receber requisições. Para acessar a interface web, abra o navegador e navegue até: **http://localhost:8000**
+
+Também é possível acessar o endpoint de health check para verificar se a API está ativa: **http://localhost:8000/api/health**
+
+**Requisitos:**
+- Ollama rodando em localhost:11434 (`ollama serve`)
+- ChromaDB indexado (execute `python build_database.py` antes)
+
+**Verificações automáticas:**
+- Verifica se Ollama está rodando
+- Alerta se ChromaDB ainda não foi criado
+- Oferece instruções de próximos passos
+
+
+## Scripts Individuais em `scripts/`
+
+Para mais controle granular, Também  é possível executar cada etapa separadamente:
+
+```bash
+# Etapa 1: Extração
+python scripts/ingest.py
+
+# Etapa 2: Pré-processamento
+python scripts/preprocess.py
+
+# Etapa 3: Chunking
+python scripts/chunk.py
+
+# Etapa 4: Embedding
+python scripts/embed.py
+
+# Etapa 5: Indexação
+python scripts/index.py
+
+# Interface CLI
+python scripts/chat.py
+
+# Servidor (alternativa a run_rag.py)
+python scripts/server.py
+```
+
+Cada script gera um log com timestamp em `logs/`.
+
+---
+
+## 📖 Documentação Completa
+
+- **`docs/technical_documentation.md`** — Documentação técnica detalhada (7 etapas + frontend)
+- **`docs/FRONTEND_README.md`** — Guia completo da interface web
+- **`docs/QUICKSTART_FRONTEND.md`** — Quick start rápido (3 passos)
+- **`docs/ARCHITECTURE.md`** — Decisões arquiteturais
+- **`docs/DECISIONS.md`** — Justificativas de escolhas técnicas
+
 
 ## limpar cache
 

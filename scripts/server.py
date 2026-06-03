@@ -10,7 +10,6 @@ O servidor estará disponível em: http://localhost:8000
 import sys
 from pathlib import Path
 
-# Adiciona o diretório raiz ao path para importações
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 import uvicorn
