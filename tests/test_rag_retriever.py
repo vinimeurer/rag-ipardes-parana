@@ -143,7 +143,7 @@ class TestRetriever:
         
         mock_collection.query.return_value = {
             "ids": [["chunk1", "chunk2"]],
-            "metadatas": [
+            "metadatas": [[
                 {
                     "document": "doc1",
                     "page": 1,
@@ -158,7 +158,7 @@ class TestRetriever:
                     "type": "text",
                     "caption": None
                 }
-            ],
+            ]],
             "documents": [["content1", "content2"]],
             "distances": [[0.1, 0.8]]
         }
@@ -183,13 +183,15 @@ class TestRetriever:
         
         mock_collection.query.return_value = {
             "ids": [["chunk1"]],
-            "metadatas": [{
-                "document": "doc1",
-                "page": 1,
-                "sections": "intro",
-                "type": "text",
-                "caption": None
-            }],
+            "metadatas": [[
+                {
+                    "document": "doc1",
+                    "page": 1,
+                    "sections": "intro",
+                    "type": "text",
+                    "caption": None
+                }
+            ]],
             "documents": [["content1"]],
             "distances": [[0.1]]
         }
@@ -240,13 +242,15 @@ class TestRetriever:
         
         mock_collection.query.return_value = {
             "ids": [["chunk1"]],
-            "metadatas": [{
-                "document": "desenvolvimento_paranaense",
-                "page": 42,
-                "sections": "Introduction > Background",
-                "type": "text",
-                "caption": None
-            }],
+            "metadatas": [[
+                {
+                    "document": "doc1",
+                    "page": 1,
+                    "sections": "intro",
+                    "type": "text",
+                    "caption": None
+                }
+            ]],
             "documents": [["some content"]],
             "distances": [[0.1]]
         }
@@ -257,8 +261,8 @@ class TestRetriever:
         
         if len(result) > 0:
             chunk = result[0]
-            assert chunk.document == "desenvolvimento_paranaense"
-            assert chunk.page == 42
+            assert chunk.document == "doc1"
+            assert chunk.page == 1
             assert len(chunk.sections) > 0
 
     def test_retrieve_similarity_score_calculation(self, mock_encoder, mock_chroma_client):
@@ -274,13 +278,15 @@ class TestRetriever:
         
         mock_collection.query.return_value = {
             "ids": [["chunk1"]],
-            "metadatas": [{
-                "document": "doc1",
-                "page": 1,
-                "sections": "",
-                "type": "text",
-                "caption": None
-            }],
+            "metadatas": [[
+                {
+                    "document": "doc1",
+                    "page": 1,
+                    "sections": "intro",
+                    "type": "text",
+                    "caption": None
+                }
+            ]],
             "documents": [["content"]],
             "distances": [[0.2]]
         }
