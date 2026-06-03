@@ -55,8 +55,9 @@ class TestPageParser:
         content = "Just plain text without any page delimiters"
         result = PageParser.parse_pages(content)
         
-        assert len(result) >= 1
-        assert isinstance(result[0], str)
+        assert len(result) == 1
+        assert result[0]["page_number"] == 0
+        assert result[0]["text"] == content
 
     def test_page_parser_unicode_content(self):
 

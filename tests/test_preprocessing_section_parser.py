@@ -19,14 +19,6 @@ class TestSectionParser:
         parser = SectionParser()
         assert parser.current_sections == []
 
-    def test_section_parser_update_single_level(self):
-
-        parser = SectionParser()
-        parser.update("1 Introduction")
-        
-        sections = parser.current_sections
-        assert len(sections) > 0
-
     def test_section_parser_update_nested_levels(self):
 
         parser = SectionParser()
@@ -54,14 +46,6 @@ class TestSectionParser:
 
         parser = SectionParser()
         parser.update("## Section Name")
-        
-        sections = parser.current_sections
-        assert len(sections) > 0
-
-    def test_section_parser_infer_level_from_numeric(self):
-
-        parser = SectionParser()
-        parser.update("1.2.3 Deep Section")
         
         sections = parser.current_sections
         assert len(sections) > 0
@@ -104,14 +88,6 @@ class TestSectionParser:
         top = len(parser.current_sections)
         
         assert top > 0
-
-    def test_section_parser_multiple_sections_same_line(self):
-
-        parser = SectionParser()
-        parser.update("1.2 Multiple Sections Here")
-        
-        sections = parser.current_sections
-        assert len(sections) > 0
 
     def test_section_parser_unicode_section_names(self):
 

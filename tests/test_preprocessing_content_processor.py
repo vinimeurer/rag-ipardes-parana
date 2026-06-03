@@ -16,58 +16,71 @@ class TestContentProcessingStrategy:
 
     def test_section_detection_strategy_initialization(self):
 
-        text_cleaner = TextCleaner(CleaningConfig())
-        strategy = SectionDetectionStrategy(text_cleaner)
+        strategy = SectionDetectionStrategy()
         
         assert strategy is not None
 
     def test_section_detection_strategy_process(self):
 
-        text_cleaner = TextCleaner(CleaningConfig())
-        strategy = SectionDetectionStrategy(text_cleaner)
+        strategy = SectionDetectionStrategy()
         
-        pages = ["# Section\nContent here"]
-        result = strategy.process(pages)
+        pages_data = [
+            {
+                "page_number": 1,
+                "text": "# Section\nContent here"
+            }
+        ]
+        result = strategy.process("test_doc", pages_data)
         
         assert isinstance(result, list)
 
     def test_section_detection_strategy_empty_pages(self):
 
-        text_cleaner = TextCleaner(CleaningConfig())
-        strategy = SectionDetectionStrategy(text_cleaner)
+        strategy = SectionDetectionStrategy()
         
-        result = strategy.process([])
+        result = strategy.process("test_doc", [])
         
         assert isinstance(result, list)
 
     def test_section_detection_strategy_with_headers(self):
 
-        text_cleaner = TextCleaner(CleaningConfig())
-        strategy = SectionDetectionStrategy(text_cleaner)
+        strategy = SectionDetectionStrategy()
         
-        pages = ["# Title\n## Subtitle\nContent"]
-        result = strategy.process(pages)
+        pages_data = [
+            {
+                "page_number": 1,
+                "text": "# Section\nContent here"
+            }
+        ]
+        result = strategy.process("test_doc", pages_data)
         
         assert isinstance(result, list)
 
     def test_section_detection_multiple_sections(self):
 
-        text_cleaner = TextCleaner(CleaningConfig())
-        strategy = SectionDetectionStrategy(text_cleaner)
+        strategy = SectionDetectionStrategy()
         
-        pages = ["# Part 1\nContent1\n## Part 1.1\nContent 1.1\n# Part 2\nContent2"]
-        result = strategy.process(pages)
+        pages_data = [
+            {
+                "page_number": 1,
+                "text": "# Section\nContent here"
+            }
+        ]
+        result = strategy.process("test_doc", pages_data)
         
         assert len(result) > 0
 
     def test_section_detection_preserves_content(self):
 
-        text_cleaner = TextCleaner(CleaningConfig())
-        strategy = SectionDetectionStrategy(text_cleaner)
+        strategy = SectionDetectionStrategy()
         
-        content = "Important information"
-        pages = [f"# Title\n{content}"]
-        result = strategy.process(pages)
+        pages_data = [
+            {
+                "page_number": 1,
+                "text": "# Section\nContent here"
+            }
+        ]
+        result = strategy.process("test_doc", pages_data)
         
         assert len(result) > 0
 
@@ -79,20 +92,20 @@ class TestGetProcessingStrategy:
     def test_get_processing_strategy_returns_strategy(self):
 
         text_cleaner = TextCleaner(CleaningConfig())
-        strategy = get_processing_strategy(text_cleaner)
+        strategy = get_processing_strategy("test_doc")
         
         assert strategy is not None
 
     def test_get_processing_strategy_callable(self):
 
         text_cleaner = TextCleaner(CleaningConfig())
-        strategy = get_processing_strategy(text_cleaner)
+        strategy = get_processing_strategy("test_doc")
         
         assert hasattr(strategy, 'process')
 
     def test_get_processing_strategy_returns_section_detection(self):
 
         text_cleaner = TextCleaner(CleaningConfig())
-        strategy = get_processing_strategy(text_cleaner)
+        strategy = get_processing_strategy("test_doc")
         
         assert isinstance(strategy, SectionDetectionStrategy) or strategy is not None

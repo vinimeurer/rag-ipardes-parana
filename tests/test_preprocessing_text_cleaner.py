@@ -85,10 +85,12 @@ class TestTextCleaner:
 
         config = CleaningConfig(normalize_whitespace=True)
         cleaner = TextCleaner(config)
-        
+
         text, stats = cleaner.clean("hello    world")
-        
-        assert "hello" in text.lower()
+
+        assert isinstance(text, str)
+        assert isinstance(stats, CleaningStats)
+        assert stats.original_chars == len("hello    world")
 
     def test_clean_with_unicode_normalization(self):
 

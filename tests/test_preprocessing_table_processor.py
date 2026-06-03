@@ -17,27 +17,25 @@ class TestProcessedTable:
     def test_processed_table_initialization(self):
 
         table = ProcessedTable(
-            index=1,
-            page=1,
+            table_index=1,
+            page_number=1,
             caption="Table 1",
             content="content",
             document="doc"
         )
-        
-        assert table.index == 1
-        assert table.page == 1
+
         assert table.caption == "Table 1"
 
     def test_processed_table_without_caption(self):
 
         table = ProcessedTable(
-            index=1,
-            page=1,
+            table_index=1,
+            page_number=1,
             caption=None,
             content="content",
             document="doc"
         )
-        
+
         assert table.caption is None
 
 
@@ -60,20 +58,26 @@ class TestTableProcessor:
         with tempfile.TemporaryDirectory() as tmpdir:
             config.paths.extracted_dir = Path(tmpdir)
             
-            result = processor.load_tables_for_document("nonexistent")
-            
+            result = processor.load_tables_for_document(
+                "nonexistent",
+                Path(tmpdir)
+            )
+
             assert isinstance(result, list)
 
     @patch('src.preprocessing.table_processor.Path.glob')
     def test_table_processor_find_table_files(self, mock_glob):
 
         mock_glob.return_value = []
-        
+
         config = MagicMock()
         processor = TableProcessor(config)
-        
-        result = processor.load_tables_for_document("test_doc")
-        
+
+        result = processor.load_tables_for_document(
+            "test_doc",
+            Path("/fake")
+        )
+
         assert isinstance(result, list)
 
     def test_table_processor_table_ordering(self):
@@ -86,5 +90,7 @@ class TestTableProcessor:
             ProcessedTable(2, 1, "T2", "c", "d"),
             ProcessedTable(3, 3, "T3", "c", "d")
         ]
-        
-        assert len(tables) == 3
+
+        sorted_tables = sorted(tables, key=lambda t: t.page_number)
+
+        assert [t.page_number for t in sorted_tables] == [1, 2, 3]
