@@ -9,3 +9,4 @@ pydantic==2.13.3
 pytest==9.0.3
 coverage==7.14.1 
 pytest-cov==7.1.0
+pytest-asyncio==1.4.0
