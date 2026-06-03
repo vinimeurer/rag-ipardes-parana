@@ -15,8 +15,7 @@ class TestReranker:
     """
 
     def test_reranker_initialization(self, mock_cross_encoder):
-        """
-        """
+
         mock_instance = MagicMock()
         mock_cross_encoder.return_value = mock_instance
         
@@ -27,8 +26,7 @@ class TestReranker:
         assert reranker.logger is not None
 
     def test_reranker_rerank_basic(self, mock_cross_encoder):
-        """
-        """
+
         mock_instance = MagicMock()
         mock_instance.predict.return_value = [0.8, 0.6]
         mock_cross_encoder.return_value = mock_instance
@@ -65,8 +63,7 @@ class TestReranker:
         assert all(isinstance(c, RetrievedChunk) for c in result)
 
     def test_reranker_rerank_assigns_scores(self, mock_cross_encoder):
-        """
-        """
+
         mock_instance = MagicMock()
         mock_instance.predict.return_value = [0.85, 0.65]
         mock_cross_encoder.return_value = mock_instance
@@ -105,8 +102,7 @@ class TestReranker:
                     assert isinstance(chunk.rerank_score, (int, float))
 
     def test_reranker_rerank_filters_by_score(self, mock_cross_encoder):
-        """
-        """
+
         mock_instance = MagicMock()
         mock_instance.predict.return_value = [0.2, 0.1]
         mock_cross_encoder.return_value = mock_instance
@@ -132,8 +128,7 @@ class TestReranker:
         assert len(result) == 0
 
     def test_reranker_rerank_orders_by_score(self, mock_cross_encoder):
-        """
-        """
+
         mock_instance = MagicMock()
         mock_instance.predict.return_value = [0.6, 0.9, 0.7]
         mock_cross_encoder.return_value = mock_instance
@@ -182,8 +177,7 @@ class TestReranker:
                 assert scores[0] >= scores[1] or scores[0] <= scores[1]
 
     def test_reranker_rerank_empty_chunks(self, mock_cross_encoder):
-        """
-        """
+
         mock_instance = MagicMock()
         mock_cross_encoder.return_value = mock_instance
         
@@ -195,8 +189,7 @@ class TestReranker:
         assert result == []
 
     def test_reranker_builds_pairs(self, mock_cross_encoder):
-        """
-        """
+
         mock_instance = MagicMock()
         mock_instance.predict.return_value = [0.8]
         mock_cross_encoder.return_value = mock_instance
@@ -223,8 +216,7 @@ class TestReranker:
         assert call_args is not None
 
     def test_reranker_with_zero_min_score(self, mock_cross_encoder):
-        """
-        """
+
         mock_instance = MagicMock()
         mock_instance.predict.return_value = [0.1]
         mock_cross_encoder.return_value = mock_instance

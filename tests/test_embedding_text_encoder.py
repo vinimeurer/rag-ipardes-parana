@@ -15,8 +15,7 @@ class TestTextEncoder:
     """
 
     def test_text_encoder_initialization_with_cached_model(self, mock_transformer):
-        """
-        """
+
         with tempfile.TemporaryDirectory() as tmpdir:
             model_path = Path(tmpdir) / "model"
             model_path.mkdir()
@@ -38,8 +37,7 @@ class TestTextEncoder:
             assert encoder.embedding_dim == 768
 
     def test_text_encoder_initialization_without_cached_model(self, mock_transformer):
-        """
-        """
+
         with tempfile.TemporaryDirectory() as tmpdir:
             model_path = Path(tmpdir) / "nonexistent_model"
             
@@ -57,8 +55,7 @@ class TestTextEncoder:
             assert encoder.embedding_dim == 768
 
     def test_text_encoder_encode_single_text(self, mock_transformer):
-        """
-        """
+
         mock_instance = MagicMock()
         mock_instance.get_sentence_embedding_dimension.return_value = 768
         mock_instance.encode.return_value = [[0.1] * 768]
@@ -76,8 +73,7 @@ class TestTextEncoder:
         assert len(result) == 768
 
     def test_text_encoder_encode_multiple_texts(self, mock_transformer):
-        """
-        """
+
         mock_instance = MagicMock()
         mock_instance.get_sentence_embedding_dimension.return_value = 768
         mock_instance.encode.return_value = [[0.1] * 768, [0.2] * 768]
@@ -95,8 +91,7 @@ class TestTextEncoder:
         assert len(result) == 2
 
     def test_text_encoder_encode_batch_size(self, mock_transformer):
-        """
-        """
+
         mock_instance = MagicMock()
         mock_instance.get_sentence_embedding_dimension.return_value = 768
         mock_instance.encode.return_value = [[0.1] * 768]
@@ -114,8 +109,7 @@ class TestTextEncoder:
         assert call_args[1]["batch_size"] == 32
 
     def test_text_encoder_normalize_embeddings(self, mock_transformer):
-        """
-        """
+
         mock_instance = MagicMock()
         mock_instance.get_sentence_embedding_dimension.return_value = 768
         mock_instance.encode.return_value = [[0.1] * 768]
@@ -134,8 +128,7 @@ class TestTextEncoder:
         assert call_args[1]["normalize_embeddings"] is True
 
     def test_text_encoder_device_cpu(self, mock_transformer):
-        """
-        """
+
         mock_instance = MagicMock()
         mock_instance.get_sentence_embedding_dimension.return_value = 768
         mock_transformer.return_value = mock_instance
@@ -154,8 +147,7 @@ class TestTextEncoder:
             assert mock_transformer.called
 
     def test_text_encoder_embedding_dimension(self, mock_transformer):
-        """
-        """
+
         mock_instance = MagicMock()
         mock_instance.get_sentence_embedding_dimension.return_value = 1024
         mock_transformer.return_value = mock_instance
@@ -169,8 +161,7 @@ class TestTextEncoder:
         assert encoder.embedding_dim == 1024
 
     def test_text_encoder_empty_text_list(self, mock_transformer):
-        """
-        """
+
         mock_instance = MagicMock()
         mock_instance.get_sentence_embedding_dimension.return_value = 768
         mock_instance.encode.return_value = []
@@ -187,8 +178,7 @@ class TestTextEncoder:
         assert isinstance(result, list)
 
     def test_text_encoder_model_name_stored(self, mock_transformer):
-        """
-        """
+
         mock_instance = MagicMock()
         mock_instance.get_sentence_embedding_dimension.return_value = 768
         mock_transformer.return_value = mock_instance

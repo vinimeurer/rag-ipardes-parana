@@ -33,39 +33,32 @@ class TestDirectoryConstants:
     """
 
     def test_project_root_exists(self):
-        """
-        """
+
         assert PROJECT_ROOT.exists()
         assert PROJECT_ROOT.is_dir()
 
     def test_project_root_is_absolute(self):
-        """
-        """
+
         assert PROJECT_ROOT.is_absolute()
 
     def test_data_dir_is_under_project_root(self):
-        """
-        """
+
         assert DATA_DIR.is_relative_to(PROJECT_ROOT)
 
     def test_models_dir_is_under_project_root(self):
-        """
-        """
+
         assert MODELS_DIR.is_relative_to(PROJECT_ROOT)
 
     def test_outputs_dir_is_under_project_root(self):
-        """
-        """
+
         assert OUTPUTS_DIR.is_relative_to(PROJECT_ROOT)
 
     def test_logs_dir_is_under_project_root(self):
-        """
-        """
+
         assert LOGS_DIR.is_relative_to(PROJECT_ROOT)
 
     def test_scripts_dir_is_under_project_root(self):
-        """
-        """
+
         assert SCRIPTS_DIR.is_relative_to(PROJECT_ROOT)
 
 
@@ -74,58 +67,47 @@ class TestSubdirectories:
     """
 
     def test_raw_data_dir_under_data_dir(self):
-        """
-        """
+
         assert RAW_DATA_DIR.is_relative_to(DATA_DIR)
 
     def test_extracted_data_dir_under_data_dir(self):
-        """
-        """
+
         assert EXTRACTED_DATA_DIR.is_relative_to(DATA_DIR)
 
     def test_processed_data_dir_under_data_dir(self):
-        """
-        """
+
         assert PROCESSED_DATA_DIR.is_relative_to(DATA_DIR)
 
     def test_chunks_data_dir_under_data_dir(self):
-        """
-        """
+
         assert CHUNKS_DATA_DIR.is_relative_to(DATA_DIR)
 
     def test_embeddings_data_dir_under_data_dir(self):
-        """
-        """
+
         assert EMBEDDINGS_DATA_DIR.is_relative_to(DATA_DIR)
 
     def test_vector_db_dir_under_data_dir(self):
-        """
-        """
+
         assert VECTOR_DB_DIR.is_relative_to(DATA_DIR)
 
     def test_embeddings_models_dir_under_models_dir(self):
-        """
-        """
+
         assert EMBEDDINGS_MODELS_DIR.is_relative_to(MODELS_DIR)
 
     def test_prompts_output_dir_under_outputs_dir(self):
-        """
-        """
+
         assert PROMPTS_OUTPUT_DIR.is_relative_to(OUTPUTS_DIR)
 
     def test_retrieval_logs_dir_under_outputs_dir(self):
-        """
-        """
+
         assert RETRIEVAL_LOGS_DIR.is_relative_to(OUTPUTS_DIR)
 
     def test_responses_output_dir_under_outputs_dir(self):
-        """
-        """
+
         assert RESPONSES_OUTPUT_DIR.is_relative_to(OUTPUTS_DIR)
 
     def test_evaluations_output_dir_under_outputs_dir(self):
-        """
-        """
+
         assert EVALUATIONS_OUTPUT_DIR.is_relative_to(OUTPUTS_DIR)
 
 
@@ -134,8 +116,7 @@ class TestCreateDirectories:
     """
 
     def test_create_directories_creates_all_dirs(self):
-        """
-        """
+
         with tempfile.TemporaryDirectory() as tmpdir:
             tmpdir_path = Path(tmpdir)
             
@@ -162,8 +143,7 @@ class TestCreateDirectories:
                                                                                 assert (tmpdir_path / 'logs').mkdir(parents=True, exist_ok=True) or True
 
     def test_create_directories_is_idempotent(self):
-        """
-        """
+
         with tempfile.TemporaryDirectory() as tmpdir:
             tmpdir_path = Path(tmpdir)
             test_dir = tmpdir_path / 'test'
@@ -175,8 +155,7 @@ class TestCreateDirectories:
             assert test_dir.exists()
 
     def test_create_directories_with_existing_dirs(self):
-        """
-        """
+
         with tempfile.TemporaryDirectory() as tmpdir:
             tmpdir_path = Path(tmpdir)
             test_dir = tmpdir_path / 'existing'

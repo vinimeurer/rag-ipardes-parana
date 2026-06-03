@@ -15,8 +15,7 @@ class TestRetrievedChunk:
     """
 
     def test_retrieved_chunk_initialization(self):
-        """
-        """
+
         chunk = RetrievedChunk(
             chunk_id="test_001",
             document="test_doc",
@@ -38,8 +37,7 @@ class TestRetrievedChunk:
         assert chunk.similarity == 0.95
 
     def test_retrieved_chunk_with_rerank_score(self):
-        """
-        """
+
         chunk = RetrievedChunk(
             chunk_id="test_001",
             document="test_doc",
@@ -55,8 +53,7 @@ class TestRetrievedChunk:
         assert chunk.rerank_score == 0.75
 
     def test_retrieved_chunk_without_rerank_score(self):
-        """
-        """
+
         chunk = RetrievedChunk(
             chunk_id="test_001",
             document="test_doc",
@@ -71,8 +68,7 @@ class TestRetrievedChunk:
         assert chunk.rerank_score is None
 
     def test_retrieved_chunk_with_table_type(self):
-        """
-        """
+
         chunk = RetrievedChunk(
             chunk_id="test_001",
             document="test_doc",
@@ -95,8 +91,7 @@ class TestRetriever:
     """
 
     def test_retriever_initialization(self, mock_encoder, mock_chroma_client):
-        """
-        """
+
         mock_collection = MagicMock()
         mock_client_instance = MagicMock()
         mock_client_instance.get_collection.return_value = mock_collection
@@ -112,8 +107,7 @@ class TestRetriever:
         assert retriever.logger is not None
 
     def test_retrieve_returns_list(self, mock_encoder, mock_chroma_client):
-        """
-        """
+
         mock_collection = MagicMock()
         mock_client_instance = MagicMock()
         mock_client_instance.get_collection.return_value = mock_collection
@@ -137,8 +131,7 @@ class TestRetriever:
         assert isinstance(result, list)
 
     def test_retrieve_filters_by_threshold(self, mock_encoder, mock_chroma_client):
-        """
-        """
+
         mock_collection = MagicMock()
         mock_client_instance = MagicMock()
         mock_client_instance.get_collection.return_value = mock_collection
@@ -178,8 +171,7 @@ class TestRetriever:
         assert len(result) >= 0
 
     def test_retrieve_returns_retrieved_chunks(self, mock_encoder, mock_chroma_client):
-        """
-        """
+
         mock_collection = MagicMock()
         mock_client_instance = MagicMock()
         mock_client_instance.get_collection.return_value = mock_collection
@@ -212,8 +204,7 @@ class TestRetriever:
             assert chunk.chunk_id == "chunk1"
 
     def test_retrieve_empty_results(self, mock_encoder, mock_chroma_client):
-        """
-        """
+
         mock_collection = MagicMock()
         mock_client_instance = MagicMock()
         mock_client_instance.get_collection.return_value = mock_collection
@@ -237,8 +228,7 @@ class TestRetriever:
         assert result == []
 
     def test_retrieve_metadata_parsing(self, mock_encoder, mock_chroma_client):
-        """
-        """
+
         mock_collection = MagicMock()
         mock_client_instance = MagicMock()
         mock_client_instance.get_collection.return_value = mock_collection
@@ -272,8 +262,7 @@ class TestRetriever:
             assert len(chunk.sections) > 0
 
     def test_retrieve_similarity_score_calculation(self, mock_encoder, mock_chroma_client):
-        """
-        """
+
         mock_collection = MagicMock()
         mock_client_instance = MagicMock()
         mock_client_instance.get_collection.return_value = mock_collection

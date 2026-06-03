@@ -17,8 +17,7 @@ class TestRAGResponse:
     """
 
     def test_rag_response_initialization(self, mock_retriever, mock_reranker, mock_prompt_builder, mock_llm):
-        """
-        """
+
         response = RAGResponse(
             query="Test?",
             answer="Answer",
@@ -32,8 +31,7 @@ class TestRAGResponse:
         assert response.answer == "Answer"
 
     def test_rag_response_out_of_scope_true(self, mock_retriever, mock_reranker, mock_prompt_builder, mock_llm):
-        """
-        """
+
         response = RAGResponse(
             query="Unknown?",
             answer="Not covered",
@@ -55,16 +53,14 @@ class TestRAGPipeline:
     """
 
     def test_rag_pipeline_initialization(self, mock_retriever, mock_reranker, mock_prompt_builder, mock_llm):
-        """
-        """
+
         config = RAGConfig()
         pipeline = RAGPipeline(config)
         
         assert pipeline.config == config
 
     def test_rag_pipeline_query_basic(self, mock_retriever, mock_reranker, mock_prompt_builder, mock_llm):
-        """
-        """
+
         mock_retriever_instance = MagicMock()
         mock_retriever_instance.retrieve.return_value = []
         mock_retriever.return_value = mock_retriever_instance
@@ -89,8 +85,7 @@ class TestRAGPipeline:
         assert response.out_of_scope is True or response.out_of_scope is False
 
     def test_rag_pipeline_query_returns_response(self, mock_retriever, mock_reranker, mock_prompt_builder, mock_llm):
-        """
-        """
+
         mock_retriever_instance = MagicMock()
         mock_retriever_instance.retrieve.return_value = []
         mock_retriever.return_value = mock_retriever_instance
@@ -114,8 +109,7 @@ class TestRAGPipeline:
         assert isinstance(result, RAGResponse)
 
     def test_rag_pipeline_includes_audit_trail(self, mock_retriever, mock_reranker, mock_prompt_builder, mock_llm):
-        """
-        """
+
         mock_retriever_instance = MagicMock()
         mock_retriever_instance.retrieve.return_value = []
         mock_retriever.return_value = mock_retriever_instance
@@ -140,8 +134,7 @@ class TestRAGPipeline:
         assert response.prompt is not None
 
     def test_rag_pipeline_empty_query(self, mock_retriever, mock_reranker, mock_prompt_builder, mock_llm):
-        """
-        """
+
         mock_retriever_instance = MagicMock()
         mock_retriever_instance.retrieve.return_value = []
         mock_retriever.return_value = mock_retriever_instance
@@ -165,8 +158,7 @@ class TestRAGPipeline:
         assert isinstance(response, RAGResponse)
 
     def test_rag_pipeline_very_long_query(self, mock_retriever, mock_reranker, mock_prompt_builder, mock_llm):
-        """
-        """
+
         mock_retriever_instance = MagicMock()
         mock_retriever_instance.retrieve.return_value = []
         mock_retriever.return_value = mock_retriever_instance

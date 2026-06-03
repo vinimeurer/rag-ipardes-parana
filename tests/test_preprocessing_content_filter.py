@@ -12,14 +12,12 @@ class TestContentFilter:
     """
 
     def test_content_filter_initialization(self):
-        """
-        """
+
         filter_obj = ContentFilter()
         assert filter_obj is not None
 
     def test_content_filter_filter_empty_list(self):
-        """
-        """
+
         filter_obj = ContentFilter()
         items, stats = filter_obj.filter([])
         
@@ -27,8 +25,7 @@ class TestContentFilter:
         assert hasattr(stats, 'initial_count') or True
 
     def test_content_filter_filters_header_only(self):
-        """
-        """
+
         filter_obj = ContentFilter()
         items = [
             {
@@ -43,8 +40,7 @@ class TestContentFilter:
         assert isinstance(result, list)
 
     def test_content_filter_keeps_content(self):
-        """
-        """
+
         filter_obj = ContentFilter()
         items = [
             {
@@ -59,8 +55,7 @@ class TestContentFilter:
         assert len(result) > 0
 
     def test_content_filter_multiple_items(self):
-        """
-        """
+
         filter_obj = ContentFilter()
         items = [
             {"type": "text", "content": "Item 1", "page": 1, "sections": []},
@@ -72,8 +67,7 @@ class TestContentFilter:
         assert isinstance(result, list)
 
     def test_content_filter_table_items(self):
-        """
-        """
+
         filter_obj = ContentFilter()
         items = [
             {"type": "table", "content": "table data", "page": 1, "sections": []}
@@ -83,8 +77,7 @@ class TestContentFilter:
         assert isinstance(result, list)
 
     def test_content_filter_mixed_types(self):
-        """
-        """
+
         filter_obj = ContentFilter()
         items = [
             {"type": "text", "content": "text", "page": 1, "sections": []},
@@ -95,8 +88,7 @@ class TestContentFilter:
         assert isinstance(result, list)
 
     def test_content_filter_preserves_good_content(self):
-        """
-        """
+
         filter_obj = ContentFilter()
         good_content = "This is substantial content with real information"
         items = [

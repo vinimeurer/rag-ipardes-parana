@@ -17,23 +17,20 @@ class TestChunker:
     """
 
     def test_chunker_initialization(self):
-        """
-        """
+
         chunker = Chunker()
         assert chunker.config is not None
         assert chunker.splitter is not None
         assert chunker.logger is not None
 
     def test_chunker_initialization_with_config(self):
-        """
-        """
+
         config = ChunkingConfig()
         chunker = Chunker(config=config)
         assert chunker.config == config
 
     def test_chunker_save_creates_file(self):
-        """
-        """
+
         with tempfile.TemporaryDirectory() as tmpdir:
             output_path = Path(tmpdir) / "chunks.jsonl"
             
@@ -67,8 +64,7 @@ class TestChunker:
             assert result == output_path
 
     def test_chunker_save_jsonl_format(self):
-        """
-        """
+
         with tempfile.TemporaryDirectory() as tmpdir:
             output_path = Path(tmpdir) / "chunks.jsonl"
             
@@ -91,8 +87,7 @@ class TestChunker:
                 assert data["chunk_id"] == "test_001_00"
 
     def test_chunker_save_multiple_chunks(self):
-        """
-        """
+
         with tempfile.TemporaryDirectory() as tmpdir:
             output_path = Path(tmpdir) / "chunks.jsonl"
             
@@ -117,8 +112,7 @@ class TestChunker:
                 assert len(lines) == 5
 
     def test_chunker_save_creates_parent_directory(self):
-        """
-        """
+
         with tempfile.TemporaryDirectory() as tmpdir:
             output_path = Path(tmpdir) / "subdir" / "chunks.jsonl"
             
@@ -139,8 +133,7 @@ class TestChunker:
             assert result == output_path
 
     def test_chunker_save_empty_chunks(self):
-        """
-        """
+
         with tempfile.TemporaryDirectory() as tmpdir:
             output_path = Path(tmpdir) / "chunks.jsonl"
             
@@ -153,8 +146,7 @@ class TestChunker:
                 assert content == "" or content.count('\n') == 0
 
     def test_chunker_save_preserves_unicode(self):
-        """
-        """
+
         with tempfile.TemporaryDirectory() as tmpdir:
             output_path = Path(tmpdir) / "chunks.jsonl"
             
@@ -177,8 +169,7 @@ class TestChunker:
                 assert "acentuação" in data["content"]
 
     def test_chunker_chunk_text_item_basic(self):
-        """
-        """
+
         chunker = Chunker()
         item = {
             "type": "text",
@@ -192,8 +183,7 @@ class TestChunker:
         assert all(isinstance(c, Chunk) for c in result)
 
     def test_chunker_chunk_text_item_empty_content(self):
-        """
-        """
+
         chunker = Chunker()
         item = {
             "type": "text",
@@ -206,8 +196,7 @@ class TestChunker:
         assert len(result) == 0
 
     def test_chunker_chunk_text_item_whitespace_only(self):
-        """
-        """
+
         chunker = Chunker()
         item = {
             "type": "text",
@@ -220,8 +209,7 @@ class TestChunker:
         assert len(result) == 0
 
     def test_chunker_chunk_table_item_basic(self):
-        """
-        """
+
         chunker = Chunker()
         item = {
             "type": "table",
@@ -237,8 +225,7 @@ class TestChunker:
         assert isinstance(result, Chunk)
 
     def test_chunker_chunk_table_item_empty_content(self):
-        """
-        """
+
         chunker = Chunker()
         item = {
             "type": "table",
@@ -252,8 +239,7 @@ class TestChunker:
         assert result is None
 
     def test_chunker_chunk_table_item_preserves_structure(self):
-        """
-        """
+
         chunker = Chunker()
         table_content = "Header1 | Header2\nValue1 | Value2"
         item = {
@@ -269,8 +255,7 @@ class TestChunker:
             assert table_content in result.content
 
     def test_chunker_chunk_id_generation(self):
-        """
-        """
+
         chunker = Chunker()
         item = {
             "type": "text",
@@ -285,8 +270,7 @@ class TestChunker:
             assert "005" in chunk.chunk_id
 
     def test_chunker_preserves_sections(self):
-        """
-        """
+
         chunker = Chunker()
         sections = ["Introduction", "Background"]
         item = {
@@ -301,8 +285,7 @@ class TestChunker:
             assert chunk.sections == sections
 
     def test_chunker_preserves_page_number(self):
-        """
-        """
+
         chunker = Chunker()
         item = {
             "type": "text",

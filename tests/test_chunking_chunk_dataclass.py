@@ -10,8 +10,7 @@ class TestChunk:
     """
 
     def test_chunk_initialization(self):
-        """
-        """
+
         chunk = Chunk(
             chunk_id="doc_000_00",
             document="test_doc",
@@ -34,8 +33,7 @@ class TestChunk:
         assert chunk.caption is None
 
     def test_chunk_with_caption(self):
-        """
-        """
+
         chunk = Chunk(
             chunk_id="doc_000_00",
             document="test_doc",
@@ -50,8 +48,7 @@ class TestChunk:
         assert chunk.type == "table"
 
     def test_chunk_is_auxiliary_true(self):
-        """
-        """
+
         chunk = Chunk(
             chunk_id="doc_000_00",
             document="test_doc",
@@ -65,8 +62,7 @@ class TestChunk:
         assert chunk.is_auxiliary is True
 
     def test_chunk_to_dict(self):
-        """
-        """
+
         chunk = Chunk(
             chunk_id="doc_000_00",
             document="test_doc",
@@ -92,8 +88,7 @@ class TestChunk:
         assert chunk_dict["caption"] is None
 
     def test_chunk_to_dict_with_caption(self):
-        """
-        """
+
         chunk = Chunk(
             chunk_id="doc_000_00",
             document="test_doc",
@@ -108,8 +103,7 @@ class TestChunk:
         assert chunk_dict["caption"] == "Table 1"
 
     def test_chunk_to_dict_empty_sections(self):
-        """
-        """
+
         chunk = Chunk(
             chunk_id="doc_000_00",
             document="test_doc",
@@ -123,8 +117,7 @@ class TestChunk:
         assert chunk_dict["sections"] == []
 
     def test_chunk_to_dict_multiple_sections(self):
-        """
-        """
+
         sections = ["Section 1", "Section 2", "Section 3"]
         chunk = Chunk(
             chunk_id="doc_000_00",
@@ -139,8 +132,7 @@ class TestChunk:
         assert chunk_dict["sections"] == sections
 
     def test_chunk_with_zero_page(self):
-        """
-        """
+
         chunk = Chunk(
             chunk_id="doc_000_00",
             document="test_doc",
@@ -153,8 +145,7 @@ class TestChunk:
         assert chunk.page == 0
 
     def test_chunk_with_large_token_count(self):
-        """
-        """
+
         chunk = Chunk(
             chunk_id="doc_000_00",
             document="test_doc",
@@ -167,8 +158,7 @@ class TestChunk:
         assert chunk.token_count == 10000
 
     def test_chunk_with_empty_content(self):
-        """
-        """
+
         chunk = Chunk(
             chunk_id="doc_000_00",
             document="test_doc",
@@ -182,8 +172,7 @@ class TestChunk:
         assert chunk.token_count == 0
 
     def test_chunk_dataclass_fields(self):
-        """
-        """
+
         chunk = Chunk(
             chunk_id="test",
             document="doc",
@@ -205,8 +194,7 @@ class TestChunk:
         assert hasattr(chunk, "caption")
 
     def test_chunk_to_dict_is_json_serializable(self):
-        """
-        """
+
         import json
         chunk = Chunk(
             chunk_id="doc_000_00",

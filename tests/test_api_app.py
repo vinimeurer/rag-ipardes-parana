@@ -11,8 +11,7 @@ class TestChunkData:
     """
 
     def test_chunk_data_initialization(self):
-        """
-        """
+
         chunk = ChunkData(
             chunk_id="test_001",
             document="test_doc",
@@ -33,8 +32,7 @@ class TestChunkData:
         assert chunk.similarity == 0.95
 
     def test_chunk_data_with_rerank_score(self):
-        """
-        """
+
         chunk = ChunkData(
             chunk_id="test_001",
             document="test_doc",
@@ -50,8 +48,7 @@ class TestChunkData:
         assert chunk.rerank_score == 0.75
 
     def test_chunk_data_model_dump(self):
-        """
-        """
+
         chunk = ChunkData(
             chunk_id="test_001",
             document="test_doc",
@@ -73,14 +70,12 @@ class TestChatRequest:
     """
 
     def test_chat_request_initialization(self):
-        """
-        """
+
         request = ChatRequest(question="What is the topic?")
         assert request.question == "What is the topic?"
 
     def test_chat_request_model_validate(self):
-        """
-        """
+
         data = {"question": "Test question"}
         request = ChatRequest(**data)
         assert request.question == "Test question"
@@ -91,8 +86,7 @@ class TestChatResponse:
     """
 
     def test_chat_response_initialization(self):
-        """
-        """
+
         response = ChatResponse(
             question="Test?",
             answer="Answer",
@@ -106,8 +100,7 @@ class TestChatResponse:
         assert response.out_of_scope is False
 
     def test_chat_response_with_chunks(self):
-        """
-        """
+
         chunks = [
             ChunkData(
                 chunk_id="1",
@@ -132,8 +125,7 @@ class TestChatResponse:
         assert len(response.chunks) == 1
 
     def test_chat_response_out_of_scope_true(self):
-        """
-        """
+
         response = ChatResponse(
             question="Out of scope?",
             answer="Not found",
@@ -145,8 +137,7 @@ class TestChatResponse:
         assert response.out_of_scope is True
 
     def test_chat_response_model_dump(self):
-        """
-        """
+
         response = ChatResponse(
             question="Test?",
             answer="Answer",
@@ -167,8 +158,7 @@ class TestHealthEndpoint:
 
     @pytest.mark.asyncio
     async def test_health_returns_dict(self, mock_pipeline):
-        """
-        """
+
         mock_pipeline = MagicMock()
         mock_pipeline.config.embedding_model = "test_model"
         mock_pipeline.config.llm.model_name = "test_llm"
@@ -179,8 +169,7 @@ class TestHealthEndpoint:
 
     @pytest.mark.asyncio
     async def test_health_includes_status(self, mock_pipeline):
-        """
-        """
+
         mock_pipeline = MagicMock()
         mock_pipeline.config.embedding_model = "test_model"
         mock_pipeline.config.llm.model_name = "test_llm"
@@ -191,8 +180,7 @@ class TestHealthEndpoint:
 
     @pytest.mark.asyncio
     async def test_health_includes_pipeline_ready(self, mock_pipeline):
-        """
-        """
+
         mock_pipeline = MagicMock()
         mock_pipeline.config.embedding_model = "test_model"
         mock_pipeline.config.llm.model_name = "test_llm"
@@ -203,8 +191,7 @@ class TestHealthEndpoint:
 
     @pytest.mark.asyncio
     async def test_health_pipeline_unavailable(self, mock_pipeline):
-        """
-        """
+
         with patch('src.api.app.pipeline', None):
             from fastapi import HTTPException
             with pytest.raises(HTTPException):
@@ -218,8 +205,7 @@ class TestChatEndpoint:
 
     @pytest.mark.asyncio
     async def test_chat_returns_response(self, mock_pipeline):
-        """
-        """
+
         mock_pipeline_obj = MagicMock()
         mock_response = MagicMock()
         mock_response.query = "Test?"
@@ -237,8 +223,7 @@ class TestChatEndpoint:
 
     @pytest.mark.asyncio
     async def test_chat_processes_question(self, mock_pipeline):
-        """
-        """
+
         mock_pipeline_obj = MagicMock()
         mock_response = MagicMock()
         mock_response.query = "Question?"
@@ -256,8 +241,7 @@ class TestChatEndpoint:
 
     @pytest.mark.asyncio
     async def test_chat_pipeline_unavailable(self, mock_pipeline):
-        """
-        """
+
         with patch('src.api.app.pipeline', None):
             from fastapi import HTTPException
             request = ChatRequest(question="Test?")

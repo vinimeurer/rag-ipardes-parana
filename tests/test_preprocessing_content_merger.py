@@ -12,15 +12,13 @@ class TestContentMerger:
     """
 
     def test_content_merger_merge_empty_lists(self):
-        """
-        """
+
         result = ContentMerger.merge_content_and_tables([], [])
         
         assert result == []
 
     def test_content_merger_text_only(self):
-        """
-        """
+
         text_items = [
             {
                 "type": "text",
@@ -35,8 +33,7 @@ class TestContentMerger:
         assert len(result) > 0
 
     def test_content_merger_table_only(self):
-        """
-        """
+
         table_items = [
             {
                 "type": "table",
@@ -51,8 +48,7 @@ class TestContentMerger:
         assert len(result) > 0
 
     def test_content_merger_mixed_content(self):
-        """
-        """
+
         text_items = [
             {
                 "type": "text",
@@ -75,8 +71,7 @@ class TestContentMerger:
         assert len(result) > 0
 
     def test_content_merger_multiple_pages(self):
-        """
-        """
+
         text_items = [
             {"type": "text", "content": "page1", "page": 1, "sections": []},
             {"type": "text", "content": "page2", "page": 2, "sections": []}
@@ -87,8 +82,7 @@ class TestContentMerger:
         assert len(result) >= 2
 
     def test_content_merger_preserves_sections(self):
-        """
-        """
+
         text_items = [
             {"type": "text", "content": "text", "page": 1, "sections": ["A", "B"]}
         ]
@@ -104,8 +98,7 @@ class TestContentMerger:
                     assert "sections" in item or True
 
     def test_content_merger_maintains_order(self):
-        """
-        """
+
         text_items = [
             {"type": "text", "content": "text1", "page": 1, "sections": []},
             {"type": "text", "content": "text2", "page": 2, "sections": []}

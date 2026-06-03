@@ -15,8 +15,7 @@ class TestProcessedTable:
     """
 
     def test_processed_table_initialization(self):
-        """
-        """
+
         table = ProcessedTable(
             index=1,
             page=1,
@@ -30,8 +29,7 @@ class TestProcessedTable:
         assert table.caption == "Table 1"
 
     def test_processed_table_without_caption(self):
-        """
-        """
+
         table = ProcessedTable(
             index=1,
             page=1,
@@ -48,16 +46,14 @@ class TestTableProcessor:
     """
 
     def test_table_processor_initialization(self):
-        """
-        """
+
         config = MagicMock()
         processor = TableProcessor(config)
         
         assert processor is not None
 
     def test_table_processor_load_tables_empty(self):
-        """
-        """
+
         config = MagicMock()
         processor = TableProcessor(config)
         
@@ -70,8 +66,7 @@ class TestTableProcessor:
 
     @patch('src.preprocessing.table_processor.Path.glob')
     def test_table_processor_find_table_files(self, mock_glob):
-        """
-        """
+
         mock_glob.return_value = []
         
         config = MagicMock()
@@ -82,8 +77,7 @@ class TestTableProcessor:
         assert isinstance(result, list)
 
     def test_table_processor_table_ordering(self):
-        """
-        """
+
         config = MagicMock()
         processor = TableProcessor(config)
         

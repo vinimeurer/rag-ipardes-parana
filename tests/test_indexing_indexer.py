@@ -17,8 +17,7 @@ class TestIndexer:
     """
 
     def test_indexer_initialization(self, mock_chroma_client):
-        """
-        """
+
         mock_client_instance = MagicMock()
         mock_chroma_client.return_value = mock_client_instance
         
@@ -31,8 +30,7 @@ class TestIndexer:
     @patch('src.indexing.indexer.Indexer._prepare_collection')
     @patch('src.indexing.indexer.Indexer._insert_batches')
     def test_indexer_run(self, mock_insert, mock_prepare, mock_load, mock_chroma_client):
-        """
-        """
+
         mock_load.return_value = []
         mock_collection = MagicMock()
         mock_prepare.return_value = mock_collection
@@ -48,8 +46,7 @@ class TestIndexer:
     @patch('src.indexing.indexer.Indexer._prepare_collection')
     @patch('src.indexing.indexer.Indexer._insert_batches')
     def test_indexer_load_chunks(self, mock_insert, mock_prepare, mock_load, mock_chroma_client):
-        """
-        """
+
         mock_chunks = [
             {
                 "chunk_id": "1",
@@ -69,8 +66,7 @@ class TestIndexer:
     @patch('src.indexing.indexer.Indexer._prepare_collection')
     @patch('src.indexing.indexer.Indexer._insert_batches')
     def test_indexer_prepare_collection(self, mock_insert, mock_prepare, mock_load, mock_chroma_client):
-        """
-        """
+
         mock_client = MagicMock()
         mock_collection = MagicMock()
         mock_client.delete_collection.return_value = None
@@ -85,8 +81,7 @@ class TestIndexer:
 
     @patch('src.indexing.indexer.Indexer._load_chunks')
     def test_indexer_insert_batches_empty(self, mock_load, mock_chroma_client):
-        """
-        """
+
         mock_load.return_value = []
         mock_client = MagicMock()
         mock_collection = MagicMock()

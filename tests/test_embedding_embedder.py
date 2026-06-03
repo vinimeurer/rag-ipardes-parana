@@ -17,8 +17,7 @@ class TestEmbedder:
     """
 
     def test_embedder_initialization(self, mock_encoder):
-        """
-        """
+
         mock_encoder_instance = MagicMock()
         mock_encoder_instance.embedding_dim = 768
         mock_encoder.return_value = mock_encoder_instance
@@ -29,8 +28,7 @@ class TestEmbedder:
         assert embedder.config == config
 
     def test_embedder_run_empty_chunks(self, mock_encoder):
-        """
-        """
+
         mock_encoder_instance = MagicMock()
         mock_encoder_instance.embedding_dim = 768
         mock_encoder.return_value = mock_encoder_instance
@@ -51,8 +49,7 @@ class TestEmbedder:
     @patch('src.embedding.embedder.Embedder._load_chunks')
     @patch('src.embedding.embedder.Embedder._save')
     def test_embedder_build_embedding_text(self, mock_save, mock_load, mock_encoder):
-        """
-        """
+
         mock_encoder_instance = MagicMock()
         mock_encoder_instance.embedding_dim = 768
         mock_encoder.return_value = mock_encoder_instance
@@ -71,8 +68,7 @@ class TestEmbedder:
     @patch('src.embedding.embedder.Embedder._load_chunks')
     @patch('src.embedding.embedder.Embedder._save')
     def test_embedder_build_embedding_text_with_caption(self, mock_save, mock_load, mock_encoder):
-        """
-        """
+
         mock_encoder_instance = MagicMock()
         mock_encoder_instance.embedding_dim = 768
         mock_encoder.return_value = mock_encoder_instance

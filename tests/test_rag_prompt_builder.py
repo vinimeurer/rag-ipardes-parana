@@ -13,14 +13,12 @@ class TestPromptBuilder:
     """
 
     def test_prompt_builder_initialization(self):
-        """
-        """
+
         builder = PromptBuilder()
         assert builder is not None
 
     def test_build_basic_prompt(self):
-        """
-        """
+
         builder = PromptBuilder()
         query = "What is development?"
         chunks = [
@@ -43,16 +41,14 @@ class TestPromptBuilder:
         assert "Development refers" in prompt
 
     def test_build_includes_system_prompt(self):
-        """
-        """
+
         builder = PromptBuilder()
         prompt = builder.build("test query", [])
         
         assert SYSTEM_PROMPT in prompt
 
     def test_build_out_of_scope(self):
-        """
-        """
+
         builder = PromptBuilder()
         query = "What is not covered?"
         
@@ -63,8 +59,7 @@ class TestPromptBuilder:
         assert "não há informação" in prompt or "not found" in prompt or SYSTEM_PROMPT in prompt
 
     def test_format_sources_empty(self):
-        """
-        """
+
         builder = PromptBuilder()
         result = builder.format_sources([])
         
@@ -72,8 +67,7 @@ class TestPromptBuilder:
         assert "nenhum" in result.lower() or "sem" in result.lower() or "não" in result.lower()
 
     def test_format_sources_single_chunk(self):
-        """
-        """
+
         builder = PromptBuilder()
         chunks = [
             RetrievedChunk(
@@ -94,8 +88,7 @@ class TestPromptBuilder:
         assert "Development is important" in result or "página" in result or "page" in result
 
     def test_format_sources_multiple_chunks(self):
-        """
-        """
+
         builder = PromptBuilder()
         chunks = [
             RetrievedChunk(
@@ -126,8 +119,7 @@ class TestPromptBuilder:
         assert "Second chunk" in result or "[2]" in result
 
     def test_format_sources_with_table(self):
-        """
-        """
+
         builder = PromptBuilder()
         chunks = [
             RetrievedChunk(
@@ -148,8 +140,7 @@ class TestPromptBuilder:
         assert "Table" in result or "Tabela" in result or "Data Table" in result
 
     def test_format_sources_includes_page_number(self):
-        """
-        """
+
         builder = PromptBuilder()
         chunks = [
             RetrievedChunk(
@@ -169,8 +160,7 @@ class TestPromptBuilder:
         assert "42" in result or "página" in result or "page" in result
 
     def test_format_sources_includes_similarity(self):
-        """
-        """
+
         builder = PromptBuilder()
         chunks = [
             RetrievedChunk(
@@ -190,8 +180,7 @@ class TestPromptBuilder:
         assert "0.8765" in result or "Similaridade" in result or "Similarity" in result
 
     def test_format_sources_with_rerank_score(self):
-        """
-        """
+
         builder = PromptBuilder()
         chunks = [
             RetrievedChunk(
@@ -212,8 +201,7 @@ class TestPromptBuilder:
         assert "0.75" in result or "reranker" in result.lower()
 
     def test_format_location_with_sections(self):
-        """
-        """
+
         builder = PromptBuilder()
         chunk = RetrievedChunk(
             chunk_id="test_001",
@@ -233,8 +221,7 @@ class TestPromptBuilder:
         assert "Chapter 1" in location or "Section 2" in location or "seção" in location
 
     def test_format_location_without_sections(self):
-        """
-        """
+
         builder = PromptBuilder()
         chunk = RetrievedChunk(
             chunk_id="test_001",
@@ -252,8 +239,7 @@ class TestPromptBuilder:
         assert "5" in location or "página" in location
 
     def test_build_with_multiple_chunks(self):
-        """
-        """
+
         builder = PromptBuilder()
         query = "What is the economic trend?"
         chunks = [
@@ -285,8 +271,7 @@ class TestPromptBuilder:
         assert "GDP grew" in prompt or "Employment increased" in prompt
 
     def test_format_citation(self):
-        """
-        """
+
         builder = PromptBuilder()
         chunk = RetrievedChunk(
             chunk_id="test_001",
@@ -306,8 +291,7 @@ class TestPromptBuilder:
         assert "(" in citation and ")" in citation
 
     def test_format_context_empty_chunks(self):
-        """
-        """
+
         builder = PromptBuilder()
         context = builder._format_context([])
         

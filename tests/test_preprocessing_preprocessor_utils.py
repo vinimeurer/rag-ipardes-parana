@@ -15,8 +15,7 @@ class TestProcessResult:
     """
 
     def test_process_result_initialization(self):
-        """
-        """
+
         result = ProcessResult(
             pdf_key="test_doc",
             output_path=Path("/tmp/test"),
@@ -31,8 +30,7 @@ class TestProcessResult:
         assert result.items == 100
 
     def test_process_result_fields(self):
-        """
-        """
+
         result = ProcessResult(
             pdf_key="doc",
             output_path=Path("/path"),
@@ -52,22 +50,19 @@ class TestPreprocessorUtils:
     """
 
     def test_preprocessor_utils_get_pdf_description(self):
-        """
-        """
+
         desc = PreprocessorUtils.get_pdf_description("desenvolvimento_paranaense")
         
         assert isinstance(desc, str) or desc is not None
 
     def test_preprocessor_utils_get_timestamp(self):
-        """
-        """
+
         ts = PreprocessorUtils.get_timestamp()
         
         assert isinstance(ts, str)
 
     def test_preprocessor_utils_build_metadata(self):
-        """
-        """
+
         metadata = PreprocessorUtils.build_metadata(
             pdf_key="test",
             num_pages=10,
@@ -77,8 +72,7 @@ class TestPreprocessorUtils:
         assert isinstance(metadata, dict)
 
     def test_preprocessor_utils_log_result(self):
-        """
-        """
+
         result = ProcessResult(
             pdf_key="test",
             output_path=Path("/tmp"),

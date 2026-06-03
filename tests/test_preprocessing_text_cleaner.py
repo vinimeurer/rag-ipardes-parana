@@ -11,8 +11,7 @@ class TestCleaningStats:
     """
 
     def test_cleaning_stats_initialization(self):
-        """
-        """
+
         stats = CleaningStats(
             original_chars=1000,
             cleaned_chars=800,
@@ -26,8 +25,7 @@ class TestCleaningStats:
         assert stats.paragraphs_removed == 2
 
     def test_cleaning_stats_reduction_percentage(self):
-        """
-        """
+
         stats = CleaningStats(
             original_chars=1000,
             cleaned_chars=500
@@ -36,8 +34,7 @@ class TestCleaningStats:
         assert stats.reduction_pct == 50.0
 
     def test_cleaning_stats_zero_original(self):
-        """
-        """
+
         stats = CleaningStats(
             original_chars=0,
             cleaned_chars=0
@@ -46,8 +43,7 @@ class TestCleaningStats:
         assert stats.reduction_pct == 0.0
 
     def test_cleaning_stats_no_reduction(self):
-        """
-        """
+
         stats = CleaningStats(
             original_chars=1000,
             cleaned_chars=1000
@@ -61,15 +57,13 @@ class TestTextCleaner:
     """
 
     def test_text_cleaner_initialization(self):
-        """
-        """
+
         config = CleaningConfig()
         cleaner = TextCleaner(config)
         assert cleaner.config == config
 
     def test_clean_empty_text(self):
-        """
-        """
+
         config = CleaningConfig()
         cleaner = TextCleaner(config)
         
@@ -79,8 +73,7 @@ class TestTextCleaner:
         assert stats.original_chars == 0
 
     def test_clean_simple_text(self):
-        """
-        """
+
         config = CleaningConfig()
         cleaner = TextCleaner(config)
         
@@ -89,8 +82,7 @@ class TestTextCleaner:
         assert "Hello world" in text or text == ""
 
     def test_clean_with_multiple_spaces(self):
-        """
-        """
+
         config = CleaningConfig(normalize_whitespace=True)
         cleaner = TextCleaner(config)
         
@@ -99,8 +91,7 @@ class TestTextCleaner:
         assert "hello" in text.lower()
 
     def test_clean_with_unicode_normalization(self):
-        """
-        """
+
         config = CleaningConfig()
         cleaner = TextCleaner(config)
         
@@ -109,8 +100,7 @@ class TestTextCleaner:
         assert len(text) > 0 or text == ""
 
     def test_clean_markdown_format(self):
-        """
-        """
+
         config = CleaningConfig()
         cleaner = TextCleaner(config)
         
@@ -121,8 +111,7 @@ class TestTextCleaner:
         assert isinstance(stats, CleaningStats)
 
     def test_clean_table_content(self):
-        """
-        """
+
         config = CleaningConfig()
         cleaner = TextCleaner(config)
         
@@ -133,8 +122,7 @@ class TestTextCleaner:
         assert len(result) > 0
 
     def test_clean_preserves_essential_content(self):
-        """
-        """
+
         config = CleaningConfig(
             remove_hyphenation=True,
             normalize_whitespace=True,
@@ -148,8 +136,7 @@ class TestTextCleaner:
         assert len(cleaned) <= len(text)
 
     def test_clean_removes_page_numbers(self):
-        """
-        """
+
         config = CleaningConfig(remove_page_numbers=True)
         cleaner = TextCleaner(config)
         
@@ -159,8 +146,7 @@ class TestTextCleaner:
         assert isinstance(cleaned, str)
 
     def test_clean_fixes_hyphenation(self):
-        """
-        """
+
         config = CleaningConfig(remove_hyphenation=True)
         cleaner = TextCleaner(config)
         
@@ -170,8 +156,7 @@ class TestTextCleaner:
         assert isinstance(cleaned, str)
 
     def test_clean_deduplicates_blank_lines(self):
-        """
-        """
+
         config = CleaningConfig(dedup_empty_lines=True)
         cleaner = TextCleaner(config)
         
@@ -182,8 +167,7 @@ class TestTextCleaner:
         assert blank_count <= 0 or cleaned.count('\n') >= 0
 
     def test_clean_stats_tracking(self):
-        """
-        """
+
         config = CleaningConfig()
         cleaner = TextCleaner(config)
         
@@ -194,8 +178,7 @@ class TestTextCleaner:
         assert stats.cleaned_chars <= len(original)
 
     def test_clean_with_control_characters(self):
-        """
-        """
+
         config = CleaningConfig()
         cleaner = TextCleaner(config)
         
@@ -206,8 +189,7 @@ class TestTextCleaner:
         assert "\x01" not in cleaned
 
     def test_clean_markdown_preserves_structure(self):
-        """
-        """
+
         config = CleaningConfig()
         cleaner = TextCleaner(config)
         
@@ -217,8 +199,7 @@ class TestTextCleaner:
         assert isinstance(cleaned, str)
 
     def test_normalize_unicode_nfc(self):
-        """
-        """
+
         config = CleaningConfig()
         cleaner = TextCleaner(config)
         
@@ -229,8 +210,7 @@ class TestTextCleaner:
         assert isinstance(result, str)
 
     def test_remove_control_chars(self):
-        """
-        """
+
         config = CleaningConfig()
         cleaner = TextCleaner(config)
         

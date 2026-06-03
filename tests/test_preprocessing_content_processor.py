@@ -15,16 +15,14 @@ class TestContentProcessingStrategy:
     """
 
     def test_section_detection_strategy_initialization(self):
-        """
-        """
+
         text_cleaner = TextCleaner(CleaningConfig())
         strategy = SectionDetectionStrategy(text_cleaner)
         
         assert strategy is not None
 
     def test_section_detection_strategy_process(self):
-        """
-        """
+
         text_cleaner = TextCleaner(CleaningConfig())
         strategy = SectionDetectionStrategy(text_cleaner)
         
@@ -34,8 +32,7 @@ class TestContentProcessingStrategy:
         assert isinstance(result, list)
 
     def test_section_detection_strategy_empty_pages(self):
-        """
-        """
+
         text_cleaner = TextCleaner(CleaningConfig())
         strategy = SectionDetectionStrategy(text_cleaner)
         
@@ -44,8 +41,7 @@ class TestContentProcessingStrategy:
         assert isinstance(result, list)
 
     def test_section_detection_strategy_with_headers(self):
-        """
-        """
+
         text_cleaner = TextCleaner(CleaningConfig())
         strategy = SectionDetectionStrategy(text_cleaner)
         
@@ -55,8 +51,7 @@ class TestContentProcessingStrategy:
         assert isinstance(result, list)
 
     def test_section_detection_multiple_sections(self):
-        """
-        """
+
         text_cleaner = TextCleaner(CleaningConfig())
         strategy = SectionDetectionStrategy(text_cleaner)
         
@@ -66,8 +61,7 @@ class TestContentProcessingStrategy:
         assert len(result) > 0
 
     def test_section_detection_preserves_content(self):
-        """
-        """
+
         text_cleaner = TextCleaner(CleaningConfig())
         strategy = SectionDetectionStrategy(text_cleaner)
         
@@ -83,24 +77,21 @@ class TestGetProcessingStrategy:
     """
 
     def test_get_processing_strategy_returns_strategy(self):
-        """
-        """
+
         text_cleaner = TextCleaner(CleaningConfig())
         strategy = get_processing_strategy(text_cleaner)
         
         assert strategy is not None
 
     def test_get_processing_strategy_callable(self):
-        """
-        """
+
         text_cleaner = TextCleaner(CleaningConfig())
         strategy = get_processing_strategy(text_cleaner)
         
         assert hasattr(strategy, 'process')
 
     def test_get_processing_strategy_returns_section_detection(self):
-        """
-        """
+
         text_cleaner = TextCleaner(CleaningConfig())
         strategy = get_processing_strategy(text_cleaner)
         

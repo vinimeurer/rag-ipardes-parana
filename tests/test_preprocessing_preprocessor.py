@@ -21,16 +21,14 @@ class TestPreprocessor:
     """
 
     def test_preprocessor_initialization(self, mock_cleaner, mock_merger, mock_filter, mock_processor, mock_parser):
-        """
-        """
+
         config = PreprocessingConfig()
         preprocessor = Preprocessor(config)
         
         assert preprocessor.config == config
 
     def test_preprocessor_run_document(self, mock_cleaner, mock_merger, mock_filter, mock_processor, mock_parser):
-        """
-        """
+
         mock_parser.parse_pages.return_value = ["Page 1"]
         mock_processor_strategy = MagicMock()
         mock_processor_strategy.process.return_value = []
@@ -59,8 +57,7 @@ class TestPreprocessor:
             assert result is not None or isinstance(result, object)
 
     def test_preprocessor_run_all(self, mock_cleaner, mock_merger, mock_filter, mock_processor, mock_parser):
-        """
-        """
+
         mock_parser.parse_pages.return_value = []
         mock_processor_strategy = MagicMock()
         mock_processor_strategy.process.return_value = []
