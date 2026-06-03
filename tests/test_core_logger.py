@@ -1,6 +1,3 @@
-"""
-"""
-
 import pytest
 import logging
 from io import StringIO
@@ -45,10 +42,15 @@ class TestSetupLogger:
             with patch('src.core.logger.LOGS_DIR', Path(tmpdir)):
                 logger = setup_logger("test_file", log_file="test.log")
                 assert logger is not None
-                
+
                 log_path = Path(tmpdir) / "test.log"
                 logger.info("Test message")
-                
+
+                for handler in logger.handlers:
+                    handler.flush()
+                    handler.close()
+                logger.handlers.clear()
+
                 if log_path.exists():
                     assert log_path.read_text() or True
 
