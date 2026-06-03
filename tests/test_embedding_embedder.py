@@ -1,6 +1,3 @@
-"""
-"""
-
 import pytest
 from unittest.mock import patch, MagicMock
 from pathlib import Path
@@ -34,14 +31,18 @@ class TestEmbedder:
         mock_encoder.return_value = mock_encoder_instance
         
         config = EmbeddingConfig()
-        embedder = Embedder(config)
         
         with tempfile.TemporaryDirectory() as tmpdir:
-            chunks_file = Path(tmpdir) / "chunks.jsonl"
+            tmpdir = Path(tmpdir)
+
+            config.paths.chunks_dir = tmpdir
+            config.paths.embeddings_dir = tmpdir
+            config.paths.models_dir = tmpdir
+
+            chunks_file = tmpdir / "chunks.jsonl"
             chunks_file.write_text("")
-            
-            config.paths.chunks_dir = Path(tmpdir)
-            embedder.config = config
+
+            embedder = Embedder(config)
             
             output = embedder.run()
             assert output is not None
