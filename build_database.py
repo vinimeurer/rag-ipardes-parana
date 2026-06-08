@@ -22,7 +22,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from src.core.logger import get_timestamped_logfile, setup_logger
-from src.core.directory_config import create_directories
+from src.core.directory_config import create_directories, clean_data_directories
 from scripts.ingest import main as ingest_main
 from scripts.preprocess import main as preprocess_main
 from scripts.chunk import main as chunk_main
@@ -79,6 +79,8 @@ def main() -> int:
 
     logger = setup_logger(__name__, log_file=get_timestamped_logfile("build_database"))
 
+    clean_data_directories()
+    
     create_directories()
 
     logger.info("")

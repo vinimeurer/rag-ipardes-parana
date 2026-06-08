@@ -6,6 +6,7 @@ e evitando paths hardcoded em diferentes módulos.
 """
 
 from pathlib import Path
+import shutil
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 
@@ -53,6 +54,25 @@ def create_directories() -> None:
     
     for directory in directories:
         directory.mkdir(parents=True, exist_ok=True)
+
+def clean_data_directories() -> None:
+    """
+    Remove todos os artefatos gerados do pipeline,
+    preservando apenas data/raw.
+    """
+    directories_to_clean = [
+        EXTRACTED_DATA_DIR,
+        PROCESSED_DATA_DIR,
+        CHUNKS_DATA_DIR,
+        EMBEDDINGS_DATA_DIR,
+        VECTOR_DB_DIR,
+    ]
+
+    for directory in directories_to_clean:
+        if directory.exists():
+            shutil.rmtree(directory)
+
+    create_directories()
 
 if __name__ == "__main__":
     create_directories()
