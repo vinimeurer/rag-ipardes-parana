@@ -8,6 +8,11 @@
    - [Configuração do Ambiente](#1-configuração-do-ambiente)
    - [Construir o banco de dados (opcional)](#2-construir-o-banco-de-dados-opcional)
    - [Iniciar o servidor RAG](#3-iniciar-o-servidor-rag)
+   - [Scripts Individuais em `scripts/`](#scripts-individuais-em-scripts)
+- [Testes](#testes)
+   - [Testes Unitários e Cobertura de Código](#testes-unitários-e-cobertura-de-código)
+   - [Testes de Qualidade do RAG](#testes-de-qualidade-do-rag)
+- [Documentação Completa](#documentação-completa)
 
 
 ## Visão Geral
@@ -46,6 +51,9 @@ rag-ipardes-parana/
 │   ├── embedding/                  # Módulos de Geração de vetores com sentence-transformers
 │   └── indexing/                   # Módulos de Construção do índice ChromaDB
 │
+├── tests/                          # Testes unitários e de qualidade
+│   └── quality/                    # Testes de qualidade ponta a ponta do RAG
+|
 ├── README.md                       # Documentação principal do projeto
 ├── build_database.py               # Script orquestrador para construção do banco de dados
 ├── run_rag.py                      # Script para iniciar o servidor RAG
@@ -105,6 +113,7 @@ Este script executa automaticamente todo o pipeline:
 - Embedding (geração de vetores)
 - Indexação vetorial (ChromaDB)
 
+**Importante:** Para a execução correta da construção do banco de dados, certifique-se de que os arquivos PDF estejam presentes na pasta `data/raw/` com os mesmos nomes utilizados no momento do download das fontes originais. O script processa apenas os arquivos definidos na configuração interna, portanto é necessário manter os nomes esperados e armazená-los corretamente.
 
 ### 3. Iniciar o servidor RAG
 
@@ -134,7 +143,7 @@ Também é possível acessar o endpoint de health check para verificar se a API 
 - Oferece instruções de próximos passos
 
 
-## Scripts Individuais em `scripts/`
+### Scripts Individuais em `scripts/`
 
 Para mais controle granular, Também  é possível executar cada etapa separadamente:
 
@@ -163,9 +172,39 @@ python scripts/server.py
 
 Cada script gera um log com timestamp em `logs/`.
 
----
+## Testes
 
-## 📖 Documentação Completa
+### Testes Unitários e Cobertura de Código
+
+Para executar os testes unitários e verificar a cobertura de código, utilize o comando:
+
+```bash
+pytest --cov=src --cov-report=term-missing
+```
+
+Esses testes validam individualmente os componentes do pipeline, incluindo etapas de processamento, chunking, geração de embeddings e indexação.
+
+### Testes de Qualidade do RAG
+
+Para executar os testes de qualidade do RAG, utilize o comando:
+
+```bash
+pytest tests/quality/ -v -s
+```
+
+Os testes de qualidade utilizam um conjunto de perguntas de referência (ground truth) construído a partir dos documentos indexados. Para cada pergunta são definidos o documento esperado, a página de origem e palavras-chave associadas à resposta correta.
+
+A avaliação mede métricas de recuperação (retrieval) como:
+
+- **Document Hit@K**: verifica se o documento correto aparece entre os K chunks recuperados.
+- **Page Hit@K**: verifica se a página correta foi recuperada.
+- **Keyword Hit@K**: verifica se os chunks recuperados contêm termos relevantes da resposta esperada.
+
+Também são executados testes com perguntas fora do escopo dos documentos para validar o mecanismo de recusa do sistema, garantindo que consultas sem relação com o conteúdo indexado não sejam consideradas relevantes pelo retriever.
+
+Ao final da execução, um resumo consolidado das métricas é exibido automaticamente no terminal.
+
+## Documentação Completa
 
 - **`docs/technical_documentation.md`** — Documentação técnica detalhada (7 etapas + frontend)
 - **`docs/FRONTEND_README.md`** — Guia completo da interface web
