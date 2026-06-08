@@ -117,13 +117,19 @@ Este script remove todos os artefatos gerados no diretório `data/`,preservando 
 
 ### 3. Iniciar o servidor RAG
 
-Para iniciar o servidor web, é necessário que o Ollama esteja rodando. Para certificar-se disso, abra um terminal separado e execute:
+Para iniciar o servidor web, é necessário que o Ollama esteja rodando. Caso ainda não tenha baixado o modelo, execute uma vez:
+
+```bash
+ollama pull llama3.2:3b
+```
+
+Em seguida, abra um terminal separado e execute:
 
 ```bash
 ollama serve
 ```
 
-Caso retorne uma mensagem semelhante a `address already in use`, significa que o serviço já está ativo e você pode prosseguir para iniciar o servidor RAG. Em outro terminal, execute:
+Caso retorne uma mensagem semelhante a `address already in use` ou `Error: listen tcp 127.0.0.1:11434: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.`, significa que o serviço já está ativo e você pode prosseguir. Em outro terminal, execute:
 
 ```bash
 python run_rag.py
@@ -134,6 +140,7 @@ Após a inicialização, o terminal exibirá mensagens de log indicando que o se
 Também é possível acessar o endpoint de health check para verificar se a API está ativa: **http://localhost:8000/api/health**
 
 **Requisitos:**
+- Modelo `llama3.2:3b` baixado via Ollama (`ollama pull llama3.2:3b`)
 - Ollama rodando em localhost:11434 (`ollama serve`)
 - ChromaDB indexado (execute `python build_database.py` antes)
 
@@ -141,7 +148,6 @@ Também é possível acessar o endpoint de health check para verificar se a API 
 - Verifica se Ollama está rodando
 - Alerta se ChromaDB ainda não foi criado
 - Oferece instruções de próximos passos
-
 
 ### Scripts Individuais em `scripts/`
 
