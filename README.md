@@ -106,7 +106,7 @@ Os dados já estão pré-processados e indexados no repositório, mas se quiser 
 python build_database.py
 ```
 
-Este script executa automaticamente todo o pipeline:
+Este script remove todos os artefatos gerados no diretório `data/`,preservando apenas `data/raw` e reexecuta automaticamente todo o pipeline:
 - Extração de PDFs (Docling)
 - Pré-processamento (limpeza e estruturação)
 - Chunking (divisão section-aware)
