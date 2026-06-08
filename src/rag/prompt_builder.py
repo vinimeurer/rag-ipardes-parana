@@ -10,7 +10,7 @@ SYSTEM_PROMPT = """Você é um assistente especializado nos documentos oficiais 
 Responda APENAS com base nos trechos fornecidos abaixo. Regras obrigatórias:
 - Se a informação não estiver nos trechos, diga explicitamente que não encontrou informação sobre o assunto nos documentos disponíveis.
 - Nunca complemente com conhecimento próprio ou informações externas aos trechos.
-- Ao final de cada informação relevante, indique a fonte no formato: (Documento, p. N, Seção X).
+- Inicie sua resposta com "Segundo os documentos do IPARDES," ou "De acordo com os documentos disponíveis,".
 - Seja objetivo e preciso."""
 
 SOURCE_LABELS = {
@@ -160,12 +160,11 @@ class PromptBuilder:
             String formatada com os trechos numerados e suas referências.
         """
         lines = ["TRECHOS DOS DOCUMENTOS:"]
+
         for i, chunk in enumerate(chunks, 1):
             location = self._format_location(chunk)
-            citation = self._format_citation(chunk)
-            header = f"[Trecho {i} — {location}]\n[Citar como: {citation}]"
+            header = f"[Trecho {i} — {location}]"
             if chunk.type == "table" and chunk.caption:
-                header += f"\n[Tabela: {chunk.caption}]"
+                header += f"\n[Tabela: {chunk.caption}]" 
             lines.append(f"\n{header}\n{chunk.content}")
-
         return "\n".join(lines)
