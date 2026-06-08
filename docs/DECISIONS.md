@@ -166,13 +166,13 @@ Recuperar mais candidatos do que o necessário (`reranker_top_k=5`) dá ao reran
 
 Perguntas fora do escopo dos documentos ainda retornam chunks — os mais similares ao que existe no índice. O threshold garante que apenas chunks com similaridade mínima real sejam considerados. Abaixo de `0.35`, o sistema considera a query fora do escopo e instrui o LLM a recusar sem inventar.
 
-### Por que Qwen 2.5 7B?
+### Por que llama3.2:3b?
 
-- Segue instruções de forma mais consistente que modelos de 3B parâmetros — fundamental para o comportamento de "não invente"
-- Melhor compreensão de português técnico em comparação com modelos de mesmo tamanho
+- Modelo leve e eficiente, viável em hardware com recursos limitados sem GPU dedicada
+- Suporte nativo a instruções via Ollama, sem configuração adicional
 - Dentro do limite de 9,9B parâmetros exigido pelo enunciado
 
-Para testes com hardware mais limitado, `llama3.2:3b` também é suportado via configuração.
+Para uso em hardware mais robusto, `qwen2.5:7b` também é suportado via configuração e tende a seguir instruções com maior consistência em português técnico.
 
 ### Por que fornecer o formato de citação pronto no prompt?
 

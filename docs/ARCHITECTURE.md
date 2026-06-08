@@ -178,7 +178,7 @@ flowchart TD
         I[Retriever]
         J[Reranker]
         K[Prompt Builder]
-        L[Qwen 2.5 7B]
+        L[Llama 3.2 3B]
     end
 
     M[Resposta com Citações]
@@ -465,7 +465,7 @@ flowchart TD
 
     subgraph Geração
         H[LLM Client]
-        I["Qwen 2.5 7B<br/>via Ollama"]
+        I["Llama 3.2 3B<br/>via Ollama"]
         H --> I
     end
 
@@ -492,7 +492,7 @@ Codifica a query com o mesmo modelo BGE-M3 usado na indexação e consulta o Chr
 
 ### Modelo LLM
 
-**`qwen2.5:7b`** via Ollama. Para testes com hardware mais limitado, `llama3.2:3b` também é suportado via configuração.
+**`llama3.2:3b`** via Ollama. Para testes com hardware mais robusto, `qwen2.5:7b` também é suportado via configuração.
 
 ### Prompt e citação de fontes
 
@@ -524,7 +524,7 @@ Todos os parâmetros do RAG são ajustáveis em `src/core/rag_config.py`:
 
 | Parâmetro | Valor padrão | Descrição |
 |---|---|---|
-| `llm.model_name` | `qwen2.5:7b` | Modelo Ollama para geração |
+| `llm.model_name` | `llama3.2:3b` | Modelo Ollama para geração |
 | `llm.temperature` | `0.1` | Temperatura baixa para respostas factuais |
 | `retriever.top_k` | `15` | Candidatos recuperados pelo retriever |
 | `retriever.reranker_top_k` | `5` | Chunks finais após reranking |
@@ -538,7 +538,7 @@ Todos os parâmetros do RAG são ajustáveis em `src/core/rag_config.py`:
 ollama serve
 
 # Baixar o modelo LLM (uma vez, requer internet)
-ollama pull qwen2.5:7b
+ollama pull llama3.2:3b
 
 # Iniciar o chat interativo
 python3 scripts/chat.py
