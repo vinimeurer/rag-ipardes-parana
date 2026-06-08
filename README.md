@@ -206,13 +206,7 @@ Ao final da execução, um resumo consolidado das métricas é exibido automatic
 
 ## Documentação Completa
 
-- **`docs/technical_documentation.md`** — Documentação técnica detalhada (7 etapas + frontend)
-- **`docs/FRONTEND_README.md`** — Guia completo da interface web
-- **`docs/QUICKSTART_FRONTEND.md`** — Quick start rápido (3 passos)
-- **`docs/ARCHITECTURE.md`** — Decisões arquiteturais
-- **`docs/DECISIONS.md`** — Justificativas de escolhas técnicas
-
-
-## limpar cache
-
-find . -name "*.pyc" -delete && find . -name "__pycache__" -type d -exec rm -rf {} + 2>/dev/null; echo "Cache limpo"
+- [**`docs/ARCHITECTURE.md`**](./docs/ARCHITECTURE.md) — Decisões arquiteturais
+- [**`docs/ASSIGNMENT.md`**](./docs/ASSIGNMENT.md) — Descrição do trabalho
+- [**`docs/DECISIONS.md`**](./docs/DECISIONS.md) — Justificativas de escolhas técnicas
+- [**`docs/FRONTEND.md`**](./docs/DECISIONS.md) — Guia completo da interface web
