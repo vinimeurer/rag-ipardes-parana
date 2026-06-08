@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-Frontend web moderno para o sistema RAG (Retrieval-Augmented Generation) que responde perguntas sobre documentos oficiais do IPARDES (Instituto Paranaense de Desenvolvimento Econômico e Social).
+Este documento detalha a implementação do frontend para o sistema de Retrieval-Augmented Generation (RAG) desenvolvido para o IPARDES Paraná. O frontend é uma aplicação web interativa construída com HTML, CSS e JavaScript puro, projetada para ser leve, responsiva e fácil de usar, permitindo que os usuários façam perguntas em linguagem natural e visualizem as respostas geradas pelo backend RAG, juntamente com as referências dos documentos utilizados.
 
 ## Arquitetura
 
@@ -47,33 +47,23 @@ http://localhost:8000
 
 ### Layout
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  Prompts    │                                  │ Referência  │
-│  [system]   │                                  │             │
-│             │        Chat do Usuário          │ Documento   │
-│ System Msg  │                                  │ Página      │
-│ ou Prompt   │  - Pergunta do usuário          │ Seção       │
-│ Final       │  - Respostas do assistente      │ Trecho      │
-│             │  - Trechos usados como base     │ Score       │
-│             │                                  │             │
-│             ├──────────────────────────────────┤             │
-│             │ [Textarea para nova pergunta]   │ Próxima >   │
-│             │                            [→]  │             │
-└─────────────────────────────────────────────────────────────┘
-```
+![Layout do Frontend](./assets/interface.png)
+
+A interface é dividida em três painéis principais:
 
 ### Componentes Principais
 
 #### 1. Painel Esquerdo (Prompts)
 
-- Mostra o **system message** (instruções do assistente)
-- Botão toggle para alternar para o **prompt final** (o que realmente foi enviado ao LLM)
+- Inicialmente, mostra o **system message** (instruções do assistente)
+- AO enviar uma pergunta, altera a exibição para o **prompt final** (o que realmente foi enviado ao LLM)
 - O prompt final contém:
   - System message
   - Contexto recuperado (trechos dos documentos)
   - Pergunta do usuário
   - Scores de similaridade/reranking
+
+![Painel Esquerdo](./assets/painel_esquerdo.gif)
 
 #### 2. Painel Central (Chat)
 
@@ -83,6 +73,8 @@ http://localhost:8000
   - Nome do documento (abreviado)
   - Número da página
   - Clique para ver detalhes no painel direito
+
+![Painel Central](./assets/painel_central.gif)
 
 #### 3. Painel Direito (Referências)
 
@@ -96,6 +88,8 @@ http://localhost:8000
   - **Legenda**: (Se aplicável para tabelas)
 - Botões de navegação para ver outros trechos:
   - Anterior / Próxima / Contador (X / Total)
+
+![Painel Direito](./assets/painel_direito.gif)
 
 ## Características
 
@@ -142,7 +136,7 @@ Verifica saúde da API e disponibilidade do pipeline.
   "status": "healthy",
   "pipeline_ready": true,
   "embedding_model": "BAAI/bge-m3",
-  "llm_model": "qwen2:7b-instruct"
+  "llm_model": [nome do modelo LLM local],
 }
 ```
 
@@ -215,29 +209,78 @@ src/
 
 ## Workflow de uma Query
 
-```
-1. Usuário digita pergunta no textarea
-   ↓
-2. Frontend envia POST /api/chat
-   ↓
-3. Backend (FastAPI/RAGPipeline):
-   a) Recupera chunks similares (Retriever + ChromaDB)
-   b) Reordena com cross-encoder (Reranker)
-   c) Constrói prompt com contexto
-   d) Gera resposta com LLM local
-   ↓
-4. Frontend recebe resposta com:
-   - Pergunta original
-   - Resposta gerada
-   - Chunks utilizados (com scores)
-   - Prompt completo
-   ↓
-5. Frontend renderiza:
-   - Pergunta à direita (azul)
-   - Resposta à esquerda
-   - Chips de referência abaixo
-   - Atualiza painel direito com primeiro chunk
-   - Mostra prompt final no painel esquerdo
+```mermaid
+flowchart TD
+
+    A[Usuário digita pergunta]
+
+    B[Frontend]
+    C["POST /api/chat"]
+
+    subgraph Backend FastAPI
+        D[RAGPipeline]
+
+        subgraph Retrieval
+            E[Retriever]
+            F[ChromaDB]
+        end
+
+        subgraph Ranking
+            G[Reranker]
+            H[Cross Encoder]
+        end
+
+        subgraph Generation
+            I[Prompt Builder]
+            J[LLM Local]
+        end
+    end
+
+    K["Resposta JSON"]
+
+    L["Pergunta Original"]
+    M["Resposta Gerada"]
+    N["Chunks Utilizados"]
+    O["Prompt Completo"]
+
+    P["Renderização Frontend"]
+
+    Q["Pergunta à direita"]
+    R["Resposta à esquerda"]
+    S["Chips de Referência"]
+    T["Painel de Contexto"]
+    U["Painel de Prompt"]
+
+    A --> B
+    B --> C
+    C --> D
+
+    D --> E
+    E --> F
+
+    F --> G
+    G --> H
+
+    H --> I
+    I --> J
+
+    J --> K
+
+    K --> L
+    K --> M
+    K --> N
+    K --> O
+
+    L --> P
+    M --> P
+    N --> P
+    O --> P
+
+    P --> Q
+    P --> R
+    P --> S
+    P --> T
+    P --> U
 ```
 
 ## Tratamento de Cenários Especiais
@@ -329,29 +372,10 @@ Para apenas localhost:
 host="127.0.0.1"
 ```
 
-## Próximas Melhorias Potenciais
-
-- [ ] Histórico de conversa persistente
-- [ ] Export de conversa como PDF
-- [ ] Dark mode
-- [ ] Compartilhamento de links com conversa
-- [ ] Métricas de relevância em tempo real
-- [ ] Suporte a múltiplos idiomas
-- [ ] Upload de documentos adicionais
-- [ ] Filtros por documento/data
-- [ ] Estatísticas de uso
-
 ## Notas Importantes
 
-⚠️ **Auditoria**: O sistema registra todas as queries, respostas e trechos utilizados para fins de avaliação e debugging.
+**Auditoria**: O sistema registra todas as queries, respostas e trechos utilizados para fins de avaliação e debugging.
 
-✅ **Fidelidade aos Documentos**: O frontend respeita rigorosamente o requisito de não inventar informações fora do escopo dos documentos fornecidos.
+**Fidelidade aos Documentos**: O frontend respeita rigorosamente o requisito de não inventar informações fora do escopo dos documentos fornecidos.
 
-📊 **Scores**: Os scores de similaridade e reranking são exibidos para transparência na seleção de trechos.
-
-## Suporte
-
-Para problemas ou sugestões, consulte:
-- Logs do servidor: `logs/`
-- Configuração: `src/core/rag_config.py`
-- Documentação técnica: `docs/technical_documentation.md`
+**Scores**: Os scores de similaridade e reranking são exibidos para transparência na seleção de trechos.
