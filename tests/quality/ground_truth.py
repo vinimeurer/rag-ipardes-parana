@@ -7,7 +7,9 @@ retrieval precision e validar comportamento fora do escopo.
 """
 
 RETRIEVAL_GROUND_TRUTH = [
-    # ── Análise Conjuntural ─────────────────────────────────────────────────
+    ###############################################
+    # DOCUMENTO: Análise Conjuntural
+    ###############################################
     {
         "id": "ac_001",
         "query": "Qual foi o rendimento médio mensal dos trabalhadores no Paraná em 2025?",
@@ -32,7 +34,9 @@ RETRIEVAL_GROUND_TRUTH = [
         "expected_page": 12,
         "keywords": ["96,2", "ocupação"],
     },
-    # ── Avaliações de Políticas Públicas ────────────────────────────────────
+    ###############################################
+    # DOCUMENTO: Avaliações de Políticas Públicas
+    ###############################################
     {
         "id": "ap_001",
         "query": "Qual é o principal objetivo de uma revisão de escopo de literatura?",
