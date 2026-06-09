@@ -191,3 +191,39 @@ Temperatura baixa produz respostas mais determinísticas e factuais, reduzindo v
 ### Por que duas saídas obrigatórias por query?
 
 O enunciado do trabalho exige explicitamente que o prompt enriquecido e os trechos utilizados sejam exibidos separadamente da resposta final, para fins de avaliação. A separação em **Saída 1 (auditoria)** e **Saída 2 (resposta final)** atende a esse requisito e é igualmente útil para diagnóstico de falhas de retrieval em produção.
+
+## Etapa 7 — Testes de qualidade do RAG
+
+### Por que usar retrieval precision como métrica principal?
+
+A qualidade de um sistema RAG depende fundamentalmente de duas coisas: recuperar os chunks certos e gerar uma resposta fiel a eles. O segundo depende inteiramente do primeiro — um LLM não pode responder corretamente com base em chunks errados, por melhor que seja o prompt. Por isso, **retrieval precision é a métrica de maior impacto** para o sistema como um todo.
+
+Medir qualidade pelo texto gerado seria instável: o mesmo conjunto de chunks pode produzir respostas diferentes entre execuções, entre modelos e até entre temperaturas diferentes. Medir pelo retrieval é determinístico — dado o mesmo índice e o mesmo modelo de embedding, a mesma query sempre retorna os mesmos chunks.
+
+### Por que não usar o LLM nos testes de qualidade?
+
+Três razões práticas e uma técnica:
+
+**Praticidade** — os testes de qualidade precisam rodar sem infraestrutura extra. Exigir Ollama rodando em segundo plano tornaria os testes frágeis em ambientes de CI ou em máquinas sem o modelo instalado.
+
+**Velocidade** — uma chamada ao LLM leva entre 30 e 120 segundos dependendo do hardware. Com 8 queries no ground truth e múltiplas execuções durante o desenvolvimento, o custo se torna proibitivo.
+
+**Determinismo** — mesmo com `temperature=0.1`, o LLM pode variar a formulação da resposta entre execuções. Um teste que verifica se "3.857" aparece na resposta pode falhar se o modelo escrever "R$ 3 mil e 857 reais" numa execução específica. O retrieval não tem esse problema.
+
+**Separação de responsabilidades** — se um teste de qualidade que envolve o LLM falha, não é possível saber imediatamente se o problema está no retrieval, no prompt ou na geração. Testar o retriever isoladamente localiza o problema com precisão.
+
+### Por que Document Hit@K, Keyword Hit@K e Page Hit@K?
+
+Cada métrica avalia uma dimensão diferente da qualidade:
+
+**Document Hit@K** — mede se o documento correto aparece entre os top-K resultados. Falha aqui indica que o embedder não está separando bem os três documentos semanticamente, ou que o índice está corrompido.
+
+**Keyword Hit@K** — mede se o conteúdo com a resposta correta aparece nos chunks recuperados. É a métrica mais diretamente ligada à qualidade da resposta final: se as keywords não estão nos chunks, o LLM não tem como responder corretamente, independente de quão bom seja o prompt.
+
+**Page Hit@K** — mede se a página correta aparece nos resultados, validando a rastreabilidade das citações. Tem threshold menor que as outras duas porque a mesma informação pode aparecer em chunks de páginas adjacentes — a informação está presente mesmo que a página exata não coincida.
+
+### Por que testar out-of-scope pelo threshold de similaridade e não pela resposta do LLM?
+
+O comportamento de recusa do sistema em produção depende do threshold: se nenhum chunk supera `min_similarity=0.35`, o pipeline marca a query como fora do escopo e o LLM recebe um prompt de recusa. O teste valida **exatamente esse mecanismo** — verifica que as queries fora do escopo têm similaridade bruta abaixo do threshold, garantindo que a recusa acontece na camada de retrieval e não depende do LLM interpretar corretamente uma instrução de prompt.
+
+Isso é importante porque instruções de prompt podem ser ignoradas por modelos pequenos. A garantia técnica de recusa deve estar no retrieval, não no prompt.
